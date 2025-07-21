@@ -22,7 +22,7 @@ function MainPage() {
                         filter: 'brightness(0) saturate(100%) invert(18%) sepia(13%) saturate(2322%) hue-rotate(175deg) brightness(97%) contrast(92%)'
                     }}/>
                 </span>
-                <p style={{ fontSize: '0.4em', fontWeight: 'normal', margin: 30}}>Travel Days, Tax Residency and Immigration Rules Tracker</p>
+                <p style={{ fontSize: '0.6em', fontWeight: 'normal', margin: 30}}>Travel Days, Tax Residency and Immigration Rules Tracker</p>
             </h1>
             <nav style={{ marginBottom: '2rem', display: 'flex', justifyContent: 'center', gap: '1rem' }}>
                 <Link to="/terms">Terms of Use</Link>

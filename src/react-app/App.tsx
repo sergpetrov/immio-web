@@ -1,7 +1,7 @@
 // src/App.tsx
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Terms from './Terms';
+import Terms from './Terms.tsx';
 
 function MainPage() {
   return (

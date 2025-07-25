@@ -1,9 +1,9 @@
 import React from "react";
 
-const PrivacyPolicy: React.FC = () => {
+const Privacy: React.FC = () => {
     const privacyPolicyHtml = `
       <h1>Privacy Policy</h1>
-      <p><strong>Last updated: 20-07-2025</strong></p>
+      <p><strong>Last updated: 25-07-2025</strong></p>
     
       <p>This Privacy Policy explains how <strong>Dev Mode Ltd</strong> ("we", "our", or "us") handles personal information in the <strong>Immio</strong> mobile app. We are committed to protecting your privacy and ensuring transparency about how data is used.</p>
     
@@ -48,10 +48,7 @@ const PrivacyPolicy: React.FC = () => {
       </ul>
       <p>We do not retain any personal user data on our servers.</p>
     
-      <h2>5. Children's Privacy</h2>
-      <p>Immio is not intended for children under the age of 18 (or equivalent minimum age in your jurisdiction). We do not knowingly collect personal information from children.</p>
-    
-      <h2>6. Legal Compliance</h2>
+      <h2>5. Legal Compliance</h2>
       <p>We comply with applicable privacy regulations, including:</p>
       <ul>
         <li>The <strong>UK Data Protection Act 2018</strong> and <strong>UK GDPR</strong></li>
@@ -61,12 +58,11 @@ const PrivacyPolicy: React.FC = () => {
       </ul>
       <p>Our limited anonymous data collection is based on legitimate interest for app improvement and does not involve identifiable personal data.</p>
     
-      <h2>7. Changes to This Policy</h2>
+      <h2>6. Changes to This Policy</h2>
       <p>We may update this Privacy Policy from time to time. Updates will be posted in the app and on our website. Continued use of Immio means you accept the revised policy.</p>
     
-      <h2>8. Contact</h2>
-      <p>If you have questions or concerns, please contact us at:</p>
-      <p><strong><a href="mailto:support@immio.app">support@immio.app</a></strong></p>
+      <h2>7. Contact</h2>
+      <p>If you have questions or concerns, please contact us <a href="mailto:support@immio.app">support@immio.app</a></p>
     `;
 
     return (
@@ -76,4 +72,4 @@ const PrivacyPolicy: React.FC = () => {
     );
 };
 
-export default PrivacyPolicy; 
+export default Privacy;

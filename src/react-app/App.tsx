@@ -2,7 +2,7 @@
 
 import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
 import Terms from './Terms.tsx';
-import PrivacyPolicy from "./PrivacyPolicy";
+import Privacy from "./Privacy.tsx";
 import "./App.css";
 
 function MainPage() {
@@ -18,16 +18,17 @@ function MainPage() {
                 <span style={{display: 'flex', alignItems: 'center', gap: '1rem'}}>
                     <img src="/logo.svg" alt="Logo" style={{height: '40px'}}/>
                     <img src="/logo_name.svg" alt="Immio Logo" style={{
-                        height: '32px',
+                        height: '30px',
                         filter: 'brightness(0) saturate(100%) invert(18%) sepia(13%) saturate(2322%) hue-rotate(175deg) brightness(97%) contrast(92%)'
                     }}/>
                 </span>
                 <p style={{ fontSize: '0.6em', fontWeight: 'normal', margin: 30}}>Travel Days, Tax Residency and Immigration Rules Tracker</p>
             </h1>
-            <nav style={{ marginBottom: '2rem', display: 'flex', justifyContent: 'center', gap: '1rem' }}>
+            <nav style={{ marginBottom: '1rem', display: 'flex', justifyContent: 'center', gap: '1rem' }}>
                 <Link to="/terms">Terms of Use</Link>
-                <Link to="/privacy-policy">Privacy Policy</Link>
+                <Link to="/privacy">Privacy Policy</Link>
             </nav>
+            <a href="mailto:support@immio.app">support@immio.app</a>
         </div>
     );
 }
@@ -38,7 +39,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<MainPage/>}/>
                 <Route path="/terms" element={<Terms/>}/>
-                <Route path="/privacy-policy" element={<PrivacyPolicy/>}/>
+                <Route path="/privacy" element={<Privacy/>}/>
             </Routes>
         </Router>
     );

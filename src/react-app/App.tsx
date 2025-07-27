@@ -8,27 +8,33 @@ import "./App.css";
 
 function MainPage() {
     return (
-        <div>
-            <h1 style={{
-                display: 'flex',
-                alignItems: 'center',
-                gap: '1rem',
-                justifyContent: 'center',
-                flexDirection: 'column'
-            }}>
-                <span style={{display: 'flex', alignItems: 'center', gap: '1rem'}}>
-                    <img src="/logo.svg" alt="Logo" style={{height: '40px'}}/>
-                    <img src="/logo_name.svg" alt="Immio Logo" style={{
-                        height: '30px',
-                        filter: 'brightness(0) saturate(100%) invert(18%) sepia(13%) saturate(2322%) hue-rotate(175deg) brightness(97%) contrast(92%)'
-                    }}/>
-                </span>
-                <p style={{ fontSize: '0.6em', fontWeight: 'normal', margin: 30}}>Travel Days, Tax Residency and Immigration Rules Tracker</p>
-            </h1>
-            <nav style={{ marginBottom: '1rem', display: 'flex', justifyContent: 'center', gap: '1rem' }}>
-                <Link to="/contact">Contact</Link>
-                <Link to="/terms">Terms of Use</Link>
-                <Link to="/privacy">Privacy Policy</Link>
+        <div className="main-container">
+            <header className="header">
+                <div className="logo-container">
+                    <img src="/logo.svg" alt="Logo" className="logo"/>
+                    <img src="/logo_name.svg" alt="Immio Logo" className="logo-name"/>
+                </div>
+            </header>
+            
+            <main className="hero-section">
+                <h1 className="hero-title">
+                    <span className="title-line">travel days</span>
+                    <span className="title-line">tax residency</span>
+                    <span className="title-line">immigration rules</span>
+                    <span className="title-line">tracker</span>
+                </h1>
+
+                <div className="cta-section">
+                    <button className="cta-button">
+                        Download for iOS
+                    </button>
+                </div>
+            </main>
+            
+            <nav className="footer-nav">
+                <Link to="/contact" className="nav-link">Contact</Link>
+                <Link to="/terms" className="nav-link">Terms of Use</Link>
+                <Link to="/privacy" className="nav-link">Privacy Policy</Link>
             </nav>
         </div>
     );

@@ -18,16 +18,21 @@ function MainPage() {
             
             <main className="hero-section">
                 <h1 className="hero-title">
-                    <span className="title-line">travel days</span>
-                    <span className="title-line">tax residency</span>
-                    <span className="title-line">immigration rules</span>
-                    <span className="title-line">tracker</span>
+                    <span className="title-line">Travel days</span>
+                    <span className="title-line">Tax residency</span>
+                    <span className="title-line">Immigration rules</span>
+                    <span className="title-line">Tracker</span>
                 </h1>
 
                 <div className="cta-section">
-                    <button className="cta-button">
+                    <a
+                        className="cta-button"
+                        href="https://apps.apple.com/app/immio-travel-days-tracker/id6747927306"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         Download for iOS
-                    </button>
+                    </a>
                 </div>
             </main>
             

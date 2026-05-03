@@ -692,7 +692,6 @@ button.immio-landing-faq__trigger:hover {
   font-size: 20px;
   font-weight: 500;
   color: var(--immio-landing-dove);
-  text-decoration: underline;
   text-underline-offset: 4px;
 }
 

@@ -3,6 +3,10 @@
   line-height: 1.5;
   font-weight: 400;
 
+  /* Brand primary — links, landing CTAs/chips; reuse via var(--immio-primary) */
+  --immio-primary: #007aff;
+  --immio-primary-hover: #0056cc;
+
   color-scheme: light;
   color: #1a1a1a;
   background-color: #ffffff;
@@ -15,17 +19,32 @@
 
 * {
   box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* No blue/default ring on mouse click; keyboard navigation keeps a visible ring */
+:where(a, button, input, textarea, select, summary, [role="button"], [tabindex]:not([tabindex="-1"])):focus {
+  outline: none;
+}
+
+:where(a, button, input, textarea, select, summary, [role="button"], [tabindex]:not([tabindex="-1"])):focus-visible {
+  outline: 2px solid #1a1a1a;
+  outline-offset: 2px;
+}
+
+button::-moz-focus-inner {
+  border: 0;
 }
 
 a {
   font-weight: 500;
-  color: #007aff;
+  color: var(--immio-primary);
   text-decoration: inherit;
   transition: color 0.2s ease;
 }
 
 a:hover {
-  color: #0056cc;
+  color: var(--immio-primary-hover);
 }
 
 body {
@@ -63,12 +82,6 @@ button {
 button:hover {
   background-color: #0056cc;
   transform: translateY(-1px);
-}
-
-button:focus,
-button:focus-visible {
-  outline: 2px solid #007aff;
-  outline-offset: 2px;
 }
 
 #root {

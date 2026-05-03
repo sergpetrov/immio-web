@@ -1,0 +1,207 @@
+/* Hero visual: ~954×588 layout proportions, map loop + mockup parallax */
+
+.landing-hero-visual {
+  --landing-hero-visual-w: 954;
+  --landing-hero-visual-layout-h: 588;
+  /* Block spacer above the mask (top “padding” for the whole visual) */
+  --landing-hero-visual-map-pad-top: min(16px, 5vw);
+  --landing-hero-visual-mask-below-map: min(24px, 9vw);
+  --landing-hero-visual-map-scroll-duration: 350s;
+  --landing-hero-visual-map-edge-fade-w: clamp(28px, 7vw, 72px);
+  --landing-hero-visual-in-mockup-delay: 0.1s;
+  --landing-hero-visual-in-mockup-dur: 0.6s;
+  --landing-hero-visual-in-chip1-delay: 0.5s;
+  --landing-hero-visual-in-chip2-delay: 0.62s;
+  --landing-hero-visual-in-chip3-delay: 0.74s;
+  position: relative;
+  width: 100%;
+  max-width: 1440px;
+  margin: 100px auto 0;
+  font-family: var(--font-display, "Inter", system-ui, sans-serif);
+}
+
+.landing-hero-visual__mask {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: calc(100cqw * 588 / 1114 + var(--landing-hero-visual-mask-below-map));
+  max-height: min(calc(100cqw * 588 / 1114 + var(--landing-hero-visual-mask-below-map)), 78vh);
+}
+
+.landing-hero-visual__mapWrap {
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  padding-top: var(--landing-hero-visual-map-pad-top);
+  line-height: 0;
+  overflow: hidden;
+}
+
+.landing-hero-visual__mapWrap::before,
+.landing-hero-visual__mapWrap::after {
+  content: "";
+  position: absolute;
+  top: var(--landing-hero-visual-map-pad-top);
+  bottom: 0;
+  width: var(--landing-hero-visual-map-edge-fade-w);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.landing-hero-visual__mapWrap::before {
+  left: 0;
+  background: linear-gradient(
+    to right,
+    var(--immio-landing-white, #fff) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.landing-hero-visual__mapWrap::after {
+  right: 0;
+  background: linear-gradient(
+    to left,
+    var(--immio-landing-white, #fff) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.landing-hero-visual__mapTrack {
+  position: relative;
+  z-index: 0;
+  display: flex;
+  flex-direction: row;
+  width: 200%;
+  will-change: transform;
+  animation: landing-hero-visual-map-scroll var(--landing-hero-visual-map-scroll-duration) linear infinite;
+}
+
+.landing-hero-visual__map {
+  display: block;
+  flex: 0 0 50%;
+  width: 50%;
+  max-width: none;
+  height: auto;
+  vertical-align: top;
+  pointer-events: none;
+}
+
+@keyframes landing-hero-visual-map-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes landing-hero-visual-pop-in {
+  from {
+    opacity: 0;
+    transform: scale(0.93);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.landing-hero-visual__overlays {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.landing-hero-visual__overlays > * {
+  pointer-events: auto;
+}
+
+.landing-hero-visual__mockup {
+  position: absolute;
+  left: calc(320 / var(--landing-hero-visual-w) * 100%);
+  top: calc(16 / var(--landing-hero-visual-layout-h) * 100%);
+  width: calc(350 / var(--landing-hero-visual-w) * 100%);
+  max-width: 350px;
+  overflow: visible;
+  z-index: 2;
+  --mockup-parallax-y: 0px;
+  transform: translate3d(0, var(--mockup-parallax-y), 0);
+  will-change: transform;
+}
+
+.landing-hero-visual__iphone {
+  display: block;
+  width: 100%;
+  height: auto;
+  pointer-events: none;
+  transform-origin: 50% 14%;
+  animation: landing-hero-visual-pop-in var(--landing-hero-visual-in-mockup-dur) cubic-bezier(0.22, 1, 0.36, 1)
+    var(--landing-hero-visual-in-mockup-delay) both;
+}
+
+.landing-hero-visual__chip {
+  position: absolute;
+  z-index: 4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7px 16px;
+  background: var(--immio-primary, #007aff);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 100px;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  color: var(--immio-landing-white, #fff);
+  box-shadow: 0 8px 22px rgba(0, 122, 255, 0.28);
+  white-space: nowrap;
+  transform-origin: center center;
+  animation: landing-hero-visual-pop-in 0.52s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.landing-hero-visual__chip--1 {
+  animation-delay: var(--landing-hero-visual-in-chip1-delay);
+  left: calc(250 / var(--landing-hero-visual-w) * 100%);
+  top: calc(150 / var(--landing-hero-visual-layout-h) * 100%);
+  min-height: calc(35.59 / var(--landing-hero-visual-layout-h) * 100%);
+}
+
+.landing-hero-visual__chip--2 {
+  animation-delay: var(--landing-hero-visual-in-chip2-delay);
+  left: calc(200 / var(--landing-hero-visual-w) * 100%);
+  top: calc(434.41 / var(--landing-hero-visual-layout-h) * 100%);
+  min-height: calc(35.59 / var(--landing-hero-visual-layout-h) * 100%);
+}
+
+.landing-hero-visual__chip--3 {
+  animation-delay: var(--landing-hero-visual-in-chip3-delay);
+  left: calc(550 / var(--landing-hero-visual-w) * 100%);
+  top: calc(202.01 / var(--landing-hero-visual-layout-h) * 100%);
+  min-height: calc(35.59 / var(--landing-hero-visual-layout-h) * 100%);
+}
+
+@media (max-width: 640px) {
+  .landing-hero-visual__chip {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .landing-hero-visual__mapTrack {
+    animation: none;
+    transform: none;
+  }
+
+  .landing-hero-visual__mockup {
+    transform: none;
+    will-change: auto;
+  }
+
+  .landing-hero-visual__iphone,
+  .landing-hero-visual__chip {
+    animation: none !important;
+    opacity: 1;
+    transform: none;
+  }
+}

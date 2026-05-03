@@ -23,29 +23,42 @@ export function LandingHeroVisual() {
     if (!mock || !root) return;
 
     let raf = 0;
-    const tick = () => {
-      raf = 0;
+    let heroTopDoc = 0;
+    let viewportH = window.innerHeight;
+
+    const measure = () => {
       const rect = root.getBoundingClientRect();
       const scrollRoot = window.scrollY || document.documentElement.scrollTop;
-      const vh = window.innerHeight;
-      const heroTopDoc = scrollRoot + rect.top;
-      const scrolled = scrollRoot - heroTopDoc + vh * 0.35;
+      heroTopDoc = scrollRoot + rect.top;
+      viewportH = window.innerHeight;
+    };
+
+    const tick = () => {
+      raf = 0;
+      const scrollRoot = window.scrollY || document.documentElement.scrollTop;
+      const scrolled = scrollRoot - heroTopDoc + viewportH * 0.35;
       const raw = -scrolled * PARALLAX_PX_PER_SCROLL;
       const clamped = Math.max(-PARALLAX_MAX_SHIFT, Math.min(PARALLAX_MAX_SHIFT, raw));
       mock.style.setProperty("--mockup-parallax-y", `${Math.round(clamped)}px`);
     };
 
-    const onScroll = () => {
+    const queueTick = () => {
       if (!raf) raf = requestAnimationFrame(tick);
     };
 
+    const onResize = () => {
+      measure();
+      queueTick();
+    };
+
+    measure();
     tick();
-    window.addEventListener("scroll", onScroll, { passive: true });
-    window.addEventListener("resize", onScroll, { passive: true });
+    window.addEventListener("scroll", queueTick, { passive: true });
+    window.addEventListener("resize", onResize, { passive: true });
 
     return () => {
-      window.removeEventListener("scroll", onScroll);
-      window.removeEventListener("resize", onScroll);
+      window.removeEventListener("scroll", queueTick);
+      window.removeEventListener("resize", onResize);
       cancelAnimationFrame(raf);
       mock.style.removeProperty("--mockup-parallax-y");
     };
@@ -72,8 +85,8 @@ export function LandingHeroVisual() {
               decoding="async"
             />
           </div>
-          <div className="landing-hero-visual__chip landing-hero-visual__chip--1">Automatic Tracking</div>
-          <div className="landing-hero-visual__chip landing-hero-visual__chip--2">Schengen 90/180 day rule</div>
+          <div className="landing-hero-visual__chip landing-hero-visual__chip--1">Schengen 90/180 Rule</div>
+          <div className="landing-hero-visual__chip landing-hero-visual__chip--2">Automatic Tracking</div>
           <div className="landing-hero-visual__chip landing-hero-visual__chip--3">UK Tax Residency Tracker</div>
         </div>
       </div>

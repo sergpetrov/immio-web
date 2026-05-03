@@ -6,53 +6,60 @@ import "./LandingPage.css";
 /** Tax Residency Tracker – Immio (US App Store). */
 const IMMIO_APP_STORE_URL = "https://apps.apple.com/us/app/tax-residency-tracker-immio/id6747927306";
 
-/*
 const FAQ_ITEMS: { q: string; a: string }[] = [
     {
-        q: "Do I need an account or email to use Immio?",
-        a: "No. You can start immediately without sign-up or sign-in. Your travel data stays on your device or in your private iCloud — not on our servers tied to an account.",
+        q: "How is Immio different from a simple day-counting app?",
+        a: "Immio is designed for ongoing compliance – not just counting days. It combines automatic travel tracking, jurisdiction-specific rule monitoring, future trip planning, alerts, and exportable reports in one place.",
     },
     {
-        q: "How does automatic country and state tracking work?",
-        a: "With optional geolocation enabled, your timeline updates with days spent in each country and U.S. state based on where you are. You can also build and edit your history manually. Works offline; there is no continuous location tracking service run by us.",
+        q: "Can Immio help me avoid accidental tax residency or visa overstays?",
+        a: "Yes. Immio helps you monitor days against the rules you care about, including tax residency thresholds, Schengen calculations, and custom stay limits, so you can act before crossing a line.",
     },
     {
-        q: "Can Immio replace my lawyer or tax advisor?",
-        a: "No. Immio is an informational tool to help you count days, watch limits, and export records. Always consult a qualified legal or tax professional about your specific residency, visa, or filing obligations.",
+        q: "What rules can I track in the app?",
+        a: "You can track common patterns like Schengen 90/180, 183-day style tax residency tests, UK-style fiscal periods, U.S. state presence, and your own custom presence or absence limits across countries and regions.",
     },
     {
-        q: "What rules and limits can I track?",
-        a: "Built-in patterns cover scenarios like the Schengen 90/180-day rule, U.S. Substantial Presence and Physical Presence tests, UK SRT-style thinking, Canada and Australia 183-day style limits, and many more — or create fully custom trackers for any country or requirement.",
+        q: "Can I plan future trips before I book them?",
+        a: "Yes. You can add upcoming travel to see how planned trips affect your day counts, remaining allowance, and residency position before those days actually happen.",
     },
     {
-        q: "Can I export my data for compliance or advisors?",
-        a: "Yes. Generate a detailed CSV report for your own records or to share with advisors. Use it alongside Google Sheets or Excel for tax and immigration documentation.",
+        q: "Can I add past trips and import existing travel history?",
+        a: "Yes. You can add past trips manually or import them from a spreadsheet (CSV, Google Sheets, or Excel). Also, if you regularly take photos while traveling, we can also help reconstruct your trip history from your Photo Library using timestamp and location metadata. This processing happens locally on your device – your photos never leave your device.",
+    },
+    {
+        q: "Can I export records for my accountant, lawyer, or immigration case?",
+        a: "Yes. Immio can generate CSV exports you can review yourself or share with advisors when you need a structured record of your travel history and day counts.",
+    },
+    {
+        q: "Where is my data stored?",
+        a: "Your travel data stays on your device and, if you enable it, in your personal iCloud account. Immio does not require an account and is designed to keep sensitive travel history out of a central company database.",
     },
 ];
 
 const FEATURES = [
     {
-        title: "Automatic day tracking",
-        body: "Optional geolocation keeps your timeline updated with days in each country and 300+ jurisdictions, including U.S. states — so you spend less time counting stamps.",
+        title: "Automatic travel tracking",
+        body: "Keep a live record of where you have been across countries and U.S. states without rebuilding your timeline by hand every time you cross a border.",
     },
     {
-        title: "Smart stay-limit trackers",
-        body: "Monitor max or min presence and absence against rolling, annual, or fixed windows. Watch Schengen, visa caps, tax-residency thresholds, or define your own rules.",
+        title: "Tax Residency, Visa Limits, and Schengen rules",
+        body: "Track rolling windows, fiscal-year thresholds, and custom stay limits so you can monitor tax residency exposure and immigration rules in one place.",
     },
     {
-        title: "Trip timeline & stats",
-        body: "See past and future trips, visited countries, length of each stay, and residency context in one organized view.",
+        title: "Future trip simulation",
+        body: "Preview planned travel before you book it and see how each upcoming trip changes your remaining days, thresholds, and compliance runway.",
     },
     {
-        title: "Plan upcoming travel",
-        body: "Add future trips to preview projected day counts and how each trip fits your limits before you book.",
+        title: "Audit-ready records",
+        body: "Keep a clear travel history with structured exports you can review yourself or share with accountants, lawyers, and immigration advisors when needed.",
     },
     {
-        title: "Reports & privacy",
-        body: "Export CSV for compliance workflows. Data stays on-device or in your private iCloud; no account required.",
+        title: "Private by design",
+        body: "Store sensitive travel data on your device and in your personal iCloud account instead of relying on a central account-based service.",
     },
 ];
-*/
+
 
 /*type Plan = {
     name: string;
@@ -118,14 +125,23 @@ const PLANS: Plan[] = [
 /** Immio marketing landing (Tax Residency Tracker). */
 export default function LandingPage() {
     const [navOpen, setNavOpen] = useState(false);
-  /*  const [openFaq, setOpenFaq] = useState<number | null>(0);*/
+    const [openFaq, setOpenFaq] = useState<number | null>(null);
 
     return (
         <div className="immio-landing">
             <header className="immio-landing-nav">
                 <div className="immio-landing-nav__inner">
-                    <a className="immio-landing-logo" href="#top" onClick={() => setNavOpen(false)}
-                       aria-label="Immio home">
+                    <a
+                        className="immio-landing-logo"
+                        href="/"
+                        onClick={(event) => {
+                            event.preventDefault();
+                            setNavOpen(false);
+                            window.history.replaceState(null, "", "/");
+                            window.scrollTo({ top: 0, behavior: "smooth" });
+                        }}
+                        aria-label="Immio home"
+                    >
                         <img className="immio-landing-logo__icon" src="/logo.svg" alt="" width={42} height={42}/>
                         <img className="immio-landing-logo__wordmark" src="/logo_name.svg" alt="Immio"/>
                     </a>
@@ -148,15 +164,12 @@ export default function LandingPage() {
                         className={`immio-landing-nav__links${navOpen ? " is-open" : ""}`}
                         aria-label="Primary"
                     >
-                        {/*<a className="immio-landing-nav__link" href="#features" onClick={() => setNavOpen(false)}>
-              Features
-            </a>
-            <a className="immio-landing-nav__link" href="#pricing" onClick={() => setNavOpen(false)}>
-              Pricing
-            </a>
-            <a className="immio-landing-nav__link" href="#faq" onClick={() => setNavOpen(false)}>
-              FAQ
-            </a>*/}
+                        <a className="immio-landing-nav__link" href="#features" onClick={() => setNavOpen(false)}>
+                            Features
+                        </a>
+                        <a className="immio-landing-nav__link" href="#faq" onClick={() => setNavOpen(false)}>
+                            FAQ
+                        </a>
                         <a
                             className="immio-landing-nav__cta"
                             href={IMMIO_APP_STORE_URL}
@@ -212,24 +225,67 @@ export default function LandingPage() {
                     </div>
                 </section>
 
-                {/*<section className="immio-landing-section immio-landing-section--features" id="features" aria-labelledby="features-heading">
-          <div className="immio-landing-section__header">
-            <h2 id="features-heading" className="immio-landing-section__title">
-              Everything you need to track residency and travel limits
-            </h2>
-          </div>
-          <div className="immio-landing-features__grid">
-            {FEATURES.map((f) => (
-              <article key={f.title} className="immio-landing-feature-card">
-                <h3 className="immio-landing-feature-card__title">{f.title}</h3>
-                <p className="immio-landing-feature-card__desc">{f.body}</p>
-                <div className="immio-landing-feature-card__art" />
-              </article>
-            ))}
-          </div>
-        </section>
+                <section className="immio-landing-section immio-landing-section--features" id="features" aria-labelledby="features-heading">
+                    <div className="immio-landing-section__header">
+                        <span className="immio-landing-section__chip">Features</span>
+                        <h2 id="features-heading" className="immio-landing-section__title">
+                            Everything you need to track residency and travel limits
+                        </h2>
+                    </div>
+                    <div className="immio-landing-features__grid">
+                        {FEATURES.map((feature, index) => (
+                            <article
+                                key={feature.title}
+                                className={`immio-landing-feature-card immio-landing-feature-card--${index < 3 ? "top" : "bottom"}`}
+                            >
+                                <h3 className="immio-landing-feature-card__title">{feature.title}</h3>
+                                <p className="immio-landing-feature-card__desc">{feature.body}</p>
+                            </article>
+                        ))}
+                    </div>
+                </section>
 
-        <div className="immio-landing-section--pricing" id="pricing">
+                <section className="immio-landing-section" id="faq" aria-labelledby="faq-heading">
+                    <div className="immio-landing-section__header">
+                        <span className="immio-landing-section__chip">FAQ</span>
+                        <h2 id="faq-heading" className="immio-landing-section__title">
+                            All you need to know
+                        </h2>
+                    </div>
+                    <div className="immio-landing-faq__list">
+                        {FAQ_ITEMS.map((item, i) => {
+                            const isOpen = openFaq === i;
+                            const triggerId = `faq-trigger-${i}`;
+                            const panelId = `faq-panel-${i}`;
+                            return (
+                                <div key={item.q} className={`immio-landing-faq__item${isOpen ? " is-open" : ""}`}>
+                                    <button
+                                        type="button"
+                                        id={triggerId}
+                                        className="immio-landing-faq__trigger"
+                                        aria-expanded={isOpen}
+                                        aria-controls={panelId}
+                                        onClick={() => setOpenFaq(isOpen ? null : i)}
+                                    >
+                                        <span>{item.q}</span>
+                                        <span className="immio-landing-faq__icon" aria-hidden />
+                                    </button>
+                                    <div
+                                        id={panelId}
+                                        className="immio-landing-faq__panel"
+                                        role="region"
+                                        aria-labelledby={triggerId}
+                                        aria-hidden={!isOpen}
+                                    >
+                                        <div className="immio-landing-faq__panel-inner">{item.a}</div>
+                                    </div>
+                                </div>
+                            );
+                        })}
+                    </div>
+                </section>
+
+                {/*<div className="immio-landing-section--pricing" id="pricing">
           <div className="immio-landing-section__inner">
             <div className="immio-landing-section__header">
               <h2 className="immio-landing-section__title">Simple pricing on the App Store</h2>
@@ -316,20 +372,6 @@ export default function LandingPage() {
                     </div>
                     <div className="immio-landing-footer__cols">
                         <div className="immio-landing-footer__col">
-                            {/*<a className="immio-landing-footer__link" href="#top">
-                Home
-              </a>
-              <a className="immio-landing-footer__link" href="#pricing">
-                Pricing
-              </a>
-              <Link className="immio-landing-footer__link" to="/contact">
-                Contact
-              </Link>*/}
-                        </div>
-                        <div className="immio-landing-footer__col">
-                            {/* <a className="immio-landing-footer__link" href="#faq">
-                FAQ
-              </a>*/}
                             <Link className="immio-landing-footer__link" to="/terms">
                                 Terms
                             </Link>

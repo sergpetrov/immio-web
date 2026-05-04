@@ -13,12 +13,12 @@
   --landing-hero-visual-in-chip1-delay: 0.5s;
   --landing-hero-visual-in-chip2-delay: 0.62s;
   --landing-hero-visual-in-chip3-delay: 0.74s;
+  --landing-hero-visual-in-chip4-delay: 0.9s;
   position: relative;
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
   overflow: visible;
-  font-family: var(--font-display, "Inter", system-ui, sans-serif);
 }
 
 .landing-hero-visual__mask {
@@ -186,6 +186,13 @@
   min-height: 36px;
 }
 
+.landing-hero-visual__chip--4 {
+  animation-delay: var(--landing-hero-visual-in-chip4-delay);
+  left: calc(50% + 100px);
+  top: calc(var(--landing-hero-visual-underlap) + 410px);
+  min-height: 36px;
+}
+
 @media (max-width: 640px) {
   .landing-hero-visual {
     --landing-hero-visual-mask-below-map: min(180px, 36vw);
@@ -196,7 +203,7 @@
   }
 
   .landing-hero-visual__chip {
-    --landing-hero-chip-scale: 0.8;
+    display: none;
   }
 }
 

@@ -1,4 +1,4 @@
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import {Link} from "react-router-dom";
 import {LandingHeroVisual} from "./LandingHeroVisual.tsx";
 import "./LandingPage.css";
@@ -39,16 +39,22 @@ const FAQ_ITEMS: { q: string; a: string }[] = [
 
 const FEATURES = [
     {
-        title: "Automatic travel tracking",
-        body: "Keep a live record of where you have been across countries and U.S. states without rebuilding your timeline by hand every time you cross a border.",
+        title: "Automatic Trip Tracking",
+        body: "Immio automatically detects where you have been and logs it to your travel timeline",
+        imageSrc: "/immio/features/automatic-trip-tracking.png",
+        imageAlt: "Automatic Trip Tracking",
     },
     {
-        title: "Tax Residency, Visa Limits, and Schengen rules",
-        body: "Track rolling windows, fiscal-year thresholds, and custom stay limits so you can monitor tax residency exposure and immigration rules in one place.",
+        title: "Stay Limit Trackers",
+        body: "Stay ahead of visa deadlines, tax thresholds, and residency rules",
+        imageSrc: "/immio/features/trackers.png",
+        imageAlt: "Stay Limit Trackers"
     },
     {
-        title: "Future trip simulation",
-        body: "Preview planned travel before you book it and see how each upcoming trip changes your remaining days, thresholds, and compliance runway.",
+        title: "Travel Statistics",
+        body: "Instantly see where you've been and how long you stayed",
+        imageSrc: "/immio/features/statistics.png",
+        imageAlt: "Travel Statistics",
     },
     {
         title: "Audit-ready records",
@@ -125,11 +131,25 @@ const PLANS: Plan[] = [
 /** Immio marketing landing (Tax Residency Tracker). */
 export default function LandingPage() {
     const [navOpen, setNavOpen] = useState(false);
+    const [navScrolled, setNavScrolled] = useState(false);
     const [openFaq, setOpenFaq] = useState<number | null>(null);
+
+    useEffect(() => {
+        const syncNavScrolled = () => {
+            setNavScrolled((window.scrollY || document.documentElement.scrollTop) > 0);
+        };
+
+        syncNavScrolled();
+        window.addEventListener("scroll", syncNavScrolled, {passive: true});
+
+        return () => {
+            window.removeEventListener("scroll", syncNavScrolled);
+        };
+    }, []);
 
     return (
         <div className="immio-landing">
-            <header className="immio-landing-nav">
+                        <header className={`immio-landing-nav${navScrolled ? " is-scrolled" : ""}`}>
                 <div className="immio-landing-nav__inner">
                     <a
                         className="immio-landing-logo"
@@ -189,12 +209,10 @@ export default function LandingPage() {
                         <div className="immio-landing-hero__content">
                             <div className="immio-landing-hero__title-wrap">
                                 <h1 id="immio-landing-hero-heading" className="immio-landing-hero__title">
-                                    Professional Tool for Global Living and Compliance
+                                    Your All-in-One Tax Residency & Compliance Tracker
                                 </h1>
                                 <p className="immio-landing-hero__subtitle">
-                                    Track visa limits, tax residency, and travel days to stay compliant with global tax
-                                    and immigration
-                                    rules.
+                                    Track visa limits, tax residency, and travel days to stay compliant with global tax and immigration rules
                                 </p>
                             </div>
                             <div className="immio-landing-hero__stores">
@@ -225,38 +243,50 @@ export default function LandingPage() {
                     </div>
                 </section>
 
-                <section className="immio-landing-section immio-landing-section--features" id="features" aria-labelledby="features-heading">
-                    <div className="immio-landing-section__header">
+                <section className="immio-landing-section immio-landing-section--features" id="features-section" aria-labelledby="features-heading">
+                    <div id="features" className="immio-landing-section__header immio-landing-section__header--anchor">
                         <span className="immio-landing-section__chip">Features</span>
                         <h2 id="features-heading" className="immio-landing-section__title">
-                            Everything you need to track residency and travel limits
+                            Professional tools to keep your travel days under control
                         </h2>
                     </div>
                     <div className="immio-landing-features__grid">
                         {FEATURES.map((feature, index) => (
                             <article
                                 key={feature.title}
-                                className={`immio-landing-feature-card immio-landing-feature-card--${index < 3 ? "top" : "bottom"}`}
+                                className={`immio-landing-feature-card immio-landing-feature-card--${index < 3 ? "top" : "bottom"}${feature.imageSrc ? " immio-landing-feature-card--with-media" : ""}`}
                             >
-                                <h3 className="immio-landing-feature-card__title">{feature.title}</h3>
-                                <p className="immio-landing-feature-card__desc">{feature.body}</p>
+                                <div className="immio-landing-feature-card__copy">
+                                    <h3 className="immio-landing-feature-card__title">{feature.title}</h3>
+                                    <p className="immio-landing-feature-card__desc">{feature.body}</p>
+                                </div>
+                                {feature.imageSrc ? (
+                                    <div className="immio-landing-feature-card__media">
+                                        <img
+                                            className="immio-landing-feature-card__image"
+                                            src={feature.imageSrc}
+                                            alt={feature.imageAlt ?? ""}
+                                        />
+                                    </div>
+                                ) : null}
                             </article>
                         ))}
                     </div>
                 </section>
 
-                <section className="immio-landing-section" id="faq" aria-labelledby="faq-heading">
-                    <div className="immio-landing-section__header">
+                <section className="immio-landing-section" id="faq-section" aria-labelledby="faq-heading">
+                    <div id="faq" className="immio-landing-section__header immio-landing-section__header--anchor">
                         <span className="immio-landing-section__chip">FAQ</span>
                         <h2 id="faq-heading" className="immio-landing-section__title">
                             All you need to know
                         </h2>
                     </div>
                     <div className="immio-landing-faq__list">
-                        {FAQ_ITEMS.map((item, i) => {
-                            const isOpen = openFaq === i;
-                            const triggerId = `faq-trigger-${i}`;
-                            const panelId = `faq-panel-${i}`;
+                        {FAQ_ITEMS.map((item, index) => {
+                            const isOpen = openFaq === index;
+                            const triggerId = `faq-trigger-${index}`;
+                            const panelId = `faq-panel-${index}`;
+
                             return (
                                 <div key={item.q} className={`immio-landing-faq__item${isOpen ? " is-open" : ""}`}>
                                     <button
@@ -265,10 +295,10 @@ export default function LandingPage() {
                                         className="immio-landing-faq__trigger"
                                         aria-expanded={isOpen}
                                         aria-controls={panelId}
-                                        onClick={() => setOpenFaq(isOpen ? null : i)}
+                                        onClick={() => setOpenFaq(isOpen ? null : index)}
                                     >
                                         <span>{item.q}</span>
-                                        <span className="immio-landing-faq__icon" aria-hidden />
+                                        <span className="immio-landing-faq__icon" aria-hidden={true}/>
                                     </button>
                                     <div
                                         id={panelId}

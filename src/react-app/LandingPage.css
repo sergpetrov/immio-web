@@ -491,6 +491,20 @@ button.immio-landing-nav__toggle:hover {
 .immio-landing-feature-card--bottom {
     grid-column: span 3;
     min-height: 172px;
+    padding: 32px 28px 22px;
+}
+
+/* Bottom row: vertically center content in the card */
+.immio-landing-feature-card--bottom:not(.immio-landing-feature-card--with-media) {
+    justify-content: center;
+}
+
+.immio-landing-feature-card--bottom:not(.immio-landing-feature-card--with-media)::after {
+    display: none;
+}
+
+.immio-landing-feature-card--bottom.immio-landing-feature-card--with-media {
+    align-items: center;
 }
 
 .immio-landing-feature-card--bottom::after {
@@ -568,6 +582,12 @@ button.immio-landing-nav__toggle:hover {
     height: auto;
 }
 
+.immio-landing-feature-card--media-compact .immio-landing-feature-card__media {
+    width: 28%;
+    flex: 0 0 28%;
+    max-width: 180px;
+}
+
 @media (max-width: 860px) {
     .immio-landing-features__grid {
         grid-template-columns: 1fr;
@@ -598,6 +618,10 @@ button.immio-landing-nav__toggle:hover {
         min-height: 168px;
     }
 
+    .immio-landing-feature-card--bottom {
+        padding: 26px 22px 22px;
+    }
+
     .immio-landing-feature-card--bottom.immio-landing-feature-card--with-media {
         flex-direction: row;
         align-items: center;
@@ -613,6 +637,12 @@ button.immio-landing-nav__toggle:hover {
         width: min(200px, 48%);
         flex: 0 0 min(200px, 48%);
         max-width: none;
+    }
+
+    .immio-landing-feature-card--media-compact .immio-landing-feature-card__media {
+        width: min(120px, 34%);
+        flex: 0 0 min(120px, 34%);
+        max-width: 140px;
     }
 
     .immio-landing-feature-card__media--trackers {

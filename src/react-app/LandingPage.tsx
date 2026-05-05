@@ -73,8 +73,11 @@ const FEATURES = [
         imageAlt: "Travel Statistics",
     },
     {
-        title: "Audit-ready records",
-        body: "Keep a clear travel history with structured exports you can review yourself or share with accountants, lawyers, and immigration advisors when needed.",
+        title: "Import Trips & Export Reports",
+        body: "Import trips from a CSV spreadsheet or photos in seconds, and export audit-ready reports to self-review or share with professional advisors",
+        imageSrc: "/immio/features/import-export.webp",
+        imageAlt: "Import Trips & Export Reports",
+        mediaSize: "compact" as const,
     },
     {
         title: "Private by design",
@@ -370,7 +373,7 @@ export default function LandingPage() {
                             <article
                                 key={feature.title}
                                 ref={feature.title === "Stay Limit Trackers" ? trackerCardRef : undefined}
-                                className={`immio-landing-feature-card immio-landing-feature-card--${index < 3 ? "top" : "bottom"}${feature.imageSrc || feature.layeredImages ? " immio-landing-feature-card--with-media" : ""}${feature.layeredImages ? " immio-landing-feature-card--trackers" : ""}`}
+                                className={`immio-landing-feature-card immio-landing-feature-card--${index < 3 ? "top" : "bottom"}${feature.imageSrc || feature.layeredImages ? " immio-landing-feature-card--with-media" : ""}${feature.layeredImages ? " immio-landing-feature-card--trackers" : ""}${"mediaSize" in feature && feature.mediaSize === "compact" ? " immio-landing-feature-card--media-compact" : ""}`}
                             >
                                 <div className="immio-landing-feature-card__copy">
                                     <h3 className="immio-landing-feature-card__title">{feature.title}</h3>
@@ -380,8 +383,8 @@ export default function LandingPage() {
                                     <div
                                         className="immio-landing-feature-card__media immio-landing-feature-card__media--trackers"
                                         style={{
-                                            "--tracker-front-rotate": trackerAnimationPlayed ? "-6deg" : "0deg",
-                                            "--tracker-back-rotate": trackerAnimationPlayed ? "6deg" : "0deg",
+                                            "--tracker-front-rotate": trackerAnimationPlayed ? "-4deg" : "0deg",
+                                            "--tracker-back-rotate": trackerAnimationPlayed ? "4deg" : "0deg",
                                         } as TrackerTiltStyle}
                                     >
                                         {feature.layeredImages.map((image) => (

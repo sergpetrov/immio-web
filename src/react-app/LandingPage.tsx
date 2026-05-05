@@ -1,10 +1,16 @@
-import {useEffect, useState} from "react";
+import type {CSSProperties, MouseEvent} from "react";
+import {useEffect, useRef, useState} from "react";
 import {Link} from "react-router-dom";
 import {LandingHeroVisual} from "./LandingHeroVisual.tsx";
 import "./LandingPage.css";
 
 /** Tax Residency Tracker – Immio (US App Store). */
 const IMMIO_APP_STORE_URL = "https://apps.apple.com/us/app/tax-residency-tracker-immio/id6747927306";
+
+type TrackerTiltStyle = CSSProperties & {
+    "--tracker-front-rotate": string;
+    "--tracker-back-rotate": string;
+};
 
 const FAQ_ITEMS: { q: string; a: string }[] = [
     {
@@ -47,8 +53,18 @@ const FEATURES = [
     {
         title: "Stay Limit Trackers",
         body: "Stay ahead of visa deadlines, tax thresholds, and residency rules",
-        imageSrc: "/immio/features/trackers.webp",
-        imageAlt: "Stay Limit Trackers"
+        layeredImages: [
+            {
+                src: "/immio/features/tracker-1.webp",
+                alt: "Tracker 1",
+                className: "immio-landing-feature-card__tracker-image--front",
+            },
+            {
+                src: "/immio/features/tracker-2.webp",
+                alt: "Tracker 2",
+                className: "immio-landing-feature-card__tracker-image--back",
+            },
+        ],
     },
     {
         title: "Travel Statistics",
@@ -65,6 +81,8 @@ const FEATURES = [
         body: "Store sensitive travel data on your device and in your personal iCloud account instead of relying on a central account-based service.",
     },
 ];
+
+const HASH_SCROLL_STORAGE_KEY = "immio-landing-scroll";
 
 
 /*type Plan = {
@@ -133,10 +151,65 @@ export default function LandingPage() {
     const [navOpen, setNavOpen] = useState(false);
     const [navScrolled, setNavScrolled] = useState(false);
     const [openFaq, setOpenFaq] = useState<number | null>(null);
+    const [trackerAnimationPlayed, setTrackerAnimationPlayed] = useState(false);
+    const trackerCardRef = useRef<HTMLElement | null>(null);
+
+    const handleNavAnchorClick = (event: MouseEvent<HTMLAnchorElement>, sectionId: "features" | "faq") => {
+        event.preventDefault();
+        setNavOpen(false);
+
+        const target = document.getElementById(sectionId);
+        if (!target) {
+            return;
+        }
+
+        target.scrollIntoView({behavior: "smooth", block: "start"});
+        window.history.pushState(null, "", `#${sectionId}`);
+    };
+
+    useEffect(() => {
+        if (!window.location.hash) {
+            return;
+        }
+
+        const storageKey = `${HASH_SCROLL_STORAGE_KEY}:${window.location.pathname}`;
+        const previousScrollRestoration = window.history.scrollRestoration;
+        window.history.scrollRestoration = "manual";
+
+        const persistScrollPosition = () => {
+            const scrollTop = window.scrollY || document.documentElement.scrollTop;
+            window.sessionStorage.setItem(storageKey, `${Math.round(scrollTop)}`);
+        };
+
+        const restoreScrollPosition = () => {
+            const storedValue = window.sessionStorage.getItem(storageKey);
+            const parsedValue = storedValue ? Number(storedValue) : NaN;
+
+            if (!Number.isFinite(parsedValue)) {
+                return;
+            }
+
+            window.scrollTo({top: parsedValue, left: 0, behavior: "auto"});
+        };
+
+        restoreScrollPosition();
+        const rafId = window.requestAnimationFrame(restoreScrollPosition);
+
+        window.addEventListener("pagehide", persistScrollPosition);
+        window.addEventListener("beforeunload", persistScrollPosition);
+
+        return () => {
+            window.cancelAnimationFrame(rafId);
+            window.removeEventListener("pagehide", persistScrollPosition);
+            window.removeEventListener("beforeunload", persistScrollPosition);
+            window.history.scrollRestoration = previousScrollRestoration;
+        };
+    }, []);
 
     useEffect(() => {
         const syncNavScrolled = () => {
-            setNavScrolled((window.scrollY || document.documentElement.scrollTop) > 0);
+            const scrollTop = window.scrollY || document.documentElement.scrollTop;
+            setNavScrolled(scrollTop > 0);
         };
 
         syncNavScrolled();
@@ -146,6 +219,36 @@ export default function LandingPage() {
             window.removeEventListener("scroll", syncNavScrolled);
         };
     }, []);
+
+    useEffect(() => {
+        const trackerCard = trackerCardRef.current;
+
+        if (!trackerCard || trackerAnimationPlayed) {
+            return;
+        }
+
+        const observer = new IntersectionObserver(
+            (entries) => {
+                const entry = entries[0];
+
+                if (!entry?.isIntersecting || entry.intersectionRatio < 0.7) {
+                    return;
+                }
+
+                setTrackerAnimationPlayed(true);
+                observer.disconnect();
+            },
+            {
+                threshold: 0.7,
+            }
+        );
+
+        observer.observe(trackerCard);
+
+        return () => {
+            observer.disconnect();
+        };
+    }, [trackerAnimationPlayed]);
 
     return (
         <div className="immio-landing">
@@ -184,10 +287,18 @@ export default function LandingPage() {
                         className={`immio-landing-nav__links${navOpen ? " is-open" : ""}`}
                         aria-label="Primary"
                     >
-                        <a className="immio-landing-nav__link" href="#features" onClick={() => setNavOpen(false)}>
+                        <a
+                            className="immio-landing-nav__link"
+                            href="#features"
+                            onClick={(event) => handleNavAnchorClick(event, "features")}
+                        >
                             Features
                         </a>
-                        <a className="immio-landing-nav__link" href="#faq" onClick={() => setNavOpen(false)}>
+                        <a
+                            className="immio-landing-nav__link"
+                            href="#faq"
+                            onClick={(event) => handleNavAnchorClick(event, "faq")}
+                        >
                             FAQ
                         </a>
                         <a
@@ -243,7 +354,11 @@ export default function LandingPage() {
                     </div>
                 </section>
 
-                <section className="immio-landing-section immio-landing-section--features" id="features-section" aria-labelledby="features-heading">
+                <section
+                    className="immio-landing-section immio-landing-section--features"
+                    id="features-section"
+                    aria-labelledby="features-heading"
+                >
                     <div id="features" className="immio-landing-section__header immio-landing-section__header--anchor">
                         <span className="immio-landing-section__chip">Features</span>
                         <h2 id="features-heading" className="immio-landing-section__title">
@@ -254,13 +369,31 @@ export default function LandingPage() {
                         {FEATURES.map((feature, index) => (
                             <article
                                 key={feature.title}
-                                className={`immio-landing-feature-card immio-landing-feature-card--${index < 3 ? "top" : "bottom"}${feature.imageSrc ? " immio-landing-feature-card--with-media" : ""}`}
+                                ref={feature.title === "Stay Limit Trackers" ? trackerCardRef : undefined}
+                                className={`immio-landing-feature-card immio-landing-feature-card--${index < 3 ? "top" : "bottom"}${feature.imageSrc || feature.layeredImages ? " immio-landing-feature-card--with-media" : ""}${feature.layeredImages ? " immio-landing-feature-card--trackers" : ""}`}
                             >
                                 <div className="immio-landing-feature-card__copy">
                                     <h3 className="immio-landing-feature-card__title">{feature.title}</h3>
                                     <p className="immio-landing-feature-card__desc">{feature.body}</p>
                                 </div>
-                                {feature.imageSrc ? (
+                                {feature.layeredImages ? (
+                                    <div
+                                        className="immio-landing-feature-card__media immio-landing-feature-card__media--trackers"
+                                        style={{
+                                            "--tracker-front-rotate": trackerAnimationPlayed ? "-6deg" : "0deg",
+                                            "--tracker-back-rotate": trackerAnimationPlayed ? "6deg" : "0deg",
+                                        } as TrackerTiltStyle}
+                                    >
+                                        {feature.layeredImages.map((image) => (
+                                            <img
+                                                key={image.src}
+                                                className={`immio-landing-feature-card__tracker-image ${image.className}`}
+                                                src={image.src}
+                                                alt={image.alt}
+                                            />
+                                        ))}
+                                    </div>
+                                ) : feature.imageSrc ? (
                                     <div className="immio-landing-feature-card__media">
                                         <img
                                             className="immio-landing-feature-card__image"

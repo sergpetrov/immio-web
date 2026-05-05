@@ -23,13 +23,10 @@ export function LandingHeroVisual() {
     if (!mock || !root) return;
 
     let raf = 0;
-    const initialScrollY = window.scrollY || document.documentElement.scrollTop;
-
     const tick = () => {
       raf = 0;
       const scrollRoot = window.scrollY || document.documentElement.scrollTop;
-      const scrollDelta = scrollRoot - initialScrollY;
-      const raw = -scrollDelta * PARALLAX_PX_PER_SCROLL;
+      const raw = -scrollRoot * PARALLAX_PX_PER_SCROLL;
       const clamped = Math.max(-PARALLAX_MAX_SHIFT, Math.min(PARALLAX_MAX_SHIFT, raw));
       mock.style.setProperty("--mockup-parallax-y", `${Math.round(clamped)}px`);
     };

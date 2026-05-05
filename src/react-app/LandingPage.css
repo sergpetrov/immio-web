@@ -1,7 +1,3 @@
-html {
-    scroll-behavior: smooth;
-}
-
 /* Immio marketing landing — Inter stack, scoped design tokens */
 .immio-landing {
     color-scheme: light;
@@ -529,6 +525,42 @@ button.immio-landing-nav__toggle:hover {
     max-width: 500px;
 }
 
+.immio-landing-feature-card__media--trackers {
+    --tracker-front-rotate: 0deg;
+    --tracker-back-rotate: 0deg;
+    position: relative;
+    width: calc(100% + 56px);
+    flex: 0 0 auto;
+    aspect-ratio: 1371 / 1040;
+    margin-left: -28px;
+    margin-right: -28px;
+    overflow: visible;
+}
+
+.immio-landing-feature-card__tracker-image {
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 100%;
+    max-width: none;
+    height: auto;
+    transform-origin: right center;
+    will-change: transform;
+    transition: transform 0.2s ease-out 0.12s;
+}
+
+.immio-landing-feature-card__tracker-image--front {
+    width: 100%;
+    z-index: 2;
+    transform: translateY(-30%) rotate(var(--tracker-front-rotate, 0deg));
+}
+
+.immio-landing-feature-card__tracker-image--back {
+    width: 100%;
+    z-index: 1;
+    transform: translateY(-70%) rotate(var(--tracker-back-rotate, 0deg));
+}
+
 .immio-landing-feature-card__image {
     display: block;
     width: 100%;
@@ -565,6 +597,7 @@ button.immio-landing-nav__toggle:hover {
         padding: 20px 22px 14px;
         min-height: 168px;
     }
+
     .immio-landing-feature-card--bottom.immio-landing-feature-card--with-media {
         flex-direction: row;
         align-items: center;
@@ -580,6 +613,28 @@ button.immio-landing-nav__toggle:hover {
         width: min(200px, 48%);
         flex: 0 0 min(200px, 48%);
         max-width: none;
+    }
+
+    .immio-landing-feature-card__media--trackers {
+        width: calc(100% + 44px);
+        aspect-ratio: 1371 / 1040;
+        max-width: none;
+        flex: 0 0 auto;
+        margin-left: -22px;
+        margin-right: -22px;
+    }
+
+    .immio-landing-feature-card__tracker-image {
+        width: 100%;
+        max-width: none;
+    }
+
+    .immio-landing-feature-card__tracker-image--front {
+        left: 0;
+    }
+
+    .immio-landing-feature-card__tracker-image--back {
+        left: 0;
     }
 
     .immio-landing-feature-card--top.immio-landing-feature-card--with-media .immio-landing-feature-card__media {

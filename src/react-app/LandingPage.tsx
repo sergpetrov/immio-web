@@ -41,19 +41,19 @@ const FEATURES = [
     {
         title: "Automatic Trip Tracking",
         body: "Immio automatically detects where you have been and logs it to your travel timeline",
-        imageSrc: "/immio/features/automatic-trip-tracking.png",
+        imageSrc: "/immio/features/automatic-trip-tracking.webp",
         imageAlt: "Automatic Trip Tracking",
     },
     {
         title: "Stay Limit Trackers",
         body: "Stay ahead of visa deadlines, tax thresholds, and residency rules",
-        imageSrc: "/immio/features/trackers.png",
+        imageSrc: "/immio/features/trackers.webp",
         imageAlt: "Stay Limit Trackers"
     },
     {
         title: "Travel Statistics",
         body: "Instantly see where you've been and how long you stayed",
-        imageSrc: "/immio/features/statistics.png",
+        imageSrc: "/immio/features/statistics.webp",
         imageAlt: "Travel Statistics",
     },
     {

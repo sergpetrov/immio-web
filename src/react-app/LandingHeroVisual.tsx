@@ -5,7 +5,7 @@ const PARALLAX_PX_PER_SCROLL = 0.38;
 const PARALLAX_MAX_SHIFT = 220;
 
 const MAP_SRC = "/immio/landing-hero/world-map.svg";
-const MOCKUP_SRC = "/immio/landing-hero/immio-mockup.png";
+const MOCKUP_SRC = "/immio/landing-hero/immio-mockup.webp";
 
 /**
  * Marketing hero: scrolling world map, iPhone mockup with scroll parallax, and feature chips.

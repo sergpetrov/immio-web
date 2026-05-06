@@ -52,7 +52,7 @@ const FEATURES = [
     },
     {
         title: "Stay Limit Trackers",
-        body: "Stay ahead of visa deadlines, tax thresholds, and residency rules",
+        body: "Track rolling stay limits, annual tax residency, or any custom presence / absence rules",
         layeredImages: [
             {
                 src: "/immio/features/tracker-1.webp",
@@ -68,7 +68,7 @@ const FEATURES = [
     },
     {
         title: "Travel Statistics",
-        body: "Instantly see where you've been and how long you stayed",
+        body: "Explore detailed travel statistics with flexible pre-built and custom date filters",
         imageSrc: "/immio/features/statistics.webp",
         imageAlt: "Travel Statistics",
     },
@@ -81,7 +81,7 @@ const FEATURES = [
     },
     {
         title: "Smart Alerts",
-        body: "Get alerts for upcoming tax residency thresholds, visa stay limits, and key immigration rules to stay compliant at all times",
+        body: "Get notified before you reach tax residency thresholds, visa stay limits, or other immigration deadlines",
         imageSrc: "/immio/features/alerts.webp",
         imageAlt: "Smart Alerts",
     },

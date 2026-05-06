@@ -80,8 +80,10 @@ const FEATURES = [
         mediaSize: "compact" as const,
     },
     {
-        title: "Private by design",
-        body: "Store sensitive travel data on your device and in your personal iCloud account instead of relying on a central account-based service.",
+        title: "Smart Alerts",
+        body: "Get alerts for upcoming tax residency thresholds, visa stay limits, and key immigration rules to stay compliant at all times",
+        imageSrc: "/immio/features/alerts.webp",
+        imageAlt: "Smart Alerts",
     },
 ];
 
@@ -255,7 +257,7 @@ export default function LandingPage() {
 
     return (
         <div className="immio-landing">
-                        <header className={`immio-landing-nav${navScrolled ? " is-scrolled" : ""}`}>
+            <header className={`immio-landing-nav${navScrolled ? " is-scrolled" : ""}`}>
                 <div className="immio-landing-nav__inner">
                     <a
                         className="immio-landing-logo"
@@ -264,7 +266,7 @@ export default function LandingPage() {
                             event.preventDefault();
                             setNavOpen(false);
                             window.history.replaceState(null, "", "/");
-                            window.scrollTo({ top: 0, behavior: "smooth" });
+                            window.scrollTo({top: 0, behavior: "smooth"});
                         }}
                         aria-label="Immio home"
                     >
@@ -326,7 +328,8 @@ export default function LandingPage() {
                                     Your All-in-One Tax Residency & Compliance Tracker
                                 </h1>
                                 <p className="immio-landing-hero__subtitle">
-                                    Track visa limits, tax residency, and travel days to stay compliant with global tax and immigration rules
+                                    Track visa limits, tax residency, and travel days to stay compliant with global tax
+                                    and immigration rules
                                 </p>
                             </div>
                             <div className="immio-landing-hero__stores">

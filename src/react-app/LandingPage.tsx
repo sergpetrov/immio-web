@@ -5,7 +5,28 @@ import {LandingHeroVisual} from "./LandingHeroVisual.tsx";
 import "./LandingPage.css";
 
 /** Tax Residency Tracker – Immio (US App Store). */
-const IMMIO_APP_STORE_URL = "https://apps.apple.com/us/app/tax-residency-tracker-immio/id6747927306";
+const IMMIO_APP_STORE_URL = "https://apps.apple.com/gb/app/tax-residency-tracker-immio/id6747927306";
+const IMMIO_GOOGLE_PLAY_URL = "https://play.google.com/store/apps/details?id=com.immio.app";
+
+const getDeviceAppDownloadUrl = () => {
+    if (typeof navigator === "undefined") {
+        return IMMIO_APP_STORE_URL;
+    }
+
+    const userAgent = navigator.userAgent || "";
+    const isAndroid = /Android/i.test(userAgent);
+    const isAppleDevice = /iPhone|iPad|iPod|Macintosh/i.test(userAgent);
+
+    if (isAndroid) {
+        return IMMIO_GOOGLE_PLAY_URL;
+    }
+
+    if (isAppleDevice) {
+        return IMMIO_APP_STORE_URL;
+    }
+
+    return IMMIO_APP_STORE_URL;
+};
 
 type TrackerTiltStyle = CSSProperties & {
     "--tracker-front-rotate": string;
@@ -158,6 +179,7 @@ export default function LandingPage() {
     const [openFaq, setOpenFaq] = useState<number | null>(null);
     const [trackerAnimationPlayed, setTrackerAnimationPlayed] = useState(false);
     const trackerCardRef = useRef<HTMLElement | null>(null);
+    const appDownloadUrl = getDeviceAppDownloadUrl();
 
     const handleNavAnchorClick = (event: MouseEvent<HTMLAnchorElement>, sectionId: "features" | "faq") => {
         event.preventDefault();
@@ -308,7 +330,7 @@ export default function LandingPage() {
                         </a>
                         <a
                             className="immio-landing-nav__cta"
-                            href={IMMIO_APP_STORE_URL}
+                            href={appDownloadUrl}
                             target="_blank"
                             rel="noopener noreferrer"
                             onClick={() => setNavOpen(false)}
@@ -342,15 +364,18 @@ export default function LandingPage() {
                                 >
                                     <img src="/immio/app-store-badge.svg" alt="" width={113} height={30}/>
                                 </a>
-                                {/*<div className="immio-landing-hero__store-play">
-                  <span
-                    className="immio-landing-store-btn immio-landing-store-btn--disabled immio-landing-store-btn--play"
-                    aria-disabled="true"
-                    aria-label="Google Play — coming soon"
-                  >
-                    <img src="/immio/google-play-badge.svg" alt="" width={108} height={26} />
-                  </span>
-                </div>*/}
+                                <div className="immio-landing-hero__store-play">
+                                    <a
+                                        className="immio-landing-store-btn immio-landing-store-btn--play"
+                                        href={IMMIO_GOOGLE_PLAY_URL}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        aria-label="Get Immio on Google Play"
+                                    >
+                                        <img src="/immio/google-play-badge.svg" alt="" width={108} height={26}/>
+                                    </a>
+                                    <span className="immio-landing-hero__store-caption">Beta</span>
+                                </div>
                             </div>
                         </div>
 

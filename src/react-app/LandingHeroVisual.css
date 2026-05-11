@@ -9,7 +9,7 @@
   --landing-hero-visual-map-scroll-duration: 200s;
   --landing-hero-visual-map-edge-fade-w: clamp(28px, 7vw, 72px);
   --landing-hero-visual-in-mockup-delay: 0.1s;
-  --landing-hero-visual-in-mockup-dur: 0.6s;
+  --landing-hero-visual-in-mockup-dur: 1.2s;
   --landing-hero-visual-in-chip1-delay: 0.5s;
   --landing-hero-visual-in-chip2-delay: 0.62s;
   --landing-hero-visual-in-chip3-delay: 0.74s;
@@ -90,10 +90,10 @@
 
 @keyframes landing-hero-visual-map-scroll {
   from {
-    transform: translateX(0);
+    transform: translateX(-50%);
   }
   to {
-    transform: translateX(-50%);
+    transform: translateX(0);
   }
 }
 

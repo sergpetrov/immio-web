@@ -205,9 +205,10 @@ button.immio-landing-nav__toggle:hover {
 
 /* Hero */
 .immio-landing-hero {
-    --hero-in-title-dur: 0.56s;
-    --hero-in-copy-delay: 0.16s;
-    --hero-in-copy-dur: 0.52s;
+    --hero-in-ease: cubic-bezier(0.16, 1, 0.3, 1);
+    --hero-in-title-dur: 2s;
+    --hero-in-copy-delay: 0.3s;
+    --hero-in-copy-dur: 2s;
     --immio-landing-hero-visual-gap: clamp(20px, 4vw, 40px);
     --immio-landing-hero-underlap: clamp(96px, 14vw, 180px);
     padding: 40px 0 0;
@@ -285,7 +286,11 @@ button.immio-landing-nav__toggle:hover {
     line-height: 1.1;
     letter-spacing: -0.04em;
     color: var(--immio-landing-black);
-    animation: immio-landing-hero-fade-up var(--hero-in-title-dur) cubic-bezier(0.22, 1, 0.36, 1) both;
+    opacity: 0;
+}
+
+.immio-landing-hero__title.is-ready {
+    animation: immio-landing-hero-fade-up var(--hero-in-title-dur) var(--hero-in-ease) both;
 }
 
 @media (min-width: 1024px) {
@@ -305,7 +310,7 @@ button.immio-landing-nav__toggle:hover {
     color: var(--immio-landing-dove);
     font-weight: 400;
     padding: 0 24px;
-    animation: immio-landing-hero-fade-up var(--hero-in-copy-dur) cubic-bezier(0.22, 1, 0.36, 1) var(--hero-in-copy-delay) both;
+    animation: immio-landing-hero-fade-up var(--hero-in-copy-dur) var(--hero-in-ease) var(--hero-in-copy-delay) both;
 }
 
 .immio-landing-hero__stores {
@@ -316,7 +321,7 @@ button.immio-landing-nav__toggle:hover {
     gap: 16px;
     justify-content: center;
     align-items: center;
-    animation: immio-landing-hero-fade-up var(--hero-in-copy-dur) cubic-bezier(0.22, 1, 0.36, 1) var(--hero-in-copy-delay) both;
+    animation: immio-landing-hero-fade-up var(--hero-in-copy-dur) var(--hero-in-ease) var(--hero-in-copy-delay) both;
 }
 
 .immio-landing-store-btn {
@@ -347,21 +352,26 @@ button.immio-landing-nav__toggle:hover {
 
 @keyframes immio-landing-tag-sway {
     0% {
-        transform: translate3d(0, 0, 0) rotate(8deg);
+        transform: translate3d(var(--immio-landing-tag-x), 0, 0) rotate(var(--immio-landing-tag-rotate-start));
     }
     45% {
-        transform: translate3d(0, 1px, 0) rotate(11deg);
+        transform: translate3d(var(--immio-landing-tag-x), 1px, 0) rotate(var(--immio-landing-tag-rotate-mid));
     }
     100% {
-        transform: translate3d(0, -1px, 0) rotate(6deg);
+        transform: translate3d(var(--immio-landing-tag-x), -1px, 0) rotate(var(--immio-landing-tag-rotate-end));
     }
 }
 
 .immio-landing-hero__store-caption {
+    --immio-landing-tag-x: 0;
+    --immio-landing-tag-rotate: 9deg;
+    --immio-landing-tag-rotate-start: 8deg;
+    --immio-landing-tag-rotate-mid: 11deg;
+    --immio-landing-tag-rotate-end: 6deg;
     position: absolute;
-    top: calc(100% - 16px);
-    left: calc(100% + 5px);
-    transform: rotate(9deg);
+    top: calc(100% - 6px);
+    left: calc(50% + 12px);
+    transform: translate3d(var(--immio-landing-tag-x), 0, 0) rotate(var(--immio-landing-tag-rotate));
     transform-origin: 0 50%;
     white-space: nowrap;
     padding: 5px 9px 5px 13px;
@@ -422,7 +432,7 @@ button.immio-landing-nav__toggle:hover {
     }
 
     .immio-landing-hero__store-caption {
-        transform: rotate(9deg);
+        transform: translate3d(var(--immio-landing-tag-x), 0, 0) rotate(var(--immio-landing-tag-rotate));
     }
 }
 

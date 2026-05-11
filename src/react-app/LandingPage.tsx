@@ -177,6 +177,7 @@ export default function LandingPage() {
     const [navOpen, setNavOpen] = useState(false);
     const [navScrolled, setNavScrolled] = useState(false);
     const [openFaq, setOpenFaq] = useState<number | null>(null);
+    const [heroTitleReady, setHeroTitleReady] = useState(false);
     const [trackerAnimationPlayed, setTrackerAnimationPlayed] = useState(false);
     const trackerCardRef = useRef<HTMLElement | null>(null);
     const appDownloadUrl = getDeviceAppDownloadUrl();
@@ -193,6 +194,35 @@ export default function LandingPage() {
         target.scrollIntoView({behavior: "smooth", block: "start"});
         window.history.pushState(null, "", `#${sectionId}`);
     };
+
+    useEffect(() => {
+        let isMounted = true;
+        const titleFont = "600 50px Inter";
+        const titleText = "Your All-in-One Tax Residency & Compliance Tracker";
+
+        const revealTitle = () => {
+            if (isMounted) {
+                setHeroTitleReady(true);
+            }
+        };
+
+        if (!document.fonts) {
+            revealTitle();
+            return () => {
+                isMounted = false;
+            };
+        }
+
+        if (document.fonts.check(titleFont, titleText)) {
+            revealTitle();
+        } else {
+            document.fonts.load(titleFont, titleText).finally(revealTitle);
+        }
+
+        return () => {
+            isMounted = false;
+        };
+    }, []);
 
     useEffect(() => {
         if (!window.location.hash) {
@@ -346,7 +376,10 @@ export default function LandingPage() {
                     <div className="immio-landing-hero__inner">
                         <div className="immio-landing-hero__content">
                             <div className="immio-landing-hero__title-wrap">
-                                <h1 id="immio-landing-hero-heading" className="immio-landing-hero__title">
+                                <h1
+                                    id="immio-landing-hero-heading"
+                                    className={`immio-landing-hero__title${heroTitleReady ? " is-ready" : ""}`}
+                                >
                                     Your All-in-One Tax Residency & Compliance Tracker
                                 </h1>
                                 <p className="immio-landing-hero__subtitle">

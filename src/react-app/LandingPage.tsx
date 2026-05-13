@@ -108,6 +108,27 @@ const FEATURES = [
     },
 ];
 
+const HOW_IT_WORKS_STEPS = [
+    {
+        number: "01",
+        title: "Build your travel timeline",
+        body: "Add your countries of residence. Import trips from photos, a spreadsheet, or enter them manually. Turn on automatic geolocation tracking",
+        caption: "No account required. 100% private, stored on device",
+    },
+    {
+        number: "02",
+        title: "Set trackers and turn on alerts",
+        body: "Add pre-build or custom trackers that matter to you – tax, visa, residency. Smart alerts notify you before you hit a threshold.",
+        caption: "300+ jurisdictions, including U.S. states",
+    },
+    {
+        number: "03",
+        title: "Get audit-ready reports",
+        body: "Export a detailed report for tax and legal compliance. Share with advisors or perform your own analysis and record-keeping in Google Sheets or Excel.",
+        caption: "Developed in consultation with professionals",
+    },
+];
+
 const HASH_SCROLL_STORAGE_KEY = "immio-landing-scroll";
 
 
@@ -182,7 +203,7 @@ export default function LandingPage() {
     const trackerCardRef = useRef<HTMLElement | null>(null);
     const appDownloadUrl = getDeviceAppDownloadUrl();
 
-    const handleNavAnchorClick = (event: MouseEvent<HTMLAnchorElement>, sectionId: "features" | "faq") => {
+    const handleNavAnchorClick = (event: MouseEvent<HTMLAnchorElement>, sectionId: "features" | "how-it-works" | "faq") => {
         event.preventDefault();
         setNavOpen(false);
 
@@ -353,6 +374,13 @@ export default function LandingPage() {
                         </a>
                         <a
                             className="immio-landing-nav__link"
+                            href="#how-it-works"
+                            onClick={(event) => handleNavAnchorClick(event, "how-it-works")}
+                        >
+                            How it works
+                        </a>
+                        <a
+                            className="immio-landing-nav__link"
                             href="#faq"
                             onClick={(event) => handleNavAnchorClick(event, "faq")}
                         >
@@ -471,11 +499,36 @@ export default function LandingPage() {
                     </div>
                 </section>
 
+                <section
+                    className="immio-landing-section immio-landing-section--how"
+                    id="how-it-works-section"
+                    aria-labelledby="how-it-works-heading"
+                >
+                    <div id="how-it-works" className="immio-landing-section__header immio-landing-section__header--anchor">
+                        <span className="immio-landing-section__chip">How it works</span>
+                        <h2 id="how-it-works-heading" className="immio-landing-section__title">
+                            Simple setup. Minimal routine.
+                        </h2>
+                    </div>
+                    <div className="immio-landing-how__grid">
+                        {HOW_IT_WORKS_STEPS.map((step) => (
+                            <article key={step.number} className="immio-landing-how__step">
+                                <span className="immio-landing-how__number">{step.number}</span>
+                                <h3 className="immio-landing-how__title">{step.title}</h3>
+                                <p className="immio-landing-how__body">{step.body}</p>
+                                {"caption" in step ? (
+                                    <p className="immio-landing-how__caption">{step.caption}</p>
+                                ) : null}
+                            </article>
+                        ))}
+                    </div>
+                </section>
+
                 <section className="immio-landing-section" id="faq-section" aria-labelledby="faq-heading">
                     <div id="faq" className="immio-landing-section__header immio-landing-section__header--anchor">
                         <span className="immio-landing-section__chip">FAQ</span>
                         <h2 id="faq-heading" className="immio-landing-section__title">
-                            All you need to know
+                            All you want to know
                         </h2>
                     </div>
                     <div className="immio-landing-faq__list">

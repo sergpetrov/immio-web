@@ -497,6 +497,85 @@ button.immio-landing-nav__toggle:hover {
     letter-spacing: -0.04em;
 }
 
+/* How it works */
+.immio-landing-section--how {
+    padding-top: 48px;
+}
+
+.immio-landing-how__grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 36px;
+    align-items: start;
+    width: 100%;
+    padding: 0 16px;
+}
+
+.immio-landing-how__step {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    text-align: left;
+    min-width: 0;
+}
+
+.immio-landing-how__number {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 52px;
+    height: 52px;
+    padding: 0;
+    border: none;
+    border-radius: 14px;
+    background: #ebf4fb;
+    color: #007aff;
+    font-size: 22px;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    box-shadow: 0 8px 20px rgba(0, 122, 255, 0.08);
+}
+
+.immio-landing-how__title {
+    margin: 20px 0 10px;
+    font-size: clamp(1.15rem, 1.8vw, 1.4rem);
+    line-height: 1.08;
+    font-weight: 500;
+    letter-spacing: -0.035em;
+    color: var(--immio-landing-black);
+}
+
+.immio-landing-how__body {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--immio-landing-dove);
+    letter-spacing: -0.025em;
+}
+
+.immio-landing-how__caption {
+    margin: 10px 0 0;
+    font-size: 12px;
+    line-height: 1.45;
+    color: #007aff;
+    letter-spacing: -0.02em;
+}
+
+@media (max-width: 860px) {
+    .immio-landing-how__grid {
+        grid-template-columns: 1fr;
+        gap: 28px;
+    }
+
+    .immio-landing-how__step {
+        align-items: flex-start;
+        text-align: left;
+    }
+
+}
+
 /* Feature cards */
 .immio-landing-features__grid {
     display: grid;

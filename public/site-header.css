@@ -1,0 +1,207 @@
+/*
+  Shared site header, used by the client SPA (index.html) and every
+  worker-rendered static page (Rule Guide). Self-contained so it works
+  identically with or without React hydration.
+*/
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  height: 68px;
+  background: rgba(255, 255, 255, 0.78);
+  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease;
+  isolation: isolate;
+  font-family: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+}
+
+.site-header.is-scrolled {
+  border-bottom-color: rgba(235, 235, 235, 0.9);
+}
+
+@media (prefers-color-scheme: dark) {
+  .site-header {
+    background: rgba(22, 24, 28, 0.78);
+  }
+
+  .site-header.is-scrolled {
+    border-bottom-color: rgba(43, 47, 54, 0.9);
+  }
+}
+
+.site-header__inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.site-header a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.site-header a:hover {
+  text-decoration: none;
+}
+
+.site-header__logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.site-header__logo-icon {
+  width: 36px;
+  height: 36px;
+  display: block;
+  flex-shrink: 0;
+}
+
+.site-header__logo-wordmark {
+  height: 20px;
+  width: auto;
+  display: block;
+}
+
+@media (prefers-color-scheme: dark) {
+  .site-header__logo-wordmark {
+    filter: invert(1);
+  }
+}
+
+.site-header__links {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.site-header a.site-header__link {
+  padding: 8px 8px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #6d6d6d;
+}
+
+.site-header a.site-header__link:hover {
+  opacity: 0.75;
+}
+
+.site-header a.site-header__cta {
+  margin-left: 8px;
+  padding: 0 21px;
+  height: 45px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  background: var(--immio-primary, #007aff);
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  box-shadow: 0 8px 22px rgba(0, 122, 255, 0.28);
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.site-header a.site-header__cta:hover {
+  opacity: 0.9;
+}
+
+.site-header__toggle {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 10px;
+  background: transparent;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: inherit;
+  color: #6d6d6d;
+}
+
+button.site-header__toggle:hover {
+  background: rgba(0, 0, 0, 0.06);
+  transform: none;
+  color: #6d6d6d;
+}
+
+.site-header__hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 20px;
+  height: 16px;
+}
+
+.site-header__hamburger-line {
+  display: block;
+  height: 2px;
+  width: 100%;
+  background: currentColor;
+  border-radius: 1px;
+  transition: transform 0.22s ease, opacity 0.18s ease;
+  transform-origin: center;
+}
+
+.site-header__toggle[aria-expanded="true"] .site-header__hamburger-line:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+
+.site-header__toggle[aria-expanded="true"] .site-header__hamburger-line:nth-child(2) {
+  opacity: 0;
+  transform: scaleX(0);
+}
+
+.site-header__toggle[aria-expanded="true"] .site-header__hamburger-line:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+@media (max-width: 900px) {
+  .site-header__toggle {
+    display: inline-flex;
+  }
+
+  .site-header a.site-header__cta {
+    display: none;
+  }
+
+  .site-header__links {
+    position: absolute;
+    top: 68px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 16px 24px 24px;
+    background: #ffffff;
+    display: none;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .site-header__links {
+      background: #16181c;
+    }
+  }
+
+  .site-header__links.is-open {
+    display: flex;
+  }
+}

@@ -1,0 +1,991 @@
+/*
+  Plain, hand-authored CSS for the /rules Rule Guide static pages.
+  Linked directly (no Vite build step) so worker-rendered HTML is styled
+  even with zero client JS. Token values below are kept in sync by hand
+  with src/react-app/index.css (--immio-primary etc.) — if the brand
+  palette changes there, update it here too. The site header itself lives
+  in /site-header.css, shared with the client SPA.
+*/
+
+:root {
+  --immio-primary: #007aff;
+  --immio-primary-hover: #0056cc;
+  --content-bg: #ffffff;
+  --content-text: #1a1a1a;
+  --content-text-muted: #a5a5a7;
+  --content-text-faint: #8a8f98;
+  --content-border: #e6e6e6;
+  --content-surface: #f3f4f6;
+  --content-callout-bg: #ebf4fb;
+  --content-callout-text: var(--content-text);
+  --immio-primary-container: #ebf4fb;
+  --content-max-width: 1200px;
+  --content-article-width: 680px;
+  --content-toc-width: 240px;
+  --site-header-height: 68px;
+  font-family: "Plus Jakarta Sans", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --content-bg: #16181c;
+    --content-text: #f2f3f5;
+    --content-text-muted: #a3abb5;
+    --content-text-faint: #7d848d;
+    --content-border: #2b2f36;
+    --content-surface: #1e2126;
+    --content-callout-bg: #17263d;
+    --content-callout-text: var(--immio-primary);
+    --immio-primary-container: #17263d;
+    color-scheme: dark;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+  No overflow-x:hidden on html/body: it forces overflow-y to compute to
+  "auto" per spec, which makes body its own scroll container and breaks
+  the header's position:sticky. Content widths are kept in bounds instead
+  via max-width:100% on individual elements (tables, article, etc).
+*/
+body {
+  background: var(--content-bg);
+  color: var(--content-text);
+  font-size: 15px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--immio-primary);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--immio-primary-hover);
+  text-decoration: underline;
+}
+
+:where(a, button, summary):focus-visible {
+  outline: 2px solid var(--immio-primary);
+  outline-offset: 2px;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.25;
+  font-weight: 700;
+  margin: 0 0 0.75rem 0;
+}
+
+p {
+  margin: 0 0 1rem 0;
+}
+
+/* Page shell — flex column so the footer sticks to the bottom on short pages. */
+.content {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Main / breadcrumbs / intro */
+
+.content-main {
+  flex: 1 0 auto;
+  width: 100%;
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+}
+
+.content-breadcrumbs ol {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin: 0 0 2rem 0;
+  padding: 0;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--content-text-faint);
+}
+
+.content-breadcrumbs li:not(:last-child)::after {
+  content: "/";
+  margin-left: 0.35rem;
+  color: var(--content-border);
+}
+
+.content-breadcrumbs a {
+  color: var(--content-text-faint);
+}
+
+.content-breadcrumbs a:hover {
+  color: var(--content-text);
+  text-decoration: none;
+}
+
+.content-breadcrumbs [aria-current="page"] {
+  color: var(--content-text);
+}
+
+.content-intro h1 {
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+}
+
+.content-intro p {
+  color: var(--content-text-muted);
+  max-width: 60ch;
+}
+
+.content-empty {
+  color: var(--content-text-muted);
+}
+
+/*
+  Catalog page's category switch — a sliding segmented control. All
+  category rule lists render server-side (only the .is-active one visible)
+  so everything is crawlable without JS. Before JS runs, the selected
+  button gets its own flat background (correct immediately, no flash);
+  once pageShell.ts's script marks the switch [data-enhanced], that static
+  background steps aside and the floating pill takes over, sliding between
+  selections.
+*/
+
+.content-type-switch-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.content-type-switch {
+  position: relative;
+  display: inline-flex;
+  gap: 0.25rem;
+  border-radius: 999px;
+  padding: 4px;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.content-search-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.5rem;
+  height: 3.5rem;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.content-search-button:hover {
+  background: var(--content-surface);
+}
+
+.content-search-button img {
+  display: block;
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.content-type-switch__pill {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  height: calc(100% - 8px);
+  width: 0;
+  border-radius: 999px;
+  background: var(--immio-primary-container);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.content-type-switch[data-enhanced] .content-type-switch__pill {
+  opacity: 1;
+  transition: transform 0.32s cubic-bezier(0.4, 0, 0.2, 1), width 0.32s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.content-type-switch__item {
+  position: relative;
+  z-index: 1;
+  background: none;
+  border: none;
+  border-radius: 999px;
+  padding: 0.5rem 1.1rem;
+  font-family: inherit;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--content-text-muted);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: color 0.2s ease;
+}
+
+.content-type-switch__item.is-selected {
+  color: var(--immio-primary);
+}
+
+.content-type-switch:not([data-enhanced]) .content-type-switch__item.is-selected {
+  background: var(--immio-primary-container);
+}
+
+.content-type-list {
+  display: none;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.content-type-list.is-active {
+  display: flex;
+}
+
+.content-type-list > li {
+  flex: 0 0 100%;
+}
+
+.content-rule-chip {
+  display: flex;
+  width: 100%;
+  padding: 1rem 1.5rem;
+  border-radius: 24px;
+  background: var(--content-surface);
+  color: var(--content-text);
+  font-size: 1.1rem;
+  font-weight: 550;
+  transition: background-color 0.15s ease;
+}
+
+.content-rule-chip:hover {
+  background: var(--content-border);
+  color: var(--content-text);
+  text-decoration: none;
+}
+
+.content-rule-chip__flag {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.content-rule-chip__content {
+  display: contents;
+}
+
+.content-rule-chip__title-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  row-gap: 0.2rem;
+}
+
+.content-rule-chip__title-row.has-flag {
+  grid-template-columns: 30px minmax(0, 1fr);
+  column-gap: 0.8rem;
+}
+
+.content-rule-chip__title-row.has-flag .content-rule-chip__flag {
+  grid-column: 1;
+  grid-row: 1;
+  align-self: center;
+}
+
+.content-rule-chip__title,
+.content-rule-chip__subtitle {
+  grid-column: 1;
+}
+
+.content-rule-chip__title-row.has-flag .content-rule-chip__title,
+.content-rule-chip__title-row.has-flag .content-rule-chip__subtitle {
+  grid-column: 2;
+}
+
+.content-rule-chip__subtitle {
+  color: var(--content-text-muted);
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+}
+
+/* Countries grid (/rules/countries) — 3 cols desktop, 2 compact, 1 mobile. */
+.content-country-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.content-country-grid[hidden],
+.content-search-results[hidden] {
+  display: none;
+}
+
+.content-country-search {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  width: 100%;
+  height: 3rem;
+  margin: 0 0 1.5rem;
+  padding: 0 1rem;
+  border: 0;
+  border-radius: 999px;
+  background: var(--content-surface);
+}
+
+.content-country-search img {
+  display: block;
+  width: 1.75rem;
+  height: 1.75rem;
+  flex-shrink: 0;
+}
+
+.content-country-search input {
+  width: 100%;
+  min-width: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: var(--content-text);
+  font: inherit;
+  font-size: 1rem;
+}
+
+.content-country-search input::-webkit-search-cancel-button {
+  appearance: none;
+}
+
+.content-country-search input::placeholder {
+  color: var(--content-text-muted);
+  opacity: 1;
+}
+
+.content-country-search__clear {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.75rem;
+  height: 1.75rem;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.content-country-search__clear[hidden] {
+  display: none;
+}
+
+.content-country-search__clear:hover {
+  background: var(--content-border);
+}
+
+.content-country-search__clear img {
+  width: 0.75rem;
+  height: 0.75rem;
+}
+
+@media (max-width: 767px) {
+  .content-country-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 479px) {
+  .content-country-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.content-country-card {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  height: 100%;
+  padding: 0.5rem 0.5rem;
+  border-radius: 20px;
+  color: var(--content-text);
+  transition: background-color 0.15s ease;
+}
+
+.content-country-card:hover {
+  background: var(--content-border);
+  color: var(--content-text);
+  text-decoration: none;
+}
+
+.content-country-card__flag {
+  display: block;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.content-country-card__body {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.content-country-card__name {
+  color: var(--content-text);
+  font-size: 1rem;
+  font-weight: 550;
+}
+
+.content-country-card__count {
+  color: var(--content-text-muted);
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+}
+
+/* Catalog / category card lists */
+
+.content-card-list {
+  list-style: none;
+  margin: 2rem 0 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.25rem;
+}
+
+.content-card {
+  border: 1px solid var(--content-border);
+  border-radius: 12px;
+  background: var(--content-surface);
+  transition: border-color 0.15s ease;
+}
+
+.content-card:hover {
+  border-color: var(--immio-primary);
+}
+
+.content-card > a {
+  display: block;
+  padding: 1.5rem;
+  color: inherit;
+}
+
+.content-card > a:hover {
+  text-decoration: none;
+}
+
+.content-card h2 {
+  font-size: 1.05rem;
+  margin-bottom: 0.5rem;
+}
+
+.content-card p {
+  color: var(--content-text-muted);
+  font-size: 0.875rem;
+  margin-bottom: 0.75rem;
+}
+
+.content-card__count {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--immio-primary);
+}
+
+.content-country-tag {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--immio-primary);
+  background: color-mix(in srgb, var(--immio-primary) 12%, transparent);
+  border-radius: 999px;
+  padding: 0.2rem 0.65rem;
+  margin-bottom: 0.75rem;
+}
+
+/*
+  Rule article layout. Article + TOC keep the original centering (article
+  reads as centered; TOC sits to its right). Back is layered in the left
+  gutter — same top row as breadcrumbs/TOC, sticky, without shifting the
+  article.
+*/
+
+.content-content {
+  min-width: 0;
+  max-width: var(--content-article-width);
+  margin: 0 auto;
+}
+
+.content-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 2.5rem;
+  align-items: start;
+}
+
+.content-back-row {
+  display: block;
+  margin-bottom: 1.5rem;
+}
+
+/*
+  Below this width there isn't enough room to both bias the layout right
+  (see margin-left below) and fit the TOC without overflowing — falls back
+  to the single-column layout (no in-page section nav, just Back + content) instead.
+*/
+@media (min-width: 1160px) {
+  .content-main--rule {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  /* Back and layout share one cell so Back sits in the left gutter
+     without taking a column that would shift the article. */
+  .content-back-row {
+    display: block;
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: start;
+    align-self: start;
+    position: sticky;
+    top: calc(var(--site-header-height) + 1rem);
+    z-index: 1;
+    margin-bottom: 0;
+    line-height: 1.4;
+  }
+
+  .content-layout {
+    grid-column: 1;
+    grid-row: 1;
+    grid-template-columns: minmax(0, var(--content-article-width)) minmax(200px, var(--content-toc-width));
+    column-gap: 2.5rem;
+    row-gap: 0;
+    /* Centers the article itself — not the wider article+TOC block. */
+    margin-left: calc(
+      (100% - var(--content-article-width) - 2.5rem - var(--content-toc-width)) / 2 + 2.5rem
+    );
+  }
+
+  .content-content .content-breadcrumbs ol {
+    line-height: 1.4;
+  }
+
+  .content-toc--desktop {
+    position: sticky;
+    top: calc(var(--site-header-height) + 1rem);
+  }
+
+  .content-toc--desktop .content-toc__list {
+    line-height: 1.4;
+  }
+}
+
+.content-article {
+  min-width: 0;
+  max-width: 100%;
+}
+
+/*
+  Content blocks fade + slide up one after another on load, matching the
+  landing page's hero fade-up (immio-landing-hero-fade-up). Pure CSS —
+  no JS needed since this is a static page.
+*/
+@keyframes content-fade-up {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 16px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.content-article > *,
+.content-catalog > * {
+  animation: content-fade-up 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.content-article > *:nth-child(1),
+.content-catalog > *:nth-child(1) {
+  animation-delay: 0s;
+}
+.content-article > *:nth-child(2),
+.content-catalog > *:nth-child(2) {
+  animation-delay: 0.08s;
+}
+.content-article > *:nth-child(3),
+.content-catalog > *:nth-child(3) {
+  animation-delay: 0.16s;
+}
+.content-article > *:nth-child(4),
+.content-catalog > *:nth-child(4) {
+  animation-delay: 0.24s;
+}
+.content-article > *:nth-child(5),
+.content-catalog > *:nth-child(5) {
+  animation-delay: 0.32s;
+}
+.content-article > *:nth-child(6),
+.content-catalog > *:nth-child(6) {
+  animation-delay: 0.4s;
+}
+.content-article > *:nth-child(7),
+.content-catalog > *:nth-child(7) {
+  animation-delay: 0.48s;
+}
+.content-article > *:nth-child(8),
+.content-catalog > *:nth-child(8) {
+  animation-delay: 0.56s;
+}
+.content-article > *:nth-child(9),
+.content-catalog > *:nth-child(9) {
+  animation-delay: 0.64s;
+}
+.content-article > *:nth-child(n + 10),
+.content-catalog > *:nth-child(n + 10) {
+  animation-delay: 0.72s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .content-article > *,
+  .content-catalog > * {
+    animation: none;
+  }
+}
+
+.content-article__header {
+  margin-bottom: 1.0rem;
+  padding-bottom: 0.0rem;
+}
+
+.content-article__header h1 {
+  font-size: clamp(1.75rem, 3.5vw, 2.25rem);
+  letter-spacing: -0.02em;
+}
+
+.content-article__header--with-flag {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.content-article__header--with-flag h1 {
+  margin-bottom: 0;
+}
+
+.content-article__flag {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.content-article__meta {
+  font-size: 0.85rem;
+  color: var(--content-text-muted);
+  margin-bottom: 0.5rem;
+}
+
+/* Callout box — authored in markdown as :::callout … ::: */
+
+.content-callout {
+  background: var(--content-callout-bg);
+  color: var(--content-callout-text);
+  border-radius: 20px;
+  padding: 1.1rem 1.4rem;
+  margin: 0 0 1.75rem;
+}
+
+.content-callout > :last-child {
+  margin-bottom: 0;
+}
+
+.content-callout p {
+  margin: 0;
+  font-size: 0.925rem;
+  line-height: 1.6;
+}
+
+.content-callout p + p {
+  margin-top: 0.75rem;
+}
+
+.content-article section {
+  margin: 2rem 0;
+  /* TOC links target the <section>, not the h2 — offset past the sticky header (68px) + breathing room. */
+  scroll-margin-top: calc(var(--site-header-height) + 1rem);
+}
+
+.content-article section h2 {
+  font-size: 1.2rem;
+}
+
+.content-article p {
+  font-size: 0.925rem;
+}
+
+.content-article ul {
+  padding-left: 1.25rem;
+}
+
+.content-article li {
+  margin-bottom: 0.4rem;
+  font-size: 0.925rem;
+}
+
+/* Numbered lists — number badge in --immio-primary-container, digit in --immio-primary. */
+.content-article ol {
+  list-style: none;
+  counter-reset: rule-ol;
+  padding-left: 0;
+}
+
+.content-article ol > li {
+  counter-increment: rule-ol;
+  position: relative;
+  padding-left: 2.25rem;
+  min-height: 1.5rem;
+}
+
+.content-article ol > li::before {
+  content: counter(rule-ol);
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background: var(--immio-primary-container);
+  color: var(--immio-primary);
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+/* Markdown tables — full content width, single rounded-corner card, row separators only. */
+.content-article table {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 0 0 1.5rem;
+  border: 1px solid var(--content-border);
+  border-radius: 20px;
+  overflow: hidden;
+  font-size: 0.875rem;
+}
+
+.content-article th,
+.content-article td {
+  padding: 0.7rem 1rem;
+  text-align: left;
+}
+
+.content-article th {
+  background: var(--content-surface);
+  color: var(--content-text-muted);
+  font-weight: 500;
+}
+
+.content-article td {
+  color: var(--content-text);
+  font-weight: 400;
+  border-top: 1px solid var(--content-border);
+}
+
+.content-article blockquote {
+  margin: 0 0 1rem 0;
+  padding: 0.25rem 1rem;
+  border-left: 3px solid var(--immio-primary);
+  color: var(--content-text-muted);
+}
+
+.content-article code {
+  background: var(--content-surface);
+  border-radius: 4px;
+  padding: 0.1rem 0.35rem;
+  font-size: 0.85em;
+}
+
+/* Back link — used both as the sticky left column (desktop) and inside the mobile TOC drawer. */
+
+.content-back-link {
+  text-align: left;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--immio-primary);
+  margin-bottom: 1rem;
+}
+
+.content-back-link:hover {
+  color: var(--immio-primary-hover);
+  text-decoration: none;
+}
+
+/* Table of contents — breadcrumb-style typography, no header label */
+
+.content-toc__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.content-toc__list li {
+  position: relative;
+}
+
+.content-toc__list a {
+  position: relative;
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--content-text-faint);
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.content-toc__list a:hover {
+  color: var(--content-text);
+  text-decoration: none;
+}
+
+/* Scroll-spy active state — set by the inline script in pageShell.ts. */
+.content-toc__list a.is-active {
+  color: var(--content-text);
+  transform: translateX(12px);
+}
+
+.content-toc__list a.is-active::before {
+  content: "•";
+  position: absolute;
+  left: -14px;
+  color: var(--content-text);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .content-toc__list a {
+    transition-duration: 0.01ms;
+  }
+}
+
+.content-toc--desktop {
+  display: none;
+}
+
+@media (min-width: 1160px) {
+  .content-toc--desktop {
+    display: block;
+  }
+}
+
+/* FAQ accordion itself is the shared .faq-accordion component (public/faq-accordion.css). */
+
+/* Related rules */
+
+.content-related {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--content-border);
+}
+
+.content-related h2 {
+  font-size: 1.2rem;
+}
+
+.content-related ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 1rem;
+}
+
+.content-related li {
+  border: 1px solid var(--content-border);
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+}
+
+.content-related p {
+  color: var(--content-text-muted);
+  font-size: 0.875rem;
+  margin: 0.25rem 0 0 0;
+}
+
+.content-article .content-disclaimer {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--content-border);
+  color: var(--content-text-muted);
+  font-size: 0.8rem;
+  line-height: 1.6;
+}
+
+.content-article .content-disclaimer strong {
+  color: var(--content-text);
+}
+
+@media (max-width: 480px) {
+  .content-main {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .content-article__header--with-flag {
+    gap: 1rem;
+  }
+
+  .content-article__flag {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}

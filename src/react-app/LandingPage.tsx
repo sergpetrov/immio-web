@@ -1,31 +1,18 @@
-import type {CSSProperties, MouseEvent} from "react";
+import type {CSSProperties} from "react";
 import {useEffect, useRef, useState} from "react";
-import {Link} from "react-router-dom";
+import {IMMIO_APP_STORE_URL, IMMIO_GOOGLE_PLAY_URL, getAppDownloadUrlForUserAgent} from "./appStoreLinks.ts";
+import FaqAccordion from "./components/FaqAccordion.tsx";
+import SiteFooter from "./components/SiteFooter.tsx";
+import SiteHeader from "./components/SiteHeader.tsx";
 import {LandingHeroVisual} from "./LandingHeroVisual.tsx";
 import "./LandingPage.css";
-
-/** Tax Residency Tracker – Immio (US App Store). */
-const IMMIO_APP_STORE_URL = "https://apps.apple.com/gb/app/tax-residency-tracker-immio/id6747927306";
-const IMMIO_GOOGLE_PLAY_URL = "https://play.google.com/store/apps/details?id=com.immio.app";
 
 const getDeviceAppDownloadUrl = () => {
     if (typeof navigator === "undefined") {
         return IMMIO_APP_STORE_URL;
     }
 
-    const userAgent = navigator.userAgent || "";
-    const isAndroid = /Android/i.test(userAgent);
-    const isAppleDevice = /iPhone|iPad|iPod|Macintosh/i.test(userAgent);
-
-    if (isAndroid) {
-        return IMMIO_GOOGLE_PLAY_URL;
-    }
-
-    if (isAppleDevice) {
-        return IMMIO_APP_STORE_URL;
-    }
-
-    return IMMIO_APP_STORE_URL;
+    return getAppDownloadUrlForUserAgent(navigator.userAgent || "");
 };
 
 type TrackerTiltStyle = CSSProperties & {
@@ -195,26 +182,10 @@ const PLANS: Plan[] = [
 
 /** Immio marketing landing (Tax Residency Tracker). */
 export default function LandingPage() {
-    const [navOpen, setNavOpen] = useState(false);
-    const [navScrolled, setNavScrolled] = useState(false);
-    const [openFaq, setOpenFaq] = useState<number | null>(null);
     const [heroTitleReady, setHeroTitleReady] = useState(false);
     const [trackerAnimationPlayed, setTrackerAnimationPlayed] = useState(false);
     const trackerCardRef = useRef<HTMLElement | null>(null);
     const appDownloadUrl = getDeviceAppDownloadUrl();
-
-    const handleNavAnchorClick = (event: MouseEvent<HTMLAnchorElement>, sectionId: "features" | "how-it-works" | "faq") => {
-        event.preventDefault();
-        setNavOpen(false);
-
-        const target = document.getElementById(sectionId);
-        if (!target) {
-            return;
-        }
-
-        target.scrollIntoView({behavior: "smooth", block: "start"});
-        window.history.pushState(null, "", `#${sectionId}`);
-    };
 
     useEffect(() => {
         let isMounted = true;
@@ -285,20 +256,6 @@ export default function LandingPage() {
     }, []);
 
     useEffect(() => {
-        const syncNavScrolled = () => {
-            const scrollTop = window.scrollY || document.documentElement.scrollTop;
-            setNavScrolled(scrollTop > 0);
-        };
-
-        syncNavScrolled();
-        window.addEventListener("scroll", syncNavScrolled, {passive: true});
-
-        return () => {
-            window.removeEventListener("scroll", syncNavScrolled);
-        };
-    }, []);
-
-    useEffect(() => {
         const trackerCard = trackerCardRef.current;
 
         if (!trackerCard || trackerAnimationPlayed) {
@@ -330,74 +287,7 @@ export default function LandingPage() {
 
     return (
         <div className="immio-landing">
-            <header className={`immio-landing-nav${navScrolled ? " is-scrolled" : ""}`}>
-                <div className="immio-landing-nav__inner">
-                    <a
-                        className="immio-landing-logo"
-                        href="/"
-                        onClick={(event) => {
-                            event.preventDefault();
-                            setNavOpen(false);
-                            window.history.replaceState(null, "", "/");
-                            window.scrollTo({top: 0, behavior: "smooth"});
-                        }}
-                        aria-label="Immio home"
-                    >
-                        <img className="immio-landing-logo__icon" src="/logo.svg" alt="" width={42} height={42}/>
-                        <img className="immio-landing-logo__wordmark" src="/logo_name.svg" alt="Immio"/>
-                    </a>
-                    <button
-                        type="button"
-                        className="immio-landing-nav__toggle"
-                        aria-expanded={navOpen}
-                        aria-controls="immio-landing-nav-menu"
-                        aria-label={navOpen ? "Close menu" : "Open menu"}
-                        onClick={() => setNavOpen((o) => !o)}
-                    >
-            <span className="immio-landing-nav__hamburger" aria-hidden="true">
-              <span className="immio-landing-nav__hamburger-line"/>
-              <span className="immio-landing-nav__hamburger-line"/>
-              <span className="immio-landing-nav__hamburger-line"/>
-            </span>
-                    </button>
-                    <nav
-                        id="immio-landing-nav-menu"
-                        className={`immio-landing-nav__links${navOpen ? " is-open" : ""}`}
-                        aria-label="Primary"
-                    >
-                        <a
-                            className="immio-landing-nav__link"
-                            href="#features"
-                            onClick={(event) => handleNavAnchorClick(event, "features")}
-                        >
-                            Features
-                        </a>
-                        <a
-                            className="immio-landing-nav__link"
-                            href="#how-it-works"
-                            onClick={(event) => handleNavAnchorClick(event, "how-it-works")}
-                        >
-                            How it works
-                        </a>
-                        <a
-                            className="immio-landing-nav__link"
-                            href="#faq"
-                            onClick={(event) => handleNavAnchorClick(event, "faq")}
-                        >
-                            FAQ
-                        </a>
-                        <a
-                            className="immio-landing-nav__cta"
-                            href={appDownloadUrl}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            onClick={() => setNavOpen(false)}
-                        >
-                            Get the app
-                        </a>
-                    </nav>
-                </div>
-            </header>
+            <SiteHeader mode="landing" appDownloadUrl={appDownloadUrl}/>
 
             <main id="top">
                 <section className="immio-landing-hero" aria-labelledby="immio-landing-hero-heading">
@@ -531,37 +421,11 @@ export default function LandingPage() {
                             All you want to know
                         </h2>
                     </div>
-                    <div className="immio-landing-faq__list">
-                        {FAQ_ITEMS.map((item, index) => {
-                            const isOpen = openFaq === index;
-                            const triggerId = `faq-trigger-${index}`;
-                            const panelId = `faq-panel-${index}`;
-
-                            return (
-                                <div key={item.q} className={`immio-landing-faq__item${isOpen ? " is-open" : ""}`}>
-                                    <button
-                                        type="button"
-                                        id={triggerId}
-                                        className="immio-landing-faq__trigger"
-                                        aria-expanded={isOpen}
-                                        aria-controls={panelId}
-                                        onClick={() => setOpenFaq(isOpen ? null : index)}
-                                    >
-                                        <span>{item.q}</span>
-                                        <span className="immio-landing-faq__icon" aria-hidden={true}/>
-                                    </button>
-                                    <div
-                                        id={panelId}
-                                        className="immio-landing-faq__panel"
-                                        role="region"
-                                        aria-labelledby={triggerId}
-                                        aria-hidden={!isOpen}
-                                    >
-                                        <div className="immio-landing-faq__panel-inner">{item.a}</div>
-                                    </div>
-                                </div>
-                            );
-                        })}
+                    <div className="immio-landing-faq-wrap">
+                        <FaqAccordion
+                            idPrefix="landing"
+                            items={FAQ_ITEMS.map((item) => ({question: item.q, answer: item.a}))}
+                        />
                     </div>
                 </section>
 
@@ -642,26 +506,7 @@ export default function LandingPage() {
         </section>*/}
             </main>
 
-            <footer className="immio-landing-footer">
-                <div className="immio-landing-footer__inner">
-                    <div>
-                        <p className="immio-landing-footer__contact-label">Contact us</p>
-                        <a className="immio-landing-footer__email" href="mailto:support@immio.app">
-                            support@immio.app
-                        </a>
-                    </div>
-                    <div className="immio-landing-footer__cols">
-                        <div className="immio-landing-footer__col">
-                            <Link className="immio-landing-footer__link" to="/terms">
-                                Terms
-                            </Link>
-                            <Link className="immio-landing-footer__link" to="/privacy">
-                                Privacy Policy
-                            </Link>
-                        </div>
-                    </div>
-                </div>
-            </footer>
+            <SiteFooter/>
         </div>
     );
 }

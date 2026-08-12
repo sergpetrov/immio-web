@@ -1,0 +1,131 @@
+/*
+  Shared FAQ accordion, used by the landing page and every worker-rendered
+  Rule Guide page. Self-contained tokens (not scoped under .immio-landing)
+  so it renders identically wherever it's used; adds a dark-mode variant
+  for Rule Guide pages since the landing page itself is light-only.
+*/
+
+:root {
+  --faq-bg: #f8f9fb;
+  --faq-text: #000000;
+  --faq-text-muted: #6d6d6d;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --faq-bg: #1e2126;
+    --faq-text: #f2f3f5;
+    --faq-text-muted: #a3abb5;
+  }
+}
+
+.faq-accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.faq-accordion__item {
+  border-radius: 36px;
+  background: var(--faq-bg);
+  overflow: hidden;
+}
+
+.faq-accordion__trigger {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 24px;
+  margin: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+  text-align: left;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  color: var(--faq-text);
+}
+
+.faq-accordion__trigger:hover {
+  background: transparent;
+  color: var(--faq-text);
+  transform: none;
+}
+
+.faq-accordion__icon {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+
+.faq-accordion__icon::before,
+.faq-accordion__icon::after {
+  content: "";
+  position: absolute;
+  background: var(--faq-text);
+  border-radius: 1px;
+}
+
+.faq-accordion__icon::before {
+  width: 12px;
+  height: 2px;
+  top: 9px;
+  left: 4px;
+}
+
+.faq-accordion__icon::after {
+  width: 2px;
+  height: 12px;
+  left: 9px;
+  top: 4px;
+  transition: transform 0.32s cubic-bezier(0.33, 1, 0.68, 1);
+}
+
+.faq-accordion__item.is-open .faq-accordion__icon::after {
+  transform: scaleY(0);
+}
+
+.faq-accordion__panel {
+  display: grid;
+  grid-template-rows: 0fr;
+  padding: 0 24px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  transition: grid-template-rows 0.36s cubic-bezier(0.33, 1, 0.68, 1);
+}
+
+.faq-accordion__item.is-open .faq-accordion__panel {
+  grid-template-rows: 1fr;
+}
+
+.faq-accordion__panel-inner {
+  overflow: hidden;
+  min-height: 0;
+  padding-bottom: 0;
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--faq-text-muted);
+  transition: padding-bottom 0.36s cubic-bezier(0.33, 1, 0.68, 1);
+}
+
+.faq-accordion__item.is-open .faq-accordion__panel-inner {
+  padding-bottom: 24px;
+}
+
+.faq-accordion__panel-inner p:last-child {
+  margin-bottom: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .faq-accordion__panel,
+  .faq-accordion__panel-inner,
+  .faq-accordion__icon::after {
+    transition-duration: 0.01ms;
+  }
+}

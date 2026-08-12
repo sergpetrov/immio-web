@@ -3,6 +3,7 @@ import { createElement, type ComponentType } from "react";
 import { renderToStaticMarkup } from "react-dom/server";
 import Privacy from "../react-app/Privacy";
 import Terms from "../react-app/Terms";
+import content from "./content";
 
 const app = new Hono();
 
@@ -42,5 +43,7 @@ app.on(["GET", "HEAD"], "/privacy", (c) => privacyHandler(c.req.raw));
 app.on(["GET", "HEAD"], "/privacy/", (c) => privacyHandler(c.req.raw));
 app.on(["GET", "HEAD"], "/terms", (c) => termsHandler(c.req.raw));
 app.on(["GET", "HEAD"], "/terms/", (c) => termsHandler(c.req.raw));
+
+app.route("/", content);
 
 export default app;

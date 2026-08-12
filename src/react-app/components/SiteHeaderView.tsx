@@ -44,20 +44,6 @@ export default function SiteHeaderView({
           <img className="site-header__logo-icon" src="/logo.svg" alt="" width={36} height={36} />
           <img className="site-header__logo-wordmark" src="/logo_name.svg" alt="Immio" />
         </a>
-        <button
-          type="button"
-          className="site-header__toggle"
-          aria-expanded={navOpen}
-          aria-controls="site-header-menu"
-          aria-label={navOpen ? "Close menu" : "Open menu"}
-          onClick={onToggleMenu}
-        >
-          <span className="site-header__hamburger" aria-hidden="true">
-            <span className="site-header__hamburger-line" />
-            <span className="site-header__hamburger-line" />
-            <span className="site-header__hamburger-line" />
-          </span>
-        </button>
         <nav id="site-header-menu" className={`site-header__links${navOpen ? " is-open" : ""}`} aria-label="Primary">
           {NAV_LINKS.map((link) => (
             <a
@@ -69,6 +55,8 @@ export default function SiteHeaderView({
               {link.label}
             </a>
           ))}
+        </nav>
+        <div className="site-header__actions">
           <a
             className="site-header__cta"
             href={appDownloadUrl}
@@ -78,7 +66,21 @@ export default function SiteHeaderView({
           >
             Get the app
           </a>
-        </nav>
+          <button
+            type="button"
+            className="site-header__toggle"
+            aria-expanded={navOpen}
+            aria-controls="site-header-menu"
+            aria-label={navOpen ? "Close menu" : "Open menu"}
+            onClick={onToggleMenu}
+          >
+            <span className="site-header__hamburger" aria-hidden="true">
+              <span className="site-header__hamburger-line" />
+              <span className="site-header__hamburger-line" />
+              <span className="site-header__hamburger-line" />
+            </span>
+          </button>
+        </div>
       </div>
     </header>
   );

@@ -1,4 +1,7 @@
-import type { TocHeading } from "../types";
+export interface TocHeading {
+  id: string;
+  title: string;
+}
 
 function TocLinks({ headings }: { headings: TocHeading[] }) {
   return (

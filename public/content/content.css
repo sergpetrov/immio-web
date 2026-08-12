@@ -624,6 +624,11 @@ p {
   max-width: 100%;
 }
 
+/* Keeps the final legal section inside the scroll-spy's activation area at the page bottom. */
+.content-legal-article > section:last-child {
+  padding-bottom: 40vh;
+}
+
 /*
   Content blocks fade + slide up one after another on load, matching the
   landing page's hero fade-up (immio-landing-hero-fade-up). Pure CSS —

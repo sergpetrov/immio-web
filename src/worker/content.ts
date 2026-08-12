@@ -3,6 +3,8 @@ import { createElement } from "react";
 import { renderToStaticMarkup } from "react-dom/server";
 
 import { getAppDownloadUrlForUserAgent } from "../react-app/appStoreLinks";
+import LegalPage from "../modules/content/legal/LegalPage";
+import { getLegalDocument } from "../modules/content/legal/registry";
 import {
   buildCatalogBreadcrumbs,
   buildCategoryBreadcrumbs,
@@ -150,6 +152,37 @@ function renderRuleDocument(origin: string, appDownloadUrl: string, category: Ca
 }
 
 const catalogHandler = htmlHandler(renderCatalogDocument);
+
+function renderLegalDocument(origin: string, appDownloadUrl: string, slug: "privacy" | "terms"): string {
+  const document = getLegalDocument(slug);
+  if (!document) {
+    throw new Error(`Missing legal document: ${slug}`);
+  }
+
+  const pathname = slug === "privacy" ? "/privacy" : "/terms";
+  const description =
+    slug === "privacy"
+      ? "Learn how Immio handles personal information and anonymous app data."
+      : "Read the terms that apply to using the Immio app.";
+  const bodyHtml = renderToStaticMarkup(createElement(LegalPage, { document, appDownloadUrl }));
+
+  return renderDocument({
+    title: `${document.headline} | Immio`,
+    description,
+    canonical: new URL(pathname, origin).toString(),
+    jsonLd: [renderJsonLd(buildWebPageJsonLd({ origin, pathname, title: document.headline, description }))],
+    bodyHtml,
+  });
+}
+
+const privacyHandler = htmlHandler((origin, appDownloadUrl) => renderLegalDocument(origin, appDownloadUrl, "privacy"));
+const termsHandler = htmlHandler((origin, appDownloadUrl) => renderLegalDocument(origin, appDownloadUrl, "terms"));
+
+content.on(["GET", "HEAD"], "/privacy", (c) => privacyHandler(c.req.raw));
+content.on(["GET", "HEAD"], "/privacy/", (c) => privacyHandler(c.req.raw));
+content.on(["GET", "HEAD"], "/terms", (c) => termsHandler(c.req.raw));
+content.on(["GET", "HEAD"], "/terms/", (c) => termsHandler(c.req.raw));
+
 content.on(["GET", "HEAD"], "/rules", (c) => catalogHandler(c.req.raw));
 content.on(["GET", "HEAD"], "/rules/", (c) => catalogHandler(c.req.raw));
 

@@ -5,7 +5,7 @@ import { getPlaceFlagId, getPlaceForRule } from "../registry";
 import type { Category, RuleDoc } from "../types";
 import Breadcrumbs from "./Breadcrumbs";
 import FaqSection from "./FaqSection";
-import TableOfContents from "./TableOfContents";
+import TableOfContents from "../../components/TableOfContents";
 
 function formatMonthYear(iso: string): string {
   const date = new Date(iso);

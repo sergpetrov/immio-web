@@ -12,7 +12,7 @@ import type { RuleDoc, RulePlace } from "./types";
 // Every content/rules/*.md file, inlined as raw text at build time. This
 // registry only runs in worker-imported modules, so markdown/YAML parsing
 // never ends up in the client bundle.
-const rawContentFiles = import.meta.glob("../../../../content/rules/*.md", {
+const rawContentFiles = import.meta.glob("../../../../content/rules/**/*.md", {
   eager: true,
   query: "?raw",
   import: "default",

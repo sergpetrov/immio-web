@@ -84,7 +84,7 @@ the practical payoff is mainly eligibility for a Tax Residency Certificate.
 
 ## If you get this rule wrong
 
-Getting this wrong doesn't create a UAE tax bill, since the UAE has no personal income tax. It does mean a foreign tax authority can reject your Tax Residency Certificate and refuse treaty relief. Without it, that country applies its full domestic withholding rate on income you expected to be taxed at a reduced rate.
+Getting this wrong doesn't create a UAE tax bill, since the UAE has no personal income tax. It does mean the FTA can reject your Tax Residency Certificate application by cross-checking your claimed days against your immigration records — and without a valid certificate, a foreign tax authority can refuse treaty relief and apply its full withholding rate instead. **Professional tax advice is strongly recommended in situations like this.**
 
 ## Examples
 

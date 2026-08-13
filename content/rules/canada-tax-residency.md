@@ -89,7 +89,7 @@ nonresident, generally taxed only on Canadian-source income.
 
 ## If you get this rule wrong
 
-Getting your residency status wrong means you may owe back taxes, interest, and penalties on income Canada should have taxed. If you met the factual or deemed residency test but filed as a nonresident, the Canada Revenue Agency can assess your worldwide income retroactively. Correcting the mistake yourself before it's discovered generally leads to a lighter outcome than being caught first.
+Getting your residency status wrong and misreporting income risks a gross negligence penalty of 50% of the extra tax owing, on top of the tax and interest itself. The Canada Revenue Agency's Voluntary Disclosures Program can waive that penalty and reduce interest by up to 75% for a genuine, voluntary correction. **Professional tax advice is strongly recommended in situations like this.**
 
 ## Examples
 

@@ -85,7 +85,7 @@ A visa-based exemption can remove this tax entirely for some long-term residents
 
 ## If you get this rule wrong
 
-Getting your residency status wrong means you may owe back taxes, interest, and penalties on foreign-sourced income Thailand should have taxed once you brought it into the country. If you met the 180-day test but treated remitted foreign income as exempt anyway, Thailand's Revenue Department can assess it retroactively using immigration and banking records. Correcting the mistake yourself before it's discovered generally leads to a lighter outcome than being caught first.
+Getting your residency status wrong and underpaying tax on remitted foreign income can trigger a fine equal to the tax owed, doubling to twice that in more serious assessment cases, plus a surcharge of 1.5% for every month it stays unpaid. The Revenue Department can waive or reduce that fine at its discretion for a genuine, voluntary correction. **Professional tax advice is strongly recommended in situations like this.**
 
 ## Examples
 

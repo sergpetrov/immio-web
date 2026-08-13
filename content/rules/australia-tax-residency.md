@@ -91,7 +91,7 @@ all four makes you a nonresident, generally taxed only on Australian-source inco
 
 ## If you get this rule wrong
 
-Getting your residency status wrong means you may owe back taxes, interest, and penalties on income Australia should have taxed. If you met any of the four residency tests but filed as a nonresident, the Australian Taxation Office can assess your worldwide income retroactively. Correcting the mistake yourself before it's discovered generally leads to a lighter outcome than being caught first.
+Getting your residency status wrong risks a shortfall penalty on the tax you should have paid, starting at 25% for a genuine mistake and rising to 75% if the ATO decides you knowingly ignored the law. A voluntary disclosure can cut that penalty substantially, by up to 80%. **Professional tax advice is strongly recommended in situations like this.**
 
 ## Examples
 

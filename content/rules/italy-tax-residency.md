@@ -109,7 +109,7 @@ flat-tax regime for high-net-worth new residents — the two can't be combined.
 
 ## If you get this rule wrong
 
-Getting your residency status wrong means you may owe back taxes, interest, and penalties on income Italy should have taxed. If you met any of the four residency tests but filed as a nonresident, the Agenzia delle Entrate can assess your worldwide income retroactively, and the burden of proof runs against citizens who relocated to a low-tax jurisdiction. Correcting the mistake yourself before it's discovered generally leads to a lighter outcome than being caught first.
+Getting your residency status wrong and omitting foreign income you should have reported carries a penalty of 90% to 180% of the extra tax owed, increased by a third since the income is foreign-sourced — or a flat 120% if you never filed at all. A voluntary correction through ravvedimento operoso reduces this substantially, down to a tenth of the penalty if made within 30 days. **Professional tax advice is strongly recommended in situations like this.**
 
 ## Examples
 

@@ -98,7 +98,7 @@ change how part of an arrival year is treated.
 
 ## If you get this rule wrong
 
-Getting your residency status wrong means you may owe back taxes, penalties, and interest on income the US should have taxed. If you met the SPT but filed as a nonresident, the IRS can assess your worldwide income retroactively and disallow treaty benefits for that year. Meeting the SPT can also trigger FBAR reporting on foreign accounts, and missing that carries its own separate penalties.
+Getting your residency status wrong risks an accuracy-related penalty of 20% of the underpaid tax, or 75% if the IRS treats it as fraud. Residency mistakes usually surface through unreported foreign accounts, where a willful failure to report carries a penalty of 50% of the account balance for each year involved. **Professional tax advice is strongly recommended in situations like this.**
 
 ## Examples
 

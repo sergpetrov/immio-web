@@ -87,7 +87,7 @@ all keep nonresident status even past six months, as long as they don't intend t
 
 ## If you get this rule wrong
 
-Getting your residency status wrong means you may owe back taxes, interest, and penalties on income Turkey should have taxed. If you met the domicile or six-month test but filed as a nonresident, Turkey's Revenue Administration can assess your worldwide income retroactively. Correcting the mistake yourself before it's discovered generally leads to a lighter outcome than being caught first.
+Getting your residency status wrong and understating tax typically triggers a penalty equal to the tax lost, rising to three times that if it's treated as fraud. Turkey increasingly detects this through FATCA and CRS data-sharing with other countries, not just domestic audits, though a voluntary pişmanlık (repentance) disclosure can still waive the penalty entirely. **Professional tax advice is strongly recommended in situations like this.**
 
 ## Examples
 

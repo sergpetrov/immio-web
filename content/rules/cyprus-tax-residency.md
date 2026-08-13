@@ -98,7 +98,7 @@ either the 183-day or 60-day rule doesn't grant it automatically.
 
 ## If you get this rule wrong
 
-Getting this wrong under the 60-day rule is sharper than most, because a single lapsed condition can disqualify your entire year. If your Cyprus job, business, or tenancy lapses mid-year, residency is lost retroactively back to 1 January, not just from that date. That exposes you to back taxes and a challenged Tax Residency Certificate, including any non-dom exemptions already claimed.
+Getting this wrong under the 60-day rule is sharper than most, since a single lapsed condition can disqualify your entire year retroactively back to 1 January. That means back taxes, a late-payment penalty of 5% (10% if still unpaid two months later), and a challenged Tax Residency Certificate — and the Tax Department can reach back six years to raise it, or twelve for fraud. **Professional tax advice is strongly recommended in situations like this.**
 
 ## Examples
 

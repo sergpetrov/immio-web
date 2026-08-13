@@ -114,7 +114,7 @@ handful of connections to the UK can tip a moderate day count into residency.
 
 ## If you get this rule wrong
 
-Getting your residence status wrong means you may owe back taxes, interest, and penalties on income the UK should have taxed. If you should have been resident under the SRT but filed as a non-resident, HMRC can assess your worldwide income retroactively. The penalty depends on whether the mistake was careless or deliberate, and correcting it yourself first usually means a lighter one.
+Getting your residence status wrong exposes you to a penalty on top of the tax and interest owed, ranging from 30% for a careless mistake to 100% if it's deliberate and concealed. Because residency errors usually involve offshore income, HMRC's stricter Failure to Correct regime often applies instead, with penalties starting at 100% of the unpaid tax and reaching 200% in the worst cases. **Professional tax advice is strongly recommended in situations like this.**
 
 ## Examples
 

@@ -87,7 +87,7 @@ still be found resident if their personal and economic life is clearly centred i
 
 ## If you get this rule wrong
 
-Getting your residency status wrong means you may owe back taxes, interest, and penalties on income Poland should have taxed. If you met the vital-interests or 183-day test but filed as a nonresident, Poland's National Revenue Administration (KAS) can assess your worldwide income retroactively. Correcting the mistake yourself before it's discovered generally leads to a lighter outcome than being caught first.
+Getting your residency status wrong exposes you to the standard back taxes and interest. Underreported income that Poland's National Revenue Administration can't trace to a legitimate source risks a flat 75% tax under the undisclosed-income rules, well above ordinary rates — though a voluntary czynny żal (active regret) disclosure can still avoid criminal liability if you also pay what's owed. **Professional tax advice is strongly recommended in situations like this.**
 
 ## Examples
 

@@ -92,7 +92,7 @@ following 4 years, unless they can show a genuine reason such as temporary work 
 
 ## If you get this rule wrong
 
-Getting your residency status wrong means you may owe back taxes, interest, and penalties on income Portugal should have taxed. If you met the 183-day or habitual-home test but filed as a nonresident, the Autoridade Tributária can assess your worldwide income retroactively. Fines scale with how serious the infraction is judged to be, though correcting it yourself before you're caught earns a significant reduction.
+Getting your residency status wrong and misreporting income can trigger a fine under Portugal's general tax-infractions code, with the amount depending on whether the error was negligent or deliberate. A prompt correction within 30 days of the deadline is treated far more leniently, cutting the fine to a small fraction of the legal minimum. **Professional tax advice is strongly recommended in situations like this.**
 
 ## Examples
 

@@ -98,7 +98,7 @@ Spanish tax resident, only how your income is taxed once you are.
 
 ## If you get this rule wrong
 
-Filing as a nonresident when you were actually a Spanish tax resident means you'll owe back taxes on your worldwide income for those years. Agencia Tributaria can also assess penalties and interest on top of the unpaid tax, plus a surcharge for filing late. Correcting it yourself shortly after a genuine change of residence can avoid these penalties and interest — but that window closes once they catch it first.
+Filing as a nonresident when you were actually a Spanish tax resident means back taxes on your worldwide income, plus a penalty of 50% to 150% of the unpaid tax depending on how Agencia Tributaria classifies the infraction. A simple late filing is treated more lightly than a deliberate misstatement — just a surcharge of 1% per month late, capped at 15% after a year. **Professional tax advice is strongly recommended in situations like this.**
 
 ## Examples
 

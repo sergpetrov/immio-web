@@ -27,17 +27,20 @@ to those for full legal detail) and not a rewrite of a competitor's page in diff
 
 ## 1. Output
 
-Generate or update exactly one file:
+Generate or update exactly one file, in the subfolder matching its category:
 
 ```text
-content/rules/{rule-slug}.md
+content/rules/{category}/{rule-slug}.md
 ```
 
-Markdown body + YAML frontmatter, following the schema in `src/modules/content/rules/types.ts`
-and validated by `src/modules/content/rules/validate.ts`. Do not create a separate TSX page, and
-do not put article content inside React components — the rendering pipeline
-(`import.meta.glob` in `registry.ts`, server-side rendering in `src/worker/content.ts`) already
-handles any file dropped into `content/rules/`.
+`{category}` is `tax`, `travel`, or `immigration` — matching the article's frontmatter `category`
+field. Markdown body + YAML frontmatter, following the schema in
+`src/modules/content/rules/types.ts` and validated by `src/modules/content/rules/validate.ts`. Do
+not create a separate TSX page, and do not put article content inside React components — the
+rendering pipeline (`import.meta.glob("**/*.md")` in `registry.ts`, server-side rendering in
+`src/worker/content.ts`) already handles any file dropped anywhere under `content/rules/`. File
+location is purely organizational — routing, categorization, and display all come from the
+frontmatter (`id`, `category`, `place`), never from the file path.
 
 ---
 
@@ -125,7 +128,7 @@ corrected.
 Write for an intelligent reader who is not a tax lawyer or immigration specialist. Use plain
 English. Prefer "You may be a resident if..." over "An individual shall be deemed resident
 where...". Explain specialist terminology the first time it appears. Keep sentences short — see
-the 35-word ceiling in section 19. Use headings, lists, tables, and examples; don't let the article
+the 35-word ceiling in section 17. Use headings, lists, tables, and examples; don't let the article
 read like an AI-generated legal document.
 
 **No act, decision, code, law-by-number, article-by-number, or schedule name anywhere in the
@@ -222,6 +225,20 @@ next.
 3. **A short flag that exceptions exist**, without detailing them (e.g. "A special regime can
    change the outcome for some newcomers").
 
+**Don't open with a meta-announcement sentence** like "{Subject} is decided by three tests, not a
+single day count" or "{Subject} uses a single test:" — go straight to the actual routes/tests
+instead. If the rule genuinely has multiple routes, that's already obvious from listing them; a
+separate sentence announcing "there are multiple tests" first adds words without adding
+information.
+
+```text
+Not:      "Poland decides tax residency with two independent tests, not a single day count.
+           You're a resident if..."
+Instead:  "You're a resident if your centre of personal or economic interests is in Poland, or
+           if you spend more than 183 days there in a calendar year — meeting either one is
+           enough."
+```
+
 No exceptions detail, no dates/periods already stated in the table below (don't duplicate
 information across the callout and the table), and no legal citations. Bold only the defining
 threshold(s) and one or two truly load-bearing terms — not full clauses.
@@ -246,7 +263,9 @@ Exactly this shape, one table per article, no exceptions:
   number without a qualifying word — reserve the exact legal phrasing ("more than N days") for
   prose in "Understanding the rule." For a rule with several distinct route thresholds, list them
   comma-separated in the order they're introduced in the article; for a rule with banded
-  thresholds that each matter on their own, list every boundary number.
+  thresholds that each matter on their own, list every boundary number. If the underlying law
+  states the threshold in a unit other than days (a number of months, say), state it in that
+  native unit — don't force a day-count conversion the primary source doesn't actually give.
 - **Counting row**: either `Nights ({rule name})` (e.g. "Nights (Midnight rule)", "Nights
   (Overnight stay)") or `Any part of a day`, with a short qualifier appended if the rule has one
   (e.g. "Any part of a day, except departure").
@@ -352,7 +371,13 @@ rule.** When it applies:
   apply**, and **what it gives** — bold lead terms, numbers included (rates, year-counts,
   deadlines), never a vague gesture like "can reduce the tax bill."
 - Once the dedicated section exists, trim any redundant Edge cases/FAQ coverage of the same regime
-  so the detail doesn't live in two places.
+  so the detail doesn't live in two places. Where the FAQ previously had multiple entries about the
+  regime, consolidate them into one disambiguation question instead — the thing readers most need
+  clarified is that the regime and the underlying residency test are separate determinations — and
+  point to the new section in plain text (`see **Section Name** above`) rather than repeating its
+  numbers there too. This has now happened for three regimes across the library (a domicile-based
+  status, a foreign-income exemption for skilled workers, and a flat-rate election for new
+  arrivals), confirming the pattern generalizes rather than being a one-off.
 - **When a regime's benefit list overlaps with a broader reform that changed for everyone,
   re-verify each benefit is still actually distinctive to the regime.** A benefit that used to be
   regime-specific can stop being one if a later, unrelated reform extends it to everyone — check
@@ -388,12 +413,44 @@ future, separate rule page — not more content here.
 
 ## 13. If you get this rule wrong
 
-Plain prose, 2–3 sentences, **no bullet list, no bold at all**. Factual and calm, no scare
-language — think of a plain blog explainer's tone rather than a legal warning. Covers: that
-getting the qualification call wrong means owing back taxes/interest/penalties (or the equivalent
-consequence for a non-tax rule) on what should have applied, that the relevant authority can assess
-this retroactively once they catch the mistake, and that correcting it yourself before being
-caught typically earns a lighter or reduced penalty. No exact currency amounts (see section 19).
+Plain prose, 2–3 sentences, no bullet list, no bold except the mandatory closing sentence (see
+below). Factual and calm, no scare language — a plain blog explainer's tone, not a legal warning.
+
+**This section needs real, country-specific research — never default to a generic template.**
+"You may owe back taxes, interest, and penalties... the authority can assess this retroactively...
+correcting it yourself first usually means a lighter penalty" is true of literally every country
+and tells the reader nothing they couldn't already guess — it reads as filler because it is
+filler. This was tried across the whole library and had to be redone once the pattern became
+obvious. Research the actual mechanism instead:
+
+- **The real penalty structure** — statutory percentage tiers by culpability (careless vs.
+  deliberate vs. fraud), not a vague "penalties apply." These are almost always published as exact
+  percentages of the tax owed, which you can state directly — the currency ban in section 17
+  doesn't apply to rates.
+- **A named voluntary-disclosure or self-correction mechanism**, if the country has one — most do,
+  often under a specific local name ("worldwide disclosure facility," "active regret," "repentance
+  and correction," "voluntary disclosures program"). Name it and state what it actually does
+  (waives a penalty, reduces it by a specific fraction, avoids criminal liability), not a generic
+  "correcting it yourself helps."
+- **How the authority actually catches this**, only if there's something concrete (a data-sharing
+  agreement like FATCA/CRS, cross-referencing a certificate application against immigration
+  records, a specific lookback window) — skip this if the only honest answer is "they can audit
+  you."
+
+Official tax-authority guidance and statute come first, same as everywhere else. If the specific
+penalty percentages or the disclosure mechanism aren't clearly stated officially, reputable
+professional-firm write-ups are the next best source — cross-check at least two independent ones
+before using a specific number. Fall back to community discussion (Reddit, forums) only if both
+are thin, and only cite sources from the last 1–2 years — an older thread may describe a rule that
+has since changed. Never invent a plausible-sounding percentage; if a specific number can't be
+verified, describe the mechanism qualitatively ("a penalty scaled to how serious the mistake is
+judged to be") instead of fabricating a figure. No exact currency amounts either way (see section
+17).
+
+Close every instance of this section with the same sentence, verbatim and bolded — the one
+deliberate exception to "no bold" here:
+
+**Professional tax advice is strongly recommended in situations like this.**
 
 ---
 
@@ -401,7 +458,9 @@ caught typically earns a lighter or reduced penalty. No exact currency amounts (
 
 **Exactly three** short second-person examples ("You move to...", never a named individual), each
 a single short paragraph — situation, the relevant numbers, and the result folded into 2–4
-sentences. No "Situation / Facts / How it applies / Result" sub-structure and no manual "Example
+sentences. Draft each one lean from the start: one clause for the situation, the operative
+numbers, and the outcome — don't restate context the callout or "Understanding the rule" already
+established, and don't pad with qualifiers that aren't doing mechanical work. No "Situation / Facts / How it applies / Result" sub-structure and no manual "Example
 1:" text in the heading — the shared CSS auto-numbers each `### heading` inside the Examples
 section with a small circular badge, driven by a CSS counter scoped to `section#examples h3`; the
 heading itself should be a short descriptive title only.
@@ -483,7 +542,8 @@ reword, even if you didn't intend to touch the answer.
 - **Bold sparingly.** Only the defining threshold(s) per section and a handful of the most
   load-bearing terms — not every number, not every qualifying phrase, not every bullet's lead
   phrase out of habit. If a paragraph is more than roughly 15% bold, or every bullet in a list has
-  its lead bolded by default rather than necessity, cut it back.
+  its lead bolded by default rather than necessity, cut it back. The one fixed exception is the
+  closing sentence of "If you get this rule wrong" (section 13), which is always bolded.
 - **Sentences capped at ~35 words.** Split at the natural clause boundary when a sentence runs
   long — usually wherever "and," "which," "so," "though," or an em dash joins two facts that don't
   need to share a sentence. Applies everywhere: callout, bullets, Edge cases, FAQ answers. Re-scan

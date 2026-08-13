@@ -729,9 +729,12 @@ p {
   flex-shrink: 0;
 }
 
-.content-article__meta {
-  font-size: 0.85rem;
-  color: var(--content-text-muted);
+.content-article p.content-article__meta {
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--content-text-faint);
   margin-bottom: 0.5rem;
 }
 

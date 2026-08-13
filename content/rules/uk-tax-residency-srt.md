@@ -1,149 +1,175 @@
 ---
 id: uk-tax-residency-srt
 
-title: United Kingdom – Statutory Residence Test
+title: UK Tax Residency (Statutory Residence Test)
 subtitle: Midnight rule ∙ Starts Apr 6 ∙ SRT
 
 category: tax
 
 place: gb
 
-description: >
-  The UK Statutory Residence Test determines whether an individual
-  is UK tax resident for a particular UK tax year.
-
 seo:
-  title: UK Statutory Residence Test (SRT) | Immio
+  title: UK Statutory Residence Test (SRT) Explained | Immio
   description: >
-    Understand the UK Statutory Residence Test, including the
-    automatic UK and overseas tests, sufficient ties and UK
-    day-counting rules.
+    How the UK Statutory Residence Test works — the 183-day rule, the
+    automatic overseas and automatic UK tests, the five UK ties, and how
+    to count UK days under the midnight rule.
 
-updatedAt: 2026-08-11
+updatedAt: 2026-08-12
 
 sources:
-  - title: HMRC — RDR3 Statutory Residence Test
+  - title: HMRC — RDR3 Statutory Residence Test guidance note
     url: https://www.gov.uk/government/publications/rdr3-statutory-residence-test-srt
     type: official
-  - title: HMRC — Guidance note on the SRT (RDRM11000)
-    url: https://www.gov.uk/hmrc-internal-manuals/residence-domicile-and-remittance-basis/rdrm11000
+  - title: HMRC — Residence and FIG Regime Manual — Statutory Residence Test (RFIG20000)
+    url: https://www.gov.uk/hmrc-internal-manuals/residence-and-fig-regime-manual/rfig20000
+    type: official
+  - title: "GOV.UK — Tax on foreign income: UK residence and tax"
+    url: https://www.gov.uk/tax-foreign-income/residence
+    type: official
+  - title: Finance Act 2013, Schedule 45 — Statutory residence test
+    url: https://www.legislation.gov.uk/ukpga/2013/29/schedule/45
     type: official
 
-relatedContent:
-  - uk-ilr-180-day-rule
 ---
 
-# United Kingdom – Statutory Residence Test
+# United Kingdom Tax Residency (Statutory Residence Test)
 
 ## Overview
 
 :::callout
-The UK Statutory Residence Test (SRT) determines whether you are UK tax resident for a particular tax year. It considers the number of days you spend in the UK, your residence history, and your connections or “ties” to the UK. Depending on your circumstances, you may be automatically resident, automatically non-resident, or need to apply the sufficient ties test.
+The Statutory Residence Test (SRT) determines whether you are a UK tax resident for a given tax year. It is **not simply
+a 183-day rule**. Instead, it applies a series of tests: **automatic overseas tests**, then the **automatic UK tests**,
+and finally the **sufficient ties test**. The number of days you can spend in the UK before becoming tax resident
+depends on your UK ties and whether you were UK resident in previous tax years.
 :::
 
-| Key fact        | Detail                                    |
-|-----------------|-------------------------------------------|
-| Threshold       | 183 days (automatic) · fewer with UK ties |
-| Period / Window | Single UK tax year                        |
-| Tax Year Starts | 6 April                                   |
-| Test Type       | Day count + connecting factors            |
-| Applies To      | Individuals only                          |
-| Legal Basis     | Finance Act 2013, Schedule 45             |
+| Key facts               |                                            |
+|:------------------------|-------------------------------------------:|
+| Thresholds              |                  15, 45, 90, 120, 182 days |
+| Period / Window         |                UK tax year (6 Apr – 5 Apr) |
+| Counting                |                     Nights (Midnight rule) |
+| Additional requirements | Previous 3 tax years, sufficient ties test |
 
-- The Statutory Residence Test (SRT) decides whether you are UK tax resident for a UK tax year (6 April to 5 April).
-- It is applied in a fixed order: the automatic overseas tests, then the automatic UK tests, then, if neither applies, the sufficient ties test.
-- Most people who spend fewer than 16 days in the UK in a year are automatically non-resident; most people who spend 183 days or more are automatically resident.
-- Between those extremes, residence usually depends on how many "UK ties" you have combined with your day count.
-- A day generally counts as a UK day if you are in the UK at midnight, subject to some anti-avoidance exceptions.
+## Understanding the rule
 
-## How the UK SRT works
+There is no single day limit. Your limit depends on your **UK ties** and whether you are an Arriver or Leaver. The
+limits are **15, 45, 90, 120 or 182 days** per tax year.
+The most common limit is **90 days**. The UK tax year runs from **6 April to 5 April**. To remain non-resident, stay
+within your applicable day limit.
+The SRT checks three things, in order, and stops at the first one that gives an answer.
 
-The SRT was introduced from 6 April 2013 and replaced the previous, less clearly defined residence rules. It is a statutory (legally defined) test, not a matter of general practice, and it applies to the whole UK tax year rather than a rolling period.
+1. **Automatic overseas tests.** Spend under **16 days** in the UK if you were resident in any of the previous 3 tax
+   years, or under **46 days** if you were not, and you are non-resident regardless of your ties.
+2. **Automatic UK tests.** Spend **183 days or more**, or your only home is in the UK, or you work full-time in the UK,
+   and you are resident regardless of your ties.
+3. **Sufficient ties test.** If neither test settles it, your day count and your number of UK ties decide it together.
 
-The test is applied in three stages, in order, and you stop as soon as one stage gives a conclusive answer:
+Between the automatic thresholds, your day count is combined with your UK ties — the fewer days you spend, the more
+ties it takes to make you resident.
 
-1. **Automatic overseas test** — if you meet any condition here, you are automatically non-resident for the year, regardless of ties.
-2. **Automatic UK test** — if you did not meet the overseas test and you meet any condition here, you are automatically UK resident for the year.
-3. **Sufficient ties test** — if neither automatic test applies, residence depends on the number of days spent in the UK combined with the number of "UK ties" you have.
+- **Family tie** — your spouse, civil partner, live-in partner or child under 18 is UK resident.
+- **Accommodation tie** — somewhere you can live in the UK is available to you for **91 continuous days** or more and
+  you spend at least **one night** there.
+- **Work tie** — you do more than 3 hours of work in the UK on at least **40 days**.
+- **90-day tie** — you spent more than **90 days** in the UK in either of the previous 2 tax years.
+- **Country tie** — the UK is where you spent the most midnights in the tax year.
 
-In certain circumstances — such as starting full-time work abroad partway through the year, or moving to the UK partway through the year to take up full-time work or a home — the tax year can be split into a UK part and an overseas part under split-year treatment. Split-year treatment is a separate, more detailed set of rules and is not covered in full here.
+If you were UK resident in one or more of the previous 3 tax years, all five ties apply, and you need 4 ties at 16–45
+days, 3 at 46–90, 2 at 91–120 and 1 above 120. If you were not, the country tie is excluded and you need all 4 at 46–90
+days, 3 at 91–120 and 2 above 120.
 
-## Automatic overseas tests
+Most people never need the third stage: either they clearly spend too little time in the UK to be resident, or they
+clearly spend enough (183+ days) to be resident automatically. The ties test exists for the middle ground, where a
+handful of connections to the UK can tip a moderate day count into residency.
 
-You are automatically non-resident for a tax year if any of the following apply:
+## How to keep track
 
-- You spent fewer than 16 days in the UK in the tax year, and you were UK resident in one or more of the previous three tax years.
-- You spent fewer than 46 days in the UK in the tax year, and you were not UK resident in any of the previous three tax years.
-- You worked full-time overseas over the tax year, averaging at least 35 hours a week with no significant breaks, you spent fewer than 91 days in the UK in the year, and no more than 30 of those days were spent working in the UK.
+1. A day counts if you are **in the UK at midnight** — present there at the end of that day. This is the rule behind
+   almost every threshold in the SRT.
+2. Days are counted over the **UK tax year**, 6 April to 5 April — not the calendar year, so a trip spanning New Year
+   sits in one tax year but a trip spanning early April can split across two.
+3. Arriving and leaving on the same day, before midnight, does not normally count — a same-day trip is effectively free.
+4. People with **3 or more ties** and recent UK residence can also pick up counted days from short visits where they
+   were in the UK but never stayed to midnight — see the deeming rule below.
+5. Keep a running log of where you are each midnight, along with evidence for any ties you're relying on — a tenancy
+   agreement or utility bills for an accommodation tie, boarding passes and travel bookings for your day count, and UK
+   work records for a work tie.
 
-## Automatic UK tests
+## Edge cases
 
-If none of the automatic overseas tests apply, you are automatically UK resident for the tax year if any of the following apply:
+- **The deeming rule.** If you have **3 or more UK ties**, were resident in one of the previous 3 tax years, and spent
+  more than **30 days** in the UK without staying to midnight, every such day beyond the first 30 is added to your day
+  count anyway.
+- **Split-year treatment.** In the year you arrive in or leave the UK, the tax year can sometimes be split into a
+  resident part and a non-resident part, so you are only taxed as a resident for part of the year.
+- **The FIG regime.** Since April 2025, people who become UK resident after 10+ years outside the UK can claim relief on
+  foreign income and gains for their first 4 years of residence — this replaced the old non-dom/remittance basis and
+  sits alongside, not inside, the SRT.
+- **Dual residence.** Being UK resident under the SRT does not stop another country treating you as resident under its
+  own rules. A tax treaty's tiebreaker rules can then assign a single treaty residence, but they do not cancel your UK
+  domestic residency.
+- **Accommodation you do not own still counts.** A rented flat, a holiday home, or a room kept for you at a relative's
+  house can create an accommodation tie if it is available long enough and you stay there.
 
-- You spent 183 days or more in the UK in the tax year.
-- Your only home was in the UK for all or part of the year — you had a UK home for at least 91 consecutive days (at least 30 of which fell in the tax year), you were present in it on at least 30 separate days in the year, and either you had no overseas home or you spent fewer than 30 days in any overseas home during the year.
-- You worked full-time in the UK for any period of 365 days with no significant break, at least part of which fell in the tax year, and more than 75% of your working days in that period were UK working days, including at least one day that falls in both the 365-day period and the tax year.
+## If you get this rule wrong
 
-## Sufficient ties test
-
-If neither automatic test gives a conclusive result, residence is decided by combining your UK day count with the number of "UK ties" you hold. There are up to five ties:
-
-- **Family tie** — your spouse, civil partner, or minor children are UK resident.
-- **Accommodation tie** — you have UK accommodation available to you that you use during the tax year (even for just one night).
-- **Work tie** — you do more than 3 hours of work in the UK on at least 40 days (whether continuous or not) in the tax year.
-- **90-day tie** — you spent more than 90 days in the UK in either of the previous two tax years.
-- **Country tie** — the UK is the country in which you spent the most days in the tax year. This tie only counts for "leavers" (see below).
-
-How many ties you need depends on whether you are an **arriver** (not UK resident in any of the previous three tax years) or a **leaver** (UK resident in one or more of the previous three tax years):
-
-**Arrivers** (country tie does not apply):
-
-| Days in the UK | Ties needed to be resident |
-|----------------|----------------------------|
-| Fewer than 46  | Always non-resident        |
-| 46–90          | 4                          |
-| 91–120         | 3                          |
-| 120–182        | 2                          |
-| 183 or more    | Automatically resident     |
-
-**Leavers** (all five ties can apply):
-
-| Days in the UK | Ties needed to be resident |
-|----------------|----------------------------|
-| Fewer than 16  | Always non-resident        |
-| 16–45          | 4                          |
-| 46–90          | 3                          |
-| 91–120         | 2                          |
-| 120–182        | 1                          |
-| 183 or more    | Automatically resident     |
+Getting your residence status wrong means you may owe back taxes, interest, and penalties on income the UK should have taxed. If you should have been resident under the SRT but filed as a non-resident, HMRC can assess your worldwide income retroactively. The penalty depends on whether the mistake was careless or deliberate, and correcting it yourself first usually means a lighter one.
 
 ## Examples
 
-**Example — a leaver working abroad.** Priya was UK resident last year and moves overseas mid-career but keeps a flat in London that she stays in occasionally, and her partner remains in the UK. She spends 70 days in the UK this tax year. As a leaver with 46–90 days, she needs 3 ties to be resident. She has a family tie (partner in the UK) and an accommodation tie (the flat), and if she also spent more than 90 days in the UK in either of the prior two years, that adds a 90-day tie — three ties in total, making her UK resident for the year.
+### A recent leaver who kept a UK flat
 
-**Example — an arriver taking up UK work.** Daniel has lived outside the UK for the past five years and relocates to the UK partway through the tax year to start a new job, spending 130 days in the UK that year. As an arriver with 120–182 days, he needs 2 ties. He has a work tie (regular UK work) and, once he finds a flat, an accommodation tie — two ties, making him UK resident, though split-year treatment may apply to the part of the year before he arrived.
+You moved abroad last year but kept your London flat, and your partner still lives in the UK. You spend 70 days in the
+UK this tax year. A family tie, an accommodation tie and a 90-day tie give you 3 ties — enough to make you resident in
+the 46–90 day band.
 
-These examples are illustrative only and simplify some conditions (such as the exact accommodation and work tie tests) — always check the detailed conditions in HMRC's guidance for your own circumstances.
+### A returning worker mid-year
+
+You've lived abroad for five years and move back in October, spending 130 days in the UK and working there. Not resident
+in the previous 3 tax years, your 2 ties (work and accommodation) are enough at 121–182 days, so you are resident —
+split-year treatment may still cover the months before you arrived.
+
+### Working abroad with occasional UK trips
+
+You work full-time overseas and visit the UK only 85 days a year, doing UK work on 12 of them. That satisfies the
+automatic overseas test for full-time overseas workers, so you are non-resident outright — your ties are never checked.
 
 ## Official sources
 
-- [HMRC — RDR3 Statutory Residence Test](https://www.gov.uk/government/publications/rdr3-statutory-residence-test-srt)
-- [HMRC — Guidance note on the SRT (RDRM11000)](https://www.gov.uk/hmrc-internal-manuals/residence-domicile-and-remittance-basis/rdrm11000)
+- [HMRC — RDR3: Statutory Residence Test guidance note](https://www.gov.uk/government/publications/rdr3-statutory-residence-test-srt)
+- [HMRC — Residence and FIG Regime Manual: Statutory Residence Test (RFIG20000)](https://www.gov.uk/hmrc-internal-manuals/residence-and-fig-regime-manual/rfig20000)
+- [GOV.UK — Tax on foreign income: UK residence and tax](https://www.gov.uk/tax-foreign-income/residence)
+- [Finance Act 2013, Schedule 45 — Statutory residence test](https://www.legislation.gov.uk/ukpga/2013/29/schedule/45)
 
 ## FAQ
 
-### Does a day only count if I'm in the UK for the whole day?
+### Is the UK really a 183-day rule?
 
-No. A day generally counts as a UK day if you are present in the UK at midnight. There is a separate anti-avoidance "deeming rule" that can count some days you are in the UK without being present at midnight, if you have at least three UK ties, were UK resident in one or more of the previous three tax years, and spend more than 30 "qualifying days" in the UK without being present at midnight.
+Only partly. **183 days** or more makes you UK resident automatically, but the reverse is not true. If you were UK
+resident in any of the previous 3 tax years, as few as **16 days** can make you resident once ties are counted.
 
-### What tax year does the SRT use?
+### What counts as a day spent in the UK?
 
-The UK tax year runs from 6 April to 5 April the following year, not the calendar year.
+A day counts if you are in the UK at **midnight**. Arriving in the evening and leaving the next morning is one day. Days
+you leave before midnight normally do not count, unless the deeming rule applies.
 
-### Can I be resident in the UK and another country at the same time?
+### Does the SRT use the calendar year?
 
-Yes. The SRT only determines UK residence under UK domestic law. You may also be tax resident elsewhere under that country's own rules, in which case a double tax treaty may determine which country has primary taxing rights for particular income.
+No. It uses the UK tax year, **6 April to 5 April**. A trip from 1 April to 10 April falls into two tax years and must
+be split between them.
+
+### Can I be UK resident and resident somewhere else at once?
+
+Yes. The SRT only determines your status under UK law, and other countries apply their own tests. A double taxation
+agreement's tiebreaker rules then decide which country treats you as resident for that agreement.
+
+### Does keeping a UK property make me UK resident?
+
+Not by itself. It can create an **accommodation tie** if available to you for **91 continuous days** or more and you
+spend at least one night there — one tie out of five, so it only matters alongside your day count and other ties.
 
 ### Does the SRT apply to companies?
 
-No. The Statutory Residence Test applies to individuals. Corporate tax residence is determined by separate rules.
+No. It applies to individuals. Company residence is decided by separate rules based on incorporation and central
+management and control.

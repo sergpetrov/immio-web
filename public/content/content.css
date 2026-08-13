@@ -16,6 +16,7 @@
   --content-text-faint: #8a8f98;
   --content-border: #e6e6e6;
   --content-surface: #f3f4f6;
+  --content-table-header-bg: #f8f9fb;
   --content-callout-bg: #ebf4fb;
   --content-callout-text: var(--content-text);
   --immio-primary-container: #ebf4fb;
@@ -35,6 +36,7 @@
     --content-text-faint: #7d848d;
     --content-border: #2b2f36;
     --content-surface: #1e2126;
+    --content-table-header-bg: var(--content-surface);
     --content-callout-bg: #17263d;
     --content-callout-text: var(--immio-primary);
     --immio-primary-container: #17263d;
@@ -767,6 +769,39 @@ p {
   font-size: 1.2rem;
 }
 
+/* Sub-headings inside a section (e.g. examples) — clearly subordinate to the h2. */
+.content-article section h3 {
+  font-size: 1rem;
+  margin-top: 1.5rem;
+}
+
+/* Examples — numbered circle badge to the left of each example's title. */
+.content-article section#examples {
+  counter-reset: rule-example;
+}
+
+.content-article section#examples h3 {
+  counter-increment: rule-example;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.content-article section#examples h3::before {
+  content: counter(rule-example);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: var(--immio-primary-container);
+  color: var(--immio-primary);
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
 .content-article p {
   font-size: 0.925rem;
 }
@@ -821,7 +856,7 @@ p {
   border: 1px solid var(--content-border);
   border-radius: 20px;
   overflow: hidden;
-  font-size: 0.875rem;
+  font-size: 0.95rem;
 }
 
 .content-article th,
@@ -830,8 +865,24 @@ p {
   text-align: left;
 }
 
+/* Markdown column alignment (| :--- | ---: |) — the align attribute alone
+   loses to the rule above, so honour it explicitly. */
+.content-article th[align="right"],
+.content-article td[align="right"] {
+  text-align: right;
+}
+
+.content-article td[align="right"] {
+  font-weight: 500;
+}
+
+.content-article th[align="center"],
+.content-article td[align="center"] {
+  text-align: center;
+}
+
 .content-article th {
-  background: var(--content-surface);
+  background: var(--content-table-header-bg);
   color: var(--content-text-muted);
   font-weight: 500;
 }

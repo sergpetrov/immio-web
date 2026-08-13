@@ -51,7 +51,7 @@ export default function CountriesPage({
               const searchableText = [
                 rule.frontmatter.title,
                 rule.frontmatter.subtitle,
-                rule.frontmatter.description,
+                rule.frontmatter.seo.description,
                 place.id,
                 place.name,
               ]

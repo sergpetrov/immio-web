@@ -28,7 +28,6 @@ export interface RuleFrontmatter {
   subtitle?: string;
   category: CategoryId;
   place: string;
-  description: string;
   seo: {
     title: string;
     description: string;

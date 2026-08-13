@@ -1,149 +1,164 @@
 ---
 id: us-tax-residency-spt
 
-title: United States – Substantial Presence Test
+title: US Tax Residency (Substantial Presence Test)
 subtitle: 183 weighted days ∙ 31-day limit ∙ SPT
 
 category: tax
 
 place: us
 
-description: >
-  The UK Statutory Residence Test determines whether an individual
-  is UK tax resident for a particular UK tax year.
-
 seo:
-  title: UK Statutory Residence Test (SRT) | Immio
+  title: US Substantial Presence Test (SPT) Explained | Immio
   description: >
-    Understand the UK Statutory Residence Test, including the
-    automatic UK and overseas tests, sufficient ties and UK
-    day-counting rules.
+    How the US Substantial Presence Test works — the 31-day and weighted
+    183-day thresholds, which days count, exempt individuals, and the
+    closer connection exception.
 
-updatedAt: 2026-08-11
+updatedAt: 2026-08-12
 
 sources:
-  - title: HMRC — RDR3 Statutory Residence Test
-    url: https://www.gov.uk/government/publications/rdr3-statutory-residence-test-srt
+  - title: IRS — Substantial Presence Test
+    url: https://www.irs.gov/individuals/international-taxpayers/substantial-presence-test
     type: official
-  - title: HMRC — Guidance note on the SRT (RDRM11000)
-    url: https://www.gov.uk/hmrc-internal-manuals/residence-domicile-and-remittance-basis/rdrm11000
+  - title: "IRS — Introduction to residency under US tax law"
+    url: https://www.irs.gov/individuals/international-taxpayers/introduction-to-residency-under-us-tax-law
+    type: official
+  - title: IRS — Conditions for a closer connection to a foreign country
+    url: https://www.irs.gov/individuals/international-taxpayers/conditions-for-a-closer-connection-to-a-foreign-country
+    type: official
+  - title: IRS — Exempt individuals — Teachers and trainees
+    url: https://www.irs.gov/individuals/international-taxpayers/exempt-individuals-teachers-and-trainees
     type: official
 
-relatedContent:
-  - uk-ilr-180-day-rule
 ---
 
-# United States – Substantial Presence Test
+# United States Tax Residency (Substantial Presence Test)
 
 ## Overview
 
 :::callout
-The UK Statutory Residence Test (SRT) determines whether you are UK tax resident for a particular tax year. It considers the number of days you spend in the UK, your residence history, and your connections or “ties” to the UK. Depending on your circumstances, you may be automatically resident, automatically non-resident, or need to apply the sufficient ties test.
+The Substantial Presence Test (SPT) is one of two ways a non-citizen becomes a US resident for tax purposes — the other
+is holding a **green card**. It is **not** simply a **183-day rule** — you need at least **31 days** in the US this
+year, plus **183 weighted days** in last 3 years. But there are exceptions, such as exempt visa categories and the
+closer connection.
 :::
 
-| Key fact        | Detail                                    |
-|-----------------|-------------------------------------------|
-| Threshold       | 183 days (automatic) · fewer with UK ties |
-| Period / Window | Single UK tax year                        |
-| Tax Year Starts | 6 April                                   |
-| Test Type       | Day count + connecting factors            |
-| Applies To      | Individuals only                          |
-| Legal Basis     | Finance Act 2013, Schedule 45             |
+| Key facts               |                                                 |
+|:------------------------|------------------------------------------------:|
+| Thresholds              |         31 days current year, 183 weighted days |
+| Period / Window         |               3 calendar years (1 Jan – 31 Dec) |
+| Counting                |                               Any part of a day |
+| Additional requirements | Exempt individuals, closer connection exception |
 
-- The Statutory Residence Test (SRT) decides whether you are UK tax resident for a UK tax year (6 April to 5 April).
-- It is applied in a fixed order: the automatic overseas tests, then the automatic UK tests, then, if neither applies, the sufficient ties test.
-- Most people who spend fewer than 16 days in the UK in a year are automatically non-resident; most people who spend 183 days or more are automatically resident.
-- Between those extremes, residence usually depends on how many "UK ties" you have combined with your day count.
-- A day generally counts as a UK day if you are in the UK at midnight, subject to some anti-avoidance exceptions.
+## Understanding the rule
 
-## How the UK SRT works
+You are a US resident for tax purposes under the SPT if you meet both a **31-day** floor in the current year and a
+**183-day weighted total** across the current year plus the two before it. Both must be met in the same year — a high
+weighted total from past years doesn't help if you spend too few days in the US now.
 
-The SRT was introduced from 6 April 2013 and replaced the previous, less clearly defined residence rules. It is a statutory (legally defined) test, not a matter of general practice, and it applies to the whole UK tax year rather than a rolling period.
+Because prior years count at only a fraction of their weight, someone who visits for a similar number of days every
+year can gradually accumulate enough to become a resident, without ever spending 183 days in a single year.
 
-The test is applied in three stages, in order, and you stop as soon as one stage gives a conclusive answer:
+- **Exempt individuals** — certain visa holders don't count their US days toward the SPT at all while exempt. Students
+  on F, J, M or Q visas get a lifetime **5 calendar years**; teachers and trainees on J or Q visas are exempt only if
+  they weren't already exempt as a teacher, trainee or student for part of **2 of the preceding 6 calendar years**.
+- **The closer connection exception** — even if you meet the SPT, you can be treated as a nonresident if you were
+  present under **183 days** that year, kept a tax home in one foreign country all year, had a closer connection there
+  than to the US, and weren't pursuing a green card. Claimed on **Form 8840**.
 
-1. **Automatic overseas test** — if you meet any condition here, you are automatically non-resident for the year, regardless of ties.
-2. **Automatic UK test** — if you did not meet the overseas test and you meet any condition here, you are automatically UK resident for the year.
-3. **Sufficient ties test** — if neither automatic test applies, residence depends on the number of days spent in the UK combined with the number of "UK ties" you have.
+Meeting the SPT makes you a resident alien for the whole calendar year by default, though a **first-year choice** can
+change how part of an arrival year is treated.
 
-In certain circumstances — such as starting full-time work abroad partway through the year, or moving to the UK partway through the year to take up full-time work or a home — the tax year can be split into a UK part and an overseas part under split-year treatment. Split-year treatment is a separate, more detailed set of rules and is not covered in full here.
+## How to keep track
 
-## Automatic overseas tests
+1. You need at least **31 days** in the current year, and **183 weighted days** across the current year plus the two
+   years before it: all your days this year, plus **1/3** of your days in the prior year, plus **1/6** of your days in
+   the year before that.
+2. A day counts if you are **present** in the US at **any point** during that day — even a same-day round trip.
+3. Some days don't count at all — as an **exempt individual** (see below) or a medical condition, both requiring Form
+   8843 to exclude, or they still count — plus regular commuting from Canada or Mexico and short transit, which need
+   no filing.
+4. Keep a day-by-day travel log — boarding passes, entry and exit stamps — to support your weighted calculation, plus
+   Form 8843 or 8840 paperwork if you're claiming an exemption or the closer connection exception.
 
-You are automatically non-resident for a tax year if any of the following apply:
+## Edge cases
 
-- You spent fewer than 16 days in the UK in the tax year, and you were UK resident in one or more of the previous three tax years.
-- You spent fewer than 46 days in the UK in the tax year, and you were not UK resident in any of the previous three tax years.
-- You worked full-time overseas over the tax year, averaging at least 35 hours a week with no significant breaks, you spent fewer than 91 days in the UK in the year, and no more than 30 of those days were spent working in the UK.
+- **The green card test runs independently.** Holding a green card makes you a US resident for tax purposes regardless
+  of days present — the SPT is only relevant if you don't hold one.
+- **The closer connection exception can't rescue a green card applicant.** Taking steps toward permanent residency, even
+  informally, disqualifies you from claiming it for that year.
+- **Missing Form 8843 is costly.** Days that would otherwise be excluded as an exempt individual or for medical reasons
+  count anyway if the form isn't filed for that year, which can silently push someone over the 183-day weighted
+  threshold.
+- **A first-year choice can split an arrival year.** If you don't meet the SPT in your arrival year but will meet it the
+  following year, you may be able to choose resident treatment for part of the current year instead of waiting.
+- **Weighted totals reset every year**, not on a rolling basis — the test is recalculated fresh each calendar year using
+  that year's own two-years-back window.
 
-## Automatic UK tests
+## If you get this rule wrong
 
-If none of the automatic overseas tests apply, you are automatically UK resident for the tax year if any of the following apply:
-
-- You spent 183 days or more in the UK in the tax year.
-- Your only home was in the UK for all or part of the year — you had a UK home for at least 91 consecutive days (at least 30 of which fell in the tax year), you were present in it on at least 30 separate days in the year, and either you had no overseas home or you spent fewer than 30 days in any overseas home during the year.
-- You worked full-time in the UK for any period of 365 days with no significant break, at least part of which fell in the tax year, and more than 75% of your working days in that period were UK working days, including at least one day that falls in both the 365-day period and the tax year.
-
-## Sufficient ties test
-
-If neither automatic test gives a conclusive result, residence is decided by combining your UK day count with the number of "UK ties" you hold. There are up to five ties:
-
-- **Family tie** — your spouse, civil partner, or minor children are UK resident.
-- **Accommodation tie** — you have UK accommodation available to you that you use during the tax year (even for just one night).
-- **Work tie** — you do more than 3 hours of work in the UK on at least 40 days (whether continuous or not) in the tax year.
-- **90-day tie** — you spent more than 90 days in the UK in either of the previous two tax years.
-- **Country tie** — the UK is the country in which you spent the most days in the tax year. This tie only counts for "leavers" (see below).
-
-How many ties you need depends on whether you are an **arriver** (not UK resident in any of the previous three tax years) or a **leaver** (UK resident in one or more of the previous three tax years):
-
-**Arrivers** (country tie does not apply):
-
-| Days in the UK | Ties needed to be resident |
-|----------------|----------------------------|
-| Fewer than 46  | Always non-resident        |
-| 46–90          | 4                          |
-| 91–120         | 3                          |
-| 120–182        | 2                          |
-| 183 or more    | Automatically resident     |
-
-**Leavers** (all five ties can apply):
-
-| Days in the UK | Ties needed to be resident |
-|----------------|----------------------------|
-| Fewer than 16  | Always non-resident        |
-| 16–45          | 4                          |
-| 46–90          | 3                          |
-| 91–120         | 2                          |
-| 120–182        | 1                          |
-| 183 or more    | Automatically resident     |
+Getting your residency status wrong means you may owe back taxes, penalties, and interest on income the US should have taxed. If you met the SPT but filed as a nonresident, the IRS can assess your worldwide income retroactively and disallow treaty benefits for that year. Meeting the SPT can also trigger FBAR reporting on foreign accounts, and missing that carries its own separate penalties.
 
 ## Examples
 
-**Example — a leaver working abroad.** Priya was UK resident last year and moves overseas mid-career but keeps a flat in London that she stays in occasionally, and her partner remains in the UK. She spends 70 days in the UK this tax year. As a leaver with 46–90 days, she needs 3 ties to be resident. She has a family tie (partner in the UK) and an accommodation tie (the flat), and if she also spent more than 90 days in the UK in either of the prior two years, that adds a 90-day tie — three ties in total, making her UK resident for the year.
+### A remote worker with no fixed pattern
 
-**Example — an arriver taking up UK work.** Daniel has lived outside the UK for the past five years and relocates to the UK partway through the tax year to start a new job, spending 130 days in the UK that year. As an arriver with 120–182 days, he needs 2 ties. He has a work tie (regular UK work) and, once he finds a flat, an accommodation tie — two ties, making him UK resident, though split-year treatment may apply to the part of the year before he arrived.
+You spend 200 days in the US this year, having spent 40 days last year and 30 the year before. Your weighted total is
+200 + (40 ÷ 3) + (30 ÷ 6) = 218 days — over the 183-day threshold, and you also clear the 31-day floor, so you are a US
+resident for tax purposes this year.
 
-These examples are illustrative only and simplify some conditions (such as the exact accommodation and work tie tests) — always check the detailed conditions in HMRC's guidance for your own circumstances.
+### A steady annual visitor
+
+You visit the US for 120 days a year, every year, with no exempt status. In year three, your weighted total is 120 + (
+120 ÷ 3) + (120 ÷ 6) = 180 days — just under the threshold, so you remain a nonresident that year, but the same pattern
+the following year would push you over 183.
+
+### A frequent traveler under the 31-day floor
+
+You spent 330 days in the US last year and 330 the year before, then cut back sharply to just 20 days this year. Your
+weighted total is 20 + (330 ÷ 3) + (330 ÷ 6) = 185 — comfortably over 183. It still doesn't matter: you never reach the
+31-day floor for the current year, so you are a nonresident this year regardless of how high your weighted total
+runs.
 
 ## Official sources
 
-- [HMRC — RDR3 Statutory Residence Test](https://www.gov.uk/government/publications/rdr3-statutory-residence-test-srt)
-- [HMRC — Guidance note on the SRT (RDRM11000)](https://www.gov.uk/hmrc-internal-manuals/residence-domicile-and-remittance-basis/rdrm11000)
+- [IRS — Substantial Presence Test](https://www.irs.gov/individuals/international-taxpayers/substantial-presence-test)
+- [IRS — Introduction to residency under US tax law](https://www.irs.gov/individuals/international-taxpayers/introduction-to-residency-under-us-tax-law)
+- [IRS — Conditions for a closer connection to a foreign country](https://www.irs.gov/individuals/international-taxpayers/conditions-for-a-closer-connection-to-a-foreign-country)
+- [IRS — Exempt individuals: Teachers and trainees](https://www.irs.gov/individuals/international-taxpayers/exempt-individuals-teachers-and-trainees)
 
 ## FAQ
 
-### Does a day only count if I'm in the UK for the whole day?
+### Is the US Substantial Presence Test just a 183-day rule?
 
-No. A day generally counts as a UK day if you are present in the UK at midnight. There is a separate anti-avoidance "deeming rule" that can count some days you are in the UK without being present at midnight, if you have at least three UK ties, were UK resident in one or more of the previous three tax years, and spend more than 30 "qualifying days" in the UK without being present at midnight.
+No. You need **both** at least 31 days in the current year and a **weighted** 3-year total of 183 days — current-year
+days count in full, last year's count at a third, and the year before at a sixth. Someone can reach 183 weighted days
+without ever spending 183 days in a single year.
 
-### What tax year does the SRT use?
+### Does a day count only if I'm in the US at midnight?
 
-The UK tax year runs from 6 April to 5 April the following year, not the calendar year.
+No. The US counts a day if you were present for **any part of it** — arriving in the evening and leaving the next
+morning still counts as a full day, as does a same-day visit.
 
-### Can I be resident in the UK and another country at the same time?
+### What happens if I meet the test?
 
-Yes. The SRT only determines UK residence under UK domestic law. You may also be tax resident elsewhere under that country's own rules, in which case a double tax treaty may determine which country has primary taxing rights for particular income.
+You become a **resident alien** for the whole calendar year, taxed the same way as a US citizen — on your **worldwide
+income**, not just US-source income, using Form 1040 and the same graduated rates, deductions and credits.
 
-### Does the SRT apply to companies?
+### Can I meet the Substantial Presence Test and still be treated as a nonresident?
 
-No. The Statutory Residence Test applies to individuals. Corporate tax residence is determined by separate rules.
+Sometimes, through the closer connection exception. If you spent fewer than 183 days in the US that year, kept a tax
+home in one foreign country all year, had closer ties there than to the US, and weren't pursuing a green card, you can
+claim nonresident treatment on Form 8840.
+
+### Does the SPT apply if I already have a green card?
+
+No — holding a green card makes you a US resident for tax purposes on its own, under the separate green card test. The
+SPT only matters for people who don't hold one.
+
+### Can I be a US resident under the SPT and a tax resident of another country at the same time?
+
+Yes. If a tax treaty applies between the US and that country, its tie-breaker rules can then treat you as a nonresident
+alien for US tax purposes despite meeting the SPT — but you must claim this on **Form 8833**, and skipping it can
+trigger a penalty.

@@ -8,10 +8,6 @@ category: travel
 
 place: schengen
 
-description: >
-  The Schengen 90/180-day rule limits visa-free visitors to 90 days
-  of stay within any rolling 180-day period across the Schengen Area.
-
 seo:
   title: Schengen 90/180-Day Rule Explained | Immio
   description: >
@@ -29,8 +25,6 @@ sources:
     url: https://eur-lex.europa.eu/eli/reg/2016/399/oj
     type: official
 
-relatedContent:
-  - uk-ilr-180-day-rule
 ---
 
 # Schengen Area – 90/180-Day Rule

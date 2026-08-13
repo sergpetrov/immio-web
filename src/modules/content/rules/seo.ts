@@ -43,7 +43,7 @@ export function buildArticleJsonLd(params: { origin: string; pathname: string; r
     "@context": "https://schema.org",
     "@type": "Article",
     headline: rule.frontmatter.title,
-    description: rule.frontmatter.description,
+    description: rule.frontmatter.seo.description,
     dateModified: rule.frontmatter.updatedAt,
     author: organization,
     publisher: organization,

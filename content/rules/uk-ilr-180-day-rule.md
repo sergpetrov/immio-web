@@ -8,11 +8,6 @@ category: immigration
 
 place: gb
 
-description: >
-  The UK ILR 180-day rule limits how many days you can spend outside
-  the UK during your qualifying period when applying for Indefinite
-  Leave to Remain.
-
 seo:
   title: UK ILR 180-Day Absence Rule | Immio
   description: >
@@ -30,8 +25,6 @@ sources:
     url: https://www.gov.uk/government/publications/continuous-residence-and-immigration-rules
     type: official
 
-relatedContent:
-  - uk-tax-residency-srt
 ---
 
 # United Kingdom – ILR 180-Day Rule

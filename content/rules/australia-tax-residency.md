@@ -1,0 +1,147 @@
+---
+id: australia-tax-residency
+
+title: Australia Tax Residency (183-day rule)
+subtitle: 183 days ∙ Starts Jul 1 ∙ Resides, Domicile, Superannuation tests
+
+category: tax
+
+place: au
+
+seo:
+  title: Australia Tax Residency Rules Explained | Immio
+  description: >
+    How Australian tax residency works — the resides test, the domicile
+    test, the 183-day test and its carve-out, the superannuation test,
+    and how the Australian income year is counted.
+
+updatedAt: 2026-08-13
+
+sources:
+  - title: Australian Taxation Office — Residency tests
+    url: https://www.ato.gov.au/individuals-and-families/coming-to-australia-or-going-overseas/residency-tests
+    type: official
+  - title: "Australian Taxation Office — Residency: the 183-day test"
+    url: https://www.ato.gov.au/individuals-and-families/coming-to-australia-or-going-overseas/residency-tests/residency-the-183-day-test
+    type: official
+
+---
+
+# Australia Tax Residency (183-day rule)
+
+## Overview
+
+:::callout
+You're an Australian tax resident if you meet any one of four tests: you **reside** in Australia under its ordinary
+meaning, have your **domicile** there, are present for **183 days or more** in the income year, or hold a specific
+government superannuation membership. Each test has its own carve-outs.
+:::
+
+| Key facts               |                                         |
+|:------------------------|----------------------------------------:|
+| Thresholds              |                                183 days |
+| Period / Window         |            Income year (1 Jul – 30 Jun) |
+| Counting                |                       Any part of a day |
+| Additional requirements | Resides, domicile, superannuation tests |
+
+## Understanding the rule
+
+You are an Australian tax resident for an income year if you meet any one of four tests:
+
+- **Resides test** — you reside in Australia under its ordinary meaning, based on your behaviour, family and business
+  ties, and living arrangements. This is the primary test, and it has no day-count threshold at all.
+- **Domicile test** — your domicile is in Australia, unless the Commissioner is satisfied your permanent home is
+  genuinely established outside Australia.
+- **183-day test** — you're present in Australia for 183 days or more in the income year, unless your usual home is
+  outside Australia and you have no intention of taking up residence here.
+- **Superannuation test** — you, or your spouse or child under 16, are a contributing member of a specific
+  Commonwealth government superannuation scheme, regardless of where you actually live.
+
+Meeting any one test makes you an Australian tax resident for the year, taxed on worldwide income. Falling short of
+all four makes you a nonresident, generally taxed only on Australian-source income.
+
+## How to keep track
+
+1. The **183-day test** counts every day you're present in Australia during the income year, **1 July to 30 June**,
+   not the calendar year.
+2. **Any part of a day** counts as a full day present, and your presence doesn't need to be continuous — all days are
+   simply totalled.
+3. Clearing 183 days doesn't automatically make you resident if your usual home is genuinely overseas and you have no
+   intention of taking up residence in Australia — both conditions are needed together to escape the test.
+4. The other three tests don't depend on a day count at all — the resides, domicile, and superannuation tests can each
+   make you resident regardless of how many days you've spent in Australia.
+5. Keep travel records for your day count, plus evidence of your living arrangements, family and business ties, and
+   where your permanent home is genuinely established if you're relying on, or trying to rebut, the resides or
+   domicile tests.
+
+## Edge cases
+
+- **The resides test has no day threshold.** You can be resident from the time you arrive if your circumstances
+  clearly show you're living in Australia, regardless of how few days you've actually spent there yet.
+- **Escaping the domicile test isn't automatic.** Even with an Australian domicile, the Commissioner must be
+  satisfied your permanent home is genuinely established elsewhere — the default assumption favours residency.
+- **The 183-day test has a two-part carve-out.** Exceeding 183 days doesn't make you resident if your usual home is
+  genuinely overseas and you have no intention of taking up residence in Australia; missing either condition means
+  the carve-out doesn't apply.
+- **The superannuation test is narrow but absolute.** It applies mainly to specific Commonwealth government
+  employees and their spouse or young child, and it overrides everything else regardless of where they actually
+  live.
+- **A simpler residency test has been proposed but isn't law.** A bright-line reform has been floated by the
+  government, but it hasn't been legislated — the four tests above remain the current rules.
+
+## If you get this rule wrong
+
+Getting your residency status wrong means you may owe back taxes, interest, and penalties on income Australia should have taxed. If you met any of the four residency tests but filed as a nonresident, the Australian Taxation Office can assess your worldwide income retroactively. Correcting the mistake yourself before it's discovered generally leads to a lighter outcome than being caught first.
+
+## Examples
+
+### The resides test applies before any day count matters
+
+You move to Melbourne permanently in March, renting a home, enrolling your children in school, and starting a local job, having spent only 60 days in Australia so far this income year. Your circumstances clearly show you're living there under the resides test, so you're an Australian tax resident from the time you arrived, regardless of day count.
+
+### Clearing 183 days doesn't always mean resident
+
+You work a series of long assignments in Australia totalling 210 days this income year, but your only home stays overseas with your family, and you have no plan to relocate. Even though you clear the 183-day threshold, the carve-out for a genuine overseas home and no intention to reside applies, so you remain a nonresident.
+
+### The superannuation test overrides physical absence
+
+You're posted overseas for several years as an Australian government employee and remain a contributing member of a Commonwealth superannuation scheme throughout. Despite living entirely outside Australia with no other ties, the superannuation test alone makes you an Australian tax resident for the whole period.
+
+## Official sources
+
+- [Australian Taxation Office — Residency tests](https://www.ato.gov.au/individuals-and-families/coming-to-australia-or-going-overseas/residency-tests)
+- [Australian Taxation Office — Residency: the 183-day test](https://www.ato.gov.au/individuals-and-families/coming-to-australia-or-going-overseas/residency-tests/residency-the-183-day-test)
+
+## FAQ
+
+### Is Australian tax residency just about counting 183 days?
+
+No. The **resides test** is the primary test and has no day-count threshold at all — you can be resident from the
+day you arrive based on your living arrangements and ties, regardless of the 183-day test.
+
+### What is the "resides" test?
+
+Whether you live in Australia under the ordinary meaning of the word, based on factors like your behaviour, family
+and business ties, and living arrangements. It's assessed on the whole picture, not a single number.
+
+### If I spend 183 days or more in Australia, am I automatically a tax resident?
+
+Not always. If your usual home is genuinely outside Australia and you have no intention of taking up residence here,
+a carve-out can keep you a nonresident even past 183 days.
+
+### What happens if I meet any of the four residency tests?
+
+You become an Australian tax resident for the income year, taxed on your **worldwide income** — not just
+Australian-source income. Failing all four tests instead makes you a nonresident, generally taxed only on
+Australian-source income.
+
+### Is there a new, simpler residency test in Australia?
+
+Not yet. A bright-line reform based primarily on a day count has been proposed, but it hasn't been legislated. The
+four tests described here remain the current law.
+
+### Can I be an Australian tax resident and a tax resident of another country at the same time?
+
+Yes. Australian tax residency only establishes your position under Australian domestic law. If another country also
+treats you as resident, a double tax treaty between Australia and that country would determine which country has
+priority for specific income.

@@ -8,6 +8,12 @@ export const RULE_PLACES: RulePlace[] = [
   { id: "es", name: "Spain", type: "country", slug: "spain" },
   { id: "pt", name: "Portugal", type: "country", slug: "portugal" },
   { id: "cy", name: "Cyprus", type: "country", slug: "cyprus" },
+  { id: "pl", name: "Poland", type: "country", slug: "poland" },
+  { id: "it", name: "Italy", type: "country", slug: "italy" },
+  { id: "tr", name: "Turkey", type: "country", slug: "turkey" },
+  { id: "ca", name: "Canada", type: "country", slug: "canada" },
+  { id: "au", name: "Australia", type: "country", slug: "australia" },
+  { id: "th", name: "Thailand", type: "country", slug: "thailand" },
 ];
 
 export function getAllPlaces(): RulePlace[] {

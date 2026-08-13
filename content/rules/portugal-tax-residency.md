@@ -32,10 +32,10 @@ sources:
 ## Overview
 
 :::callout
-Portuguese tax residency is decided by presence and by home, not by a single test. You're a resident if you spend **more
-than 183 days** in Portugal within a 12-month period, where each counted day must include an **overnight stay**. You can
-also qualify with fewer days if you have a home available in Portugal that you intend to keep and use as your habitual
-residence. A special regime can reduce the tax bill for some new residents.
+You're a Portuguese tax resident if you spend **more than 183 days** in Portugal within a 12-month period, where each
+counted day must include an **overnight stay**. You can also qualify with fewer days if you have a home available in
+Portugal that you intend to keep and use as your habitual residence. A special regime can reduce the tax bill for
+some new residents.
 :::
 
 | Key facts               |                         |

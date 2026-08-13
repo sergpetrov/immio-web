@@ -32,10 +32,9 @@ sources:
 ## Overview
 
 :::callout
-UAE tax residency is decided by physical presence, your home, and your financial and personal ties — not by a single
-test. You qualify by meeting any one of three routes: **183 days** present, **90 days** present with extra conditions,
-or having your main home and interests in the UAE with no day count at all. It mainly matters for claiming tax treaty
-benefits, since the UAE has **no personal income tax**.
+You qualify as a UAE tax resident by meeting any one of three routes: **183 days** present, **90 days** present with
+extra conditions, or having your main home and interests in the UAE with no day count at all. It mainly matters for
+claiming tax treaty benefits, since the UAE has **no personal income tax**.
 :::
 
 | Key facts               |                                              |

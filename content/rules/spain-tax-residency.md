@@ -71,21 +71,26 @@ you a nonresident, generally taxed only on Spanish-source income.
 4. Keep travel records — boarding passes, entry and exit stamps — to support your day count, and if you're relying on
    tax residence elsewhere to exclude an absence, keep a certificate of tax residence from that country.
 
+## Beckham Law
+
+The Beckham Law is a separate special regime for qualifying new arrivals — it doesn't change whether you're a
+Spanish tax resident, only how your income is taxed once you are.
+
+- **What it means** — Spanish employment income is taxed at a flat **24%** rate up to a set threshold (**47%** above
+  it), instead of ordinary progressive rates, and foreign-source income generally isn't taxed in Spain at all.
+- **Who can apply** — employees, remote workers, entrepreneurs, and some directors who weren't Spanish tax residents
+  in the **5 tax years** before moving, applying within **6 months** of registering with Spanish Social Security or
+  starting the qualifying activity.
+- **What it gives** — the flat-rate treatment runs for the year of the move plus the next 5 years, 6 tax years in
+  total. A spouse and children can sometimes join the same regime if they relocate together and their own income
+  stays below the main taxpayer's.
+- **What it doesn't cover** — wealth tax still applies as normal, and foreign income only stays untaxed if it's a
+  minor share of your total earnings, since the core of your professional activity has to be in Spain.
+
 ## Edge cases
 
 - **The family presumption can catch people who rarely visit.** Working abroad while your spouse and children stay in
   Spain can trigger Spanish residency by presumption alone, separate from your own day count.
-- **The Beckham Law taxes only Spanish-source income, at a flat rate.** Qualifying new residents pay **24%** on Spanish
-  employment income up to a set threshold (**47%** above it) instead of ordinary progressive rates, for the year of the
-  move plus the next 5 years — and unlike ordinary residents, foreign-source income generally isn't taxed in Spain at
-  all under the regime.
-- **The Beckham Law requires 5 years of prior non-residence.** Since the 2023 Startups Law reform, you must not have
-  been a Spanish tax resident in the **5 tax years** before moving, down from 10 years under the older rules, and you
-  must apply within **6 months** of registering with Spanish Social Security or starting the qualifying activity.
-- **The Beckham Law doesn't exempt everything.** Wealth tax still applies as normal, and foreign income only stays
-  untaxed if it's a minor share of your total earnings — the core of your professional activity has to be in Spain. A
-  spouse and children can sometimes join the same regime if they relocate together and their own income stays below the
-  main taxpayer's.
 - **Sporadic absences work against you by default.** Short trips abroad don't automatically pause your day count — the
   burden is on you to prove residence elsewhere if you want them excluded.
 - **Meeting one test is enough**, even if you'd fail the other two — the three tests are independent alternatives, not a
@@ -133,18 +138,11 @@ Spain even while you're mostly abroad.
 Not automatically. **Sporadic absences** generally still count as days of Spanish presence unless you can prove you're
 tax resident in another country — the default assumption favors counting the days, not excluding them.
 
-### What is the Beckham Law and who can use it?
+### Does qualifying for the Beckham Law affect my Spanish tax residency?
 
-It's a special regime letting qualifying new arrivals — employees, remote workers, entrepreneurs, and some directors —
-pay a flat **24%** rate on Spanish employment income (**47%** above a set threshold) for up to 6 tax years, instead of
-ordinary progressive rates. You must not have been a Spanish tax resident in the 5 years before moving, and you must
-apply within 6 months of starting.
-
-### Does the Beckham Law tax my foreign income?
-
-Generally no. Unlike ordinary Spanish residents, who are taxed on worldwide income, Beckham Law taxpayers are broadly
-only taxed on Spanish-source income — though foreign work income has to stay a minor share of your total earnings, and *
-*wealth tax still applies** as normal.
+No. The Beckham Law is a separate election about how your income is taxed, not about whether you're a Spanish tax
+resident — you still need to meet one of the three residency tests first. See **Beckham Law** above for the rates
+and eligibility conditions.
 
 ### Can my family create Spanish tax residency even if I don't meet the day count?
 

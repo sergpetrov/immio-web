@@ -282,7 +282,10 @@ rows, not five:
   they're introduced in the article; for a rule with banded thresholds that each matter on their
   own, list every boundary number. If the underlying law states the threshold in a unit other than
   days (a number of months, say), state it in that native unit — don't force a day-count
-  conversion the primary source doesn't actually give.
+  conversion the primary source doesn't actually give. **Name what is being counted when the cell
+  would otherwise be ambiguous** — "330 days abroad" rather than "330 full days," since a reader
+  scanning the table needs to know *what* the number measures, and a qualifier like "full" is a
+  counting mechanic that belongs in "How to keep track" where it can actually be defined.
 - **Period / Window row: use short, standard patterns only** — "Rolling 12 months," "Rolling 365
   days," "Calendar year (1 Jan – 31 Dec)," "Income year (1 Jul – 30 Jun)." Don't elaborate in the
   cell ("Any rolling 12-month period," "Rolling 12-month period from entry") — a detail like "from
@@ -336,6 +339,16 @@ You are a [rule subject] if you meet any one of three routes, in any order:
   [condition two].
 ```
 
+**Put a route's conditions inside its own bullet, not in a follow-up paragraph that restates
+them.** The recurring failure looks like this: a bullet says "a continuous stay of at least 183
+days across two calendar years," and the paragraph below then says "your employment has to run
+continuously across the two years, and your total stay must reach at least 183 days." That's the
+same two conditions twice. Whatever a paragraph below the list is for, it isn't repeating what the
+bullets already said — reserve it for what genuinely doesn't fit in a bullet, like the fact that a
+route is an administrative concession rather than statute, or an exclusion that applies to only one
+of the routes. If a route is complex enough that its conditions won't fit its bullet, that's a sign
+the detail belongs in "How to keep track" or Edge cases, not in a second pass over the same ground.
+
 **A route short enough to fit in its own bullet gets no separate treatment elsewhere** — don't
 create a redundant paragraph that restates it. **A route with genuine complexity** (a multi-factor
 test, several exempt categories, a multi-condition test) gets its bullet kept terse, then a
@@ -362,6 +375,17 @@ paragraph-shape consistency with every other article.
 
 Close with one short paragraph on the practical stakes if genuinely useful (e.g. why qualifying
 matters in this rule's specific context) — one paragraph only, not restated again in Edge cases.
+Keep it to the bare pairing (worldwide vs. local-source, admitted vs. refused). Rates, penalty
+tiers and the elaborated "why this is expensive" framing belong in "If you get this rule wrong,"
+which now opens with exactly that (see section 13).
+
+**This section has to earn its place by saying more than the callout did.** The callout states the
+thresholds; this section explains the machinery around them. If a draft's prose reduces to the
+callout with the numbers repeated, add the substance that's actually missing — who the rule applies
+to regardless of nationality or immigration status, what it deliberately does *not* test (a rule
+with no ties test at all is worth saying plainly, since readers arriving from other rules assume
+there is one), which route the official source treats as primary, or the structural quirk that
+makes this rule different from what a reader would guess.
 
 **Keep this section as short as it can be while still giving a correct mental model — cut anything
 that belongs in another section.** Three things repeatedly creep in and should come back out:
@@ -541,10 +565,21 @@ plausible-sounding percentage; if a specific number can't be verified, describe 
 qualitatively ("a penalty scaled to how serious the mistake is judged to be") instead of
 fabricating a figure. No exact currency amounts either way (see section 17).
 
-Close every instance of this section with the same sentence, verbatim and bolded — the one
-deliberate exception to "no bold" here:
+**Open with why this particular mistake bites, then give the penalty.** The consequence of holding
+the status — worldwide income vs. local-source only, losing a certificate, a refused application —
+is what makes the error expensive, and stating it here in one clause is what stops the penalty
+figures reading as free-floating trivia. It also keeps "Understanding the rule" from having to
+carry an elaborated consequences paragraph (see section 9). One clause, not a paragraph: *"Residents
+are taxed on worldwide income and worldwide wealth, so misjudging this usually surfaces as foreign
+income left undeclared. An incorrect position normally attracts additional tax at 20%…"*
 
-**Professional tax advice is strongly recommended in situations like this.**
+Close every instance of this section with the same sentence, verbatim and bolded — the one
+deliberate exception to "no bold" here. Which sentence depends on the article's `category`:
+
+```text
+tax                     → **Professional tax advice is strongly recommended in situations like this.**
+travel | immigration    → **Professional immigration advice is strongly recommended in situations like this.**
+```
 
 ---
 
@@ -617,6 +652,13 @@ Always consider including:
 
 - **A "what happens if I meet/fail this" question** when the consequence isn't obvious from the
   rest of the article.
+- **A disambiguation question whenever the rule contains two similarly-named things.** Official
+  terminology routinely produces near-collisions inside one rule — Puerto Rico's *closer connection
+  test* (one of three required tests) versus *no significant connection to the United States* (one
+  of five ways to satisfy just one of them). A reader who conflates them draws the wrong
+  conclusion, so answer it head-on: what each one is, what role each plays, and the case where you
+  pass one and still fail the other. Don't rename the official terms to avoid the clash — explain
+  the clash.
 - **A dual-status / treaty-interaction question** for any rule where an official source confirms
   the interaction exists — verify the specific mechanism for that rule (the interaction, and any
   specific form or procedure involved, varies) rather than assuming it's identical to another
@@ -668,6 +710,16 @@ reword, even if you didn't intend to touch the answer.
   "If you get this rule wrong," that's where the expansion goes. The `sources` frontmatter and
   "Official sources" list are exempt (they already follow the English-titles rule in section 15,
   which is about something else — translating descriptive text, not abbreviation).
+- **Never use a term of art the article hasn't defined.** An official shorthand that appears in
+  guidance ("Arriver or Leaver," "domestic tax subject," "deemed domiciled") means nothing to a
+  reader meeting it cold. Either define it in the same breath, or say the thing it stands for
+  instead — "whether you were UK resident in any of the previous 3 tax years" beats "whether you
+  are an Arriver or Leaver" when the underlying condition is what actually matters.
+- **Prefer the active fact to the abstract nominalization.** "The exclusion isn't automatic — you
+  have to claim it yourself, on Form 2555 filed with your return" beats "The exclusion is a choice
+  you make rather than something applied automatically, claimed on Form 2555 with your return." If
+  a sentence's main verb is *is* and the real action is buried in a trailing participial clause,
+  rewrite it around the action.
 - **When combining two sentences to shorten a passage, don't join them with a semicolon** — use
   two short sentences, an em dash, or a genuine restructure instead. A semicolon used this way
   (`"...taxed on worldwide income; falling short makes you a nonresident..."`) tends to sneak back
@@ -802,6 +854,69 @@ under discussion, unless the request is explicitly scoped to one rule. Before as
 applies everywhere, check whether every existing article has actually been migrated to the current
 structure — an older article may predate a structural change and need it applied as its own
 explicit step, rather than being assumed already compliant.
+
+---
+
+## 23a. Categories other than tax — travel and immigration
+
+Everything above was written against `category: tax` and stays the default. The `travel` (visitor
+visas, entry permissions, stay limits) and `immigration` (residence permits, settlement,
+citizenship) categories reuse the same section list, the same callout-plus-table Overview, the same
+three-example rule and the same research standards. What changes is vocabulary and what the
+consequences actually are. Adapt as follows, and don't adapt further than this — the point is one
+recognisable house style across all three categories, not three dialects.
+
+**Section list.** Identical to section 7, with one rename: `## If you get this rule wrong` stays as
+the heading, but its content is about immigration consequences rather than tax ones. "How to keep
+track" applies to any rule measured in days (nearly all travel rules, and any immigration rule with
+an absence limit) and is omitted only for a rule with no day mechanic at all.
+
+**Key facts table.** Same shape, same right-alignment, same standard-pattern discipline. The row
+labels shift to fit the subject:
+
+```markdown
+| Key facts               |                          |
+|:------------------------|-------------------------:|
+| Stay limit              | *e.g. 90 days*           |   <!-- travel: replaces Thresholds -->
+| Absence limit           | *e.g. 180 days*          |   <!-- immigration: replaces Thresholds -->
+| Qualifying period       | *e.g. 5 years*           |   <!-- immigration only -->
+| Period / Window         | *short standard pattern* |
+| Alternative             | *only if a second route exists* |
+| Counting                | *"Any part of a day", or "Nights (...)"* |
+| Additional requirements | *short label*            |
+```
+
+Keep the row count in the same 4–6 range. "Validity," "Extensions," and "Processing time" are
+tempting extra rows for a visa article — resist them unless one is genuinely a defining mechanic of
+the rule, and put the rest in prose.
+
+**What replaces the tax consequence.** The pairing that anchors a tax article ("worldwide income
+vs. local-source only") has a direct analogue in each category, and "If you get this rule wrong"
+should open on it the same way (section 13):
+
+- **travel** — refused entry at the border, an overstay recorded against you, fines, removal, and
+  re-entry bans of a stated length. Border refusal is discretionary in a way tax assessment isn't,
+  so say so rather than implying a clean formula.
+- **immigration** — a refused application, a broken continuous-residence clock that resets or
+  delays eligibility, loss of an existing status, and any effect on later citizenship. The
+  *clock resetting* is usually the real cost and is what readers most often underestimate.
+
+Real, jurisdiction-specific facts are required here exactly as in section 13: actual ban lengths,
+actual statutory penalties, the actual consequence for the qualifying clock. Generic "you may be
+refused entry and face penalties" is the same filler the tax library had to be rewritten to remove.
+Keep the same prohibition on damage-control advice — state the consequence, not the workaround, and
+never suggest how to present a case to an officer or caseworker.
+
+**Terminology.** Say "resident" only where it means immigration status, and never let a travel or
+immigration article imply anything about tax residency — the categories are deliberately separate,
+and conflating them is the single most damaging error available here. A person can hold a residence
+permit and not be tax resident, and vice versa. Where a reader is likely to assume otherwise, say
+plainly that the two are decided separately, but do not explain the other rule (section 17's ban on
+cross-referencing other articles still applies).
+
+**FAQ.** The dual-status/treaty question that closes most tax articles has no analogue. Close
+instead with whatever the genuine "what happens next" question is for that rule — how to extend,
+what happens at renewal, whether time on this status counts toward settlement or citizenship.
 
 ---
 

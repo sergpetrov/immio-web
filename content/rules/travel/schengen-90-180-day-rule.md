@@ -1,8 +1,8 @@
 ---
 id: schengen-90-180-day-rule
 
-title: Schengen Area – 90/180-Day Rule
-subtitle: 90 days ∙ Rolling 180 ∙ Visa-free
+title: Schengen 90/180-Day Rule
+subtitle: 90 days ∙ Rolling 180 days ∙ Visa-free short stays
 
 category: travel
 
@@ -11,76 +11,102 @@ place: schengen
 seo:
   title: Schengen 90/180-Day Rule Explained | Immio
   description: >
-    Understand the Schengen 90/180-day rule, how the rolling 180-day
-    window works, which countries it covers, and how to count your
-    visa-free days correctly.
+    How the Schengen 90/180-day rule works — the rolling 180-day window,
+    why the whole area counts as one territory, how entry and exit days
+    are counted, and what an overstay costs.
 
-updatedAt: 2026-08-11
+updatedAt: 2026-08-14
 
 sources:
   - title: European Commission — Short-stay visa calculator
     url: https://ec.europa.eu/assets/home/visa-calculator/calculator.htm
     type: official
-  - title: EU — Regulation (EU) 2016/399 (Schengen Borders Code)
+  - title: "EU — Regulation (EU) 2016/399 (Schengen Borders Code)"
     url: https://eur-lex.europa.eu/eli/reg/2016/399/oj
     type: official
 
 ---
 
-# Schengen Area – 90/180-Day Rule
+# Schengen 90/180-Day Rule
 
 ## Overview
 
 :::callout
-The Schengen 90/180-day rule lets visa-free (and short-stay visa) visitors spend up to 90 days in the Schengen Area within any rolling 180-day period. The 180-day window is not fixed — it moves with each day, so on any given date you look back over the previous 180 days and count how many you spent inside the area.
+Visa-free visitors and short-stay visa holders can spend up to **90 days** in the Schengen Area within any **180-day**
+period. The window doesn't reset on a fixed date — it rolls, so on any given day you look back over the previous 180
+and add up the days you were inside. The whole area counts as one territory, so crossing between member countries
+doesn't buy you a fresh allowance.
 :::
 
-| Key fact        | Detail                                   |
-|-----------------|------------------------------------------|
-| Threshold       | 90 days of stay                          |
-| Period / Window | Rolling 180 days (moving, not fixed)     |
-| Resets          | Continuously, as old days drop out       |
-| Applies To      | Visa-free & short-stay visa visitors     |
-| Coverage        | 29 Schengen countries as one area        |
-| Legal Basis     | Schengen Borders Code (EU) 2016/399      |
+| Key facts               |                                       |
+|:------------------------|--------------------------------------:|
+| Stay limit              |                               90 days |
+| Period / Window         |                      Rolling 180 days |
+| Counting                |                     Any part of a day |
+| Additional requirements | Short stays only, no work entitlement |
 
-- You may stay up to 90 days in total within any 180-day period.
-- The 180 days is a **rolling** window: each day you count the days present in the preceding 180.
-- The Schengen Area is treated as a single territory — moving between member countries does not reset your count.
-- The rule applies to short stays only; long stays and work usually require a national visa or residence permit.
-- Overstaying can lead to fines, deportation, and future entry bans.
+## Understanding the rule
 
-## How the 90/180 rule works
+The rule sets a ceiling on short stays, and it applies to you if you enter the Schengen Area either visa-free or on a
+short-stay visa. It is a limit on time present, not a permission to do anything in particular — it carries no right to
+work, and it doesn't accumulate toward any residence status.
 
-On any day you want to check, look back over the previous 180 days (including that day) and add up every day you were physically present anywhere in the Schengen Area. If the total is 90 or fewer, you are within the limit; if it would exceed 90, you must not be in the area that day.
+The two features that trip people up are both structural. The 90 days are shared across the **entire area** rather than
+granted per country, so a month in Spain and two months in Germany exhaust the same allowance. And the 180-day window
+**rolls** rather than resetting, so there is no date in the calendar on which your count starts fresh.
 
-Because the window rolls, days "expire" 180 days after they occur. A trip you took more than 180 days ago no longer counts against you, which gradually frees up allowance over time even without leaving.
+Longer stays, work, and study sit outside this rule entirely. They need a national long-stay visa or residence permit
+from the specific country concerned, which is a separate permission with its own conditions.
 
-Both your entry day and your exit day count as days of presence, even if you only spend part of each in the area.
+## How to keep track
 
-## Which countries are covered
+1. The limit is **90 days** of presence inside the Schengen Area across any **180-day** period.
+2. **Any part of a day** counts as a full day, so both your arrival day and your departure day add to the total.
+3. Pick the day you want to check, count back **180 days** from it, and add up every day you were inside the area in
+   that stretch. If the total would exceed 90, you can't be in the area that day.
+4. Days drop out of the count once they're more than 180 days old, so your allowance replenishes gradually rather than
+   all at once.
+5. Moving between member countries changes nothing — the whole area is one territory for counting purposes.
 
-The Schengen Area is a group of European countries that have abolished internal border checks and share a common short-stay policy. Your 90 days are shared across all of them combined — not 90 days per country.
+Keep entry and exit stamps, boarding passes and accommodation bookings for every trip. The European Commission
+publishes an official short-stay calculator that applies the rolling-window arithmetic for you, and checking against it
+before you book is far easier than reconstructing a disputed count at a border.
 
-- Time spent in any member country counts toward the same 90-day total.
-- Non-Schengen EU countries (and some European states outside the EU) may have their own separate visa-free allowances.
-- Always confirm the current membership list before travelling, as it changes over time.
+## Edge cases
 
-## Counting your days
+- **The rolling window means an old trip can still constrain you.** A long stay that ended four months ago is still
+  inside the 180-day lookback, so the allowance you have left today depends on travel you may have stopped thinking
+  about.
+- **Some member states have bilateral visa-waiver agreements that predate Schengen.** These can, in specific
+  nationality-and-country combinations, allow additional time beyond the 90 days. They are applied inconsistently and
+  should never be relied on without confirming your exact case with that country.
+- **A residence permit or long-stay visa from a member state takes you outside this rule.** Time spent in the issuing
+  country on that permit isn't counted against the 90 days, though time in *other* member states generally still is.
+- **The area's membership changes.** Countries have joined as recently as the last few years, and joining moves a
+  country's days from a separate national allowance into the shared Schengen total.
 
-The safest way to count is to use the European Commission's official short-stay calculator, which applies the rolling-window logic for you.
+## If you get this rule wrong
 
-- Record the entry and exit date of every trip into the area.
-- For any planned future date, count presence over the prior 180 days including all planned trips.
-- Keep entry/exit stamps, boarding passes, or other evidence in case you are asked to prove your day count.
+An overstay is recorded against you and follows you: expect a fine, and expect the overstay to surface at every future border crossing and visa application across the whole area. Member states can impose an entry ban, commonly up to three years and longer for a serious or repeated case, and the length is set by the state that catches it rather than by a single area-wide tariff. **Professional immigration advice is strongly recommended in situations like this.**
 
 ## Examples
 
-**Example — spreading trips out.** Maria visits the Schengen Area for 30 days in January, 30 days in April, and wants to return in July. By July, her January days have rolled out of the 180-day window, so they no longer count — leaving her with room for another visit within the 90-day limit.
+### Spreading trips across the window
 
-**Example — a long single stay.** Tom enters on 1 March and stays continuously. By day 90 he has used his full allowance and must leave. He cannot re-enter until enough of those days have aged out of the rolling 180-day window to bring his count back below 90.
+You spend 30 days in France in January and 30 in Italy in April, then plan a July trip. By July the January days have
+aged out of the 180-day lookback, so they no longer count, leaving you room for a further stay within the 90-day limit.
 
-These examples are illustrative only — always verify your own dates with the official calculator, as a miscount by even one day can result in an overstay.
+### One long stay that uses the whole allowance
+
+You enter Portugal on 1 March and stay put. You hit 90 days at the end of May and have to leave. You can't return
+immediately — you have to wait until enough of those days have aged past 180 for your count to fall back under the
+limit.
+
+### Country-hopping that doesn't reset anything
+
+You spend 45 days in Spain, cross into Germany for another 40, then move on to Greece assuming each country grants its
+own 90. All three sit inside the same area, so your total is already 85 and you have five days left, not a fresh
+allowance.
 
 ## Official sources
 
@@ -89,18 +115,33 @@ These examples are illustrative only — always verify your own dates with the o
 
 ## FAQ
 
-### Is it 90 days per country or for the whole area?
+### Is it 90 days per country or across the whole area?
 
-For the whole area combined. The Schengen Area is treated as a single territory, so days spent in any member country all count toward the same 90-day total.
+Across the whole area. The Schengen states are treated as a single territory for this rule, so days in any member
+country count toward the same 90-day total.
 
 ### Does the 180-day window reset when I leave?
 
-No. The window does not reset — it rolls continuously. Individual days simply stop counting once they are more than 180 days in the past.
+No. It never resets. It rolls continuously, and individual days simply stop counting once they're more than 180 days
+in the past.
 
-### Do entry and exit days both count?
+### Do arrival and departure days both count?
 
-Yes. Any day on which you are present in the area — including the day you arrive and the day you leave — counts as a day of stay.
+Yes. Any day on which you're present in the area counts as a full day, including the day you fly in and the day you
+fly out, however brief your presence.
 
-### What happens if I overstay?
+### How do I work out how many days I have left?
 
-Overstaying can result in fines, removal, and a ban on re-entering the Schengen Area for a period. Consequences vary by country and by how long the overstay was.
+Pick the date you want to check, count back 180 days, and total your days inside the area across that stretch. The
+European Commission's short-stay calculator does this for you and is the safest way to check a planned trip.
+
+### Does time on a residence permit count toward the 90 days?
+
+Generally not for the country that issued it — holding a valid residence permit or long-stay visa takes that time
+outside the short-stay rule. Time you spend in other member states is a separate question and usually still counts.
+
+### Can I extend a stay beyond 90 days?
+
+Only in narrow circumstances, such as force majeure or serious personal reasons, and only by applying to the
+authorities of the country you're in before your 90 days run out. It isn't a routine extension and it isn't granted for
+convenience.

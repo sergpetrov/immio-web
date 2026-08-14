@@ -1,106 +1,149 @@
 ---
 id: uk-ilr-180-day-rule
 
-title: United Kingdom – ILR 180-Day Rule
-subtitle: 180 days ∙ Rolling 12 months ∙ Settlement
+title: UK Indefinite Leave to Remain (180-day rule)
+subtitle: 180 days absence ∙ Rolling 12 months ∙ 5-year qualifying period
 
 category: immigration
 
 place: gb
 
 seo:
-  title: UK ILR 180-Day Absence Rule | Immio
+  title: UK ILR 180-Day Absence Rule Explained | Immio
   description: >
-    Understand the UK Indefinite Leave to Remain (ILR) 180-day rule,
-    how absences are counted over rolling 12-month periods, and how it
-    affects settlement eligibility.
+    How the UK's ILR 180-day absence rule works — the rolling 12-month
+    window, which absences count, the routes that use different rules,
+    and what breaking continuous residence costs you.
 
-updatedAt: 2026-08-11
+updatedAt: 2026-08-14
 
 sources:
-  - title: GOV.UK — Indefinite leave to remain
+  - title: GOV.UK — Settle in the UK (indefinite leave to remain)
     url: https://www.gov.uk/settle-in-the-uk
     type: official
-  - title: Home Office — Continuous residence caseworker guidance
+  - title: Home Office — Continuous residence and the Immigration Rules
     url: https://www.gov.uk/government/publications/continuous-residence-and-immigration-rules
     type: official
 
 ---
 
-# United Kingdom – ILR 180-Day Rule
+# UK Indefinite Leave to Remain (180-day rule)
 
 ## Overview
 
 :::callout
-Indefinite Leave to Remain (ILR) is the UK’s main settlement status. For most work-based routes, you must not have spent more than 180 days outside the UK in any rolling 12-month period during your qualifying residence (usually five years). Excess absences can break your continuous residence and delay or prevent settlement.
+Indefinite Leave to Remain (ILR) is the UK's settlement status. On most work routes you have to complete a qualifying
+period — usually **5 years** — without spending more than **180 days** outside the UK in any rolling 12 months. Break
+that and your continuous residence breaks with it, which resets the clock rather than merely delaying the paperwork.
 :::
 
-| Key fact        | Detail                                     |
-|-----------------|--------------------------------------------|
-| Threshold       | 180 days outside the UK                     |
-| Period / Window | Any rolling 12-month period                 |
-| Qualifying Time | Usually 5 years of continuous residence     |
-| Applies To      | Most points-based / work settlement routes  |
-| Counts As Day   | Whole days spent outside the UK             |
-| Legal Basis     | UK Immigration Rules, Appendix Continuous Residence |
+| Key facts               |                                          |
+|:------------------------|-----------------------------------------:|
+| Absence limit           |                 180 days outside the UK |
+| Qualifying period       |                        Usually 5 years |
+| Period / Window         |                       Rolling 12 months |
+| Counting                |             Whole days outside the UK |
+| Additional requirements | Valid leave throughout, route conditions |
 
-- You must not exceed 180 days of absence in any rolling 12-month window across your qualifying period.
-- The 12-month window rolls — it is assessed continuously, not by fixed calendar years.
-- The rule generally applies to work and points-based routes; some routes (such as certain family or long-residence routes) use different absence rules.
-- Continuous residence can be broken by excessive absences, gaps in valid leave, or time spent in immigration detention.
-- Keep detailed records of every trip, as the Home Office may check absences across the whole qualifying period.
+## Understanding the rule
 
-## How the 180-day rule works
+The 180-day limit is not an annual allowance you get to spend each year. It is a ceiling that has to hold across
+**every** rolling 12-month window inside your qualifying period, which means a single long absence constrains you for
+the following twelve months as well as the twelve it fell in.
 
-For each day in your qualifying period, the Home Office can look back over the preceding 12 months and total the days you were outside the UK. If that total exceeds 180 in any such window, your continuous residence may be considered broken.
+What the rule protects is *continuous residence* — the unbroken stretch of lawful UK residence that settlement is built
+on. Absences are only one way to break it. Gaps in valid leave and certain other events break it too, and a broken
+chain generally means starting the qualifying period again rather than waiting a little longer.
 
-Because the window rolls, a period of long absence can affect your eligibility for up to 12 months afterwards, until those absent days age out of every applicable 12-month window.
+The 180-day figure is standard for the points-based work routes, but it isn't universal. Some family and long-residence
+routes apply different absence tests, and a few settlement routes have no absence limit of this kind at all. Confirm
+which test applies to your specific route before counting anything.
 
-Days of departure and return are generally treated according to current Home Office guidance; whole days spent outside the UK are what count toward the 180-day limit.
+## How to keep track
 
-## What counts as an absence
+1. The limit is **180 days** spent outside the UK in any rolling 12-month period, held continuously across the whole
+   qualifying period.
+2. The window **rolls** rather than following calendar years, so check the worst 12-month stretch you can construct
+   from your travel history, not each year in isolation.
+3. Whole days outside the UK are what count. Days you depart and return are treated as days of presence in the UK, so
+   a trip out and back within one day doesn't add to the total.
+4. Absences before your qualifying period began don't count toward the limit, but you should still be able to evidence
+   that travel if asked.
+5. A single long trip constrains you twice over — it sits in every 12-month window that contains it, so its effect
+   lasts a full year after you return.
 
-An absence is time spent physically outside the UK. Most trips abroad count, but the reason for travel and the route you are on can affect how absences are assessed.
+Log the departure and return date of every trip out of the UK as you go, and keep passport stamps, tickets and
+boarding passes. The Home Office can examine absences across the entire qualifying period, and reconstructing five
+years of travel from memory at application time is where most avoidable problems start.
 
-- Holidays, business trips, and personal travel all normally count as absences.
-- Some routes allow certain absences (for example, for serious or compelling reasons) to be treated more flexibly.
-- Time before your qualifying period began does not count, but you should still be able to evidence your travel history.
+## Edge cases
 
-## Keeping track of your absences
+- **The rule is about every window, not every year.** Someone who spends 170 days abroad from July to June and another
+  170 from the following July is fine on calendar years but may have well over 180 in a window spanning the two.
+- **Some absences can be treated more flexibly.** Certain routes allow absences for serious or compelling reasons —
+  a family emergency, a medical crisis, or conditions outside your control — to be assessed differently. This is
+  discretionary and evidence-led, not an automatic exemption.
+- **Time without valid leave breaks continuity regardless of your day count.** A gap between one visa expiring and the
+  next being granted can break continuous residence even if you never left the country.
+- **Absence rules differ by route.** Long-residence and some family routes use their own tests, so a figure you read
+  for one route can be simply wrong for another.
 
-Because the rule is assessed over rolling windows across several years, careful record-keeping is essential.
+## If you get this rule wrong
 
-- Log the departure and return date of every trip out of the UK.
-- Check the worst-case 12-month window, not just each calendar year.
-- Retain passport stamps, tickets, and other evidence to support your application.
+Exceeding the limit generally breaks your continuous residence, and the cost is the clock rather than the calendar — the qualifying period usually starts again from zero, pushing settlement years further out rather than months. That delay flows through to citizenship as well, since naturalisation normally requires holding settled status for a further period on top. **Professional immigration advice is strongly recommended in situations like this.**
 
 ## Examples
 
-**Example — staying within the limit.** Ana works in the UK on a skilled worker visa and takes several trips abroad, but never exceeds 150 days outside the UK in any 12-month window. Her continuous residence remains intact, and she can apply for ILR at the end of her five-year qualifying period.
+### Comfortably inside the limit
 
-**Example — a long absence.** Ben spends 200 days abroad over a single 12-month window caring for a relative. Unless his route allows the absence to be treated as an exception, this may break his continuous residence and reset or delay his qualifying period for ILR.
+You work in the UK on a skilled worker visa and travel regularly, but your absences never exceed about 150 days in any
+12-month stretch you check. Your continuous residence holds, and you reach the end of your 5-year qualifying period on
+schedule.
 
-These examples are illustrative only — absence rules vary by immigration route, so always check the specific requirements for your visa category and the current Immigration Rules.
+### Two compliant years that hide a bad window
+
+You spend 170 days abroad between July and the following June, then 170 more the year after. Each calendar year looks
+fine, but the 12-month window straddling the two contains far more than 180 days, which is the window that counts.
+
+### A single long absence
+
+You spend 200 continuous days abroad caring for a relative. That one trip exceeds the limit on its own, and unless your
+route allows the absence to be treated as an exception on its facts, your continuous residence breaks and the
+qualifying period restarts.
 
 ## Official sources
 
-- [GOV.UK — Indefinite leave to remain](https://www.gov.uk/settle-in-the-uk)
-- [Home Office — Continuous residence caseworker guidance](https://www.gov.uk/government/publications/continuous-residence-and-immigration-rules)
+- [GOV.UK — Settle in the UK (indefinite leave to remain)](https://www.gov.uk/settle-in-the-uk)
+- [Home Office — Continuous residence and the Immigration Rules](https://www.gov.uk/government/publications/continuous-residence-and-immigration-rules)
 
 ## FAQ
 
 ### Is the 180 days counted per calendar year?
 
-No. It is assessed over any rolling 12-month period during your qualifying residence, so you should check the worst-case window rather than each calendar year separately.
+No. It's assessed over any rolling 12-month period across your qualifying residence, so you need to check the worst
+window your travel history produces rather than each calendar year separately.
 
-### Does the 180-day rule apply to every visa route?
+### Does the 180-day rule apply to every settlement route?
 
-No. It applies to most work and points-based settlement routes, but some routes — such as certain family or long-residence routes — use different absence rules. Always check the rules for your specific route.
+No. It's the standard test on work and points-based routes, but some family and long-residence routes use different
+absence rules, and a few have no comparable limit. Check the rules for your specific route.
 
-### What happens if I exceed 180 days of absence?
+### What actually happens if I exceed the limit?
 
-Exceeding the limit can break your continuous residence, which may reset or delay when you can apply for ILR. Some routes allow exceptions for serious or compelling reasons.
+Your continuous residence is generally treated as broken, which usually means the qualifying period restarts rather
+than being extended. Some routes allow absences for serious or compelling reasons to be assessed differently.
 
-### Do I need to record absences from before my qualifying period?
+### Do my departure and return days count as absence?
 
-Time before your qualifying period does not count toward the limit, but keeping a full travel history helps you evidence your continuous residence if the Home Office asks.
+No. Days on which you depart from or return to the UK are normally treated as days of presence, so only whole days
+spent outside the UK count toward the 180.
+
+### Do absences before my qualifying period started count?
+
+No, they fall outside the limit. Keeping a full travel history is still worthwhile, since it helps evidence your
+continuous residence if the Home Office asks about the wider period.
+
+### Does getting ILR mean I can then apply for citizenship?
+
+Not immediately in most cases. Naturalisation normally requires holding settled status for a further qualifying period
+and meeting its own separate residence, absence, and character requirements.

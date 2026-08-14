@@ -243,32 +243,66 @@ No exceptions detail, no dates/periods already stated in the table below (don't 
 information across the callout and the table), and no legal citations. Bold only the defining
 threshold(s) and one or two truly load-bearing terms — not full clauses.
 
+**The shape above is the required content, not a sentence template to fill in with a new country's
+name each time.** Don't let every callout read as the same three clauses in the same order with
+only the nouns swapped — vary the phrasing, sentence rhythm, and even which clause leads, based on
+what's actually distinctive about this specific rule. If the rule's own official source, or how its
+target audience commonly refers to it, has a well-known, natural framing — a named test everyone in
+that market already calls by name, a phrasing convention used in the country's own official
+guidance — lean into that instead of defaulting to the generic pattern. It should read as the most
+natural way to explain *this* rule, not as visually consistent with every other article's callout.
+
 ### Key facts table
 
-Exactly this shape, one table per article, no exceptions:
+This shape, one table per article, no exceptions. Add the **Alternative** row only when the rule
+genuinely has a second, independent counting route (see below) — otherwise the table has four
+rows, not five:
 
 ```markdown
 | Key facts               |                          |
 |:------------------------|-------------------------:|
-| Thresholds               | *bare number(s)*        |
-| Period / Window          | *the measurement window*|
-| Counting                 | *unit + rule, one line* |
+| Thresholds               | *bare number, or "More than N days"* |
+| Period / Window          | *short standard pattern* |
+| Alternative               | *N days / rolling M months — only if a second route exists* |
+| Counting                 | *"Any part of a day", or "Nights (...)"* |
 | Additional requirements  | *short label*            |
 ```
 
 - **Right-align the second column** (`--:` in the header separator) — the shared CSS
   (`public/content/content.css`) renders it at medium weight automatically.
-- **Thresholds row: bare numbers only, never "more than."** For a threshold defined in law as
-  exclusive ("more than N days"), use the next integer up (**N+1 days**) so the cell stays a plain
-  number without a qualifying word — reserve the exact legal phrasing ("more than N days") for
-  prose in "Understanding the rule." For a rule with several distinct route thresholds, list them
-  comma-separated in the order they're introduced in the article; for a rule with banded
-  thresholds that each matter on their own, list every boundary number. If the underlying law
-  states the threshold in a unit other than days (a number of months, say), state it in that
-  native unit — don't force a day-count conversion the primary source doesn't actually give.
-- **Counting row**: either `Nights ({rule name})` (e.g. "Nights (Midnight rule)", "Nights
-  (Overnight stay)") or `Any part of a day`, with a short qualifier appended if the rule has one
-  (e.g. "Any part of a day, except departure").
+- **Thresholds row: say "More than N days" when that's genuinely how the law phrases it — don't
+  round up to a derived N+1 number.** An earlier version of this plan asked for a bare number
+  (e.g. "184 days" for a "more than 183 days" rule) so the cell stayed a plain figure. In practice
+  this repeatedly produced a number that doesn't appear anywhere in the actual source, which reads
+  as false precision and desyncs the table from prose that correctly says "more than 183 days."
+  Use the bare number only when the official source itself states that exact figure as the
+  threshold (not derived from an "more than" phrasing) — for example, a country whose statute
+  literally reads "184 days," not "more than 183." When in doubt, quote the source's own words.
+  For a rule with several distinct route thresholds, list them comma-separated in the order
+  they're introduced in the article; for a rule with banded thresholds that each matter on their
+  own, list every boundary number. If the underlying law states the threshold in a unit other than
+  days (a number of months, say), state it in that native unit — don't force a day-count
+  conversion the primary source doesn't actually give.
+- **Period / Window row: use short, standard patterns only** — "Rolling 12 months," "Rolling 365
+  days," "Calendar year (1 Jan – 31 Dec)," "Income year (1 Jul – 30 Jun)." Don't elaborate in the
+  cell ("Any rolling 12-month period," "Rolling 12-month period from entry") — a detail like "from
+  entry" belongs in "How to keep track," not the table.
+- **Alternative row (only when it applies)**: for a rule with a genuine second counting route —
+  a different day threshold measured over a different window, both independently sufficient to
+  qualify (Norway's 183-days-in-12-months *or* 270-days-in-36-months is the reference case) — add
+  this row directly after Period / Window, combining the second threshold and its own window into
+  one cell: `270 days / Rolling 36 months`. Don't add this row for a rule that merely has other,
+  non-day-based qualifying routes (a domicile test, a ties test, a resides test) — those stay in
+  "Additional requirements" as before. The Alternative row is specifically for a second **counting**
+  rule, not a second route in general.
+- **Counting row: always exactly `Any part of a day` or `Nights ({rule name})`, with at most a
+  short qualifier appended** (e.g. "Any part of a day, except departure"). Do not invent bespoke
+  phrasing for a rule with no officially stated day-counting formula (a country's law that says
+  only "presence" or "duration" with no explicit partial-day rule) — this has been tried (wording
+  like "Days of stay, continuous or summed" or "Actual presence, compared country by country") and
+  it breaks the table's scannability as a lookup. Default to `Any part of a day` even when the
+  official source doesn't explicitly confirm partial-day counting, and note the genuine uncertainty
+  in "How to keep track" prose instead, where nuance has room.
 - **Additional requirements row**: a short label naming the secondary test(s), not a full
   sentence.
 - Never include legal basis, "applies to," or order-of-tests rows — those belong in prose further
@@ -313,8 +347,29 @@ fewer days you spend, the more factors it takes to trigger the rule.
 - **Factor two** — ...
 ```
 
+**The bullet-list-of-routes structure above is the required shape for a multi-route rule, not a
+sentence template.** "You are a [rule subject] if you meet any one of three routes" shouldn't
+appear near-verbatim across a dozen articles with only the country and number changed. If the
+official source, or how the rule is actually taught, searched for, or discussed by practitioners
+in that country, uses a different well-established framing or entry point, use that instead of
+forcing the generic pattern — the goal is the clearest, most natural explanation of this rule, not
+paragraph-shape consistency with every other article.
+
 Close with one short paragraph on the practical stakes if genuinely useful (e.g. why qualifying
 matters in this rule's specific context) — one paragraph only, not restated again in Edge cases.
+
+**Keep this section as short as it can be while still giving a correct mental model — cut anything
+that belongs in another section.** Three things repeatedly creep in and should come back out:
+day-counting mechanics (arrival/departure treatment, window-restart mechanics, what counts as a
+day) belong in "How to keep track," not here; elaborated consequences beyond the one-line "taxed on
+worldwide income / taxed only on local-source income" pairing belong in "If you get this rule
+wrong" or Edge cases; and a carve-out's full mechanics belong in Edge cases, with only a short
+flag here that a carve-out exists ("subject to a carve-out for a genuine overseas home") rather
+than the whole condition spelled out inline. If an embedded sub-list (conditions specific to one
+route, say) has several closely related items, merge the ones that are variations on the same idea
+rather than listing every micro-variant separately — a list of "50% or more of income is
+local-source" / "50% or more of assets are managed locally" / "50% or more of assets are held
+locally" is one merged bullet, not three.
 
 **Never compare the rule to another country's rule or reference another article on the site.**
 Every rule page must read as fully self-contained — if a contrast with another country's approach
@@ -326,8 +381,9 @@ in plain text, and only when the forward-reference is genuinely needed.
 
 ## 10. How to keep track
 
-Numbered list, ordered by importance to the reader, not by document structure or chronology.
-Typical shape:
+Numbered list, ordered by importance to the reader, not by document structure or chronology. Keep
+it light — this section is specifically about the mechanics of counting and tracking days, not a
+second pass over the whole rule. Typical shape:
 
 1. The core threshold(s), restated precisely even though the callout already states them — this
    is deliberate duplication, since this is where a reader lands wanting the exact mechanics, and
@@ -337,18 +393,26 @@ Typical shape:
 3. Everything that changes what counts as a day — exceptions, exclusions, anti-avoidance counting
    mechanics — combined into as few list items as the material allows. Prefer one dense, precise
    sentence over three thin ones with overlapping content.
-4. **Always end with a practical item on what documents/evidence to retain**, tailored to the
-   rule's actual qualifying path(s) — not a generic "keep good records" placeholder. Base it on
-   what the rule actually requires proof of: travel records (boarding passes, entry/exit stamps)
-   are always relevant; a tenancy agreement, title deed, or utility bills for any home/habitual-
-   residence test; employment or business documents for any work-tie condition; a foreign
-   qualifying-status certificate for any rule where excluding time depends on proving status
-   elsewhere.
 
-If a detailed "what evidence do I need" FAQ already exists for the rule, don't duplicate its
-procedural detail here (which form, which authority) — this list item is about the habit of
-recordkeeping as you go; let the FAQ carry the procedural detail. Skip this section entirely for a
-rule not measured in days (a points-based or income-threshold rule).
+Then, as a **trailing sentence after the numbered list, not a numbered item itself**: what
+documents/evidence to retain, tailored to the rule's actual qualifying path(s) — not a generic
+"keep good records" placeholder. Base it on what the rule actually requires proof of: travel
+records (boarding passes, entry/exit stamps) are always relevant; a tenancy agreement, title deed,
+or utility bills for any home/habitual-residence test; employment or business documents for any
+work-tie condition; a foreign qualifying-status certificate for any rule where excluding time
+depends on proving status elsewhere.
+
+**Cut any numbered item that isn't genuinely about counting or tracking days, or that repeats a
+fact already stated elsewhere in the article** — even when it's day-adjacent. A residence-loss
+mechanic ("you cease to be resident after N days of absence"), an exit/departure procedure, or a
+carve-out's full qualifying conditions are different topics from "how do I count my days," and if
+they're already covered in Edge cases or FAQ (which they usually should be), repeating them here
+just pads the section. The test: does this line help someone literally tallying their days right
+now? If not, it belongs elsewhere, and if it's said elsewhere already, don't say it a third time
+here. If a detailed "what evidence do I need" FAQ already exists for the rule, don't duplicate its
+procedural detail here (which form, which authority) — this trailing sentence is about the habit
+of recordkeeping as you go; let the FAQ carry the procedural detail. Skip this section entirely for
+a rule not measured in days (a points-based or income-threshold rule).
 
 ---
 
@@ -409,43 +473,59 @@ one) gets **exactly one** disambiguating bullet — what it is, one clarifying s
 more. If it's popular enough that people will search for it on its own, that's a signal for a
 future, separate rule page — not more content here.
 
+**Prefer keeping a given fact in one place rather than restating it near-identically in both Edge
+cases and FAQ.** A gotcha framed as "X doesn't automatically mean Y" in Edge cases and then
+answered again almost word-for-word as "Does X automatically mean Y? No..." in FAQ is padding, not
+two genuinely useful angles — cut it from whichever section is weaker for that specific fact (FAQ
+usually wins for something phrased as a direct, searchable question; Edge cases usually wins for a
+genuine "gotcha" with no natural question form). The exception is the single most important,
+distinctive fact in the whole article — the one thing most likely to flip a reader's outcome — 
+which can legitimately appear in Edge cases, FAQ, *and* an Example, each in a different form
+(terse gotcha, direct answer, worked scenario), because that's the fact worth reinforcing from
+multiple angles. Everything else gets one home. When trimming duplicates this way, keeping the
+section down to 2–3 bullets for an otherwise-simple rule is fine — the "4–6" above is a typical
+range, not a quota to fill with restatements.
+
 ---
 
 ## 13. If you get this rule wrong
 
-Plain prose, 2–3 sentences, no bullet list, no bold except the mandatory closing sentence (see
-below). Factual and calm, no scare language — a plain blog explainer's tone, not a legal warning.
+Plain prose, ideally 2 sentences and rarely more than 3, no bullet list, no bold except the
+mandatory closing sentence (see below). Factual and calm, no scare language — a plain blog
+explainer's tone, not a legal warning. If a draft runs longer than the library's typical length for
+this section, tighten it before moving on — this section should be one of the shortest in the
+article, not one of the longest.
 
 **This section needs real, country-specific research — never default to a generic template.**
-"You may owe back taxes, interest, and penalties... the authority can assess this retroactively...
-correcting it yourself first usually means a lighter penalty" is true of literally every country
-and tells the reader nothing they couldn't already guess — it reads as filler because it is
-filler. This was tried across the whole library and had to be redone once the pattern became
-obvious. Research the actual mechanism instead:
+"You may owe back taxes, interest, and penalties... the authority can assess this retroactively"
+is true of literally every country and tells the reader nothing they couldn't already guess — it
+reads as filler because it is filler. This was tried across the whole library and had to be redone
+once the pattern became obvious. Research the actual penalty mechanism instead:
 
 - **The real penalty structure** — statutory percentage tiers by culpability (careless vs.
   deliberate vs. fraud), not a vague "penalties apply." These are almost always published as exact
   percentages of the tax owed, which you can state directly — the currency ban in section 17
   doesn't apply to rates.
-- **A named voluntary-disclosure or self-correction mechanism**, if the country has one — most do,
-  often under a specific local name ("worldwide disclosure facility," "active regret," "repentance
-  and correction," "voluntary disclosures program"). Name it and state what it actually does
-  (waives a penalty, reduces it by a specific fraction, avoids criminal liability), not a generic
-  "correcting it yourself helps."
-- **How the authority actually catches this**, only if there's something concrete (a data-sharing
-  agreement like FATCA/CRS, cross-referencing a certificate application against immigration
-  records, a specific lookback window) — skip this if the only honest answer is "they can audit
-  you."
+- **How the authority actually catches this**, only if there's something concrete and genuinely
+  interesting (a data-sharing agreement like FATCA/CRS, cross-referencing a certificate application
+  against immigration records) — skip this if the only honest answer is "they can audit you," and
+  don't force it in just to fill space.
+
+**Do not mention voluntary disclosure, self-correction programs, amnesties, or any other way to
+reduce or avoid the penalty, and do not give advice about what a reader should do.** An earlier
+version of this plan required naming a voluntary-disclosure mechanism here; that guidance is
+reversed. State the consequence, not the workaround — this section's job is to convey the stakes
+of getting the rule wrong, not to counsel the reader on damage control, which strays toward the
+personal tax advice this whole project avoids giving (see section 22).
 
 Official tax-authority guidance and statute come first, same as everywhere else. If the specific
-penalty percentages or the disclosure mechanism aren't clearly stated officially, reputable
-professional-firm write-ups are the next best source — cross-check at least two independent ones
-before using a specific number. Fall back to community discussion (Reddit, forums) only if both
-are thin, and only cite sources from the last 1–2 years — an older thread may describe a rule that
-has since changed. Never invent a plausible-sounding percentage; if a specific number can't be
-verified, describe the mechanism qualitatively ("a penalty scaled to how serious the mistake is
-judged to be") instead of fabricating a figure. No exact currency amounts either way (see section
-17).
+penalty percentages aren't clearly stated officially, reputable professional-firm write-ups are the
+next best source — cross-check at least two independent ones before using a specific number. Fall
+back to community discussion (Reddit, forums) only if both are thin, and only cite sources from the
+last 1–2 years — an older thread may describe a rule that has since changed. Never invent a
+plausible-sounding percentage; if a specific number can't be verified, describe the mechanism
+qualitatively ("a penalty scaled to how serious the mistake is judged to be") instead of
+fabricating a figure. No exact currency amounts either way (see section 17).
 
 Close every instance of this section with the same sentence, verbatim and bolded — the one
 deliberate exception to "no bold" here:
@@ -567,6 +647,19 @@ reword, even if you didn't intend to touch the answer.
   or the currency threshold a rate applies above*, doesn't.
 - Second person throughout the body, especially Examples — never named individuals.
 - Use the `:::callout ... :::` syntax only in Overview, nowhere else.
+- **Spell out an abbreviation in full the first time it's used in body prose, with the
+  abbreviation in parentheses immediately after** ("Dirección de Impuestos y Aduanas Nacionales
+  (DIAN)," "Australian Taxation Office (ATO)"), then use the bare abbreviation from that point on.
+  This applies to the first bare use anywhere in the body — if the authority is never named before
+  "If you get this rule wrong," that's where the expansion goes. The `sources` frontmatter and
+  "Official sources" list are exempt (they already follow the English-titles rule in section 15,
+  which is about something else — translating descriptive text, not abbreviation).
+- **When combining two sentences to shorten a passage, don't join them with a semicolon** — use
+  two short sentences, an em dash, or a genuine restructure instead. A semicolon used this way
+  (`"...taxed on worldwide income; falling short makes you a nonresident..."`) tends to sneak back
+  toward the exact wordiness you were trying to cut. This doesn't apply to a semicolon used as
+  conventional punctuation inside a bulleted list (separating list items that end in semicolons and
+  a final period) — that's a different, acceptable use.
 
 ---
 
@@ -584,7 +677,13 @@ Both the frontmatter `title` and the Markdown `# H1` follow:
   frontmatter title uses a short form.
 - **The bracketed suffix** names the rule's defining mechanism — the test's proper name if it has
   one, or the day-threshold shape if it doesn't (a single number: "N-day rule"; two alternative
-  thresholds: "N-day and M-day rules"). Don't list every secondary test in the bracket.
+  thresholds: "N-day and M-day rules"). Use "rule," not "route" or another synonym, as the
+  connecting word — this was tried both ways and "rule" is the settled choice. Only include a
+  bracket at all when it's a genuine 1–2-keyword phrase that fairly represents the rule and is
+  worth targeting for search — not a list of every route. If the rule has more named tests than
+  that (three or four distinct routes, none of them clearly the one thing people search for), omit
+  the bracket entirely rather than force a reductive or overloaded one — a plain "{Country} Tax
+  Residency" with no suffix is a legitimate, expected outcome for a genuinely multi-test rule.
 - **`subtitle`**: a short, ∙-separated string of 2–3 key facts (the core threshold, the window
   type, and one other defining feature).
 - **`seo.title`**: "{Country/place} {Rule category} Rules Explained | Immio" — no brackets.

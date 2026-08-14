@@ -22,7 +22,7 @@
 .faq-accordion {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 8px;
 }
 
 .faq-accordion__item {
@@ -37,7 +37,7 @@
   align-items: flex-start;
   justify-content: space-between;
   gap: 16px;
-  padding: 24px;
+  padding: 20px 24px;
   margin: 0;
   background: none;
   border: none;
@@ -45,9 +45,10 @@
   cursor: pointer;
   text-align: left;
   font-family: inherit;
-  font-size: 16px;
+  font-size: 19px;
   font-weight: 500;
-  letter-spacing: -0.02em;
+  line-height: 28px;
+  letter-spacing: normal;
   color: var(--faq-text);
 }
 

@@ -24,7 +24,7 @@
   --content-article-width: 680px;
   --content-toc-width: 240px;
   --site-header-height: 68px;
-  font-family: "Plus Jakarta Sans", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Rethink Sans", system-ui, Avenir, Helvetica, Arial, sans-serif;
   color-scheme: light;
 }
 
@@ -122,6 +122,14 @@ p {
   padding: 2rem 1.5rem 4rem;
 }
 
+/* Wider article/content column on large screens — shared by every content
+   page (rule articles, catalog listings, countries, legal) so widths match. */
+@media (min-width: 1320px) {
+  .content-main {
+    --content-article-width: 760px;
+  }
+}
+
 .content-breadcrumbs ol {
   list-style: none;
   display: flex;
@@ -129,10 +137,10 @@ p {
   gap: 0.35rem;
   margin: 0 0 2rem 0;
   padding: 0;
-  font-size: 0.72rem;
+  font-size: 0.75rem;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.08em;
   color: var(--content-text-faint);
 }
 
@@ -247,7 +255,8 @@ p {
   padding: 0.5rem 1.1rem;
   font-family: inherit;
   font-size: 1.2rem;
-  font-weight: 600;
+  font-weight: 550;
+  letter-spacing: 0.03em;
   color: var(--content-text-muted);
   cursor: pointer;
   white-space: nowrap;
@@ -286,7 +295,7 @@ p {
   border-radius: 24px;
   background: var(--content-surface);
   color: var(--content-text);
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   font-weight: 550;
   transition: background-color 0.15s ease;
 }
@@ -313,7 +322,7 @@ p {
 .content-rule-chip__title-row {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
-  row-gap: 0.2rem;
+  row-gap: 0.05rem;
 }
 
 .content-rule-chip__title-row.has-flag {
@@ -339,7 +348,7 @@ p {
 
 .content-rule-chip__subtitle {
   color: var(--content-text-muted);
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 500;
   letter-spacing: 0.03em;
 }
@@ -352,6 +361,14 @@ p {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 0.75rem;
+}
+
+@media (min-width: 768px) {
+  .content-country-grid {
+    /* A bit wider than the search field above it, so the third column's
+       right edge spills slightly past the search input's right edge. */
+    width: calc(100% + 4rem);
+  }
 }
 
 .content-country-grid[hidden],
@@ -388,7 +405,8 @@ p {
   background: transparent;
   color: var(--content-text);
   font: inherit;
-  font-size: 1rem;
+  font-size: 1.1rem;
+  letter-spacing: 0.03em;
 }
 
 .content-country-search input::-webkit-search-cancel-button {
@@ -473,13 +491,13 @@ p {
 
 .content-country-card__name {
   color: var(--content-text);
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-weight: 550;
 }
 
 .content-country-card__count {
   color: var(--content-text-muted);
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 500;
   letter-spacing: 0.03em;
 }
@@ -545,10 +563,11 @@ p {
 }
 
 /*
-  Rule article layout. Article + TOC keep the original centering (article
-  reads as centered; TOC sits to its right). Back is layered in the left
-  gutter — same top row as breadcrumbs/TOC, sticky, without shifting the
-  article.
+  Rule article layout. The article stays centered on the page. At the wide
+  tier, Back and the TOC become real grid columns flanking it — Back sits
+  immediately to the article's left with the same 2.5rem gap the TOC has
+  to its right, and the grid's margin-left is adjusted by exactly Back's
+  reserved column width so the article's own center is unaffected.
 */
 
 .content-content {
@@ -565,34 +584,24 @@ p {
 }
 
 .content-back-row {
-  display: block;
-  margin-bottom: 1.5rem;
+  /* Hidden below 1320px — no room to place it without pushing the article
+     down above the breadcrumbs, so it's simply not shown there. */
+  display: none;
 }
 
 /*
-  Below this width there isn't enough room to both bias the layout right
-  (see margin-left below) and fit the TOC without overflowing — falls back
-  to the single-column layout (no in-page section nav, just Back + content) instead.
+  Below this width there isn't enough room to center the article and still
+  fit Back and the TOC beside it without overflowing, so both are hidden
+  (Back falls back to a normal block above the article) and the page shows
+  a single, centered article column. At 1320px+ the wider cap opens
+  symmetric side space for them without disturbing the article's own
+  centering.
 */
-@media (min-width: 1160px) {
+@media (min-width: 1320px) {
   .content-main--rule {
     display: grid;
     grid-template-columns: minmax(0, 1fr);
-  }
-
-  /* Back and layout share one cell so Back sits in the left gutter
-     without taking a column that would shift the article. */
-  .content-back-row {
-    display: block;
-    grid-column: 1;
-    grid-row: 1;
-    justify-self: start;
-    align-self: start;
-    position: sticky;
-    top: calc(var(--site-header-height) + 1rem);
-    z-index: 1;
-    margin-bottom: 0;
-    line-height: 1.4;
+    max-width: 1400px;
   }
 
   .content-layout {
@@ -601,10 +610,30 @@ p {
     grid-template-columns: minmax(0, var(--content-article-width)) minmax(200px, var(--content-toc-width));
     column-gap: 2.5rem;
     row-gap: 0;
-    /* Centers the article itself — not the wider article+TOC block. */
-    margin-left: calc(
-      (100% - var(--content-article-width) - 2.5rem - var(--content-toc-width)) / 2 + 2.5rem
-    );
+    /* Centers the article column itself in the page; TOC sits to its right. */
+    margin-left: calc((100% - var(--content-article-width)) / 2);
+  }
+
+  /* Back and layout share one cell (both grid-row/column 1) so Back sits
+     beside the article without pushing it down a row. Its box is a fixed
+     72px wide, right-aligned text — the same 72px is subtracted (with the
+     2.5rem gap) from the article's own centering formula below, so the box
+     always lands flush against a 2.5rem gap from the article's left edge,
+     matching the TOC's gap on the article's other side exactly. */
+  .content-back-row {
+    display: block;
+    width: 72px;
+    text-align: right;
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: start;
+    align-self: start;
+    position: sticky;
+    top: calc(var(--site-header-height) + 1rem);
+    z-index: 1;
+    margin-bottom: 0;
+    margin-left: calc((100% - var(--content-article-width)) / 2 - 72px - 2.5rem);
+    line-height: 1.4;
   }
 
   .content-content .content-breadcrumbs ol {
@@ -706,8 +735,10 @@ p {
 }
 
 .content-article__header h1 {
-  font-size: clamp(1.75rem, 3.5vw, 2.25rem);
-  letter-spacing: -0.02em;
+  font-size: clamp(1.45rem, 4vw, 2.7rem);
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
 }
 
 .content-article__header--with-flag {
@@ -730,10 +761,10 @@ p {
 }
 
 .content-article p.content-article__meta {
-  font-size: 0.72rem;
+  font-size: 0.75rem;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.08em;
   color: var(--content-text-faint);
   margin-bottom: 0.5rem;
   text-align: right;
@@ -755,8 +786,8 @@ p {
 
 .content-callout p {
   margin: 0;
-  font-size: 0.925rem;
-  line-height: 1.6;
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
 .content-callout p + p {
@@ -774,12 +805,16 @@ p {
 }
 
 .content-article section h2 {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.4;
 }
 
 /* Sub-headings inside a section (e.g. examples) — clearly subordinate to the h2. */
 .content-article section h3 {
   font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
   margin-top: 1.5rem;
 }
 
@@ -811,7 +846,13 @@ p {
 }
 
 .content-article p {
-  font-size: 0.925rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.content-article strong,
+.content-article b {
+  font-weight: 600;
 }
 
 .content-article ul {
@@ -820,7 +861,8 @@ p {
 
 .content-article li {
   margin-bottom: 0.4rem;
-  font-size: 0.925rem;
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
 /* Numbered lists — number badge in --immio-primary-container, digit in --immio-primary. */
@@ -864,7 +906,7 @@ p {
   border: 1px solid var(--content-border);
   border-radius: 20px;
   overflow: hidden;
-  font-size: 0.95rem;
+  font-size: 1rem;
 }
 
 .content-article th,
@@ -986,7 +1028,7 @@ p {
   display: none;
 }
 
-@media (min-width: 1160px) {
+@media (min-width: 1320px) {
   .content-toc--desktop {
     display: block;
   }
@@ -1030,7 +1072,7 @@ p {
   padding-top: 1.5rem;
   border-top: 1px solid var(--content-border);
   color: var(--content-text-muted);
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   line-height: 1.6;
 }
 

@@ -7,7 +7,7 @@
     --immio-landing-white: #ffffff;
     --immio-landing-border: #ebebeb;
     --immio-landing-muted-bg: #f8f9fb;
-    --font-display: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+    --font-display: "Rethink Sans", system-ui, -apple-system, sans-serif;
     --nav-h: 68px;
     color: var(--immio-landing-black);
     background: var(--immio-landing-white);

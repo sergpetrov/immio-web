@@ -15,7 +15,7 @@
   border-bottom: 1px solid transparent;
   transition: border-color 0.2s ease;
   isolation: isolate;
-  font-family: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  font-family: "Rethink Sans", system-ui, -apple-system, sans-serif;
 }
 
 .site-header.is-scrolled {

@@ -97,6 +97,29 @@ read as similar as ours and a competitor's, something was copied too closely —
 you do find something a competitor covers that your research is missing, verify it independently
 before adding it; don't import a fact just because it appeared on a competitor page.
 
+**When asked to compare a specific article against a competitor page, work in this order:**
+
+1. **Confirm the two pages cover the same rule before treating any difference as a gap.** A
+   competitor page titled for the same country can be about a neighbouring rule entirely — their
+   Spain page covers *keeping* an existing permit (12 months outside the EU), ours covers
+   *qualifying* for long-term residence (5 years, 6/10-month absence caps). Different figures there
+   are correct on both sides, not an error in ours.
+2. **Don't guess their URL.** A 404 from a slug you constructed is not evidence the page doesn't
+   exist — search for it. This produced a wrong "they have no page for this" conclusion once
+   already.
+3. **Verify every candidate fact against a primary source before adopting it**, including facts
+   that merely look like precision. Competitor pages carry stale figures: one gave Italy's renewal
+   deadlines as 30/60/90 days scaled by permit length, where the current rule is 60 days generally
+   and 90 for indefinite employment contracts. Adopting it unverified would have shipped a wrong
+   deadline.
+4. **Never adopt a competitor's framing that blurs two legally distinct thresholds**, even when
+   theirs is simpler. Two worked cases: the UK's "6 months" visitor limit is not "180 days," and a
+   US B-1/B-2 six-month admission is not the >180-day unlawful-presence bar. Precision outranks
+   borrowed simplicity every time.
+5. **Report back in three parts** — what was adopted and from which source, what was corrected in
+   our article, and what was deliberately declined with the reason. A comparison that only reports
+   additions hides the judgement calls, which are the valuable part.
+
 ### Priority 3 — Community discussion, for question discovery only
 
 Search Reddit and similar public discussion for the rule's common misunderstandings, the questions
@@ -178,7 +201,7 @@ Every rule article uses this exact section list, in this order:
 # {Rule name}
 
 ## Overview
-[callout + Key facts table]
+[callout + Key parameters table]
 
 ## Understanding the rule
 
@@ -211,7 +234,7 @@ next.
 
 ---
 
-## 8. Overview — callout + Key facts table
+## 8. Overview — callout + Key parameters table
 
 ### Callout
 
@@ -243,6 +266,19 @@ No exceptions detail, no dates/periods already stated in the table below (don't 
 information across the callout and the table), and no legal citations. Bold only the defining
 threshold(s) and one or two truly load-bearing terms — not full clauses.
 
+**Use plain subject-verb constructions and ordinary words.** The callout is the first thing a
+reader meets and the place abstraction does the most damage. Write "A UAE residence visa is
+canceled automatically if you stay outside the country for more than 180 consecutive days" — not
+"What it measures is a single absence rather than a yearly total," which describes the rule instead
+of stating it. Avoid inverted openers ("What the rule protects is…"), nominalizations, and framing
+clauses that talk *about* the mechanism rather than giving it. If a sentence would survive being
+cut without losing a fact, cut it.
+
+**Where a rule has a reset, a restart, or a clock that breaks, say so in the callout.** That
+consequence is usually what a reader actually needs — "Break either and the 5-year clock
+**restarts**," "any entry back into the UAE **resets** the count." A callout that lists thresholds
+without saying what happens when you cross one is only half the rule.
+
 **The shape above is the required content, not a sentence template to fill in with a new country's
 name each time.** Don't let every callout read as the same three clauses in the same order with
 only the nouns swapped — vary the phrasing, sentence rhythm, and even which clause leads, based on
@@ -252,16 +288,16 @@ that market already calls by name, a phrasing convention used in the country's o
 guidance — lean into that instead of defaulting to the generic pattern. It should read as the most
 natural way to explain *this* rule, not as visually consistent with every other article's callout.
 
-### Key facts table
+### Key parameters table
 
 This shape, one table per article, no exceptions. Add the **Alternative** row only when the rule
 genuinely has a second, independent counting route (see below) — otherwise the table has four
 rows, not five:
 
 ```markdown
-| Key facts               |                          |
+| Key parameters          |                          |
 |:------------------------|-------------------------:|
-| Thresholds               | *bare number, or "More than N days"* |
+| Threshold               | *bare number, or "More than N days"* |
 | Period / Window          | *short standard pattern* |
 | Alternative               | *N days / rolling M months — only if a second route exists* |
 | Counting                 | *"Any part of a day", or "Nights (...)"* |
@@ -298,8 +334,20 @@ rows, not five:
   non-day-based qualifying routes (a domicile test, a ties test, a resides test) — those stay in
   "Additional requirements" as before. The Alternative row is specifically for a second **counting**
   rule, not a second route in general.
-- **Counting row: always exactly `Any part of a day` or `Nights ({rule name})`, with at most a
-  short qualifier appended** (e.g. "Any part of a day, except departure"). Do not invent bespoke
+- **Counting row: match the label to what the rule actually limits.** A rule that caps **presence**
+  (how long you may stay, how many days you must accumulate) counts partial days *toward* the
+  limit, so the cell is `Any part of a day`. A rule that caps **absence** (how long you may be away
+  before a status or clock breaks) works in the mirror image: departure and return days almost
+  always count as days of *presence* in the country, so only whole days abroad are absence, and the
+  cell is `Whole days of absence`. Labelling an absence-based rule `Any part of a day` states the
+  opposite of what it does — it implies partial days count against the traveller when they in fact
+  help. This error shipped in the Spain, US green card, Italy and Australia articles and had to be
+  corrected in all four; check which direction the rule runs before filling this cell. Where a
+  rule limits absence, also state the mechanic in "How to keep track" — "an absence runs from the
+  day after you leave to the day before you come back" — and give it an FAQ entry, since "do my
+  travel days count?" is one of the most common reader questions.
+- **Otherwise the presence-side cell is always exactly `Any part of a day` or `Nights ({rule
+  name})`, with at most a short qualifier appended** (e.g. "Any part of a day, except departure"). Do not invent bespoke
   phrasing for a rule with no officially stated day-counting formula (a country's law that says
   only "presence" or "duration" with no explicit partial-day rule) — this has been tried (wording
   like "Days of stay, continuous or summed" or "Actual presence, compared country by country") and
@@ -307,7 +355,21 @@ rows, not five:
   official source doesn't explicitly confirm partial-day counting, and note the genuine uncertainty
   in "How to keep track" prose instead, where nuance has room.
 - **Additional requirements row**: a short label naming the secondary test(s), not a full
-  sentence.
+  sentence. Where the rule has a **second limit of the same kind** — a final-year absence cap on
+  top of a total, a per-trip cap on top of a cumulative one — that second limit is what this row
+  should carry, since it's the fact a reader scanning the table most needs next. Requirements of a
+  different kind (language tests, good character, income) stay out of the table and live in
+  "Understanding the rule" instead. UK citizenship is the reference: `Limit: 450 days of absence`
+  with `Additional requirements: 90 days of absence in the final 12 months`, and nothing about the
+  Life in the UK test or English in the table at all.
+- **One value per row, and keep it short.** Don't pack two limits into one cell
+  (`12 months over 4 years, 90 days in final year`) — split them across `Limit` and `Additional
+  requirements`. Don't restate the window inside another row's value
+  (`4 years back from application date` where a `Qualifying period: 4 years` row already exists);
+  the moving-window mechanic belongs in "How to keep track."
+- **Keep the source markdown aligned.** Pad the label column and right-pad the value column so
+  every row in the block is the same character width. It doesn't change rendering, but a
+  ragged table is unreadable when editing and hides real errors.
 - Never include legal basis, "applies to," or order-of-tests rows — those belong in prose further
   down. This table is a lookup, not a summary paragraph. No second table anywhere else in the
   article, including under "Understanding the rule."
@@ -325,6 +387,23 @@ days within a rolling twelve-month window"), not the fine mechanics of how that 
 — whether days need to be consecutive, exactly how a lapsed window restarts, and so on. If the same
 counting-mechanic phrase, beyond the bare threshold and named window, starts appearing in more than
 one section, that's a sign it belongs in How to keep track alone.
+
+**Open with who the rule applies to**, in one sentence, before any mechanism. "This applies to any
+lawful permanent resident travelling outside the US, however the green card was obtained." "This
+applies to anyone building toward settled status in Spain on a temporary residence permit, whatever
+route they hold it under." A reader's first question is whether the page is about them, and an
+article that opens on mechanics makes them infer it. Keep it to scope — nationality, status held,
+or route — not eligibility conditions.
+
+**Close with what else is required**, in one short paragraph, whenever the rule sits inside a
+larger application: "Residence isn't the only requirement. You also need to be of **good
+character**, pass the **Life in the UK test**…". Several articles covered only the day rule and
+silently implied it was the whole test. Name the other requirements; don't explain how to satisfy
+them.
+
+The resulting shape for most articles is four beats — **who it applies to → the structural core as
+a bullet list → supporting conditions in prose → what else is required.** Vary the wording, keep
+the order.
 
 **If the rule is structured as independent alternative routes** (meet any one of several separate
 tests), list them as a flat bullet list, in any order, each with a bolded route name:
@@ -504,6 +583,19 @@ dedicated secondary-regime section carrying some of that content). Prioritize, i
 4. Cross-border interaction (dual status, treaty tiebreakers) if relevant.
 5. A common "still counts even though people assume it doesn't" case.
 
+**Drop minor cases.** A bullet has to earn its place by changing someone's outcome. "Visa length
+depends on how you got it" and "the two limits fail independently" are facts, but the first is
+trivia and the second usually just restates a point Understanding already made. When a section
+runs long, cut the weakest bullets rather than shortening every one — four sharp bullets beat six
+mediocre ones.
+
+**Edge cases is where detail lives when a thing is only named elsewhere.** If Understanding
+mentions several variants — visa types, permit classes, status levels — Understanding names them
+and Edge cases explains them, one bullet each, not one bullet covering all of them. The UAE
+article is the reference: Understanding says only that the Golden, Green and Blue visas are exempt,
+and Edge cases gives each its own bullet with duration, who it's for, and the shared caveat as a
+separate closing bullet.
+
 Don't restate anything already covered in "Understanding the rule" or "How to keep track." A
 related concept from a different rule category that could be confused with this one (an
 immigration permit confused with tax residency, a corporate regime confused with an individual
@@ -556,6 +648,15 @@ reversed. State the consequence, not the workaround — this section's job is to
 of getting the rule wrong, not to counsel the reader on damage control, which strays toward the
 personal tax advice this whole project avoids giving (see section 22).
 
+**The same restraint applies everywhere in the article, not just here.** Wherever a rule has
+exceptions, carve-outs, grace periods, or discretionary relief, say that they exist and that they
+are narrow, but don't lay out the qualifying conditions as a checklist a reader could aim at. "The
+reasons that take an absence out of the count are very narrow — overseas crisis work and major
+travel disruption, and nothing else" is right. Naming each qualifying category, the days you have
+to apply within, and whose agreement you need turns the article into a guide for building a case,
+which is exactly the personal advice this project doesn't give. The reader's takeaway should be
+that an exception is unlikely to save them, not how to reach for one.
+
 Official tax-authority guidance and statute come first, same as everywhere else. If the specific
 penalty percentages aren't clearly stated officially, reputable professional-firm write-ups are the
 next best source — cross-check at least two independent ones before using a specific number. Fall
@@ -578,7 +679,7 @@ deliberate exception to "no bold" here. Which sentence depends on the article's 
 
 ```text
 tax                     → **Professional tax advice is strongly recommended in situations like this.**
-travel | immigration    → **Professional immigration advice is strongly recommended in situations like this.**
+travel | immigration    → **Professional advice is strongly recommended in situations like this.**
 ```
 
 ---
@@ -680,6 +781,12 @@ reword, even if you didn't intend to touch the answer.
   phrase out of habit. If a paragraph is more than roughly 15% bold, or every bullet in a list has
   its lead bolded by default rather than necessity, cut it back. The one fixed exception is the
   closing sentence of "If you get this rule wrong" (section 13), which is always bolded.
+- **Never use italics.** Not for emphasis, not for contrast between two things, not for
+  foreign-language terms, not for a defined term's first appearance. Bold is the library's only
+  emphasis marker. Where a contrast genuinely needs marking — "time in the issuing country" versus
+  "time in other member states" — rewrite the sentence so the contrast is carried by the words,
+  or bold the single word that turns the meaning, and use nothing at all where the sentence
+  already reads correctly without it.
 - **Sentences capped at ~35 words.** Split at the natural clause boundary when a sentence runs
   long — usually wherever "and," "which," "so," "though," or an em dash joins two facts that don't
   need to share a sentence. Applies everywhere: callout, bullets, Edge cases, FAQ answers. Re-scan
@@ -691,7 +798,7 @@ reword, even if you didn't intend to touch the answer.
   plain text, and only when the forward-reference earns its place.
 - **No comparisons to other countries or other rules on the site**, ever. Each article is fully
   self-contained.
-- **One table per article** — the Key facts table in Overview. No second table anywhere else.
+- **One table per article** — the Key parameters table in Overview. No second table anywhere else.
 - **No exact currency amounts anywhere in the body** — Overview, Understanding the rule, Edge
   cases, If you get this rule wrong, Examples, FAQ. Describe qualitatively instead: "up to a set
   threshold" rather than a specific figure, "a lump-sum payment per period" rather than an exact
@@ -820,7 +927,7 @@ answer search intent, not just repeat keywords.
 Make important information explicit and self-contained, so a retrieval system can extract answers
 like "what is the rule," "what period does it use," "how are days counted," "is N days the only
 test," and "what happens if I meet/fail the test" without needing to infer across several
-paragraphs. The Key facts table does much of this work on its own. Do not add hidden text,
+paragraphs. The Key parameters table does much of this work on its own. Do not add hidden text,
 AI-specific keyword stuffing, or artificial content.
 
 ---
@@ -871,13 +978,13 @@ the heading, but its content is about immigration consequences rather than tax o
 track" applies to any rule measured in days (nearly all travel rules, and any immigration rule with
 an absence limit) and is omitted only for a rule with no day mechanic at all.
 
-**Key facts table.** Same shape, same right-alignment, same standard-pattern discipline. The row
+**Key parameters table.** Same shape, same right-alignment, same standard-pattern discipline. The row
 labels shift to fit the subject:
 
 ```markdown
-| Key facts               |                          |
+| Key parameters          |                          |
 |:------------------------|-------------------------:|
-| Stay limit              | *e.g. 90 days*           |   <!-- travel: replaces Thresholds -->
+| Limit              | *e.g. 90 days*           |   <!-- travel: replaces Thresholds -->
 | Absence limit           | *e.g. 180 days*          |   <!-- immigration: replaces Thresholds -->
 | Qualifying period       | *e.g. 5 years*           |   <!-- immigration only -->
 | Period / Window         | *short standard pattern* |
@@ -910,13 +1017,31 @@ never suggest how to present a case to an officer or caseworker.
 **Terminology.** Say "resident" only where it means immigration status, and never let a travel or
 immigration article imply anything about tax residency — the categories are deliberately separate,
 and conflating them is the single most damaging error available here. A person can hold a residence
-permit and not be tax resident, and vice versa. Where a reader is likely to assume otherwise, say
-plainly that the two are decided separately, but do not explain the other rule (section 17's ban on
-cross-referencing other articles still applies).
+permit and not be tax resident, and vice versa.
+
+**But don't add a disclaimer sentence saying so.** An earlier version of this guidance produced a
+boilerplate line — "This is an immigration test, not a tax one — where you're treated as tax
+resident is decided separately" — appended to Understanding across several articles. That is
+banned. It raises a question the reader didn't ask, points at a subject the article then refuses to
+explain, and reads as hedging. The requirement is satisfied by *not implying* a tax consequence in
+the first place: don't use "resident" loosely, don't describe a day threshold as making someone
+"resident" without saying resident *of what*, and the ambiguity never arises. Section 17's ban on
+cross-referencing other articles still applies.
+
+**Earliest application date.** Where a status is reached by completing a qualifying period, state
+whether the application can go in before that period ends — and say so either way, since both
+answers are actionable. UK ILR accepts an application up to **28 days early** and treats it as made
+on the completion date; UK naturalisation has no early window at all and the period must be
+genuinely complete on the day the application is received. Readers routinely assume one behaves
+like the other.
 
 **FAQ.** The dual-status/treaty question that closes most tax articles has no analogue. Close
 instead with whatever the genuine "what happens next" question is for that rule — how to extend,
 what happens at renewal, whether time on this status counts toward settlement or citizenship.
+
+**Closing sentence.** `**Professional advice is strongly recommended in situations like this.**` —
+not "Professional immigration advice." The shorter form is deliberate: these rules sit next to tax,
+employment and family questions, and naming only one discipline implies the others don't apply.
 
 ---
 
@@ -931,6 +1056,15 @@ After any batch content or schema change across multiple articles:
 3. Confirm every affected page still renders (HTTP 200) via full browser navigation and reload —
    not a bare `fetch()`, which can return stale cached HTML. Navigate to the page, then reload
    (`location.reload(true)` or equivalent), then re-check.
+4. **Sweep the whole library for the pattern you just changed, not only the files you touched.**
+   A phrasing being corrected in one article is nearly always present in others. Checking the
+   counting label across all immigration articles found the same mislabel in four; checking the
+   table alignment found six ragged tables nobody had asked about. The grep costs seconds and the
+   article you didn't check is the one that stays wrong.
+5. **After a scripted or regex edit, re-check list numbering and table structure.** `sed` and
+   `perl` substitutions across numbered lists have twice produced duplicate or malformed markers
+   that render as broken lists. An `awk` pass for repeated consecutive list numbers, and a width
+   check across each table block, catch both.
 
 ---
 

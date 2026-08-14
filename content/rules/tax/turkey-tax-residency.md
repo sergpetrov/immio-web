@@ -39,7 +39,7 @@ exceptions can override the six-month test for people present only for a specifi
 
 | Key facts               |                                     |
 |:------------------------|------------------------------------:|
-| Thresholds              |    6 months (effectively 183+ days) |
+| Thresholds              |     6 months (effectively 183 days) |
 | Period / Window         |      Calendar year (1 Jan – 31 Dec) |
 | Counting                |                   Any part of a day |
 | Additional requirements | Domicile test, statutory exceptions |
@@ -65,10 +65,9 @@ all keep nonresident status even past six months, as long as they don't intend t
 1. The core threshold is **more than six months** (effectively 183+ days) of continuous presence within a single **calendar year**.
 2. Short absences during that period don't interrupt the count, as long as your overall presence still falls within
    one calendar year.
-3. The statutory exceptions can override the six-month test entirely for people present solely for a defined
-   temporary purpose, regardless of day count.
-4. Keep evidence of your settled address, or the lack of one, for the domicile test, entry and exit records for your
-   presence count, and documentation of your purpose of stay if you're relying on a statutory exception.
+
+Keep evidence of your settled address, or the lack of one, for the domicile test, entry and exit records for your
+presence count, and documentation of your purpose of stay if you're relying on a statutory exception.
 
 ## Edge cases
 
@@ -79,15 +78,10 @@ all keep nonresident status even past six months, as long as they don't intend t
 - **Turkish nationals living abroad don't automatically become nonresident.** Those working for a foreign branch of a
   Turkey-headquartered private company or a Turkish public institution generally stay fully liable despite living
   abroad, unlike other Turkish nationals abroad on a residence or work permit.
-- **A new foreign-income exemption can shelter income for qualifying new residents.** Under a 2026 law, foreign-source
-  income can be exempted from Turkish tax for up to twenty years for people who become resident after several years
-  with no Turkish domicile or tax liability.
-- **Dual residency is possible.** If another country also treats you as resident, a double tax treaty's tie-breaker
-  rules can then assign a single treaty residence without cancelling your Turkish domestic residency.
 
 ## If you get this rule wrong
 
-Getting your residency status wrong and understating tax typically triggers a penalty equal to the tax lost, rising to three times that if it's treated as fraud. Turkey increasingly detects this through FATCA and CRS data-sharing with other countries, not just domestic audits, though a voluntary pişmanlık (repentance) disclosure can still waive the penalty entirely. **Professional tax advice is strongly recommended in situations like this.**
+Getting your residency status wrong and understating tax typically triggers a penalty equal to the tax lost, rising to three times that if it's treated as fraud. Turkey increasingly detects this through FATCA and Common Reporting Standard data-sharing with other countries, not just domestic audits. **Professional tax advice is strongly recommended in situations like this.**
 
 ## Examples
 
@@ -141,3 +135,8 @@ ordinary residence or work permit are generally treated as nonresident after six
 
 Yes. A 2026 law introduced a foreign-source income exemption lasting up to twenty years for people who become
 Turkish tax residents after several years with no Turkish domicile or tax liability.
+
+### Can I be a Turkish tax resident and a tax resident of another country at the same time?
+
+Yes. The Turkish tests only settle your position under Turkish law, and other countries apply their own. A double tax
+treaty between Turkey and that country would then decide which one takes priority for specific income.

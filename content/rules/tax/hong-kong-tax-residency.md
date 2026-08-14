@@ -2,7 +2,7 @@
 id: hong-kong-tax-residency
 
 title: Hong Kong Tax Residency (180-day and 300-day rules)
-subtitle: 180 days or 300 days ∙ Year of assessment ∙ Ordinary residence
+subtitle: 180 days or 300 days ∙ Starts 1 Apr ∙ Ordinary residence
 
 category: tax
 
@@ -44,48 +44,40 @@ taxes only income arising in or derived from Hong Kong, being a resident creates
 itself. It matters mainly for claiming tax treaty benefits and obtaining a Certificate of Resident Status.
 :::
 
-| Key facts               |                                    |
-|:------------------------|-----------------------------------:|
-| Thresholds              |                 181 days, 301 days |
-| Period / Window         |  1 Apr – 31 Mar, or two such years |
-| Counting                | Days of stay, continuous or summed |
-| Additional requirements |            Ordinary residence test |
+| Key facts               |                                          |
+|:------------------------|-----------------------------------------:|
+| Thresholds              |                       More than 180 days |
+| Period / Window         |                Tax year (1 Apr – 31 Mar) |
+| Alternative             | More than 300 days / 2 consecutive years |
+| Counting                |                        Any part of a day |
+| Additional requirements |                  Ordinary residence test |
 
 ## Understanding the rule
 
-You are a Hong Kong resident individual if you meet any one of three routes, in any order:
+You are a Hong Kong resident individual if you meet any one of three routes: **ordinary residence**, **more than
+180 days** in a year of assessment, or **more than 300 days** across two consecutive years of assessment.
 
-- **Ordinary residence** — you ordinarily reside in Hong Kong. No day count applies.
-- **180 days in one year** — you stay in Hong Kong for **more than 180 days** during a year of assessment, which runs
-  1 April to 31 March.
-- **300 days across two years** — you stay in Hong Kong for **more than 300 days** across two consecutive years of
-  assessment, one of which must be the year you're claiming for.
+Ordinary residence turns on your circumstances rather than a count — mainly whether you keep a permanent home in Hong
+Kong where you or your family live, weighed alongside how much time you spend there and whether you keep a home
+overseas too. A Hong Kong permanent identity card doesn't settle it on its own.
 
-Ordinary residence is judged on your circumstances rather than counted. The main indicator is a permanent home in Hong
-Kong where you or your family live. The Inland Revenue Department also weighs how many days you spend in Hong Kong and
-whether you keep a permanent residence there. It looks at whether you own property overseas to live in, and whether you
-reside mainly in Hong Kong or overseas. Holding a Hong Kong permanent identity card doesn't settle the question on its
-own.
-
-Meeting a route doesn't create a Hong Kong tax bill by itself. Salaries tax is charged on income arising in or derived
-from Hong Kong from an office, employment, or pension. That holds regardless of your residency, and regardless of
-whether the income has already been taxed elsewhere. The practical payoff of residency is eligibility for a Certificate
-of Resident Status, the document that lets you claim benefits under one of Hong Kong's double taxation agreements.
+Meeting a route doesn't create a Hong Kong tax bill by itself — salaries tax is charged on income arising in or
+derived from Hong Kong, regardless of residency. The practical payoff of residency is eligibility for a Certificate of
+Resident Status, letting you claim benefits under one of Hong Kong's double taxation agreements.
 
 ## How to keep track
 
 1. The single-year threshold is **more than 180 days** of stay in Hong Kong during a year of assessment, 1 April
    to 31 March.
-2. The two-year threshold is **more than 300 days** across two consecutive years of assessment, one of which has to be
+2. The two-year threshold is **more than 300 days** across 2 consecutive years of assessment, one of which has to be
    the year you're claiming for.
-3. Days can be counted as one continuous stay or as separate periods added together — both are accepted, so short
-   repeat trips accumulate toward the total.
+3. Any part of a day in Hong Kong counts as a full day, and those days can be counted as one continuous stay or as
+   separate periods added together — both are accepted, so short repeat trips accumulate toward either total.
 4. Because either of the two adjacent years can be the year of claim, the same stretch of days can support a claim for
    one year or the other.
-5. Ordinary residence has no threshold to track at all, and a permanent home in Hong Kong can carry it on very few
-   days present.
-6. Keep entry and exit records for every trip, plus evidence of your Hong Kong home such as a tenancy agreement or
-   title deed. Keep details of any home you hold overseas too, since both weigh in the ordinary residence test.
+
+Keep entry and exit records for every trip, plus evidence of your Hong Kong home such as a tenancy agreement or title
+deed. Keep details of any home you hold overseas too, since both weigh in the ordinary residence test.
 
 ## Edge cases
 
@@ -101,16 +93,10 @@ of Resident Status, the document that lets you claim benefits under one of Hong 
 - **A certificate isn't automatic, and it's only for treaty claims.** You apply to the Inland Revenue Department, which
   won't issue one where Hong Kong has no double taxation agreement with the jurisdiction concerned, or where you want
   the certificate for some other purpose.
-- **A permanent identity card isn't proof of tax residence.** Whether you ordinarily reside in Hong Kong still has to
-  be weighed on the facts of your situation.
 
 ## If you get this rule wrong
 
-Overstating your days on a Certificate of Resident Status application, or understating Hong Kong income on a return,
-counts as giving incorrect information. The Inland Revenue Department normally loads a simple understatement at 10% of
-the tax undercharged for a first offence and 35% by a third within five years, with treble the tax possible in serious
-cases. A full voluntary disclosure made before any challenge places you in the lowest penalty band under its published
-policy. **Professional tax advice is strongly recommended in situations like this.**
+Overstating your days on a Certificate of Resident Status application, or understating Hong Kong income on a return, counts as giving incorrect information. The Inland Revenue Department normally loads a simple understatement at 10% of the tax undercharged for a first offence and 35% by a third within five years, with treble the tax possible in serious cases. **Professional tax advice is strongly recommended in situations like this.**
 
 ## Examples
 

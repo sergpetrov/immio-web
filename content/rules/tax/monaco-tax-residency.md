@@ -1,7 +1,7 @@
 ---
 id: monaco-tax-residency
 
-title: Monaco Tax Residency (Principal residence test)
+title: Monaco Tax Residency
 subtitle: 183 days ∙ Or more time than any other country ∙ No personal income tax
 
 category: tax
@@ -30,7 +30,7 @@ sources:
 
 ---
 
-# Monaco Tax Residency (Principal residence test)
+# Monaco Tax Residency
 
 ## Overview
 
@@ -45,8 +45,9 @@ other single country.
 | Key facts               |                                                   |
 |:------------------------|--------------------------------------------------:|
 | Thresholds              |                                          183 days |
-| Period / Window         |             Per year, checked at each application |
-| Counting                |          Days of stay; no part-day rule published |
+| Period / Window         |                    Calendar year (1 Jan – 31 Dec) |
+| Alternative             |           More time than any other single country |
+| Counting                |                                 Any part of a day |
 | Additional requirements | Home, residence permit, French-national carve-out |
 
 ## Understanding the rule
@@ -62,52 +63,42 @@ ways:
 - **Principal centre of activities** — your main business or professional activity is based in the Principality.
 
 Behind all three, the practical requirements are the same. You need a valid residence permit, and accommodation in
-Monaco you can document with a title deed, a lease, or a certificate from whoever houses you. Water, electricity and
-telephone bills for the past year back that up.
+Monaco you can document.
 
-French nationals are treated differently, and the difference is fundamental. A French national who moves their residence
-to Monaco is taxed by France on worldwide income under the same conditions as someone living in France. The exception is
-narrow and historic. It covers French nationals who can show they had been habitually resident in Monaco for at
-least five years as at 13 October 1962. In practice that means settling there before 13 October 1957, and staying
-resident ever since.
-French nationals resident since birth are also covered, as are certain spouses of people who already hold the
-certificate.
+French nationals are treated differently, and the difference is fundamental. A French national who moves their
+residence to Monaco is taxed by France on worldwide income under the same conditions as someone living in France. The
+exception is narrow and historic, covering French nationals who can show they had been habitually resident in Monaco
+for at least five years as at 13 October 1962 — in practice, settling there before 13 October 1957 and staying
+resident ever since. French nationals resident since birth are also covered, as are certain spouses of people who
+already hold the certificate.
 
 ## How to keep track
 
-1. The test is **183 days** of stay in Monaco in the year, or fewer days provided you are still present in Monaco longer
-   than in any other single country.
+1. The test is **183 days** of stay in Monaco in the year, or fewer days provided you are still present in Monaco
+   longer than in any other single country.
 2. Monaco does not publish a detailed rule on how partial days are treated, so the practical measure is the documentary
    record of where you were, not a formula.
 3. The comparison route is decided country by country, so a year split across several other countries can still leave
    Monaco as the single largest share.
-4. Certificates are checked afresh each time. The residence certificate for tax purposes runs for a year, and the
-   certificate of domicile for tax purposes for three years, with usual residence re-verified on renewal.
-5. Keep travel records alongside your utility bills and your lease or title deed for the whole period. French nationals
-   should also keep evidence of the family's residence history in Monaco, since the carve-out turns on dates decades in
-   the past.
+
+Keep travel records alongside your lease or title deed and your water, electricity and telephone bills for the past
+year — those are what the Principality asks for. French nationals should also keep evidence of the family's residence
+history in Monaco, since the carve-out turns on dates decades in the past.
 
 ## Edge cases
 
 - **Dual nationality is read as French.** Someone holding French nationality alongside another non-Monegasque
   nationality is treated as French for these purposes, so the second passport does not avoid French taxation.
-- **A residence permit is not a tax residence certificate.** The permit governs your right to live in the Principality;
-  the certificate is a separate application with its own evidence and its own expiry.
+- **A residence permit is not a tax residence certificate.** The permit governs your right to live in the Principality,
+  while the certificate is a separate application with its own evidence and its own expiry.
 - **Permits assume you actually live there.** The permit is designed for people intending to live in Monaco for more
   than three months a year, and renewal looks at evidence that you genuinely have.
-- **Monaco's treaty network is thin.** A Monegasque certificate only helps where a treaty exists to apply it to, so the
-  country you left may simply apply its own domestic residence rules to you regardless.
-- **No income tax does not mean no tax.** Businesses earning more than a quarter of their turnover outside the
-  Principality pay tax on profits. Gifts and inheritances of Monaco-situated assets are taxed by relationship, with
-  transfers in the direct line exempt.
+- **Certificates are re-checked, not granted once.** The residence certificate for tax purposes runs for a year and the
+  certificate of domicile for three, with usual residence verified again at each renewal.
 
 ## If you get this rule wrong
 
-Because Monaco does not tax individuals on their income, the real risk is that your certificate is refused or later
-unpicked — leaving the country you left free to treat you as never having gone. For French nationals the exposure is
-direct: a late or incorrect French return carries a 10% surcharge, rising to 40% for a deliberate failure and 80% for
-fraudulent arrangements. France's droit à l'erreur halves the late interest for someone who files a corrected return
-spontaneously and in good faith. **Professional tax advice is strongly recommended in situations like this.**
+Because Monaco does not tax individuals on their income, the real risk is that your certificate is refused or later unpicked, leaving the country you left free to treat you as never having gone. For French nationals the exposure is direct: a late or incorrect French return carries a 10% surcharge, rising to 40% for a deliberate failure and 80% for fraudulent arrangements. **Professional tax advice is strongly recommended in situations like this.**
 
 ## Examples
 

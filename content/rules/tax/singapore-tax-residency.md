@@ -41,12 +41,12 @@ shorter continuous stay can also count when your employment runs across two cale
 you pay and whether you can claim personal reliefs.
 :::
 
-| Key facts               |                                        |
-|:------------------------|---------------------------------------:|
-| Thresholds              |                               183 days |
-| Period / Window         |         Calendar year (1 Jan – 31 Dec) |
-| Counting                | Any part of a day, work absences count |
-| Additional requirements |   Ordinary residence, stay concessions |
+| Key facts               |                                      |
+|:------------------------|-------------------------------------:|
+| Thresholds              |                             183 days |
+| Period / Window         |       Calendar year (1 Jan – 31 Dec) |
+| Counting                |                    Any part of a day |
+| Additional requirements | Ordinary residence, stay concessions |
 
 ## Understanding the rule
 
@@ -56,60 +56,47 @@ You are a Singapore tax resident if you meet any one of these routes, in any ord
   consistent with still calling Singapore home. No day count applies. In practice this route covers Singapore citizens
   and permanent residents.
 - **183 days present or employed** — you are physically present in Singapore for **183 days or more** during the
-  calendar year, or you exercise an employment there for that long. Time spent as a company director doesn't count
-  toward the employment side of this route.
-- **Employment straddling two calendar years** — a continuous stay of at least 183 days that falls across two calendar
-  years, even though neither year reaches 183 days on its own.
+  calendar year, or you exercise an employment there for that long.
+- **Employment straddling two calendar years** — a continuous employment running across two calendar years, with a
+  total stay of at least 183 days, makes you a resident for both years even though neither reaches 183 on its own.
+- **Three continuous years** — working in Singapore continuously for three consecutive years makes you a resident for
+  all three, even where the first and third fall short on their own.
 
-The straddling route is an administrative concession rather than a rule written into the tax legislation, and it has
-specific mechanics. Your employment must run continuously across two calendar years. Your total period of stay — the
-employment period plus any physical presence immediately before and after it — must reach at least 183 days. Meeting it
-makes you a resident for both years. It is for foreign employees only: company directors, public entertainers, and
-professionals such as consultants, trainers, and visiting experts are excluded.
-
-A second concession covers longer stays. Staying or working in Singapore continuously for three consecutive years makes
-you a resident for all three, even if the first and third years each fall short of 183 days on their own. Separately, a
-work pass valid for at least a year usually means you are treated as a resident from the outset, with your status
-reviewed against the ordinary rules when your employment ends.
-
-Residency changes the rate, not just the label. Residents pay progressive rates running from 0% to 24% and can claim
-personal reliefs. Non-residents pay the higher of a flat 15% or the progressive rates on employment income, with
-director's fees, consultant's fees, and most other income taxed at 24%, and no personal reliefs at all.
+Those last two are administrative concessions rather than rules written into the tax legislation. The straddling route
+is for foreign employees only, so company directors, public entertainers, and professionals such as consultants,
+trainers and visiting experts are excluded from it.
 
 ## How to keep track
 
-1. The core threshold is **183 days or more** of presence or employment in Singapore during the **calendar year**,
-   1 January to 31 December.
-2. Any part of a day counts as a full day, so both your arrival day and your departure day add to the total.
+1. The core threshold is **183 days or more** in Singapore during the **calendar year**, 1 January to 31 December.
+   Two separate things get you there: days you are **physically present**, and days you **exercise an employment**.
+   Either can carry the count on its own.
+2. Any part of a day counts as a **full** day, so both your arrival day and your departure day add to the total.
 3. Within a period of employment, weekends and public holidays count as days of employment in Singapore.
 4. Absences don't automatically break the count. Temporary absences such as overseas vacation leave, and absences
    incidental to your Singapore employment such as business trips, still count toward the total.
-5. Singapore assesses income on a preceding-year basis, so the days you count in one calendar year decide your status
-   for the year of assessment that follows it.
-6. Keep entry and exit records for every trip, plus your employment contract and work pass showing exact start and end
-   dates, and a log of business trips taken during the employment.
+5. Time spent as a **company director** is the exception — it doesn't count on the employment side. A director's
+   physical presence still counts as normal.
+
+Keep entry and exit records for every trip, plus your employment contract and work pass showing exact start and end
+dates, and a log of business trips taken during the employment.
 
 ## Edge cases
 
 - **Falling one day short changes the rate, not just the label.** Non-resident employment income is taxed at the higher
-  of a flat 15% or the progressive resident rates, and no personal reliefs are available.
+  of a flat 15% or the progressive resident rates, director's fees and most other income at 24%, and no personal
+  reliefs are available.
 - **A very short employment can be exempt outright.** A non-resident employed in Singapore for 60 days or less in a year
   is exempt on that short-term employment income. It doesn't apply to board directors, public entertainers, or
   professionals, and it's lost if your absences from Singapore are incidental to your Singapore employment.
 - **A directorship counts differently from a job.** Physical presence always counts, but employment exercised as a
   company director doesn't count toward the 183-day route, and directors are excluded from the two-year concession.
-- **A work pass isn't a permanent answer.** Holding one valid for at least a year usually means resident treatment up
-  front, but your status is reviewed at tax clearance when you stop working.
-- **Foreign income brought into Singapore is generally untaxed for residents** — with the exception of foreign income
-  received through a partnership in Singapore, which stays taxable.
+- **Your days decide the following year's assessment.** Singapore assesses income on a preceding-year basis, so the
+  days you count in one calendar year set your status for the year of assessment that follows it.
 
 ## If you get this rule wrong
 
-Filing on the wrong residency basis means the wrong rate was applied, and the return is treated as incorrect. Without
-wilful intent, the Inland Revenue Authority of Singapore can impose a penalty of up to 200% of the tax undercharged,
-rising to up to 400% where it finds a wilful intention to evade. Its Voluntary Disclosure Programme waives that penalty
-for a qualifying disclosure made within one year of the statutory filing date, then charges 5% for each further back
-year. **Professional tax advice is strongly recommended in situations like this.**
+Residency changes the rate, not just the label — residents pay progressive rates and can claim personal reliefs, while non-residents pay a flat or higher rate with none — so filing on the wrong basis means the wrong rate was applied and the return is treated as incorrect. Without wilful intent, the Inland Revenue Authority of Singapore (IRAS) can impose a penalty of up to 200% of the tax undercharged, rising to up to 400% where it finds a wilful intention to evade. **Professional tax advice is strongly recommended in situations like this.**
 
 ## Examples
 

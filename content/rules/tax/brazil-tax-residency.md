@@ -1,7 +1,7 @@
 ---
 id: brazil-tax-residency
 
-title: Brazil Tax Residency (visa status and 184-day rule)
+title: Brazil Tax Residency (183-day rule)
 subtitle: 184 days ∙ Rolling 12 months from entry ∙ Visa-based routes
 
 category: tax
@@ -27,82 +27,65 @@ sources:
 
 ---
 
-# Brazil Tax Residency (visa status and 184-day rule)
+# Brazil Tax Residency (183-day rule)
 
 ## Overview
 
 :::callout
 You become a Brazilian tax resident on the day you arrive if you hold permanent residence status, or if you arrive on a
 temporary visa under a Brazilian employment contract. On any other temporary visa, you become resident on the day you
-complete **184 days** of presence — consecutive or not — inside a twelve-month window. Leaving works differently again:
-a formal exit filing, not the flight, decides when your residency actually ends.
+complete **184 days** of presence inside a twelve-month window. Leaving works differently again: a formal exit filing,
+not the flight, decides when your residency actually ends.
 :::
 
-| Key facts               |                                       |
-|:------------------------|--------------------------------------:|
-| Thresholds              |                              184 days |
-| Period / Window         |    Rolling 12-month period from entry |
-| Counting                | Any part of a day, consecutive or not |
-| Additional requirements |      Visa status, employment contract |
+| Key facts               |                                  |
+|:------------------------|---------------------------------:|
+| Thresholds              |               More than 183 days |
+| Period / Window         |                Rolling 12 months |
+| Counting                |                Any part of a day |
+| Additional requirements | Visa status, employment contract |
 
 ## Understanding the rule
 
 Brazilian tax residency starts on a specific date, and which date depends on how you entered:
 
-- **Permanent residence status** — you are resident from the day you arrive holding permanent residence, with no day
-  count involved.
-- **Temporary visa with Brazilian employment** — you are resident from the day you arrive, if you come on a temporary
-  visa tied to an employment relationship in Brazil. The same applies to a temporary visa granted for certain
-  government-sponsored medical programmes.
-- **184 days of presence** — on any other temporary visa, you are resident from the day you complete 184 days of
-  presence in Brazil, consecutive or not, within a period of up to twelve months.
-- **Returning with the intention to stay** — someone who had become a nonresident and returns to Brazil permanently is
-  resident from the date of arrival.
-- **Leaving without the exit filing** — someone who departs Brazil without submitting the required exit paperwork stays
-  resident for the first twelve consecutive months of absence.
+- **Permanent residence status** — resident from the day you arrive, with no day count involved.
+- **Temporary visa with Brazilian employment** — resident from the day you arrive, if the visa is tied to an
+  employment relationship in Brazil (the same applies to certain government-sponsored medical programmes).
+- **More than 183 days of presence** — on any other temporary visa, resident from the day you complete 184 days of
+  presence within a rolling twelve-month window.
+- **Returning with the intention to stay** — someone who had become a nonresident and returns to Brazil permanently
+  is resident from the date of arrival.
+- **Leaving without the exit filing** — someone who departs Brazil without submitting the required exit paperwork
+  stays resident for the first twelve consecutive months of absence.
 
-The twelve-month window is not a calendar year. It runs from your entry, and if you don't reach 184 days inside it, the
-count restarts. A new period of up to twelve months then begins on your next entry after the one that started the
-previous count. Someone who obtains permanent residence or a Brazilian job before hitting 184 days becomes resident at
-that point instead, cutting the count short.
-
-Once you're resident, Brazil taxes your worldwide income. Nonresidents are generally taxed only on Brazilian-source
-income, usually through withholding at source. They are also expected to tell the Brazilian party paying them, in
-writing, that they hold nonresident status, so the correct rate is applied.
+Once resident, Brazil taxes your worldwide income. Nonresidents are generally taxed only on Brazilian-source income.
 
 ## How to keep track
 
-1. The threshold is **184 days** of presence in Brazil, consecutive or not, inside a period of up to twelve months —
-   day 184 is the day residency begins.
+1. The threshold is **184 days** of presence in Brazil, consecutive or not, inside a 12-month rolling period.
 2. If you don't reach 184 days within that window, the clock restarts from your next entry after the one that opened
    the previous count. Days from the lapsed period don't carry over.
 3. Visa status can override the day count entirely. Permanent residence, or a temporary visa with a Brazilian
    employment contract, makes you resident from arrival however few days you go on to spend.
-4. Ending residency has its own mechanics. A permanent departure without the exit communication and exit return keeps
-   you resident for the first twelve months away. A purely temporary absence makes you a nonresident only from the day
-   after twelve consecutive months abroad.
-5. Keep entry and exit records for your day count, your visa or residence authorisation and any Brazilian employment
-   contract for the status-based routes, and proof of the exit filings if you're leaving.
+
+Keep entry and exit records for your day count, your visa or residence authorisation and any Brazilian employment
+contract for the status-based routes, and proof of the exit filings if you're leaving.
 
 ## Edge cases
 
 - **The exit filing decides when residency ends, not the flight.** Leaving Brazil for good without submitting the
-  departure communication and departure return leaves you taxable on worldwide income for a further twelve months.
+  departure communication and departure return leaves you taxable on worldwide income for a further 12 months.
 - **A signed job offer can make you resident on your first day.** Arriving on a temporary visa with a Brazilian
   employment relationship in place skips the day count completely.
 - **Repeated short trips can quietly accumulate.** Because days don't have to be consecutive, several separate visits
-  inside one twelve-month window can add up past the threshold without any single stay looking long.
+  inside one 12-month window can add up past the threshold without any single stay looking long.
 - **Nonresidents have to flag their status to whoever pays them.** A nonresident receiving Brazilian-source income is
   expected to notify the paying source in writing, so the right withholding is applied at source.
-- **Dual residency is possible.** If another country also treats you as resident, a double tax treaty's tie-breaker
-  rules can assign a single treaty residence without cancelling your Brazilian domestic status.
 
 ## If you get this rule wrong
 
-If Receita Federal assesses tax you didn't report, the standard penalty is 75% of the tax found owing. It rises to 100%
-where evasion, fraud or collusion is established, and to 150% for repeat conduct. Coming forward first removes the fine
-entirely — a denúncia espontânea, filed with payment of the tax and interest before any audit or enforcement action
-begins, cancels the penalty. **Professional tax advice is strongly recommended in situations like this.**
+If Receita Federal assesses tax you didn't report, the standard penalty is 75% of the tax found owing. It rises to 100% where evasion, fraud or collusion is established, and to 150% for repeat conduct. **Professional tax advice is strongly recommended in situations like this.**
 
 ## Examples
 
@@ -132,16 +115,15 @@ from your arrival date.
 
 ### Is the Brazilian threshold 183 days or 184 days?
 
-**184 days.** The rule is written as completing 184 days of presence, consecutive or not, within a period of up to
-twelve months. A temporary visa holder stays a nonresident for up to 183 days and becomes resident on the day the 184th
-is reached.
+**184 days.** A temporary visa holder stays a nonresident for up to 183 days and becomes resident on the day the 184th
+is reached — see **How to keep track** above for exactly how those days are counted.
 
 ### Is Brazilian tax residency just a day-count rule?
 
 No. Visa status can settle it before any counting starts. Permanent residence makes you resident on arrival, and so
 does a temporary visa combined with a Brazilian employment relationship.
 
-### Does the twelve-month window follow the calendar year?
+### Does the 12-month window follow the calendar year?
 
 No. It runs from your entry into Brazil, so it can straddle two calendar years. If the 184 days aren't reached inside
 it, a new period of up to twelve months starts from your next entry.

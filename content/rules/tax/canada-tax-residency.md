@@ -57,39 +57,29 @@ You are a Canadian tax resident for a calendar year if you meet either of two te
 
 Deemed residency is a backstop: it only comes into play once factual residency doesn't already make you resident.
 Meeting either test makes you a Canadian tax resident, taxed on worldwide income. Falling short of both makes you a
-nonresident, generally taxed only on Canadian-source income.
+nonresident, taxed only on Canadian-source income.
 
 ## How to keep track
 
 1. The backstop threshold is **183 days or more** of sojourning in Canada during the calendar year — but this only
    matters if you don't already have significant residential ties.
 2. **Any part of a day** counts as a full day present, including your arrival and departure days.
-3. Significant residential ties can make you factually resident regardless of your day count, even at close to zero
-   days present in a given year.
-4. Being physically outside Canada doesn't pause factual residency by itself — it continues for as long as your
-   significant ties remain in place.
-5. Keep travel records for your sojourn count, plus evidence of your residential ties or their absence — property
-   records, where your spouse or dependants live, and documentation of accounts, memberships, or licences you hold or
-   gave up.
+
+Keep travel records for your sojourn count, plus evidence of your residential ties or their absence — property
+records, where your spouse or dependants live, and documentation of accounts, memberships, or licences you hold or
+gave up.
 
 ## Edge cases
 
-- **Deemed residency is a backstop, not a parallel route.** It only applies if you don't already have significant
-  residential ties — someone with a home, spouse, or dependants in Canada is factually resident regardless of day
-  count, even near zero days present.
-- **Being physically absent doesn't end residency by itself.** If you keep significant ties while away, you can
-  remain a factual resident for the whole period you're gone, however long that is.
 - **A tax treaty can override deemed or factual residency.** Under a specific statutory provision, even someone who
   meets Canada's domestic tests can be treated as a non-resident for Canadian tax purposes if a treaty's tie-breaker
   rules assign residence to the other country instead.
-- **Secondary ties rarely decide a case alone.** The CRA weighs them collectively — a single secondary tie, like one
-  bank account or membership, is generally not enough on its own to establish factual residency.
 - **Arrivals and departures can split the tax year.** Residency can start or end partway through the year rather than
   applying to all 12 months, based on when significant ties were established or given up.
 
 ## If you get this rule wrong
 
-Getting your residency status wrong and misreporting income risks a gross negligence penalty of 50% of the extra tax owing, on top of the tax and interest itself. The Canada Revenue Agency's Voluntary Disclosures Program can waive that penalty and reduce interest by up to 75% for a genuine, voluntary correction. **Professional tax advice is strongly recommended in situations like this.**
+Getting your residency status wrong and misreporting income risks a gross negligence penalty of 50% of the extra tax owing, on top of the tax and interest itself. **Professional tax advice is strongly recommended in situations like this.**
 
 ## Examples
 

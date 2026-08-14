@@ -46,8 +46,8 @@ for a full tax year. It reaches earned income only, so pensions, dividends and i
 
 | Key facts               |                                            |
 |:------------------------|-------------------------------------------:|
-| Thresholds              |                                   330 days |
-| Period / Window         |              Rolling 12 consecutive months |
+| Thresholds              |                            330 days abroad |
+| Period / Window         |                          Rolling 12 months |
 | Counting                |           Full days (midnight to midnight) |
 | Additional requirements | Foreign tax home, bona fide residence test |
 
@@ -74,33 +74,32 @@ citizens or nationals of a country with a US income tax treaty in force — the 
 restriction. One thing rules the route out outright: telling that country's authorities you aren't a resident there,
 where they then don't tax you as one.
 
-The exclusion is a choice you make rather than something applied automatically, claimed on Form 2555 with your
-return.
+The exclusion isn't automatic — you have to claim it yourself, on Form 2555 filed with your return.
 
 ## How to keep track
 
-1. The threshold is **330 full days** in a foreign country or countries within any **12 consecutive months**. That
-   window doesn't have to start on your first day abroad — you can pick whichever one gives the largest exclusion.
-2. A **full day** is 24 consecutive hours running midnight to midnight, spent entirely in a foreign country, so the
-   days you fly in and out generally don't count.
-3. Time on or over **international waters** while travelling between the US and a foreign country isn't time abroad,
+1. The threshold is **330 days** abroad within any **12 consecutive months**. That window doesn't have to start on
+   your first day abroad — you can pick whichever one gives the largest exclusion.
+2. Those have to be **full days**, and a full day is 24 consecutive hours running midnight to midnight spent entirely
+   in a foreign country. The days you fly in and out generally don't count, which is why the real allowance is
+   tighter than 365 minus 330 suggests.
+3. The days don't have to be in the same country — time in a foreign country **or countries** all counts toward the
+   same total.
+4. Time on or over **international waters** while travelling between the US and a foreign country isn't time abroad,
    which quietly costs days on long crossings.
-4. Days in the US count against you whatever the reason — holidays, family visits and short business trips are all
+5. Days in the US count against you whatever the reason — holidays, family visits and short business trips are all
    treated the same.
-5. The 330-day minimum can be waived if you had to leave a country because of war, civil unrest or similar adverse
+6. The 330-day minimum can be waived if you had to leave a country because of war, civil unrest or similar adverse
    conditions, and the IRS publishes which countries and dates that covers.
-6. Keep a day-by-day travel log with boarding passes and entry and exit stamps. Add evidence supporting a foreign
-   tax home — a lease, a local employment contract, or foreign tax filings — since the bona fide residence route
-   rests on exactly that kind of proof.
+
+Keep a day-by-day travel log with boarding passes and entry and exit stamps. Add evidence supporting a foreign tax
+home — a lease, a local employment contract, or foreign tax filings — since the bona fide residence route rests on
+exactly that kind of proof.
 
 ## Edge cases
 
-- **The exclusion doesn't reduce self-employment tax.** Excluded income still counts for it, so a self-employed
-  American abroad can owe US tax even with the full exclusion claimed.
 - **Excluded income still sets the rate on the rest.** Income above the cap is taxed at the rates that would have
   applied if the excluded amount were still in your total, so the first dollar over isn't taxed at the bottom rate.
-- **You can't claim a foreign tax credit on the same income.** Foreign tax paid on excluded income can't also generate
-  a credit, which is why the credit sometimes beats the exclusion outright.
 - **It only reaches earned income.** Pensions, annuities, dividends, interest, capital gains, and pay as a US
   government employee all sit outside it.
 - **A US abode blocks it however many days you spend abroad.** Keeping your economic, family and personal life centred
@@ -110,12 +109,7 @@ return.
 
 ## If you get this rule wrong
 
-Claiming the exclusion without meeting either test leaves you with the tax you avoided plus an accuracy-related
-penalty of 20% of the underpayment, or 75% where the IRS treats the position as fraud. Filing late matters too: the
-election is generally valid only on a return filed within a year of the due date, or a later one filed before the IRS
-notices. Americans abroad who fell behind non-willfully can use the Streamlined Foreign Offshore Procedures, which
-waive the failure-to-file, failure-to-pay, accuracy-related and FBAR penalties on a qualifying correction.
-**Professional tax advice is strongly recommended in situations like this.**
+Claiming the exclusion without meeting either test leaves you with the tax you avoided plus an accuracy-related penalty of 20% of the underpayment, or 75% where the Internal Revenue Service (IRS) treats the position as fraud. Filing late matters too: the election is generally valid only on a return filed within a year of the due date, or a later one filed before the IRS notices. **Professional tax advice is strongly recommended in situations like this.**
 
 ## Examples
 

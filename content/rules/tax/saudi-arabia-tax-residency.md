@@ -24,9 +24,6 @@ sources:
   - title: ZATCA — Income tax law and regulations
     url: https://zatca.gov.sa/en/RulesRegulations/Taxes/Pages/IncomeTax.aspx
     type: official
-  - title: ZATCA — Cancellation of fines and exemption of financial penalties
-    url: https://zatca.gov.sa/en/HelpCenter/guidelines/Documents/Exemption_of_Fines_Initiative_Simplified_EN.pdf
-    type: official
 
 ---
 
@@ -41,12 +38,13 @@ income, so the status matters mainly for treaty benefits and a Tax Residency Cer
 income is taxed and how Zakat applies.
 :::
 
-| Key facts               |                                               |
-|:------------------------|----------------------------------------------:|
-| Thresholds              |                             30 days, 183 days |
-| Period / Window         |                                      Tax year |
-| Counting                |             Any part of a day, except transit |
-| Additional requirements | Permanent place of abode for the 30-day route |
+| Key facts               |                                     |
+|:------------------------|------------------------------------:|
+| Thresholds              |                            183 days |
+| Period / Window         |      Calendar year (1 Jan – 31 Dec) |
+| Alternative             |                             30 days |
+| Counting                |                   Any part of a day |
+| Additional requirements | Permanent home for the 30-day route |
 
 ## Understanding the rule
 
@@ -69,11 +67,12 @@ while Saudi and other GCC nationals fall within Zakat, assessed on wealth rather
 1. The two thresholds are **183 days** present in the tax year, or **30 days** present combined with a permanent place
    of abode available to you.
 2. Presence for part of a day counts as presence for the whole day, so a short visit still adds a full day.
-3. The exception is transit: a day spent passing through the Kingdom between two points outside it does not count.
-4. Days do not need to be consecutive on either route — they are simply totalled across the tax year.
-5. For the 30-day route, what matters is that the home is available to you for at least a year, not how much you use it.
-6. Keep entry and exit records for every trip, plus your lease or title deed and an employment letter. ZATCA asks
-   for a passport, proof of residency and employment confirmation when you apply for a certificate.
+3. The exception is **transit**: a day spent passing through the Kingdom between two points outside it does not count.
+4. Days do not need to be consecutive on either route — they are simply totaled across the tax year.
+
+Keep entry and exit records for every trip, plus your lease or title deed and an employment letter. The Zakat, Tax and
+Customs Authority (ZATCA) asks for a passport, proof of residency and employment confirmation when you apply for a
+certificate.
 
 ## Edge cases
 
@@ -84,21 +83,12 @@ while Saudi and other GCC nationals fall within Zakat, assessed on wealth rather
   You still have to apply to ZATCA and evidence the days and the home you are relying on.
 - **The 30-day route catches people who assume they're safe.** An employee with a company-provided villa or apartment
   available all year can become resident on a handful of short visits.
-- **Zakat and income tax split along nationality lines.** Saudi and GCC nationals are within Zakat; non-Saudi
-  individuals are within income tax on business or investment income arising in the Kingdom.
-- **A residence permit is not the same as tax residency.** An iqama governs your right to live and work in the Kingdom;
-  the day counts and the permanent-home condition decide the tax status independently.
-- **Dual residency is possible.** If another country also treats you as resident, a double tax treaty between it and
-  Saudi Arabia would decide which country has priority over particular income.
+- **A residence permit is not the same as tax residency.** An iqama governs your right to live and work in the Kingdom,
+  while the day counts and the permanent-home condition decide the tax status independently.
 
 ## If you get this rule wrong
 
-With no personal income tax on salaries, getting this wrong usually costs you a certificate rather than tax. ZATCA can
-refuse a Tax Residency Certificate where your claimed days don't match your entry and exit records, and a foreign
-authority can then deny treaty relief. Where Saudi tax is genuinely due on business income, late payment carries a
-fine of 1% for each 30 days of delay, and concealment carries 25% of the difference. ZATCA's cancellation of fines and
-exemption of financial penalties initiative can waive late-filing and late-payment fines for those who file and settle
-the principal, but never the evasion penalty. **Professional tax advice is strongly recommended in situations like this.**
+With no personal income tax on salaries, getting this wrong usually costs you a certificate rather than tax. ZATCA can refuse a Tax Residency Certificate where your claimed days don't match your entry and exit records, and a foreign authority can then deny treaty relief. Where Saudi tax is genuinely due on business income, late payment carries a fine of 1% for each 30 days of delay, and concealment carries 25% of the difference. **Professional tax advice is strongly recommended in situations like this.**
 
 ## Examples
 
@@ -124,7 +114,6 @@ short of 183 — so having the home changes nothing and you are not resident.
 
 - [ZATCA — Tax Residency Certificate for individuals](https://zatca.gov.sa/en/eServices/Pages/eServices-084.aspx)
 - [ZATCA — Income tax law and regulations](https://zatca.gov.sa/en/RulesRegulations/Taxes/Pages/IncomeTax.aspx)
-- [ZATCA — Cancellation of fines and exemption of financial penalties](https://zatca.gov.sa/en/HelpCenter/guidelines/Documents/Exemption_of_Fines_Initiative_Simplified_EN.pdf)
 
 ## FAQ
 

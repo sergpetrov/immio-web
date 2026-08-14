@@ -2,7 +2,7 @@
 id: spain-tax-residency
 
 title: Spain Tax Residency (183-day rule)
-subtitle: 184 days ∙ Starts Jan 1 ∙ Beckham Law
+subtitle: 183 days ∙ Starts Jan 1 ∙ Beckham Law
 
 category: tax
 
@@ -35,13 +35,12 @@ sources:
 Spanish tax residency is **not just a 183-day rule**. You're a Spanish tax resident if you meet any one of three tests:
 spending more than 183 days in Spain in the **calendar year**, having the main base of your economic activities in
 Spain, or having a spouse and dependent minor children who live in Spain, which creates a **presumption** of residency
-you'd
-need to rebut. Some exceptions and a special regime for new arrivals can still apply.
+you'd need to rebut. Some exceptions and a special regime for new arrivals can still apply.
 :::
 
 | Key facts               |                                 |
 |:------------------------|--------------------------------:|
-| Thresholds              |                        184 days |
+| Thresholds              |              More than 183 days |
 | Period / Window         |  Calendar year (1 Jan – 31 Dec) |
 | Counting                |               Any part of a day |
 | Additional requirements | Economic interests test, family |
@@ -68,8 +67,9 @@ you a nonresident, generally taxed only on Spanish-source income.
    tax residence in another country.
 3. If the other country is a listed tax haven, Spain's tax authority can require you to **prove 183 days** of actual
    presence there before accepting the absence.
-4. Keep travel records — boarding passes, entry and exit stamps — to support your day count, and if you're relying on
-   tax residence elsewhere to exclude an absence, keep a certificate of tax residence from that country.
+
+Keep travel records — boarding passes, entry and exit stamps — to support your day count, and if you're relying on
+tax residence elsewhere to exclude an absence, keep a certificate of tax residence from that country.
 
 ## Beckham Law
 
@@ -93,8 +93,8 @@ Spanish tax resident, only how your income is taxed once you are.
   Spain can trigger Spanish residency by presumption alone, separate from your own day count.
 - **Sporadic absences work against you by default.** Short trips abroad don't automatically pause your day count — the
   burden is on you to prove residence elsewhere if you want them excluded.
-- **Meeting one test is enough**, even if you'd fail the other two — the three tests are independent alternatives, not a
-  combined score.
+- **Spain has no split-year treatment.** You are either resident for the whole calendar year or not at all, so someone
+  arriving in July and passing the threshold is taxed as a resident on worldwide income from 1 January.
 
 ## If you get this rule wrong
 
@@ -129,9 +129,9 @@ progressive rates for 6 tax years.
 
 ### Is Spanish tax residency just a 183-day rule?
 
-No. Spending more than 183 days in Spain is the most common route, but you can also become resident through the *
-*economic interests test** with no day count, or through the **family presumption** if your spouse and children live in
-Spain even while you're mostly abroad.
+No. Spending more than 183 days in Spain is the most common route, but you can also become resident through the
+**economic interests test** with no day count, or through the **family presumption** if your spouse and children live
+in Spain even while you're mostly abroad.
 
 ### Do short trips abroad reduce my day count in Spain?
 

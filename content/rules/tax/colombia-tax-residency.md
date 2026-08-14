@@ -2,7 +2,7 @@
 id: colombia-tax-residency
 
 title: Colombia Tax Residency (183-day rule)
-subtitle: 184 days ∙ Any 365-day period ∙ Extra rules for nationals
+subtitle: 183 days ∙ Rolling 365 days ∙ Extra rules for nationals
 
 category: tax
 
@@ -43,8 +43,8 @@ in Colombia at all.
 
 | Key facts               |                                    |
 |:------------------------|-----------------------------------:|
-| Thresholds              |                           184 days |
-| Period / Window         |           Any 365 consecutive days |
+| Thresholds              |                 More than 183 days |
+| Period / Window         |                   Rolling 365 days |
 | Counting                |                  Any part of a day |
 | Additional requirements | Conditions for Colombian nationals |
 
@@ -53,32 +53,28 @@ in Colombia at all.
 You are a Colombian tax resident if you meet any one of these, in any order:
 
 - **Presence** — more than 183 calendar days in Colombia, continuous or not, within any period of 365 consecutive
-  calendar days. Days of entry and exit both count.
-- **Colombian foreign service** — you are connected with Colombia's diplomatic or consular service abroad and are
-  exempt from tax in the country where you are posted, in whole or in part, under the Vienna conventions.
-- **Conditions that apply only to Colombian nationals** — a national is resident if, during the tax year, any one of a
-  further list applies.
+  calendar days.
+- **Colombian foreign service** — connected with Colombia's diplomatic or consular service abroad and exempt from
+  tax in the country where you are posted, in whole or in part, under the Vienna conventions.
+- **Conditions that apply only to Colombian nationals** — a national is resident if, during the tax year, any one of
+  a further list applies.
 
-The year-boundary rule matters more than it looks. Where the qualifying stay, continuous or not, falls across more than
-one tax year, you are treated as resident from the **second** tax year. A stay that begins late in one year and carries
-the count over into the next therefore attaches to the later year.
+Where the qualifying stay falls across more than one tax year, residency attaches from the **second** tax year, not
+the first.
 
-The conditions in the third route are the ones people most often misread, because they apply only if you are a
-Colombian national. A national is resident if, during the tax year, any one of these holds:
+The conditions in the third route apply only to Colombian nationals. A national is resident if, during the tax year,
+any one of these holds:
 
 - a spouse or permanent partner who is not legally separated, or dependent minor children, is a Colombian tax resident;
-- 50% or more of their income is Colombian-source;
-- 50% or more of their assets are managed in Colombia;
-- 50% or more of their assets are held in Colombia;
+- half or more of their income is Colombian-source, or half or more of their assets are managed or held in Colombia;
 - the tax authority asks them to evidence tax residence abroad and they cannot;
 - they are tax resident in a jurisdiction the government has classified as a tax haven.
 
-There is a quantitative way out of that list. A national caught by one of those conditions is still not a Colombian tax
-resident if 50% or more of their annual income arises in the country of their new tax residence. The same applies if
-50% or more of their assets are located there.
+A national caught by one of those conditions is still not a Colombian tax resident if half or more of their annual
+income or assets sit in the country of their new tax residence.
 
 Meeting any route makes you a Colombian tax resident, taxed on worldwide income and reporting worldwide assets.
-Falling outside all of them makes you a nonresident, generally taxed only on Colombian-source income.
+Falling outside all of them makes you a nonresident, taxed only on Colombian-source income.
 
 ## How to keep track
 
@@ -87,15 +83,12 @@ Falling outside all of them makes you a nonresident, generally taxed only on Col
 2. Days of entry and exit both count as days of presence, so a short trip in and out still adds two days to the total.
 3. The window is rolling, not the calendar year. The 365 days can begin on any date, so a stay spanning 1 January is
    counted straight through.
-4. If the qualifying stay falls across two tax years, residency starts from the second tax year, not the one in which
-   you first arrived.
-5. Keep travel records for the day count. If you are a Colombian national relying on residence elsewhere, keep a tax
-   residency certificate issued by that country, plus evidence of where your income and assets sit.
+
+Keep travel records for the day count. If you are a Colombian national relying on residence elsewhere, keep a tax
+residency certificate issued by that country, plus evidence of where your income and assets sit.
 
 ## Edge cases
 
-- **Foreigners aren't caught by the conditions for nationals.** A non-Colombian with a Colombian spouse, a home in
-  Bogotá and most of their assets in the country only becomes resident through the day count.
 - **Moving to a tax haven doesn't break the tie.** A Colombian national who takes up tax residence in a jurisdiction
   the government has classified as a tax haven remains a Colombian tax resident.
 - **Being unable to evidence residence abroad is itself a trigger.** If the tax authority asks a national to prove tax
@@ -107,11 +100,7 @@ Falling outside all of them makes you a nonresident, generally taxed only on Col
 
 ## If you get this rule wrong
 
-DIAN's penalty for an inaccurate return is 100% of the gap between the tax you declared and the tax it assesses,
-doubling to 200% where assets were left out or fictitious liabilities included. Filing late is charged separately, at
-5% of the tax for each month of delay, capped at 100%. Correcting the return yourself is much cheaper: a voluntary
-corrección filed before DIAN serves a formal notice costs 10% of the extra tax, and 20% once that notice has been
-issued. **Professional tax advice is strongly recommended in situations like this.**
+Colombia's Dirección de Impuestos y Aduanas Nacionales (DIAN) charges a penalty of 100% of the gap between the tax you declared and the tax it assesses, doubling to 200% where assets were left out or fictitious liabilities included. Filing late is charged separately, at 5% of the tax for each month of delay, capped at 100%. **Professional tax advice is strongly recommended in situations like this.**
 
 ## Examples
 

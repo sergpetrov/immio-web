@@ -30,23 +30,23 @@ sources:
 
 ---
 
-# Germany Tax Residency (six-month rule)
+# Germany Tax Residency (6-month rule)
 
 ## Overview
 
 :::callout
-You're a German tax resident if you keep a dwelling in Germany that you can be expected to hold on to and use. You're
-also resident if you stay in the country for **more than six months** at a stretch — meeting either one is enough. The
-dwelling test involves no day count at all, so a single home kept available for you can settle it by itself. A stay
-taken purely for private reasons is exempt from the six-month rule for up to a year.
+You're a German tax resident if you keep a **dwelling** in Germany that you can be expected to hold on to and use. You're
+also resident if you spend **more than 6 months in Germany as one continuous stay**, which doesn't need to fit
+inside a single calendar year — meeting either test is enough. The dwelling test involves no day count at all, so a
+single home kept available for you can settle it by itself.
 :::
 
-| Key facts               |                                        |
-|:------------------------|---------------------------------------:|
-| Thresholds              |                               6 months |
-| Period / Window         |   Continuous stay, may span a year-end |
-| Counting                | Elapsed months, short absences ignored |
-| Additional requirements |               Dwelling test (Wohnsitz) |
+| Key facts               |                                              |
+|:------------------------|---------------------------------------------:|
+| Thresholds              |              6 months (effectively 183 days) |
+| Period / Window         | Continuous stay, not tied to a calendar year |
+| Counting                |        Elapsed time, absences don't reset it |
+| Additional requirements |                     Dwelling test (Wohnsitz) |
 
 ## Understanding the rule
 
@@ -60,28 +60,33 @@ tests, in any order:
   continuous stay of more than six months always counts, from its first day.
 
 Meeting either test makes you a German tax resident, taxed on worldwide income. Falling short of both makes you a
-nonresident, generally taxed only on German-source income.
+nonresident, taxed only on German-source income.
 
-The six-month stay doesn't have to sit inside a single calendar year. A stay running from October to May counts just as
-much as one running from February to September, which is the point people most often get wrong. Short interruptions
-such as a holiday or a trip home don't break the continuity.
+The 6-month stay is not tied to the calendar year at all — it is one continuous stretch, wherever it happens to fall.
+A stay running from October to May counts exactly like one running from February to September. There is no separate
+rule for a stay that crosses a year-end: it is the same single continuous-stay test either way, which is the point
+people most often get wrong.
 
-One exception narrows the six-month rule. If your stay is taken exclusively for visiting, recuperation, medical
-treatment or similar private purposes, and lasts no more than a year, that automatic rule doesn't apply. You can still
-be found to have a habitual abode on the general test, and the dwelling test is unaffected either way.
+One exception narrows the 6-month rule: a stay taken exclusively for visiting, recuperation, medical treatment or
+similar private purposes, lasting no more than a year, doesn't trigger it automatically. You can still be found to
+have a habitual abode on the general test, and the dwelling test is unaffected either way.
 
 ## How to keep track
 
-1. The time-based test is a continuous stay of **more than six months**. There is no separate annual total to track,
-   and the six months can run straight across a year-end.
-2. The six months run as **elapsed time**, not a tally of days you were present, so no official rule sets how arrival
-   and departure days are treated.
-3. Short absences — a holiday, a work trip, a visit home — don't reset the clock. A genuine break in the stay does,
-   but the threshold for that is high.
-4. Once the stay passes six months, residency is backdated to its first day, so income earned early in the stay is
-   caught too.
-5. Keep travel records covering the whole stay, plus documents showing whether a German home is available to you: a
-   tenancy agreement, a title deed, or utility bills. Register-office paperwork on its own settles neither test.
+1. **Mark your arrival date.** That starts the clock — you're not tallying individual days present the way most other
+   countries' rules work, you're just watching the calendar run forward from that date.
+2. **Your threshold is the date more than 6 months later.** No separate annual total, no reset at a year-end — the
+   calendar just needs to run past that point while your stay continues.
+3. **Short trips away don't move that threshold date.** A family visit home, a holiday, a business trip — the clock
+   keeps running underneath them as if you'd stayed. In practice, a single absence longer than about **2-3 weeks** stops
+   counting as short-term and puts continuity at risk.
+4. **A stay-ending break resets everything.** If a longer absence breaks the stay, a later return starts a brand-new
+   arrival date and a brand-new six-month threshold — the earlier weeks don't carry over or add up toward it.
+5. **Cross the threshold without a break, and residency is backdated to your original arrival date** in step 1, not to
+   the date you actually crossed the line — so income from early in the stay is caught too.
+
+Keep travel records covering the whole stay, plus documents showing whether a German home is available to you: a
+tenancy agreement, a title deed, or utility bills. Register-office paperwork on its own settles neither test.
 
 ## Edge cases
 
@@ -101,11 +106,7 @@ be found to have a habitual abode on the general test, and the dwelling test is 
 
 ## If you get this rule wrong
 
-Under-declaring income after wrongly assuming you weren't resident is tax evasion when deliberate, and a lesser
-administrative offence carrying a fine when merely careless. That distinction also sets the reassessment window — four
-years normally, five for a careless mistake, ten where evasion is found. A complete Selbstanzeige, a voluntary
-self-disclosure filed before the authorities spot the problem, removes criminal liability, but must reach back ten
-years and costs a 10% to 20% surcharge above a set amount. **Professional tax advice is strongly recommended in situations like this.**
+Under-declaring income after wrongly assuming you weren't resident is tax evasion when deliberate, and a lesser administrative offence carrying a fine when merely careless. That distinction also sets the reassessment window — four years normally, five for a careless mistake, ten where evasion is found. **Professional tax advice is strongly recommended in situations like this.**
 
 ## Examples
 
@@ -140,10 +141,26 @@ German tax resident, taxable on worldwide income.
 No. The habitual-abode test looks at one continuous stay of more than six months, not a running total of days inside a
 calendar year. The separate dwelling test can also make you resident with almost no days in Germany at all.
 
-### Can the six months run across two calendar years?
+### Can the 6 months run across two calendar years?
 
-Yes. The stay is measured as a single continuous period, so October to May counts just as much as February to
-September. This catches people who assume they are safe as long as they stay under six months in each calendar year.
+Yes. German law measures a single continuous period, not a calendar-year total, so October to May counts just as much
+as February to September. Some guides describe this as "six months in a calendar year, or six months across a
+year-end" — that's just two ways the same single continuous-stay test can play out, not two separate rules. It's what
+catches people who assume they're safe as long as they stay under six months in each calendar year.
+
+### Do I need to stay in Germany without leaving for 6 months straight?
+
+No. The law tolerates short-term interruptions — a family visit home, annual leave, a recuperation stay, or a
+business trip are all specifically recognised as not breaking the stay. "Short-term" isn't fixed in the statute
+itself, but in practice a single absence longer than about 2-3 weeks is generally too long to count as
+short-term, unless the surrounding circumstances still clearly show one continuous stay.
+
+### Is this a rolling 12-month window, like other countries use?
+
+No. A rolling window tallies days present across a moving lookback period, so scattered trips can add up over time.
+Germany's test works differently — it needs one continuous stay running past six months, tolerating only brief
+interruptions inside it. Leave for long enough to break that continuity, and the clock doesn't carry over: a later
+stay has to build up its own six-plus months from scratch.
 
 ### Does keeping a home in Germany make me a tax resident?
 

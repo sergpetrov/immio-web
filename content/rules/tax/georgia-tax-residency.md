@@ -35,7 +35,7 @@ sources:
 ## Overview
 
 :::callout
-Georgia here is the country in the South Caucasus, capital Tbilisi — not the US state. You're a tax resident if you're
+Georgia here is the **country** in the South Caucasus, capital Tbilisi — **not the US state**. You're a tax resident if you're
 present there for **183 days** or more in any continuous 12 months ending in the tax year. A separate route grants
 residency to individuals of **high net worth** who meet asset, income and Georgian-connection conditions, with no day
 count at all. Meeting either makes you resident for the whole of that tax year.
@@ -59,15 +59,13 @@ You are a Georgian tax resident for the whole of a tax year if you meet any one 
   all. It is granted for a single tax year by the Minister of Finance, on a recommendation from the Revenue Service, and
   has to be applied for again each year.
 
-The high net worth route is a documentary test rather than an automatic one, and it stacks several conditions. An
-applicant confirms property above a set value, or annual income above a set level in each of the last three years. They
-must also hold assets located in Georgia above a set value. On top of that they show a Georgian link — either a Georgian
+The high net worth route stacks several conditions: property above a set value, or annual income above a set level in
+each of the last three years, plus assets located in Georgia above a set value, plus a Georgian link — either a
 residence permit or citizenship document, or Georgian-source income above a set amount for the tax year.
 
-What residency actually changes is narrower than most people assume. Income received by a resident individual that is
-not Georgian-source income is exempt from Georgian income tax, so residency here does not pull your foreign earnings
-into charge. Its main effects are settling which country can claim you, and letting you obtain a tax residency
-certificate for use abroad.
+What residency actually changes is narrower than most people assume: income that isn't Georgian-source is exempt
+from Georgian income tax, so residency here doesn't pull your foreign earnings into charge. Its main effects are
+settling which country can claim you and letting you obtain a tax residency certificate for use abroad.
 
 ## How to keep track
 
@@ -80,31 +78,23 @@ certificate for use abroad.
    business trip or education still counts as time in Georgia.
 5. Days already used to make you a resident for one tax period are not counted again when establishing your status for
    the next one, and the status itself is set afresh for each period.
-6. Keep entry and exit records and boarding passes for every trip, plus a lease or ownership document for where you
-   stayed. For the high net worth route, keep asset valuations, three years of income evidence and records of any
-   Georgian-source income.
+
+Keep entry and exit records and boarding passes for every trip, plus a lease or ownership document for where you
+stayed. For the high net worth route, keep asset valuations, three years of income evidence and records of any
+Georgian-source income.
 
 ## Edge cases
 
 - **A residence permit is not tax residency.** Immigration status and tax status are decided separately, and holding a
   permit does not by itself make you resident for tax.
-- **Holiday days can be excluded.** Time spent in Georgia purely for leisure or medical treatment doesn't count
-  toward the 183 days. A long stay taken as a holiday may not do what a visitor assumes.
 - **The high net worth route was tightened.** Since 2023 applicants have also had to hold assets located in Georgia
   above a set value, on top of the wealth or income test and the Georgian-connection condition.
-- **It has to be renewed every year.** High net worth residency is granted for a single tax year, and every repeat
-  request needs the full set of documents again.
 - **Small business status is a different thing entirely.** Individual entrepreneurs registered with that status pay
   1% on turnover up to a set annual ceiling. It is a business regime rather than a route to residency.
-- **Dual residency is possible.** If another country also treats you as resident, a double tax treaty between it and
-  Georgia decides which country has priority over particular income.
 
 ## If you get this rule wrong
 
-Understating tax in a Georgian return costs 10% of the understated amount where the gap is at most 5% of the tax you
-declared, 25% between 5% and 20%, and 50% above that. Late payment adds 0.05% of the outstanding amount for each
-overdue day. No fine applies at all if you file an adjusted return before being notified of an audit or served with a
-tax offence report, so early self-correction is much the cheapest route. **Professional tax advice is strongly recommended in situations like this.**
+Understating tax in a Georgian return costs 10% of the understated amount where the gap is at most 5% of the tax you declared, 25% between 5% and 20%, and 50% above that. Late payment adds 0.05% of the outstanding amount for each overdue day. **Professional tax advice is strongly recommended in situations like this.**
 
 ## Examples
 
@@ -133,11 +123,6 @@ income test, and a decision from the Minister of Finance.
 
 ## FAQ
 
-### Is this about the country of Georgia or the US state?
-
-The country — the one in the South Caucasus with its capital in Tbilisi. The US state of Georgia has entirely separate
-residency rules of its own, and nothing on this page applies to it.
-
 ### Do the 183 days have to fall inside one calendar year?
 
 No. The test looks at any continuous 12-calendar-month period ending in the tax year, so a stay running from the middle
@@ -157,6 +142,11 @@ above a set value, and a Georgian link such as a residence permit or Georgian-so
 
 No. Income received by a resident individual that is not from a Georgian source is exempt from Georgian income tax, so
 residency here does not by itself bring foreign earnings into charge.
+
+### Does the high net worth route need to be renewed every year?
+
+Yes. It's granted for a single tax year by the Minister of Finance, and every repeat request needs the full set of
+documents again — property or income evidence, Georgian asset records, and proof of the Georgian link.
 
 ### Can I be a Georgian tax resident and a tax resident of another country at once?
 

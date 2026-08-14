@@ -38,12 +38,12 @@ more than owning property — your main centre of personal or financial activity
 settle it. A separate election can limit what some newly arrived foreign specialists are taxed on.
 :::
 
-| Key facts               |                                      |
-|:------------------------|-------------------------------------:|
-| Thresholds              |                             184 days |
-| Period / Window         |                    Rolling 12 months |
-| Counting                | Any part of a day, continuous or not |
-| Additional requirements |  Residence test, intention to reside |
+| Key facts               |                                     |
+|:------------------------|------------------------------------:|
+| Thresholds              |                  More than 183 days |
+| Period / Window         |                   Rolling 12 months |
+| Counting                |                   Any part of a day |
+| Additional requirements | Residence test, intention to reside |
 
 ## Understanding the rule
 
@@ -62,15 +62,6 @@ Residing in Indonesia is the broadest route, and it's defined three alternative 
 - **Your main centre of activity** — the place you run your personal, social, economic, or financial affairs from.
 - **Your everyday routine** — where you actually carry on your habits and daily activities, including your hobbies.
 
-Intention is judged on documents rather than on what you say. A permanent stay permit counts. So does a limited stay
-visa or permit valid for more than 183 days, or a contract to work or do business in Indonesia for that long. A
-residential lease running longer than 183 days counts, as does evidence that your family relocated with you.
-
-Residency changes what Indonesia can tax. Residents are taxed on worldwide income at progressive rates from 5% to 35%,
-while non-residents are generally taxed only on Indonesian-source income, usually by withholding at a flat rate that a
-tax treaty can reduce. Being a domestic tax subject only turns into an actual filing obligation once your income —
-whether from Indonesia or abroad — passes the non-taxable income threshold.
-
 ## How to keep track
 
 1. The day threshold is **more than 183 days** of physical presence in Indonesia within any rolling 12-month period,
@@ -78,21 +69,19 @@ whether from Indonesia or abroad — passes the non-taxable income threshold.
 2. Any part of a day counts as one full day, so arriving and leaving on the same date still adds a day.
 3. The days don't have to be consecutive — broken stays are simply added together across the 12-month window.
 4. Presence means actually being inside Indonesian territory, judged on what really happened rather than on paperwork.
-5. The residence and intention routes have no count at all, so someone well under 183 days can still be a resident.
-6. Keep entry and exit stamps and boarding passes for every trip, plus your stay permit or visa, any lease or property
-   paperwork, and your employment or business contract. Those are the documents the tax authority weighs for the
-   residence and intention routes.
+
+Keep entry and exit stamps and boarding passes for every trip. For the intention route, keep whichever applies: a
+permanent stay permit, a limited stay visa or permit valid for more than 183 days, a work or business contract for
+that long, a residential lease running longer than 183 days, or evidence that your family relocated with you.
 
 ## Edge cases
 
+- **Residents pay progressive rates up to 35%.** Worldwide income is taxed at rates from 5% to 35%, while
+  non-residents are generally taxed only on Indonesian-source income, usually by withholding at a flat rate that a
+  tax treaty can reduce.
 - **Leaving Indonesia as an Indonesian citizen takes paperwork, not just distance.** A citizen who spends more than 183
   days abroad in a 12-month period becomes a foreign tax subject only after settling outstanding Indonesian tax
   obligations. A certificate from the tax authority confirming the requirements are met is also needed.
-- **A tax treaty overrides the domestic test.** If you're a domestic tax subject of both Indonesia and a treaty partner
-  at the same time, the treaty decides which country treats you as a resident.
-- **Some foreign specialists can elect to be taxed on Indonesian income only.** A foreign national with qualifying
-  expertise who becomes a domestic tax subject can apply to be taxed only on income from Indonesia, for four tax years
-  starting from when residency begins. It has to be applied for, and it replaces treaty relief rather than adding to it.
 - **The rules were rewritten in December 2025.** A single regulation now sets out how residence, the 183-day count and
   intention are each determined, replacing the separate older rules that used to cover them.
 - **Being a resident isn't the same as having to file.** The obligation starts once your income, from any source,
@@ -100,12 +89,7 @@ whether from Indonesia or abroad — passes the non-taxable income threshold.
 
 ## If you get this rule wrong
 
-Misjudging this usually surfaces as unreported foreign income, since residents are taxed worldwide and non-residents
-only on Indonesian-source income. Disclosing the error yourself before an investigation begins costs the shortfall plus
-a fine of 100% of the underpaid tax, and stops a criminal investigation from following. Waiting for the tax office to
-find it instead means an underpayment assessment carrying monthly interest, and an uplift of 75% of the tax owed where
-no return was filed despite a formal notice.
-**Professional tax advice is strongly recommended in situations like this.**
+Misjudging this usually surfaces as unreported foreign income, since residents are taxed worldwide and non-residents only on Indonesian-source income. An underpayment assessment carries monthly interest, plus an uplift of 75% of the tax owed where no return was filed despite a formal notice, or a fine of 100% of the underpaid tax where the shortfall is otherwise established. **Professional tax advice is strongly recommended in situations like this.**
 
 ## Examples
 

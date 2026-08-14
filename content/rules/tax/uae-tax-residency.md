@@ -2,7 +2,7 @@
 id: uae-tax-residency
 
 title: UAE Tax Residency (90-day and 183-day rules)
-subtitle: 90-day or 183-day rule ∙ 12-month rolling window
+subtitle: 90-day or 183-day rule ∙ Rolling 12 months
 
 category: tax
 
@@ -63,12 +63,14 @@ the practical payoff is mainly eligibility for a Tax Residency Certificate.
 ## How to keep track
 
 1. The core test is **183 days or more** present in the UAE within any 12 consecutive months — not necessarily the
-   calendar year.
+   calendar year, so the same stretch of days can be tested against different windows.
 2. A day counts if you are present in the UAE for any part of it, so brief visits still add to the total.
 3. Days do not need to be consecutive within the 12-month window — they're simply totalled.
 4. Days spent in the UAE due to exceptional circumstances beyond your control may be disregarded from the count.
-5. Keep entry and exit records for every trip, plus a tenancy contract and employment or business documents if you're
-   relying on the 90-day route — the FTA will ask for these when you apply for a Tax Residency Certificate.
+
+Keep entry and exit records for every trip, plus a tenancy contract and employment or business documents if you're
+relying on the 90-day route — the Federal Tax Authority (FTA) will ask for these when you apply for a Tax Residency
+Certificate.
 
 ## Edge cases
 
@@ -76,11 +78,8 @@ the practical payoff is mainly eligibility for a Tax Residency Certificate.
   your ability to claim a tax treaty and how UAE business income is treated for Corporate Tax.
 - **A Tax Residency Certificate isn't automatic.** Meeting a route isn't the same as holding a certificate — you still
   need to apply, with supporting evidence like travel and accommodation records.
-- **The 12-month window is flexible.** Because it isn't fixed to the calendar year, the same stretch of days can be
-  tested against different windows depending on what period you need residency for.
-- **The centre-of-interests route needs no day count at all** — someone who is rarely physically present can still
+- **The centre-of-interests route needs no day count at all.** Someone who is rarely physically present can still
   qualify if their home and main ties are genuinely in the UAE.
-- **Losing residency elsewhere doesn't automatically grant it here** — each route must be independently satisfied.
 
 ## If you get this rule wrong
 

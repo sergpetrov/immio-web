@@ -39,7 +39,7 @@ non-domicile status can reduce tax on investment income for qualifying residents
 
 | Key facts               |                                                        |
 |:------------------------|-------------------------------------------------------:|
-| Thresholds              |                                      60 days, 183 days |
+| Thresholds              |                            60 days, more than 183 days |
 | Period / Window         |                         Calendar year (1 Jan – 31 Dec) |
 | Counting                |                    Any part of a day, except departure |
 | Additional requirements | No 183-day residence elsewhere, 60-day rule conditions |
@@ -66,10 +66,11 @@ residents regardless of which test they qualify under.
 1. The main test is **more than 183 days** present in Cyprus during the **calendar year**, 1 January to 31 December.
 2. The alternative is **at least 60 days**, but only alongside the extra conditions — 60 days alone is not enough.
 3. A day of **arrival** counts as a day **in** Cyprus, while a day of **departure** counts as a day **outside** Cyprus.
-4. Arriving and departing on the **same day** counts as a day **in** Cyprus; departing and then arriving again on the
+4. Arriving and departing on the **same day** counts as a day **in** Cyprus. Departing and then arriving again on the
    same day counts as a day **outside** Cyprus.
-5. Keep entry and exit records for every trip, plus a tenancy agreement or title deed and employment or business
-   documents if you're relying on the 60-day rule.
+
+Keep entry and exit records for every trip, plus a tenancy agreement or title deed and employment or business
+documents if you're relying on the 60-day rule.
 
 ## Non-Dom Status
 

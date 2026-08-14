@@ -1,8 +1,8 @@
 ---
 id: france-tax-residency
 
-title: France Tax Residency (domicile fiscal test)
-subtitle: 6 months ∙ Starts Jan 1 ∙ Home and economic-interests tests
+title: France Tax Residency
+subtitle: 6 months ∙ Starts Jan 1 ∙ Home, economic-interests tests
 
 category: tax
 
@@ -30,7 +30,7 @@ sources:
 
 ---
 
-# France Tax Residency (domicile fiscal test)
+# France Tax Residency
 
 ## Overview
 
@@ -43,9 +43,9 @@ a low day count guarantees nothing on its own.
 
 | Key facts               |                                                 |
 |:------------------------|------------------------------------------------:|
-| Thresholds              |                                        6 months |
+| Thresholds              |                 6 months (effectively 183 days) |
 | Period / Window         |                  Calendar year (1 Jan – 31 Dec) |
-| Counting                |    Actual presence, compared country by country |
+| Counting                |        Any part of a day (no formal count rule) |
 | Additional requirements | Home, professional activity, economic interests |
 
 ## Understanding the rule
@@ -64,28 +64,20 @@ You are a French tax resident for a calendar year if you meet any one of these c
 Meeting any one criterion makes you a French tax resident, taxed on worldwide income. Falling short of all of them
 makes you a nonresident, generally taxed only on French-source income.
 
-The familiar 183-day rule appears nowhere in the French rules. Official guidance uses more than six months in a year
-as the general indicator, and says outright that this is not an absolute test. It also reaches only the
-principal-place-of-stay criterion, which itself applies just when there's no settled home to look at. Courts have
-found a principal place of stay in France on well under six months, where the person still spent more time there
-than in any other single country.
-
-Residency is assessed person by person, not household by household. A couple sharing a home can end up with different
-answers if only one of them meets a criterion, even though they file a single return together.
-
 ## How to keep track
 
 1. The only time-based criterion is the **principal place of stay**, used where you have no settled home. More than
-   **six months** in France in the calendar year is the general guide, but less can still be enough if France beat
-   every other country.
-2. There is no statutory counting formula — no midnight rule, and no official treatment of arrival and departure days.
-   What counts is presence you can actually evidence.
-3. Track your days in every country, not just France, since this criterion is comparative — the question is where you
+   **6 months** in the calendar year — in practice, at least six months and one day, just over half the year — is
+   the general guide, but less can still be enough if France beat every other country.
+2. There is no statutory counting formula, and French tax authorities **haven't confirmed** rules for partial days or for
+   arrival and departure days. Courts weigh whatever presence you can actually evidence rather than applying a fixed
+   counting method.
+3. Track your days in **every** country, not just France, since this criterion is comparative — the question is where you
    spent the most time, not whether you crossed a fixed line.
-4. Days say nothing about the other three criteria, which can make you resident regardless of how little time you spend
-   in the country.
-5. Keep travel records for your day count, plus evidence of where your household actually is: a lease or title deed,
-   school registrations, employment contracts, and statements showing where your income and investments sit.
+
+Keep travel records, hotel or rental receipts, and card statements for your day count, plus evidence of where your
+household actually is: a lease or title deed, school registrations, employment contracts, and statements showing
+where your income and investments sit.
 
 ## Edge cases
 
@@ -93,21 +85,16 @@ answers if only one of them meets a criterion, even though they file a single re
   there is no statutory day threshold, and three of the four criteria have nothing to do with time at all.
 - **Directors of large French-headquartered companies are presumed to work mainly in France.** Where the company's
   annual revenue is above a set threshold, that presumption stands unless the director proves otherwise.
-- **Moving mid-year splits the year rather than exempting it.** Income is assessed separately for the resident and
-  nonresident parts, so an arrival or departure date doesn't wipe out the months on either side of it.
 - **Leaving France with substantial holdings can trigger an exit charge.** Unrealised gains on significant
   shareholdings can be taxed on departure, though the tax can often be deferred.
 - **A special regime can cut tax for people moving to France for work.** The impatriate regime exempts part of the pay
   and some foreign income for a set number of years, but it's claimed separately from your residency status.
-- **Treaties can override the domestic answer.** Meeting a criterion makes you resident under French law first, and a
-  treaty tiebreaker is applied afterwards.
+- **Residency is assessed person by person, not household by household.** A couple sharing a home can end up with
+  different answers if only one of them meets a criterion, even though they file a single return together.
 
 ## If you get this rule wrong
 
-Getting your domicile wrong leaves you with late-payment interest of 0.20% a month, plus a surcharge of 10% for a late
-return. That rises to 40% where the tax administration finds a deliberate breach, and 80% for fraudulent conduct or
-for income traced to undeclared foreign accounts. Correcting it yourself before any audit, under France's droit à
-l'erreur, halves the interest and normally avoids the surcharge entirely. **Professional tax advice is strongly recommended in situations like this.**
+Getting your domicile wrong leaves you with late-payment interest of 0.20% a month, plus a surcharge of 10% for a late return. That rises to 40% where the tax administration finds a deliberate breach, and 80% for fraudulent conduct or for income traced to undeclared foreign accounts. **Professional tax advice is strongly recommended in situations like this.**
 
 ## Examples
 

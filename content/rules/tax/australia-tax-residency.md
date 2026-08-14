@@ -1,7 +1,7 @@
 ---
 id: australia-tax-residency
 
-title: Australia Tax Residency (183-day rule)
+title: Australia Tax Residency
 subtitle: 183 days ∙ Starts Jul 1 ∙ Resides, Domicile, Superannuation tests
 
 category: tax
@@ -27,7 +27,7 @@ sources:
 
 ---
 
-# Australia Tax Residency (183-day rule)
+# Australia Tax Residency
 
 ## Overview
 
@@ -49,16 +49,16 @@ government superannuation membership. Each test has its own carve-outs.
 You are an Australian tax resident for an income year if you meet any one of four tests:
 
 - **Resides test** — you reside in Australia under its ordinary meaning, based on your behaviour, family and business
-  ties, and living arrangements. This is the primary test, and it has no day-count threshold at all.
+  ties, and living arrangements. This is the primary test, with no day-count threshold at all.
 - **Domicile test** — your domicile is in Australia, unless the Commissioner is satisfied your permanent home is
   genuinely established outside Australia.
-- **183-day test** — you're present in Australia for 183 days or more in the income year, unless your usual home is
-  outside Australia and you have no intention of taking up residence here.
+- **183-day test** — you're present in Australia for 183 days or more in the income year, subject to a carve-out for
+  a genuine overseas home.
 - **Superannuation test** — you, or your spouse or child under 16, are a contributing member of a specific
-  Commonwealth government superannuation scheme, regardless of where you actually live.
+  Commonwealth government superannuation scheme.
 
-Meeting any one test makes you an Australian tax resident for the year, taxed on worldwide income. Falling short of
-all four makes you a nonresident, generally taxed only on Australian-source income.
+Meeting any one test makes you an Australian tax resident, taxed on worldwide income. Falling short of all four
+makes you a nonresident, taxed only on Australian-source income.
 
 ## How to keep track
 
@@ -66,22 +66,17 @@ all four makes you a nonresident, generally taxed only on Australian-source inco
    not the calendar year.
 2. **Any part of a day** counts as a full day present, and your presence doesn't need to be continuous — all days are
    simply totalled.
-3. Clearing 183 days doesn't automatically make you resident if your usual home is genuinely overseas and you have no
-   intention of taking up residence in Australia — both conditions are needed together to escape the test.
-4. The other three tests don't depend on a day count at all — the resides, domicile, and superannuation tests can each
-   make you resident regardless of how many days you've spent in Australia.
-5. Keep travel records for your day count, plus evidence of your living arrangements, family and business ties, and
-   where your permanent home is genuinely established if you're relying on, or trying to rebut, the resides or
-   domicile tests.
+
+Keep travel records for your day count, plus evidence of your living arrangements, family and business ties, and
+where your permanent home is genuinely established if you're relying on, or trying to rebut, the resides or
+domicile tests.
 
 ## Edge cases
 
-- **The resides test has no day threshold.** You can be resident from the time you arrive if your circumstances
-  clearly show you're living in Australia, regardless of how few days you've actually spent there yet.
 - **Escaping the domicile test isn't automatic.** Even with an Australian domicile, the Commissioner must be
   satisfied your permanent home is genuinely established elsewhere — the default assumption favours residency.
 - **The 183-day test has a two-part carve-out.** Exceeding 183 days doesn't make you resident if your usual home is
-  genuinely overseas and you have no intention of taking up residence in Australia; missing either condition means
+  genuinely overseas and you have no intention of taking up residence in Australia. Missing either condition means
   the carve-out doesn't apply.
 - **The superannuation test is narrow but absolute.** It applies mainly to specific Commonwealth government
   employees and their spouse or young child, and it overrides everything else regardless of where they actually
@@ -91,7 +86,7 @@ all four makes you a nonresident, generally taxed only on Australian-source inco
 
 ## If you get this rule wrong
 
-Getting your residency status wrong risks a shortfall penalty on the tax you should have paid, starting at 25% for a genuine mistake and rising to 75% if the ATO decides you knowingly ignored the law. A voluntary disclosure can cut that penalty substantially, by up to 80%. **Professional tax advice is strongly recommended in situations like this.**
+Getting your residency status wrong risks a shortfall penalty on the tax you should have paid, starting at 25% for a genuine mistake and rising to 75% if the Australian Taxation Office (ATO) decides you knowingly ignored the law. **Professional tax advice is strongly recommended in situations like this.**
 
 ## Examples
 

@@ -46,17 +46,16 @@ overseas employers are carved out of the day test.
 
 | Key facts               |                                             |
 |:------------------------|--------------------------------------------:|
-| Thresholds              |                          184 days, 326 days |
+| Thresholds              |                          More than 183 days |
 | Period / Window         |                           Rolling 12 months |
-| Counting                |            Any part of a day in New Zealand |
+| Counting                |                           Any part of a day |
 | Additional requirements | Permanent place of abode, visitor carve-out |
 
 ## Understanding the rule
 
 You become a New Zealand tax resident the moment either of these happens, whichever comes first:
 
-- **More than 183 days** — you're in New Zealand for **more than 183 days** in any 12-month period. Your residency is
-  then backdated to the first of those days.
+- **More than 183 days** — you're in New Zealand for **more than 183 days** in any 12-month period.
 - **Permanent place of abode** — you have a place in New Zealand where you usually live. No day count attaches to this
   route at all.
 
@@ -66,20 +65,11 @@ decide: how often you return, how long you stay, your family and social connecti
 and whether you intend to return and live there. Holding a home somewhere else doesn't cancel it out — you can have one
 in New Zealand and one overseas, and the New Zealand one still makes you a resident.
 
-Since 1 April 2026, a **non-resident visitor** carve-out sits alongside the day test. If you fit it, passing 183 days
-doesn't make you a resident. It applies if you're in New Zealand for no more than 275 days in any 18-month period and
-every one of these also holds:
+Since 1 April 2026, a **non-resident visitor** carve-out sits alongside the day test, for people in New Zealand no more
+than 275 days in any 18-month period who have no New Zealand work or income links and pay tax where they're resident.
+It only switches off the day test — a permanent place of abode still makes you a resident regardless.
 
-- You weren't a New Zealand tax resident or a transitional resident before qualifying.
-- You don't work for, or get paid by, a New Zealand resident or the New Zealand branch of an overseas employer.
-- You don't sell goods or services to people or businesses in New Zealand, including on someone else's behalf.
-- You aren't required to be in New Zealand for any work you do.
-- Neither you nor your partner receives Working for Families, including Best Start.
-- You're lawfully in New Zealand, and you're required to pay tax in a country where you're a tax resident.
-
-The carve-out only switches off the day test. A permanent place of abode still makes you a resident regardless.
-Residency decides the base: New Zealand tax residents are taxed on worldwide income, non-residents only on income
-sourced in New Zealand.
+New Zealand tax residents are taxed on worldwide income, non-residents only on income sourced in New Zealand.
 
 ## How to keep track
 
@@ -92,20 +82,16 @@ sourced in New Zealand.
    Zealand don't count toward those 325.
 4. Both directions are backdated — to the first of the 183 days when you become a resident, and to the first of the
    325 days when you stop being one.
-5. Keep travel records covering every entry and exit, plus documents about your New Zealand home — a tenancy
-   agreement, title deed, or rental listing if you let it out. The permanent place of abode test turns on facts you
-   may need to evidence years later.
+
+Keep travel records covering every entry and exit, plus documents about your New Zealand home — a tenancy agreement,
+title deed, or rental listing if you let it out. The permanent place of abode test turns on facts you may need to
+evidence years later.
 
 ## Edge cases
 
 - **A permanent place of abode beats the day count in both directions.** It can make you a resident on very few days
   present, and it keeps you a resident however long you're away, because the 325-day rule only ends residency if you
   don't have one.
-- **New migrants get a four-year window on foreign income.** Transitional resident status exempts most foreign income —
-  overseas interest, dividends, foreign investment fund income, and rent — for about four years. It's automatic for
-  people who become New Zealand tax residents after at least 10 years of not being one, and can only be used once.
-- **That exemption doesn't cover working income.** Income you earn overseas from employment or from providing personal
-  services stays taxable throughout. Claiming Working for Families ends the exemption early.
 - **Seasonal and fishing crew workers are treated differently.** People here on a Recognised Seasonal Employer Limited
   Visa or a Fishing Crew Work Visa don't become residents at 183 days, as long as they don't establish a permanent place
   of abode.
@@ -116,11 +102,7 @@ sourced in New Zealand.
 
 ## If you get this rule wrong
 
-Misjudging this usually shows up as foreign income left off a New Zealand return, since residents are taxed on worldwide
-income. Inland Revenue's shortfall penalties scale with how the error is judged: 20% of the shortfall for not taking
-reasonable care, 40% for gross carelessness, 100% for an abusive tax position, and 150% for evasion. A voluntary
-disclosure made before Inland Revenue notifies you of an audit removes the reasonable-care penalty entirely and cuts the
-more serious ones by 75%. **Professional tax advice is strongly recommended in situations like this.**
+Misjudging this usually shows up as foreign income left off a New Zealand return, since residents are taxed on worldwide income. Inland Revenue's shortfall penalties scale with how the error is judged: 20% of the shortfall for not taking reasonable care, 40% for gross carelessness, 100% for an abusive tax position, and 150% for evasion. **Professional tax advice is strongly recommended in situations like this.**
 
 ## Examples
 
@@ -132,8 +114,8 @@ Zealand tax resident — backdated to the day you first arrived, not the day you
 ### A regular summer stay that falls short
 
 You spend each New Zealand summer there, arriving mid-November and leaving mid-May. Counting arrival and departure days
-as whole days brings you to 182 days across that 12-month window, two short of the 184 you'd need, so the day test
-doesn't make you a resident.
+as whole days brings you to 182 days across that 12-month window, just short of the threshold, so the day test doesn't
+make you a resident.
 
 ### Long absence, but the house keeps you resident
 
@@ -172,13 +154,15 @@ the first of those 325 days.
 
 A carve-out that started on 1 April 2026. It lets someone in New Zealand for up to 275 days in any 18-month period stay
 a non-resident despite passing 183 days. The conditions include not working for or being paid by a New Zealand employer,
-not selling into New Zealand, and paying tax where they're resident.
+not selling into New Zealand, not being required to be here for your work, claiming no Working for Families payments,
+and paying tax where you're resident.
 
 ### What is transitional residency and who gets it?
 
-A temporary exemption from tax on most foreign income for about four years. It's automatic for new migrants and
-returning New Zealanders who weren't tax residents at any time in the 10 years before qualifying, and it can only be
-used once. Foreign employment and personal services income stays taxable.
+A temporary exemption from tax on most foreign income — overseas interest, dividends, foreign investment fund income and
+rent — for about four years. It's automatic for new migrants and returning New Zealanders who weren't tax residents at
+any time in the 10 years before qualifying, and it can only be used once. Foreign employment and personal services
+income stays taxable, and claiming Working for Families ends it early.
 
 ### Can a tax treaty override New Zealand's test?
 

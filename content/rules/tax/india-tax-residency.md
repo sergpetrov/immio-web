@@ -36,24 +36,25 @@ sources:
 
 :::callout
 You're an Indian tax resident if you're in India for **182 days or more** during the tax year. You also qualify with
-**60 days or more** in that year alongside 365 days or more across the previous four. Indian citizens who leave for a
+**60 days or more** in that year alongside **365 days or more** across the previous four. Indian citizens who leave for a
 job abroad, and citizens or people of Indian origin visiting India, get that 60-day condition relaxed. A further test
 then decides how much of a resident's foreign income India actually taxes.
 :::
 
-| Key facts               |                                               |
-|:------------------------|----------------------------------------------:|
-| Thresholds              |         182 days, 60 days, 365 days, 120 days |
-| Period / Window         | Tax year (1 Apr – 31 Mar), plus 4 prior years |
-| Counting                |                             Any part of a day |
-| Additional requirements |          Citizen carve-outs, deemed residency |
+| Key facts               |                                                 |
+|:------------------------|------------------------------------------------:|
+| Thresholds              |                                        182 days |
+| Period / Window         |                       Tax year (1 Apr – 31 Mar) |
+| Alternative             |         60 days/year and 365 days/4 prior years |
+| Counting                |                               Any part of a day |
+| Additional requirements |    Citizen and PIO carve-outs, deemed residency |
 
 ## Understanding the rule
 
 You are an Indian tax resident for a tax year — 1 April to 31 March — if you meet either of two basic tests:
 
 - **182 days in the year** — you are in India for **182 days or more** during the tax year.
-- **60 days plus history** — you are in India for **60 days or more** during the tax year *and* for **365 days or more**
+- **60 days plus history** — you are in India for **60 days or more** during the tax year and for **365 days or more**
   across the four tax years before it.
 
 The second test is what catches regular visitors who never stay long in any single year. Two groups have it relaxed, and
@@ -64,13 +65,7 @@ both are defined by citizenship rather than by where they live:
 - **Visiting India from abroad** — if you're an Indian citizen or a person of Indian origin who lives outside India, a
   visit makes you a resident only at more than 182 days in the year.
 
-There's one qualification on that second carve-out. If your income other than foreign-source income is above a set
-threshold, the 60-day test comes back for you — but with 60 days read as **120 days**, alongside the same 365-day
-history. So a higher-earning visitor has a 120-day ceiling rather than a 182-day one.
-
-Residency decides the base India taxes you on: residents are taxed on worldwide income, non-residents only on income
-arising in India. Once you are a resident, a second distinction decides whether your foreign income is genuinely taxed
-here (see **Edge cases** below).
+Residents are taxed on worldwide income, non-residents only on income arising in India.
 
 ## How to keep track
 
@@ -78,11 +73,14 @@ here (see **Edge cases** below).
 2. The alternative is **60 days or more** in the tax year combined with **365 days or more** over the four tax years
    before it. That means keeping a running total reaching back four years, not just the current one.
 3. Any part of a day spent in India counts as a full day, including the days you arrive and the days you leave.
-4. If you're an Indian citizen or a person of Indian origin, work out which threshold applies before counting. It's
-   182 days, or 120 days if your income other than foreign-source income is above the threshold.
-5. Keep passport stamps and boarding passes covering the last five tax years, since the second test needs four years of
-   history plus the current one. Keep your overseas employment contract if you left India for a job abroad, and
-   evidence of tax residency or tax paid elsewhere if you're relying on being taxable in another country.
+4. Citizens and people of Indian origin visiting from abroad get a relaxed ceiling, but it depends on income other
+   than foreign-source income. Below the set threshold, only the 182-day test applies and the 60-day test drops away.
+   Above it, the 60-day test comes back — with 60 days read as **120 days** rather than 60, alongside the same
+   365-day history.
+
+Keep passport stamps and boarding passes covering the last five tax years, since the second test needs four years of
+history plus the current one. Keep your overseas employment contract if you left India for a job abroad, and evidence
+of tax residency or tax paid elsewhere if you're relying on being taxable in another country.
 
 ## Edge cases
 
@@ -98,17 +96,10 @@ here (see **Edge cases** below).
   deemed residents are treated as not ordinarily resident.
 - **Only ordinarily resident individuals report foreign assets.** The return's foreign asset schedule applies to them
   alone, not to not-ordinarily-resident or non-resident filers.
-- **A tax treaty can resolve dual residence.** Where another country also treats you as a resident, a treaty
-  tie-breaker decides which country takes priority for specific income.
 
 ## If you get this rule wrong
 
-Getting this wrong usually means foreign income or foreign accounts that went undeclared, since residents are taxed on
-worldwide income. Under-reporting income carries a penalty of 50% of the tax on the under-reported amount, rising to
-200% for misreporting, and undisclosed foreign income and assets fall under a separate and harsher law. Filing an
-updated return corrects it voluntarily — available for 48 months after the end of the year following the tax year, at
-additional tax rising from 25% to 70% the longer you leave it.
-**Professional tax advice is strongly recommended in situations like this.**
+Getting this wrong usually means foreign income or foreign accounts that went undeclared — and since only ordinarily resident filers are taxed on all of it, misjudging that distinction is easy to miss. Under-reporting income carries a penalty of 50% of the tax on the under-reported amount, rising to 200% for misreporting, and undisclosed foreign income and assets fall under a separate and harsher law. **Professional tax advice is strongly recommended in situations like this.**
 
 ## Examples
 

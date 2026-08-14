@@ -71,11 +71,9 @@ non-residence.
    **184 days** in a leap year.
 2. **Any part of a day** counts as a full day present, including arrival and departure days.
 3. Days don't need to be consecutive — the total is simply added up across the calendar year.
-4. Registration or deregistration from the resident population registry doesn't settle the question on its own —
-   physical presence, domicile, or habitual residence can each independently make you resident regardless of your
-   registry status.
-5. Keep travel records for your day count, plus evidence of where your home, family, and personal life are actually
-   based if you're relying on, or trying to rebut, the domicile or registry tests.
+
+Keep travel records for your day count, plus evidence of where your home, family, and personal life are actually
+based if you're relying on, or trying to rebut, the domicile or registry tests.
 
 ## Impatriate Regime
 
@@ -100,16 +98,12 @@ flat-tax regime for high-net-worth new residents — the two can't be combined.
 - **Registry enrollment is a rebuttable presumption, not an automatic trap.** Since the 2024 reform, being on the
   resident population registry no longer irreversibly makes you resident — you can rebut it with evidence your
   actual life is based elsewhere.
-- **Domicile was redefined in 2024.** It now turns on personal and family relationships alone, not the broader mix of
-  business and economic interests the older rule considered.
-- **Physical presence counts any part of a day.** A day where you're only present for part of the time still counts
-  fully toward the 183/184-day threshold, unlike rules that require an overnight stay.
 - **A flat annual tax can shelter foreign income for qualifying high-net-worth new residents.** It covers
   foreign-source income for up to 15 years, but requires around a decade of prior non-residence to qualify.
 
 ## If you get this rule wrong
 
-Getting your residency status wrong and omitting foreign income you should have reported carries a penalty of 90% to 180% of the extra tax owed, increased by a third since the income is foreign-sourced — or a flat 120% if you never filed at all. A voluntary correction through ravvedimento operoso reduces this substantially, down to a tenth of the penalty if made within 30 days. **Professional tax advice is strongly recommended in situations like this.**
+Getting your residency status wrong and omitting foreign income you should have reported carries a penalty of 90% to 180% of the extra tax owed, increased by a third since the income is foreign-sourced — or a flat 120% if you never filed at all. **Professional tax advice is strongly recommended in situations like this.**
 
 ## Examples
 

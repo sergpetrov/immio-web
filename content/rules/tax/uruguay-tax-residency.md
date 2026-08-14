@@ -2,7 +2,7 @@
 id: uruguay-tax-residency
 
 title: Uruguay Tax Residency (183-day rule)
-subtitle: 184 days ∙ Starts Jan 1 ∙ Investment routes
+subtitle: 183 days ∙ Starts Jan 1 ∙ Investment routes
 
 category: tax
 
@@ -41,7 +41,7 @@ income.
 
 | Key facts               |                                               |
 |:------------------------|----------------------------------------------:|
-| Thresholds              |                                      184 days |
+| Thresholds              |                            More than 183 days |
 | Period / Window         |                Calendar year (1 Jan – 31 Dec) |
 | Counting                | Any part of a day, sporadic absences included |
 | Additional requirements |       Vital interests test, investment routes |
@@ -61,8 +61,7 @@ That third route is the one with real internal structure. Any of the following i
 
 - **Family presumption** — your spouse, if not legally separated, or your dependent minor children habitually live in
   Uruguay. A spouse alone is enough, and the presumption can be rebutted with evidence.
-- **Property holding** — you own Uruguayan real estate worth more than a set value, tested by what you hold at the end
-  of the calendar year.
+- **Property holding** — you own Uruguayan real estate worth more than a set value.
 - **Business holding** — you hold a direct or indirect stake above a considerably higher set value in a company running
   a project that has been declared of national interest.
 - **Property plus presence** — a smaller property investment, made from July 2020 onwards, combined with at least 60
@@ -71,8 +70,8 @@ That third route is the one with real internal structure. Any of the following i
   full-time direct jobs during the calendar year.
 
 Meeting any route makes you a Uruguayan tax resident. Residents are taxed under the personal income tax regime on
-Uruguayan-source income and on certain foreign income; nonresidents are taxed only on Uruguayan-source income under a
-separate nonresident regime.
+Uruguayan-source income and on certain foreign income, while nonresidents are taxed only on Uruguayan-source income
+under a separate nonresident regime.
 
 ## How to keep track
 
@@ -83,36 +82,24 @@ separate nonresident regime.
    longer helps.
 3. The 60 days attached to the smaller property-investment route are counted differently: those must be days of genuine
    physical presence, with sporadic absences excluded.
-4. The property routes are tested by what you hold at the end of the calendar year, and the jobs route by positions
-   created during it. A mid-year purchase or hire can still qualify, and a year-end disposal can undo it.
-5. Keep travel records for the day count, a foreign tax residence certificate if you're relying on one, and title
-   deeds, valuations, company documents or payroll records for whichever investment route you're using.
+
+Keep travel records for the day count, a foreign tax residence certificate if you're relying on one, and title
+deeds, valuations, company documents or payroll records for whichever investment route you're using.
 
 ## Edge cases
 
 - **A spouse in Uruguay can be enough on its own.** The family presumption applies even where the spouse alone lives
   there, and it stands unless you can rebut it with evidence.
-- **Short trips abroad don't pause the count.** Absences of up to 30 consecutive days are added back as days of
-  presence by default, and the burden is on you to prove residence elsewhere to have them excluded.
-- **A tax holiday on foreign investment income is available to new residents.** It runs for the year you become
-  resident plus a further ten. Qualifying through the day count carries no extra condition; qualifying another way now
-  requires a substantial property or investment-fund commitment. The election can only be made once.
-- **The flat 7% alternative is closed to new arrivals.** It used to be available for life instead of the holiday, and
-  anyone who elected it before 2026 keeps it. New residents instead choose, once the holiday ends, between five years
-  at half the standard rate and a fixed annual payment for twenty years.
+- **The investment routes are tested on a snapshot, not an average.** Property holdings are measured by what you hold
+  at the end of the calendar year and the jobs route by positions created during it, so a mid-year purchase or hire can
+  still qualify, and a year-end disposal can undo it.
 - **More foreign income became taxable in 2026.** A broader set of foreign capital returns and capital gains is now
   treated as Uruguayan-source and taxed at 12%. People already on the holiday keep their original terms, and the newly
   taxable income falls inside their existing exemption.
-- **Dual residency is possible.** If another country also treats you as resident, a double tax treaty's tie-breaker
-  rules can assign a single treaty residence without cancelling your Uruguayan domestic status.
 
 ## If you get this rule wrong
 
-Paying late carries a fine of 5% of the unpaid tax if you settle within five working days of the deadline, and 20%
-after that, plus a monthly surcharge that compounds. If the tax authority treats the omission as deliberate fraud
-instead, the fine runs from one to fifteen times the tax involved, graded case by case. Uruguay has no standing
-amnesty, so the practical route back is a corrective sworn return — a declaración jurada rectificativa — filed and paid
-before an inspection opens. **Professional tax advice is strongly recommended in situations like this.**
+Paying late carries a fine of 5% of the unpaid tax if you settle within five working days of the deadline, and 20% after that, plus a monthly surcharge that compounds. If the tax authority treats the omission as deliberate fraud instead, the fine runs from one to fifteen times the tax involved, graded case by case. **Professional tax advice is strongly recommended in situations like this.**
 
 ## Examples
 
@@ -167,7 +154,7 @@ presumption that you are resident too, whatever your own day count. The presumpt
 It's an election new tax residents can make over foreign investment income, covering the year of the move plus a
 further ten. If you qualified for residency on days alone, no investment is needed to take it. When it ends you choose
 between five years at half the standard rate and a fixed annual payment for twenty years. The flat 7% alternative that
-once ran indefinitely is closed to people becoming resident from 2026.
+once ran indefinitely is closed to people becoming resident from 2026, though anyone who elected it earlier keeps it.
 
 ### Can I be a tax resident of Uruguay and another country at the same time?
 

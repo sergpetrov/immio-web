@@ -48,15 +48,14 @@ depends on your UK ties and whether you were UK resident in previous tax years.
 |:------------------------|-------------------------------------------:|
 | Thresholds              |                  15, 45, 90, 120, 182 days |
 | Period / Window         |                UK tax year (6 Apr – 5 Apr) |
-| Counting                |                     Nights (Midnight rule) |
+| Counting                |                     Nights (midnight rule) |
 | Additional requirements | Previous 3 tax years, sufficient ties test |
 
 ## Understanding the rule
 
-There is no single day limit. Your limit depends on your **UK ties** and whether you are an Arriver or Leaver. The
-limits are **15, 45, 90, 120 or 182 days** per tax year.
-The most common limit is **90 days**. The UK tax year runs from **6 April to 5 April**. To remain non-resident, stay
-within your applicable day limit.
+There is no single day limit under the SRT. Yours depends on your **UK ties** and on whether you were UK resident in
+any of the previous 3 tax years, and it can be as low as **15 days** or as high as **182**.
+
 The SRT checks three things, in order, and stops at the first one that gives an answer.
 
 1. **Automatic overseas tests.** Spend under **16 days** in the UK if you were resident in any of the previous 3 tax
@@ -75,10 +74,6 @@ ties it takes to make you resident.
 - **90-day tie** — you spent more than **90 days** in the UK in either of the previous 2 tax years.
 - **Country tie** — the UK is where you spent the most midnights in the tax year.
 
-If you were UK resident in one or more of the previous 3 tax years, all five ties apply, and you need 4 ties at 16–45
-days, 3 at 46–90, 2 at 91–120 and 1 above 120. If you were not, the country tie is excluded and you need all 4 at 46–90
-days, 3 at 91–120 and 2 above 120.
-
 Most people never need the third stage: either they clearly spend too little time in the UK to be resident, or they
 clearly spend enough (183+ days) to be resident automatically. The ties test exists for the middle ground, where a
 handful of connections to the UK can tip a moderate day count into residency.
@@ -90,11 +85,18 @@ handful of connections to the UK can tip a moderate day count into residency.
 2. Days are counted over the **UK tax year**, 6 April to 5 April — not the calendar year, so a trip spanning New Year
    sits in one tax year but a trip spanning early April can split across two.
 3. Arriving and leaving on the same day, before midnight, does not normally count — a same-day trip is effectively free.
-4. People with **3 or more ties** and recent UK residence can also pick up counted days from short visits where they
+4. Work out your own limit by pairing your day count with your number of ties:
+   - **UK resident in any of the previous 3 tax years** — all five ties apply. You need 4 ties at 16–45 days, 3 at
+     46–90, 2 at 91–120, and 1 above 120.
+   - **Not resident in any of those years** — the country tie drops out, leaving four. You need all 4 at 46–90 days,
+     3 at 91–120, and 2 above 120.
+5. In practice most people land on a limit of **90 days**, but check your own band rather than assuming it.
+6. People with **3 or more ties** and recent UK residence can also pick up counted days from short visits where they
    were in the UK but never stayed to midnight — see the deeming rule below.
-5. Keep a running log of where you are each midnight, along with evidence for any ties you're relying on — a tenancy
-   agreement or utility bills for an accommodation tie, boarding passes and travel bookings for your day count, and UK
-   work records for a work tie.
+
+Keep a running log of where you are each midnight, along with evidence for any ties you're relying on — a tenancy
+agreement or utility bills for an accommodation tie, boarding passes and travel bookings for your day count, and UK
+work records for a work tie.
 
 ## Edge cases
 
@@ -106,15 +108,12 @@ handful of connections to the UK can tip a moderate day count into residency.
 - **The FIG regime.** Since April 2025, people who become UK resident after 10+ years outside the UK can claim relief on
   foreign income and gains for their first 4 years of residence — this replaced the old non-dom/remittance basis and
   sits alongside, not inside, the SRT.
-- **Dual residence.** Being UK resident under the SRT does not stop another country treating you as resident under its
-  own rules. A tax treaty's tiebreaker rules can then assign a single treaty residence, but they do not cancel your UK
-  domestic residency.
 - **Accommodation you do not own still counts.** A rented flat, a holiday home, or a room kept for you at a relative's
   house can create an accommodation tie if it is available long enough and you stay there.
 
 ## If you get this rule wrong
 
-Getting your residence status wrong exposes you to a penalty on top of the tax and interest owed, ranging from 30% for a careless mistake to 100% if it's deliberate and concealed. Because residency errors usually involve offshore income, HMRC's stricter Failure to Correct regime often applies instead, with penalties starting at 100% of the unpaid tax and reaching 200% in the worst cases. **Professional tax advice is strongly recommended in situations like this.**
+Getting your residence status wrong exposes you to a penalty on top of the tax and interest owed, ranging from 30% for a careless mistake to 100% if it's deliberate and concealed. Because residency errors usually involve offshore income, His Majesty's Revenue and Customs (HMRC) often applies its stricter Failure to Correct regime instead, with penalties starting at 100% of the unpaid tax and reaching 200% in the worst cases. **Professional tax advice is strongly recommended in situations like this.**
 
 ## Examples
 

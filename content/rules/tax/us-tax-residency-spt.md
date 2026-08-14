@@ -40,14 +40,14 @@ sources:
 :::callout
 The Substantial Presence Test (SPT) is one of two ways a non-citizen becomes a US resident for tax purposes — the other
 is holding a **green card**. It is **not** simply a **183-day rule** — you need at least **31 days** in the US this
-year, plus **183 weighted days** in last 3 years. But there are exceptions, such as exempt visa categories and the
-closer connection.
+year, plus **183 weighted days** across the last 3 years. But there are exceptions, such as exempt visa categories and
+the closer connection.
 :::
 
 | Key facts               |                                                 |
 |:------------------------|------------------------------------------------:|
 | Thresholds              |         31 days current year, 183 weighted days |
-| Period / Window         |               3 calendar years (1 Jan – 31 Dec) |
+| Period / Window         |               Calendar year, plus 2 prior years |
 | Counting                |                               Any part of a day |
 | Additional requirements | Exempt individuals, closer connection exception |
 
@@ -76,11 +76,12 @@ change how part of an arrival year is treated.
    years before it: all your days this year, plus **1/3** of your days in the prior year, plus **1/6** of your days in
    the year before that.
 2. A day counts if you are **present** in the US at **any point** during that day — even a same-day round trip.
-3. Some days don't count at all — as an **exempt individual** (see below) or a medical condition, both requiring Form
-   8843 to exclude, or they still count — plus regular commuting from Canada or Mexico and short transit, which need
-   no filing.
-4. Keep a day-by-day travel log — boarding passes, entry and exit stamps — to support your weighted calculation, plus
-   Form 8843 or 8840 paperwork if you're claiming an exemption or the closer connection exception.
+3. Two groups of days are left out. Days as an **exempt individual**, or days you couldn't leave because of a medical
+   condition, are excluded only if you file **Form 8843** for that year — miss the form and they count. Days spent
+   commuting regularly from Canada or Mexico, and days in short transit, are excluded with no filing at all.
+
+Keep a day-by-day travel log — boarding passes, entry and exit stamps — to support your weighted calculation, plus
+Form 8843 or 8840 paperwork if you're claiming an exemption or the closer connection exception.
 
 ## Edge cases
 
@@ -98,7 +99,7 @@ change how part of an arrival year is treated.
 
 ## If you get this rule wrong
 
-Getting your residency status wrong risks an accuracy-related penalty of 20% of the underpaid tax, or 75% if the IRS treats it as fraud. Residency mistakes usually surface through unreported foreign accounts, where a willful failure to report carries a penalty of 50% of the account balance for each year involved. **Professional tax advice is strongly recommended in situations like this.**
+Getting your residency status wrong risks an accuracy-related penalty of 20% of the underpaid tax, or 75% if the Internal Revenue Service (IRS) treats it as fraud. Residency mistakes usually surface through unreported foreign accounts, where a willful failure to report carries a penalty of 50% of the account balance for each year involved. **Professional tax advice is strongly recommended in situations like this.**
 
 ## Examples
 
@@ -110,9 +111,9 @@ resident for tax purposes this year.
 
 ### A steady annual visitor
 
-You visit the US for 120 days a year, every year, with no exempt status. In year three, your weighted total is 120 + (
-120 ÷ 3) + (120 ÷ 6) = 180 days — just under the threshold, so you remain a nonresident that year, but the same pattern
-the following year would push you over 183.
+You visit the US for 120 days a year, every year, with no exempt status. In year three, your weighted total is
+120 + (120 ÷ 3) + (120 ÷ 6) = 180 days — just under the threshold, so you remain a nonresident that year, but the same
+pattern the following year would push you over 183.
 
 ### A frequent traveler under the 31-day floor
 

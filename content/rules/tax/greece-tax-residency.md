@@ -2,7 +2,7 @@
 id: greece-tax-residency
 
 title: Greece Tax Residency (183-day rule)
-subtitle: 184 days ∙ Rolling 12 months ∙ Centre of vital interests
+subtitle: 183 days ∙ Rolling 12 months ∙ Centre of vital interests
 
 category: tax
 
@@ -43,7 +43,7 @@ treatment is exempt from the day-count rule for up to a year.
 
 | Key facts               |                                |
 |:------------------------|-------------------------------:|
-| Thresholds              |                       184 days |
+| Thresholds              |             More than 183 days |
 | Period / Window         |              Rolling 12 months |
 | Counting                |              Any part of a day |
 | Additional requirements | Centre of vital interests test |
@@ -57,20 +57,12 @@ You are a Greek tax resident if you meet any one of these, in any order:
 - **Habitual abode** — Greece is where you habitually stay, even without a permanent home there.
 - **Centre of vital interests** — your personal and economic ties point to Greece. Greek courts read this broadly,
   weighing where your social connections sit as well as your family and your money.
-- **183-day presence** — more than 183 days in Greece, added up across any twelve-month period.
+- **183-day presence** — more than 183 days in Greece, added up across any twelve-month period. A carve-out for
+  tourism, medical, or similar private stays under 365 days keeps this route from applying, though the other three
+  tests still can.
 
 Meeting any one makes you a Greek tax resident, taxed on worldwide income. Falling short of all of them makes you a
-nonresident, generally taxed only on Greek-source income.
-
-The day-count route works differently from the others in two ways. The twelve months are a rolling window rather than
-the calendar year, so a stay straddling New Year can trip it even when neither calendar year does on its own. And once
-you cross the line, residency is backdated to the first day you were present in Greece, not applied from the day you
-passed 183.
-
-One carve-out narrows the day count. If you are in Greece exclusively for tourism, medical, therapeutic or similar
-private purposes, and the visit doesn't exceed 365 days counting short trips abroad, the 183-day rule doesn't make you
-resident. The other tests still apply, so a private stay that comes with a settled home or strong ties can still land
-you in Greek residency.
+nonresident, taxed only on Greek-source income.
 
 Greek consular and diplomatic staff, and Greek nationals serving abroad in comparable public roles, are treated as
 Greek tax residents regardless of where they are posted.
@@ -82,12 +74,9 @@ Greek tax residents regardless of where they are posted.
 2. **Any part of a day** in Greece counts as a full day present, including the days you arrive and leave.
 3. The window rolls rather than resetting on 1 January, so check every twelve-month stretch, not each calendar year in
    isolation.
-4. Crossing the threshold backdates residency to your first day of presence, so the date you passed 183 is not the
-   date your Greek tax liability begins.
-5. A low day count settles nothing on its own — the home, habitual abode and vital-interests tests each work
-   independently of it.
-6. Keep travel records for your day count, plus evidence of where your home and ties actually sit: a lease or title
-   deed, utility bills, employment or business records, and school registrations.
+
+Keep travel records for your day count, plus evidence of where your home and ties actually sit: a lease or title
+deed, utility bills, employment or business records, and school registrations.
 
 ## Edge cases
 
@@ -108,11 +97,7 @@ Greek tax residents regardless of where they are posted.
 
 ## If you get this rule wrong
 
-Under-declaring after wrongly treating yourself as a nonresident carries a penalty scaled to the shortfall — 10% of
-the extra tax where it runs from 5% to 20% of what you declared. That rises to 25% where the shortfall exceeds 20% of
-it, and to 50% where it exceeds half, with interest of 0.73% a month on top. Filing an amending return yourself before
-the tax authority notifies an audit avoids the inaccuracy penalty, leaving only interest and a procedural fine to
-settle. **Professional tax advice is strongly recommended in situations like this.**
+Under-declaring after wrongly treating yourself as a nonresident carries a penalty from Greece's Independent Authority for Public Revenue (AADE), scaled to the shortfall — 10% of the extra tax where it runs from 5% to 20% of what you declared. That rises to 25% where the shortfall exceeds 20% of it, and to 50% where it exceeds half, with interest of 0.73% a month on top. **Professional tax advice is strongly recommended in situations like this.**
 
 ## Examples
 

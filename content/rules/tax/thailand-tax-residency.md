@@ -21,8 +21,8 @@ sources:
   - title: "The Revenue Department — Revenue Code, Section 41 (resident status and foreign income)"
     url: https://www.rd.go.th/english/37749.html
     type: official
-  - title: "KPMG — Thailand: Revenue Department guidance on foreign-sourced income (Por. 161/2566)"
-    url: https://kpmg.com/th/en/home/insights/2023/09/th-tax-news-flash-issue-145.html
+  - title: "The Revenue Department — How do foreigners living in Thailand pay tax"
+    url: https://www.rd.go.th/fileadmin/user_upload/lorkhor/newspr/2024/FOREIGNERS_PAY_TAX2024.pdf
     type: official
 
 ---
@@ -48,7 +48,8 @@ when a rule change made remitted foreign income taxable for residents.
 ## Understanding the rule
 
 You are a Thai tax resident for a calendar year if you're present in Thailand for **180 days or more**, aggregated
-across the year — the days don't need to be consecutive.
+across the year — the days don't need to be consecutive. Unlike most countries, that single test is the whole rule:
+there's no domicile, home or ties-based alternative that can make you resident on a lower day count.
 
 Both residents and nonresidents pay tax on Thailand-sourced income either way. The real difference is foreign-sourced
 income: once you're a resident, income you earn abroad becomes taxable in Thailand as soon as you remit it — even
@@ -64,28 +65,25 @@ A visa-based exemption can remove this tax entirely for some long-term residents
 3. The days don't need to be consecutive — short trips in and out are simply added up across the year.
 4. Once you're a resident, the year you **remit** foreign-sourced income is what matters for tax, not the year you
    earned it — track both dates separately.
-5. Keep immigration records (arrival and departure cards, passport stamps) for your day count, and keep records of
-   when foreign income was earned versus when it was actually remitted into Thailand, since the Revenue Department
-   can cross-reference immigration data directly.
+
+Keep immigration records (arrival and departure cards, passport stamps) for your day count, and keep records of
+when foreign income was earned versus when it was actually remitted into Thailand, since the Revenue Department
+can cross-reference immigration data directly.
 
 ## Edge cases
 
-- **Residency is less about who's taxed and more about what's taxed.** Both residents and nonresidents pay Thai tax
-  on Thailand-sourced income regardless — the distinction only matters for foreign-sourced income.
 - **Remittance timing no longer offers the old loophole.** Since a 2024 rule change, foreign income earned while
   you're a Thai tax resident is taxable whenever you remit it, not just if you remit it in the same year you earned
   it.
 - **Income earned before 2024 stays protected.** Foreign income or savings earned before 1 January 2024 can still be
   remitted to Thailand tax-free, regardless of when you bring it in.
-- **Proposed reforms aren't law yet.** A worldwide-income approach and a same-year remittance exemption have both
-  been floated, but neither has been enacted — the remittance-based rule above remains current.
 - **Certain long-term resident visa holders can be exempt from this entirely.** Some Long-Term Resident visa
   categories exempt qualifying foreign-sourced income from Thai tax by royal decree, regardless of remittance
   timing.
 
 ## If you get this rule wrong
 
-Getting your residency status wrong and underpaying tax on remitted foreign income can trigger a fine equal to the tax owed, doubling to twice that in more serious assessment cases, plus a surcharge of 1.5% for every month it stays unpaid. The Revenue Department can waive or reduce that fine at its discretion for a genuine, voluntary correction. **Professional tax advice is strongly recommended in situations like this.**
+Getting your residency status wrong and underpaying tax on remitted foreign income can trigger a fine equal to the tax owed, doubling to twice that in more serious assessment cases, plus a surcharge of 1.5% for every month it stays unpaid. **Professional tax advice is strongly recommended in situations like this.**
 
 ## Examples
 
@@ -104,7 +102,7 @@ You sold an overseas property in 2022, before the current rule took effect, and 
 ## Official sources
 
 - [The Revenue Department — Revenue Code, Section 41 (resident status and foreign income)](https://www.rd.go.th/english/37749.html)
-- [KPMG — Thailand: Revenue Department guidance on foreign-sourced income (Por. 161/2566)](https://kpmg.com/th/en/home/insights/2023/09/th-tax-news-flash-issue-145.html)
+- [The Revenue Department — How do foreigners living in Thailand pay tax](https://www.rd.go.th/fileadmin/user_upload/lorkhor/newspr/2024/FOREIGNERS_PAY_TAX2024.pdf)
 
 ## FAQ
 
@@ -130,8 +128,8 @@ of when you actually bring it in.
 
 ### Is Thailand moving to taxing worldwide income regardless of remittance?
 
-Not yet. A worldwide-income approach has been proposed, but it hasn't been enacted. The remittance-based rule
-described here remains the current law.
+Not yet. A worldwide-income approach and a same-year remittance exemption have both been proposed, but neither has
+been enacted. The remittance-based rule described here remains the current law.
 
 ### Are there tax exemptions for long-term residents?
 

@@ -1,7 +1,7 @@
 ---
 id: israel-tax-residency
 
-title: Israel Tax Residency (Centre of Life test)
+title: Israel Tax Residency
 subtitle: 183 days ∙ 30 and 425 days ∙ Centre of life
 
 category: tax
@@ -21,29 +21,30 @@ sources:
   - title: "OECD Automatic Exchange Portal — Israel: information on residency for tax purposes"
     url: https://www.oecd.org/content/dam/oecd/en/topics/policy-issue-focus/aeoi/israel-residency.pdf
     type: official
-  - title: Israel Tax Authority — Application for voluntary disclosure
-    url: https://www.gov.il/en/service/voluntary-disclosure
+  - title: "Israeli Ministry of Finance — Income Tax Ordinance [New Version], 5721-1961 (Section 1, residency definition)"
+    url: "http://www.financeisrael.mof.gov.il/FinanceIsrael/Docs/En/legislation/FiscalIssues/5721-1961_Income_Tax_Ordinance_%5BNew_Version%5D.pdf"
     type: official
 
 ---
 
-# Israel Tax Residency (Centre of Life test)
+# Israel Tax Residency
 
 ## Overview
 
 :::callout
 You're an Israeli tax resident if your **centre of life** is in Israel — judged on the whole picture of your family,
-economic and social ties. Two day counts raise a presumption that it is: **183 days** in a tax year, or 30 days in the
-year alongside a three-year total of **425 days**. Either you or the tax authority can argue that presumption is wrong.
-Separate long-running exemptions change what a new arrival actually pays.
+economic and social ties. Two day counts raise a rebuttable presumption of that: **183 days** in a tax year, or 30
+days in the year alongside a three-year total of **425 days**. Separate long-running exemptions change what a new
+arrival actually pays.
 :::
 
-| Key facts               |                                               |
-|:------------------------|----------------------------------------------:|
-| Thresholds              |                   183 days, 30 days, 425 days |
-| Period / Window         | Tax year (1 Jan – 31 Dec), plus 2 prior years |
-| Counting                |                             Any part of a day |
-| Additional requirements |  Centre of life test, rebuttable presumptions |
+| Key facts               |                                              |
+|:------------------------|---------------------------------------------:|
+| Thresholds              |                                     183 days |
+| Period / Window         |                    Tax year (1 Jan – 31 Dec) |
+| Alternative             |            30 days/year and 425 days/3 years |
+| Counting                |                            Any part of a day |
+| Additional requirements | Centre of life test, rebuttable presumptions |
 
 ## Understanding the rule
 
@@ -60,9 +61,8 @@ Two day-count presumptions sit on top of that test. Meeting either one means you
 Israel for that year:
 
 - **183-day presumption** — you spent 183 days or more in Israel during the tax year.
-- **30-day and 425-day presumption** — you spent 30 days or more in Israel during the tax year, and 425 days or more in
-  Israel across that year and the two years before it added together. The three-year figure is a straight total, with no
-  weighting for how recent each year is.
+- **30-day and 425-day presumption** — you spent 30 days or more in Israel during the tax year, and 425 days or more
+  in Israel across that year and the two years before it added together.
 
 The presumptions run one way only, and they are rebuttable by both sides. You can accept that you meet one and still
 argue your centre of life is genuinely elsewhere. The tax authority can equally argue you are resident when you meet
@@ -79,10 +79,11 @@ on Israeli-source income.
 2. Any part of a day counts as a full day present, so arrival days, departure days and short visits all add to the total.
 3. The tax year is the calendar year, 1 January to 31 December, and the three-year total is simply the sum of three
    separate calendar-year counts.
-4. Days do not need to be consecutive, and a year in which you were present for fewer than 30 days still contributes its
-   days to the three-year total.
-5. Keep travel records for every trip, including passport stamps and boarding passes. Keep evidence of where your home,
-   family, work and economic interests sit too, since that is what decides a rebuttal in either direction.
+4. Days do not need to be consecutive, and every year in the 3-year total counts at full weight regardless of how
+   recent it is — even a year with fewer than 30 days still contributes its days to the total.
+
+Keep travel records for every trip, including passport stamps and boarding passes. Keep evidence of where your home,
+family, work and economic interests sit too, since that is what decides a rebuttal in either direction.
 
 ## Edge cases
 
@@ -90,23 +91,12 @@ on Israeli-source income.
   economic life are centred there, because the centre-of-life test applies regardless of the presumptions.
 - **Ending Israeli residency is its own event.** Ceasing to be a resident can be treated as a deemed sale of your assets
   when residency ends, so the exit itself is taxed rather than the departure being a clean break.
-- **New immigrants and veteran returning residents get ten years of relief.** Foreign-source income is exempt for ten
-  years from the year they become resident, as are gains on assets held abroad before the move.
-- **The reporting exemption that used to accompany it is gone.** Anyone becoming an Israeli resident on or after
-  1 January 2026 must report that foreign income and those foreign assets, even while the exemption still shelters them
-  from tax.
 - **A newer relief covers Israeli-source work income.** People arriving in 2026 after a long period abroad get a
   time-limited break on income from personal services performed in Israel, phasing back to full tax over five years.
-- **Dual residency is possible.** If another country also treats you as resident, a double tax treaty's tie-breaker
-  rules decide which country has priority for specific income, without cancelling your Israeli status under domestic law.
 
 ## If you get this rule wrong
 
-Getting your residency status wrong usually surfaces as a tax deficiency, and where that deficiency exceeds half the tax
-due and reasonable care isn't shown, the penalty is 15% of it. It doubles to 30% where there are grounds to believe you
-were trying to evade tax. The Israel Tax Authority's voluntary disclosure procedure grants immunity from criminal
-proceedings to people who come forward before an audit or investigation begins, though it reduces no tax and no longer
-accepts anonymous applications. **Professional tax advice is strongly recommended in situations like this.**
+Getting your residency status wrong usually surfaces as a tax deficiency, and where that deficiency exceeds half the tax due and reasonable care isn't shown, the penalty is 15% of it. It doubles to 30% where there are grounds to believe you were trying to evade tax. **Professional tax advice is strongly recommended in situations like this.**
 
 ## Examples
 
@@ -131,7 +121,7 @@ that your centre of life never moved.
 ## Official sources
 
 - [OECD Automatic Exchange Portal — Israel: information on residency for tax purposes](https://www.oecd.org/content/dam/oecd/en/topics/policy-issue-focus/aeoi/israel-residency.pdf)
-- [Israel Tax Authority — Application for voluntary disclosure](https://www.gov.il/en/service/voluntary-disclosure)
+- [Israeli Ministry of Finance — Income Tax Ordinance [New Version], 5721-1961 (Section 1, residency definition)](http://www.financeisrael.mof.gov.il/FinanceIsrael/Docs/En/legislation/FiscalIssues/5721-1961_Income_Tax_Ordinance_%5BNew_Version%5D.pdf)
 
 ## FAQ
 

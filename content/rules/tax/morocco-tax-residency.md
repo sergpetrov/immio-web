@@ -40,7 +40,7 @@ don't need to be continuous.
 
 | Key facts               |                                    |
 |:------------------------|-----------------------------------:|
-| Thresholds              |                           184 days |
+| Thresholds              |                 More than 183 days |
 | Period / Window         |                   Rolling 365 days |
 | Counting                |                  Any part of a day |
 | Additional requirements | Permanent home, economic interests |
@@ -53,16 +53,11 @@ You are a Moroccan tax resident if you meet any one of three tests:
   is that it's genuinely available to you, not how many nights you actually spend in it.
 - **Centre of economic interests** — Morocco is where your main professional activity is carried on, where your
   principal investments sit, where your business is based, or where the bulk of your income arises.
-- **183-day presence** — your stays in Morocco, continuous or broken up, exceed 183 days over any 365-day period.
+- **183-day presence** — your stays in Morocco exceed 183 days over any 365-day period.
 
-Meeting any one makes you a Moroccan tax resident, taxed on worldwide income — Moroccan-source and foreign-source
-alike. Falling short of all three makes you a nonresident, generally taxed only on Moroccan-source income. A
-separate rule also treats Moroccan state employees posted abroad as resident, where the country they work in doesn't
-tax their income.
-
-The 365-day window doesn't line up with the calendar year. Where your stays are broken up, the count runs across the
-365 days following your first entry, so the answer isn't settled until that window has closed. That makes it easy to
-pass the threshold across a year-end without either calendar year looking close.
+Meeting any one makes you a Moroccan tax resident, taxed on worldwide income. Falling short of all three makes you a
+nonresident, generally taxed only on Moroccan-source income. A separate rule also treats Moroccan state employees
+posted abroad as resident, where the country they work in doesn't tax their income.
 
 ## How to keep track
 
@@ -74,32 +69,23 @@ pass the threshold across a year-end without either calendar year looking close.
    as one total.
 4. Where your stays are broken up, count across the 365 days following your first entry — the answer isn't final until
    that window closes.
-5. A low day count settles nothing on its own, since the permanent home and economic-interests tests each work
-   independently of it.
-6. Keep travel records for your day count, plus documents showing where your home and economic life sit: a lease,
-   title deed or usufruct paperwork, utility bills, and business or employment records.
+
+Keep travel records for your day count, plus documents showing where your home and economic life sit: a lease, title
+deed or usufruct paperwork, utility bills, and business or employment records.
 
 ## Edge cases
 
-- **Keeping a family home in Morocco can be enough on its own.** The test asks whether a dwelling is genuinely kept
-  available to you, not how often you use it, which catches Moroccans living abroad who keep the family house.
-- **The 365-day window rolls across the year-end.** Two shorter stays either side of New Year can pass 183 days
-  together even though neither calendar year comes close.
 - **Economic interests can outweigh where you actually live.** A main business, principal investments, or most of your
   income arising in Morocco can make you resident despite a low day count and no Moroccan home.
+- **The rolling window catches stays that straddle New Year.** Two shorter stays either side of the year-end can pass
+  183 days together even though neither calendar year comes close.
 - **Foreign pensions transferred to Morocco get a large tax cut.** Retirees who become Moroccan residents and
   permanently transfer a foreign pension into a non-convertible dirham account get an 80% reduction in the tax due on
   it.
-- **Dual residence is possible.** Another country can treat you as resident under its own rules, and a treaty
-  tiebreaker then assigns a single treaty residence without cancelling your Moroccan domestic residency.
 
 ## If you get this rule wrong
 
-Filing late or leaving income out carries a surcharge on the tax owed — 5% within thirty days of the deadline, 15%
-after that, and 20% where the tax administration has to assess you itself. If it later adjusts your taxable base, a
-further 20% applies to the extra tax, rising to 100% where bad faith is established. Filing a corrected return
-yourself, a déclaration rectificative spontanée, holds the surcharge at 5% even when it's out of time, though separate
-late-payment penalties still run. **Professional tax advice is strongly recommended in situations like this.**
+Filing late or leaving income out carries a surcharge on the tax owed — 5% within thirty days of the deadline, 15% after that, and 20% where the tax administration has to assess you itself. If it later adjusts your taxable base, a further 20% applies to the extra tax, rising to 100% where bad faith is established. **Professional tax advice is strongly recommended in situations like this.**
 
 ## Examples
 
@@ -112,8 +98,8 @@ Moroccan tax resident.
 ### Two stays that combine across the year-end
 
 You spend 110 days in Morocco from October into January, then another 80 the following June and July. Neither calendar
-year reaches 184 days, but both stays fall inside one 365-day window and total 190, so the day-count test makes you a
-Moroccan tax resident.
+year passes the threshold on its own, but both stays fall inside one 365-day window and total 190, so the day-count
+test makes you a Moroccan tax resident.
 
 ### A business in Morocco while you live elsewhere
 

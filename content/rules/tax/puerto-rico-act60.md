@@ -1,8 +1,8 @@
 ---
 id: puerto-rico-act60
 
-title: Puerto Rico Tax Residency (bona fide residence test)
-subtitle: 183 days ∙ Tax year ∙ Act 60 decrees
+title: Puerto Rico Tax Residency (Act 60)
+subtitle: 183 days ∙ Starts Jan 1 ∙ Act 60 decrees
 
 category: tax
 
@@ -30,45 +30,36 @@ sources:
 
 ---
 
-# Puerto Rico Tax Residency (bona fide residence test)
+# Puerto Rico Tax Residency (Act 60)
 
 ## Overview
 
 :::callout
-You're a bona fide resident of Puerto Rico for a tax year only if you clear all three of a presence test, a tax home
+You're a bona fide resident of Puerto Rico for a tax year only if you clear **all three** of a presence test, a tax home
 test, and a closer connection test. Presence normally means at least **183 days** in Puerto Rico during the tax year,
-though four alternative routes can substitute for it. That status is also the gateway to Act 60's tax decrees, which
+though four alternative routes can substitute for it. That status is also the gateway to **Act 60's** tax decrees, which
 are applied for separately and carry their own conditions.
 :::
 
-| Key facts               |                                         |
-|:------------------------|----------------------------------------:|
-| Thresholds              |             183 days, 549 days, 90 days |
-| Period / Window         | Tax year; 3 years for the 549-day route |
-| Counting                |                       Any part of a day |
-| Additional requirements |   Tax home test, closer connection test |
+| Key facts               |                                       |
+|:------------------------|--------------------------------------:|
+| Thresholds              |                              183 days |
+| Period / Window         |        Calendar year (1 Jan – 31 Dec) |
+| Alternative             |                    549 days / 3 years |
+| Counting                |                     Any part of a day |
+| Additional requirements | Tax home test, closer connection test |
 
 ## Understanding the rule
 
 You are a bona fide resident of Puerto Rico for a tax year only if you meet **all three** of these tests. Missing one
 disqualifies you, however comfortably you clear the other two:
 
-- **Presence test** — satisfied through any one of five routes, listed below.
+- **Presence test** — the only one measured in days, satisfied through any one of five routes. See **How to keep
+  track** below.
 - **Tax home test** — your tax home must be in Puerto Rico, and not outside it at any point in the year. Your tax home
   is your main place of business or employment, or, if you have no fixed workplace, the place where you regularly live.
 - **Closer connection test** — you must not have a closer connection to the United States, or to a foreign country,
   than you have to Puerto Rico. This is a weighing of facts rather than a threshold.
-
-The presence test is the only one measured in days. It can be met in any of these ways:
-
-- **183 days in Puerto Rico** during the tax year.
-- **549 days across three years** — at least 549 days in Puerto Rico across the tax year and the two before it, with at
-  least 60 days there in each of the three.
-- **90 days or fewer in the United States** during the tax year.
-- **Minimal US earned income** — US-source earned income no higher than a small fixed amount for the year, together
-  with more days in Puerto Rico than in the United States.
-- **No significant connection to the United States** during the tax year — meaning no permanent home there, no US voter
-  registration, and no spouse or minor child living there.
 
 Bona fide residency is what lets you exclude Puerto Rico-source income from your US federal return. A US citizen or
 green card holder who qualifies still files federally, and is still taxed by the United States on income arising
@@ -76,39 +67,44 @@ outside Puerto Rico.
 
 ## How to keep track
 
-1. The core presence threshold is **183 days** in Puerto Rico during the tax year, with four alternative routes behind
-   it. Two of those are also day counts, so you need running totals for Puerto Rico and the United States separately.
+1. The presence test can be met in any one of five ways:
+   - **183 days in Puerto Rico** during the tax year.
+   - **549 days across three years** — two counts have to hold together: **549 days** in Puerto Rico added up across
+     the tax year and the two before it, **and 60 days** in each of those three years on its own. One thin year
+     breaks the route even if the three-year total is comfortable.
+   - **90 days or fewer in the United States** during the tax year.
+   - **Minimal US earned income** — no more than $3,000 of US-source earned income for the year, together with more
+     days in Puerto Rico than in the United States.
+   - **No significant connection to the United States** during the tax year — meaning no permanent home there, no US
+     voter registration, and no spouse or minor child living there.
 2. **Any part of a day counts** — you are treated as present in Puerto Rico on any day you are physically there at any
    point, and the same applies to counting your US days.
-3. The day count alone never settles it. A clean 183 days still fails if your main place of work sits outside Puerto
-   Rico, or if the weight of your personal and financial ties points to the mainland.
-4. Beginning or ending bona fide residency during a year triggers an additional statement to the IRS, where your
-   worldwide income for that year is above a set threshold.
-5. Keep travel records separating days in Puerto Rico from days in the United States and elsewhere. Keep evidence of
-   your tax home — workplace, business registration, client contracts — and of your ties: lease or title deeds, driving
-   licence, voter registration, bank accounts and school records.
+3. Two of those routes turn on your **US** days rather than your Puerto Rico days, so keep separate running totals for
+   each.
+
+Keep travel records separating days in Puerto Rico from days in the United States and elsewhere. Keep evidence of
+your tax home — workplace, business registration, client contracts — and of your ties: lease or title deeds, driving
+licence, voter registration, bank accounts and school records.
 
 ## Act 60 Tax Incentives
 
 An Act 60 decree is a separate application to Puerto Rico's economic development department. Becoming a bona fide
-resident doesn't grant one, and holding one doesn't prove you are a bona fide resident. The two are decided
-independently, and the decree only works if the residency underneath it does.
+resident doesn't grant one, and holding one doesn't prove you are one — but the decree only works if the residency
+underneath it does.
 
 - **What it means** — the individual resident investor decree exempts qualifying Puerto Rico-source passive income
   from Puerto Rico income tax: interest, dividends, and long-term capital gains accruing after you become a resident.
-  Combined with the federal exclusion available to bona fide residents, that can mean no US federal income tax on the
-  same income either. It does nothing for income arising outside Puerto Rico, which stays federally taxable. A separate
-  export services decree covers businesses instead, taxing qualifying income from services supplied from Puerto Rico to
-  clients elsewhere at a flat 4%.
-- **Who can apply** — you must become and remain a bona fide resident of Puerto Rico. You must also buy a home there
-  within two years of the decree, holding title personally or through a qualifying trust rather than a company. A set
-  annual donation to listed local charities is required too, alongside annual reports. Applications from 1 January 2027
-  need six years of non-residence immediately before you relocate; earlier ones are tested against a fixed six-year
-  window ending in early 2012.
-- **What it gives** — applications filed on or before **31 December 2026** carry a **0%** Puerto Rico rate on interest,
-  dividends and post-residency long-term capital gains, running to 31 December 2035. From 1 January 2027 that rate
-  becomes **4%**, and the programme runs to 31 December 2055. Either way, gains built up before you moved are taxed at
-  5% if realised at least ten years after you become resident.
+  Stacked with the federal exclusion, that can mean no US federal income tax on the same income either. It does
+  nothing for income arising outside Puerto Rico. A separate export services decree taxes qualifying business income
+  from services supplied to clients elsewhere at a flat 4%.
+- **Who can apply** — you must become and remain a bona fide resident, buy a home in Puerto Rico within two years of
+  the decree, holding title personally rather than through a company, and make a set annual donation to listed local
+  charities alongside annual reports. Applications from 1 January 2027 also need six years of non-residence
+  immediately beforehand.
+- **What it gives** — applications filed on or before **31 December 2026** carry a **0%** rate, running to
+  31 December 2035. From 1 January 2027 that rate becomes **4%**, with the programme extended to 31 December 2055
+  under Act 38-2026. Either way, gains built up before you moved are taxed at 5% if realised at least ten years after
+  you become resident.
 
 ## Edge cases
 
@@ -124,12 +120,7 @@ independently, and the decree only works if the residency underneath it does.
 
 ## If you get this rule wrong
 
-If the IRS decides you weren't a bona fide resident, the Puerto Rico income you excluded becomes federally taxable,
-with an accuracy-related penalty of 20% of the underpayment or 75% where civil fraud is established. The IRS has run a
-dedicated compliance campaign on Act 60 decree holders since 2021, matching Puerto Rico's decree lists against federal
-returns. Coming forward first through the IRS Voluntary Disclosure Practice can resolve willful
-non-compliance without criminal prosecution, and Puerto Rico can separately revoke a decree.
-**Professional tax advice is strongly recommended in situations like this.**
+If the Internal Revenue Service (IRS) decides you weren't a bona fide resident, the Puerto Rico income you excluded becomes federally taxable, with an accuracy-related penalty of 20% of the underpayment or 75% where civil fraud is established. The IRS has run a dedicated compliance campaign on Act 60 decree holders since 2021, matching Puerto Rico's decree lists against federal returns, and Puerto Rico can separately revoke a decree. **Professional tax advice is strongly recommended in situations like this.**
 
 ## Examples
 
@@ -143,7 +134,7 @@ you're a bona fide resident for the year.
 
 You split the year between the island and the mainland, spending 170 days in Puerto Rico and 120 in the United States.
 That misses the 183-day route, your three-year total falls well short of 549, and you're over the 90-day US limit. Your
-US earned income is far above the small-income route's ceiling, and a retained mainland home rules out the last one.
+US earned income is far above the $3,000 ceiling, and a retained mainland home rules out the last one.
 
 ### Enough days, wrong tax home
 
@@ -183,7 +174,20 @@ combined with more Puerto Rico days than US days, or no significant connection t
 A permanent home there, being registered to vote in a US state or the District of Columbia, or having a spouse or minor
 child living there. Any one of them defeats that particular presence route, though the other routes may still work.
 
+### Is "no significant connection" the same as the closer connection test?
+
+No, despite the similar names. **No significant connection** is one of five ways to satisfy the presence test, and it's
+a checklist of exactly three items — a US home, US voter registration, a spouse or minor child in the US. **The closer
+connection test** is a separate test you have to pass as well, weighing your whole life to see whether Puerto Rico
+outranks both the United States and any foreign country. Clearing the checklist doesn't settle the weighing: you could
+keep no US home and still have your business, banking and social life anchored on the mainland.
+
 ### Do I still file a US federal tax return as a bona fide resident?
 
 Generally yes, if you're a US citizen or green card holder. Puerto Rico-source income is normally excluded from the
 federal return, but income arising outside Puerto Rico stays federally taxable and is reported as usual.
+
+### What happens if I start or stop being a bona fide resident mid-year?
+
+Beginning or ending bona fide residency during a year triggers an additional statement to the IRS, where your worldwide
+income for that year is above a set threshold. The residency tests themselves are still applied year by year.

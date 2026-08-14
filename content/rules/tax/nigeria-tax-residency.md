@@ -39,12 +39,12 @@ residents as well. Residents are taxed on worldwide income, and which state reve
 separate question.
 :::
 
-| Key facts               |                                                 |
-|:------------------------|------------------------------------------------:|
-| Thresholds              |                                        183 days |
-| Period / Window         |  Any 12-month period; assessed by calendar year |
-| Counting                | Days of stay, leave and short absences included |
-| Additional requirements |  Domicile, permanent home, habitual abode, ties |
+| Key facts               |                                                |
+|:------------------------|-----------------------------------------------:|
+| Thresholds              |                                       183 days |
+| Period / Window         |                              Rolling 12 months |
+| Counting                |                              Any part of a day |
+| Additional requirements | Domicile, permanent home, habitual abode, ties |
 
 ## Understanding the rule
 
@@ -57,54 +57,42 @@ You are a Nigerian tax resident for a year of assessment if you meet any one of 
 - **Economic and family ties** — you have substantial economic ties and immediate family ties in Nigeria. The two are
   joined, so a business interest with no family in Nigeria, or family with no economic footing, is not this test on its
   own.
-- **183-day presence** — you stay in Nigeria for periods adding up to 183 days or more in a 12-month period, counting
-  annual leave and temporary absences within that stay.
+- **183-day presence** — you stay in Nigeria for periods adding up to 183 days or more in a 12-month period.
 - **Nigerian diplomat abroad** — you serve as a diplomat or diplomatic agent of Nigeria in another country.
 
 The tests are written from both ends. You are a non-resident only if you fail every one of them at once, so staying
 under the day count settles nothing while a home, an abode or your family remain in Nigeria.
 
-The stakes are worth stating plainly. A resident individual is taxed in Nigeria on income, gains and profits wherever
-they arise, whether or not the money is brought into the country. A non-resident is taxed only on Nigerian-source
-income. These rules took effect at the start of 2026 and replaced a regime that had no explicit statutory definition of
-a resident individual.
+A resident individual is taxed in Nigeria on income, gains and profits wherever they arise, whether or not the money is
+brought into the country. A non-resident is taxed only on Nigerian-source income. These rules took effect at the start
+of 2026 and replaced a regime that had no explicit statutory definition of a resident individual.
 
 ## How to keep track
 
 1. The day threshold is **183 days** or more in aggregate within any 12-month period, and that window does not have to
    be a calendar year. Assessment itself still runs on the calendar year, 1 January to 31 December.
-2. Separate stays are added together; they do not need to be consecutive, and no single trip needs to be long.
+2. Separate stays are added together, so they do not need to be consecutive and no single trip needs to be long.
 3. Annual leave and temporary absences that fall within a period of stay are counted toward the total rather than
    breaking it.
 4. Because the window rolls, the same set of trips can fail the test measured from January and pass it measured from
    April — check more than one starting point before concluding you are under.
-5. Keep travel records for every entry and exit, plus a tenancy agreement or title deed for any Nigerian home, and
-   employment or business documents. Keep evidence of where you lived within Nigeria too, since that decides which state
-   revenue service handles you.
+
+Keep travel records for every entry and exit, plus a tenancy agreement or title deed for any Nigerian home, and
+employment or business documents. Keep evidence of where you lived within Nigeria too, since that decides which state
+revenue service handles you.
 
 ## Edge cases
 
 - **A permanent place you never use still counts.** The test asks whether a place is available for your domestic use,
   so keeping an empty flat or a family house at your disposal can make you resident on its own.
-- **Personal income tax is administered state by state.** Your tax is collected by the internal revenue service of the
-  state where you have your place or principal place of residence. That is generally fixed by where you were living at
-  the start of the year, or when you took up a new job.
-- **The federal service handles the exceptions.** Non-residents, and individuals whose state of residence cannot be
-  established, are dealt with by the Nigeria Revenue Service rather than a state authority.
-- **An immigration permit is not tax residency.** A residence or work permit governs your right to be in Nigeria, while
-  the tax tests turn on domicile, a home, an abode, ties and days — decided entirely separately.
 - **Family ties reach people living overseas.** Substantial economic ties combined with immediate family in Nigeria can
   make a long-term expatriate resident despite spending almost no time in the country.
-- **Dual residency is possible.** Where another country also treats you as resident, a double tax treaty between it and
-  Nigeria decides which has priority over particular income.
+- **An immigration permit is not tax residency.** A residence or work permit governs your right to be in Nigeria, while
+  the tax tests turn on domicile, a home, an abode, ties and days — decided entirely separately.
 
 ## If you get this rule wrong
 
-Tax left unpaid past its due date has a one-off 10% of the amount added to it, plus interest at the Central Bank of
-Nigeria's monetary policy rate with a spread set by the Minister. Filing a return late carries its own penalty for the
-first month and a further amount for each month it stays outstanding. A demand for under-assessed tax normally has to
-be made within six years, but that limit falls away where the under-assessment came from a document or a statement
-found to be untrue. **Professional tax advice is strongly recommended in situations like this.**
+Tax left unpaid past its due date has a one-off 10% of the amount added to it, plus interest at the Central Bank of Nigeria's monetary policy rate with a spread set by the Minister. A demand for under-assessed tax normally has to be made within six years, but that limit falls away where the under-assessment came from a document or a statement found to be untrue. **Professional tax advice is strongly recommended in situations like this.**
 
 ## Examples
 
@@ -156,8 +144,9 @@ into Nigeria. A non-resident is taxed only on Nigerian-source income.
 
 ### Which tax authority do I actually deal with?
 
-For a resident individual, the internal revenue service of the state where you have your principal place of residence.
-The Nigeria Revenue Service handles non-residents and cases where no state of residence can be established.
+For a resident individual, the internal revenue service of the state where you have your principal place of residence —
+generally fixed by where you were living at the start of the year, or when you took up a new job. The Nigeria Revenue
+Service handles non-residents and cases where no state of residence can be established.
 
 ### Can I be resident in Nigeria and another country at the same time?
 

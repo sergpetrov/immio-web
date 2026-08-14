@@ -38,12 +38,12 @@ courts often give the centre-of-interests test more weight than the day count. A
 and returning residents.
 :::
 
-| Key facts               |                             |
-|:-------------------------|----------------------------:|
-| Thresholds               |                     184 days |
-| Period / Window          | Calendar year (1 Jan – 31 Dec) |
-| Counting                 |             Any part of a day |
-| Additional requirements  |  Centre of vital interests test |
+| Key facts               |                                |
+|:------------------------|-------------------------------:|
+| Thresholds              |             More than 183 days |
+| Period / Window         | Calendar year (1 Jan – 31 Dec) |
+| Counting                |              Any part of a day |
+| Additional requirements | Centre of vital interests test |
 
 ## Understanding the rule
 
@@ -53,12 +53,13 @@ You are a Polish tax resident for a calendar year if you meet either of two test
   family lives, or where your main income source, investments, property, and financial management are based.
 - **183-day presence** — more than 183 days in Poland during the calendar year.
 
+The two tests carry different weight in practice. The day count is mechanical and easy to evidence, but in disputed or
+borderline cases Polish tax authorities and administrative courts have repeatedly leaned on the centre-of-vital-
+interests test instead. Someone who narrowly avoids 183 days can still be found resident if their personal and
+economic life is clearly centred in Poland.
+
 Meeting either test makes you a Polish tax resident for the year, taxed on worldwide income. Falling short of both
 makes you a nonresident, generally taxed only on Polish-source income.
-
-In disputed or borderline cases, Polish tax authorities and administrative courts have repeatedly given the
-centre-of-vital-interests test more practical weight than the day count. Someone who narrowly avoids 183 days can
-still be found resident if their personal and economic life is clearly centred in Poland.
 
 ## How to keep track
 
@@ -66,10 +67,9 @@ still be found resident if their personal and economic life is clearly centred i
 2. **Any part of a day** counts as a full day present — arrival and departure days, weekends, and holidays all count
    toward the total.
 3. Days don't need to be consecutive — the total is simply added up across the whole year.
-4. A low day count doesn't guarantee nonresident status on its own — the centre-of-vital-interests test can still
-   apply regardless of how few days you spend in Poland.
-5. Keep travel records for your day count, plus evidence of where your family, income, and financial life are based
-   if you're relying on, or trying to rebut, the centre-of-vital-interests test.
+
+Keep travel records for your day count, plus evidence of where your family, income, and financial life are based
+if you're relying on, or trying to rebut, the centre-of-vital-interests test.
 
 ## Edge cases
 
@@ -77,17 +77,10 @@ still be found resident if their personal and economic life is clearly centred i
   if your personal and economic life is clearly based in Poland.
 - **Family ties alone don't automatically decide it.** Courts have found family presence in Poland insufficient by
   itself when a person's economic interests clearly point elsewhere.
-- **Dual residency is possible.** If another country also treats you as resident, a double tax treaty's tie-breaker
-  rules can then assign a single treaty residence without cancelling your Polish domestic residency.
-- **A return relief can reduce tax for new and returning residents.** It excludes part of your income from tax for
-  several consecutive years, alongside the standard tax-free allowance.
-- **The relief has its own eligibility conditions, separate from residency itself** — generally requiring you not to
-  have been a Polish tax resident for several years before the move, plus specific status and documentation
-  requirements.
 
 ## If you get this rule wrong
 
-Getting your residency status wrong exposes you to the standard back taxes and interest. Underreported income that Poland's National Revenue Administration can't trace to a legitimate source risks a flat 75% tax under the undisclosed-income rules, well above ordinary rates — though a voluntary czynny żal (active regret) disclosure can still avoid criminal liability if you also pay what's owed. **Professional tax advice is strongly recommended in situations like this.**
+Getting your residency status wrong exposes you to the standard back taxes and interest. Underreported income that Poland's National Revenue Administration can't trace to a legitimate source risks a flat 75% tax under the undisclosed-income rules, well above ordinary rates. **Professional tax advice is strongly recommended in situations like this.**
 
 ## Examples
 

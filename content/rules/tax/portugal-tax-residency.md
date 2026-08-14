@@ -2,7 +2,7 @@
 id: portugal-tax-residency
 
 title: Portugal Tax Residency (183-day rule)
-subtitle: 184 days ∙ 12-month rolling window ∙ NHR
+subtitle: 183 days ∙ Rolling 12 months ∙ NHR ∙ IFICI
 
 category: tax
 
@@ -21,8 +21,8 @@ sources:
   - title: "Portal das Finanças — Article 16 of the IRS Code (Residence)"
     url: https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/irs16.aspx
     type: official
-  - title: "EY Portugal — End of the NHR regime and introduction of IFICI"
-    url: https://www.ey.com/pt_pt/technical/tax-alerts/fim-do-rnh-e-introducao-do-ifici
+  - title: "Portal das Finanças — Article 58-A of the Tax Benefits Statute (IFICI)"
+    url: https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/bf_rep/Pages/EBF58A.aspx
     type: official
 
 ---
@@ -40,9 +40,9 @@ some new residents.
 
 | Key facts               |                         |
 |:------------------------|------------------------:|
-| Thresholds              |                184 days |
+| Thresholds              |      More than 183 days |
 | Period / Window         |       Rolling 12 months |
-| Counting                | Nights (Overnight stay) |
+| Counting                | Nights (overnight stay) |
 | Additional requirements |      Habitual home test |
 
 ## Understanding the rule
@@ -59,9 +59,7 @@ with no sign you intend to live in it, does not satisfy this test.
 
 Meeting either test makes you resident for the whole tax year, taxed on worldwide income. A handful of other
 categories — crew on Portuguese-flagged ships or aircraft, and Portuguese state employees serving abroad — are also
-automatically treated as resident. Portuguese nationals moving to a country on Portugal's list of more favorable tax
-regimes face an anti-avoidance rule: they're still treated as Portuguese resident for the year of the move plus the
-following 4 years, unless they can show a genuine reason such as temporary work for a Portuguese employer.
+automatically treated as resident.
 
 ## How to keep track
 
@@ -72,27 +70,25 @@ following 4 years, unless they can show a genuine reason such as temporary work 
 3. You become resident from the **first day** of the qualifying period of presence. If you were already resident at any
    point in the prior year, residency instead runs from **1 January**.
 4. Residency generally ends on the **last day** you were present in Portugal, subject to some exceptions.
-5. Keep travel and accommodation records as you go — boarding passes or entry evidence for the 183-day test, or a
-   tenancy agreement and utility bills showing your home is available if you're relying on the habitual home test.
+
+Keep travel and accommodation records as you go — boarding passes or entry evidence for the 183-day test, or a
+tenancy agreement and utility bills showing your home is available if you're relying on the habitual home test.
 
 ## Edge cases
 
 - **A day without an overnight stay doesn't count.** Someone commuting into Portugal for work every day but sleeping
   elsewhere each night could spend far more than 183 days present without meeting the 183-day test.
-- **The habitual home test can apply well under 183 days.** Keeping a home available in Portugal with the intention to
-  use it as your main residence can trigger residency even on a low day count.
-- **IFICI replaced the old NHR regime from January 2024.** Portugal's Non-Habitual Resident (NHR) scheme was replaced by
-  the **IFICI** ("NHR 2.0"), a narrower regime targeting research, innovation, and other high-value-added professional
-  activities. It offers a flat rate on qualifying Portuguese-source income and an exemption on most foreign-source
-  income.
-- **Old NHR status is grandfathered, not extended.** If you registered as resident and were approved for NHR by 31
-  December 2023, you keep the old NHR terms for your full 10-year period — but new applicants go through IFICI instead.
-- **IFICI requires 5 years of prior non-residence**, and is limited to specific eligible professional activities, unlike
-  the broader old NHR regime.
+- **Moving to a listed low-tax country doesn't cut ties for Portuguese nationals.** An anti-avoidance rule keeps them
+  treated as Portuguese resident for the year of the move plus the following 4 years, unless they can show a genuine
+  reason such as temporary work for a Portuguese employer.
+- **IFICI replaced the old NHR regime, and the two don't overlap.** Portugal's Non-Habitual Resident (NHR) scheme was
+  replaced from 2024 by the **IFICI**, a narrower regime taxing qualifying income from research, innovation and other
+  high-value-added activities at a flat 20%, with most foreign-source income exempt. Anyone approved for NHR by
+  31 December 2023 keeps the old terms for their full 10-year period instead.
 
 ## If you get this rule wrong
 
-Getting your residency status wrong and misreporting income can trigger a fine under Portugal's general tax-infractions code, with the amount depending on whether the error was negligent or deliberate. A prompt correction within 30 days of the deadline is treated far more leniently, cutting the fine to a small fraction of the legal minimum. **Professional tax advice is strongly recommended in situations like this.**
+Getting your residency status wrong and misreporting income can trigger a fine under Portugal's general tax-infractions code, with the amount depending on whether the error was negligent or deliberate. Where the misreporting concerns income that should have been declared as a resident, the fine is calculated on the tax that went unpaid rather than a fixed sum. **Professional tax advice is strongly recommended in situations like this.**
 
 ## Examples
 
@@ -117,7 +113,7 @@ test can still make you a Portuguese tax resident based on that available, inten
 ## Official sources
 
 - [Portal das Finanças — Article 16 of the IRS Code (Residence)](https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/irs16.aspx)
-- [EY Portugal — End of the NHR regime and introduction of IFICI](https://www.ey.com/pt_pt/technical/tax-alerts/fim-do-rnh-e-introducao-do-ifici)
+- [Portal das Finanças — Article 58-A of the Tax Benefits Statute (IFICI)](https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/bf_rep/Pages/EBF58A.aspx)
 
 ## FAQ
 
@@ -133,9 +129,9 @@ intend to keep and live in it as your main home, that alone can make you residen
 
 ### What replaced the NHR regime?
 
-The **IFICI** regime, in effect since January 2024. It offers a flat rate on qualifying Portuguese-source income from
-research, innovation, and other high-value-added activities, plus an exemption on most foreign-source income, but it
-targets narrower professional categories than the old NHR.
+The **IFICI** regime, in effect since 2024. It taxes qualifying Portuguese-source income from research, innovation, and
+other high-value-added activities at a flat 20%, plus an exemption on most foreign-source income, but it targets
+narrower professional categories than the old NHR and requires 5 years of prior non-residence.
 
 ### If I already have NHR status, do I lose it?
 

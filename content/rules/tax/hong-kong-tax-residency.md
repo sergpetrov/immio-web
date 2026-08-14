@@ -1,0 +1,179 @@
+---
+id: hong-kong-tax-residency
+
+title: Hong Kong Tax Residency (180-day and 300-day rules)
+subtitle: 180 days or 300 days ∙ Year of assessment ∙ Ordinary residence
+
+category: tax
+
+place: hk
+
+seo:
+  title: Hong Kong Tax Residency Rules Explained | Immio
+  description: >
+    How Hong Kong tax residency works — the 180-day and 300-day tests,
+    the ordinary residence route, and why residency matters mainly for
+    tax treaty claims under a territorial tax system.
+
+updatedAt: 2026-08-13
+
+sources:
+  - title: Hong Kong Inland Revenue Department — Certificate of Resident Status
+    url: https://www.ird.gov.hk/eng/tax/dta_cor.htm
+    type: official
+  - title: Hong Kong Inland Revenue Department — FAQ on Double Taxation Relief and Exchange of Information Arrangements
+    url: https://www.ird.gov.hk/eng/faq/dta_2006.htm
+    type: official
+  - title: Hong Kong Inland Revenue Department — Residency for Tax Purposes and Taxpayer Identification Number (TIN)
+    url: https://www.ird.gov.hk/eng/tax/aeoi/res_tin.htm
+    type: official
+  - title: Hong Kong Inland Revenue Department — Penalty Policy
+    url: https://www.ird.gov.hk/eng/pol/ppo.htm
+    type: official
+
+---
+
+# Hong Kong Tax Residency (180-day and 300-day rules)
+
+## Overview
+
+:::callout
+You're a Hong Kong resident for tax purposes if you ordinarily reside in Hong Kong. You also qualify by staying **more
+than 180 days** in a year of assessment, or **more than 300 days** across two consecutive years. Because Hong Kong
+taxes only income arising in or derived from Hong Kong, being a resident creates no charge on foreign income by
+itself. It matters mainly for claiming tax treaty benefits and obtaining a Certificate of Resident Status.
+:::
+
+| Key facts               |                                    |
+|:------------------------|-----------------------------------:|
+| Thresholds              |                 181 days, 301 days |
+| Period / Window         |  1 Apr – 31 Mar, or two such years |
+| Counting                | Days of stay, continuous or summed |
+| Additional requirements |            Ordinary residence test |
+
+## Understanding the rule
+
+You are a Hong Kong resident individual if you meet any one of three routes, in any order:
+
+- **Ordinary residence** — you ordinarily reside in Hong Kong. No day count applies.
+- **180 days in one year** — you stay in Hong Kong for **more than 180 days** during a year of assessment, which runs
+  1 April to 31 March.
+- **300 days across two years** — you stay in Hong Kong for **more than 300 days** across two consecutive years of
+  assessment, one of which must be the year you're claiming for.
+
+Ordinary residence is judged on your circumstances rather than counted. The main indicator is a permanent home in Hong
+Kong where you or your family live. The Inland Revenue Department also weighs how many days you spend in Hong Kong and
+whether you keep a permanent residence there. It looks at whether you own property overseas to live in, and whether you
+reside mainly in Hong Kong or overseas. Holding a Hong Kong permanent identity card doesn't settle the question on its
+own.
+
+Meeting a route doesn't create a Hong Kong tax bill by itself. Salaries tax is charged on income arising in or derived
+from Hong Kong from an office, employment, or pension. That holds regardless of your residency, and regardless of
+whether the income has already been taxed elsewhere. The practical payoff of residency is eligibility for a Certificate
+of Resident Status, the document that lets you claim benefits under one of Hong Kong's double taxation agreements.
+
+## How to keep track
+
+1. The single-year threshold is **more than 180 days** of stay in Hong Kong during a year of assessment, 1 April
+   to 31 March.
+2. The two-year threshold is **more than 300 days** across two consecutive years of assessment, one of which has to be
+   the year you're claiming for.
+3. Days can be counted as one continuous stay or as separate periods added together — both are accepted, so short
+   repeat trips accumulate toward the total.
+4. Because either of the two adjacent years can be the year of claim, the same stretch of days can support a claim for
+   one year or the other.
+5. Ordinary residence has no threshold to track at all, and a permanent home in Hong Kong can carry it on very few
+   days present.
+6. Keep entry and exit records for every trip, plus evidence of your Hong Kong home such as a tenancy agreement or
+   title deed. Keep details of any home you hold overseas too, since both weigh in the ordinary residence test.
+
+## Edge cases
+
+- **Residency and taxability are separate questions.** Salaries tax follows where income arises, not where you live. A
+  resident's genuinely foreign-sourced employment income can fall outside the charge, while a non-resident working in
+  Hong Kong is taxed on the Hong Kong portion.
+- **Three factors decide where an employment is located** — where the contract was negotiated, entered into, and is
+  enforceable; where your employer resides; and where you're paid. If all three sit outside Hong Kong the employment is
+  generally treated as non-Hong Kong, though the Inland Revenue Department can look past them.
+- **A separate 60-day rule catches people out.** If all your services in a year were rendered outside Hong Kong your
+  income is exempt, and visits to Hong Kong totalling no more than 60 days in the year don't break that. It is an
+  exemption from salaries tax, not a way into or out of residency.
+- **A certificate isn't automatic, and it's only for treaty claims.** You apply to the Inland Revenue Department, which
+  won't issue one where Hong Kong has no double taxation agreement with the jurisdiction concerned, or where you want
+  the certificate for some other purpose.
+- **A permanent identity card isn't proof of tax residence.** Whether you ordinarily reside in Hong Kong still has to
+  be weighed on the facts of your situation.
+
+## If you get this rule wrong
+
+Overstating your days on a Certificate of Resident Status application, or understating Hong Kong income on a return,
+counts as giving incorrect information. The Inland Revenue Department normally loads a simple understatement at 10% of
+the tax undercharged for a first offence and 35% by a third within five years, with treble the tax possible in serious
+cases. A full voluntary disclosure made before any challenge places you in the lowest penalty band under its published
+policy. **Professional tax advice is strongly recommended in situations like this.**
+
+## Examples
+
+### Clearing the single-year threshold
+
+You rent a flat in Hong Kong and are there for 210 days in the year to 31 March. That's more than 180 days in a single
+year of assessment, so you qualify as a Hong Kong resident and can apply for a Certificate of Resident Status.
+
+### Two short years that add up
+
+You split your time between Hong Kong and a regional office, spending 160 days in Hong Kong in one year of assessment
+and 155 the next. Neither year clears 180 on its own, but the two together come to 315 days, so the 300-day route is met
+for either of those years.
+
+### Strong paperwork, no residence
+
+You hold a Hong Kong permanent identity card and keep a Hong Kong bank account, but you've lived and worked abroad for
+years and spent 30 days there this year. The card carries no weight by itself, and with no permanent home in Hong Kong
+and a day count far below either threshold, you're not a resident for treaty purposes.
+
+## Official sources
+
+- [Hong Kong Inland Revenue Department — Certificate of Resident Status](https://www.ird.gov.hk/eng/tax/dta_cor.htm)
+- [Hong Kong Inland Revenue Department — FAQ on Double Taxation Relief and Exchange of Information Arrangements](https://www.ird.gov.hk/eng/faq/dta_2006.htm)
+- [Hong Kong Inland Revenue Department — Residency for Tax Purposes and Taxpayer Identification Number (TIN)](https://www.ird.gov.hk/eng/tax/aeoi/res_tin.htm)
+- [Hong Kong Inland Revenue Department — Penalty Policy](https://www.ird.gov.hk/eng/pol/ppo.htm)
+
+## FAQ
+
+### If Hong Kong only taxes local income, why does tax residency matter?
+
+Mainly for tax treaties. A Certificate of Resident Status proves your Hong Kong residency so you can claim benefits,
+such as reduced withholding tax, under a double taxation agreement with another jurisdiction. It's also the status
+financial institutions report against for automatic exchange of account information.
+
+### Do I need to spend 180 days in Hong Kong to be a tax resident?
+
+No. You can also qualify by ordinarily residing in Hong Kong, with no day count at all, or by staying more than 300 days
+across two consecutive years of assessment when neither single year passes 180.
+
+### Does a Hong Kong permanent identity card make me a tax resident?
+
+Not by itself. Holding one doesn't answer the question — whether you ordinarily reside in Hong Kong is assessed on your
+actual circumstances, particularly whether you have a permanent home there where you or your family live.
+
+### Is my foreign income taxed in Hong Kong if I'm a resident?
+
+Generally not. Salaries tax applies to income arising in or derived from Hong Kong from an office, employment, or
+pension. Income genuinely sourced outside Hong Kong falls outside that charge whether or not you're a resident.
+
+### How do I get a Certificate of Resident Status?
+
+You apply to the Inland Revenue Department, online or by post, at no fee. The department aims to issue a certificate or
+a decision within 21 working days of a complete application, and a single application can cover at most three calendar
+years of claim.
+
+### What is the 60-day rule, and is it the same as the residency test?
+
+No, it's a separate exemption. If all your services in a year of assessment were rendered outside Hong Kong, your income
+is exempt from salaries tax. Visits to Hong Kong of no more than 60 days in total that year don't disturb the exemption.
+
+### Can I be a Hong Kong resident and a tax resident of another place at the same time?
+
+Yes. Meeting a Hong Kong route only settles your position under Hong Kong rules. Where another jurisdiction also treats
+you as a resident, the tie-breaker in the relevant double taxation agreement decides which one takes priority for
+specific income.

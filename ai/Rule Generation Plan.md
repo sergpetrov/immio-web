@@ -316,7 +316,12 @@ rows, not five:
 This is the single section that fully explains **how you qualify** — it carries both the
 routes/tests themselves and all of their qualifying detail, not split across a separate section.
 It does not cover day-counting mechanics (what counts as a day, the measurement window,
-arrival/departure treatment) — that's "How to keep track," section 10.
+arrival/departure treatment) — that's "How to keep track," section 10. This applies to route
+bullets too: a route bullet states the threshold and names the window it applies to ("more than 183
+days within a rolling twelve-month window"), not the fine mechanics of how that window is measured
+— whether days need to be consecutive, exactly how a lapsed window restarts, and so on. If the same
+counting-mechanic phrase, beyond the bare threshold and named window, starts appearing in more than
+one section, that's a sign it belongs in How to keep track alone.
 
 **If the rule is structured as independent alternative routes** (meet any one of several separate
 tests), list them as a flat bullet list, in any order, each with a bolded route name:
@@ -413,6 +418,15 @@ here. If a detailed "what evidence do I need" FAQ already exists for the rule, d
 procedural detail here (which form, which authority) — this trailing sentence is about the habit
 of recordkeeping as you go; let the FAQ carry the procedural detail. Skip this section entirely for
 a rule not measured in days (a points-based or income-threshold rule).
+
+**This cuts both ways: don't let counting-mechanic detail that belongs here leak back out into
+other sections.** The callout, Understanding the rule, and FAQ can all state the bare threshold and
+named window ("184 days within a twelve-month window") since that's a quick fact worth having close
+at hand — but the mechanics of that count (consecutive or not, exactly how the window restarts if
+it lapses, arrival/departure treatment) should appear once, here, and nowhere else. If an FAQ
+question would otherwise just restate this section's mechanic in different words, answer the direct
+question and point back in plain text — `see **How to keep track** above` — rather than re-deriving
+it.
 
 ---
 

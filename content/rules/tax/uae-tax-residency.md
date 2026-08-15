@@ -37,9 +37,9 @@ extra conditions, or having your main home and interests in the UAE with no day 
 claiming tax treaty benefits, since the UAE has **no personal income tax**.
 :::
 
-| Key facts               |                                              |
+| Key parameters          |                                              |
 |:------------------------|---------------------------------------------:|
-| Thresholds              |                            90 days, 183 days |
+| Threshold              |                            90 days, 183 days |
 | Period / Window         |                            Rolling 12 months |
 | Counting                |                            Any part of a day |
 | Additional requirements | Centre-of-interests, 90-day route conditions |

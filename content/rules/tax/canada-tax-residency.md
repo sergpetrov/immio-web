@@ -37,9 +37,9 @@ partner, or dependants in Canada. If you don't have those ties, you can still be
 Canada for **183 days or more** in the calendar year. A tax treaty can override either outcome.
 :::
 
-| Key facts               |                                |
+| Key parameters          |                                |
 |:------------------------|-------------------------------:|
-| Thresholds              |                       183 days |
+| Threshold               |                       183 days |
 | Period / Window         | Calendar year (1 Jan – 31 Dec) |
 | Counting                |              Any part of a day |
 | Additional requirements |          Residential ties test |

@@ -41,9 +41,9 @@ France instead qualifies when it's where you actually spent most of your time. M
 a low day count guarantees nothing on its own.
 :::
 
-| Key facts               |                                                 |
+| Key parameters          |                                                 |
 |:------------------------|------------------------------------------------:|
-| Thresholds              |                 6 months (effectively 183 days) |
+| Threshold              |                 6 months (effectively 183 days) |
 | Period / Window         |                  Calendar year (1 Jan – 31 Dec) |
 | Counting                |        Any part of a day (no formal count rule) |
 | Additional requirements | Home, professional activity, economic interests |

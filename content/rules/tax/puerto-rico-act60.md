@@ -41,9 +41,9 @@ though four alternative routes can substitute for it. That status is also the ga
 are applied for separately and carry their own conditions.
 :::
 
-| Key facts               |                                       |
+| Key parameters          |                                       |
 |:------------------------|--------------------------------------:|
-| Thresholds              |                              183 days |
+| Threshold              |                              183 days |
 | Period / Window         |        Calendar year (1 Jan – 31 Dec) |
 | Alternative             |                    549 days / 3 years |
 | Counting                |                     Any part of a day |

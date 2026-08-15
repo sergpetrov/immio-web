@@ -15,7 +15,7 @@ seo:
     deadline, renewals, the 5-year route to long-term residence, and the
     absence limits that break continuity.
 
-updatedAt: 2026-08-14
+updatedAt: 2026-08-15
 
 sources:
   - title: Polizia di Stato — Permesso di soggiorno
@@ -32,50 +32,55 @@ sources:
 ## Overview
 
 :::callout
-The permesso di soggiorno is Italy's residence permit, and the first deadline arrives immediately: you must apply
-within **8 working days** of entering Italy. It's issued for a fixed term tied to your reason for being there and
-renewed before each expiry. After **5 years** of continuous legal residence you can apply for **long-term residence**,
-which is open-ended rather than term-limited.
+The **permesso di soggiorno** is Italy's residence permit, and the first deadline arrives immediately — you must apply
+within **8 working days** of entering Italy. It's issued for a fixed term and renewed before each expiry.  Absences
+break that continuity: no single trip over **6 months**, and no more than **10 months** away in total. After
+**5 years** of continuous legal residence you can apply for **long-term residence**, which is open-ended.
 :::
 
-| Key facts               |                                             |
-|:------------------------|--------------------------------------------:|
-| Absence limit           |           6 months in a single absence |
-| Qualifying period       |               5 years for long-term status |
-| Period / Window         |                                     5 years |
-| Alternative             |     10 months total across the 5 years |
-| Additional requirements | Apply within 8 working days, renewals, income |
+| Key parameters          |                                            |
+|:------------------------|-------------------------------------------:|
+| Limit                   | 180 consecutive days (6 months) of absense |
+| Period / Window         |                     Per continuous absence |
+| Counting                |                      Whole days of absence |
+| Additional requirements |              10 months of absence in total |
 
 ## Understanding the rule
 
-Two distinct things are happening, and conflating them causes most of the trouble.
+This applies to any non-European Union (EU) national living in Italy on a residence permit, whatever purpose it was
+issued for.
 
-The **permesso di soggiorno itself** is a temporary permit tied to a purpose — work, study, family reunification,
-elective residence. It runs for a fixed term, typically one or two years depending on the category, and has to be
-renewed before it expires. The application window at the start is short and strictly applied: **8 working days** from
-entering Italy, submitted through a post office kit and followed by an appointment for fingerprinting.
+Two distinct things are happening, and conflating them causes most of the trouble:
 
-**Long-term residence** — the *permesso di soggiorno UE per soggiornanti di lungo periodo* — is what 5 years of that
-temporary status builds toward. It's open-ended, isn't tied to a single purpose, and supports moving to another EU
-member state under its own conditions. Obtaining it requires evidence of sufficient income, suitable accommodation, and
-passing an Italian language test at a basic level.
+- **The permesso di soggiorno** — a temporary permit tied to a purpose, such as work, study, family reunification or
+  elective residence. It runs for a fixed term, typically one or two years, and has to be renewed before each expiry.
+  The window to apply at the start is short and strictly applied.
+- **Long-term residence** — the permesso di soggiorno UE per soggiornanti di lungo periodo, which 5 years of that
+  temporary status builds toward. It's open-ended, isn't tied to a single purpose, and supports moving to another EU
+  member state.
 
-Continuity over the 5 years is what the absence limits protect: no single absence over **6 months**, and no more than
-**10 months** of total absence across the whole period. Renewal gaps matter as much as travel, since the residence has
-to be legal throughout.
+Continuity across those 5 years is what the absence limits protect, and two run at once — one caps any **single
+trip**, the other your **total** time away. Staying inside one doesn't protect you from the other.
+
+The residence also has to be **legal** throughout, not merely unbroken in person. A renewal gap breaks continuity as
+surely as travel does, even though you never left.
+
+Residence isn't the only requirement for long-term status. You also need an income at least equal to the annual social
+allowance — more if family members depend on it — **suitable accommodation** certified against regional standards, a
+**clean criminal record**, and a pass in an Italian language test at **A2 level**.
 
 ## How to keep track
 
-1. Apply for the initial permit within **8 working days** of arriving in Italy. This deadline is at the start of the
-   process, not the end, and missing it creates problems immediately.
-2. Track each permit's **expiry date** and start renewal in good time — renewals are typically submitted in the weeks
-   before expiry rather than after.
-3. For the 5-year long-term route, no single absence may exceed **6 months**, and total absences must stay under
-   **10 months** across the whole period.
-4. **Any part of a day** in Italy counts as presence, so a return trip during a long stay abroad matters for the
-   single-absence limit.
-5. Keep your **residency registration** with the local comune current, since your registered address is how the
-   authorities locate and verify you.
+1. Apply for the initial permit within **8 working days** of arriving in Italy, through the questura or a post office
+   kit depending on the permit type.
+2. Submit each renewal at least **60 days** before the permit expires, or **90 days** on an indefinite-term employment
+   permit.
+3. For the **5-year long-term route**, no single absence may exceed **6 months (180 days)**, and total absences must stay
+   under **10 months (300 days)** across the whole period.
+4. Only **whole days** outside Italy count as absence. Your **departure** and **return** days both count as **days in** Italy, so
+   an absence runs from the day after you leave to the day before you come back.
+5. Keep your **residency registration** with your local comune (municipality) current, since your registered address is
+   how the authorities locate and verify you.
 
 Keep the postal receipt from every application and renewal, your permit cards, your comune registration, and entry and
 exit evidence. The receipt matters more than people expect — it evidences lawful status while an application is
@@ -83,12 +88,11 @@ pending, which is often a long wait.
 
 ## Edge cases
 
-- **The receipt is your status while you wait.** Processing can take months, and the postal receipt for a submitted
-  renewal generally allows you to remain lawfully and, in many cases, to travel — it isn't merely a docket number.
-- **A late renewal is usually recoverable, an abandoned one often isn't.** Applying somewhat after expiry can often be
-  regularised, but leaving a permit lapsed with no application undermines the continuity the 5-year route depends on.
-- **Long-term status can still be lost.** Extended absence from the EU, or from Italy, after it's granted can end it,
-  so obtaining it isn't the end of the tracking.
+- **The receipt is your status while you wait.** Processing runs to months, and for work, self-employment and family
+  permits the receipt carries the same rights as the permit itself. Whether it also lets you travel is a separate
+  question and shouldn't be assumed.
+- **Long-term status can still be lost.** It's revoked after **12 consecutive months outside the EU** — not outside
+  Italy, so moving to another EU country doesn't trigger it — or after **6 years** away from Italy itself.
 - **The permit's purpose constrains what you can do.** A study permit permits limited work, an elective residence
   permit generally permits none, and working outside your permit's scope is a breach independent of your day count.
 - **Long-term residence is not citizenship.** Italian nationality has its own separate and generally longer residence
@@ -96,7 +100,7 @@ pending, which is often a long wait.
 
 ## If you get this rule wrong
 
-A permit that lapses without a renewal application leaves you without lawful status, which exposes you to an expulsion order and ends the continuity the 5-year long-term route depends on — restarting that clock rather than pausing it. Breaking continuity through absence has the same effect, so a single overlong trip late in the qualifying period can cost most of a fresh five years. **Professional immigration advice is strongly recommended in situations like this.**
+Missing the 8-working-day deadline, or letting a permit lapse with no renewal application, leaves you without lawful status and exposes you to an administrative expulsion order. Either also ends the continuity the 5-year long-term route depends on, restarting that clock rather than pausing it. Breaking continuity through absence works the same way, so one overlong trip late in the period can cost most of a fresh five years. **Professional advice is strongly recommended in situations like this.**
 
 ## Examples
 
@@ -131,18 +135,24 @@ fingerprinting at the immigration office.
 
 ### What can I do while my permit is being processed?
 
-The postal receipt for a submitted application evidences lawful status while you wait, and in many cases supports
-travel as well. Processing frequently takes months, so the receipt does real work.
+The receipt for a submitted application evidences lawful stay, and for work, self-employment and family permits it
+carries the same rights as the permit itself. Processing frequently takes months, so the receipt does real work. Don't
+assume it covers travel outside Italy.
 
 ### How long until I can apply for long-term residence?
 
-Five years of continuous legal residence, plus evidence of sufficient income, suitable accommodation, and a basic
-Italian language test.
+Five years of continuous legal residence, plus an income at least equal to the annual social allowance, suitable
+certified accommodation, a clean criminal record, and a pass in an Italian language test at A2 level.
 
 ### How much time can I spend outside Italy during those five years?
 
 No single absence longer than 6 months, and no more than 10 months in total across the whole period. Both limits apply
 together.
+
+### Do my departure and return days count as absence?
+
+No. Both are treated as days of presence in Italy, so an absence runs from the day after you leave to the day before
+you return. Only whole days outside the country count toward the 180-day and 300-day limits.
 
 ### What happens if my permit expires before I renew?
 

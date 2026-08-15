@@ -1,8 +1,8 @@
 ---
 id: uk-citizenship
 
-title: UK Citizenship (450-day rule)
-subtitle: 450 days absence over 5 years ∙ 90 days in final year ∙ 12 months settled
+title: UK Citizenship (Naturalisation)
+subtitle: 270 of 450 days of absence ∙ ≤90 days in final 12 months
 
 category: immigration
 
@@ -11,9 +11,9 @@ place: gb
 seo:
   title: UK Citizenship Residence Rules Explained | Immio
   description: >
-    How UK naturalisation residence rules work — the 450-day and 90-day
-    absence limits, the 12-month settled status wait, the day-one presence
-    requirement, and where discretion applies.
+    How UK naturalisation residence rules work — the 5-year and 3-year
+    routes, the 450-day and 270-day absence limits, the 90-day final-year
+    cap, and the day-one presence requirement.
 
 updatedAt: 2026-08-14
 
@@ -27,43 +27,39 @@ sources:
 
 ---
 
-# UK Citizenship (450-day rule)
+# United Kingdom Citizenship (Naturalisation)
 
 ## Overview
 
 :::callout
-Naturalising as a British citizen normally means 5 years of UK residence with no more than **450 days** outside the UK
-across that period, and no more than **90 days** outside in the final 12 months. You also have to have held settled
-status — usually Indefinite Leave to Remain — for at least **12 months** before applying, and to have been physically
-in the UK exactly 5 years before the application date.
+Naturalising normally takes **5 years** of UK residence, with no more than **450 days** outside the UK across that
+period. Spouses of British citizens get a shorter route — **3 years** and **270 days**. Either way you can't be
+outside the UK more than **90 days** in the final 12 months, and you must hold settled status when you apply.
 :::
 
-| Key facts               |                                                  |
-|:------------------------|-------------------------------------------------:|
-| Absence limit           |                        450 days over 5 years |
-| Qualifying period       |                                          5 years |
-| Period / Window         |               5 years back from application date |
-| Alternative             |                    90 days in the final 12 months |
-| Additional requirements | 12 months settled, day-one presence, good character |
+| Key parameters          |                                           |
+|:------------------------|------------------------------------------:|
+| Limit                   |                       450 days of absence |
+| Qualifying period       |                                   5 years |
+| Alternative             |             270 days of absence / 3 years |
+| Counting                |                                Whole days |
+| Additional requirements | 90 days of absence in the final 12 months |
 
 ## Understanding the rule
 
-Four separate residence conditions have to hold at once, and failing any one of them is enough to sink an application
-that satisfies the other three:
+There are two routes, and which one you're on sets both the qualifying period and the absence limit:
 
-- **450 days** — total absence from the UK across the whole 5-year qualifying period.
-- **90 days** — absence in the final 12 months before the application date.
-- **12 months settled** — you must have held Indefinite Leave to Remain, settled status, or equivalent for at least a
-  year before applying.
-- **Day-one presence** — you must have been physically in the UK on the day exactly 5 years before the Home Office
-  receives your application.
+- **Standard route** — **5 years** of residence, **450 days** of absence, and settled status held for at least
+  **12 months** before applying.
+- **Spouse or civil partner of a British citizen** — **3 years** of residence and **270 days** of absence, with no
+  12-month wait after settled status, though you still need it when you apply.
 
-The route is shorter for spouses and civil partners of British citizens: 3 years of residence, a 270-day absence limit
-across that period, the same 90-day final-year limit, and no requirement to have held settled status for 12 months
-first — though settled status is still needed at the point of applying.
+Both routes then share two further conditions. Absence in the **final 12 months** can't exceed **90 days**. And you
+must have been physically in the UK on the day exactly 5 years — or 3 years — before the Home Office receives your
+application. That last one catches people out because it isn't a limit at all, but a single fact about one date.
 
-The day-one requirement is the one people miss entirely, because it isn't a limit but a single fact about one specific
-date. If you were abroad on that date, the qualifying period doesn't start when you need it to.
+Residence isn't the only requirement. You also need to be of **good character**, pass the **Life in the UK test**,
+prove **English at B1 level**, and — on the 5-year route — confirm you intend to keep living in the UK.
 
 ## How to keep track
 
@@ -83,11 +79,10 @@ enter.
 
 ## Edge cases
 
+- **It isn't 90 days per year.** The 450 is a single total across the whole 5 years, so it can be spent unevenly — but
+  the separate 90-day cap on the final 12 months still has to hold whatever you did earlier.
 - **The two absence limits are independent.** Someone comfortably under 450 across five years can still fail on 90 days
   in the final year, and the reverse is equally true.
-- **Excess absences can be exercised discretionarily, but not as of right.** The Home Office can overlook absences
-  above the limits where the circumstances justify it — the further above, the stronger the case has to be, and it is
-  never guaranteed.
 - **Time before settled status still counts toward the 5 years.** The qualifying period is about lawful residence, not
   about how long you've held settlement, which is the separate 12-month condition.
 - **Breaching immigration conditions during the period can be fatal.** Lawful residence throughout is required, so a
@@ -95,7 +90,7 @@ enter.
 
 ## If you get this rule wrong
 
-A refused application costs the fee, which is not refunded, and leaves a refusal on your immigration record that later applications are assessed against. Where the refusal is on residence grounds the practical effect is delay rather than a permanent bar — you reapply once your absences fall inside the limits — but a refusal touching good character or deception is far more serious and can block naturalisation for years. **Professional immigration advice is strongly recommended in situations like this.**
+A refused application costs the fee, which is not refunded, and leaves a refusal on your immigration record that later applications are assessed against. Where the refusal is on residence grounds the practical effect is delay rather than a permanent bar — you reapply once your absences fall inside the limits — but a refusal touching good character or deception is far more serious and can block naturalisation for years. **Professional advice is strongly recommended in situations like this.**
 
 ## Examples
 
@@ -143,10 +138,10 @@ to.
 On the standard route, yes — settled status for at least 12 months before applying. Spouses of British citizens don't
 need that 12-month wait, but must still hold settled status when they apply.
 
-### Can excess absences be forgiven?
+### What else do I need besides the residence requirements?
 
-Sometimes. The Home Office has discretion to overlook absences beyond the limits, and the case has to be stronger the
-further over you are. It's discretionary, not an entitlement, and shouldn't be relied on when planning.
+Good character, a pass in the Life in the UK test, English at B1 level, and — on the 5-year route — confirmation that
+you intend to keep living in the UK. You also have to be 18 or over.
 
 ### Does time before I got settled status count toward the 5 years?
 

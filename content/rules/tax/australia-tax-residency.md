@@ -37,12 +37,12 @@ meaning, have your **domicile** there, are present for **183 days or more** in t
 government superannuation membership. Each test has its own carve-outs.
 :::
 
-| Key facts               |                                         |
-|:------------------------|----------------------------------------:|
-| Thresholds              |                                183 days |
-| Period / Window         |            Income year (1 Jul – 30 Jun) |
-| Counting                |                       Any part of a day |
-| Additional requirements | Resides, domicile, superannuation tests |
+| Key parameters           |                                         |
+|:-------------------------|----------------------------------------:|
+| Threshold                |                                183 days |
+| Period / Window          |            Income year (1 Jul – 30 Jun) |
+| Counting                 |                       Any part of a day |
+| Additional requirements  | Resides, domicile, superannuation tests |
 
 ## Understanding the rule
 

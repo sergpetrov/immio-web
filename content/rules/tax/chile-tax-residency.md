@@ -38,9 +38,9 @@ no day count at all and can apply from your first day. New foreign residents get
 foreign income is taxed in Chile.
 :::
 
-| Key facts               |                    |
+| Key parameters          |                    |
 |:------------------------|-------------------:|
-| Thresholds              | More than 183 days |
+| Threshold              | More than 183 days |
 | Period / Window         |  Rolling 12 months |
 | Counting                |  Any part of a day |
 | Additional requirements |      Domicile test |

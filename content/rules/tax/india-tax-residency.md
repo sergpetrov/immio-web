@@ -41,9 +41,9 @@ job abroad, and citizens or people of Indian origin visiting India, get that 60-
 then decides how much of a resident's foreign income India actually taxes.
 :::
 
-| Key facts               |                                                 |
+| Key parameters          |                                                 |
 |:------------------------|------------------------------------------------:|
-| Thresholds              |                                        182 days |
+| Threshold              |                                        182 days |
 | Period / Window         |                       Tax year (1 Apr – 31 Mar) |
 | Alternative             |         60 days/year and 365 days/4 prior years |
 | Counting                |                               Any part of a day |

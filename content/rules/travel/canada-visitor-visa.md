@@ -15,7 +15,7 @@ seo:
     difference between an eTA and a visitor visa, what happens without a
     passport stamp, extensions, and restoring lost status.
 
-updatedAt: 2026-08-14
+updatedAt: 2026-08-15
 
 sources:
   - title: Immigration, Refugees and Citizenship Canada — Visit Canada
@@ -41,11 +41,11 @@ people up sits at the border: if the officer doesn't stamp your passport, you're
 your entry date, and nothing in your passport says so.
 :::
 
-| Key facts               |                                         |
-|:------------------------|----------------------------------------:|
-| Stay limit              |                     6 months per entry |
-| Period / Window         |                               Per entry |
-| Counting                |                       Any part of a day |
+| Key parameters          |                                     |
+|:------------------------|------------------------------------:|
+| Limit                   |                            6 months |
+| Period / Window         |                           Per visit |
+| Counting                |                   Any part of a day |
 | Additional requirements | eTA or visa by nationality, no work |
 
 ## Understanding the rule
@@ -55,7 +55,8 @@ Two separate questions decide your position, and mixing them up is the usual sou
 **What you need to travel** turns on nationality. Visa-exempt nationals flying to Canada need an **electronic travel
 authorization (eTA)**, valid up to 5 years or until the passport expires. Visa-required nationals need a **temporary
 resident visa** applied for in advance. Arriving by land or sea, visa-exempt travellers generally need neither, though
-the visa requirement still applies to those who need one.
+the visa requirement still applies to those who need one. United States citizens sit outside both requirements
+entirely, whichever way they travel.
 
 **How long you can stay** is decided separately, at the border, by a Canada Border Services Agency officer. The default
 is 6 months, but the officer can grant less and will mark the passport accordingly. The rule that catches people is the
@@ -86,14 +87,15 @@ the entry date, because that date is what your six months runs from.
   still subject to a six-month admission decided at the border.
 - **A visitor record is not a visa.** It extends how long you may stay, but it doesn't let you re-enter — if you leave
   Canada, you need your original eTA or visa to come back.
-- **Losing status can sometimes be repaired.** If your status expires, you may apply to restore it within **90 days**,
-  staying in Canada throughout and paying the restoration fee. Miss that window and the route closes.
+- **Parents and grandparents can stay far longer.** A super visa lets the parent or grandparent of a Canadian citizen
+  or permanent resident stay up to **5 years** per entry, extendable by up to 2 years from inside Canada. It carries
+  its own medical and private health insurance conditions.
 - **Border officers can admit you for less than 6 months.** A short admission is entirely within their discretion, and
   the date they write is the one that counts.
 
 ## If you get this rule wrong
 
-Staying past your authorised date means losing your status, and the 90-day restoration window is the only straightforward repair — miss it and you're expected to leave, with future applications assessed against a record that now shows non-compliance. Enforcement action leads to a removal order, and an exclusion order bars return for a set period, commonly one year, unless written authorisation to return is granted. **Professional immigration advice is strongly recommended in situations like this.**
+Staying past your authorised date ends your status, and every later application is assessed against a record that now shows non-compliance. Enforcement leads to a removal order — most often an exclusion order, barring return for 1 year from the date it is enforced, or 5 years where it was made for misrepresentation. **Professional advice is strongly recommended in situations like this.**
 
 ## Examples
 

@@ -38,9 +38,9 @@ days in the year alongside a three-year total of **425 days**. Separate long-run
 arrival actually pays.
 :::
 
-| Key facts               |                                              |
+| Key parameters          |                                              |
 |:------------------------|---------------------------------------------:|
-| Thresholds              |                                     183 days |
+| Threshold              |                                     183 days |
 | Period / Window         |                    Tax year (1 Jan – 31 Dec) |
 | Alternative             |            30 days/year and 425 days/3 years |
 | Counting                |                            Any part of a day |

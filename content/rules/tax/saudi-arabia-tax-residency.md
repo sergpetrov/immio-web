@@ -38,9 +38,9 @@ income, so the status matters mainly for treaty benefits and a Tax Residency Cer
 income is taxed and how Zakat applies.
 :::
 
-| Key facts               |                                     |
+| Key parameters          |                                     |
 |:------------------------|------------------------------------:|
-| Thresholds              |                            183 days |
+| Threshold              |                            183 days |
 | Period / Window         |      Calendar year (1 Jan – 31 Dec) |
 | Alternative             |                             30 days |
 | Counting                |                   Any part of a day |

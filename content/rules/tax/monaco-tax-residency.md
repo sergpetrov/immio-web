@@ -42,9 +42,9 @@ least **183 days** a year. A shorter stay also qualifies, provided you still spe
 other single country.
 :::
 
-| Key facts               |                                                   |
+| Key parameters          |                                                   |
 |:------------------------|--------------------------------------------------:|
-| Thresholds              |                                          183 days |
+| Threshold              |                                          183 days |
 | Period / Window         |                    Calendar year (1 Jan – 31 Dec) |
 | Alternative             |           More time than any other single country |
 | Counting                |                                 Any part of a day |

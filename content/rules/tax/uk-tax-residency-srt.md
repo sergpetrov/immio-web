@@ -44,9 +44,9 @@ and finally the **sufficient ties test**. The number of days you can spend in th
 depends on your UK ties and whether you were UK resident in previous tax years.
 :::
 
-| Key facts               |                                            |
+| Key parameters          |                                            |
 |:------------------------|-------------------------------------------:|
-| Thresholds              |                  15, 45, 90, 120, 182 days |
+| Threshold              |                  15, 45, 90, 120, 182 days |
 | Period / Window         |                UK tax year (6 Apr – 5 Apr) |
 | Counting                |                     Nights (midnight rule) |
 | Additional requirements | Previous 3 tax years, sufficient ties test |

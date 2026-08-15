@@ -15,7 +15,7 @@ seo:
     travel facility, why it expires when your status doesn't, the Resident
     Return Visa, and the 2-years-in-5 residence test.
 
-updatedAt: 2026-08-14
+updatedAt: 2026-08-15
 
 sources:
   - title: Department of Home Affairs — Resident Return visa (subclass 155 and 157)
@@ -38,31 +38,33 @@ first obtaining a **Resident Return Visa**. The standard route to that is having
 Australia.
 :::
 
-| Key facts               |                                              |
-|:------------------------|---------------------------------------------:|
-| Absence limit           |        2 years required in Australia |
-| Qualifying period       |                                      5 years |
-| Period / Window         |                            Rolling 5 years |
-| Counting                |                            Any part of a day |
-| Additional requirements | Travel facility expiry, substantial ties test |
+| Key parameters          |                        |
+|:------------------------|-----------------------:|
+| Presence required       |     730 days (2 years) |
+| Period / Window         |        Rolling 5 years |
+| Counting                |      Any part of a day |
+| Additional requirements | Substantial ties route |
 
 ## Understanding the rule
 
+This applies to Australian permanent residents who travel, however they obtained the status.
+
 The distinction that governs everything here is between **status** and **travel facility**. Permanent residence itself
-is indefinite and doesn't lapse through absence. What lapses is the permission to *return* to Australia, which is built
+is indefinite and doesn't lapse through absence. What lapses is the permission to return to Australia, which is built
 into your permanent visa for its first 5 years and then runs out.
 
 A permanent resident whose travel facility has expired and who is inside Australia is entirely lawful and can stay
-indefinitely. The problem arises only at the border, on the way back in — which is why people discover it when booking
-a trip rather than while living their lives.
+indefinitely. The problem arises only at the border, on the way back in.
 
-Restoring the ability to travel means a **Resident Return Visa**, and there are two ways to qualify:
+Restoring the ability to travel means a **Resident Return Visa**, which can be granted three ways:
 
 - **Two years in five** — you were in Australia as a permanent resident for a total of 2 years in the 5 years before
   applying. This is the standard route and grants a 5-year travel facility.
 - **Substantial ties** — where you fall short on days, you can qualify on substantial business, cultural, employment or
-  personal ties benefiting Australia. This usually grants a much shorter facility, often 1 year, and requires evidence
-  rather than arithmetic.
+  personal ties benefiting Australia. This grants a maximum of 12 months rather than five, and turns on evidence rather
+  than arithmetic.
+- **Compelling reasons for absence** — a separate, shorter Resident Return Visa covers a permanent resident who meets
+  neither test but had compelling and compassionate reasons for being away. It grants a 3-month facility.
 
 ## How to keep track
 
@@ -83,16 +85,16 @@ of the ties themselves — employment, business activity, family, property.
 
 - **Your status survives what your travel facility doesn't.** An expired facility never makes you unlawful inside
   Australia. It only stops you re-entering, so the risk is entirely about being caught abroad.
-- **The substantial-ties route grants far less time.** Qualifying on ties rather than days typically produces a
-  one-year facility rather than five, so it buys a trip rather than a decade of freedom.
+- **A family member of a Resident Return Visa holder has their own route.** Being in the family unit of someone who
+  holds or is granted one can qualify you where your own day count and ties would not.
 - **Time abroad before you became a permanent resident doesn't help or hurt.** The 2-year count is time in Australia
-  *as a permanent resident*, so earlier visits on other visas don't contribute.
+  as a permanent resident, so earlier visits on other visas don't contribute.
 - **New Zealand citizens sit outside this framework** under separate trans-Tasman arrangements, and shouldn't apply
   these rules to their own position.
 
 ## If you get this rule wrong
 
-The failure mode is being stranded: outside Australia with an expired travel facility, unable to board a flight home, and applying for a Resident Return Visa from abroad — which is harder to win than applying from inside, since the day count that would have qualified you keeps deteriorating while you're away. Where neither the residence nor the ties route succeeds, the practical outcome is losing the ability to return as a resident at all, and any progress toward citizenship stops with it. **Professional immigration advice is strongly recommended in situations like this.**
+The failure mode is being stranded — outside Australia with an expired travel facility and unable to board a flight home. Applying for a Resident Return Visa from abroad is the harder position, because the day count that would have qualified you only worsens while you're away. Where neither the residence nor the ties route succeeds, you lose the ability to return as a resident at all, and any progress toward citizenship stops with it. **Professional advice is strongly recommended in situations like this.**
 
 ## Examples
 
@@ -105,7 +107,7 @@ expire, you apply for a Resident Return Visa, easily clear 2 years in 5, and rec
 
 You took a three-year overseas posting and have been in Australia for only about 14 months of the last five years. The
 standard route fails, but your Australian employment and family ties support a substantial-ties application — which
-grants a one-year facility rather than five.
+grants at most 12 months rather than five years.
 
 ### Discovering the problem from abroad
 
@@ -137,8 +139,9 @@ it grants a fresh 5-year travel facility.
 
 ### What if I haven't spent 2 years in Australia?
 
-You may qualify on substantial ties — business, cultural, employment or personal ties benefiting Australia. This route
-is evidence-based rather than arithmetic, and usually grants a much shorter facility, often 1 year.
+You may qualify on substantial ties — business, cultural, employment or personal ties benefiting Australia. That route
+is evidence-based rather than arithmetic and grants a maximum of 12 months. A shorter 3-month option exists where
+compelling and compassionate reasons explain the absence.
 
 ### Can I apply for a Resident Return Visa from outside Australia?
 

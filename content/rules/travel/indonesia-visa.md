@@ -15,7 +15,7 @@ seo:
     30-day extension, applying for an e-VOA in advance, the in-person
     extension requirement, and what an overstay costs.
 
-updatedAt: 2026-08-14
+updatedAt: 2026-08-15
 
 sources:
   - title: Direktorat Jenderal Imigrasi — Official e-visa portal
@@ -33,43 +33,41 @@ sources:
 
 :::callout
 Nationals of a defined list of countries can enter Indonesia on a **Visa on Arrival** valid for **30 days**, extendable
-once by a further **30 days** for a maximum stay of 60. You can buy it at the airport or apply online beforehand as an
+once by a further **30 days** for a maximum stay of **60**. You can buy it at the airport or apply online beforehand as an
 **e-VOA**, which is the same permission obtained in advance. It is a visit permission only — it carries no right to
 work, and the extension now has to be done in person.
 :::
 
-| Key facts               |                                       |
-|:------------------------|--------------------------------------:|
-| Stay limit              |                               30 days |
-| Period / Window         |                             Per entry |
-| Alternative             | 30-day extension, once |
-| Counting                |                     Any part of a day |
-| Additional requirements | Eligible nationality, no work rights |
+| Key parameters          |                               |
+|:------------------------|------------------------------:|
+| Limit                   |                       30 days |
+| Period / Window         |                     Per visit |
+| Alternative             |        30-day extension, once |
+| Counting                |             Any part of a day |
+| Additional requirements | Eligible nationality, no work |
 
 ## Understanding the rule
 
 Visa on Arrival and e-VOA are the same permission bought at different moments. Applying online in advance gets you an
-e-VOA that lets you use the automated gates and skip the payment queue; buying it at the counter on arrival produces
+e-VOA that lets you use the automated gates and skip the payment queue. Buying it at the counter on arrival produces
 the identical 30-day stay. Neither is a visa in the fuller sense — both are short-stay visit permissions tied to
 tourism, family visits, transit, and a narrow band of business meetings.
 
-The extension is the part that changed. It can be taken only **once**, which caps this route at 60 days, and since 2025
-it requires attending an immigration office in person rather than completing the process entirely online. Applications
-are normally made a week or two before the current permission expires, not on the last day.
-
-Where this route doesn't stretch far enough, the alternatives are separate permissions rather than further extensions:
-a visit visa applied for before travel gives longer, and a limited stay permit is the route for anyone actually
-working or living in Indonesia.
+The stay can be extended **once**, which caps this route at **60 days**. Where that isn't enough, the alternatives are
+separate permissions rather than further extensions — a visit visa applied for before travel gives longer, and a
+limited stay permit is the route for anyone actually working or living in Indonesia.
 
 ## How to keep track
 
 1. The stay is **30 days** from the date you're admitted, and it counts calendar days rather than working days.
-2. **Any part of a day** counts, so your arrival and departure days both fall inside the 30.
-3. The extension gives **one further 30 days** and no more. Once used, the route is exhausted at 60 days and you have
+2. An e-VOA bought in advance must be used within **90 days** of issue. That window is separate from the stay itself,
+   which only starts running when you land.
+3. **Any part of a day** counts, so your arrival and departure days both fall inside the 30.
+4. The extension gives **one further 30 days** and no more. Once used, the route is exhausted at 60 days, and you have
    to leave or move to a different visa.
-4. Start the extension **7 to 14 days before** your current permission expires. Leaving it to the final days risks
-   running out of time, since the process now involves an in-person appointment.
-5. Eligibility is by nationality and the list changes, so confirm yours is still covered before relying on buying the
+5. Start the extension around **two weeks before** your current permission expires. The appointment involves
+   fingerprints and a photograph taken in person, so the final days are too late to begin.
+6. Eligibility is by nationality and the list changes, so confirm yours is still covered before relying on buying the
    permission at the airport.
 
 Keep your e-VOA approval or arrival receipt, your entry stamp, and any extension paperwork. Your permitted-until date
@@ -77,8 +75,15 @@ comes from the stamp, and that is the date measured against you.
 
 ## Edge cases
 
-- **Extensions must be done in person now.** A rule change in 2025 ended the fully online extension, so anyone planning
-  a 60-day stay needs to be somewhere they can attend an immigration office partway through.
+- **A valid e-VOA doesn't guarantee entry.** Your passport needs at least six months left on it, and an officer can
+  ask to see an onward or return ticket before admitting you. Both are checked at the border rather than when you buy
+  the permission.
+- **Extensions must be done in person now.** A 2025 rule change reinstated biometric capture for every extension, so
+  anyone planning a 60-day stay needs to be somewhere they can attend an immigration office partway through. An agent
+  can prepare the paperwork, but nobody can attend in your place.
+- **Bali charges its own tourist levy on top of the visa.** Foreign visitors pay a separate one-off amount per trip,
+  collected by the province rather than by immigration. Paying for the visa does not cover it, and the two are handled
+  through different official portals.
 - **One extension is the hard limit on this route.** There is no second extension. A stay beyond 60 days requires
   leaving and re-entering, or a different permission obtained separately.
 - **The permission carries no work rights.** Remote work for a foreign employer sits in a grey area, but any work for
@@ -88,7 +93,7 @@ comes from the stamp, and that is the date measured against you.
 
 ## If you get this rule wrong
 
-Overstaying is charged at a fixed daily fine, payable before you can leave, and it applies from the first day past your permitted date with no grace period. Beyond 60 days of overstay the matter stops being a fine and becomes an immigration offence — deportation and a re-entry ban recorded against you, with the ban length set by immigration rather than fixed in advance. **Professional immigration advice is strongly recommended in situations like this.**
+Overstaying is charged at a fixed daily fine, payable before you can leave, and it applies from the first day past your permitted date with no grace period. Beyond 60 days the matter stops being a fine and becomes an immigration offence, meaning deportation and a re-entry ban recorded against you. The ban length is set by immigration case by case rather than fixed in advance. **Professional advice is strongly recommended in situations like this.**
 
 ## Examples
 
@@ -130,8 +135,8 @@ No. One 30-day extension is the limit on this route, capping the total stay at 6
 
 ### Can I extend online?
 
-Not any more. Since a 2025 rule change, extensions require attending an immigration office in person, so plan to be
-somewhere you can do that partway through your stay.
+Not any more. Since a 2025 rule change, every extension requires attending an immigration office in person to give
+fingerprints and have a photograph taken, so plan to be somewhere you can do that partway through your stay.
 
 ### Can I work on a Visa on Arrival?
 
@@ -140,5 +145,10 @@ client falls outside it, and longer-term work requires a limited stay permit.
 
 ### When should I apply for the extension?
 
-Around 7 to 14 days before your current permission expires. Leaving it later risks not securing an appointment in time,
+Around two weeks before your current permission expires. Leaving it later risks not securing an appointment in time,
 and overstay charges begin immediately once the permitted date passes.
+
+### How long is an e-VOA valid before I travel?
+
+Ninety days from the date it's issued. That's the window in which you have to enter Indonesia — the 30-day stay starts
+on arrival, not on the day the e-VOA was granted.

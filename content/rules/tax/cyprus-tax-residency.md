@@ -37,9 +37,9 @@ You're Cyprus tax resident if you spend **more than 183 days** in Cyprus in the 
 non-domicile status can reduce tax on investment income for qualifying residents.
 :::
 
-| Key facts               |                                                        |
+| Key parameters          |                                                        |
 |:------------------------|-------------------------------------------------------:|
-| Thresholds              |                            60 days, more than 183 days |
+| Threshold               |                            60 days, more than 183 days |
 | Period / Window         |                         Calendar year (1 Jan – 31 Dec) |
 | Counting                |                    Any part of a day, except departure |
 | Additional requirements | No 183-day residence elsewhere, 60-day rule conditions |

@@ -37,9 +37,9 @@ You're a Turkish tax resident if you have a settled home in Turkey, or if you're
 exceptions can override the six-month test for people present only for a specific, temporary purpose.
 :::
 
-| Key facts               |                                     |
+| Key parameters          |                                     |
 |:------------------------|------------------------------------:|
-| Thresholds              |     6 months (effectively 183 days) |
+| Threshold               |     6 months (effectively 183 days) |
 | Period / Window         |      Calendar year (1 Jan – 31 Dec) |
 | Counting                |                   Any part of a day |
 | Additional requirements | Domicile test, statutory exceptions |

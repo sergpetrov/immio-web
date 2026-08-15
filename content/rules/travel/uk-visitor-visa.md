@@ -2,7 +2,7 @@
 id: uk-visitor-visa
 
 title: UK Standard Visitor Visa (6-month rule)
-subtitle: 6 months per visit ∙ No work ∙ Long-term visas available
+subtitle: 6 months per visit ∙ No UK work ∙ Long-term visas available
 
 category: travel
 
@@ -15,7 +15,7 @@ seo:
     what long-term visitor visas actually grant, the permitted activities,
     and why frequent visits can get you refused.
 
-updatedAt: 2026-08-14
+updatedAt: 2026-08-15
 
 sources:
   - title: GOV.UK — Standard Visitor visa
@@ -24,8 +24,11 @@ sources:
   - title: Home Office — Immigration Rules Appendix V (Visitor)
     url: https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-v-visitor
     type: official
-  - title: GOV.UK — Electronic Travel Authorisation (ETA)
-    url: https://www.gov.uk/apply-electronic-travel-authorisation-eta
+  - title: GOV.UK — Electronic travel authorisation (ETA)
+    url: https://www.gov.uk/eta
+    type: official
+  - title: "Home Office — Immigration Rules Appendix Visitor: Permitted Activities"
+    url: https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-visitor-permitted-activities
     type: official
 
 ---
@@ -36,48 +39,45 @@ sources:
 
 :::callout
 A Standard Visitor can normally stay in the UK for up to **6 months** per visit. A long-term visitor visa can run for
-2, 5 or 10 years, but it doesn't extend that limit — it only saves you re-applying, and each individual visit is still
-capped at 6 months. There is no annual allowance and no fixed gap you must leave between visits, which is precisely why
+**2, 5** or **10 years**, but it doesn't extend that limit — it only saves you re-applying, and each individual visit is **still**
+capped at **6 months**. There is no annual allowance and no fixed gap you must leave between visits, which is precisely why
 a pattern of long, frequent stays draws attention.
 :::
 
-| Key facts               |                                            |
-|:------------------------|-------------------------------------------:|
-| Stay limit              |                       6 months per visit |
-| Period / Window         |                       Per entry, no annual cap |
-| Counting                |                          Any part of a day |
-| Additional requirements | No work, no public funds, genuine visitor |
+| Key parameters          |                          |
+|:------------------------|-------------------------:|
+| Limit                   |                 6 months |
+| Period / Window         |                Per visit |
+| Counting                |        Any part of a day |
+| Additional requirements | No work, no public funds |
 
 ## Understanding the rule
 
-The permission is granted per visit, not per year. Whether you hold a six-month visa, a ten-year one, or need no visa
-at all, the entry itself is what carries the 6-month limit.
+The permission is granted **per visit, not per year**. Whether your visa runs for six months or ten years, or you need
+no visa at all, **each entry** carries the same **6-month limit**. It applies to anyone arriving as a visitor — not to someone
+already holding leave on a work, study or family route, whose own permission governs instead.
 
-What actually governs your stay is the **genuine visitor** requirement, and it is a test of intention as much as of
-time. You have to satisfy the Home Office that you'll leave at the end of your visit, that you'll do only permitted
-activities, and that you aren't in effect living in the UK through a succession of visits. That last point has no
-numeric trigger. There is no published rule saying "no more than X days a year," which means an officer weighs your
-overall pattern — how much of the last year or two you've spent in the UK, what ties you have elsewhere, and whether
-your life now appears to be based here.
+Clearing 6 months isn't enough on its own. You also have to pass the **genuine visitor** test, which is about intention
+as much as time:
 
-A visitor cannot work, cannot access public funds, and cannot use the route to settle. A narrow list of permitted
-activities is allowed — business meetings, negotiations, conferences, some academic work, some paid engagements for
-experts — but employment, running a business from the UK, and most paid work for a UK company are not.
-
-Two categories get longer than 6 months: academic visitors on a qualifying arrangement and people admitted for private
-medical treatment can be granted up to 12 months.
+- **You'll leave** at the end of your visit.
+- **You'll stick to permitted activities** — tourism, visiting family and friends, business meetings and negotiations,
+  conferences, and certain paid engagements.
+- **You won't take UK work or settle here.** Taking a job, running a business from the UK, most paid work for a UK
+  organisation, claiming public funds and using the route to settle all sit outside what a visit allows.
+- **You aren't living in the UK through repeat visits.** This one has no numeric trigger, so an officer weighs your
+  overall pattern instead.
 
 ## How to keep track
 
 1. The limit is **6 months** from the date you're admitted, applied to each visit separately.
 2. **Any part of a day** in the UK counts, so your arrival and departure days both fall inside the permitted period.
-3. A long-term visit visa's validity is not your stay limit. A 10-year visa means 10 years of being able to *travel*,
-   with each arrival still capped at 6 months.
+3. A long-term visit visa's validity is not your stay limit. Each visit still capped at **6 months**.
 4. Track your cumulative time across visits as well as each individual stay, because the genuine-visitor assessment
    looks at the overall pattern rather than any single trip.
 
 Keep entry stamps, boarding passes and accommodation records, and keep evidence of your ties abroad — employment,
-property, family, study — since that is what answers the question of whether you'll leave at the end of the visit.
+property, family, study — since that is what answers whether you'll leave at the end of the visit.
 
 ## Edge cases
 
@@ -85,15 +85,20 @@ property, family, study — since that is what answers the question of whether y
   longer stay. It isn't. It's permission to keep arriving over five years, still 6 months at a time.
 - **There is no safe ratio of time in to time out.** Advice circulating about "six months in, six months out" has no
   basis in the rules. What matters is whether your pattern shows you're visiting or effectively living here.
-- **Most nationalities now need an Electronic Travel Authorisation before travelling.** Visitors who don't require a
-  visa in advance generally need an ETA instead, applied for before departure. It's a pre-travel permission, not a
-  visa, and it doesn't change the 6-month limit.
-- **Extending a visit is possible only in narrow circumstances.** Extensions are limited — private medical treatment is
-  the main one — and the total time as a visitor still normally can't exceed 6 months.
+- **Visa-free travellers need an Electronic Travel Authorisation.** Since February 2026 an airline or ferry operator
+  must refuse to board you without one. An ETA lasts 2 years or until your passport expires, and it changes neither
+  the 6-month limit nor the officer's discretion at the border.
+- **You can't switch to another route from inside the UK.** Being offered a job or a course place during a visit
+  doesn't let you apply from here — you have to leave and apply from your country of residence.
+- **Recreational study is allowed, but capped at 30 days.** A leisure course leading to no formal qualification —
+  pottery, riding, corporate team-building — is a permitted activity for up to 30 days, and those days don't have to
+  run consecutively. English language training is specifically excluded.
+- **Marrying or forming a civil partnership needs a different visa.** A Standard Visitor visa doesn't cover it,
+  whatever length of stay you're granted.
 
 ## If you get this rule wrong
 
-Overstaying makes any further application very hard to win, and the re-entry ban is graded by how you leave: 1 year if you depart voluntarily at your own expense, rising to 5 years if the departure was funded publicly, and up to 10 years where you were removed or deception was involved. Being refused entry at the border is a separate risk, since a Border Force officer can decide at the airport that your pattern of visits no longer looks like visiting — and that refusal is then on your record for every future application. **Professional immigration advice is strongly recommended in situations like this.**
+Overstaying makes any further application very hard to win, and the re-entry ban that follows is graded by how you left. It runs to 12 months where you went voluntarily at your own expense, 2 or 5 years where the taxpayer funded your departure, and 10 years where you were removed, deported, or used deception. A Border Force officer can separately turn you round at the airport if your pattern of visits stops looking like visiting, and that refusal then sits on your record. **Professional advice is strongly recommended in situations like this.**
 
 ## Examples
 
@@ -106,7 +111,7 @@ leave.
 ### A long-term visa read the wrong way
 
 You hold a 5-year visitor visa and plan a nine-month stay, reasoning the visa covers it. The visa's length governs how
-long you can keep travelling, not how long each stay can be, so 9 months exceeds the limit and you'd be overstaying
+long you can keep traveling, not how long each stay can be, so 9 months exceeds the limit, and you'd be overstaying
 from month seven.
 
 ### A visit pattern that stops looking like visiting
@@ -119,7 +124,8 @@ you're living in the UK through visits and refuse entry.
 
 - [GOV.UK — Standard Visitor visa](https://www.gov.uk/standard-visitor)
 - [Home Office — Immigration Rules Appendix V (Visitor)](https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-v-visitor)
-- [GOV.UK — Electronic Travel Authorisation (ETA)](https://www.gov.uk/apply-electronic-travel-authorisation-eta)
+- [GOV.UK — Electronic travel authorisation (ETA)](https://www.gov.uk/eta)
+- [Home Office — Immigration Rules Appendix Visitor: Permitted Activities](https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-visitor-permitted-activities)
 
 ## FAQ
 
@@ -140,8 +146,9 @@ your overall pattern of visits shows you're genuinely visiting rather than livin
 
 ### Can I work during a visit?
 
-No. Employment and most paid work for a UK organisation are not allowed. A defined list of business activities is —
-meetings, negotiations, conferences, certain academic and expert engagements — but it's narrow and specific.
+Not for a UK employer, and not as a self-employed person here. A defined list of business activities is allowed —
+meetings, negotiations, conferences, certain academic and expert engagements. You may also work remotely for your
+overseas employer, as long as that isn't the main reason for the trip.
 
 ### Do I need an ETA as well as a visa?
 
@@ -150,5 +157,6 @@ nationalities that don't require a visa in advance, and it has to be obtained be
 
 ### Can I extend my stay past 6 months?
 
-Only in limited situations, most commonly to continue private medical treatment. Extensions aren't routine, and the
-total time spent in the UK as a visitor normally still can't pass 6 months.
+Only in limited situations, most commonly to continue private medical treatment. Extensions aren't routine, and a
+standard visitor's total time in the UK normally still can't pass 6 months. Academic visitors and people here for
+private medical treatment are the exceptions, at up to 12 and 11 months respectively.

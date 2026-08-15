@@ -12,10 +12,10 @@ seo:
   title: Australia Citizenship Residence Rules Explained | Immio
   description: >
     How Australia's citizenship residence requirement works — the 4-year
-    lawful residence rule, the 12 months as a permanent resident, the
-    12-month and 90-day absence limits, and where discretion applies.
+    lawful residence rule, the 12 months as a permanent resident, and the
+    12-month and 90-day absence limits.
 
-updatedAt: 2026-08-14
+updatedAt: 2026-08-15
 
 sources:
   - title: Department of Home Affairs — Australian citizenship by conferral
@@ -37,31 +37,31 @@ including at least **12 months** as a permanent resident. Across those 4 years y
 **12 months** in total, and no more than **90 days** of that absence can fall in the final 12 months.
 :::
 
-| Key facts               |                                                |
-|:------------------------|-----------------------------------------------:|
-| Absence limit           |                      12 months over 4 years |
-| Qualifying period       |                                        4 years |
-| Period / Window         |             4 years back from application date |
-| Alternative             |             90 days in the final 12 months |
-| Additional requirements | 12 months as PR, good character, citizenship test |
+| Key parameters          |                                           |
+|:------------------------|------------------------------------------:|
+| Limit                   |                      12 months of absence |
+| Qualifying period       |                                   4 years |
+| Counting                |                     Whole days of absence |
+| Additional requirements | 90 days of absence in the final 12 months |
 
 ## Understanding the rule
 
-The requirement stacks two different kinds of residence, and both have to be satisfied at once.
+This applies to permanent residents applying for citizenship by conferral, the standard route for people who settled
+in Australia as adults.
 
-The **4 years** is about being **lawfully** in Australia — holding a valid visa of any kind. Time on a student visa, a
-temporary work visa, or a bridging visa all counts toward it, which is why many applicants have already accumulated
-most of the four years before permanent residence is granted.
+The requirement stacks two kinds of residence, and both have to hold at once:
 
-The **12 months as a permanent resident** is a separate, narrower condition sitting inside those four years. Only the
-final stretch has to be spent as a permanent resident, but it does have to be a full year immediately before applying.
+- **4 years of lawful residence** — time on any valid visa counts, including student, temporary work and bridging
+  visas. Many applicants have already built most of this before permanent residence is granted.
+- **12 months as a permanent resident** — a narrower condition sitting inside those 4 years, and it has to be the full
+  year immediately before you apply.
 
-The absence limits then run across the same period: no more than **12 months** outside Australia in the 4 years, and no
-more than **90 days** outside in the final 12 months. Both apply together, so a compliant total can still fail on the
-final year.
+Two absence limits run across the same period — one caps your **total** time away, the other your absence in the
+**final year**. Both apply together, so a compliant total can still fail on the final year.
 
-Beyond residence, applicants in a defined age band sit the **citizenship test**, covering knowledge of Australia and
-the responsibilities of citizenship, and all applicants must satisfy a **good character** requirement.
+Residence isn't the only requirement. Applicants aged 18 to 59 sit the **citizenship test** on Australia and the
+responsibilities of citizenship, everyone has to satisfy a **good character** requirement, and you must be likely to
+live in Australia or keep a close and continuing association with it.
 
 ## How to keep track
 
@@ -69,7 +69,8 @@ the responsibilities of citizenship, and all applicants must satisfy a **good ch
    held as a permanent resident.
 2. Total absence across the 4 years can't exceed **12 months**, and absence in the final 12 months can't exceed
    **90 days**. Both tests apply at the same time.
-3. **Any part of a day** in Australia counts as a full day, including arrival and departure days.
+3. Only **whole days** outside Australia count as absence. Your departure and arrival days both count as days in
+   Australia, so an absence runs from the day after you leave to the day before you come back.
 4. The 4-year window counts **backwards from your application date**, so a delayed application moves the window and can
    push an old absence out of scope.
 5. Time on temporary visas counts toward the 4 years, so start the count from when you first held a valid visa, not
@@ -87,14 +88,16 @@ miscounts.
   4 years, which often means the permanent residence year is the only genuinely new waiting period.
 - **Time in Australia unlawfully counts for nothing.** A gap between visas doesn't just fail to count — it can break
   the continuity the requirement depends on.
-- **Discretion exists for absences but is limited.** The Minister can allow certain absences to be treated
-  differently in defined circumstances, and it isn't a general safety net for ordinary travel.
-- **New Zealand citizens follow a different pathway** shaped by the trans-Tasman arrangements and shouldn't apply this
-  framework directly.
+- **A spouse of an Australian citizen can have time abroad counted.** Time overseas as a permanent resident while
+  married to or partnered with an Australian citizen can be treated as time in Australia. It's a narrow ministerial
+  discretion rather than an entitlement.
+- **New Zealand citizens can apply directly.** Since July 2023, a New Zealand citizen holding a Special Category visa
+  can apply for citizenship without first obtaining a permanent visa, so the permanent residence condition works
+  differently for them.
 
 ## If you get this rule wrong
 
-A refusal on residence grounds is a delay rather than a bar — you reapply once your absences fall inside the limits — but the fee isn't refunded and the refusal sits on your immigration record. A refusal touching good character or the accuracy of your application is far more serious, since it can affect your existing visa as well as any future citizenship application. **Professional immigration advice is strongly recommended in situations like this.**
+A refusal on residence grounds is a delay rather than a bar — you reapply once your absences fall inside the limits — but the fee isn't refunded and the refusal sits on your immigration record. A refusal touching good character or the accuracy of your application is far more serious, since it can affect your existing visa as well as any future citizenship application. **Professional advice is strongly recommended in situations like this.**
 
 ## Examples
 
@@ -136,16 +139,21 @@ residence for the final 12 months.
 No more than 12 months in total across the 4 years, and no more than 90 days in the final 12 months before applying.
 Both limits have to be met at the same time.
 
+### Do my departure and return days count as absence?
+
+No. Both are treated as days in Australia, so an absence runs from the day after you leave to the day before you come
+back. Only whole days outside the country count toward either limit.
+
 ### Do I need to be a permanent resident for the whole four years?
 
 No. Only the final 12 months has to be spent as a permanent resident. The earlier years can be on any valid visa.
 
-### Can absences over the limit be excused?
+### What happens to my permanent residence if citizenship is refused?
 
-Only in defined circumstances where the Minister may treat certain absences differently. It's narrow and discretionary,
-not a general allowance for extra travel.
+Nothing, where the refusal is on residence grounds — your permanent visa is untouched, and you can apply again once
+your absences fall inside both limits.
 
 ### What else is required besides residence?
 
-A good character requirement applies to all applicants, and those in a defined age band must sit the citizenship test
-covering knowledge of Australia and the responsibilities of citizenship.
+A good character requirement applies to all applicants, and those aged 18 to 59 must sit the citizenship test covering
+knowledge of Australia and the responsibilities of citizenship.

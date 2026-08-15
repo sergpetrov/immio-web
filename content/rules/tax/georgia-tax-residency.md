@@ -41,9 +41,9 @@ residency to individuals of **high net worth** who meet asset, income and Georgi
 count at all. Meeting either makes you resident for the whole of that tax year.
 :::
 
-| Key facts               |                                             |
+| Key parameters          |                                             |
 |:------------------------|--------------------------------------------:|
-| Thresholds              |                                    183 days |
+| Threshold              |                                    183 days |
 | Period / Window         |                           Rolling 12 months |
 | Counting                |                           Any part of a day |
 | Additional requirements | High net worth route, public service abroad |

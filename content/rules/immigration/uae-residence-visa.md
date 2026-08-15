@@ -1,7 +1,7 @@
 ---
 id: uae-residence-visa
 
-title: UAE Residence Visa (6-month absence rule)
+title: UAE Residence Visa (180-day absence rule)
 subtitle: 6 months absence ∙ Sponsor-based ∙ Golden Visa exception
 
 category: immigration
@@ -11,15 +11,15 @@ place: ae
 seo:
   title: UAE Residence Visa Absence Rules Explained | Immio
   description: >
-    How UAE residence visas work — the 6-month absence rule that cancels
-    residency, why the Golden Visa is exempt, sponsorship and Emirates ID,
-    and what happens when a visa lapses.
+    How UAE residence visas work — the 180-day absence rule that cancels
+    residency, who is exempt, sponsorship and Emirates ID, and what it
+    takes to get back in once a visa lapses.
 
-updatedAt: 2026-08-14
+updatedAt: 2026-08-15
 
 sources:
-  - title: The Official Portal of the UAE Government — Residence visa
-    url: https://u.ae/en/information-and-services/visa-and-emirates-id/residence-visa
+  - title: The Official Portal of the UAE Government — General provisions for the residence visa
+    url: https://u.ae/en/information-and-services/visa-and-emirates-id/Visa-information/general-provisions-for-the-residence-visa
     type: official
   - title: Federal Authority for Identity, Citizenship, Customs and Port Security (ICP)
     url: https://icp.gov.ae/en/
@@ -30,51 +30,44 @@ sources:
 
 ---
 
-# UAE Residence Visa (6-month absence rule)
+# United Arab Emirates Residence Visa (180-day absence rule)
 
 ## Overview
 
 :::callout
-A UAE residence visa is normally cancelled automatically if you stay outside the country for more than **6 months**
-continuously. The rule is about one unbroken absence rather than a yearly total, so a single long trip can end a
-residency that years of regular presence built. The **Golden Visa** is the notable exception, with no such absence
-limit at all.
+A UAE residence visa is canceled automatically if you stay outside the country for more than **180 consecutive days**.
+It's a single trip that counts, not your total time abroad each year, and any entry back into the UAE **resets** the
+count. The long-term **Golden**, **Green** and **Blue** visas don't have this limit at all.
 :::
 
-| Key facts               |                                           |
+| Key parameters          |                                           |
 |:------------------------|------------------------------------------:|
-| Absence limit           |            6 months, continuous |
-| Period / Window         |                   Per absence, continuous |
+| Limit                   |           180 consecutive days of absense |
+| Period / Window         |                    Per continuous absence |
 | Counting                |                         Any part of a day |
 | Additional requirements | Sponsor, Emirates ID, medical and renewal |
 
 ## Understanding the rule
 
-UAE residence is **sponsor-based**. An employer, a family member, a company you own, or a property investment stands
-behind the visa, and the visa's continued validity depends on that relationship continuing as much as on your presence.
+UAE residence is **sponsor-based** — an employer, a family member, a company you own, or a property investment
+stands behind the visa.
 
-The absence rule measures a **single continuous stay outside the country**, not the sum of your trips. Someone who
-spends eight months a year abroad in six separate trips is unaffected by this particular rule, while someone who takes
-one seven-month trip loses their residency. That distinction is the whole mechanic.
+The 180-day limit counts a **single continuous absence**, not your yearly total abroad.
 
-The **Golden Visa** — the long-term residence granted for investment, exceptional talent, and certain professional
-categories — is exempt from the absence rule entirely, which is one of its main practical attractions alongside its
-length.
+Several categories are exempt entirely, most notably the long-term **Golden**, **Green** and **Blue** visas. Students enrolled abroad, people abroad for approved medical treatment,
+public-sector staff posted abroad, investors, and the foreign wife of an Emirati citizen are exempt too.
 
-Residence also comes with an **Emirates ID**, which is the identity document you actually use inside the country, and
-with renewal obligations including a medical fitness test for most categories. Losing sponsorship — through
-resignation, dismissal, or a company closing — starts a grace period after which the residence ends, independently of
-anything about your travel.
+Residence also comes with an **Emirates ID** and renewal obligations, including a medical fitness test for most
+categories.
 
 ## How to keep track
 
-1. The limit is **6 months of continuous absence** from the UAE. What matters is the length of a single trip, not your
+1. The limit is **180 days of continuous absence** from the UAE. What matters is the length of a single trip, not your
    annual total.
 2. **Any part of a day** in the UAE breaks the continuity of an absence, so a short return trip resets the clock on
    this particular rule.
 3. Track the date of each departure and the date of your next entry. The gap between them is the number that counts.
-4. Check whether your category is exempt before relying on the rule — **Golden Visa** holders have no absence limit.
-5. Watch your visa's own **expiry date** separately. Residence visas run for fixed terms and need renewal regardless of
+4. Watch your visa's own **expiry date** separately. Residence visas run for fixed terms and need renewal regardless of
    how much time you've spent in the country.
 
 Keep entry and exit records, your Emirates ID, and your sponsorship documentation. The UAE's border records are fully
@@ -82,25 +75,31 @@ digital, so the length of any absence is established from their system rather th
 
 ## Edge cases
 
-- **One long trip is worse than many short ones.** The rule targets continuous absence, so the traveller with frequent
-  short trips abroad is safe where the one with a single long posting is not.
-- **The Golden Visa removes this constraint entirely.** It's the clearest structural reason people pursue it, alongside
-  its longer term and the fact it doesn't depend on an employer.
+- **Golden Visa** — a 10-year renewable status for investors, entrepreneurs and specified professionals, or 5 years
+  for outstanding graduates. No employer sponsor, no absence limit.
+- **Green Visa** — a 5-year self-sponsored status for skilled employees, freelancers and investors. No employer
+  sponsor, no absence limit.
+- **Blue Visa** — a 10-year status for people recognized for environmental and sustainability work. No employer
+  sponsor, no absence limit.
+- **None of these exemptions passes to a dependent automatically.** A spouse or child sponsored under any of them has
+  their own absence assessed separately.
 - **Losing your sponsor ends residency independently of the absence rule.** Resignation, dismissal, divorce or a
-  company closure triggers a grace period, after which the residence lapses whatever your travel history looks like.
-- **A permit that has already lapsed sometimes has a route back.** Depending on the circumstances and the category,
-  re-entry permission may be obtainable, but it isn't automatic and shouldn't be assumed.
+  company closure triggers a grace period — up to six months depending on the category — after which the residence
+  lapses whatever your travel history looks like.
+- **There is a defined route back, and it is not open to everyone.** Someone whose visa lapsed while abroad for study,
+  work or treatment can apply from outside for a permit to re-enter, giving a reason and paying a fee that scales with
+  time away. It is administered federally and does not cover residents of Dubai, who deal with their own authority.
 
 ## If you get this rule wrong
 
-Once the absence passes six months the residence visa and the Emirates ID attached to it are cancelled, and you arrive at the border as a visitor rather than a resident — which means whatever entry your nationality allows, if any, rather than the right to return home. Rebuilding residence usually means a fresh sponsorship and a fresh application rather than a reinstatement, and any bank accounts, tenancies or licences tied to your resident status are affected alongside it. **Professional immigration advice is strongly recommended in situations like this.**
+Once the absence passes 180 days the residence visa and the Emirates ID attached to it are cancelled, and you arrive at the border as a visitor rather than a resident. That means whatever entry your nationality allows, if any, rather than the right to return home. Rebuilding residence usually takes a fresh sponsorship and a fresh application rather than a reinstatement, and any bank accounts, tenancies or licences tied to your resident status are affected alongside it. **Professional advice is strongly recommended in situations like this.**
 
 ## Examples
 
 ### Frequent travel that doesn't threaten residency
 
 You work in Dubai and travel constantly, spending well over half the year abroad across many separate trips, none
-longer than seven weeks. No single absence approaches six months, so the rule never bites.
+longer than seven weeks. No single absence comes close to 180 days, so the rule never bites.
 
 ### One long absence that ends it
 
@@ -109,12 +108,12 @@ during that absence, and you discover it when you try to return as a resident.
 
 ### A Golden Visa holder abroad
 
-You hold a Golden Visa and spend two years overseas without visiting. The six-month rule doesn't apply to your
-category, so your residence continues — though your visa's own expiry and renewal requirements still do.
+You hold a Golden Visa and spend two years overseas without visiting. The absence rule doesn't apply to your category,
+so your residence continues — though your visa's own expiry and renewal requirements still do.
 
 ## Official sources
 
-- [The Official Portal of the UAE Government — Residence visa](https://u.ae/en/information-and-services/visa-and-emirates-id/residence-visa)
+- [The Official Portal of the UAE Government — General provisions for the residence visa](https://u.ae/en/information-and-services/visa-and-emirates-id/Visa-information/general-provisions-for-the-residence-visa)
 - [Federal Authority for Identity, Citizenship, Customs and Port Security (ICP)](https://icp.gov.ae/en/)
 - [The Official Portal of the UAE Government — Golden visa](https://u.ae/en/information-and-services/visa-and-emirates-id/residence-visas/golden-visa)
 
@@ -122,18 +121,28 @@ category, so your residence continues — though your visa's own expiry and rene
 
 ### How long can I stay outside the UAE without losing my residence visa?
 
-Normally up to 6 months in one continuous absence. Beyond that the visa is generally cancelled automatically, unless
-you hold a category that's exempt.
+Up to 180 days in one continuous absence. Beyond that the visa is cancelled automatically, unless you hold one of the
+exempt categories.
 
 ### Is it a total across the year or a single trip?
 
 A single continuous trip. Someone who spends most of the year abroad across many separate visits isn't caught by this
-rule, while one unbroken absence past six months is.
+rule, while one unbroken absence past 180 days is.
 
 ### Does the Golden Visa have the same limit?
 
-No. Golden Visa holders are exempt from the absence rule entirely, which is one of the main practical differences
-between it and an ordinary sponsored residence visa.
+No. Golden, Green and Blue Visa holders are all exempt from the absence rule entirely, which is one of the main
+practical differences between these long-term visas and an ordinary sponsored residence visa.
+
+### Does my family's Golden Visa exemption cover them too?
+
+Not automatically. A spouse or child sponsored under your visa doesn't inherit the exemption just because you have it
+— their own absence is reviewed separately, so check each dependent's status rather than assuming it follows yours.
+
+### Who else is exempt from the absence rule?
+
+Among others: students enrolled abroad, people sent overseas for treatment with an approved medical report,
+public-sector staff posted abroad with their families, investors, and the foreign wife of an Emirati citizen.
 
 ### Does a short visit reset the clock?
 
@@ -147,5 +156,6 @@ to a new sponsor within that window is the usual route to keeping residence.
 
 ### Can I get my residence back after it's cancelled?
 
-Usually by applying again with a sponsor rather than having the old visa reinstated. Depending on the category and
-circumstances, some re-entry routes exist, but none is automatic.
+Usually by applying again with a sponsor rather than having the old visa reinstated. Where the absence was for study,
+work or treatment there is a federal permit allowing re-entry, applied for from outside the country, though Dubai
+residents deal with their own authority instead.

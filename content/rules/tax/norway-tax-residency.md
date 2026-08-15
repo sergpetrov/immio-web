@@ -37,9 +37,9 @@ than 270 days** across any 36 months — either one is enough. Both windows roll
 resetting each January, so a habit of long visits can trip the second test even when no single year comes close.
 :::
 
-| Key facts               |                                        |
+| Key parameters          |                                        |
 |:------------------------|---------------------------------------:|
-| Thresholds              |                     More than 183 days |
+| Threshold              |                     More than 183 days |
 | Period / Window         |                      Rolling 12 months |
 | Alternative             | More than 270 days / Rolling 36 months |
 | Counting                |                      Any part of a day |

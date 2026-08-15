@@ -39,9 +39,9 @@ residents as well. Residents are taxed on worldwide income, and which state reve
 separate question.
 :::
 
-| Key facts               |                                                |
+| Key parameters          |                                                |
 |:------------------------|-----------------------------------------------:|
-| Thresholds              |                                       183 days |
+| Threshold              |                                       183 days |
 | Period / Window         |                              Rolling 12 months |
 | Counting                |                              Any part of a day |
 | Additional requirements | Domicile, permanent home, habitual abode, ties |

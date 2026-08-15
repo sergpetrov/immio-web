@@ -41,9 +41,9 @@ crossing that line makes you resident from your very first day of presence. A st
 treatment is exempt from the day-count rule for up to a year.
 :::
 
-| Key facts               |                                |
+| Key parameters          |                                |
 |:------------------------|-------------------------------:|
-| Thresholds              |             More than 183 days |
+| Threshold               |             More than 183 days |
 | Period / Window         |              Rolling 12 months |
 | Counting                |              Any part of a day |
 | Additional requirements | Centre of vital interests test |

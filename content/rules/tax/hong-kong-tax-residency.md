@@ -44,13 +44,13 @@ taxes only income arising in or derived from Hong Kong, being a resident creates
 itself. It matters mainly for claiming tax treaty benefits and obtaining a Certificate of Resident Status.
 :::
 
-| Key facts               |                                          |
-|:------------------------|-----------------------------------------:|
-| Thresholds              |                       More than 180 days |
-| Period / Window         |                Tax year (1 Apr – 31 Mar) |
-| Alternative             | More than 300 days / 2 consecutive years |
-| Counting                |                        Any part of a day |
-| Additional requirements |                  Ordinary residence test |
+| Key parameters           |                                          |
+|:-------------------------|-----------------------------------------:|
+| Threshold                |                       More than 180 days |
+| Period / Window          |                Tax year (1 Apr – 31 Mar) |
+| Alternative              | More than 300 days / 2 consecutive years |
+| Counting                 |                        Any part of a day |
+| Additional requirements  |                  Ordinary residence test |
 
 ## Understanding the rule
 

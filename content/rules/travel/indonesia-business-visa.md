@@ -2,7 +2,7 @@
 id: indonesia-business-visa
 
 title: Indonesia Business Visit Visa (60-day rule)
-subtitle: 60 days ∙ Two 30-day extensions ∙ Sponsor required
+subtitle: 60 days ∙ Two 60-day extensions ∙ Single entry ∙ Sponsor required
 
 category: travel
 
@@ -12,10 +12,10 @@ seo:
   title: Indonesia Business Visit Visa Rules Explained | Immio
   description: >
     How Indonesia's business visit visa works — the 60-day stay, the two
-    30-day extensions, the sponsor requirement, which activities are
-    permitted, and where the line with actual employment sits.
+    60-day extensions to 180 days, the single-entry catch, the sponsor
+    requirement, and where the line with actual employment sits.
 
-updatedAt: 2026-08-14
+updatedAt: 2026-08-15
 
 sources:
   - title: Direktorat Jenderal Imigrasi — Official e-visa portal
@@ -32,47 +32,44 @@ sources:
 ## Overview
 
 :::callout
-The business visit visa gives **60 days** on arrival and can be extended **twice**, by 30 days each time, for a maximum
-of **180 days** in one stay. It's applied for before travel and needs an Indonesian **sponsor**. The line it draws
-matters more than the day count: it permits business *visits* — meetings, negotiations, inspections — but not working
-for an Indonesian company or being paid from Indonesia.
+The business visit visa gives **60 days** on arrival and can be extended **twice**, by 60 days each time, for a maximum
+of **180 days** in one stay. It's applied for before travel, needs an Indonesian **sponsor**, and is good for a single
+entry only. The line it draws matters more than the day count: it permits business **visits** — meetings, negotiations,
+inspections — but not working for an Indonesian company or being paid from Indonesia.
 :::
 
-| Key facts               |                                        |
-|:------------------------|---------------------------------------:|
-| Stay limit              |                                60 days |
-| Period / Window         |                              Per entry |
-| Alternative             |    Two 30-day extensions, 180 days max |
-| Counting                |                      Any part of a day |
-| Additional requirements | Indonesian sponsor, no employment |
+| Key parameters          |                                           |
+|:------------------------|------------------------------------------:|
+| Limit                   |                                   60 days |
+| Period / Window         |                                 Per visit |
+| Alternative             |       Two 60-day extensions, 180 days max |
+| Counting                |                         Any part of a day |
+| Additional requirements | Indonesian sponsor, single entry, no work |
 
 ## Understanding the rule
 
-This route exists for people whose business in Indonesia is genuine but temporary, and who need more than the 60 days a
-Visa on Arrival can reach even after its single extension.
-
-Two things distinguish it from a tourist permission. It has to be applied for **before you travel**, through the
-official e-visa portal, and it requires a **sponsor** in Indonesia — a company or an authorised individual who takes
+Two things distinguish this from a tourist permission. It has to be applied for **before you travel**, through the
+official e-visa portal, and it requires a **sponsor** in Indonesia — a company or authorised individual who takes
 formal responsibility for your visit. There's no arriving and sorting it out at the counter.
 
 What it permits is deliberately narrow. Business meetings, contract negotiations, supplier and factory visits,
-conferences, seminars, and audits of an Indonesian operation all fall inside it. What sits outside is anything
-amounting to work: taking a role in an Indonesian company, delivering services to Indonesian clients for payment, or
-receiving any salary from an Indonesian source. That distinction is about the nature of the activity, not its duration
-— a single day of prohibited work is still prohibited work.
+conferences, seminars and audits all fall inside it. What sits outside is anything amounting to work: selling goods or
+services, taking day-to-day charge of a local operation, or receiving wages or any other payment from an Indonesian
+source.
 
-Anyone actually employed in Indonesia needs a limited stay permit and a work permit instead, which is a different
-process with different requirements.
+Anyone actually employed in Indonesia needs a limited stay permit and a work permit instead — a different process with
+different requirements.
 
 ## How to keep track
 
 1. The initial stay is **60 days** from the date you're admitted.
-2. **Any part of a day** counts, including your arrival and departure days.
-3. Two extensions of **30 days each** are available, taken sequentially, giving a maximum of **180 days** in a single
+2. The visa itself must be used within **90 days** of being issued, and the 60 days only start when you land.
+3. **Any part of a day** counts, including your arrival and departure days.
+4. Two extensions of **60 days each** are available, taken sequentially, giving a maximum of **180 days** in a single
    stay before you must leave.
-4. Apply for each extension **before the current permission expires**, allowing a week or two — extensions require
-   attending an immigration office in person.
-5. Your sponsor's involvement continues through the extensions, so keep them contactable and their documentation
+5. Apply for each extension **before the current permission expires**, allowing a couple of weeks — every extension
+   needs an in-person appointment for fingerprints and a photograph.
+6. Your sponsor's involvement continues through the extensions, so keep them contactable and their documentation
    current for the whole stay.
 
 Keep your visa approval, entry stamp, sponsor letter and company documentation, plus records of what you actually did
@@ -81,27 +78,31 @@ questioned, that evidence is what distinguishes a business visit from undeclared
 
 ## Edge cases
 
+- **It's a single-entry visa, spent the moment you leave.** Stepping out to a neighbouring country partway through
+  ends it, even with weeks of permitted stay unused, and coming back means applying again from scratch. Anyone who
+  needs to come and go wants the multiple-entry business visa instead, issued for a term of years with visits of up to
+  60 days each.
 - **The sponsor carries real responsibility.** An Indonesian company or authorised individual formally vouches for
   your visit, and problems with the sponsor's standing can affect your visa and your extensions.
 - **Repeated back-to-back stays start to look like residence.** Using the full 180 days, leaving briefly, and
-  returning for another 180 is a pattern immigration recognises, and the appropriate route at that point is a limited
+  returning on a fresh visa is a pattern immigration recognises. Someone genuinely based in Indonesia needs a limited
   stay permit rather than another visit visa.
 - **The prohibited activity is defined by what you do, not how long.** Signing a contract as a party is a business
-  visit; performing the work under it for an Indonesian client is not, however short the engagement.
-- **Extensions can't be stacked in advance.** Each 30-day extension is applied for separately, in sequence, while the
+  visit. Performing the work under it for an Indonesian client is not, however short the engagement.
+- **Extensions can't be stacked in advance.** Each 60-day extension is applied for separately, in sequence, while the
   current permission is still valid.
 
 ## If you get this rule wrong
 
-Working on a visit visa is treated as an immigration offence rather than a paperwork error, and the consequences run to deportation and a re-entry ban, with the sponsoring company exposed to its own penalties for hosting unauthorised work. A plain overstay is different and cheaper — a fixed daily fine payable before departure — but once the overstay passes 60 days that too becomes deportation and a ban. **Professional immigration advice is strongly recommended in situations like this.**
+Working on a visit visa is treated as an immigration offence rather than a paperwork error, and the consequences run to deportation and a re-entry ban. The sponsoring company is exposed to its own penalties for hosting unauthorised work. A plain overstay is different and cheaper — a fixed daily fine payable before departure — but once it passes 60 days that too becomes deportation and a ban. **Professional advice is strongly recommended in situations like this.**
 
 ## Examples
 
 ### A supplier audit that fits the route
 
 Your employer abroad sends you to inspect three Indonesian factories over ten weeks. A sponsor company arranges the
-visa, you're admitted for 60 days, and one 30-day extension covers the rest. Inspections and meetings are permitted
-activities throughout.
+visa, you're admitted for 60 days, and a single extension covers the rest without leaving the country. Inspections and
+meetings are permitted activities throughout.
 
 ### Using the full run of extensions
 
@@ -123,8 +124,13 @@ doesn't permit.
 
 ### How long can I stay on a business visit visa?
 
-60 days initially, plus up to two 30-day extensions, for a maximum of 180 days in a single stay. After that you have to
+60 days initially, plus up to two 60-day extensions, for a maximum of 180 days in a single stay. After that you have to
 leave Indonesia.
+
+### Can I leave and come back on the same visa?
+
+No. It's a single-entry visa, so it's used up as soon as you depart, however much permitted stay is left. Coming and
+going needs the multiple-entry business visa instead.
 
 ### What activities does it actually allow?
 
@@ -139,7 +145,7 @@ visit. This is applied for before you travel, not on arrival.
 ### How is this different from a Visa on Arrival?
 
 Visa on Arrival gives 30 days with one extension, capping at 60, and needs no sponsor. The business visit visa starts
-at 60 days, allows two extensions to reach 180, and must be arranged in advance with a sponsor.
+at 60 days, allows two 60-day extensions to reach 180, and must be arranged in advance with a sponsor.
 
 ### Can I work remotely for my foreign employer while I'm there?
 

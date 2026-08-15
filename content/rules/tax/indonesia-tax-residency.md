@@ -38,9 +38,9 @@ more than owning property — your main centre of personal or financial activity
 settle it. A separate election can limit what some newly arrived foreign specialists are taxed on.
 :::
 
-| Key facts               |                                     |
+| Key parameters          |                                     |
 |:------------------------|------------------------------------:|
-| Thresholds              |                  More than 183 days |
+| Threshold              |                  More than 183 days |
 | Period / Window         |                   Rolling 12 months |
 | Counting                |                   Any part of a day |
 | Additional requirements | Residence test, intention to reside |

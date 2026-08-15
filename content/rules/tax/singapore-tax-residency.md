@@ -41,9 +41,9 @@ shorter continuous stay can also count when your employment runs across two cale
 you pay and whether you can claim personal reliefs.
 :::
 
-| Key facts               |                                      |
+| Key parameters          |                                      |
 |:------------------------|-------------------------------------:|
-| Thresholds              |                             183 days |
+| Threshold              |                             183 days |
 | Period / Window         |       Calendar year (1 Jan – 31 Dec) |
 | Counting                |                    Any part of a day |
 | Additional requirements | Ordinary residence, stay concessions |

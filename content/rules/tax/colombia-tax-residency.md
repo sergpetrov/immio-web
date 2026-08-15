@@ -41,9 +41,9 @@ them, not the first. Colombian nationals face a further set of conditions that c
 in Colombia at all.
 :::
 
-| Key facts               |                                    |
+| Key parameters          |                                    |
 |:------------------------|-----------------------------------:|
-| Thresholds              |                 More than 183 days |
+| Threshold              |                 More than 183 days |
 | Period / Window         |                   Rolling 365 days |
 | Counting                |                  Any part of a day |
 | Additional requirements | Conditions for Colombian nationals |

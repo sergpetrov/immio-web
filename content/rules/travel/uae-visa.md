@@ -12,14 +12,17 @@ seo:
   title: UAE Visit Visa Rules Explained | Immio
   description: >
     How UAE entry permissions work — visa-free entry for 30 or 90 days
-    by nationality, visa on arrival, the extension mechanism, the grace
-    period, and what an overstay costs.
+    by nationality, visa on arrival, the extension mechanism, why the
+    grace period mostly no longer exists, and what an overstay costs.
 
-updatedAt: 2026-08-14
+updatedAt: 2026-08-15
 
 sources:
-  - title: The Official Portal of the UAE Government — Visit visas
-    url: https://u.ae/en/information-and-services/visa-and-emirates-id/visit-visas
+  - title: The Official Portal of the UAE Government — Check if you need a visa to enter the UAE
+    url: https://u.ae/en/information-and-services/visa-and-emirates-id/Visa-information/do-you-need-an-entry-permit-or-a-visa-to-enter-the-uae
+    type: official
+  - title: The Official Portal of the UAE Government — Tourist visa
+    url: https://u.ae/en/information-and-services/visa-and-emirates-id/Types-of-visas/tourist-visa
     type: official
   - title: Federal Authority for Identity, Citizenship, Customs and Port Security (ICP)
     url: https://icp.gov.ae/en/
@@ -37,16 +40,16 @@ sources:
 :::callout
 How long you can stay in the UAE depends almost entirely on your passport. **GCC nationals** need no visa at all.
 Nationals of a further list of countries enter visa-free for either **30** or **90 days** depending on nationality, and
-some of those can alternatively take a **visa on arrival**. Everyone else applies before travelling. Most visit
-permissions can then be extended twice, by 30 days each time.
+some of those can alternatively take a **visa on arrival**. Everyone else applies before traveling. Most visit
+permissions can then be extended **twice**, by **30 days** each time.
 :::
 
-| Key facts               |                                          |
-|:------------------------|-----------------------------------------:|
-| Stay limit              |            30 or 90 days by nationality |
-| Period / Window         |                                Per entry |
-| Alternative             |          Two 30-day extensions |
-| Counting                |                        Any part of a day |
+| Key parameters          |                                       |
+|:------------------------|--------------------------------------:|
+| Limit                   |                      30 days, 90 days |
+| Period / Window         |                             Per visit |
+| Alternative             |                 Two 30-day extensions |
+| Counting                |                     Any part of a day |
 | Additional requirements | Nationality determines route, no work |
 
 ## Understanding the rule
@@ -62,10 +65,12 @@ do anything, by your nationality:
 - **Pre-arranged visit visa** — everyone else applies in advance, usually sponsored by an airline, hotel, tour
   operator, relative or UAE company.
 
-The 90-day permissions are generally counted as 90 days **within 180**, rather than 90 days per entry, which makes them
-behave more like an allowance than a per-trip limit. The 30-day permissions are usually per entry.
+The 90-day entitlement that European Union nationals hold comes from a visa-waiver agreement, and it is counted as 90
+days **within any 180**, not 90 days per entry. That makes it behave like an allowance rather than a per-trip limit.
+The 30-day permissions are usually per entry.
 
-None of these carries any right to work. Employment requires a residence visa with a work permit, sponsored by an
+Whichever route applies, your passport needs at least six months left on it at the point you enter. And none of these
+permissions carries any right to work. Employment requires a residence visa with a work permit, sponsored by an
 employer, which is an entirely separate process.
 
 ## How to keep track
@@ -76,8 +81,8 @@ employer, which is an entirely separate process.
 3. On a **90-day** permission, treat it as 90 days within a 180-day window rather than a fresh 90 each time you land.
 4. Most visit permissions can be **extended twice, by 30 days each**, applied for from inside the UAE before the
    current permission expires.
-5. A short **grace period** follows the expiry of many visit permissions, during which you can extend or leave without
-   the stay being treated as an overstay. Don't plan around it — it's a buffer, not an entitlement.
+5. Assume **no grace period** after expiry. It was withdrawn for most visitor categories, leaving it only for people
+   admitted on a visa on arrival, so for most travellers the daily fine starts the day after the permission ends.
 
 Keep your entry stamp, any visa approval, and extension receipts. Your permitted-until date comes from the stamp or
 the visa, and the UAE's entry and exit records are fully digital, so a disputed count is settled from their system
@@ -96,7 +101,7 @@ rather than your recollection.
 
 ## If you get this rule wrong
 
-Overstaying accrues a fixed fine for each day past your permitted date, charged when you leave or when you're caught, and it can be enforced through a travel ban that prevents you departing until it's settled. Repeat or lengthy overstays lead to deportation and a re-entry ban recorded against your passport, and because the UAE's entry records are fully digital, an overstay surfaces automatically at every subsequent border crossing and visa application. **Professional immigration advice is strongly recommended in situations like this.**
+Overstaying accrues a flat fine for each day past your permitted date, at a single rate now standardised across the emirates and across visit, tourist and residence permissions alike. It has to be cleared before you can leave, and a longer overstay adds an exit permit with its own fee. Repeat or lengthy cases lead to deportation and a re-entry ban recorded against your passport, and because entry records are fully digital, an unresolved overstay surfaces at every later border crossing and visa application. **Professional advice is strongly recommended in situations like this.**
 
 ## Examples
 
@@ -117,7 +122,8 @@ allowance runs across a 180-day window, you have around 10 days left rather than
 
 ## Official sources
 
-- [The Official Portal of the UAE Government — Visit visas](https://u.ae/en/information-and-services/visa-and-emirates-id/visit-visas)
+- [The Official Portal of the UAE Government — Check if you need a visa to enter the UAE](https://u.ae/en/information-and-services/visa-and-emirates-id/Visa-information/do-you-need-an-entry-permit-or-a-visa-to-enter-the-uae)
+- [The Official Portal of the UAE Government — Tourist visa](https://u.ae/en/information-and-services/visa-and-emirates-id/Types-of-visas/tourist-visa)
 - [Federal Authority for Identity, Citizenship, Customs and Port Security (ICP)](https://icp.gov.ae/en/)
 - [General Directorate of Residency and Foreigners Affairs — Dubai](https://www.gdrfad.gov.ae/en)
 
@@ -138,10 +144,10 @@ doesn't restore a full 90.
 Most visit permissions can be extended twice, by 30 days each time, applied for from inside the UAE before the current
 permission expires.
 
-### What is the grace period?
+### Is there still a grace period after my visa expires?
 
-A short window after a visit permission expires during which you can extend or depart without it counting as an
-overstay. It's a buffer rather than an entitlement, and shouldn't be built into your plans.
+For most visitors, no. The grace period was withdrawn for most categories, leaving it in place only for people
+admitted on a visa on arrival. Everyone else starts accruing the daily fine immediately.
 
 ### Can I work on a visit visa?
 

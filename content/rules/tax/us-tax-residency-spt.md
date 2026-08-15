@@ -44,9 +44,9 @@ year, plus **183 weighted days** across the last 3 years. But there are exceptio
 the closer connection.
 :::
 
-| Key facts               |                                                 |
+| Key parameters          |                                                 |
 |:------------------------|------------------------------------------------:|
-| Thresholds              |         31 days current year, 183 weighted days |
+| Threshold              |         31 days current year, 183 weighted days |
 | Period / Window         |               Calendar year, plus 2 prior years |
 | Counting                |                               Any part of a day |
 | Additional requirements | Exempt individuals, closer connection exception |

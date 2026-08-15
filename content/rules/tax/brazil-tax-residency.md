@@ -38,9 +38,9 @@ complete **184 days** of presence inside a twelve-month window. Leaving works di
 not the flight, decides when your residency actually ends.
 :::
 
-| Key facts               |                                  |
+| Key parameters          |                                  |
 |:------------------------|---------------------------------:|
-| Thresholds              |               More than 183 days |
+| Threshold              |               More than 183 days |
 | Period / Window         |                Rolling 12 months |
 | Counting                |                Any part of a day |
 | Additional requirements | Visa status, employment contract |

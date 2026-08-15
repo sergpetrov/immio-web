@@ -1,8 +1,8 @@
 ---
 id: spain-long-term-residence
 
-title: Spain Long-Term Residence (5-year rule)
-subtitle: 5 years continuous ∙ 10 months absence ∙ 6-month single trips
+title: Spain Long-Term Residence (5-year route)
+subtitle: 10 months of absence ∙ 5 years
 
 category: immigration
 
@@ -12,10 +12,10 @@ seo:
   title: Spain Long-Term Residence Rules Explained | Immio
   description: >
     How Spain's long-term residence works — the 5-year continuous residence
-    requirement, the 6-month and 10-month absence limits, how the permit is
-    maintained afterwards, and the EU long-term status.
+    requirement, the 6-month and 10-month absence limits, the larger
+    allowance for work absences, and how the status is kept afterwards.
 
-updatedAt: 2026-08-14
+updatedAt: 2026-08-15
 
 sources:
   - title: Ministerio de Inclusión, Seguridad Social y Migraciones — Long-term residence
@@ -27,75 +27,76 @@ sources:
 
 ---
 
-# Spain Long-Term Residence (5-year rule)
+# Spain Long-Term Residence (5-year route)
 
 ## Overview
 
 :::callout
-Long-term residence in Spain comes after **5 years** of continuous legal residence. Continuity survives ordinary
-travel, but not extended absence: a single trip of more than **6 months** breaks it, and total absences of more than
-**10 months** across the whole 5 years do the same. Once granted, the status is renewable rather than permanent, with
-its own separate absence rules.
+Long-term residence in Spain comes after **5 years** of continuous legal residence. Two absence limits apply at once —
+no single trip over **6 months**, and no more than **10 months** away in total, rising to **18 months** where the
+absences were for work. Break either and the 5-year clock **restarts**.
 :::
 
-| Key facts               |                                            |
-|:------------------------|-------------------------------------------:|
-| Absence limit           |               10 months over 5 years |
-| Qualifying period       |                                    5 years |
-| Period / Window         |                                    5 years |
-| Alternative             |         6 months in any single absence |
-| Additional requirements | Legal residence throughout, renewals |
+| Key parameters          |                              |
+|:------------------------|-----------------------------:|
+| Limit                   |         10 months of absence |
+| Qualifying period       |                      5 years |
+| Counting                |        Whole days of absence |
+| Additional requirements | 6 months of absence per trip |
 
 ## Understanding the rule
 
-Two absence limits run at once, and they catch different travel patterns. The **single-trip** limit of 6 months catches
-one long departure. The **cumulative** limit of 10 months across the five years catches a habit of repeated medium
-trips. Staying inside one doesn't protect you from the other.
+This applies to anyone building toward settled status in Spain on a temporary residence permit, whatever route they
+hold it under.
 
-Underneath both sits the requirement that the residence be **legal and continuous** throughout. Time spent in Spain
-without a valid permit doesn't count, and a gap between one permit expiring and the next being granted can undermine
-the whole period regardless of where you physically were.
+Two absence limits run across the 5 years and catch different travel patterns — one caps any **single trip**, the
+other your **total** time away. Staying inside one doesn't protect you from the other.
 
-Long-term residence comes in two forms. The **national** long-term residence permit gives you settled status in Spain.
-The **EU long-term residence** status additionally supports moving to another EU member state under its own conditions,
-and carries somewhat stricter requirements to obtain.
+The residence also has to be **legal** throughout, not just continuous. Time in Spain without a valid permit doesn't
+count, and a gap between one permit expiring and the next being granted can undermine the whole period even if you
+never left.
 
-The status is not permanent in the way citizenship is. The permit card is renewed periodically, and long-term residence
-itself can be lost through extended absence from Spain — or from the EU, on the EU variant — after it has been granted.
+There are two versions of the status, and what they ask of you differs:
+
+- **National long-term residence** — settled status in Spain, with no requirement to show income or health cover.
+- **EU long-term residence** — additionally supports moving to another EU member state, but you have to prove
+  sufficient regular income and hold public or equivalent private health insurance.
+
+Residence isn't the only requirement either way. You also need a **clean criminal record**, both in Spain and in any
+country you've lived in over the last 5 years, and no ban on entering Spanish territory.
 
 ## How to keep track
 
-1. Two limits apply across the qualifying period: no single absence over **6 months**, and no more than **10 months**
-   of absence in total across the 5 years.
-2. **Any part of a day** in Spain counts as presence, so short returns during a long trip matter for the single-trip
-   limit.
-3. Your residence must have been **legal throughout**, so track your permit validity dates alongside your travel — a
-   lapse in status is as damaging as an excess absence.
-4. The cumulative count runs across the whole 5 years rather than resetting annually, so a heavy travel year early on
+1. No single absence may exceed **6 months**, and total absence may not exceed **10 months** across the 5 years. Where
+   the absences were for work the total rises to **18 months**, but the 6-month single-trip cap still applies.
+2. Only **whole days** outside Spain count as absence. Your **departure** and **return** days both count as **days in** Spain, so
+   an absence runs from the day after you leave to the day before you come back.
+3. Track your permit validity dates alongside your travel, since the period only counts where your status was valid.
+4. The cumulative count runs across the **whole 5 years** rather than resetting annually, so a heavy travel year early on
    still counts against you at the end.
-5. After the status is granted, a separate absence rule applies to keeping it, and extended time outside Spain can
-   cause it to be lost.
+5. Log **work trips** separately from ordinary ones — only work-related absences draw on the larger total.
 
-Keep entry and exit evidence for every trip, your residence card history showing unbroken legal status, and your
-padrón registration. Spain assesses continuity from documentation, so gaps you can't evidence tend to be resolved
-against you.
+Keep entry and exit evidence for every trip, your residence card history showing unbroken legal status, and your local
+town-hall registration (padrón). Spain assesses continuity from documentation, so gaps you can't evidence tend to be
+resolved against you.
 
 ## Edge cases
 
-- **The two limits fail independently.** Nine months of absence spread across five years is inside the cumulative limit
-  yet fine on single trips, while one seven-month trip breaks continuity despite a modest total.
-- **Some absences are treated more generously.** Certain work-related and exceptional absences can be assessed
-  differently, but this is evidence-based and shouldn't be planned around.
-- **Legal residence is the foundation, not just presence.** Time in Spain without valid status doesn't count toward the
-  five years, however long you were physically there.
-- **The status can be lost after it's granted.** Long-term residence has its own absence rules going forward, so
-  obtaining it isn't the end of the tracking.
-- **Long-term residence is not citizenship.** Spanish nationality has separate and generally longer requirements, and
-  usually involves renouncing your existing nationality for most applicants.
+- **Student and training years count at half rate.** Time in Spain for studies, student mobility, volunteering or
+  training counts at 50% of its actual length toward the five years, so four student years contribute two.
+- **The work-absence allowance was raised recently.** Spain's immigration regulation lifted the cumulative limit for
+  work absences from 12 months to 18 when it took effect in May 2025, so older guidance may still show the lower
+  figure.
+- **The status can lapse once you have it.** Long-term residence ends after **12 consecutive months outside the
+  European Union** — not outside Spain, so moving to another EU country doesn't trigger it. That rises to **24
+  months** for people who reached the EU status from an EU Blue Card, and for their family members. The EU variant
+  also ends after **6 years** away from Spain.
+- **Long-term residence is not citizenship.** Spanish nationality is a separate application with its own, generally
+  longer residence requirement, and renouncing an existing nationality is required of some applicants but not all.
 
 ## If you get this rule wrong
 
-Breaking continuity generally means the 5-year clock restarts rather than pausing, so a single overlong trip can cost most of a fresh qualifying period rather than a few months. A refused application also leaves you dependent on renewing your existing temporary permit, which carries its own conditions and isn't guaranteed, and the delay pushes any future nationality application back by the same margin. **Professional immigration advice is strongly recommended in situations like this.**
+Breaking continuity generally means the 5-year clock restarts rather than pausing, so a single overlong trip can cost most of a fresh qualifying period rather than a few months. A refused application also leaves you dependent on renewing your existing temporary permit, which carries its own conditions and isn't guaranteed, and the delay pushes any future nationality application back by the same margin. **Professional advice is strongly recommended in situations like this.**
 
 ## Examples
 
@@ -128,8 +129,14 @@ maintained throughout the period.
 
 ### How much time can I spend outside Spain?
 
-No single absence longer than 6 months, and no more than 10 months of absence in total across the five years. Both
-limits apply at the same time.
+No single absence longer than 6 months, and no more than 10 months of absence in total across the five years. Absences
+for work reasons get a larger cumulative allowance of 18 months, but the 6-month single-trip limit still applies.
+
+### Do my departure and return days count as absence?
+
+No. Both are treated as days of presence in Spain, so an absence runs from the day after you leave to the day before
+you return. The limits are set in months rather than days, though, and offices sometimes just subtract one date from
+the other — which counts a day more against you than the strict reading does.
 
 ### Does time without a valid permit count?
 
@@ -138,15 +145,16 @@ five years and can undermine the period as a whole.
 
 ### What's the difference between national and EU long-term residence?
 
-The national permit gives settled status in Spain. The EU long-term residence status additionally supports moving to
-another EU member state under its own conditions, with somewhat stricter requirements to obtain.
+The national permit gives settled status in Spain and doesn't ask you to show income or health cover. EU long-term
+residence additionally supports moving to another EU member state, but requires proof of sufficient regular income
+and public or equivalent private health insurance.
 
 ### Is long-term residence permanent?
 
-Not in the way citizenship is. The card is renewed periodically, and the status itself can be lost through extended
-absence after it's granted.
+Not in the way citizenship is. The card is renewed every 5 years, and the status itself ends after more than 12
+consecutive months outside the European Union — moving to another EU country doesn't count against you.
 
 ### Does this lead to Spanish citizenship?
 
-It's a separate application with its own requirements, generally involving a longer residence period and, for most
-applicants, renouncing an existing nationality.
+It's a separate application with its own requirements, generally involving a longer residence period. Renouncing an
+existing nationality is required of some applicants and waived for others, depending on nationality.

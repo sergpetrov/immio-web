@@ -41,9 +41,9 @@ inside a single calendar year — meeting either test is enough. The dwelling te
 single home kept available for you can settle it by itself.
 :::
 
-| Key facts               |                                              |
+| Key parameters          |                                              |
 |:------------------------|---------------------------------------------:|
-| Thresholds              |              6 months (effectively 183 days) |
+| Threshold              |              6 months (effectively 183 days) |
 | Period / Window         | Continuous stay, not tied to a calendar year |
 | Counting                |        Elapsed time, absences don't reset it |
 | Additional requirements |                     Dwelling test (Wohnsitz) |

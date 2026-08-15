@@ -38,9 +38,9 @@ courts often give the centre-of-interests test more weight than the day count. A
 and returning residents.
 :::
 
-| Key facts               |                                |
+| Key parameters          |                                |
 |:------------------------|-------------------------------:|
-| Thresholds              |             More than 183 days |
+| Threshold              |             More than 183 days |
 | Period / Window         | Calendar year (1 Jan – 31 Dec) |
 | Counting                |              Any part of a day |
 | Additional requirements | Centre of vital interests test |

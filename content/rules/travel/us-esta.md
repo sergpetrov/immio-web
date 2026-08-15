@@ -2,7 +2,7 @@
 id: us-esta
 
 title: US ESTA and the Visa Waiver Program (90-day rule)
-subtitle: 90 days ∙ No extensions ∙ ESTA valid 2 years
+subtitle: 90 days per visit ∙ ESTA ∙ Visa Waiver
 
 category: travel
 
@@ -15,7 +15,7 @@ seo:
     neighbouring-country trips don't reset it, what ESTA validity does
     and doesn't mean, and what disqualifies you from the programme.
 
-updatedAt: 2026-08-14
+updatedAt: 2026-08-15
 
 sources:
   - title: US Customs and Border Protection — Electronic System for Travel Authorization (ESTA)
@@ -35,52 +35,65 @@ sources:
 ## Overview
 
 :::callout
-The Visa Waiver Program lets nationals of participating countries visit the US for up to **90 days** without a visa,
-after obtaining an **ESTA** online before travelling. The 90 days are a hard ceiling — unlike a visa, there is no
-extension and no change of status. Trips to Canada, Mexico and nearby islands generally don't reset the clock, and the
-ESTA's 2-year validity is permission to travel, not permission to stay.
+The Visa Waiver Program lets nationals of 40+ countries visit the US for **business** or **tourism**
+without a visa, for up to **90 days** per trip. You apply online for an **ESTA** before traveling, valid **2 years**
+for repeated trips. The 90 days are a hard ceiling: no extension, no change of status, and trips to Canada or Mexico
+don't reset the clock.
 :::
 
-| Key facts               |                                              |
-|:------------------------|---------------------------------------------:|
-| Stay limit              |                                      90 days |
-| Period / Window         |                                Per admission |
-| Counting                |                            Any part of a day |
+| Key parameters          |                                   |
+|:------------------------|----------------------------------:|
+| Limit                   |                           90 days |
+| Period / Window         |                         Per visit |
+| Counting                |                 Any part of a day |
 | Additional requirements | ESTA before travel, no extensions |
 
 ## Understanding the rule
 
-The trade in this programme is convenience for rigidity. You skip the visa interview and the fee, and in exchange you
-give up almost every flexibility a visa holder has.
+The programme is open to citizens of the participating countries only — it goes by nationality, not by residence, so
+living in a member country doesn't qualify you if you hold another passport. You also need an e-passport and must
+arrive on an airline or cruise line signed up to the scheme.
 
-The 90 days cannot be extended, for any reason short of a genuine medical emergency. You generally cannot change to
-another status from inside the US, and you cannot adjust to permanent residence — with a narrow exception for immediate
-relatives of US citizens. Entering under the programme also means waiving your right to contest a removal decision,
-other than by claiming asylum. None of these constraints applies to someone holding a B-1/B-2 visa.
+It covers the same ground as a visitor visa:
 
-An **ESTA** is the pre-travel authorisation, valid for 2 years or until your passport expires, whichever comes first.
-It permits you to board a carrier and request admission. As with any US entry, admission itself is the border
-officer's decision, and the actual permitted stay is recorded on your I-94.
+- **Business** — meetings, conferences, negotiations, contract work for a foreign employer.
+- **Tourism** — holidays, visiting family and friends, medical treatment.
 
-Eligibility is narrower than the country list suggests. Travel to certain countries since 2011, or holding dual
-nationality with a small number of specified countries, disqualifies you from the programme entirely and leaves a
-visa as the only route.
+It doesn't permit working for a US employer, studying toward a degree, or journalism.
+
+The trade is convenience for rigidity. You skip the visa interview and the fee, and in exchange you give up almost
+every flexibility a visa holder has. The 90 days cannot be extended, whatever the reason. You generally cannot change
+to another status from inside the US, and cannot adjust to permanent residence — with a narrow exception for immediate
+relatives of US citizens. Entering under the programme also waives your right to contest a removal decision, other
+than by claiming asylum.
+
+An **ESTA** is the pre-travel authorisation itself. It permits you to board a carrier and request admission — as with
+any US entry, admission is the border officer's decision, and your actual permitted stay is recorded on your I-94.
 
 ## How to keep track
 
-1. The limit is **90 days** per admission, and it is genuinely fixed — there is no extension mechanism.
+1. The limit is **90 days** per admission, and it is genuinely fixed — you are not eligible to apply for an extension.
 2. **Any part of a day** counts, including your arrival and departure days.
 3. Short trips to **Canada, Mexico, or adjacent islands** during your stay normally don't restart the count. You're
    usually readmitted only for the balance of the original 90 days, and that time abroad often counts toward it.
-4. Your ESTA's validity is separate from your stay. A 2-year ESTA covers repeated travel across those 2 years, each
+4. A genuine trip home is the opposite case — leave properly, spend real time away, and you're normally admitted for a
+   fresh 90 days on return. There's no published minimum time abroad that guarantees it, and the officer decides
+   either way.
+5. Your ESTA's validity is separate from your stay. A 2-year ESTA covers repeated travel across those 2 years, each
    trip still capped at 90 days.
-5. Check your I-94 record after entry to confirm the date you were actually admitted until.
+6. Check your I-94 record after entry to confirm the date you were actually admitted until.
 
 Keep your ESTA approval, I-94 records and boarding passes. Because there's no extension to fall back on, book your
 departure inside the 90 days rather than intending to sort it out later.
 
 ## Edge cases
 
+- **Eligibility is narrower than the country list suggests.** Having travelled to a short list of designated countries
+  since March 2011 — or to Cuba since January 2021 — disqualifies you, as does holding dual nationality with a handful
+  of specified countries. A visa is then the only route in.
+- **An emergency buys a departure window, not a longer stay.** If something genuinely stops you leaving on time, the
+  authorities can grant a discretionary **satisfactory departure** period of up to 30 days. It only lets you leave
+  without an overstay on your record.
 - **A pattern of back-to-back 90-day stays gets read as living in the US.** There is no fixed required gap between
   visits, but officers assess whether you're visiting or effectively residing, and refusal at the border is the usual
   outcome once it looks like the latter.
@@ -93,7 +106,7 @@ departure inside the 90 days rather than intending to sort it out later.
 
 ## If you get this rule wrong
 
-Overstaying costs you the programme itself: you become ineligible to use the Visa Waiver Program again and must apply for a visa for every future trip. The standard unlawful-presence bars apply on top — more than 180 days triggers a 3-year bar on returning, and a year or more triggers a 10-year bar. Because you waived the right to contest removal when you entered, there is also far less you can do if removal proceedings begin. **Professional immigration advice is strongly recommended in situations like this.**
+Overstaying costs you the programme itself: you become ineligible to use the Visa Waiver Program again and must apply for a visa for every future trip. The standard unlawful-presence bars apply on top — more than 180 days triggers a 3-year bar on returning, and a year or more triggers a 10-year bar. Because you waived the right to contest removal when you entered, there is also far less you can do if removal proceedings begin. **Professional advice is strongly recommended in situations like this.**
 
 ## Examples
 
@@ -109,8 +122,8 @@ You're readmitted for the remainder instead, and the Mexican days may count too 
 
 ### A stay that can't be extended
 
-At day 80 you're offered a longer contract and want another two months. There's no extension available under the
-programme and no change of status from inside the country, so the only lawful option is to leave before day 90.
+At day 80 you're offered a longer contract and want another two months. You aren't eligible to apply for an extension
+or a change of status from inside the country, so the only lawful option is to leave before day 90.
 
 ## Official sources
 
@@ -122,8 +135,8 @@ programme and no change of status from inside the country, so the only lawful op
 
 ### Can I extend a 90-day stay under the Visa Waiver Program?
 
-No. The 90 days can't be extended and you generally can't change to another status from inside the US. Anything longer
-needs a visa obtained before you travel.
+No. People admitted under the programme aren't eligible to apply, and you generally can't change to another status from
+inside the US. Anything longer needs a visa obtained before you travel.
 
 ### Does a trip to Canada or Mexico give me a new 90 days?
 
@@ -142,9 +155,9 @@ document with different rights — notably the ability to extend a stay and to c
 
 ### What can disqualify me from the programme?
 
-Travel to certain designated countries since 2011, dual nationality with a small number of specified countries, a
-previous overstay, or a prior visa refusal or removal. Any of these generally leaves applying for a visa as the only
-route.
+Travel to a short list of designated countries since March 2011, or to Cuba since January 2021, and dual nationality
+with a handful of specified countries. A previous overstay also ends your access. A past visa refusal or refused entry
+has to be declared and commonly results in the application being turned down.
 
 ### Do I need a new ESTA if I get a new passport?
 

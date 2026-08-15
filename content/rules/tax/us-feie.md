@@ -44,9 +44,9 @@ foreign country, plus either **330 full days** abroad in any twelve consecutive 
 for a full tax year. It reaches earned income only, so pensions, dividends and investment gains stay taxable.
 :::
 
-| Key facts               |                                            |
+| Key parameters          |                                            |
 |:------------------------|-------------------------------------------:|
-| Thresholds              |                            330 days abroad |
+| Threshold              |                            330 days abroad |
 | Period / Window         |                          Rolling 12 months |
 | Counting                |           Full days (midnight to midnight) |
 | Additional requirements | Foreign tax home, bona fide residence test |

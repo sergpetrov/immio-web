@@ -38,9 +38,9 @@ any one of the three is enough. The day count runs on a rolling window rather th
 don't need to be continuous.
 :::
 
-| Key facts               |                                    |
+| Key parameters          |                                    |
 |:------------------------|-----------------------------------:|
-| Thresholds              |                 More than 183 days |
+| Threshold              |                 More than 183 days |
 | Period / Window         |                   Rolling 365 days |
 | Counting                |                  Any part of a day |
 | Additional requirements | Permanent home, economic interests |

@@ -38,9 +38,9 @@ Portugal that you intend to keep and use as your habitual residence. A special r
 some new residents.
 :::
 
-| Key facts               |                         |
+| Key parameters          |                         |
 |:------------------------|------------------------:|
-| Thresholds              |      More than 183 days |
+| Threshold              |      More than 183 days |
 | Period / Window         |       Rolling 12 months |
 | Counting                | Nights (overnight stay) |
 | Additional requirements |      Habitual home test |

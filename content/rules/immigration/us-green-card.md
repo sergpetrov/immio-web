@@ -1,8 +1,8 @@
 ---
 id: us-green-card
 
-title: US Green Card (abandonment rules)
-subtitle: 6 months raises questions ∙ 1 year presumed abandoned ∙ Re-entry permit
+title: US Green Card (Abandonment, Absence rule)
+subtitle: 6 months raises questions ∙ 1 year voids the card ∙ Re-entry permit
 
 category: immigration
 
@@ -15,13 +15,13 @@ seo:
     1-year thresholds, why intent decides it rather than days, re-entry
     permits, and the returning resident visa.
 
-updatedAt: 2026-08-14
+updatedAt: 2026-08-15
 
 sources:
   - title: USCIS — Maintaining permanent residence
     url: https://www.uscis.gov/green-card/after-we-grant-your-green-card/maintaining-permanent-residence
     type: official
-  - title: "USCIS — Travel documents (Form I-131, re-entry permit)"
+  - title: "USCIS — Travel documents (re-entry permit)"
     url: https://www.uscis.gov/i-131
     type: official
   - title: US Department of State — Returning Resident Visas
@@ -30,58 +30,51 @@ sources:
 
 ---
 
-# US Green Card (abandonment rules)
+# United States Green Card (Abandonment, Absence rule)
 
 ## Overview
 
 :::callout
 A green card is lost through **abandonment**, and abandonment turns on your intent rather than on any single day count.
-The thresholds that matter are practical: absences over **6 months** invite questioning about whether you still live in
-the US, and absences of **1 year or more** create a presumption that you abandoned residence — one that also renders
-the card itself invalid for re-entry.
+The thresholds that matter are practical ones. Past **180 consecutive days (6 months)** an officer may ask whether you
+still live in the US. Once an absence reaches **1 year** the card stops working as a re-entry document, and the length of the
+trip itself becomes strong evidence that you moved away.
 :::
 
-| Key facts               |                                              |
-|:------------------------|---------------------------------------------:|
-| Absence limit           |               1 year presumed abandonment |
-| Period / Window         |                     Per absence, continuous |
-| Alternative             |          6 months triggers scrutiny |
-| Counting                |                          Any part of a day |
+| Key parameters          |                                            |
+|:------------------------|-------------------------------------------:|
+| Limit                   |            180 consecutive days of absence |
+| Period / Window         |                     Per continuous absence |
+| Counting                |                      Whole days of absence |
 | Additional requirements | Intent to reside, US ties, re-entry permit |
 
 ## Understanding the rule
 
-There is no statutory day limit that ends permanent residence, which is why this rule resists the simple arithmetic
-people expect. What the law asks is whether the US remains your **actual home** — whether you left temporarily with an
-intention to return, or effectively moved away.
+This applies to any **lawful permanent resident** travelling outside the US, however the green card was obtained, for
+as long as they hold it.
 
-The day thresholds are evidential rather than determinative:
+There's no fixed day limit. The test is **intent** — whether the US is still your home or you've effectively moved
+away. The longer a single trip runs, the more it counts against you, and past **6 months** an officer can start
+asking questions.
 
-- **Under 6 months** — routine, and ordinarily unremarkable at the border.
-- **6 months to a year** — an officer may question whether you've maintained residence, and you may be asked to
-  demonstrate your ties.
-- **1 year or more** — a continuous absence of a year makes the green card invalid as a re-entry document and creates
-  a presumption of abandonment you have to rebut.
+What actually protects you is evidence of ties: a US home, job, family, resident tax filings, bank accounts. Filing as
+a **non-resident** for tax purposes cuts directly against you — it's a formal declaration that you don't live there.
 
-Because intent is what's assessed, evidence of ties is what actually protects you: a US home, employment, family, tax
-filings as a resident, bank accounts, a driver's licence. Filing US taxes as a **non-resident** cuts directly against
-you, since it is a formal declaration that you don't live there.
-
-A **re-entry permit**, applied for from inside the US before departing, preserves your position for up to 2 years. It
-does not stop abandonment being found on the facts, but it removes the automatic presumption and keeps the card valid
-for return.
+A **re-entry permit** doesn't stop abandonment being found on the facts, but it keeps a valid travel document in hand
+and shows the absence was planned as temporary.
 
 ## How to keep track
 
-1. Treat **6 months** as the point where absences start attracting scrutiny, and **1 year** as the point where
-   re-entry on the card alone stops working.
-2. **Any part of a day** in the US counts as presence, but presence alone doesn't preserve status — brief returns to
-   "reset the clock" are a recognised pattern rather than a solution.
+1. Absences under **6 months** are ordinarily unremarkable at the border. Past that, an officer may question whether
+   you've maintained residence and ask you to demonstrate your ties. At **1 year or more** the card stops working as a
+   re-entry document, and an absence that long is treated as strong evidence you moved away.
+2. Only **whole days** outside the US count as absence. Your **departure** and **return** days both count as **days in** the US,
+   so an absence runs from the day after you leave to the day before you come back.
 3. Apply for a **re-entry permit before leaving**, while you're physically in the US. It can't be applied for from
-   abroad, and it covers absences of up to 2 years.
+   abroad, and it normally covers absences of up to 2 years.
 4. For an absence already past a year without a permit, the route back is a **returning resident visa**, applied for at
    a US consulate and requiring proof the delay was beyond your control.
-5. Track cumulative time abroad across years, not just each individual trip, since a pattern of long absences is
+5. Track **cumulative time abroad** across years, not just each individual trip, since a pattern of long absences is
    assessed as a whole.
 
 Keep evidence of your US ties throughout — lease or mortgage, employment records, resident tax returns, utility bills,
@@ -93,16 +86,18 @@ family in the US. That evidence is the substance of the rule, far more than the 
   well-known pattern, and officers treat it as evidence of living abroad rather than proof of residence.
 - **Filing taxes as a non-resident is close to fatal.** It's a formal statement to a US authority that you don't reside
   there, and it directly contradicts the intent the rule tests.
-- **A re-entry permit isn't a guarantee.** It removes the presumption of abandonment and keeps the card valid for
-  return, but an officer can still find abandonment on the overall facts.
-- **Abandonment affects naturalisation separately.** Continuous residence for citizenship is broken by absences of
-  6 months or more, on its own test — so a trip that preserves your green card can still reset your citizenship clock.
-- **Signing Form I-407 gives up the status voluntarily.** Officers sometimes present it at the border to someone with a
-  long absence, and signing is a choice rather than an obligation.
+- **A re-entry permit isn't a guarantee.** It gives you a valid travel document and evidence that the absence was
+  planned as temporary, but abandonment can still be found on the overall facts.
+- **A re-entry permit can be cut to one year.** If you've already spent more than four of the last five years outside
+  the US, it's generally issued for one year rather than two.
+- **Citizenship uses a stricter clock.** Its continuous residence test is disrupted by any single absence of more than
+  6 months — so a trip that preserves your green card can still set your citizenship timing back.
+- **Signing the abandonment form gives up the status voluntarily.** Officers sometimes present it at the border to
+  someone with a long absence, and signing is a choice rather than an obligation.
 
 ## If you get this rule wrong
 
-Being found to have abandoned residence means losing permanent status, and you are entitled to a hearing before an immigration judge rather than having it decided at the counter — though you may be pressed to surrender the card voluntarily instead. The knock-on effect is often larger than the loss itself: years of accumulated residence toward naturalisation disappear, and regaining permanent residence generally means starting the whole immigrant process again. **Professional immigration advice is strongly recommended in situations like this.**
+Being found to have abandoned residence means losing permanent status, and that is decided by an immigration judge rather than at the counter. You may still be pressed to surrender the card voluntarily instead. The knock-on effect is often larger than the loss itself: years of accumulated residence toward naturalisation disappear, and regaining permanent residence generally means starting the whole immigrant process again. **Professional advice is strongly recommended in situations like this.**
 
 ## Examples
 
@@ -125,20 +120,25 @@ the regular entries.
 ## Official sources
 
 - [USCIS — Maintaining permanent residence](https://www.uscis.gov/green-card/after-we-grant-your-green-card/maintaining-permanent-residence)
-- [USCIS — Travel documents (Form I-131, re-entry permit)](https://www.uscis.gov/i-131)
+- [USCIS — Travel documents (re-entry permit)](https://www.uscis.gov/i-131)
 - [US Department of State — Returning Resident Visas](https://travel.state.gov/content/travel/en/us-visas/immigrate/returning-resident.html)
 
 ## FAQ
 
 ### How long can I stay outside the US with a green card?
 
-There's no fixed limit, because the test is whether you still intend to reside in the US. In practice absences past
-6 months attract questions, and an absence of a year or more makes the card invalid for re-entry.
+There's no fixed limit, because the test is whether you still intend to reside in the US. In practice, past 6 months
+an officer may start asking, and an absence of a year or more makes the card invalid for re-entry.
 
 ### What is a re-entry permit and when do I need it?
 
-It's a travel document covering absences of up to 2 years, applied for from inside the US before you leave. It removes
-the automatic presumption of abandonment that a long absence otherwise creates.
+It's a travel document normally covering absences of up to 2 years, applied for from inside the US before you leave. It
+keeps your card usable for return and evidences that the absence was planned as a temporary one.
+
+### Do my departure and return days count as absence?
+
+No. Both are treated as days of presence in the US, so an absence runs from the day after you leave to the day before
+you return. Leaving on 1 January and returning on 2 January the following year is exactly one year abroad.
 
 ### Can I just return briefly every year to keep my green card?
 
@@ -152,10 +152,10 @@ requires showing the extended stay was caused by circumstances beyond your contr
 
 ### Does a long absence affect applying for citizenship?
 
-Yes, separately. Naturalisation has its own continuous residence test, broken by absences of 6 months or more, so an
-absence that preserves your green card can still reset your citizenship clock.
+Yes, separately. Naturalisation has its own continuous residence test, disrupted by any single absence of more than
+6 months, so an absence that preserves your green card can still set your citizenship timing back.
 
-### Do I have to sign Form I-407 if asked at the border?
+### Do I have to sign anything at the border if asked?
 
-No. Signing it surrenders permanent residence voluntarily. You're entitled to have abandonment decided by an
-immigration judge instead.
+No. Officers may present an abandonment form after a long absence, but signing it surrenders permanent residence
+voluntarily. You're entitled to have abandonment decided by an immigration judge instead.

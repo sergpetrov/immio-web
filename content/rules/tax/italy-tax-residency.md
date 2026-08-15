@@ -37,9 +37,9 @@ registration in Italy's resident population registry, a **domicile** in Italy, a
 simple **physical presence** there. Special regimes can reduce tax for some new residents.
 :::
 
-| Key facts               |                                    |
+| Key parameters          |                                    |
 |:------------------------|-----------------------------------:|
-| Thresholds              |                           183 days |
+| Threshold              |                           183 days |
 | Period / Window         |     Calendar year (1 Jan – 31 Dec) |
 | Counting                |                  Any part of a day |
 | Additional requirements | Registry enrollment, domicile test |

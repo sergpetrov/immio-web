@@ -2,7 +2,7 @@
 id: thailand-visa
 
 title: Thailand Visa Exemption (60-day rule)
-subtitle: 60 days ∙ 30-day extension ∙ Reduction to 30 days pending
+subtitle: 60 days ∙ 30-day extension ∙ Shorter stay approved, not in force
 
 category: travel
 
@@ -12,14 +12,14 @@ seo:
   title: Thailand Visa Exemption Rules Explained | Immio
   description: >
     How Thailand's visa exemption works — the 60-day stay, the 30-day
-    extension, the arrival card requirement, the pending reduction to
-    30 days, and what an overstay costs.
+    extension, the digital arrival card, the approved but unpublished cut
+    to shorter stays, and what an overstay costs.
 
-updatedAt: 2026-08-14
+updatedAt: 2026-08-15
 
 sources:
   - title: Thailand Ministry of Foreign Affairs — Visa information
-    url: https://www.mfa.go.th/en/page/visa
+    url: https://www.mfa.go.th/en/content-category/thailand-visa-information
     type: official
   - title: Thailand Immigration Bureau
     url: https://www.immigration.go.th/en/
@@ -36,61 +36,62 @@ sources:
 
 :::callout
 Nationals of a long list of countries can currently enter Thailand without a visa for **60 days**, extendable once by a
-further **30 days** at an immigration office. A reduction of that 60-day entitlement back to **30 days** has been
-approved by Cabinet but is not yet in force — it takes effect 15 days after publication in the Royal Gazette, so check
-the current position before booking a long trip.
+further **30 days** at an immigration office. Cabinet has approved cutting that entitlement — most of those
+nationalities would drop to **30 days**, and a small number to 15. It is not law yet, because the change only takes
+effect 15 days after publication in the Royal Gazette, which has still not happened.
 :::
 
-| Key facts               |                                             |
-|:------------------------|--------------------------------------------:|
-| Stay limit              |                                     60 days |
-| Period / Window         |                                Per entry |
-| Counting                |                           Any part of a day |
+| Key parameters          |                                      |
+|:------------------------|-------------------------------------:|
+| Limit                   |                              60 days |
+| Period / Window         |                            Per visit |
+| Counting                |                    Any part of a day |
 | Additional requirements | Arrival card, onward travel, no work |
 
 ## Understanding the rule
 
 The visa exemption is an entry concession rather than a visa: you arrive, and an immigration officer stamps you in for
-the permitted period. Nothing is applied for in advance beyond the arrival card, and nothing about it grants a right to
-work — employment on a visa exemption is not permitted regardless of who pays you or where the client is.
+the permitted period. Nothing is applied for in advance beyond the arrival card, and it grants no right to work
+regardless of who pays you or where the client is.
 
-Two separate reforms sit around this rule and are easy to conflate. The stay length is what's changing, and it has
-already been approved. Separately, everyone entering Thailand must now complete a **Thailand Digital Arrival Card**
-online before arrival, which replaced the old paper form and applies whatever your entry route.
-
-The exemption is also not the only short-stay option. Visa on Arrival is a distinct, shorter scheme for a different set
-of nationalities, and a tourist visa obtained from a Thai embassy before travel gives a longer stay than the exemption
-does. Which of these applies to you turns on your nationality, and the lists differ for each.
+It isn't the only short-stay option, either. Visa on Arrival is a distinct, shorter scheme covering a different set of
+nationalities, and a tourist visa obtained from a Thai embassy before travel gives longer than the exemption does.
+Which applies to you turns on your nationality, and the lists differ for each.
 
 ## How to keep track
 
-1. The current stay is **60 days** from the date you're stamped in, granted per entry with no annual cap.
+1. The current stay is **60 days** from the date you're stamped in, granted per entry, with no annual limit on arrivals
+   by air.
 2. **Any part of a day** counts, so your arrival and departure days both fall inside the permitted period.
 3. One **30-day extension** can be applied for at an immigration office inside Thailand, for a fee, before your
    permitted stay expires. That takes a 60-day entry to 90 days in total.
-4. Complete the **Thailand Digital Arrival Card** online before you arrive — it's required for every entry, including
-   visa-exempt ones.
-5. Repeated back-to-back visa-exempt entries by land are scrutinised more heavily than air arrivals, and officers can
-   refuse entry to someone who appears to be living in Thailand on rolling exemptions.
+4. Complete the **Thailand Digital Arrival Card** online within the three days before you arrive. A new one is needed
+   for every entry, and only passengers transiting without clearing immigration are outside the requirement.
+5. Arriving by land, most nationalities are capped at **two** visa-exempt entries per calendar year, and the count
+   resets on 1 January. Officers can also refuse anyone whose pattern of entries suggests they are living in Thailand.
 
 Keep your entry stamps, arrival card confirmation and any extension receipt. Your permitted-until date is written on
 the stamp, and that stamp is what you'll be measured against if questioned.
 
 ## Edge cases
 
-- **The 60-day entitlement is being cut to 30 and the date isn't fixed.** Cabinet approved the reduction in May 2026,
-  but it only takes effect 15 days after publication in the Royal Gazette. Until then 60 days stands, so verify which
-  regime applies to your travel dates rather than assuming either figure.
+- **The cut is approved but undated, and it won't be retroactive.** Sixty days stands until the Royal Gazette
+  publishes, and anyone admitted before the change takes effect keeps the stay they were granted. Verify which regime
+  applies to your arrival date rather than assuming either figure.
+- **Two reforms are running at once and get conflated.** The stay length is the one still pending. The **Thailand
+  Digital Arrival Card** already applies — it replaced the paper form for everyone entering the country, whatever
+  route they use, and is unaffected by whether the shorter stays take effect.
 - **The exemption is not a visa and carries no work rights.** Remote work for a foreign employer sits in a grey area
   Thailand has been tightening rather than relaxing, and any local employment is clearly prohibited.
-- **Entering by land repeatedly attracts limits.** Officers apply more scrutiny to consecutive land-border exemption
-  entries, and refusal is a real outcome for someone with a long run of them.
+- **You can be asked to show you can support yourself.** A minimum sum of money per traveller is a long-standing entry
+  condition, alongside onward travel and accommodation details. Checks are occasional rather than routine, and failing
+  one is a discretionary ground for refusal.
 - **A tourist visa obtained in advance gives a longer stay than the exemption.** Applying at a Thai embassy before
   travelling is the straightforward route for a stay the exemption can't cover.
 
 ## If you get this rule wrong
 
-Overstaying is charged at a fixed daily fine up to a capped maximum, payable at the airport on departure, and anything past that becomes a matter for the immigration police rather than a counter transaction. Bans scale with the length of the overstay for people who surrender voluntarily — 1 year after more than 90 days, 3 years after more than a year, 5 years after more than three, and 10 years after more than five — and are markedly harsher for anyone arrested rather than departing of their own accord. **Professional immigration advice is strongly recommended in situations like this.**
+Overstaying is charged at a fixed daily fine up to a capped maximum, payable at the airport on departure, and anything past that becomes a matter for the immigration police rather than a counter transaction. For anyone who leaves voluntarily the bans scale with the overstay — 1 year past 90 days, 3 years past a year, 5 years past three, 10 years past five. Being arrested instead is markedly harsher, and can mean a 5-year ban for an overstay that would otherwise have carried none. **Professional advice is strongly recommended in situations like this.**
 
 ## Examples
 
@@ -106,13 +107,13 @@ pay the fee, and receive a further 30 days — 90 in total, which is the ceiling
 
 ### Assuming the wrong figure applies
 
-You book a 55-day trip months ahead on the basis of the 60-day exemption. If the reduction to 30 days has been
-published and taken effect by your arrival date, you'd be stamped in for 30 instead, and would need an extension to
-cover even most of the trip.
+You book a 55-day trip months ahead on the basis of the 60-day exemption. If the shorter stays have been published and
+taken effect by your arrival date, you'd be stamped in for 30 instead, and would need the extension to cover the rest
+of the trip.
 
 ## Official sources
 
-- [Thailand Ministry of Foreign Affairs — Visa information](https://www.mfa.go.th/en/page/visa)
+- [Thailand Ministry of Foreign Affairs — Visa information](https://www.mfa.go.th/en/content-category/thailand-visa-information)
 - [Thailand Immigration Bureau](https://www.immigration.go.th/en/)
 - [Thailand Digital Arrival Card (TDAC)](https://tdac.immigration.go.th/)
 
@@ -120,9 +121,9 @@ cover even most of the trip.
 
 ### How long can I stay in Thailand without a visa?
 
-Currently 60 days per entry for eligible nationalities, extendable once by 30 days at an immigration office. A
-reduction to 30 days has been approved but takes effect only after Royal Gazette publication, so confirm the position
-for your travel dates.
+Currently 60 days per entry for eligible nationalities, extendable once by 30 days at an immigration office. Shorter
+stays have been approved but take effect only after Royal Gazette publication, so confirm the position for your travel
+dates.
 
 ### Can I extend a visa-exempt stay?
 
@@ -132,7 +133,7 @@ expires and pay a fee. That's the only extension available on this route.
 ### Do I need the Thailand Digital Arrival Card?
 
 Yes. It replaced the paper arrival card and is required for everyone entering Thailand, including visa-exempt arrivals.
-It's completed online before you travel.
+You complete it online within the three days before arrival, and you need a fresh one each time you enter.
 
 ### Can I work remotely while on a visa exemption?
 
@@ -141,8 +142,8 @@ occupies a grey area that Thailand has been tightening, so it shouldn't be treat
 
 ### Is there a limit on how many times I can enter visa-exempt?
 
-There's no published annual cap, but consecutive entries — especially by land — attract scrutiny, and officers can
-refuse entry to someone whose pattern suggests they're living in Thailand rather than visiting.
+By land, yes — most nationalities get two visa-exempt entries per calendar year. Arrivals by air aren't capped that
+way, but a pattern suggesting you live in Thailand rather than visit can still lead to refusal.
 
 ### What's the difference between visa exemption and visa on arrival?
 

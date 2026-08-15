@@ -44,9 +44,9 @@ present. Residency is backdated to the first of those 183 days. Since April 2026
 overseas employers are carved out of the day test.
 :::
 
-| Key facts               |                                             |
+| Key parameters          |                                             |
 |:------------------------|--------------------------------------------:|
-| Thresholds              |                          More than 183 days |
+| Threshold              |                          More than 183 days |
 | Period / Window         |                           Rolling 12 months |
 | Counting                |                           Any part of a day |
 | Additional requirements | Permanent place of abode, visitor carve-out |
@@ -78,7 +78,7 @@ New Zealand tax residents are taxed on worldwide income, non-residents only on i
 2. Any part of a day in New Zealand counts as a whole day, including your arrival and departure days. The days don't
    have to run consecutively — they're simply added up across the window.
 3. Ceasing residency runs on a mirror-image count. You become a non-resident only once you've been away for **more
-   than 325 days** in any 12-month period *and* you no longer have a permanent place of abode. Part-days spent in New
+   than 325 days** in any 12-month period **and** you no longer have a permanent place of abode. Part-days spent in New
    Zealand don't count toward those 325.
 4. Both directions are backdated — to the first of the 183 days when you become a resident, and to the first of the
    325 days when you stop being one.

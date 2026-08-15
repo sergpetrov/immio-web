@@ -39,9 +39,9 @@ through several property and business routes. New residents can also elect a tem
 income.
 :::
 
-| Key facts               |                                               |
+| Key parameters          |                                               |
 |:------------------------|----------------------------------------------:|
-| Thresholds              |                            More than 183 days |
+| Threshold              |                            More than 183 days |
 | Period / Window         |                Calendar year (1 Jan – 31 Dec) |
 | Counting                | Any part of a day, sporadic absences included |
 | Additional requirements |       Vital interests test, investment routes |

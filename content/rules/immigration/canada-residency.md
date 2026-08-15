@@ -9,13 +9,13 @@ category: immigration
 place: ca
 
 seo:
-  title: Canada PR Residency Obligation Explained | Immio
+  title: Canada Permanent Residency Rules Explained | Immio
   description: >
     How Canada's permanent residency obligation works — the 730-day rule
     over a rolling 5 years, which time abroad still counts, PR card
     renewal, and what losing status actually involves.
 
-updatedAt: 2026-08-14
+updatedAt: 2026-08-15
 
 sources:
   - title: Immigration, Refugees and Citizenship Canada — Permanent resident status
@@ -34,23 +34,24 @@ sources:
 :::callout
 Keeping Canadian permanent residency means being physically in Canada for at least **730 days** — two years — in every
 rolling **5-year** period. It isn't assessed once and settled: any 5-year window can be examined, at a border crossing
-or when you renew your PR card. Some time abroad still counts toward the 730, which is what makes the rule more
-generous than it first looks.
+or when you renew your permanent resident card (PR card). Some time abroad still counts toward the 730, which is what
+makes the rule more generous than it first looks.
 :::
 
-| Key facts               |                                            |
-|:------------------------|-------------------------------------------:|
-| Absence limit           |              730 days required in Canada |
-| Qualifying period       |                                    5 years |
-| Period / Window         |                            Rolling 5 years |
-| Counting                |                          Any part of a day |
-| Additional requirements | Some time abroad counts toward the total |
+| Key parameters          |                     |
+|:------------------------|--------------------:|
+| Presence required       |            730 days |
+| Period / Window         |     Rolling 5 years |
+| Counting                |   Any part of a day |
+| Additional requirements | Time abroad credits |
 
 ## Understanding the rule
 
+This applies to every Canadian permanent resident, however they obtained the status, for as long as they hold it.
+
 The obligation is stated as a minimum presence rather than a maximum absence: 730 days inside Canada out of every
-1,825. That leaves roughly three years of the five available to spend abroad, which is considerably more latitude than
-most permanent-residence regimes allow.
+1,825. That leaves roughly three years of the five available to spend abroad, and the days don't have to be
+consecutive.
 
 The window **rolls**, and is applied to whichever 5-year period is being examined at the moment your status is assessed
 — when you present a PR card at the border, or when you apply to renew one. For someone who has been a permanent
@@ -81,8 +82,9 @@ spouse's citizenship documents, an employer's assignment letter, proof the emplo
 
 ## Edge cases
 
-- **An expired PR card doesn't mean lost status.** The card is a travel document. Status continues until an officer
-  formally decides the obligation was breached, so an expired card is a travel problem rather than a status one.
+- **An expired PR card doesn't end your status.** Status continues until an officer formally decides the obligation was
+  breached — the real problem is travel. Boarding a commercial flight back to Canada without a valid card requires a
+  permanent resident travel document, applied for from abroad.
 - **Time abroad with a Canadian citizen spouse counts fully.** This is the provision that most changes the arithmetic,
   and it applies to the whole period of accompanying them, not a capped portion of it.
 - **Working abroad only counts under specific conditions.** The employer has to be a Canadian business or public
@@ -93,7 +95,7 @@ spouse's citizenship documents, an employer's assignment letter, proof the emplo
 
 ## If you get this rule wrong
 
-Breaching the obligation doesn't strip your status automatically — it takes a formal determination, made at a border crossing or on a PR card application, and that determination can be appealed to the Immigration Appeal Division. Losing the appeal means a removal order and losing permanent residence outright, which also ends any progress toward citizenship, since the residence you built no longer counts toward it. **Professional immigration advice is strongly recommended in situations like this.**
+Breaching the obligation doesn't strip your status automatically — it takes a formal determination, made at a border crossing or on a PR card application, and that determination can be appealed to the Immigration Appeal Division. Losing the appeal means a removal order and losing permanent residence outright, which also ends any progress toward citizenship, since the residence you built no longer counts toward it. **Professional advice is strongly recommended in situations like this.**
 
 ## Examples
 

@@ -2,7 +2,7 @@
 id: uk-ilr-180-day-rule
 
 title: UK Indefinite Leave to Remain (ILR)
-subtitle: 180 days absence ∙ Rolling 12 months ∙ Settlement
+subtitle: 180 days of absence ∙ Rolling 12 months ∙ Settlement
 
 category: immigration
 

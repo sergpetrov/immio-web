@@ -2,7 +2,7 @@
 id: saudi-arabia-tax-residency
 
 title: Saudi Arabia Tax Residency (30-day and 183-day rules)
-subtitle: 30 days with a permanent home ∙ 183 days ∙ Tax year
+subtitle: 30 days or 183 days ∙ Starts Jan 1
 
 category: tax
 
@@ -32,7 +32,7 @@ sources:
 ## Overview
 
 :::callout
-You're a Saudi tax resident if you're present in the Kingdom for **183 days** during the tax year, or for just **30
+You're a Saudi tax resident if you're present in the Kingdom for **183 days** during the **tax year**, or for just **30
 days** while you have a permanent place of abode there. Saudi Arabia charges **no personal income tax** on employment
 income, so the status matters mainly for treaty benefits and a Tax Residency Certificate. It also shapes how business
 income is taxed and how Zakat applies.
@@ -40,7 +40,7 @@ income is taxed and how Zakat applies.
 
 | Key parameters          |                                     |
 |:------------------------|------------------------------------:|
-| Threshold              |                            183 days |
+| Threshold               |                            183 days |
 | Period / Window         |      Calendar year (1 Jan – 31 Dec) |
 | Alternative             |                             30 days |
 | Counting                |                   Any part of a day |

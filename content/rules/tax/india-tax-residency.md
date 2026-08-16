@@ -43,7 +43,7 @@ then decides how much of a resident's foreign income India actually taxes.
 
 | Key parameters          |                                                 |
 |:------------------------|------------------------------------------------:|
-| Threshold              |                                        182 days |
+| Threshold               |                                        182 days |
 | Period / Window         |                       Tax year (1 Apr – 31 Mar) |
 | Alternative             |         60 days/year and 365 days/4 prior years |
 | Counting                |                               Any part of a day |

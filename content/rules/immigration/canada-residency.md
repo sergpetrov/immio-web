@@ -1,8 +1,8 @@
 ---
 id: canada-residency
 
-title: Canada Permanent Residency (730-day rule)
-subtitle: 730 days in 5 years ∙ Rolling assessment ∙ PR card renewal
+title: Canada Permanent Residency
+subtitle: 730 days ∙ last 5 years ∙ PR
 
 category: immigration
 
@@ -27,7 +27,7 @@ sources:
 
 ---
 
-# Canada Permanent Residency (730-day rule)
+# Canada Permanent Residency
 
 ## Overview
 
@@ -49,9 +49,8 @@ makes the rule more generous than it first looks.
 
 This applies to every Canadian permanent resident, however they obtained the status, for as long as they hold it.
 
-The obligation is stated as a minimum presence rather than a maximum absence: 730 days inside Canada out of every
-1,825. That leaves roughly three years of the five available to spend abroad, and the days don't have to be
-consecutive.
+The obligation is stated as a minimum presence rather than a maximum absence: **730 days** inside Canada out of every **1825**. 
+That leaves roughly three years of the five available to spend abroad, and the days don't have to be consecutive.
 
 The window **rolls**, and is applied to whichever 5-year period is being examined at the moment your status is assessed
 — when you present a PR card at the border, or when you apply to renew one. For someone who has been a permanent
@@ -69,13 +68,13 @@ travel document; the status is separate and continues until an officer formally 
 
 ## How to keep track
 
-1. You need **730 days physically in Canada** within any rolling 5-year period, not 730 days per five calendar years.
-2. **Any part of a day** in Canada counts as a full day, including your arrival and departure days.
-3. Days abroad that fall into one of the three accompanying-or-employed categories are **added to your total** as
+1. You need **730 days physically in Canada** within any **rolling 5-year period**, not 730 days per five calendar years.
+2. **Any part of a day** in Canada counts as a **full day**, including your arrival and departure days.
+3. Days abroad that fall into one of the 3 accompanying-or-employed categories are **added to your total** as
    though spent in Canada, so count those separately rather than writing them off.
 4. In your first 5 years as a permanent resident, the question is whether 730 days is still **achievable** within that
    window, not whether you've already reached it.
-5. Check the worst 5-year window your travel history produces, since that's the one an officer may look at.
+5. Check the **worst 5-year window** your travel history produces, since that's the one an officer may look at.
 
 Keep entry and exit records, and if you're relying on time abroad counting, keep the evidence that supports it — a
 spouse's citizenship documents, an employer's assignment letter, proof the employer is a Canadian business.

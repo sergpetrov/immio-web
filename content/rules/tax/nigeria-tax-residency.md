@@ -2,7 +2,7 @@
 id: nigeria-tax-residency
 
 title: Nigeria Tax Residency (183-day rule)
-subtitle: 183 days ∙ Rolling 12 months ∙ Home, abode and ties tests
+subtitle: 183 days ∙ Rolling 12 months
 
 category: tax
 
@@ -33,15 +33,14 @@ sources:
 
 :::callout
 You're a Nigerian tax resident if you're domiciled there, or if you have a permanent place available for your own
-domestic use or a place of habitual abode. Substantial economic ties together with immediate family in Nigeria do it
-too, as does being present for **183 days** or more in any 12-month period. Nigerians serving abroad as diplomats are
-residents as well. Residents are taxed on worldwide income, and which state revenue service collects that tax is a
-separate question.
+domestic use or a place of **habitual abode**. Substantial economic ties together with immediate family in Nigeria do it
+too, as does being present for **183 days** or more in any **12-month period**. Nigerians serving abroad as diplomats are
+residents as well.
 :::
 
 | Key parameters          |                                                |
 |:------------------------|-----------------------------------------------:|
-| Threshold              |                                       183 days |
+| Threshold               |                                       183 days |
 | Period / Window         |                              Rolling 12 months |
 | Counting                |                              Any part of a day |
 | Additional requirements | Domicile, permanent home, habitual abode, ties |
@@ -71,10 +70,10 @@ of 2026 and replaced a regime that had no explicit statutory definition of a res
 
 1. The day threshold is **183 days** or more in aggregate within any 12-month period, and that window does not have to
    be a calendar year. Assessment itself still runs on the calendar year, 1 January to 31 December.
-2. Separate stays are added together, so they do not need to be consecutive and no single trip needs to be long.
+2. **Separate stays** are added together, so they do not need to be consecutive and no single trip needs to be long.
 3. Annual leave and temporary absences that fall within a period of stay are counted toward the total rather than
    breaking it.
-4. Because the window rolls, the same set of trips can fail the test measured from January and pass it measured from
+4. Because the **window rolls**, the same set of trips can fail the test measured from January and pass it measured from
    April — check more than one starting point before concluding you are under.
 
 Keep travel records for every entry and exit, plus a tenancy agreement or title deed for any Nigerian home, and

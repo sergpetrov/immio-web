@@ -63,7 +63,7 @@ all keep nonresident status even past six months, as long as they don't intend t
 ## How to keep track
 
 1. The core threshold is **more than six months** (effectively 183+ days) of continuous presence within a single **calendar year**.
-2. Short absences during that period don't interrupt the count, as long as your overall presence still falls within
+2. **Short absences** during that period **don't** interrupt the **count**, as long as your overall presence still falls within
    one calendar year.
 
 Keep evidence of your settled address, or the lack of one, for the domicile test, entry and exit records for your

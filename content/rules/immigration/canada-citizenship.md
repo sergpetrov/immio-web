@@ -1,8 +1,8 @@
 ---
 id: canada-citizenship
 
-title: Canada Citizenship (1095-day rule)
-subtitle: 1,095 days in 5 years ∙ Half-days for pre-PR time ∙ Tax filing
+title: Canada Citizenship
+subtitle: 1095 days ∙ 5 years ∙ Temp resident days x 0.5
 
 category: immigration
 
@@ -30,23 +30,23 @@ sources:
 
 ---
 
-# Canada Citizenship (1095-day rule)
+# Canada Citizenship
 
 ## Overview
 
 :::callout
-Applying for Canadian citizenship needs **1095 days** — three years — of physical presence in Canada within the
+Applying for Canadian citizenship needs **1095 days (3 years)** — of physical presence in Canada within the
 **5 years** before you apply. Time spent in Canada before becoming a permanent resident can count too, at **half a
-day each**, up to a maximum of 365 days credited. You also have to have filed Canadian taxes for at least 3 of those
+day each**, up to a maximum of 365 days credited. You also have to have filed Canadian taxes for **at least 3** of those
 5 years, where required to.
 :::
 
-| Key parameters          |                                           |
-|:------------------------|------------------------------------------:|
-| Presence required       |                                 1095 days |
-| Qualifying period       |                                   5 years |
-| Counting                | Any part of a day, half-day credit pre-PR |
-| Additional requirements |      Tax filing, language, knowledge test |
+| Key parameters          |                                            |
+|:------------------------|-------------------------------------------:|
+| Presence required       |                                  1095 days |
+| Qualifying period       |                                    5 years |
+| Counting                | Any part of a day, half-day credit temp PR |
+| Additional requirements |       Tax filing, language, knowledge test |
 
 ## Understanding the rule
 

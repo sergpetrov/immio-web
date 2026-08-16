@@ -39,7 +39,7 @@ simple **physical presence** there. Special regimes can reduce tax for some new 
 
 | Key parameters          |                                    |
 |:------------------------|-----------------------------------:|
-| Threshold              |                           183 days |
+| Threshold               |                           183 days |
 | Period / Window         |     Calendar year (1 Jan – 31 Dec) |
 | Counting                |                  Any part of a day |
 | Additional requirements | Registry enrollment, domicile test |
@@ -70,7 +70,7 @@ non-residence.
 1. The tests are measured over the **greater part of the tax period** — at least **183 days** in an ordinary year, or
    **184 days** in a leap year.
 2. **Any part of a day** counts as a full day present, including arrival and departure days.
-3. Days don't need to be consecutive — the total is simply added up across the calendar year.
+3. Days don't need to be consecutive — the total is simply added up across the **calendar year**.
 
 Keep travel records for your day count, plus evidence of where your home, family, and personal life are actually
 based if you're relying on, or trying to rebut, the domicile or registry tests.

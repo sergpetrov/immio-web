@@ -2,7 +2,7 @@
 id: us-feie
 
 title: US Foreign Earned Income Exclusion (FEIE)
-subtitle: 330 full days ∙ Rolling 12 months ∙ Bona fide residence test
+subtitle: 330 days abroad ∙ Rolling 12 months ∙ Bona fide residence test
 
 category: tax
 
@@ -46,9 +46,9 @@ for a full tax year. It reaches earned income only, so pensions, dividends and i
 
 | Key parameters          |                                            |
 |:------------------------|-------------------------------------------:|
-| Threshold              |                            330 days abroad |
+| Threshold               |                            330 days abroad |
 | Period / Window         |                          Rolling 12 months |
-| Counting                |           Full days (midnight to midnight) |
+| Counting                |                                 Whole days |
 | Additional requirements | Foreign tax home, bona fide residence test |
 
 ## Understanding the rule
@@ -89,7 +89,7 @@ The exclusion isn't automatic — you have to claim it yourself, on Form 2555 fi
    which quietly costs days on long crossings.
 5. Days in the US count against you whatever the reason — holidays, family visits and short business trips are all
    treated the same.
-6. The 330-day minimum can be waived if you had to leave a country because of war, civil unrest or similar adverse
+6. The **330-day minimum** can be waived if you had to leave a country because of war, civil unrest or similar adverse
    conditions, and the IRS publishes which countries and dates that covers.
 
 Keep a day-by-day travel log with boarding passes and entry and exit stamps. Add evidence supporting a foreign tax

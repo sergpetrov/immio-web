@@ -2,7 +2,7 @@
 id: schengen-90-180-day-rule
 
 title: Schengen 90/180-Day Rule
-subtitle: 90 days ∙ Rolling 180 days ∙ Visa-free short stays
+subtitle: 90 days ∙ Rolling 180 days
 
 category: travel
 

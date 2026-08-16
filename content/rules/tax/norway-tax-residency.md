@@ -2,7 +2,7 @@
 id: norway-tax-residency
 
 title: Norway Tax Residency (183-day and 270-day rules)
-subtitle: 183-day or 270-day rule ∙ Rolling 12 and 36 months ∙ Exit test
+subtitle: 183-day or 270-day rule ∙ Rolling 12 and 36 months
 
 category: tax
 
@@ -37,13 +37,13 @@ than 270 days** across any 36 months — either one is enough. Both windows roll
 resetting each January, so a habit of long visits can trip the second test even when no single year comes close.
 :::
 
-| Key parameters          |                                        |
-|:------------------------|---------------------------------------:|
-| Threshold              |                     More than 183 days |
-| Period / Window         |                      Rolling 12 months |
-| Alternative             | More than 270 days / Rolling 36 months |
-| Counting                |                      Any part of a day |
-| Additional requirements |       Emigration test to end residency |
+| Key parameters          |                                  |
+|:------------------------|---------------------------------:|
+| Threshold               |                         183 days |
+| Period / Window         |                Rolling 12 months |
+| Alternative             |     270 days / Rolling 36 months |
+| Counting                |                Any part of a day |
+| Additional requirements | Emigration test to end residency |
 
 ## Understanding the rule
 
@@ -60,11 +60,11 @@ own to end it.
 
 ## How to keep track
 
-1. The thresholds are **more than 183 days** in any 12-month period and **more than 270 days** in any
-   36-month period. Either one is enough on its own.
+1. The thresholds are **more than 183 days** in any **12-month period** and **more than 270 days** in any
+   **36-month period**. Either one is enough on its own.
 2. **Any part of a day** in Norway counts as a whole day, arrival and departure days included, and the reason for the
    visit makes no difference.
-3. The days don't have to be consecutive, and neither window resets on 1 January — you have to check rolling periods
+3. The days don't have to be consecutive, and neither window resets on 1 January — you have to check **rolling periods**
    rather than each calendar year in isolation.
 4. When residency starts depends on which test you trip. Passing 183 days inside a single calendar year makes you
    resident from your **first day** in Norway that year. Passing it on a stay that straddles a year-end, or passing

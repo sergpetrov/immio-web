@@ -2,7 +2,7 @@
 id: germany-tax-residency
 
 title: Germany Tax Residency (6-month rule)
-subtitle: 6 months ∙ Continuous stay ∙ Dwelling test
+subtitle: 183 days ∙ Continuous stay ∙ Dwelling test
 
 category: tax
 
@@ -43,7 +43,7 @@ single home kept available for you can settle it by itself.
 
 | Key parameters          |                                              |
 |:------------------------|---------------------------------------------:|
-| Threshold              |              6 months (effectively 183 days) |
+| Threshold               |              6 months (effectively 183 days) |
 | Period / Window         | Continuous stay, not tied to a calendar year |
 | Counting                |        Elapsed time, absences don't reset it |
 | Additional requirements |                     Dwelling test (Wohnsitz) |

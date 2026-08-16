@@ -1,8 +1,8 @@
 ---
 id: italy-residence-permit
 
-title: Italy Residence Permit (permesso di soggiorno)
-subtitle: 8 working days to apply ∙ 5 years to long-term ∙ 6-month absence
+title: Italy Residence Permit
+subtitle: 180 consecutive days (6 months) of absence  ∙ Permesso di soggiorno
 
 category: immigration
 
@@ -27,7 +27,7 @@ sources:
 
 ---
 
-# Italy Residence Permit (permesso di soggiorno)
+# Italy Residence Permit
 
 ## Overview
 
@@ -40,7 +40,7 @@ break that continuity: no single trip over **6 months**, and no more than **10 m
 
 | Key parameters          |                                            |
 |:------------------------|-------------------------------------------:|
-| Limit                   | 180 consecutive days (6 months) of absense |
+| Limit                   | 180 consecutive days (6 months) of absence |
 | Period / Window         |                     Per continuous absence |
 | Counting                |                      Whole days of absence |
 | Additional requirements |              10 months of absence in total |

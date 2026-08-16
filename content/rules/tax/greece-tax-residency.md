@@ -2,7 +2,7 @@
 id: greece-tax-residency
 
 title: Greece Tax Residency (183-day rule)
-subtitle: 183 days ∙ Rolling 12 months ∙ Centre of vital interests
+subtitle: 183 days ∙ Rolling 12 months
 
 category: tax
 
@@ -55,7 +55,7 @@ You are a Greek tax resident if you meet any one of these, in any order:
 - **Permanent or main home** — your settled home, the one you actually live in rather than one you happen to own, is
   in Greece.
 - **Habitual abode** — Greece is where you habitually stay, even without a permanent home there.
-- **Centre of vital interests** — your personal and economic ties point to Greece. Greek courts read this broadly,
+- **Center of vital interests** — your personal and economic ties point to Greece. Greek courts read this broadly,
   weighing where your social connections sit as well as your family and your money.
 - **183-day presence** — more than 183 days in Greece, added up across any twelve-month period. A carve-out for
   tourism, medical, or similar private stays under 365 days keeps this route from applying, though the other three

@@ -2,7 +2,7 @@
 id: us-b1b2-visa
 
 title: US B-1/B-2 Visitor Visa
-subtitle: Up to 6 months per entry ∙ I-94 governs ∙ Visa validity is separate
+subtitle: 6 months per visit
 
 category: travel
 
@@ -30,20 +30,20 @@ sources:
 
 ---
 
-# US B-1/B-2 Visitor Visa
+# United States B-1/B-2 Visitor Visa
 
 ## Overview
 
 :::callout
 The B-1/B-2 is the US visitor visa, covering **business** trips and **tourism**. The visa itself can run
 for up to **10 years**, but each arrival is separate: an officer admits you for a set period, commonly up to
-**6 months**, recorded on your **I-94**. That I-94 date is your deadline, and overstaying it triggers multi-year bars
+**6 months (180 days)**, recorded on your **I-94**. That I-94 date is your deadline, and overstaying it triggers multi-year bars
 on returning.
 :::
 
 | Key parameters          |                              |
 |:------------------------|-----------------------------:|
-| Limit                   |                     6 months |
+| Limit                   |          6 months (180 days) |
 | Period / Window         |                    Per visit |
 | Counting                |            Any part of a day |
 | Additional requirements | Nonimmigrant intent, no work |
@@ -82,7 +82,7 @@ your ties abroad — a job, a home, family — are strong enough to draw you bac
 ## How to keep track
 
 1. Your deadline is the **admit-until date on your I-94**, not the expiry date printed on the visa. A B-2 tourist is
-   normally admitted for **6 months** even if you asked for less, while a B-1 admission is usually matched to the
+   normally admitted for **6 months (180 days)** even if you asked for less, while a B-1 admission is usually matched to the
    length of the business itself.
 2. Check the I-94 record online after every entry — a short-dated passport or a specifically justified decision can cut
    the period below what you expected.
@@ -152,6 +152,13 @@ actually remain is set separately at each arrival and recorded on your I-94, com
 
 On your I-94 admission record, which CBP publishes online. Check it after every entry — the admit-until date there is
 what governs, and it isn't always the full period you expected.
+
+### Is the limit 6 months or 180 days?
+
+Both numbers exist and they measure different clocks. Your **admission** is normally 6 calendar months from arrival —
+arrive on 10 July and your I-94 typically runs to 10 January, which is 184 days, not 180. The **180 days** is a
+separate statutory threshold for the re-entry bar, and unlawful presence only starts accruing the day after your I-94
+expires. Staying your full 6 months accrues none of it.
 
 ### Can I leave and come back to get another 6 months?
 

@@ -38,12 +38,12 @@ Spain, or having a spouse and dependent minor children who live in Spain, which 
 you'd need to rebut. Some exceptions and a special regime for new arrivals can still apply.
 :::
 
-| Key parameters          |                                 |
-|:------------------------|--------------------------------:|
-| Threshold              |              More than 183 days |
-| Period / Window         |  Calendar year (1 Jan – 31 Dec) |
-| Counting                |               Any part of a day |
-| Additional requirements | Economic interests test, family |
+| Key parameters           |                                 |
+|:-------------------------|--------------------------------:|
+| Threshold                |                        183 days |
+| Period / Window          |  Calendar year (1 Jan – 31 Dec) |
+| Counting                 |               Any part of a day |
+| Additional requirements  | Economic interests test, family |
 
 ## Understanding the rule
 

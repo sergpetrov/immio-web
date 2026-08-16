@@ -2,7 +2,7 @@
 id: puerto-rico-act60
 
 title: Puerto Rico Tax Residency (Act 60)
-subtitle: 183 days ∙ Starts Jan 1 ∙ Act 60 decrees
+subtitle: 183 days ∙ Starts Jan 1
 
 category: tax
 
@@ -35,7 +35,7 @@ sources:
 ## Overview
 
 :::callout
-You're a bona fide resident of Puerto Rico for a tax year only if you clear **all three** of a presence test, a tax home
+You're a bona fide resident of Puerto Rico for a tax year only if you clear **all 3** of a presence test, a tax home
 test, and a closer connection test. Presence normally means at least **183 days** in Puerto Rico during the tax year,
 though four alternative routes can substitute for it. That status is also the gateway to **Act 60's** tax decrees, which
 are applied for separately and carry their own conditions.
@@ -43,7 +43,7 @@ are applied for separately and carry their own conditions.
 
 | Key parameters          |                                       |
 |:------------------------|--------------------------------------:|
-| Threshold              |                              183 days |
+| Threshold               |                              183 days |
 | Period / Window         |        Calendar year (1 Jan – 31 Dec) |
 | Alternative             |                    549 days / 3 years |
 | Counting                |                     Any part of a day |
@@ -51,7 +51,7 @@ are applied for separately and carry their own conditions.
 
 ## Understanding the rule
 
-You are a bona fide resident of Puerto Rico for a tax year only if you meet **all three** of these tests. Missing one
+You are a bona fide resident of Puerto Rico for a tax year only if you meet **all 3** of these tests. Missing one
 disqualifies you, however comfortably you clear the other two:
 
 - **Presence test** — the only one measured in days, satisfied through any one of five routes. See **How to keep

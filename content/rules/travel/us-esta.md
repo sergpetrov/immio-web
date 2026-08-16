@@ -1,7 +1,7 @@
 ---
 id: us-esta
 
-title: US ESTA and the Visa Waiver Program (90-day rule)
+title: US ESTA
 subtitle: 90 days per visit ∙ ESTA ∙ Visa Waiver
 
 category: travel
@@ -30,7 +30,7 @@ sources:
 
 ---
 
-# US ESTA and the Visa Waiver Program (90-day rule)
+# United ESTA and the Visa Waiver Program
 
 ## Overview
 

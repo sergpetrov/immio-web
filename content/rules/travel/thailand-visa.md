@@ -1,8 +1,8 @@
 ---
 id: thailand-visa
 
-title: Thailand Visa Exemption (60-day rule)
-subtitle: 60 days ∙ 30-day extension ∙ Shorter stay approved, not in force
+title: Thailand Visa Exemption
+subtitle: 60 days per visit
 
 category: travel
 
@@ -30,7 +30,7 @@ sources:
 
 ---
 
-# Thailand Visa Exemption (60-day rule)
+# Thailand Visa Exemption
 
 ## Overview
 

@@ -2,7 +2,7 @@
 id: israel-tax-residency
 
 title: Israel Tax Residency
-subtitle: 183 days ∙ 30 and 425 days ∙ Centre of life
+subtitle: 183 days ∙ Starts 1 Jan ∙ Centre of life test
 
 category: tax
 
@@ -32,15 +32,15 @@ sources:
 ## Overview
 
 :::callout
-You're an Israeli tax resident if your **centre of life** is in Israel — judged on the whole picture of your family,
-economic and social ties. Two day counts raise a rebuttable presumption of that: **183 days** in a tax year, or 30
-days in the year alongside a three-year total of **425 days**. Separate long-running exemptions change what a new
+You're an Israeli tax resident if your **center of life** is in Israel — judged on the whole picture of your family,
+economic and social ties. Two day counts raise a rebuttable presumption of that: **183 days** in a tax year, or **30
+days** in the year alongside a **3-year** total of **425 days**. Separate long-running exemptions change what a new
 arrival actually pays.
 :::
 
 | Key parameters          |                                              |
 |:------------------------|---------------------------------------------:|
-| Threshold              |                                     183 days |
+| Threshold               |                                     183 days |
 | Period / Window         |                    Tax year (1 Jan – 31 Dec) |
 | Alternative             |            30 days/year and 425 days/3 years |
 | Counting                |                            Any part of a day |
@@ -48,8 +48,8 @@ arrival actually pays.
 
 ## Understanding the rule
 
-You are an Israeli tax resident for a tax year if your **centre of life** is in Israel. That is a facts-and-circumstances
-judgement rather than a calculation, weighing the totality of your family, economic and social ties, including:
+You are an Israeli tax resident for a tax year if your **center of life** is in Israel. That is a facts-and-circumstances
+judgment rather than a calculation, weighing the totality of your family, economic and social ties, including:
 
 - the place of your permanent home
 - where you and your family actually live
@@ -76,10 +76,10 @@ on Israeli-source income.
 
 1. The presumptions trigger at **183 days** in the tax year, or at 30 days in the tax year combined with **425 days**
    across that year and the two before it.
-2. Any part of a day counts as a full day present, so arrival days, departure days and short visits all add to the total.
-3. The tax year is the calendar year, 1 January to 31 December, and the three-year total is simply the sum of three
+2. **Any part of a day** counts as a full day present, so arrival days, departure days and short visits all **add** to the total.
+3. The tax year is the **calendar year**, 1 January to 31 December, and the 3-year total is simply the sum of three
    separate calendar-year counts.
-4. Days do not need to be consecutive, and every year in the 3-year total counts at full weight regardless of how
+4. Days do not need to be consecutive, and **every year** in the 3-year total counts at **full weight** regardless of how
    recent it is — even a year with fewer than 30 days still contributes its days to the total.
 
 Keep travel records for every trip, including passport stamps and boarding passes. Keep evidence of where your home,

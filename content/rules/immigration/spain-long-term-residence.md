@@ -1,8 +1,8 @@
 ---
 id: spain-long-term-residence
 
-title: Spain Long-Term Residence (5-year route)
-subtitle: 10 months of absence ∙ 5 years
+title: Spain Long-Term Residence
+subtitle: 10 months of absence ∙ 5 years ∙ 6 months of absence per trip
 
 category: immigration
 
@@ -27,7 +27,7 @@ sources:
 
 ---
 
-# Spain Long-Term Residence (5-year route)
+# Spain Long-Term Residence
 
 ## Overview
 

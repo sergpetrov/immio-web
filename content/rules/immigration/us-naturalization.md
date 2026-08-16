@@ -1,8 +1,8 @@
 ---
 id: us-naturalization
 
-title: US Naturalization (5-year rule)
-subtitle: 5 years as a permanent resident ∙ 30 months physical presence ∙ 6-month absence line
+title: US Citizenship (Naturalization)
+subtitle: 3 or 5 years ∙ <180 consecutive days of absence
 
 category: immigration
 
@@ -12,8 +12,8 @@ seo:
   title: US Naturalization Residence Rules Explained | Immio
   description: >
     How US naturalization residence rules work — the 5-year continuous
-    residence requirement, the separate 30-month physical presence test,
-    how absences of more than 6 months and of a year break continuity,
+    residence requirement, the separate 913-day physical presence test,
+    how absences of more than 180 days and of 365 days break continuity,
     and the 3-year spouse route.
 
 updatedAt: 2026-08-15
@@ -28,61 +28,66 @@ sources:
 
 ---
 
-# US Naturalization (5-year rule)
+# United States Citizenship (Naturalization)
 
 ## Overview
 
 :::callout
-Naturalizing normally means **5 years** as a lawful permanent resident, and two separate residence tests have to be
-satisfied inside it. **Continuous residence** must be unbroken — any single absence of more than 6 months is presumed
-to break it, and a year or more breaks it outright. **Physical presence** must total at least **30 months**, half the
-period. Passing one and failing the other is not enough.
+Naturalizing normally takes **5 years** as a lawful permanent resident, with at least **913 days** of physical
+presence inside it. Spouses of US citizens get a shorter route — **3 years** and **548 days**. Either way your
+continuous residence has to stay unbroken: a single absence over **180 days** is presumed to break it, and
+**365 days** breaks it outright.
 :::
 
-| Key parameters          |                                                           |
-|:------------------------|----------------------------------------------------------:|
-| Absence limit           |                                        More than 6 months |
-| Physical presence       |                                                 30 months |
-| Qualifying period       |                            5 years as a green card holder |
-| Period / Window         |                        5 years back from application date |
-| Additional requirements | State residence, good moral character, English and civics |
+| Key parameters          |                              |
+|:------------------------|-----------------------------:|
+| Presence required       |                     913 days |
+| Qualifying period       |                      5 years |
+| Alternative             |           548 days / 3 years |
+| Counting                |            Any part of a day |
+| Additional requirements | 180 days of absence per trip |
 
 ## Understanding the rule
 
-Two tests run in parallel over the same 5 years, and they measure different things:
+This applies to lawful permanent residents applying to naturalize, however the green card was obtained.
+
+There are two routes, and which one you're on sets both the qualifying period and the presence requirement:
+
+- **Standard route** — **5 years** as a lawful permanent resident, with **913 days** of physical presence inside it.
+- **Spouse of a US citizen** — **3 years** as a permanent resident and **548 days** of physical presence, living in
+  marital union with the citizen spouse throughout.
+
+Both routes then run the same two tests in parallel, and they measure different things:
 
 - **Continuous residence** — whether your residence was unbroken. It's about the shape of your absences, and a single
   long trip can break it even if your total time abroad is modest.
-- **Physical presence** — the arithmetic total of days actually in the US, which must reach **30 months** across the
-  5 years. Many short trips can fail this while never breaking continuity.
+- **Physical presence** — the arithmetic total of days actually in the US. Many short trips can fail this while never
+  breaking continuity.
 
 Passing one and failing the other isn't enough — both have to hold at the same time.
 
-The route is shorter for spouses of US citizens: **3 years** as a permanent resident and **18 months** of physical
-presence, living in marital union with the citizen spouse throughout.
-
-Alongside residence you need **3 months** in the state or district where you file, **good moral character** across the
-qualifying period, and passes in the English and civics tests.
+Residence isn't the only requirement. You also need **3 months** in the state or district where you file, **good moral
+character** across the qualifying period, and passes in the English and civics tests.
 
 ## How to keep track
 
-1. Two counts run at once: total **physical presence** of at least 30 months, and **continuous residence** unbroken by
+1. Two counts run at once: total **physical presence** of at least 913 days, and **continuous residence** unbroken by
    any single long absence.
 2. **Any part of a day** in the US counts toward physical presence, including arrival and departure days.
-3. Watch each individual trip against the **6-month** line. An absence of more than 6 months but under a year is
+3. Watch each individual trip against the **180-day** line. An absence of more than 180 days but under 365 is
    presumed to have broken continuity, and you can rebut that with evidence you kept your US home, job and family ties.
-4. An absence of **1 year or more** breaks continuity outright, restarting the clock from your return. You then
+4. An absence of **365 days or more** breaks continuity outright, restarting the clock from your return. You then
    normally wait **4 years and 6 months** to apply cleanly, or 2 years and 6 months on the spouse route. Applying at
    4 years and a day (2 years and a day for spouses) is possible but leaves you back inside the presumption.
 5. The 5-year window counts **backwards from your application date**, and you may file up to 90 days early while still
    satisfying the residence period.
 
-Keep every entry and exit date across the whole period, plus evidence of US ties for any trip approaching six months —
+Keep every entry and exit date across the whole period, plus evidence of US ties for any trip approaching 180 days —
 lease or mortgage, employment records, resident tax returns, family in the US.
 
 ## Edge cases
 
-- **The two tests fail independently.** Someone who never leaves for more than a month can still miss 30 months of
+- **The two tests fail independently.** Someone who never leaves for more than a month can still miss 913 days of
   physical presence, and someone with plenty of presence can break continuity with one long trip.
 - **A re-entry permit protects your green card, not your naturalization clock.** It preserves permanent residence
   during a long absence, but the same absence can still break continuous residence for citizenship purposes.
@@ -106,18 +111,19 @@ A refusal on residence grounds usually means restarting rather than reapplying, 
 ### Clearing both tests comfortably
 
 You've held a green card for six years, live and work in the US, and travel abroad three or four weeks a year. Your
-physical presence is far past 30 months and no single absence approaches six months, so both tests hold.
+physical presence is far past 913 days and no single absence approaches 180 days, so both tests hold.
 
 ### Enough presence, broken continuity
 
-Across five years you've spent 38 months in the US — well past 30 — but one seven-month trip abroad sits in the middle.
-Being over the 6-month line, that trip is presumed to have broken continuity, and unless you rebut it with evidence of
+Across five years you've spent around 1,150 days in the US — well past 913 — but one seven-month trip abroad sits in
+the middle.
+Being over the 180-day line, that trip is presumed to have broken continuity, and unless you rebut it with evidence of
 maintained ties the application fails.
 
 ### Continuity intact, presence short
 
 You travel constantly for work, never away for more than five weeks at a time, so continuity is never in question. But
-your days in the US across five years total around 26 months, short of the 30 required, so the presence test fails.
+your days in the US across five years total around 800, short of the 913 required, so the presence test fails.
 
 ## Official sources
 
@@ -128,14 +134,14 @@ your days in the US across five years total around 26 months, short of the 30 re
 
 ### What's the difference between continuous residence and physical presence?
 
-Continuous residence is about whether any single absence broke your residence — more than 6 months creates a
-presumption, a year or more breaks it outright. Physical presence is the plain total of days in the US, which must
-reach 30 months across the 5 years.
+Continuous residence is about whether any single absence broke your residence — more than 180 days creates a
+presumption, 365 days or more breaks it outright. Physical presence is the plain total of days in the US, which must
+reach 913 days across the 5 years.
 
 ### How long can I leave the US while my citizenship clock is running?
 
-Six months or less per trip is the safe zone. Go past 6 months but stay under a year and you're presumed to have broken
-continuity, which you then have to rebut. A year or more breaks it outright.
+180 days or less per trip is the safe zone. Go past 180 days but stay under 365 and you're presumed to have broken
+continuity, which you then have to rebut. 365 days or more breaks it outright.
 
 ### What happens if I break continuous residence?
 
@@ -144,7 +150,7 @@ cleanly, or 2 years and 6 months on the 3-year spouse route.
 
 ### Is it faster if I'm married to a US citizen?
 
-Yes. The period drops to 3 years as a permanent resident with 18 months of physical presence, provided you've lived in
+Yes. The period drops to 3 years as a permanent resident with 548 days of physical presence, provided you've lived in
 marital union with your citizen spouse throughout.
 
 ### Does a re-entry permit protect my citizenship application?

@@ -1,8 +1,8 @@
 ---
 id: indonesia-visa
 
-title: Indonesia Visa on Arrival (30-day rule)
-subtitle: 30 days ∙ One 30-day extension ∙ e-VOA before travel
+title: Indonesia Visa on Arrival
+subtitle: 30 or 60 days per visit
 
 category: travel
 

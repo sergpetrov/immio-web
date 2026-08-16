@@ -46,7 +46,7 @@ overseas employers are carved out of the day test.
 
 | Key parameters          |                                             |
 |:------------------------|--------------------------------------------:|
-| Threshold              |                          More than 183 days |
+| Threshold               |                                    183 days |
 | Period / Window         |                           Rolling 12 months |
 | Counting                |                           Any part of a day |
 | Additional requirements | Permanent place of abode, visitor carve-out |

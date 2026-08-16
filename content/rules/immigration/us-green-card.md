@@ -2,7 +2,7 @@
 id: us-green-card
 
 title: US Green Card (Abandonment, Absence rule)
-subtitle: 6 months raises questions ∙ 1 year voids the card ∙ Re-entry permit
+subtitle: 180 consecutive days of absence ∙ LPR
 
 category: immigration
 
@@ -50,7 +50,7 @@ trip itself becomes strong evidence that you moved away.
 
 ## Understanding the rule
 
-This applies to any **lawful permanent resident** travelling outside the US, however the green card was obtained, for
+This applies to any **lawful permanent resident (LPR)** traveling outside the US, however the green card was obtained, for
 as long as they hold it.
 
 There's no fixed day limit. The test is **intent** — whether the US is still your home or you've effectively moved

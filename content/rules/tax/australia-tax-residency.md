@@ -2,7 +2,7 @@
 id: australia-tax-residency
 
 title: Australia Tax Residency
-subtitle: 183 days ∙ Starts Jul 1 ∙ Resides, Domicile, Superannuation tests
+subtitle: 183 days ∙ Starts Jul 1 ∙ Resides, Domicile tests
 
 category: tax
 

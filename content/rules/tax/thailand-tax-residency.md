@@ -40,7 +40,7 @@ when a rule change made remitted foreign income taxable for residents.
 
 | Key parameters          |                                 |
 |:------------------------|--------------------------------:|
-| Threshold              |                        180 days |
+| Threshold               |                        180 days |
 | Period / Window         |  Calendar year (1 Jan – 31 Dec) |
 | Counting                |               Any part of a day |
 | Additional requirements | Remittance-based foreign income |

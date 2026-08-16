@@ -39,16 +39,17 @@ claiming tax treaty benefits, since the UAE has **no personal income tax**.
 
 | Key parameters          |                                              |
 |:------------------------|---------------------------------------------:|
-| Threshold              |                            90 days, 183 days |
+| Threshold               |                                     183 days |
 | Period / Window         |                            Rolling 12 months |
+| Threshold               |                                      90 days |
 | Counting                |                            Any part of a day |
-| Additional requirements | Centre-of-interests, 90-day route conditions |
+| Additional requirements | Center-of-interests, 90-day route conditions |
 
 ## Understanding the rule
 
 You are a UAE tax resident if you meet any one of three routes, in any order:
 
-- **Centre of interests** — your usual home and the centre of your financial and personal interests are in the UAE. No
+- **Center of interests** — your usual home and the center of your financial and personal interests are in the UAE. No
   day count, permit, or income needed.
 - **183-day presence** — you're physically present in the UAE for **183 days or more** within a 12-month period. This is
   the fallback route: no residence permit, nationality, or UAE income required, presence alone is enough.
@@ -62,10 +63,10 @@ the practical payoff is mainly eligibility for a Tax Residency Certificate.
 
 ## How to keep track
 
-1. The core test is **183 days or more** present in the UAE within any 12 consecutive months — not necessarily the
+1. The core test is **183 days or more** present in the UAE within **any 12 consecutive months** — not necessarily the
    calendar year, so the same stretch of days can be tested against different windows.
-2. A day counts if you are present in the UAE for any part of it, so brief visits still add to the total.
-3. Days do not need to be consecutive within the 12-month window — they're simply totalled.
+2. A **day counts** if you are present in the UAE for **any part** of it, so brief visits still add to the total.
+3. Days do not need to be consecutive within the **12-month window** — they're simply totaled.
 4. Days spent in the UAE due to exceptional circumstances beyond your control may be disregarded from the count.
 
 Keep entry and exit records for every trip, plus a tenancy contract and employment or business documents if you're

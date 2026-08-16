@@ -2,7 +2,7 @@
 id: indonesia-tax-residency
 
 title: Indonesia Tax Residency (183-day rule)
-subtitle: 183 days ∙ Rolling 12 months ∙ Residence and intention
+subtitle: 183 days ∙ Rolling 12 months ∙ Residence test
 
 category: tax
 
@@ -40,14 +40,14 @@ settle it. A separate election can limit what some newly arrived foreign special
 
 | Key parameters          |                                     |
 |:------------------------|------------------------------------:|
-| Threshold              |                  More than 183 days |
+| Threshold               |                            183 days |
 | Period / Window         |                   Rolling 12 months |
 | Counting                |                   Any part of a day |
 | Additional requirements | Residence test, intention to reside |
 
 ## Understanding the rule
 
-You are an Indonesian tax resident — a "domestic tax subject" in the tax authority's own wording — if you meet any one
+You are an Indonesian tax resident — a **domestic tax subject** in the tax authority's own wording — if you meet any one
 of three routes, in any order:
 
 - **Residence** — you reside in Indonesia. No day count applies.
@@ -59,15 +59,15 @@ Residing in Indonesia is the broadest route, and it's defined three alternative 
 
 - **A home you control** — somewhere in Indonesia you can use at any time, that you own, rent, or otherwise have
   available to live in, and that is more than a stopover.
-- **Your main centre of activity** — the place you run your personal, social, economic, or financial affairs from.
+- **Your main center of activity** — the place you run your personal, social, economic, or financial affairs from.
 - **Your everyday routine** — where you actually carry on your habits and daily activities, including your hobbies.
 
 ## How to keep track
 
-1. The day threshold is **more than 183 days** of physical presence in Indonesia within any rolling 12-month period,
+1. The day threshold is **more than 183 days** of physical presence in Indonesia within any rolling **12-month** period,
    not fixed to the calendar year.
-2. Any part of a day counts as one full day, so arriving and leaving on the same date still adds a day.
-3. The days don't have to be consecutive — broken stays are simply added together across the 12-month window.
+2. **Any part of a day** counts as one full day, so arriving and leaving on the same date still **adds a day**.
+3. The days don't have to be consecutive — broken stays are simply added together across the **12-month** window.
 4. Presence means actually being inside Indonesian territory, judged on what really happened rather than on paperwork.
 
 Keep entry and exit stamps and boarding passes for every trip. For the intention route, keep whichever applies: a

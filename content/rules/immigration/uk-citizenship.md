@@ -2,7 +2,7 @@
 id: uk-citizenship
 
 title: UK Citizenship (Naturalisation)
-subtitle: 270 of 450 days of absence ∙ ≤90 days in final 12 months
+subtitle: 270 or 450 days of absence ∙ ≤90 days of absence in final 12 months
 
 category: immigration
 

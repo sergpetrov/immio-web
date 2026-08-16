@@ -1,8 +1,8 @@
 ---
 id: indonesia-business-visa
 
-title: Indonesia Business Visit Visa (60-day rule)
-subtitle: 60 days ∙ Two 60-day extensions ∙ Single entry ∙ Sponsor required
+title: Indonesia Business Visit Visa
+subtitle: 60 days per visit
 
 category: travel
 
@@ -27,7 +27,7 @@ sources:
 
 ---
 
-# Indonesia Business Visit Visa (60-day rule)
+# Indonesia Business Visit Visa
 
 ## Overview
 

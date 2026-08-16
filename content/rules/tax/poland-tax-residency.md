@@ -34,22 +34,22 @@ sources:
 :::callout
 You're a Polish tax resident if your **centre of personal or economic interests** is in Poland, or if you spend
 **more than 183 days** there in a calendar year — meeting either one is enough. In practice, tax authorities and
-courts often give the centre-of-interests test more weight than the day count. A relief can reduce tax for some new
+courts often give the center-of-interests test more weight than the day count. A relief can reduce tax for some new
 and returning residents.
 :::
 
 | Key parameters          |                                |
 |:------------------------|-------------------------------:|
-| Threshold              |             More than 183 days |
+| Threshold               |                       183 days |
 | Period / Window         | Calendar year (1 Jan – 31 Dec) |
 | Counting                |              Any part of a day |
-| Additional requirements | Centre of vital interests test |
+| Additional requirements | Center of vital interests test |
 
 ## Understanding the rule
 
 You are a Polish tax resident for a calendar year if you meet either of two tests, in any order:
 
-- **Centre of vital interests** — your centre of personal or economic interests is in Poland: where your closest
+- **Center of vital interests** — your centre of personal or economic interests is in Poland: where your closest
   family lives, or where your main income source, investments, property, and financial management are based.
 - **183-day presence** — more than 183 days in Poland during the calendar year.
 
@@ -69,11 +69,11 @@ makes you a nonresident, generally taxed only on Polish-source income.
 3. Days don't need to be consecutive — the total is simply added up across the whole year.
 
 Keep travel records for your day count, plus evidence of where your family, income, and financial life are based
-if you're relying on, or trying to rebut, the centre-of-vital-interests test.
+if you're relying on, or trying to rebut, the center-of-vital-interests test.
 
 ## Edge cases
 
-- **The centre-of-vital-interests test can apply well under 183 days.** Physical presence isn't the deciding factor
+- **The center-of-vital-interests test can apply well under 183 days.** Physical presence isn't the deciding factor
   if your personal and economic life is clearly based in Poland.
 - **Family ties alone don't automatically decide it.** Courts have found family presence in Poland insufficient by
   itself when a person's economic interests clearly point elsewhere.

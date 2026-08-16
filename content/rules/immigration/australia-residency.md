@@ -1,8 +1,8 @@
 ---
 id: australia-residency
 
-title: Australia Permanent Residency (5-year travel facility)
-subtitle: 5-year travel facility ∙ Resident Return Visa ∙ 2 years in 5
+title: Australia Permanent Residency
+subtitle: 730 days ∙ Last 5 years ∙ RRV
 
 category: immigration
 
@@ -27,7 +27,7 @@ sources:
 
 ---
 
-# Australia Permanent Residency (5-year travel facility)
+# Australia Permanent Residency
 
 ## Overview
 

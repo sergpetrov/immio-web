@@ -1,8 +1,8 @@
 ---
 id: canada-visitor-visa
 
-title: Canada Visitor Visa (6-month rule)
-subtitle: 6 months per entry ∙ eTA or visa ∙ Visitor record to extend
+title: Canada Visitor Visa
+subtitle: 6 months per visit
 
 category: travel
 
@@ -30,7 +30,7 @@ sources:
 
 ---
 
-# Canada Visitor Visa (6-month rule)
+# Canada Visitor Visa
 
 ## Overview
 
@@ -126,6 +126,11 @@ arrival still gets you six months at most, so a nine-month stay would put you ou
 
 Usually 6 months from your date of entry. A border officer can grant less and will write the date in your passport, and
 that written date governs if there is one.
+
+### Is it 6 months or 180 days?
+
+Six calendar months, counted from your entry date — not a flat 180 days. Enter on 16 February and you're admitted
+until 16 August, which is 181 days. The "180-day rule" is a common misreading that costs you a few days.
 
 ### What if my passport wasn't stamped?
 

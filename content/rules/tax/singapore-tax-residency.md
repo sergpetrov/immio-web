@@ -36,14 +36,13 @@ sources:
 
 :::callout
 You're a Singapore tax resident if you're physically present or exercising an employment in Singapore for **183 days
-or more** in the calendar year. You also qualify if you normally live in Singapore with only temporary absences. A
-shorter continuous stay can also count when your employment runs across two calendar years. Residency decides the rate
-you pay and whether you can claim personal reliefs.
+or more** in the **calendar year**. You also qualify if you normally live in Singapore with only temporary absences. A
+shorter continuous stay can also count when your employment runs across two calendar years.
 :::
 
 | Key parameters          |                                      |
 |:------------------------|-------------------------------------:|
-| Threshold              |                             183 days |
+| Threshold               |                             183 days |
 | Period / Window         |       Calendar year (1 Jan – 31 Dec) |
 | Counting                |                    Any part of a day |
 | Additional requirements | Ordinary residence, stay concessions |
@@ -59,7 +58,7 @@ You are a Singapore tax resident if you meet any one of these routes, in any ord
   calendar year, or you exercise an employment there for that long.
 - **Employment straddling two calendar years** — a continuous employment running across two calendar years, with a
   total stay of at least 183 days, makes you a resident for both years even though neither reaches 183 on its own.
-- **Three continuous years** — working in Singapore continuously for three consecutive years makes you a resident for
+- **3 continuous years** — working in Singapore continuously for three consecutive years makes you a resident for
   all three, even where the first and third fall short on their own.
 
 Those last two are administrative concessions rather than rules written into the tax legislation. The straddling route
@@ -73,8 +72,8 @@ trainers and visiting experts are excluded from it.
    Either can carry the count on its own.
 2. Any part of a day counts as a **full** day, so both your arrival day and your departure day add to the total.
 3. Within a period of employment, weekends and public holidays count as days of employment in Singapore.
-4. Absences don't automatically break the count. Temporary absences such as overseas vacation leave, and absences
-   incidental to your Singapore employment such as business trips, still count toward the total.
+4. Absences don't automatically break the count. **Temporary absences** such as overseas vacation leave, and absences
+   incidental to your Singapore employment such as business trips, **still count** toward the total.
 5. Time spent as a **company director** is the exception — it doesn't count on the employment side. A director's
    physical presence still counts as normal.
 

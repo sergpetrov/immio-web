@@ -33,14 +33,14 @@ sources:
 
 :::callout
 You're a Moroccan tax resident if you have a permanent home in Morocco, or if Morocco is the centre of your economic
-interests. You're also resident if your stays there add up to **more than 183 days** in any 365-day period — meeting
-any one of the three is enough. The day count runs on a rolling window rather than the calendar year, and the stays
+interests. You're also resident if your stays there add up to **more than 183 days** in any **365-day period** — meeting
+any one of the three is enough. The day count runs on a **rolling window** rather than the calendar year, and the stays
 don't need to be continuous.
 :::
 
 | Key parameters          |                                    |
 |:------------------------|-----------------------------------:|
-| Threshold              |                 More than 183 days |
+| Threshold               |                           183 days |
 | Period / Window         |                   Rolling 365 days |
 | Counting                |                  Any part of a day |
 | Additional requirements | Permanent home, economic interests |
@@ -51,7 +51,7 @@ You are a Moroccan tax resident if you meet any one of three tests:
 
 - **Permanent home** — you keep a home in Morocco on a lasting basis, as owner, usufructuary or tenant. What matters
   is that it's genuinely available to you, not how many nights you actually spend in it.
-- **Centre of economic interests** — Morocco is where your main professional activity is carried on, where your
+- **Center of economic interests** — Morocco is where your main professional activity is carried on, where your
   principal investments sit, where your business is based, or where the bulk of your income arises.
 - **183-day presence** — your stays in Morocco exceed 183 days over any 365-day period.
 
@@ -65,7 +65,7 @@ posted abroad as resident, where the country they work in doesn't tax their inco
    in pieces.
 2. **Any part of a day** counts as a full day present, including the days you arrive and leave, plus weekends and
    public holidays.
-3. The 365 days roll rather than resetting on 1 January, so two stays either side of the year-end are added together
+3. The **365 days roll** rather than resetting on 1 January, so two stays either side of the year-end are added together
    as one total.
 4. Where your stays are broken up, count across the 365 days following your first entry — the answer isn't final until
    that window closes.

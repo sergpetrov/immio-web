@@ -1,8 +1,8 @@
 ---
 id: india-visa
 
-title: India e-Tourist Visa (180-day rule)
-subtitle: 30 days, 1 year or 5 years ∙ 180 days per calendar year ∙ 90 days per visit
+title: India Tourist Visa
+subtitle: 90 or 180 days per visit ∙ 180 days per year ∙ e-Tourist
 
 category: travel
 

@@ -216,7 +216,15 @@ p {
   border-radius: 999px;
   padding: 4px;
   max-width: 100%;
+  /* Still scrollable (by drag/swipe, and the selected tab scrolls itself
+     into view) — just without a visible scrollbar eating into the pill. */
   overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.content-type-switch::-webkit-scrollbar {
+  display: none;
 }
 
 .content-search-button {

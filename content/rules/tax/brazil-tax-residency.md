@@ -2,7 +2,7 @@
 id: brazil-tax-residency
 
 title: Brazil Tax Residency (183-day rule)
-subtitle: 184 days ∙ Rolling 12 months from entry ∙ Visa-based routes
+subtitle: 183 days ∙ Rolling 12 months
 
 category: tax
 
@@ -22,7 +22,7 @@ sources:
     url: https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/preenchimento/dsdp/nao-residente
     type: official
   - title: "Receita Federal — Normative Instruction SRF nº 208/2002 (residents and non-residents)"
-    url: http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=15079&visao=anotado
+    url: https://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=15079&visao=anotado
     type: official
 
 ---
@@ -32,15 +32,15 @@ sources:
 ## Overview
 
 :::callout
-You become a Brazilian tax resident on the day you arrive if you hold permanent residence status, or if you arrive on a
-temporary visa under a Brazilian employment contract. On any other temporary visa, you become resident on the day you
-complete **184 days** of presence inside a twelve-month window. Leaving works differently again: a formal exit filing,
+You become a Brazilian **tax resident on the day** you arrive if you hold **permanent residence** status, or if you arrive on a
+temporary visa under a Brazilian **employment contract**. On any other temporary visa, you become resident on the day you
+complete **184 days** of presence inside a **12-month** window. Leaving works differently again: a formal exit filing,
 not the flight, decides when your residency actually ends.
 :::
 
 | Key parameters          |                                  |
 |:------------------------|---------------------------------:|
-| Threshold              |               More than 183 days |
+| Threshold               |                         183 days |
 | Period / Window         |                Rolling 12 months |
 | Counting                |                Any part of a day |
 | Additional requirements | Visa status, employment contract |

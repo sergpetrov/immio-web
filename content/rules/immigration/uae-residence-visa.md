@@ -1,8 +1,8 @@
 ---
 id: uae-residence-visa
 
-title: UAE Residence Visa (180-day absence rule)
-subtitle: 6 months absence ∙ Sponsor-based ∙ Golden Visa exception
+title: UAE Residence Visa
+subtitle: 180 consecutive days of absence
 
 category: immigration
 
@@ -30,7 +30,7 @@ sources:
 
 ---
 
-# United Arab Emirates Residence Visa (180-day absence rule)
+# United Arab Emirates Residence Visa
 
 ## Overview
 
@@ -42,7 +42,7 @@ count. The long-term **Golden**, **Green** and **Blue** visas don't have this li
 
 | Key parameters          |                                           |
 |:------------------------|------------------------------------------:|
-| Limit                   |           180 consecutive days of absense |
+| Limit                   |           180 consecutive days of absence |
 | Period / Window         |                    Per continuous absence |
 | Counting                |                         Any part of a day |
 | Additional requirements | Sponsor, Emirates ID, medical and renewal |

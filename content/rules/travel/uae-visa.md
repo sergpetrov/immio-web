@@ -1,8 +1,8 @@
 ---
 id: uae-visa
 
-title: UAE Visit Visa (30 and 90-day rules)
-subtitle: 30 or 90 days ∙ Two 30-day extensions ∙ By nationality
+title: UAE Visa on Arrival
+subtitle: 30 or 90 days per visit ∙ Rolling 180 days
 
 category: travel
 

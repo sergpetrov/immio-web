@@ -1,8 +1,8 @@
 ---
 id: uk-visitor-visa
 
-title: UK Standard Visitor Visa (6-month rule)
-subtitle: 6 months per visit ∙ No UK work ∙ Long-term visas available
+title: UK Standard Visitor Visa
+subtitle: 6 months per visit
 
 category: travel
 
@@ -154,6 +154,12 @@ overseas employer, as long as that isn't the main reason for the trip.
 
 No, they're alternatives rather than a pair. If you hold a visitor visa you don't need an ETA. The ETA is for
 nationalities that don't require a visa in advance, and it has to be obtained before you travel.
+
+### Is it 6 months or 180 days?
+
+Six months. The Immigration Rules set the limit in months, and six months is longer than 180 days — so counting to 180
+understates what you were actually granted. The "180 days" figure turns up in secondary sources and summaries, but it
+isn't the rule.
 
 ### Can I extend my stay past 6 months?
 

@@ -2,7 +2,7 @@
 id: monaco-tax-residency
 
 title: Monaco Tax Residency
-subtitle: 183 days ∙ Or more time than any other country ∙ No personal income tax
+subtitle: 183 days ∙ Starts 1 Jan
 
 category: tax
 
@@ -44,7 +44,7 @@ other single country.
 
 | Key parameters          |                                                   |
 |:------------------------|--------------------------------------------------:|
-| Threshold              |                                          183 days |
+| Threshold               |                                          183 days |
 | Period / Window         |                    Calendar year (1 Jan – 31 Dec) |
 | Alternative             |           More time than any other single country |
 | Counting                |                                 Any part of a day |

@@ -2,7 +2,7 @@
 id: colombia-tax-residency
 
 title: Colombia Tax Residency (183-day rule)
-subtitle: 183 days ∙ Rolling 365 days ∙ Extra rules for nationals
+subtitle: 183 days ∙ Rolling 365 days
 
 category: tax
 
@@ -41,12 +41,12 @@ them, not the first. Colombian nationals face a further set of conditions that c
 in Colombia at all.
 :::
 
-| Key parameters          |                                    |
-|:------------------------|-----------------------------------:|
-| Threshold              |                 More than 183 days |
-| Period / Window         |                   Rolling 365 days |
-| Counting                |                  Any part of a day |
-| Additional requirements | Conditions for Colombian nationals |
+| Key parameters           |                                    |
+|:-------------------------|-----------------------------------:|
+| Threshold                |                           183 days |
+| Period / Window          |                   Rolling 365 days |
+| Counting                 |                  Any part of a day |
+| Additional requirements  | Conditions for Colombian nationals |
 
 ## Understanding the rule
 

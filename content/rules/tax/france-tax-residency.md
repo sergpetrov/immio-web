@@ -35,17 +35,17 @@ sources:
 ## Overview
 
 :::callout
-You're a French tax resident if your **home** is in France, or if France is the **centre of your economic interests**.
+You're a French tax resident if your **home** is in France, or if France is the **center of your economic interests**.
 Carrying out a job or business there on more than an ancillary basis does it too. With no settled home anywhere,
-France instead qualifies when it's where you actually spent most of your time. Meeting just one of these is enough, so
+France instead **qualifies** when it's **where** you actually **spent most of your time**. Meeting just one of these is enough, so
 a low day count guarantees nothing on its own.
 :::
 
 | Key parameters          |                                                 |
 |:------------------------|------------------------------------------------:|
-| Threshold              |                 6 months (effectively 183 days) |
+| Threshold               |                 6 months (effectively 183 days) |
 | Period / Window         |                  Calendar year (1 Jan – 31 Dec) |
-| Counting                |        Any part of a day (no formal count rule) |
+| Counting                |                               Any part of a day |
 | Additional requirements | Home, professional activity, economic interests |
 
 ## Understanding the rule

@@ -2,7 +2,7 @@
 id: georgia-tax-residency
 
 title: Georgia Tax Residency (183-day rule)
-subtitle: 183 days ∙ Rolling 12 months ∙ High net worth route
+subtitle: 183 days ∙ Rolling 12 months
 
 category: tax
 
@@ -41,12 +41,12 @@ residency to individuals of **high net worth** who meet asset, income and Georgi
 count at all. Meeting either makes you resident for the whole of that tax year.
 :::
 
-| Key parameters          |                                             |
-|:------------------------|--------------------------------------------:|
-| Threshold              |                                    183 days |
-| Period / Window         |                           Rolling 12 months |
-| Counting                |                           Any part of a day |
-| Additional requirements | High net worth route, public service abroad |
+| Key parameters          |                       |
+|:------------------------|----------------------:|
+| Threshold               |              183 days |
+| Period / Window         |     Rolling 12 months |
+| Counting                |     Any part of a day |
+| Additional requirements |  High net worth route |
 
 ## Understanding the rule
 

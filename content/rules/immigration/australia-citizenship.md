@@ -1,8 +1,8 @@
 ---
 id: australia-citizenship
 
-title: Australia Citizenship (4-year residence rule)
-subtitle: 4 years lawful ∙ 12 months as PR ∙ 90-day absence limit
+title: Australia Citizenship
+subtitle: 365 days of absence ∙ 4 years ∙ ≤90 days of absence in final 12 months
 
 category: immigration
 
@@ -27,7 +27,7 @@ sources:
 
 ---
 
-# Australia Citizenship (4-year residence rule)
+# Australia Citizenship
 
 ## Overview
 
@@ -39,7 +39,7 @@ including at least **12 months** as a permanent resident. Across those 4 years y
 
 | Key parameters          |                                           |
 |:------------------------|------------------------------------------:|
-| Limit                   |                      12 months of absence |
+| Limit                   |           12 months (365 days) of absence |
 | Qualifying period       |                                   4 years |
 | Counting                |                     Whole days of absence |
 | Additional requirements | 90 days of absence in the final 12 months |

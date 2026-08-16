@@ -39,8 +39,9 @@ non-domicile status can reduce tax on investment income for qualifying residents
 
 | Key parameters          |                                                        |
 |:------------------------|-------------------------------------------------------:|
-| Threshold               |                            60 days, more than 183 days |
+| Threshold               |                                               183 days |
 | Period / Window         |                         Calendar year (1 Jan – 31 Dec) |
+| Alternative             |                                                60 days |
 | Counting                |                    Any part of a day, except departure |
 | Additional requirements | No 183-day residence elsewhere, 60-day rule conditions |
 

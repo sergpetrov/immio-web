@@ -2,7 +2,7 @@
 id: uruguay-tax-residency
 
 title: Uruguay Tax Residency (183-day rule)
-subtitle: 183 days ∙ Starts Jan 1 ∙ Investment routes
+subtitle: 183 days ∙ Starts Jan 1
 
 category: tax
 
@@ -32,7 +32,7 @@ sources:
 ## Overview
 
 :::callout
-You're a Uruguayan tax resident if you spend **more than 183 days** in Uruguay during the calendar year. You also
+You're a Uruguayan tax resident if you spend **more than 183 days** in Uruguay during the **calendar year**. You also
 qualify if the main base of your activities, or your **economic or vital interests**, is in the country. Interests can
 be shown by family alone — a spouse or dependent minor children living there creates a presumption — or by investment,
 through several property and business routes. New residents can also elect a temporary holiday on foreign investment
@@ -41,7 +41,7 @@ income.
 
 | Key parameters          |                                               |
 |:------------------------|----------------------------------------------:|
-| Threshold              |                            More than 183 days |
+| Threshold               |                                      183 days |
 | Period / Window         |                Calendar year (1 Jan – 31 Dec) |
 | Counting                | Any part of a day, sporadic absences included |
 | Additional requirements |       Vital interests test, investment routes |
@@ -77,7 +77,7 @@ under a separate nonresident regime.
 
 1. The presence threshold is **more than 183 days** in Uruguay during the **calendar year**, so the count resets on
    1 January.
-2. **Sporadic absences** — trips away of up to 30 consecutive days — still count as days of Uruguayan presence, unless
+2. **Sporadic absences** — trips away of up to **30 consecutive days** — still count as days of Uruguayan presence, unless
    you produce a tax residence certificate from another country. Once your actual days pass 183, that certificate no
    longer helps.
 3. The 60 days attached to the smaller property-investment route are counted differently: those must be days of genuine

@@ -176,78 +176,6 @@
     width: auto;
 }
 
-.immio-landing-hero__store-play {
-    position: relative;
-    display: inline-flex;
-}
-
-@keyframes immio-landing-tag-sway {
-    0% {
-        transform: translate3d(var(--immio-landing-tag-x), 0, 0) rotate(var(--immio-landing-tag-rotate-start));
-    }
-    45% {
-        transform: translate3d(var(--immio-landing-tag-x), 1px, 0) rotate(var(--immio-landing-tag-rotate-mid));
-    }
-    100% {
-        transform: translate3d(var(--immio-landing-tag-x), -1px, 0) rotate(var(--immio-landing-tag-rotate-end));
-    }
-}
-
-.immio-landing-hero__store-caption {
-    --immio-landing-tag-x: 0;
-    --immio-landing-tag-rotate: 9deg;
-    --immio-landing-tag-rotate-start: 8deg;
-    --immio-landing-tag-rotate-mid: 11deg;
-    --immio-landing-tag-rotate-end: 6deg;
-    position: absolute;
-    top: calc(100% - 6px);
-    left: calc(50% + 12px);
-    transform: translate3d(var(--immio-landing-tag-x), 0, 0) rotate(var(--immio-landing-tag-rotate));
-    transform-origin: 0 50%;
-    white-space: nowrap;
-    padding: 5px 9px 5px 13px;
-    border-radius: 999px;
-    box-shadow: 0 3px 8px rgba(0, 122, 255, 0.08);
-    font-size: 12px;
-    line-height: 1;
-    font-weight: 600;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: #007aff;
-    background: #ebf4fb;
-    z-index: 2;
-    animation: immio-landing-tag-sway 3.8s ease-in-out 0.8s infinite alternate;
-}
-
-.immio-landing-hero__store-caption::before {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 3px;
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    background: var(--immio-landing-white);
-    box-shadow: inset 0 0 0 1px rgba(0, 122, 255, 0.28);
-    transform: translateY(-50%);
-    z-index: 4;
-}
-
-.immio-landing-hero__store-caption::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: -12px;
-    width: 18px;
-    height: 1px;
-    background: #007aff;
-    opacity: 0.45;
-    transform: translateY(-80%) rotate(10deg);
-    transform-origin: right center;
-    pointer-events: none;
-    z-index: 3;
-}
-
 .immio-landing-store-btn--play img {
     height: 26px;
 }
@@ -255,15 +183,10 @@
 @media (prefers-reduced-motion: reduce) {
     .immio-landing-hero__title,
     .immio-landing-hero__subtitle,
-    .immio-landing-hero__stores,
-    .immio-landing-hero__store-caption {
+    .immio-landing-hero__stores {
         animation: none !important;
         opacity: 1;
         transform: none;
-    }
-
-    .immio-landing-hero__store-caption {
-        transform: translate3d(var(--immio-landing-tag-x), 0, 0) rotate(var(--immio-landing-tag-rotate));
     }
 }
 

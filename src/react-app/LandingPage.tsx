@@ -315,18 +315,15 @@ export default function LandingPage() {
                                 >
                                     <img src="/immio/app-store-badge.svg" alt="" width={113} height={30}/>
                                 </a>
-                                <div className="immio-landing-hero__store-play">
-                                    <a
-                                        className="immio-landing-store-btn immio-landing-store-btn--play"
-                                        href={IMMIO_GOOGLE_PLAY_URL}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        aria-label="Get Immio on Google Play"
-                                    >
-                                        <img src="/immio/google-play-badge.svg" alt="" width={108} height={26}/>
-                                    </a>
-                                    <span className="immio-landing-hero__store-caption">Beta</span>
-                                </div>
+                                <a
+                                    className="immio-landing-store-btn immio-landing-store-btn--play"
+                                    href={IMMIO_GOOGLE_PLAY_URL}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    aria-label="Get Immio on Google Play"
+                                >
+                                    <img src="/immio/google-play-badge.svg" alt="" width={108} height={26}/>
+                                </a>
                             </div>
                         </div>
 

@@ -55,6 +55,11 @@ export default function SiteHeaderView({
               {link.label}
             </a>
           ))}
+          {/* A real page rather than an in-page section, so it stays a plain
+              link on the landing page too — no smooth-scroll handler. */}
+          <a className="site-header__link" href="/rules" onClick={onCtaClick}>
+            Rule Guide
+          </a>
         </nav>
         <div className="site-header__actions">
           <a

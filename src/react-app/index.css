@@ -180,4 +180,11 @@ button:hover {
   .page-title {
     color: #ffffff;
   }
+
+  :root:has(.immio-landing),
+  :root:has(.immio-landing) body {
+    color: #1a1a1a;
+    background-color: #ffffff;
+    color-scheme: light;
+  }
 }

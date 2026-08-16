@@ -279,7 +279,8 @@ const TYPE_SWITCH_SCRIPT = `(function(){
 
   function movePill(button) {
     pill.style.width = button.offsetWidth + "px";
-    pill.style.transform = "translateX(" + button.offsetLeft + "px)";
+    pill.style.height = button.offsetHeight + "px";
+    pill.style.transform = "translate(" + button.offsetLeft + "px, " + button.offsetTop + "px)";
   }
 
   function selectCategory(id, button) {
@@ -292,7 +293,6 @@ const TYPE_SWITCH_SCRIPT = `(function(){
       list.classList.toggle("is-active", list.getAttribute("data-category-list") === id);
     });
     movePill(button);
-    button.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
   }
 
   buttons.forEach(function (button) {

@@ -108,24 +108,32 @@
 .faq-accordion__panel-inner {
   overflow: hidden;
   min-height: 0;
-  padding-bottom: 0;
   font-size: 15px;
   line-height: 1.55;
   color: var(--faq-text-muted);
-  transition: padding-bottom 0.36s cubic-bezier(0.33, 1, 0.68, 1);
 }
 
-.faq-accordion__item.is-open .faq-accordion__panel-inner {
-  padding-bottom: 24px;
+/* In-flow spacer (not padding) so 0fr/1fr grid height includes bottom space
+   on mobile Safari, where padding on this overflow:hidden child is clipped. */
+.faq-accordion__panel-inner::after {
+  content: "";
+  display: block;
+  height: 0;
+  transition: height 0.36s cubic-bezier(0.33, 1, 0.68, 1);
 }
 
-.faq-accordion__panel-inner p:last-child {
+.faq-accordion__item.is-open .faq-accordion__panel-inner::after {
+  height: 24px;
+}
+
+.faq-accordion__panel-inner p:last-child,
+.faq-accordion__panel-inner > :last-child {
   margin-bottom: 0;
 }
 
 @media (prefers-reduced-motion: reduce) {
   .faq-accordion__panel,
-  .faq-accordion__panel-inner,
+  .faq-accordion__panel-inner::after,
   .faq-accordion__icon::after {
     transition-duration: 0.01ms;
   }

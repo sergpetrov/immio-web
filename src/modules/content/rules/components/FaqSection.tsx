@@ -15,7 +15,7 @@ export default function FaqSection({ section }: { section: RuleSection }) {
 
   const items = section.faqItems.map((item) => ({
     question: item.question,
-    answer: <span dangerouslySetInnerHTML={{ __html: item.answerHtml }} />,
+    answer: <div dangerouslySetInnerHTML={{ __html: item.answerHtml }} />,
   }));
 
   return (

@@ -7,6 +7,12 @@
     --immio-landing-white: #ffffff;
     --immio-landing-border: #ebebeb;
     --immio-landing-muted-bg: #f8f9fb;
+    --footer-bg: #f8f9fb;
+    --footer-text: #000000;
+    --footer-text-muted: #6d6d6d;
+    --faq-bg: #f8f9fb;
+    --faq-text: #000000;
+    --faq-text-muted: #6d6d6d;
     --font-display: "Rethink Sans", system-ui, -apple-system, sans-serif;
     --nav-h: 68px;
     color: var(--immio-landing-black);
@@ -766,3 +772,23 @@
 }
 
 /* Footer itself is the shared .site-footer component (public/site-footer.css). */
+
+@media (prefers-color-scheme: dark) {
+    .immio-landing .site-header {
+        background: rgba(255, 255, 255, 0.78);
+    }
+
+    .immio-landing .site-header.is-scrolled {
+        border-bottom-color: rgba(235, 235, 235, 0.9);
+    }
+
+    .immio-landing .site-header__logo-wordmark {
+        filter: none;
+    }
+}
+
+@media (prefers-color-scheme: dark) and (max-width: 900px) {
+    .immio-landing .site-header__links {
+        background: #ffffff;
+    }
+}

@@ -38,7 +38,7 @@
     --content-surface: #1e2126;
     --content-table-header-bg: var(--content-surface);
     --content-callout-bg: #17263d;
-    --content-callout-text: var(--immio-primary);
+    --content-callout-text: #70c0ff;
     --immio-primary-container: #17263d;
     color-scheme: dark;
   }
@@ -197,12 +197,12 @@ p {
   button gets its own flat background (correct immediately, no flash);
   once pageShell.ts's script marks the switch [data-enhanced], that static
   background steps aside and the floating pill takes over, sliding between
-  selections.
+  selections. Tabs wrap onto the next line when they don't fit.
 */
 
 .content-type-switch-row {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   gap: 1rem;
   width: 100%;
@@ -211,20 +211,15 @@ p {
 
 .content-type-switch {
   position: relative;
-  display: inline-flex;
+  display: flex;
+  flex: 1 1 auto;
+  flex-wrap: wrap;
+  align-items: center;
   gap: 0.25rem;
   border-radius: 999px;
   padding: 4px;
+  min-width: 0;
   max-width: 100%;
-  /* Still scrollable (by drag/swipe, and the selected tab scrolls itself
-     into view) — just without a visible scrollbar eating into the pill. */
-  overflow-x: auto;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-}
-
-.content-type-switch::-webkit-scrollbar {
-  display: none;
 }
 
 .content-search-button {
@@ -253,9 +248,9 @@ p {
 
 .content-type-switch__pill {
   position: absolute;
-  top: 4px;
+  top: 0;
   left: 0;
-  height: calc(100% - 8px);
+  height: 0;
   width: 0;
   border-radius: 999px;
   background: var(--immio-primary-container);
@@ -265,7 +260,7 @@ p {
 
 .content-type-switch[data-enhanced] .content-type-switch__pill {
   opacity: 1;
-  transition: transform 0.32s cubic-bezier(0.4, 0, 0.2, 1), width 0.32s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 0.32s cubic-bezier(0.4, 0, 0.2, 1), width 0.32s cubic-bezier(0.4, 0, 0.2, 1), height 0.32s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .content-type-switch__item {
@@ -430,6 +425,14 @@ p {
   width: 1.75rem;
   height: 1.75rem;
   flex-shrink: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  .content-search-button img,
+  .content-country-search > img,
+  .content-country-search__clear img {
+    filter: invert(1);
+  }
 }
 
 .content-country-search input {

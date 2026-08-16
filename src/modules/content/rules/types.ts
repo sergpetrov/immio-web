@@ -4,7 +4,14 @@ export interface Category {
   id: CategoryId;
   slug: string;
   title: string;
+  /** Compact label for breadcrumbs and the category switch, where the full
+   *  title is too long. Falls back to `title` when omitted. */
+  shortTitle?: string;
+  /** Short summary — used as the page's SEO meta description. */
   description: string;
+  /** Longer on-page intro shown under the category title. Falls back to
+   *  `description` when omitted. */
+  intro?: string;
 }
 
 export type PlaceType = "country" | "territory" | "state";

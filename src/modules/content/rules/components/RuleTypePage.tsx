@@ -23,7 +23,7 @@ export default function RuleTypePage({
 
           <header className="content-article__header">
             <h1>{category.title}</h1>
-            <p className="content-article">{category.description}</p>
+            <p className="content-catalog__lede">{category.intro ?? category.description}</p>
           </header>
 
           {rules.length === 0 ? (

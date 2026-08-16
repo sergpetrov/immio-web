@@ -11,7 +11,10 @@ export function buildCatalogBreadcrumbs(): Breadcrumb[] {
 }
 
 export function buildCategoryBreadcrumbs(category: Category): Breadcrumb[] {
-  return [...buildCatalogBreadcrumbs(), { label: category.title, href: `/rules/${category.slug}` }];
+  return [
+    ...buildCatalogBreadcrumbs(),
+    { label: category.shortTitle ?? category.title, href: `/rules/${category.slug}` },
+  ];
 }
 
 export function buildCountriesBreadcrumbs(): Breadcrumb[] {

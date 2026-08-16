@@ -216,5 +216,6 @@ button.site-header__toggle:hover {
 
   .site-header a.site-header__link {
     text-align: left;
+    font-size: 16px;
   }
 }

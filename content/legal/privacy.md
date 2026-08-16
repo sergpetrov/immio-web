@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Last updated: 25-07-2025**
+**Last updated on 25 July 2025**
 
 This Privacy Policy explains how **Dev Mode Ltd** ("we", "our", or "us") handles personal information in the **Immio** mobile app. We are committed to protecting your privacy and ensuring transparency about how data is used.
 

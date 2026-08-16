@@ -82,7 +82,7 @@ from the specific country concerned, which is a separate permission with its own
 5. Moving between member countries changes nothing — the whole area is one territory for counting purposes.
 
 Keep boarding passes, accommodation bookings and any residence documents for every trip — your own records are what
-you have if the official entry and exit data is ever wrong (see **ETIAS and Entry/Exit System (EES) change** below).
+you have if the official entry and exit data (EES) is ever wrong.
 The European Commission also publishes an official short-stay calculator, and checking a planned trip against it
 beats reconstructing a disputed count at a border.
 

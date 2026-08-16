@@ -38,6 +38,8 @@ export function renderDocument({ title, description, canonical, jsonLd, bodyHtml
   </head>
   <body>
     ${bodyHtml}
+    <script>${SCROLL_RESTORE_SCRIPT}</script>
+    <script>${SMOOTH_SCROLL_SCRIPT}</script>
     <script>${SCROLL_SHADOW_SCRIPT}</script>
     <script>${MOBILE_NAV_SCRIPT}</script>
     <script>${FAQ_ACCORDION_SCRIPT}</script>
@@ -125,6 +127,76 @@ const COUNTRY_SEARCH_SCRIPT = `(function(){
   if (new URLSearchParams(location.search).get("search") === "1") {
     input.focus();
   }
+})();`;
+
+/*
+  Keeps your place on reload. Native scroll restoration is unreliable here —
+  it races the page's own layout/animation work and can land short, leaving
+  you part-way up the page (and drifting further on repeat refreshes). So we
+  take it over: record the position while scrolling, and put it back
+  ourselves on a reload or back/forward. Restoring is forced to instant
+  regardless of the smooth-scroll class, so the jump is never animated.
+  A fresh navigation still starts at the top, as it should.
+*/
+const SCROLL_RESTORE_SCRIPT = `(function(){
+  if (!("scrollRestoration" in history)) return;
+  history.scrollRestoration = "manual";
+
+  var key = "immio:scroll:" + location.pathname + location.search;
+  var nav = (performance.getEntriesByType && performance.getEntriesByType("navigation")[0]) || {};
+  var isReturn = nav.type === "reload" || nav.type === "back_forward";
+
+  function save() {
+    try { sessionStorage.setItem(key, String(Math.round(window.scrollY))); } catch (e) {}
+  }
+
+  var timer;
+  window.addEventListener("scroll", function () {
+    clearTimeout(timer);
+    timer = setTimeout(save, 100);
+  }, { passive: true });
+  window.addEventListener("pagehide", save);
+
+  if (!isReturn) return;
+
+  var saved = null;
+  try { saved = sessionStorage.getItem(key); } catch (e) {}
+  if (saved === null) return;
+
+  var y = parseInt(saved, 10);
+  if (!(y > 0)) return;
+
+  function restore() {
+    var el = document.documentElement;
+    var prev = el.style.scrollBehavior;
+    el.style.scrollBehavior = "auto";
+    window.scrollTo(0, y);
+    el.style.scrollBehavior = prev;
+  }
+
+  // Re-applied as the page fills out, since the target offset isn't
+  // reachable until enough of the document has been laid out.
+  restore();
+  document.addEventListener("DOMContentLoaded", restore);
+  window.addEventListener("load", function () {
+    restore();
+    setTimeout(restore, 0);
+  });
+})();`;
+
+// Enables CSS smooth scrolling only after load, so it can't hijack the
+// scroll restore above (see content.css). Defers past the load event, by
+// which point the restore has already landed. setTimeout rather than
+// requestAnimationFrame so it still runs in a background tab, where rAF is
+// paused until the tab becomes visible.
+const SMOOTH_SCROLL_SCRIPT = `(function(){
+  function enable() {
+    setTimeout(function () {
+      document.documentElement.classList.add("has-smooth-scroll");
+    }, 0);
+  }
+  if (document.readyState === "complete") enable();
+  else window.addEventListener("load", enable);
 })();`;
 
 // Mirrors SiteHeader.tsx's syncNavScrolled effect on the landing page, so
@@ -220,6 +292,7 @@ const TYPE_SWITCH_SCRIPT = `(function(){
       list.classList.toggle("is-active", list.getAttribute("data-category-list") === id);
     });
     movePill(button);
+    button.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
   }
 
   buttons.forEach(function (button) {

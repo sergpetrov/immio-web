@@ -23,7 +23,7 @@ export default function CountriesPage({
           <Breadcrumbs items={buildCountriesBreadcrumbs()} />
 
           <header className="content-article__header">
-            <h1>Rules by country</h1>
+            <h1>Search a rule</h1>
           </header>
 
           <div className="content-country-search">

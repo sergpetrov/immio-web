@@ -48,12 +48,19 @@
   box-sizing: border-box;
 }
 
-html {
+/*
+  Smooth scrolling is opt-in via a class the page adds after load (see
+  pageShell.ts). Declaring it on bare `html` also applies to the browser's
+  scroll restoration on reload, which turns the restore into an animation
+  that gets cancelled — leaving you back at the top instead of where you
+  were. Gating it keeps in-page anchor scrolling smooth without that.
+*/
+html.has-smooth-scroll {
   scroll-behavior: smooth;
 }
 
 @media (prefers-reduced-motion: reduce) {
-  html {
+  html.has-smooth-scroll {
     scroll-behavior: auto;
   }
 }
@@ -174,6 +181,13 @@ p {
 
 .content-empty {
   color: var(--content-text-muted);
+}
+
+/* Intro lede under the catalog/category page title. */
+.content-catalog__lede {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--immio-landing-dove);
 }
 
 /*
@@ -351,6 +365,20 @@ p {
   font-size: 1rem;
   font-weight: 500;
   letter-spacing: 0.03em;
+}
+
+@media (max-width: 767px) {
+  .content-rule-chip {
+    font-size: 1.15rem;
+  }
+
+  .content-rule-chip__subtitle {
+    display: none;
+  }
+
+  .content-type-switch__item {
+    font-size: 1.1rem;
+  }
 }
 
 /* Countries grid (/rules/countries) — 3 cols desktop, 2 compact, 1 mobile. */
@@ -735,7 +763,7 @@ p {
 }
 
 .content-article__header h1 {
-  font-size: clamp(1.45rem, 4vw, 2.7rem);
+  font-size: clamp(2rem, 4vw, 2.7rem);
   font-weight: 600;
   line-height: 1.1;
   letter-spacing: -0.01em;
@@ -760,13 +788,18 @@ p {
   flex-shrink: 0;
 }
 
-.content-article p.content-article__meta {
+.content-article p.content-article__meta,
+.content-legal__intro > p:first-child {
   font-size: 0.75rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: var(--content-text-faint);
   margin-bottom: 0.5rem;
+}
+
+.content-article p.content-article__meta,
+.content-legal__intro > p:first-child {
   text-align: right;
 }
 
@@ -1015,6 +1048,8 @@ p {
   content: "•";
   position: absolute;
   left: -14px;
+  font-size: 1.4em;
+  line-height: 1;
   color: var(--content-text);
 }
 

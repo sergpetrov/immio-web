@@ -1,6 +1,6 @@
 # Terms of Use
 
-**Last updated: 25-07-2025**
+**Last updated on 25 July 2025**
 
 Welcome to **Immio**, a mobile application provided by **Dev Mode Ltd.** ("we", "our", or "us"). Immio helps you track your trips, stays, and understand potential implications related to immigration, tax residency, and similar matters. By using the Immio app, you agree to these Terms of Use and Apple End User License Agreement ([EULA](https://www.apple.com/legal/internet-services/itunes/dev/stdeula)). If you do not agree, please do not use the app.
 

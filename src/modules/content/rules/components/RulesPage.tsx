@@ -11,10 +11,9 @@ export default function RulesPage({ categories, appDownloadUrl }: { categories: 
         <div className="content-content content-catalog">
           <header className="content-article__header">
             <h1>Rule Guide</h1>
-            <p className="content-article">
-              Plain-English explanations of the tax residency, travel, and immigration rules that affect where you
-              can live, work, and stay compliant.
-            </p>
+            <p className="content-catalog__lede">
+              Country-by-country guidance on tax residency thresholds, visa day limits, residence permits and citizenship requirements —
+              how each rule counts your days, when it applies, edge cases, examples, and what it means for you. </p>
           </header>
 
           <div className="content-type-switch-row">
@@ -29,7 +28,7 @@ export default function RulesPage({ categories, appDownloadUrl }: { categories: 
                   role="tab"
                   aria-selected={index === 0}
                 >
-                  {category.title}
+                  {category.shortTitle ?? category.title}
                 </button>
               ))}
             </div>

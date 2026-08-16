@@ -22,7 +22,7 @@ sources:
     url: https://www.dian.gov.co/impuestos/personas/Paginas/rentaresidentes.aspx
     type: official
   - title: "DIAN — Are you a resident of Colombia for tax purposes?"
-    url: https://micrositios.dian.gov.co/renta-personas-naturales-ag-2022/es-residente-en-colombia-para-efectos-tributarios/
+    url: https://www.dian.gov.co/impuestos/personas/Renta-Personas-Naturales-AG-2020/Paginas/Eres-residente-en-Colombia-para-efectos-tributarios.aspx
     type: official
   - title: "DIAN — Frequently asked questions on the certificate of tax residency in Colombia"
     url: https://www.dian.gov.co/tramitesservicios/Tramites_Impuestos/Autorizaciones/Documents/2.Preguntas%20frecuentes%20y%20Glosario%20Certif%20de%20acred%20de%20resid%20fisc.pdf
@@ -124,7 +124,7 @@ count decides it — and you remain a nonresident.
 ## Official sources
 
 - [DIAN — Income tax for residents abroad: when you are a tax resident of Colombia](https://www.dian.gov.co/impuestos/personas/Paginas/rentaresidentes.aspx)
-- [DIAN — Are you a resident of Colombia for tax purposes?](https://micrositios.dian.gov.co/renta-personas-naturales-ag-2022/es-residente-en-colombia-para-efectos-tributarios/)
+- [DIAN — Are you a resident of Colombia for tax purposes?](https://www.dian.gov.co/impuestos/personas/Renta-Personas-Naturales-AG-2020/Paginas/Eres-residente-en-Colombia-para-efectos-tributarios.aspx)
 - [DIAN — Frequently asked questions on the certificate of tax residency in Colombia](https://www.dian.gov.co/tramitesservicios/Tramites_Impuestos/Autorizaciones/Documents/2.Preguntas%20frecuentes%20y%20Glosario%20Certif%20de%20acred%20de%20resid%20fisc.pdf)
 
 ## FAQ

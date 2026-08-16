@@ -19,7 +19,7 @@ updatedAt: 2026-08-15
 
 sources:
   - title: Ministerio de Inclusión, Seguridad Social y Migraciones — Long-term residence
-    url: https://www.inclusion.gob.es/web/migraciones/residencia-de-larga-duracion
+    url: https://www.inclusion.gob.es/web/migraciones/w/49.-autorizacion-de-residencia-de-larga-duracion-nacional
     type: official
   - title: Ministerio de Inclusión — Immigration portal
     url: https://www.inclusion.gob.es/web/migraciones/inicio
@@ -117,7 +117,7 @@ But one of those was a single seven-month stay abroad, which breaks continuity o
 
 ## Official sources
 
-- [Ministerio de Inclusión, Seguridad Social y Migraciones — Long-term residence](https://www.inclusion.gob.es/web/migraciones/residencia-de-larga-duracion)
+- [Ministerio de Inclusión, Seguridad Social y Migraciones — Long-term residence](https://www.inclusion.gob.es/web/migraciones/w/49.-autorizacion-de-residencia-de-larga-duracion-nacional)
 - [Ministerio de Inclusión — Immigration portal](https://www.inclusion.gob.es/web/migraciones/inicio)
 
 ## FAQ

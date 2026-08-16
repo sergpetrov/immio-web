@@ -4,8 +4,20 @@ import type { FaqItem, RuleSection, TocHeading } from "./types";
 
 const FAQ_SECTION_TITLE = "faq";
 
+function isExternalHref(href: string | undefined): boolean {
+  return typeof href === "string" && /^https?:\/\//i.test(href);
+}
+
 /** Custom markdown container: :::callout … ::: → rounded callout box. */
 marked.use({
+  renderer: {
+    link({ href, title, tokens }) {
+      const text = this.parser.parseInline(tokens);
+      const titleAttr = title ? ` title="${title}"` : "";
+      const newTabAttrs = isExternalHref(href) ? ' target="_blank" rel="noopener noreferrer"' : "";
+      return `<a href="${href}"${titleAttr}${newTabAttrs}>${text}</a>`;
+    },
+  },
   extensions: [
     {
       name: "callout",

@@ -22,7 +22,7 @@ sources:
     url: https://zatca.gov.sa/en/eServices/Pages/eServices-084.aspx
     type: official
   - title: ZATCA — Income tax law and regulations
-    url: https://zatca.gov.sa/en/RulesRegulations/Taxes/Pages/IncomeTax.aspx
+    url: https://zatca.gov.sa/en/Pages/IncomeTax.aspx
     type: official
 
 ---
@@ -113,7 +113,7 @@ short of 183 — so having the home changes nothing and you are not resident.
 ## Official sources
 
 - [ZATCA — Tax Residency Certificate for individuals](https://zatca.gov.sa/en/eServices/Pages/eServices-084.aspx)
-- [ZATCA — Income tax law and regulations](https://zatca.gov.sa/en/RulesRegulations/Taxes/Pages/IncomeTax.aspx)
+- [ZATCA — Income tax law and regulations](https://zatca.gov.sa/en/Pages/IncomeTax.aspx)
 
 ## FAQ
 

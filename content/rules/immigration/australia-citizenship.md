@@ -22,7 +22,7 @@ sources:
     url: https://immi.homeaffairs.gov.au/citizenship/become-a-citizen/permanent-resident
     type: official
   - title: Department of Home Affairs — Residence requirement calculator
-    url: https://immi.homeaffairs.gov.au/citizenship/become-a-citizen/residence-calculator
+    url: https://immi.homeaffairs.gov.au/help-support/tools/residence-calculator
     type: official
 
 ---
@@ -120,7 +120,7 @@ requirement is long met, yet the 12-month permanent residence condition isn't, s
 ## Official sources
 
 - [Department of Home Affairs — Australian citizenship by conferral](https://immi.homeaffairs.gov.au/citizenship/become-a-citizen/permanent-resident)
-- [Department of Home Affairs — Residence requirement calculator](https://immi.homeaffairs.gov.au/citizenship/become-a-citizen/residence-calculator)
+- [Department of Home Affairs — Residence requirement calculator](https://immi.homeaffairs.gov.au/help-support/tools/residence-calculator)
 
 ## FAQ
 

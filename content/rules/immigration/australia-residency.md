@@ -19,7 +19,7 @@ updatedAt: 2026-08-15
 
 sources:
   - title: Department of Home Affairs — Resident Return visa (subclass 155 and 157)
-    url: https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/resident-return-155-157
+    url: https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/resident-return-visa-155-157
     type: official
   - title: Department of Home Affairs — Visa Entitlement Verification Online (VEVO)
     url: https://immi.homeaffairs.gov.au/visas/already-have-a-visa/check-visa-details-and-conditions
@@ -117,7 +117,7 @@ outside, with a weak day count.
 
 ## Official sources
 
-- [Department of Home Affairs — Resident Return visa (subclass 155 and 157)](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/resident-return-155-157)
+- [Department of Home Affairs — Resident Return visa (subclass 155 and 157)](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/resident-return-visa-155-157)
 - [Department of Home Affairs — Visa Entitlement Verification Online (VEVO)](https://immi.homeaffairs.gov.au/visas/already-have-a-visa/check-visa-details-and-conditions)
 
 ## FAQ

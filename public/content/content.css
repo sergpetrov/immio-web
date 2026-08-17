@@ -46,6 +46,7 @@
 
 * {
   box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
 }
 
 /*
@@ -278,6 +279,9 @@ p {
   cursor: pointer;
   white-space: nowrap;
   transition: color 0.2s ease;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 .content-type-switch__item.is-selected {
@@ -315,12 +319,15 @@ p {
   font-size: 1.3rem;
   font-weight: 550;
   transition: background-color 0.15s ease;
+  -webkit-tap-highlight-color: transparent;
 }
 
-.content-rule-chip:hover {
-  background: var(--content-border);
-  color: var(--content-text);
-  text-decoration: none;
+@media (hover: hover) and (pointer: fine) {
+  .content-rule-chip:hover {
+    background: var(--content-border);
+    color: var(--content-text);
+    text-decoration: none;
+  }
 }
 
 .content-rule-chip__flag {
@@ -851,11 +858,18 @@ p {
   margin-top: 0.5rem;
 }
 
-.content-article .content-keep-track-block > section {
-  margin-bottom: 0.5rem;
+.content-article section {
+  margin: 3.5rem 0;
+  /* TOC links target the <section>, not the h2 — offset past the sticky header (68px) + breathing room. */
+  scroll-margin-top: calc(var(--site-header-height) + 1rem);
 }
 
-.content-article .content-keep-track-block > section > :last-child > :last-child {
+.content-article .content-keep-track-block > .content-callout {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+
+.content-article .content-keep-track-block > div > :last-child {
   margin-bottom: 0;
 }
 

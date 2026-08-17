@@ -50,6 +50,9 @@
   line-height: 28px;
   letter-spacing: normal;
   color: var(--faq-text);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 .faq-accordion__trigger:hover {

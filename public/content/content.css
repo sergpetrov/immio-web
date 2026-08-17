@@ -120,7 +120,7 @@ html.is-inapp {
 
 html.is-inapp .site-header,
 html.is-inapp .site-footer,
-html.is-inapp .content-callout {
+html.is-inapp .content-keep-track-block > .content-callout {
   display: none;
 }
 

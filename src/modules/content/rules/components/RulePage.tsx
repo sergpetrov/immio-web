@@ -54,7 +54,7 @@ export default function RulePage({
                 />
               </header>
               <p className="content-article__meta">
-                {formatMonthYear(frontmatter.updatedAt)}
+                Verified on {formatMonthYear(frontmatter.updatedAt)}
               </p>
               {sections.map((section) => {
                 const keepTrack = section.title.trim().toLowerCase() === "how to keep track";

@@ -838,14 +838,25 @@ p {
   margin-top: 0.75rem;
 }
 
+.content-article .content-callout__lead {
+  font-weight: 650;
+}
+
+.content-article a.content-callout__cta,
+.content-article a.content-callout__cta strong {
+  font-weight: 700;
+}
+
 .content-article .content-article__meta + section {
   margin-top: 0.5rem;
 }
 
-.content-article section {
-  margin: 2rem 0;
-  /* TOC links target the <section>, not the h2 — offset past the sticky header (68px) + breathing room. */
-  scroll-margin-top: calc(var(--site-header-height) + 1rem);
+.content-article .content-keep-track-block > section {
+  margin-bottom: 0.5rem;
+}
+
+.content-article .content-keep-track-block > section > :last-child > :last-child {
+  margin-bottom: 0;
 }
 
 .content-article section h2 {

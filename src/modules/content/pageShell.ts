@@ -1,3 +1,5 @@
+import { IMMIO_APP_STORE_URL, IMMIO_GOOGLE_PLAY_URL } from "../../react-app/appStoreLinks";
+
 export interface PageShellParams {
   title: string;
   description: string;
@@ -38,6 +40,7 @@ export function renderDocument({ title, description, canonical, jsonLd, bodyHtml
   </head>
   <body>
     ${bodyHtml}
+    <script>${APP_DOWNLOAD_SCRIPT}</script>
     <script>${SCROLL_RESTORE_SCRIPT}</script>
     <script>${SMOOTH_SCROLL_SCRIPT}</script>
     <script>${SCROLL_SHADOW_SCRIPT}</script>
@@ -50,6 +53,15 @@ export function renderDocument({ title, description, canonical, jsonLd, bodyHtml
   </body>
 </html>`;
 }
+
+const APP_DOWNLOAD_SCRIPT = `(function(){
+  var url = /Android/i.test(navigator.userAgent || "")
+    ? ${JSON.stringify(IMMIO_GOOGLE_PLAY_URL)}
+    : ${JSON.stringify(IMMIO_APP_STORE_URL)};
+  document.querySelectorAll("a[data-app-download]").forEach(function (anchor) {
+    anchor.setAttribute("href", url);
+  });
+})();`;
 
 // Rule links write a short-lived, single-use source record before navigation.
 // This preserves the exact listing page without adding navigation state to URLs.

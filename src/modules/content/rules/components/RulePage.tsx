@@ -56,16 +56,45 @@ export default function RulePage({
               <p className="content-article__meta">
                 {formatMonthYear(frontmatter.updatedAt)}
               </p>
-              {sections.map((section) =>
-                section.faqItems ? (
+              {sections.map((section) => {
+                const keepTrack = section.title.trim().toLowerCase() === "how to keep track";
+                const body = section.faqItems ? (
                   <FaqSection key={section.id} section={section} />
                 ) : (
                   <section key={section.id} id={section.id} aria-labelledby={`${section.id}-heading`}>
                     <h2 id={`${section.id}-heading`}>{section.title}</h2>
                     <div dangerouslySetInnerHTML={{ __html: section.html }} />
                   </section>
-                ),
-              )}
+                );
+
+                if (!keepTrack) {
+                  return body;
+                }
+
+                return (
+                  <div key={`${section.id}-with-immio-callout`} className="content-keep-track-block">
+                    {body}
+                    <aside className="content-callout">
+                        <p>
+                            <strong className="content-callout__lead">
+                                Automatically track this rule and see where you stand.
+                            </strong>{" "}
+                            Immio app correctly counts the days, alerts before you exceed
+                            the limit, and privately stores your travel data and attached travel proofs.{" "}<br/>
+                            <a
+                                className="content-callout__cta"
+                                href={appDownloadUrl}
+                                data-app-download
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <strong>Get the app →</strong>
+                            </a>
+                        </p>
+                    </aside>
+                  </div>
+                );
+              })}
               <p className="content-disclaimer">
                 <strong>For informational purposes only</strong> — this article does not provide legal, tax,
                 immigration, residency, or financial advice. All information on this website is general in nature

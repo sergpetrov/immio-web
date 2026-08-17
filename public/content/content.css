@@ -155,7 +155,8 @@ p {
 .content-breadcrumbs li:not(:last-child)::after {
   content: "/";
   margin-left: 0.35rem;
-  color: var(--content-border);
+  color: var(--content-text-muted);
+  font-weight: 700;
 }
 
 .content-breadcrumbs a {

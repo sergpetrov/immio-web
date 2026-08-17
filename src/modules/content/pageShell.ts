@@ -22,6 +22,7 @@ export function renderDocument({ title, description, canonical, jsonLd, bodyHtml
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>${INAPP_BOOT_SCRIPT}</script>
     <link rel="icon" type="image/svg+xml" href="/logo.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -50,9 +51,31 @@ export function renderDocument({ title, description, canonical, jsonLd, bodyHtml
     <script>${TYPE_SWITCH_SCRIPT}</script>
     <script>${BACK_LINK_SCRIPT}</script>
     <script>${COUNTRY_SEARCH_SCRIPT}</script>
+    <script>${INAPP_LINKS_SCRIPT}</script>
   </body>
 </html>`;
 }
+
+const INAPP_BOOT_SCRIPT = `(function(){
+  if (location.pathname.indexOf("/rules") !== 0) return;
+  if (new URLSearchParams(location.search).get("source") !== "inapp") return;
+  document.documentElement.classList.add("is-inapp");
+})();`;
+
+const INAPP_LINKS_SCRIPT = `(function(){
+  if (!document.documentElement.classList.contains("is-inapp")) return;
+  document.addEventListener("click", function (event) {
+    var anchor = event.target.closest("a");
+    if (!anchor || anchor.target || event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+    try {
+      var url = new URL(anchor.href, location.href);
+      if (url.origin !== location.origin || url.pathname.indexOf("/rules") !== 0) return;
+      if (url.searchParams.get("source") === "inapp") return;
+      url.searchParams.set("source", "inapp");
+      anchor.setAttribute("href", url.pathname + url.search + url.hash);
+    } catch (e) {}
+  }, true);
+})();`;
 
 const APP_DOWNLOAD_SCRIPT = `(function(){
   var url = /Android/i.test(navigator.userAgent || "")

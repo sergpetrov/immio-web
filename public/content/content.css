@@ -113,6 +113,17 @@ p {
   margin: 0 0 1rem 0;
 }
 
+/* In-app WebView (?source=inapp on /rules): hide marketing chrome. */
+html.is-inapp {
+  --site-header-height: 0px;
+}
+
+html.is-inapp .site-header,
+html.is-inapp .site-footer,
+html.is-inapp .content-callout {
+  display: none;
+}
+
 /* Page shell — flex column so the footer sticks to the bottom on short pages. */
 .content {
   display: flex;

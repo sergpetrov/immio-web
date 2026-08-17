@@ -319,16 +319,21 @@ p {
   color: var(--content-text);
   font-size: 1.3rem;
   font-weight: 550;
+  text-decoration: none;
   transition: background-color 0.15s ease;
   -webkit-tap-highlight-color: transparent;
 }
 
-@media (hover: hover) and (pointer: fine) {
-  .content-rule-chip:hover {
-    background: var(--content-border);
-    color: var(--content-text);
-    text-decoration: none;
-  }
+.content-rule-chip:hover,
+.content-rule-chip:active {
+  background: var(--content-border);
+  color: var(--content-text);
+  text-decoration: none;
+}
+
+.content-rule-chip:hover .content-rule-chip__subtitle,
+.content-rule-chip:active .content-rule-chip__subtitle {
+  color: var(--content-text-muted);
 }
 
 .content-rule-chip__flag {

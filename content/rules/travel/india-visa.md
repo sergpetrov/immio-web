@@ -2,7 +2,7 @@
 id: india-visa
 
 title: India Tourist Visa
-subtitle: 90 or 180 days per visit ∙ 180 days per year ∙ e-Tourist
+subtitle: 90 or 180 days per visit ∙ 180 days per year
 
 category: travel
 

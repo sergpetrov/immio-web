@@ -35,9 +35,9 @@ sources:
 ## Overview
 
 :::callout
-Past **180 consecutive days** abroad an officer may ask whether you still live in the US, and at **1 year** the green
-card stops working as a re-entry document. There's no fixed limit though — the real test is **intent**, and a
-**re-entry permit** obtained before you leave covers absences of up to **2 years**.
+**180 days or more** on one trip starts to break the continuous residence you're expected to keep, and at **12
+months** your green card is presumed **abandoned**. Shorter trips are generally fine. What counts is the length of
+each **single absence**, plus your overall **ties** to the US.
 :::
 
 | Key parameters          |                                            |

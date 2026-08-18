@@ -32,9 +32,9 @@ sources:
 ## Overview
 
 :::callout
-Citizenship by conferral normally requires **4 years** of lawful residence in Australia immediately before applying,
-including at least **12 months** as a permanent resident. Across those 4 years you can't have been absent for more than
-**12 months** in total, and no more than **90 days** of that absence can fall in the final 12 months.
+You can be absent **no more than 12 months** across the **4 years** before applying for Australian citizenship, and no
+more than **90 days** of that in the **final 12 months**. Those 4 years must be lawful residence, with the last **12
+months** held as a **permanent resident**.
 :::
 
 | Key parameters          |                                           |

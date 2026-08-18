@@ -32,18 +32,17 @@ sources:
 ## Overview
 
 :::callout
-Australian permanent residence doesn't expire — but the **travel facility** attached to it does, normally after
-**5 years**. Once it lapses you keep your status while you're in Australia, yet you can't re-enter from abroad without
-first obtaining a **Resident Return Visa**. The standard route to that is having spent **2 of the last 5 years** in
-Australia.
+**730 days (2 years) of the last 5 years** in Australia is the standard route to a **Resident Return Visa**, the
+document a permanent resident needs to re-enter. The status itself never expires, but the **travel facility** attached
+to it runs out after 5 years. **Substantial ties** is the alternative, with **no day count**.
 :::
 
-| Key parameters          |                        |
-|:------------------------|-----------------------:|
-| Presence required       |     730 days (2 years) |
-| Period / Window         |        Rolling 5 years |
-| Counting                |      Any part of a day |
-| Additional requirements | Substantial ties route |
+| Key parameters  |                        |
+|:----------------|-----------------------:|
+| Presence        |     730 days (2 years) |
+| Period / Window |        Rolling 5 years |
+| Counting        |      Any part of a day |
+| Alternative     | Substantial ties route |
 
 ## Understanding the rule
 

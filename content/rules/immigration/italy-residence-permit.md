@@ -32,18 +32,17 @@ sources:
 ## Overview
 
 :::callout
-The **permesso di soggiorno** is Italy's residence permit, and the first deadline arrives immediately — you must apply
-within **8 working days** of entering Italy. It's issued for a fixed term and renewed before each expiry.  Absences
-break that continuity: no single trip over **6 months**, and no more than **10 months** away in total. After
-**5 years** of continuous legal residence you can apply for **long-term residence**, which is open-ended.
+No absence **longer than 180 days**, and no more than **10 months** away in total, keeps your **5 years** of Italian
+residence continuous — the route to **long-term residence**. Before any of that, the **permesso di soggiorno** must be
+applied for within **8 working days** of arriving, then renewed before each expiry.
 :::
 
-| Key parameters          |                                            |
-|:------------------------|-------------------------------------------:|
-| Limit                   | 180 consecutive days (6 months) of absence |
-| Period / Window         |                     Per continuous absence |
-| Counting                |                      Whole days of absence |
-| Additional requirements |              10 months of absence in total |
+| Key parameters          |                                                      |
+|:------------------------|-----------------------------------------------------:|
+| Limit                   |              180 days (6 months) of absence per trip |
+| Qualifying period       |                                              5 years |
+| Counting                |                                Whole days of absence |
+| Additional requirements | 10 months of absence in total, permesso di soggiorno |
 
 ## Understanding the rule
 

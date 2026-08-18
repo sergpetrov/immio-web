@@ -35,17 +35,18 @@ sources:
 ## Overview
 
 :::callout
-A UAE residence visa is canceled automatically if you stay outside the country for more than **180 consecutive days**.
+A UAE residence visa is canceled automatically if you stay outside the country for **more than 180 consecutive days**.
 It's a single trip that counts, not your total time abroad each year, and any entry back into the UAE **resets** the
-count. The long-term **Golden**, **Green** and **Blue** visas don't have this limit at all.
+count. **Golden**, **Green** and **Blue** visas don't have this limit.
 :::
 
-| Key parameters          |                                           |
-|:------------------------|------------------------------------------:|
-| Limit                   |           180 consecutive days of absence |
-| Period / Window         |                    Per continuous absence |
-| Counting                |                         Any part of a day |
-| Additional requirements | Sponsor, Emirates ID, medical and renewal |
+| Key parameters          |                                     |
+|:------------------------|------------------------------------:|
+| Limit                   |     180 consecutive days of absence |
+| Period / Window         |              Per continuous absence |
+| Counting                |                   Any part of a day |
+| Alternative             | Golden, Green and Blue visas exempt |
+| Additional requirements |       Sponsor, Emirates ID, renewal |
 
 ## Understanding the rule
 

@@ -32,17 +32,17 @@ sources:
 ## Overview
 
 :::callout
-Naturalising normally takes **5 years** of UK residence, with no more than **450 days** outside the UK across that
-period. Spouses of British citizens get a shorter route — **3 years** and **270 days**. Either way you can't be
-outside the UK more than **90 days** in the final 12 months, and you must hold settled status when you apply.
+You can be outside the UK **no more than 450 days** across the **5 years** before applying, and **no more than 90
+days** in the **final 12 months**. Spouses of British citizens get a shorter route — **3 years** and **270 days**. Either
+way you must hold ILR when you apply.
 :::
 
 | Key parameters          |                                           |
 |:------------------------|------------------------------------------:|
 | Limit                   |                       450 days of absence |
 | Qualifying period       |                                   5 years |
+| Counting                |                     Whole days of absence |
 | Alternative             |             270 days of absence / 3 years |
-| Counting                |                                Whole days |
 | Additional requirements | 90 days of absence in the final 12 months |
 
 ## Understanding the rule

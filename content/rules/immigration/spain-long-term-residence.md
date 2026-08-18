@@ -32,17 +32,18 @@ sources:
 ## Overview
 
 :::callout
-Long-term residence in Spain comes after **5 years** of continuous legal residence. Two absence limits apply at once —
-no single trip over **6 months**, and no more than **10 months** away in total, rising to **18 months** where the
-absences were for work. Break either and the 5-year clock **restarts**.
+No absence **longer than 6 months**, and **no more than 10 months** away in total across **5 years** of continuous
+legal residence, gets you Spanish long-term residence. The total rises to **18 months** when the absences were for
+work. Break either limit and the 5-year clock **restarts**.
 :::
 
-| Key parameters          |                              |
-|:------------------------|-----------------------------:|
-| Limit                   |         10 months of absence |
-| Qualifying period       |                      5 years |
-| Counting                |        Whole days of absence |
-| Additional requirements | 6 months of absence per trip |
+| Key parameters          |                                  |
+|:------------------------|---------------------------------:|
+| Limit                   |             10 months of absence |
+| Qualifying period       |                          5 years |
+| Counting                |            Whole days of absence |
+| Alternative             |    18 months of absence for work |
+| Additional requirements |     6 months of absence per trip |
 
 ## Understanding the rule
 

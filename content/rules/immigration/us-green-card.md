@@ -35,10 +35,9 @@ sources:
 ## Overview
 
 :::callout
-A green card is lost through **abandonment**, and abandonment turns on your intent rather than on any single day count.
-The thresholds that matter are practical ones. Past **180 consecutive days (6 months)** an officer may ask whether you
-still live in the US. Once an absence reaches **1 year** the card stops working as a re-entry document, and the length of the
-trip itself becomes strong evidence that you moved away.
+Past **180 consecutive days** abroad an officer may ask whether you still live in the US, and at **1 year** the green
+card stops working as a re-entry document. There's no fixed limit though — the real test is **intent**, and a
+**re-entry permit** obtained before you leave covers absences of up to **2 years**.
 :::
 
 | Key parameters          |                                            |

@@ -32,18 +32,17 @@ sources:
 ## Overview
 
 :::callout
-Keeping Canadian permanent residency means being physically in Canada for at least **730 days** — two years — in every
-rolling **5-year** period. It isn't assessed once and settled: any 5-year window can be examined, at a border crossing
-or when you renew your permanent resident card (PR card). Some time abroad still counts toward the 730, which is what
-makes the rule more generous than it first looks.
+**730 days (2 years)** physically in Canada across **any 5-year** period keeps your permanent residency. The window
+**rolls**, so any 5 years can be examined at a border crossing or PR card renewal. Some time abroad still counts toward
+the 730, which makes the rule more generous than it first looks.
 :::
 
-| Key parameters          |                     |
-|:------------------------|--------------------:|
-| Presence required       |            730 days |
-| Period / Window         |     Rolling 5 years |
-| Counting                |   Any part of a day |
-| Additional requirements | Time abroad credits |
+| Key parameters   |                     |
+|:-----------------|--------------------:|
+| Presence         |            730 days |
+| Period / Window  |     Rolling 5 years |
+| Counting         |   Any part of a day |
+| Alternative      | Time abroad credits |
 
 ## Understanding the rule
 

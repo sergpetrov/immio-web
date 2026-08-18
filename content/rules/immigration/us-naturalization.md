@@ -33,19 +33,18 @@ sources:
 ## Overview
 
 :::callout
-Naturalizing normally takes **5 years** as a lawful permanent resident, with at least **913 days** of physical
-presence inside it. Spouses of US citizens get a shorter route — **3 years** and **548 days**. Either way your
-continuous residence has to stay unbroken: a single absence over **180 days** is presumed to break it, and
-**365 days** breaks it outright.
+**913 days** of physical presence across the **5 years** before applying makes you eligible to naturalize, and no
+absence **longer than 180 days** without breaking your continuous residence. Spouses of US citizens get a shorter
+route — **3 years** and **548 days**.
 :::
 
-| Key parameters          |                              |
-|:------------------------|-----------------------------:|
-| Presence required       |                     913 days |
-| Qualifying period       |                      5 years |
-| Alternative             |           548 days / 3 years |
-| Counting                |            Any part of a day |
-| Additional requirements | 180 days of absence per trip |
+| Key parameters          |                                   |
+|:------------------------|----------------------------------:|
+| Presence                |                          913 days |
+| Qualifying period       |                           5 years |
+| Counting                |                 Any part of a day |
+| Alternative             | 548 days / 3 years (spouse route) |
+| Additional requirements |      180 days of absence per trip |
 
 ## Understanding the rule
 

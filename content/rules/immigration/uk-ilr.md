@@ -35,19 +35,18 @@ sources:
 ## Overview
 
 :::callout
-ILR is the UK's settlement status. How long you have to qualify depends on your route — **5 years** on most work and
-family routes, **2 or 3 years** on some investor and talent routes, **10 years** on long residence. Throughout that
-period you can't spend more than **180 days** outside the UK in **any** rolling **12 months**, or your continuous
-residence breaks and the clock **resets**.
+You can't spend **more than 180 days outside** the UK in **any 12-month** period while qualifying for ILR, or your
+continuous residence breaks and the clock **resets**. How long you qualify for depends on route — **5 years** on most
+work and family routes, **2 or 3 years** on some investor, talent routes, **10 years** on long residence.
 :::
 
-| Key parameters          |                                           |
-|:------------------------|------------------------------------------:|
-| Limit                   |                       180 days of absence |
-| Period / Window         |                         Rolling 12 months |
-| Routes                  |                         2, 3, 5, 10 years |
-| Counting                |                                Whole days |
-| Additional requirements | Valid leave, Life in the UK test, English |
+| Key parameters          |                              |
+|:------------------------|-----------------------------:|
+| Limit                   |          180 days of absence |
+| Period / Window         |            Rolling 12 months |
+| Counting                |        Whole days of absence |
+| Routes                  |            2, 3, 5, 10 years |
+| Additional requirements | Life in the UK test, English |
 
 ## Understanding the rule
 
@@ -65,7 +64,7 @@ settlement is built on. Absences are one way to break it and gaps in valid leave
 generally means restarting the qualifying period rather than waiting a little longer.
 
 Residence isn't the only requirement. Most applicants also have to pass the **Life in the UK test** and prove
-**English at B1 level** in speaking and listening, both waived from age 65.
+**English** in speaking and listening, both waived from age 65.
 
 You don't have to wait until the exact day your qualifying period ends. You can apply up to **28 days early**, and the
 Home Office treats the application as if it were made once that period completes — later than 28 days early, though,

@@ -2,7 +2,7 @@
 id: israel-tax-residency
 
 title: Israel Tax Residency
-subtitle: 183 days ∙ Starts 1 Jan ∙ Center of life test
+subtitle: 183 days ∙ Starts Jan 1 ∙ Center of life test
 
 category: tax
 

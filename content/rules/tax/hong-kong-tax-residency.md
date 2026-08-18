@@ -2,7 +2,7 @@
 id: hong-kong-tax-residency
 
 title: Hong Kong Tax Residency (180-day and 300-day rules)
-subtitle: 180 days or 300 days ∙ Starts 1 Apr ∙ Ordinary residence
+subtitle: 180 days or 300 days ∙ Starts Apr 1 ∙ Ordinary residence
 
 category: tax
 

@@ -2,7 +2,7 @@
 id: italy-residence-permit
 
 title: Italy Residence Permit
-subtitle: 180 consecutive days (6 months) of absence  ∙ Permesso di soggiorno
+subtitle: 180 consecutive days (6 months) of absence ∙ Permesso di soggiorno
 
 category: immigration
 

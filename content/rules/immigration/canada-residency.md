@@ -2,7 +2,7 @@
 id: canada-residency
 
 title: Canada Permanent Residency
-subtitle: 730 days ∙ last 5 years ∙ PR
+subtitle: 730 days ∙ Last 5 years ∙ PR
 
 category: immigration
 

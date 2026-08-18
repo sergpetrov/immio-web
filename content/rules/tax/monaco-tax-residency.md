@@ -2,7 +2,7 @@
 id: monaco-tax-residency
 
 title: Monaco Tax Residency
-subtitle: 183 days ∙ Starts 1 Jan
+subtitle: 183 days ∙ Starts Jan 1
 
 category: tax
 

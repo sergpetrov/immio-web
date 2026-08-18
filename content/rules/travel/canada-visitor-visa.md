@@ -35,10 +35,8 @@ sources:
 ## Overview
 
 :::callout
-Most visitors to Canada are admitted for **6 months**. Which document you need first depends on your nationality — an
-**eTA** if you're visa-exempt and flying, or a **visitor visa** obtained in advance otherwise. The detail that trips
-people up sits at the border: if the officer doesn't stamp your passport, you're deemed admitted for 6 months from
-your entry date, and nothing in your passport says so.
+Most visitors to Canada are admitted for **6 months** from their entry date. If the officer doesn't stamp your passport
+you're still admitted for 6 months. There is **no annual cap** and **no rolling window**.
 :::
 
 | Key parameters          |                                     |
@@ -54,7 +52,7 @@ Two separate questions decide your position, and mixing them up is the usual sou
 
 **What you need to travel** turns on nationality. Visa-exempt nationals flying to Canada need an **electronic travel
 authorization (eTA)**, valid up to 5 years or until the passport expires. Visa-required nationals need a **temporary
-resident visa** applied for in advance. Arriving by land or sea, visa-exempt travellers generally need neither, though
+resident visa** applied for in advance. Arriving by land or sea, visa-exempt travelers generally need neither, though
 the visa requirement still applies to those who need one. United States citizens sit outside both requirements
 entirely, whichever way they travel.
 

@@ -32,18 +32,17 @@ sources:
 ## Overview
 
 :::callout
-The business visit visa gives **60 days** on arrival and can be extended **twice**, by 60 days each time, for a maximum
-of **180 days** in one stay. It's applied for before travel, needs an Indonesian **sponsor**, and is good for a single
-entry only. The line it draws matters more than the day count: it permits business **visits** — meetings, negotiations,
-inspections — but not working for an Indonesian company or being paid from Indonesia.
+The business visit visa gives **60 days** on arrival and extends **twice**, by 60 days each time, for a maximum of
+**180 days** in one stay. It needs an Indonesian **sponsor**, is applied for before travel, and allows a **single
+entry**. It covers business visits — meetings, negotiations, inspections — not working for an Indonesian company.
 :::
 
 | Key parameters          |                                           |
 |:------------------------|------------------------------------------:|
 | Limit                   |                                   60 days |
 | Period / Window         |                                 Per visit |
-| Alternative             |       Two 60-day extensions, 180 days max |
 | Counting                |                         Any part of a day |
+| Alternative             |       Two 60-day extensions, 180 days max |
 | Additional requirements | Indonesian sponsor, single entry, no work |
 
 ## Understanding the rule

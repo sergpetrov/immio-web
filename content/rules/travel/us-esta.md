@@ -35,10 +35,9 @@ sources:
 ## Overview
 
 :::callout
-The Visa Waiver Program lets nationals of 40+ countries visit the US for **business** or **tourism**
-without a visa, for up to **90 days** per trip. You apply online for an **ESTA** before traveling, valid **2 years**
-for repeated trips. The 90 days are a hard ceiling: no extension, no change of status, and trips to Canada or Mexico
-don't reset the clock.
+The **Visa Waiver Program** gives some nationals **90 days** in the US per trip, for **business** or
+**tourism**, with no visa. You apply online for an **ESTA** first, valid **2 years** across repeated trips. The 90
+days are a hard ceiling — no extension, no change of status, and trips to Canada or Mexico **don't reset** the clock.
 :::
 
 | Key parameters          |                                   |

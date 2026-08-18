@@ -32,17 +32,17 @@ sources:
 ## Overview
 
 :::callout
-India's e-Tourist visa comes in **30-day**, **1-year** and **5-year** versions. The two longer ones allow unlimited
-entries but cap actual presence at **180 days per calendar year**. A single visit is capped separately too — **90
-days** for most nationalities, **180 days** for the US, UK, Canada and Japan.
+**180 days per calendar year** is the real cap on India's e-Tourist visa, whichever version you hold. A single visit
+is capped separately — **90 days** for most nationalities, **180 days** for US, UK, Canada and Japan citizens. The
+visa comes in **30-day**, **1-year** and **5-year** versions.
 :::
 
 | Key parameters          |                                     |
 |:------------------------|------------------------------------:|
 | Limit                   |                            180 days |
 | Period / Window         |                           Per visit |
-| Alternative             |                 90 days / per visit |
 | Counting                |                   Any part of a day |
+| Alternative             |                   90 days per visit |
 | Additional requirements | 180 days per calendar year, no work |
 
 ## Understanding the rule

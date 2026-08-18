@@ -38,10 +38,9 @@ sources:
 ## Overview
 
 :::callout
-Visa-free visitors and short-stay visa holders can spend up to **90 days** in the Schengen Area within any **180-day**
-period. The window doesn't reset on a fixed date — it rolls, so on any given day you look back over the previous 180
-and add up the days you were inside. The whole area counts as one territory, so crossing between member countries
-doesn't buy you a fresh allowance.
+Visa-free visitors and short-stay visa holders get **90 days** in the Schengen Area within **any 180-day** period. The
+window **rolls** rather than resetting with a new year — on any day you look back 180 and add up the days inside. The
+whole area counts as **one territory**.
 :::
 
 | Key parameters          |                           |

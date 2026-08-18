@@ -38,18 +38,17 @@ sources:
 ## Overview
 
 :::callout
-A Standard Visitor can normally stay in the UK for up to **6 months** per visit. A long-term visitor visa can run for
-**2, 5** or **10 years**, but it doesn't extend that limit — it only saves you re-applying, and each individual visit is **still**
-capped at **6 months**. There is no annual allowance and no fixed gap you must leave between visits, which is precisely why
-a pattern of long, frequent stays draws attention.
+A **Standard Visitor** can stay up to **6 months per visit**. A long-term visa running
+**2, 5** or **10 years** doesn't extend that, each visit is still capped at 6 months.
+There's **no annual allowance** and **no required gap** between visits.
 :::
 
-| Key parameters          |                          |
-|:------------------------|-------------------------:|
-| Limit                   |                 6 months |
-| Period / Window         |                Per visit |
-| Counting                |        Any part of a day |
-| Additional requirements | No work, no public funds |
+| Key parameters          |                               |
+|:------------------------|------------------------------:|
+| Limit                   |                      6 months |
+| Period / Window         |                     Per visit |
+| Counting                |             Any part of a day |
+| Additional requirements |      No work, no public funds |
 
 ## Understanding the rule
 

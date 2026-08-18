@@ -35,10 +35,9 @@ sources:
 ## Overview
 
 :::callout
-Nationals of a long list of countries can currently enter Thailand without a visa for **60 days**, extendable once by a
-further **30 days** at an immigration office. Cabinet has approved cutting that entitlement — most of those
-nationalities would drop to **30 days**, and a small number to 15. It is not law yet, because the change only takes
-effect 15 days after publication in the Royal Gazette, which has still not happened.
+Most of the nationals enter Thailand visa-free for **60 days**, extendable once by a further **30** at
+an immigration office. Cabinet has approved cutting that to **30 days** for most of those nationalities, and 15 for a
+few — but it isn't law yet, taking effect only 15 days after Royal Gazette publication.
 :::
 
 | Key parameters          |                                      |

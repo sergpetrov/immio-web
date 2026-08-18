@@ -32,18 +32,17 @@ sources:
 ## Overview
 
 :::callout
-Nationals of a defined list of countries can enter Indonesia on a **Visa on Arrival** valid for **30 days**, extendable
-once by a further **30 days** for a maximum stay of **60**. You can buy it at the airport or apply online beforehand as an
-**e-VOA**, which is the same permission obtained in advance. It is a visit permission only — it carries no right to
-work, and the extension now has to be done in person.
+A **Visa on Arrival** gives eligible nationals **30 days** in Indonesia, extendable once by a further **30** for a
+maximum of **60 days**. You can buy it at the airport or apply online as an **e-VOA** — the same permission,
+obtained in advance. It carries **no right to work**, and the extension has to be done in person.
 :::
 
 | Key parameters          |                               |
 |:------------------------|------------------------------:|
 | Limit                   |                       30 days |
 | Period / Window         |                     Per visit |
-| Alternative             |        30-day extension, once |
 | Counting                |             Any part of a day |
+| Alternative             |        30-day extension, once |
 | Additional requirements | Eligible nationality, no work |
 
 ## Understanding the rule

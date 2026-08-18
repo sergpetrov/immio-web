@@ -38,18 +38,17 @@ sources:
 ## Overview
 
 :::callout
-How long you can stay in the UAE depends almost entirely on your passport. **GCC nationals** need no visa at all.
-Nationals of a further list of countries enter visa-free for either **30** or **90 days** depending on nationality, and
-some of those can alternatively take a **visa on arrival**. Everyone else applies before traveling. Most visit
-permissions can then be extended **twice**, by **30 days** each time.
+Visa-free entry to the UAE runs **30** or **90 days** depending on your nationality, and most visit permissions extend
+**twice** by **30 days** each. **GCC nationals** need no visa at all, some nationalities can take a **visa on
+arrival** instead, and everyone else applies before traveling.
 :::
 
 | Key parameters          |                                       |
 |:------------------------|--------------------------------------:|
 | Limit                   |                      30 days, 90 days |
 | Period / Window         |                             Per visit |
-| Alternative             |                 Two 30-day extensions |
 | Counting                |                     Any part of a day |
+| Alternative             |                 Two 30-day extensions |
 | Additional requirements | Nationality determines route, no work |
 
 ## Understanding the rule

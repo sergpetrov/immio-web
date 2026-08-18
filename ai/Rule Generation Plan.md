@@ -238,71 +238,80 @@ next.
 
 ### Callout
 
-3–4 sentences, in this order:
+**2–3 sentences, 210–320 characters, median around 270.** Short enough to read at a glance, long
+enough to carry the day rule and the other ways in.
 
-1. **What the rule decides**, and how it fits the bigger picture if relevant (e.g. "one of two
-   ways someone becomes a resident — the other is holding a permanent status").
-2. **The core mechanism, stated precisely.** If the rule isn't a single simple threshold, say so
-   explicitly ("It is **not simply a single-threshold rule**") and then state the real, compound
-   condition. This is the single most important sentence in the article.
-3. **A short flag that exceptions exist**, without detailing them (e.g. "A special regime can
-   change the outcome for some newcomers").
-
-**Don't open with a meta-announcement sentence** like "{Subject} is decided by three tests, not a
-single day count" or "{Subject} uses a single test:" — go straight to the actual routes/tests
-instead. If the rule genuinely has multiple routes, that's already obvious from listing them; a
-separate sentence announcing "there are multiple tests" first adds words without adding
-information.
+**Lead with the day count and its period, always.** This is the fact most readers came for, and it
+belongs in the first clause of the first sentence — not after a framing sentence about how many
+tests the rule has. Then the alternative day route if one exists, then the non-day tests, then at
+most one further fact worth knowing up front.
 
 ```text
-Not:      "Poland decides tax residency with two independent tests, not a single day count.
-           You're a resident if..."
-Instead:  "You're a resident if your centre of personal or economic interests is in Poland, or
-           if you spend more than 183 days there in a calendar year — meeting either one is
-           enough."
+Not:      "You're an Australian tax resident if you meet any one of four tests: you reside in
+           Australia, have your domicile there, are present for 183 days or more..."
+Instead:  "Spending **183 days or more** in Australia in the **income year** (1 July to 30 June)
+           can make you a tax resident. You can also qualify if you are **living** there, having
+           your **permanent home** in Australia, or through the **superannuation test**."
 ```
 
-No exceptions detail, no dates/periods already stated in the table below (don't duplicate
-information across the callout and the table), and no legal citations. Bold only the defining
-threshold(s) and one or two truly load-bearing terms — not full clauses.
+**Bold 3–7 spans, median 5.** Bold every day count, every period, the name of each alternative
+test, and phrases that carry the mechanic — `**no day count**`, `**first day**`, `**rolling**`,
+`**deemed resident**`. This is heavier bolding than ordinary prose takes, and it's deliberate: the
+callout doubles as a scannable summary.
 
-**Use plain subject-verb constructions and ordinary words.** The callout is the first thing a
-reader meets and the place abstraction does the most damage. Write "A UAE residence visa is
-canceled automatically if you stay outside the country for more than 180 consecutive days" — not
-"What it measures is a single absence rather than a yearly total," which describes the rule instead
-of stating it. Avoid inverted openers ("What the rule protects is…"), nominalizations, and framing
-clauses that talk *about* the mechanism rather than giving it. If a sentence would survive being
-cut without losing a fact, cut it.
+**Period phrasing is standardised, and differs between callout and table.** In callout prose use
+`any 12-month`, `any 365-day`, `any 36 months`, `calendar year`, `tax year (1 April to 31 March)`,
+`income year (1 July to 30 June)`. The table uses the `Rolling 12 months` form instead — don't
+carry `Rolling` into the callout, and don't carry `any 12-month` into the table.
 
-**Where a rule has a reset, a restart, or a clock that breaks, say so in the callout.** That
-consequence is usually what a reader actually needs — "Break either and the 5-year clock
-**restarts**," "any entry back into the UAE **resets** the count." A callout that lists thresholds
-without saying what happens when you cross one is only half the rule.
+**For a rolling window, say it doesn't reset "with a new year"** — never "on 1 January" or "each
+January". Plenty of these rules run on a tax year that doesn't start in January, and naming the
+month makes the sentence wrong for them.
 
-**The shape above is the required content, not a sentence template to fill in with a new country's
-name each time.** Don't let every callout read as the same three clauses in the same order with
-only the nouns swapped — vary the phrasing, sentence rhythm, and even which clause leads, based on
-what's actually distinctive about this specific rule. If the rule's own official source, or how its
-target audience commonly refers to it, has a well-known, natural framing — a named test everyone in
-that market already calls by name, a phrasing convention used in the country's own official
-guidance — lean into that instead of defaulting to the generic pattern. It should read as the most
-natural way to explain *this* rule, not as visually consistent with every other article's callout.
+**Vary the opening.** The corpus opens on a bare threshold (`**More than 183 days** in...`), a
+gerund (`Spending`, `Staying`, `Being`), or the subject itself (`The **Substantial Presence
+Test** needs...`). Pick whichever fits the rule; don't let consecutive articles share a stem.
+
+**Write for a non-native reader.** Short sentences, ordinary words, active voice. Use numerals
+always — `12-month` not twelve-month, `2 tax years` not two, `1 of 4 routes` not one of four.
+Never use "carve-out"; say what actually happens instead ("taxed by France as if they never left",
+"sit outside the day test").
+
+No legal citations, no exceptions detail, and nothing already stated in the table below.
 
 ### Key parameters table
 
-This shape, one table per article, no exceptions. Add the **Alternative** row only when the rule
-genuinely has a second, independent counting route (see below) — otherwise the table has four
-rows, not five:
+One table per article, no exceptions. **The default is these 4 rows, in this order** — 23 of the
+33 tax articles use exactly this shape and nothing else:
 
 ```markdown
 | Key parameters          |                          |
 |:------------------------|-------------------------:|
 | Threshold               | *bare number, or "More than N days"* |
-| Period / Window          | *short standard pattern* |
-| Alternative               | *N days / rolling M months — only if a second route exists* |
-| Counting                 | *"Any part of a day", or "Nights (...)"* |
-| Additional requirements  | *short label*            |
+| Period / Window         | *short standard pattern* |
+| Counting                | *"Any part of a day", or "Nights (...)"* |
+| Alternative             | *the other way in — a second day route, or a named test* |
 ```
+
+**`Alternative` comes last, after `Counting`, and it is the normal case rather than the exception.**
+An earlier version of this plan placed it directly after `Period / Window` and said to add it only
+where a genuine second *counting* route exists, with named non-day tests going to `Additional
+requirements` instead. Both of those are reversed. In practice almost every rule has some other way
+in, and a reader scanning the table wants the primary threshold and its mechanics together at the
+top, with the alternatives beneath. `Alternative` now carries whichever applies:
+
+- a second day route — `60 days`, `270 days / Rolling 36 months`, `549 days / 3 years`,
+  `30 days / year + 425 days / 3 years`
+- a named non-day test — `Domicile test`, `Residential ties test`, `Permanent place of abode`,
+  `Dwelling test (Wohnsitz)`
+- several of either, comma-separated — `Permanent home, economic interests`
+
+**`Additional requirements` is now a 5th row used only where something genuinely sits outside the
+routes themselves** — 9 of 33 articles have it. Reserve it for conditions layered on top of
+qualifying (`No 183-day residence elsewhere`, `Tax home, closer connection tests`), consequences
+that change what residency means (`Remittance-based foreign income`), or history the test reaches
+back into (`Previous 3 tax years`). If the thing you want to put here is just another way to
+qualify, it belongs in `Alternative`.
 
 - **Right-align the second column** (`--:` in the header separator) — the shared CSS
   (`public/content/content.css`) renders it at medium weight automatically.
@@ -322,18 +331,18 @@ rows, not five:
   would otherwise be ambiguous** — "330 days abroad" rather than "330 full days," since a reader
   scanning the table needs to know *what* the number measures, and a qualifier like "full" is a
   counting mechanic that belongs in "How to keep track" where it can actually be defined.
+- **Period / Window row: use the `Rolling` form here, not the callout's `any` form.** The corpus
+  uses exactly these: `Calendar year (1 Jan – 31 Dec)`, `Rolling 12 months`, `Rolling 365 days`,
+  `Tax year (1 Apr – 31 Mar)`, `Income year (1 Jul – 30 Jun)`, `UK tax year (6 Apr – 5 Apr)`. Match
+  one of these unless the rule genuinely doesn't fit any (Germany's `Continuous stay, not tied to a
+  calendar year` is the reference exception).
 - **Period / Window row: use short, standard patterns only** — "Rolling 12 months," "Rolling 365
   days," "Calendar year (1 Jan – 31 Dec)," "Income year (1 Jul – 30 Jun)." Don't elaborate in the
   cell ("Any rolling 12-month period," "Rolling 12-month period from entry") — a detail like "from
   entry" belongs in "How to keep track," not the table.
-- **Alternative row (only when it applies)**: for a rule with a genuine second counting route —
-  a different day threshold measured over a different window, both independently sufficient to
-  qualify (Norway's 183-days-in-12-months *or* 270-days-in-36-months is the reference case) — add
-  this row directly after Period / Window, combining the second threshold and its own window into
-  one cell: `270 days / Rolling 36 months`. Don't add this row for a rule that merely has other,
-  non-day-based qualifying routes (a domicile test, a ties test, a resides test) — those stay in
-  "Additional requirements" as before. The Alternative row is specifically for a second **counting**
-  rule, not a second route in general.
+- **Alternative row**: see above — it is the default 4th row, sits after `Counting`, and takes
+  either a second day route or the named non-day test(s). Keep the value short and label-like; a
+  day route reads `N days / Rolling M months`, a test reads by its name.
 - **Counting row: match the label to what the rule actually limits.** A rule that caps **presence**
   (how long you may stay, how many days you must accumulate) counts partial days *toward* the
   limit, so the cell is `Any part of a day`. A rule that caps **absence** (how long you may be away

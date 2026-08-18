@@ -38,18 +38,16 @@ sources:
 ## Overview
 
 :::callout
-You're a New Zealand tax resident if you're in New Zealand for **more than 183 days** in any 12-month period, or if
-you have a **permanent place of abode** there. A home you can call your own makes you a resident on very few days
-present. Residency is backdated to the first of those 183 days. Since April 2026, some visitors working remotely for
-overseas employers are carved out of the day test.
+**More than 183 days** in New Zealand across **any 12-month** period can make you a tax resident, backdated to the
+**first** of those days. A **permanent place of abode** there also qualifies you, with **no day count**.
 :::
 
-| Key parameters          |                                             |
-|:------------------------|--------------------------------------------:|
-| Threshold               |                                    183 days |
-| Period / Window         |                           Rolling 12 months |
-| Counting                |                           Any part of a day |
-| Additional requirements | Permanent place of abode, visitor carve-out |
+| Key parameters  |                           |
+|:----------------|--------------------------:|
+| Threshold       |                  183 days |
+| Period / Window |         Rolling 12 months |
+| Counting        |         Any part of a day |
+| Alternative     |  Permanent place of abode |
 
 ## Understanding the rule
 

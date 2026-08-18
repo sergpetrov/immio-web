@@ -2,7 +2,7 @@
 id: singapore-tax-residency
 
 title: Singapore Tax Residency (183-day rule)
-subtitle: 183 days ∙ Calendar year ∙ Ordinary residence
+subtitle: 183 days ∙ Start Jan 1 ∙ Ordinary residence
 
 category: tax
 
@@ -35,17 +35,17 @@ sources:
 ## Overview
 
 :::callout
-You're a Singapore tax resident if you're physically present or exercising an employment in Singapore for **183 days
-or more** in the **calendar year**. You also qualify if you normally live in Singapore with only temporary absences. A
-shorter continuous stay can also count when your employment runs across two calendar years.
+**183 days or more** in Singapore in a **calendar year** can make you a tax resident.
+Normally **living** in Singapore with only temporary absences qualifies you too. Also, **2+ calendar years** of
+employment with a total stay of **at least 183 days** makes you resident.
 :::
 
-| Key parameters          |                                      |
-|:------------------------|-------------------------------------:|
-| Threshold               |                             183 days |
-| Period / Window         |       Calendar year (1 Jan – 31 Dec) |
-| Counting                |                    Any part of a day |
-| Additional requirements | Ordinary residence, stay concessions |
+| Key parameters  |                                |
+|:----------------|-------------------------------:|
+| Threshold       |                       183 days |
+| Period / Window | Calendar year (1 Jan – 31 Dec) |
+| Counting        |              Any part of a day |
+| Alternative     | Ordinary residence, employment |
 
 ## Understanding the rule
 

@@ -32,18 +32,17 @@ sources:
 ## Overview
 
 :::callout
-You become a Brazilian **tax resident on the day** you arrive if you hold **permanent residence** status, or if you arrive on a
-temporary visa under a Brazilian **employment contract**. On any other temporary visa, you become resident on the day you
-complete **184 days** of presence inside a **12-month** window. Leaving works differently again: a formal exit filing,
-not the flight, decides when your residency actually ends.
+You can become a Brazilian tax resident if you spend **more than 183 days** there, counted across **any 12-month**
+period. **Permanent residence** status, or Brazilian **employment** contract make your resident from **first day**.
+Ending residency needs a formal exit filing.
 :::
 
-| Key parameters          |                                  |
-|:------------------------|---------------------------------:|
-| Threshold               |                         183 days |
-| Period / Window         |                Rolling 12 months |
-| Counting                |                Any part of a day |
-| Additional requirements | Visa status, employment contract |
+| Key parameters  |                                          |
+|:----------------|-----------------------------------------:|
+| Threshold       |                                 183 days |
+| Period / Window |                        Rolling 12 months |
+| Counting        |                        Any part of a day |
+| Alternative     | Permanent residence, employment contract |
 
 ## Understanding the rule
 

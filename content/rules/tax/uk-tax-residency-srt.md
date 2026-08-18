@@ -38,10 +38,9 @@ sources:
 ## Overview
 
 :::callout
-The Statutory Residence Test (SRT) determines whether you are a UK tax resident for a given tax year. It is **not simply
-a 183-day rule**. Instead, it applies a series of tests: **automatic overseas tests**, then the **automatic UK tests**,
-and finally the **sufficient ties test**. The number of days you can spend in the UK before becoming tax resident
-depends on your UK ties and whether you were UK resident in previous tax years.
+The UK Statutory Residence Test runs 3 stages — **automatic overseas tests**, then **automatic UK tests**, then the
+**sufficient ties test** — and how many days you can spend in the UK at **midnight**, from **15 to 182**, depends on
+your UK **ties** and recent **residence history**.
 :::
 
 | Key parameters          |                                            |

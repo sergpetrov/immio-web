@@ -32,17 +32,17 @@ sources:
 ## Overview
 
 :::callout
-You're Cyprus tax resident if you spend **more than 183 days** in Cyprus in the calendar year. The alternative is the
-**60-day rule**, which needs at least 60 days present plus three further conditions met together. A separate
-non-domicile status can reduce tax on investment income for qualifying residents.
+Spending **more than 183 days** in Cyprus in a **calendar year** can make you a tax resident. The **60-day rule** is the
+alternative — **60 days** present with conditions met together, including **no 183-day residence elsewhere**. **Non-dom**
+status can **cut tax** on investment income.
 :::
 
 | Key parameters          |                                                        |
 |:------------------------|-------------------------------------------------------:|
 | Threshold               |                                               183 days |
 | Period / Window         |                         Calendar year (1 Jan – 31 Dec) |
-| Alternative             |                                                60 days |
 | Counting                |                    Any part of a day, except departure |
+| Alternative             |                                                60 days |
 | Additional requirements | No 183-day residence elsewhere, 60-day rule conditions |
 
 ## Understanding the rule

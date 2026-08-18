@@ -38,10 +38,9 @@ sources:
 ## Overview
 
 :::callout
-The Substantial Presence Test (SPT) is one of two ways a non-citizen becomes a US resident for tax purposes — the other
-is holding a **green card**. It is **not** simply a **183-day rule** — you need at least **31 days** in the US this
-year, plus **183 weighted days** across the last 3 years. But there are exceptions, such as exempt visa categories and
-the closer connection.
+The **Substantial Presence Test** needs **31 days** in the US this year plus **183 weighted days** across the last 3 —
+this year counts in full, last year at **1/3**, the year before at **1/6**. It's **not a plain 183-day rule**. A
+**green card** is the other route in.
 :::
 
 | Key parameters           |                                                 |

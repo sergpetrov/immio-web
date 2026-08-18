@@ -32,10 +32,8 @@ sources:
 ## Overview
 
 :::callout
-Spend **180 days or more** in Thailand within a calendar year and you become a Thai tax resident — there's no
-partial or gradual threshold, day 180 is where it flips. Staying under that means keeping your total time in the
-country to **179 days or fewer**, from 1 January to 31 December. That status has carried more weight since 2024,
-when a rule change made remitted foreign income taxable for residents.
+**180 days or more** in Thailand in a **calendar year** can make you a Thai tax resident — the days don't need to be
+consecutive. Staying out means keeping your total to **179 days or fewer** between 1 January and 31 December.
 :::
 
 | Key parameters          |                                 |

@@ -38,18 +38,17 @@ sources:
 ## Overview
 
 :::callout
-Being a US citizen makes you a US taxpayer wherever you live, and this doesn't change that. It lets you exclude
-**foreign earned income** from that liability, up to a cap indexed each year. You qualify by having a tax home in a
-foreign country, plus either **330 full days** abroad in any twelve consecutive months or bona fide residence there
-for a full tax year. It reaches earned income only, so pensions, dividends and investment gains stay taxable.
+**330 full days** abroad in **any 12-month** period lets a US taxpayer exclude **foreign earned income** up to an
+annual cap. **Bona fide residence** abroad for a full tax year is the alternative, and either way you need a **foreign
+tax home**. It covers earned income only — pensions, dividends, gains stay taxable.
 :::
 
-| Key parameters          |                                            |
-|:------------------------|-------------------------------------------:|
-| Threshold               |                            330 days abroad |
-| Period / Window         |                          Rolling 12 months |
-| Counting                |                                 Whole days |
-| Additional requirements | Foreign tax home, bona fide residence test |
+| Key parameters  |                                            |
+|:----------------|-------------------------------------------:|
+| Threshold       |                            330 days abroad |
+| Period / Window |                          Rolling 12 months |
+| Counting        |                          Whole days abroad |
+| Alternative     | Foreign tax home, bona fide residence test |
 
 ## Understanding the rule
 

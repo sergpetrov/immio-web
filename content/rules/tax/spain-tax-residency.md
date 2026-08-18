@@ -32,18 +32,17 @@ sources:
 ## Overview
 
 :::callout
-Spanish tax residency is **not just a 183-day rule**. You're a Spanish tax resident if you meet any one of three tests:
-spending more than 183 days in Spain in the **calendar year**, having the main base of your economic activities in
-Spain, or having a spouse and dependent minor children who live in Spain, which creates a **presumption** of residency
-you'd need to rebut. Some exceptions and a special regime for new arrivals can still apply.
+**More than 183 days** in Spain in a **calendar year** can make you a tax resident. The main base of your
+**economic activities** there triggers too. Also, a spouse and dependent minor children living in Spain creates a 
+**presumption** of residency.
 :::
 
-| Key parameters           |                                 |
-|:-------------------------|--------------------------------:|
-| Threshold                |                        183 days |
-| Period / Window          |  Calendar year (1 Jan – 31 Dec) |
-| Counting                 |               Any part of a day |
-| Additional requirements  | Economic interests test, family |
+| Key parameters  |                                 |
+|:----------------|--------------------------------:|
+| Threshold       |                        183 days |
+| Period / Window |  Calendar year (1 Jan – 31 Dec) |
+| Counting        |               Any part of a day |
+| Alternative     | Economic interests test, family |
 
 ## Understanding the rule
 

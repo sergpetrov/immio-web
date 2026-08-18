@@ -32,23 +32,23 @@ sources:
 ## Overview
 
 :::callout
-You're an Australian tax resident if you meet any one of four tests: you **reside** in Australia under its ordinary
-meaning, have your **domicile** there, are present for **183 days or more** in the income year, or hold a specific
-government superannuation membership. Each test has its own carve-outs.
+Spending **183 days or more** in Australia in the **income year** (1 July to 30 June) can make you a tax resident.
+You can also qualify if you are **living** there, having your **permanent home** in Australia, or through the 
+**superannuation test**.
 :::
 
-| Key parameters           |                                         |
-|:-------------------------|----------------------------------------:|
-| Threshold                |                                183 days |
-| Period / Window          |            Income year (1 Jul – 30 Jun) |
-| Counting                 |                       Any part of a day |
-| Additional requirements  | Resides, domicile, superannuation tests |
+| Key parameters  |                                         |
+|:----------------|----------------------------------------:|
+| Threshold       |                                183 days |
+| Period / Window |            Income year (1 Jul – 30 Jun) |
+| Counting        |                       Any part of a day |
+| Alternative     | Resides, domicile, superannuation tests |
 
 ## Understanding the rule
 
-You are an Australian tax resident for an income year if you meet any one of four tests:
+You are an Australian tax resident for an income year if you meet any one of 4 tests:
 
-- **Resides test** — you reside in Australia under its ordinary meaning, based on your behaviour, family and business
+- **Resides test** — you reside in Australia under its ordinary meaning, based on your behavior, family and business
   ties, and living arrangements. This is the primary test, with no day-count threshold at all.
 - **Domicile test** — your domicile is in Australia, unless the Commissioner is satisfied your permanent home is
   genuinely established outside Australia.
@@ -76,7 +76,7 @@ domicile tests.
 - **Escaping the domicile test isn't automatic.** Even with an Australian domicile, the Commissioner must be
   satisfied your permanent home is genuinely established elsewhere — the default assumption favours residency.
 - **The 183-day test has a two-part carve-out.** Exceeding 183 days doesn't make you resident if your usual home is
-  genuinely overseas and you have no intention of taking up residence in Australia. Missing either condition means
+  genuinely overseas, and you have no intention of taking up residence in Australia. Missing either condition means
   the carve-out doesn't apply.
 - **The superannuation test is narrow but absolute.** It applies mainly to specific Commonwealth government
   employees and their spouse or young child, and it overrides everything else regardless of where they actually

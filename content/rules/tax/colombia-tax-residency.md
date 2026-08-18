@@ -35,10 +35,9 @@ sources:
 ## Overview
 
 :::callout
-You're a Colombian tax resident if you're in the country for **more than 183 calendar days**, continuously or not,
-across any 365 consecutive days. Where that stay falls across two tax years, residency attaches to the **second** of
-them, not the first. Colombian nationals face a further set of conditions that can make them resident with no presence
-in Colombia at all.
+**More than 183 days** in **any 365-day** period can trigger Colombian tax residency. The period is **rolling**, not
+calendar-based, and if the threshold spans **2 tax years**, residency generally falls in the **second year**. Colombian
+nationals may also qualify through **family** or **asset** ties.
 :::
 
 | Key parameters           |                                    |

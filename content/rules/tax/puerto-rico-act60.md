@@ -35,19 +35,18 @@ sources:
 ## Overview
 
 :::callout
-You're a bona fide resident of Puerto Rico for a tax year only if you clear **all 3** of a presence test, a tax home
-test, and a closer connection test. Presence normally means at least **183 days** in Puerto Rico during the tax year,
-though four alternative routes can substitute for it. That status is also the gateway to **Act 60's** tax decrees, which
-are applied for separately and carry their own conditions.
+Bona fide residence in Puerto Rico normally needs **183 days** there in the **calendar year**, with **549 days across
+3 years** among the alternative routes. You must also pass the **tax-home** and the **closer-connection** tests, all in
+the same tax year.
 :::
 
-| Key parameters          |                                       |
-|:------------------------|--------------------------------------:|
-| Threshold               |                              183 days |
-| Period / Window         |        Calendar year (1 Jan – 31 Dec) |
-| Alternative             |                    549 days / 3 years |
-| Counting                |                     Any part of a day |
-| Additional requirements | Tax home test, closer connection test |
+| Key parameters          |                                   |
+|:------------------------|----------------------------------:|
+| Threshold               |                          183 days |
+| Period / Window         |    Calendar year (1 Jan – 31 Dec) |
+| Counting                |                 Any part of a day |
+| Alternative             |                549 days / 3 years |
+| Additional requirements | Tax home, closer connection tests |
 
 ## Understanding the rule
 

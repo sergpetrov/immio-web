@@ -2,7 +2,7 @@
 id: morocco-tax-residency
 
 title: Morocco Tax Residency (183-day rule)
-subtitle: 184 days ∙ Rolling 365 days ∙ Permanent home test
+subtitle: 183 days ∙ Rolling 365 days ∙ Permanent home test
 
 category: tax
 
@@ -11,7 +11,7 @@ place: ma
 seo:
   title: Morocco Tax Residency Rules Explained | Immio
   description: >
-    How Moroccan tax residency works — the permanent home test, the centre
+    How Moroccan tax residency works — the permanent home test, the center
     of economic interests test, and the 183-day rule counted over any
     rolling 365-day period rather than the calendar year.
 
@@ -32,18 +32,16 @@ sources:
 ## Overview
 
 :::callout
-You're a Moroccan tax resident if you have a permanent home in Morocco, or if Morocco is the centre of your economic
-interests. You're also resident if your stays there add up to **more than 183 days** in any **365-day period** — meeting
-any one of the three is enough. The day count runs on a **rolling window** rather than the calendar year, and the stays
-don't need to be continuous.
+Staying **more than 183 days** in Morocco across **any 365-day** period can make you a tax resident. A **permanent home** in
+Morocco, or the **center of your economic interests**, each qualify on their own with **no day count**.
 :::
 
-| Key parameters          |                                    |
-|:------------------------|-----------------------------------:|
-| Threshold               |                           183 days |
-| Period / Window         |                   Rolling 365 days |
-| Counting                |                  Any part of a day |
-| Additional requirements | Permanent home, economic interests |
+| Key parameters  |                                    |
+|:----------------|-----------------------------------:|
+| Threshold       |                           183 days |
+| Period / Window |                   Rolling 365 days |
+| Counting        |                  Any part of a day |
+| Alternative     | Permanent home, economic interests |
 
 ## Understanding the rule
 
@@ -105,7 +103,7 @@ test makes you a Moroccan tax resident.
 
 You live abroad, spend under 40 days a year in Morocco and rent nothing there, but you own and run a Casablanca
 company that provides most of your income. Your day count is far below the threshold and you have no Moroccan home,
-yet the centre-of-economic-interests test alone can make you a Moroccan tax resident.
+yet the center-of-economic-interests test alone can make you a Moroccan tax resident.
 
 ## Official sources
 
@@ -116,7 +114,7 @@ yet the centre-of-economic-interests test alone can make you a Moroccan tax resi
 
 ### Is Moroccan tax residency just a 183-day rule?
 
-No. A permanent home in Morocco, or Morocco being the centre of your economic interests, each makes you resident on
+No. A permanent home in Morocco, or Morocco being the center of your economic interests, each makes you resident on
 its own whatever your day count. The day count itself uses any rolling 365-day period rather than the calendar year.
 
 ### How are days in Morocco counted?

@@ -32,24 +32,23 @@ sources:
 ## Overview
 
 :::callout
-You're a Chilean tax resident if you spend **more than 183 days** in Chile, continuous or not, within any twelve-month
-period. You can also become resident through **domicile** — living in Chile with the intention of staying — which needs
-no day count at all and can apply from your first day. New foreign residents get a transitional period before their
-foreign income is taxed in Chile.
+Spending **more than 183 days** in Chile within **any 12-month** period can make you a tax resident.
+**Domicile test** is the other way in — living in Chile intending to stay, which needs **no day count** and can apply
+from your **first day**.
 :::
 
-| Key parameters          |                   |
-|:------------------------|------------------:|
-| Threshold               |          183 days |
-| Period / Window         | Rolling 12 months |
-| Counting                | Any part of a day |
-| Additional requirements |     Domicile test |
+| Key parameters  |                   |
+|:----------------|------------------:|
+| Threshold       |          183 days |
+| Period / Window | Rolling 12 months |
+| Counting        | Any part of a day |
+| Alternative     |     Domicile test |
 
 ## Understanding the rule
 
 You are a Chilean tax resident if you meet either of two tests, in any order:
 
-- **Residence** — present in Chile for more than 183 days, continuous or not, within any twelve-month period, based
+- **Residence** — present in Chile for **more than 183 days**, continuous or not, within any twelve-month period, based
   purely on physical presence, not on why you were there.
 - **Domicile** — you live in Chile with the intention of remaining, judged mainly by economics: where your principal
   business is run and where your main source of income sits. Family ties support the picture but don't decide it alone.

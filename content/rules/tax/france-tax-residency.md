@@ -35,18 +35,17 @@ sources:
 ## Overview
 
 :::callout
-You're a French tax resident if your **home** is in France, or if France is the **center of your economic interests**.
-Carrying out a job or business there on more than an ancillary basis does it too. With no settled home anywhere,
-France instead **qualifies** when it's **where** you actually **spent most of your time**. Meeting just one of these is enough, so
-a low day count guarantees nothing on its own.
+**More than 183 days** in France during a **calendar year** may trigger tax residency if you have **no settled home
+elsewhere**. Otherwise, residency can arise based on where your **home**, **economic interests**, or **main professional
+activity** are located — without a specific day threshold.
 :::
 
-| Key parameters          |                                                 |
-|:------------------------|------------------------------------------------:|
-| Threshold               |                 6 months (effectively 183 days) |
-| Period / Window         |                  Calendar year (1 Jan – 31 Dec) |
-| Counting                |                               Any part of a day |
-| Additional requirements | Home, professional activity, economic interests |
+| Key parameters  |                                                 |
+|:----------------|------------------------------------------------:|
+| Threshold       |                 6 months (effectively 183 days) |
+| Period / Window |                  Calendar year (1 Jan – 31 Dec) |
+| Counting        |                               Any part of a day |
+| Alternative     | Home, professional activity, economic interests |
 
 ## Understanding the rule
 

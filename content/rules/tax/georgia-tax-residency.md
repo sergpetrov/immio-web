@@ -35,18 +35,17 @@ sources:
 ## Overview
 
 :::callout
-Georgia here is the **country** in the South Caucasus, capital Tbilisi — **not the US state**. You're a tax resident if you're
-present there for **183 days** or more in any continuous 12 months ending in the tax year. A separate route grants
-residency to individuals of **high net worth** who meet asset, income and Georgian-connection conditions, with no day
-count at all. Meeting either makes you resident for the whole of that tax year.
+**183 days or more** in Georgia (country, not US state) — across **any 12-month** period ending in the tax
+year can make you tax resident. A **high-net-worth** route is an alternative, with **no day-count**, but subject to
+asset, income, and Georgian-connection conditions.
 :::
 
-| Key parameters          |                       |
-|:------------------------|----------------------:|
-| Threshold               |              183 days |
-| Period / Window         |     Rolling 12 months |
-| Counting                |     Any part of a day |
-| Additional requirements |  High net worth route |
+| Key parameters  |                       |
+|:----------------|----------------------:|
+| Threshold       |              183 days |
+| Period / Window |     Rolling 12 months |
+| Counting        |     Any part of a day |
+| Alternative     |  High net worth route |
 
 ## Understanding the rule
 

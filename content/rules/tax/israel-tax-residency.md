@@ -2,7 +2,7 @@
 id: israel-tax-residency
 
 title: Israel Tax Residency
-subtitle: 183 days ∙ Starts 1 Jan ∙ Centre of life test
+subtitle: 183 days ∙ Starts 1 Jan ∙ Center of life test
 
 category: tax
 
@@ -11,7 +11,7 @@ place: il
 seo:
   title: Israel Tax Residency Rules Explained | Immio
   description: >
-    How Israeli tax residency works — the centre of life test, the 183-day
+    How Israeli tax residency works — the center of life test, the 183-day
     and 425-day presumptions, how days are counted, and the exemptions for
     new immigrants and returning residents.
 
@@ -32,19 +32,18 @@ sources:
 ## Overview
 
 :::callout
-You're an Israeli tax resident if your **center of life** is in Israel — judged on the whole picture of your family,
-economic and social ties. Two day counts raise a rebuttable presumption of that: **183 days** in a tax year, or **30
-days** in the year alongside a **3-year** total of **425 days**. Separate long-running exemptions change what a new
-arrival actually pays.
+**183 days** in Israel in a **tax year**, or **30 days** in the year alongside **425 days** across 3 years, can raise a
+presumption of tax residency. The real test is your **center of life** — family, economic and social ties — and the
+day counts can be rebutted against it.
 :::
 
 | Key parameters          |                                              |
 |:------------------------|---------------------------------------------:|
 | Threshold               |                                     183 days |
 | Period / Window         |                    Tax year (1 Jan – 31 Dec) |
-| Alternative             |            30 days/year and 425 days/3 years |
 | Counting                |                            Any part of a day |
-| Additional requirements | Centre of life test, rebuttable presumptions |
+| Alternative             |          30 days / year + 425 days / 3 years |
+| Additional requirements | Center of life test, rebuttable presumptions |
 
 ## Understanding the rule
 
@@ -57,7 +56,7 @@ judgment rather than a calculation, weighing the totality of your family, econom
 - where your active and substantial economic interests are
 - where you take part in organisations, associations and institutions
 
-Two day-count presumptions sit on top of that test. Meeting either one means your centre of life is presumed to be in
+Two day-count presumptions sit on top of that test. Meeting either one means your center of life is presumed to be in
 Israel for that year:
 
 - **183-day presumption** — you spent 183 days or more in Israel during the tax year.
@@ -65,8 +64,8 @@ Israel for that year:
   in Israel across that year and the two years before it added together.
 
 The presumptions run one way only, and they are rebuttable by both sides. You can accept that you meet one and still
-argue your centre of life is genuinely elsewhere. The tax authority can equally argue you are resident when you meet
-neither, because failing both presumptions does not make you a foreign resident — the centre-of-life test still applies
+argue your center of life is genuinely elsewhere. The tax authority can equally argue you are resident when you meet
+neither, because failing both presumptions does not make you a foreign resident — the center-of-life test still applies
 on its own.
 
 The stakes are the usual ones: an Israeli resident is taxed on worldwide income, while a foreign resident is taxed only
@@ -88,7 +87,7 @@ family, work and economic interests sit too, since that is what decides a rebutt
 ## Edge cases
 
 - **A low day count settles nothing.** Someone who is rarely in Israel can still be resident if their home, family and
-  economic life are centred there, because the centre-of-life test applies regardless of the presumptions.
+  economic life are centred there, because the center-of-life test applies regardless of the presumptions.
 - **Ending Israeli residency is its own event.** Ceasing to be a resident can be treated as a deemed sale of your assets
   when residency ends, so the exit itself is taxed rather than the departure being a clean break.
 - **A newer relief covers Israeli-source work income.** People arriving in 2026 after a long period abroad get a
@@ -110,13 +109,13 @@ the year.
 
 You spend 60 days in Israel this year, 200 last year and 150 the year before. You clear the 30-day floor, but your
 three-year total is 410 days — under 425, so neither presumption applies. Your residency then turns entirely on where
-your centre of life actually is.
+your center of life actually is.
 
 ### Meeting a presumption and still arguing against it
 
 You spend 190 days in Israel this year on a long contract, while your permanent home, spouse and children stay abroad
 and your income and investments are managed there. The 183-day presumption applies, but you can rebut it with evidence
-that your centre of life never moved.
+that your center of life never moved.
 
 ## Official sources
 
@@ -127,7 +126,7 @@ that your centre of life never moved.
 
 ### Is Israeli tax residency just a 183-day rule?
 
-No. The deciding test is where your **centre of life** is, weighing family, economic and social ties together. The
+No. The deciding test is where your **center of life** is, weighing family, economic and social ties together. The
 183-day count and the 30-day/425-day combination only create presumptions about that, and both can be argued against.
 
 ### How does the 425-day test actually work?
@@ -137,7 +136,7 @@ you were also present at least 30 days in the current year, you are presumed res
 
 ### Can I be an Israeli tax resident while spending very little time in Israel?
 
-Yes. The centre-of-life test is independent of any day count, so someone with their permanent home, family and main
+Yes. The center-of-life test is independent of any day count, so someone with their permanent home, family and main
 economic interests in Israel can be resident on a handful of days.
 
 ### What happens if I'm treated as an Israeli tax resident?

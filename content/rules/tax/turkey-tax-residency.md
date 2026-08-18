@@ -32,9 +32,9 @@ sources:
 ## Overview
 
 :::callout
-You're a Turkish tax resident if you have a settled home in Turkey, or if you're present there
-**continuously for more than six months** within a calendar year — meeting either one is enough. A set of statutory
-exceptions can override the six-month test for people present only for a specific, temporary purpose.
+Being in Turkey **continuously for more than 6 months** within a **calendar year** can make you a tax resident. Alternatively,
+keeping a **settled home** there, with **no day count**. Statutory exceptions can override the 6-month test for people
+present only for a specific, temporary purpose.
 :::
 
 | Key parameters          |                                     |
@@ -42,7 +42,7 @@ exceptions can override the six-month test for people present only for a specifi
 | Threshold               |     6 months (effectively 183 days) |
 | Period / Window         |      Calendar year (1 Jan – 31 Dec) |
 | Counting                |                   Any part of a day |
-| Additional requirements | Domicile test, statutory exceptions |
+| Alternative             |                       Domicile test |
 
 ## Understanding the rule
 

@@ -32,17 +32,17 @@ sources:
 ## Overview
 
 :::callout
-You're a Canadian tax resident if you maintain **significant residential ties** — a home, a spouse or common-law
-partner, or dependants in Canada. If you don't have those ties, you can still be **deemed resident** by sojourning in
-Canada for **183 days or more** in the calendar year. A tax treaty can override either outcome.
+Staying in Canada for **183 days or more** in a **calendar year** can make you a **deemed resident**. You may also become a
+resident earlier by maintaining **significant residential ties**, such as a home, spouse or partner, or dependants in
+Canada — which needs **no day count** at all.
 :::
 
-| Key parameters          |                                |
-|:------------------------|-------------------------------:|
-| Threshold               |                       183 days |
-| Period / Window         | Calendar year (1 Jan – 31 Dec) |
-| Counting                |              Any part of a day |
-| Additional requirements |          Residential ties test |
+| Key parameters  |                                |
+|:----------------|-------------------------------:|
+| Threshold       |                       183 days |
+| Period / Window | Calendar year (1 Jan – 31 Dec) |
+| Counting        |              Any part of a day |
+| Alternative     |          Residential ties test |
 
 ## Understanding the rule
 

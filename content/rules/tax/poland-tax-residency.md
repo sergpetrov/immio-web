@@ -11,7 +11,7 @@ place: pl
 seo:
   title: Poland Tax Residency Rules Explained | Immio
   description: >
-    How Polish tax residency works — the 183-day rule, the centre of
+    How Polish tax residency works — the 183-day rule, the center of
     vital interests test, how presence is counted, and the return relief
     for new and returning residents.
 
@@ -32,29 +32,27 @@ sources:
 ## Overview
 
 :::callout
-You're a Polish tax resident if your **centre of personal or economic interests** is in Poland, or if you spend
-**more than 183 days** there in a calendar year — meeting either one is enough. In practice, tax authorities and
-courts often give the center-of-interests test more weight than the day count. A relief can reduce tax for some new
-and returning residents.
+**More than 183 days** in Poland in a **calendar year** can make you a tax resident. Alternatively, the **center of vital
+interests test** triggers it too, with **no day count** at all — and in practice that test more important than the days.
 :::
 
-| Key parameters          |                                |
-|:------------------------|-------------------------------:|
-| Threshold               |                       183 days |
-| Period / Window         | Calendar year (1 Jan – 31 Dec) |
-| Counting                |              Any part of a day |
-| Additional requirements | Center of vital interests test |
+| Key parameters  |                                |
+|:----------------|-------------------------------:|
+| Threshold       |                       183 days |
+| Period / Window | Calendar year (1 Jan – 31 Dec) |
+| Counting        |              Any part of a day |
+| Alternative     | Center of vital interests test |
 
 ## Understanding the rule
 
 You are a Polish tax resident for a calendar year if you meet either of two tests, in any order:
 
-- **Center of vital interests** — your centre of personal or economic interests is in Poland: where your closest
+- **Center of vital interests** — your center of personal or economic interests is in Poland: where your closest
   family lives, or where your main income source, investments, property, and financial management are based.
 - **183-day presence** — more than 183 days in Poland during the calendar year.
 
 The two tests carry different weight in practice. The day count is mechanical and easy to evidence, but in disputed or
-borderline cases Polish tax authorities and administrative courts have repeatedly leaned on the centre-of-vital-
+borderline cases Polish tax authorities and administrative courts have repeatedly leaned on the center-of-vital-
 interests test instead. Someone who narrowly avoids 183 days can still be found resident if their personal and
 economic life is clearly centred in Poland.
 
@@ -99,7 +97,7 @@ days, making you a Polish tax resident despite never staying the night.
 
 You take an overseas assignment and spend only 90 days in Poland this year, but your spouse and children stay in your
 Kraków home, and you keep managing a Polish business remotely. You fall well short of the 183-day test, but the
-centre-of-vital-interests test still makes you a Polish tax resident based on where your life is actually centred.
+center-of-vital-interests test still makes you a Polish tax resident based on where your life is actually centred.
 
 ## Official sources
 
@@ -110,7 +108,7 @@ centre-of-vital-interests test still makes you a Polish tax resident based on wh
 
 ### Is Polish tax residency just about counting 183 days?
 
-No. The **centre of vital interests** test is independent of the day count, and tax authorities and courts often
+No. The **center of vital interests** test is independent of the day count, and tax authorities and courts often
 give it more practical weight — you can be resident with very few days in Poland, or nonresident despite a high day
 count, depending on where your personal and economic life is based.
 
@@ -121,7 +119,7 @@ need to be consecutive — the tax authority simply totals every day you were pr
 
 ### Can I be a Polish tax resident even if I spend very little time in Poland?
 
-Yes, through the centre-of-vital-interests test. If your closest family, main income source, investments, and
+Yes, through the center-of-vital-interests test. If your closest family, main income source, investments, and
 financial management are based in Poland, that alone can make you resident regardless of your day count.
 
 ### What happens if I meet either test?

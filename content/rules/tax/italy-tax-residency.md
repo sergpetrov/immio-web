@@ -32,17 +32,17 @@ sources:
 ## Overview
 
 :::callout
-You're an Italian tax resident if, for the **greater part of the tax year**, you meet any one of four tests:
-registration in Italy's resident population registry, a **domicile** in Italy, a habitual **residence** in Italy, or
-simple **physical presence** there. Special regimes can reduce tax for some new residents.
+**More than 183 days** in Italy in a **calendar year** — the greater part of the tax year — can make you a tax resident
+on **physical presence** alone. The alternative is registration in Italy's **resident population registry**, a 
+**domicile** there, or habitual **residence** each do it too.
 :::
 
-| Key parameters          |                                    |
-|:------------------------|-----------------------------------:|
-| Threshold               |                           183 days |
-| Period / Window         |     Calendar year (1 Jan – 31 Dec) |
-| Counting                |                  Any part of a day |
-| Additional requirements | Registry enrollment, domicile test |
+| Key parameters  |                                    |
+|:----------------|-----------------------------------:|
+| Threshold       |                           183 days |
+| Period / Window |     Calendar year (1 Jan – 31 Dec) |
+| Counting        |                  Any part of a day |
+| Alternative     | Registry enrollment, domicile test |
 
 ## Understanding the rule
 

@@ -2,7 +2,7 @@
 id: india-tax-residency
 
 title: India Tax Residency (182-day and 60-day rules)
-subtitle: 182 days, or 60 days plus 365 ∙ 1 Apr – 31 Mar ∙ Citizen carve-outs
+subtitle: 182 days or 60 days ∙ Starts 1 Apr
 
 category: tax
 
@@ -35,19 +35,17 @@ sources:
 ## Overview
 
 :::callout
-You're an Indian tax resident if you're in India for **182 days or more** during the tax year. You also qualify with
-**60 days or more** in that year alongside **365 days or more** across the previous four. Indian citizens who leave for a
-job abroad, and citizens or people of Indian origin visiting India, get that 60-day condition relaxed. A further test
-then decides how much of a resident's foreign income India actually taxes.
+**182 days or more** in India during the **tax year** (1 April to 31 March) can make you a tax resident. The alternative
+is **60 days** in that year plus **365 days** across the previous 4 years. Indian citizens working abroad, and
+visiting citizens, get The 60-day test drops away.
 :::
 
-| Key parameters          |                                                 |
-|:------------------------|------------------------------------------------:|
-| Threshold               |                                        182 days |
-| Period / Window         |                       Tax year (1 Apr – 31 Mar) |
-| Alternative             |         60 days/year and 365 days/4 prior years |
-| Counting                |                               Any part of a day |
-| Additional requirements |    Citizen and PIO carve-outs, deemed residency |
+| Key parameters          |                                           |
+|:------------------------|------------------------------------------:|
+| Threshold               |                                  182 days |
+| Period / Window         |                 Tax year (1 Apr – 31 Mar) |
+| Alternative             | 60 days / year + 365 days / 4 prior years |
+| Counting                |                         Any part of a day |
 
 ## Understanding the rule
 

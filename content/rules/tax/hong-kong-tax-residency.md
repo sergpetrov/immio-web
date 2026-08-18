@@ -38,19 +38,16 @@ sources:
 ## Overview
 
 :::callout
-You're a Hong Kong resident for tax purposes if you ordinarily reside in Hong Kong. You also qualify by staying **more
-than 180 days** in a year of assessment, or **more than 300 days** across two consecutive years. Because Hong Kong
-taxes only income arising in or derived from Hong Kong, being a resident creates no charge on foreign income by
-itself. It matters mainly for claiming tax treaty benefits and obtaining a Certificate of Resident Status.
+Staying **more than 180 days** in Hong Kong in a **tax year** (1 April to 31 March) can make you a tax resident, or
+**more than 300 days** across 2 consecutive years. **Ordinary residence** is the third route, with **no day count**.
 :::
 
-| Key parameters           |                                          |
-|:-------------------------|-----------------------------------------:|
-| Threshold                |                       More than 180 days |
-| Period / Window          |                Tax year (1 Apr – 31 Mar) |
-| Alternative              | More than 300 days / 2 consecutive years |
-| Counting                 |                        Any part of a day |
-| Additional requirements  |                  Ordinary residence test |
+| Key parameters           |                                                         |
+|:-------------------------|--------------------------------------------------------:|
+| Threshold                |                                                180 days |
+| Period / Window          |                               Tax year (1 Apr – 31 Mar) |
+| Counting                 |                                       Any part of a day |
+| Alternative              | 300 days / 2 consecutive years, ordinary residence test |
 
 ## Understanding the rule
 

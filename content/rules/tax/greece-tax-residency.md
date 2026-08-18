@@ -35,18 +35,17 @@ sources:
 ## Overview
 
 :::callout
-You're a Greek tax resident if your permanent or main home, your habitual abode, or the centre of your vital interests
-is in Greece. You're also resident if you spend **more than 183 days** there across any twelve-month period — and
-crossing that line makes you resident from your very first day of presence. A stay taken purely for tourism or medical
-treatment is exempt from the day-count rule for up to a year.
+Spending **more than 183 days** in Greece across **any 12-month** period can make you a tax resident, backdated to your
+**first day** there. Your **permanent home**, **habitual abode**, or **center of vital interests** in Greece can also
+qualify you.
 :::
 
-| Key parameters          |                                |
-|:------------------------|-------------------------------:|
-| Threshold               |             More than 183 days |
-| Period / Window         |              Rolling 12 months |
-| Counting                |              Any part of a day |
-| Additional requirements | Centre of vital interests test |
+| Key parameters  |                                                      |
+|:----------------|-----------------------------------------------------:|
+| Threshold       |                                   More than 183 days |
+| Period / Window |                                    Rolling 12 months |
+| Counting        |                                    Any part of a day |
+| Alternative     | Home, habitual abode, centre of vital interests test |
 
 ## Understanding the rule
 

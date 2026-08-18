@@ -32,18 +32,17 @@ sources:
 ## Overview
 
 :::callout
-You're a Nigerian tax resident if you're domiciled there, or if you have a permanent place available for your own
-domestic use or a place of **habitual abode**. Substantial economic ties together with immediate family in Nigeria do it
-too, as does being present for **183 days** or more in any **12-month period**. Nigerians serving abroad as diplomats are
-residents as well.
+**183 days or more** in Nigeria across **any 12-month** period can make you a tax resident. The alternative is to be 
+**domiciled** there, keeping a permanent place for your own use, having a **habitual abode**, or holding substantial economic ties
+with close family in Nigeria — each with **no day count**.
 :::
 
-| Key parameters          |                                                |
-|:------------------------|-----------------------------------------------:|
-| Threshold               |                                       183 days |
-| Period / Window         |                              Rolling 12 months |
-| Counting                |                              Any part of a day |
-| Additional requirements | Domicile, permanent home, habitual abode, ties |
+| Key parameters  |                                                |
+|:----------------|-----------------------------------------------:|
+| Threshold       |                                       183 days |
+| Period / Window |                              Rolling 12 months |
+| Counting        |                              Any part of a day |
+| Alternative     | Domicile, permanent home, habitual abode, ties |
 
 ## Understanding the rule
 

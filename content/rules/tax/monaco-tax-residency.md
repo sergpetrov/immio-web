@@ -35,20 +35,18 @@ sources:
 ## Overview
 
 :::callout
-Monaco charges **no personal income tax** on residents, with one large exception: **French nationals** are taxed by
-France as though they still lived there, unless they fall inside a narrow historic carve-out. For everyone else the
-question is proving where you live. Monaco treats your main home as being in the Principality if you stay there at
-least **183 days** a year. A shorter stay also qualifies, provided you still spent more time in Monaco than in any
-other single country.
+Staying at least **183 days** a year in Monaco can make your **main home** for residency purposes, and a shorter stay
+works if you still spent more time there than in **any other single country**. Monaco charges **no personal income
+tax** — but **French nationals** are generally **taxed by France**.
 :::
 
-| Key parameters          |                                                   |
-|:------------------------|--------------------------------------------------:|
-| Threshold               |                                          183 days |
-| Period / Window         |                    Calendar year (1 Jan – 31 Dec) |
-| Alternative             |           More time than any other single country |
-| Counting                |                                 Any part of a day |
-| Additional requirements | Home, residence permit, French-national carve-out |
+| Key parameters          |                                         |
+|:------------------------|----------------------------------------:|
+| Threshold               |                                183 days |
+| Period / Window         |          Calendar year (1 Jan – 31 Dec) |
+| Counting                |                       Any part of a day |
+| Alternative             | More time than any other single country |
+| Additional requirements |      Residence permit, French nationals |
 
 ## Understanding the rule
 
@@ -60,7 +58,7 @@ ways:
 - **183 days a year** — you stay in Monaco for at least 183 days in the year.
 - **More time in Monaco than anywhere else** — you stay for fewer than 183 days, but are physically present in Monaco
   longer than in any other country.
-- **Principal centre of activities** — your main business or professional activity is based in the Principality.
+- **Principal center of activities** — your main business or professional activity is based in the Principality.
 
 Behind all three, the practical requirements are the same. You need a valid residence permit, and accommodation in
 Monaco you can document.

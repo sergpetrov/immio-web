@@ -32,19 +32,16 @@ sources:
 ## Overview
 
 :::callout
-You're a Uruguayan tax resident if you spend **more than 183 days** in Uruguay during the **calendar year**. You also
-qualify if the main base of your activities, or your **economic or vital interests**, is in the country. Interests can
-be shown by family alone — a spouse or dependent minor children living there creates a presumption — or by investment,
-through several property and business routes. New residents can also elect a temporary holiday on foreign investment
-income.
+**More than 183 days** in Uruguay during the **calendar year** including sporadic absences can make you a tax resident.
+The **main base of activities** or your **vital interests** there also can qualify you.
 :::
 
-| Key parameters          |                                               |
-|:------------------------|----------------------------------------------:|
-| Threshold               |                                      183 days |
-| Period / Window         |                Calendar year (1 Jan – 31 Dec) |
-| Counting                | Any part of a day, sporadic absences included |
-| Additional requirements |       Vital interests test, investment routes |
+| Key parameters  |                                               |
+|:----------------|----------------------------------------------:|
+| Threshold       |                                      183 days |
+| Period / Window |                Calendar year (1 Jan – 31 Dec) |
+| Counting        |          Any part of a day, sporadic absences |
+| Alternative     | Main base of activities, vital interests test |
 
 ## Understanding the rule
 

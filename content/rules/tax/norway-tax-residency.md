@@ -2,7 +2,7 @@
 id: norway-tax-residency
 
 title: Norway Tax Residency (183-day and 270-day rules)
-subtitle: 183-day or 270-day rule ∙ Rolling 12 and 36 months
+subtitle: 183-day or 270-day rule ∙ Rolling 12 or 36 months
 
 category: tax
 
@@ -32,17 +32,16 @@ sources:
 ## Overview
 
 :::callout
-You're a Norwegian tax resident once you spend **more than 183 days** in Norway in any 12-month period, or **more
-than 270 days** across any 36 months — either one is enough. Both windows roll continuously instead of
-resetting each January, so a habit of long visits can trip the second test even when no single year comes close.
+**More than 183 days** in Norway in **any 12-month** period, or **more than 270 days** across **any 36 months** can make you
+a tax resident. Both windows are **rolling** continuously rather than resetting with a new year.
 :::
 
 | Key parameters          |                                  |
 |:------------------------|---------------------------------:|
 | Threshold               |                         183 days |
 | Period / Window         |                Rolling 12 months |
-| Alternative             |     270 days / Rolling 36 months |
 | Counting                |                Any part of a day |
+| Alternative             |     270 days / Rolling 36 months |
 | Additional requirements | Emigration test to end residency |
 
 ## Understanding the rule

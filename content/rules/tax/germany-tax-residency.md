@@ -35,18 +35,17 @@ sources:
 ## Overview
 
 :::callout
-You're a German tax resident if you keep a **dwelling** in Germany that you can be expected to hold on to and use. You're
-also resident if you spend **more than 6 months in Germany as one continuous stay**, which doesn't need to fit
-inside a single calendar year — meeting either test is enough. The dwelling test involves no day count at all, so a
-single home kept available for you can settle it by itself.
+**More than 6 months** in Germany as one **continuous stay** can make you a tax resident, that stay doesn't have to
+be inside a calendar year. The **dwelling test** is an alternative — a regular home in Germany can trigger it too
+with **no day-count** requirement.
 :::
 
-| Key parameters          |                                              |
-|:------------------------|---------------------------------------------:|
-| Threshold               |              6 months (effectively 183 days) |
-| Period / Window         | Continuous stay, not tied to a calendar year |
-| Counting                |        Elapsed time, absences don't reset it |
-| Additional requirements |                     Dwelling test (Wohnsitz) |
+| Key parameters  |                                              |
+|:----------------|---------------------------------------------:|
+| Threshold       |              6 months (effectively 183 days) |
+| Period / Window | Continuous stay, not tied to a calendar year |
+| Counting        |        Elapsed time, absences don't reset it |
+| Alternative     |                     Dwelling test (Wohnsitz) |
 
 ## Understanding the rule
 

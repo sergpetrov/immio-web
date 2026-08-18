@@ -32,18 +32,17 @@ sources:
 ## Overview
 
 :::callout
-You're an Indonesian tax resident if you reside in Indonesia, or if you're present there **more than 183 days** in any
-12-month period. Being present during a tax year while intending to make Indonesia your home also counts. Residing is
-more than owning property — your main centre of personal or financial activity, or even your everyday routine, can
-settle it. A separate election can limit what some newly arrived foreign specialists are taxed on.
+Being in Indonesia **more than 183 days** in **any 12-month** period can make you a tax resident. You also qualify by
+**residing** there — your main center of personal or financial activity, or even your daily routine, can settle it —
+or by being present with the **intention** to make Indonesia your **home**.
 :::
 
-| Key parameters          |                                     |
-|:------------------------|------------------------------------:|
-| Threshold               |                            183 days |
-| Period / Window         |                   Rolling 12 months |
-| Counting                |                   Any part of a day |
-| Additional requirements | Residence test, intention to reside |
+| Key parameters  |                                     |
+|:----------------|------------------------------------:|
+| Threshold       |                            183 days |
+| Period / Window |                   Rolling 12 months |
+| Counting        |                   Any part of a day |
+| Alternative     | Residence test, intention to reside |
 
 ## Understanding the rule
 

@@ -32,18 +32,17 @@ sources:
 ## Overview
 
 :::callout
-You qualify as a UAE tax resident by meeting any one of three routes: **183 days** present, **90 days** present with
-extra conditions, or having your main home and interests in the UAE with no day count at all. It mainly matters for
-claiming tax treaty benefits, since the UAE has **no personal income tax**.
+**183 days** in the UAE across **any 12-month** period can make you a tax resident, or **90 days** if you meet extra
+conditions. Having your main **home** and **interests** there qualifies you with **no day count**. The UAE has **no personal
+income tax**, so this mainly matters for treaty claims.
 :::
 
-| Key parameters          |                                              |
-|:------------------------|---------------------------------------------:|
-| Threshold               |                                     183 days |
-| Period / Window         |                            Rolling 12 months |
-| Threshold               |                                      90 days |
-| Counting                |                            Any part of a day |
-| Additional requirements | Center-of-interests, 90-day route conditions |
+| Key parameters           |                                              |
+|:-------------------------|---------------------------------------------:|
+| Threshold                |                                     183 days |
+| Period / Window          |                            Rolling 12 months |
+| Counting                 |                            Any part of a day |
+| Alternative              | 90 days with conditions, center-of-interests |
 
 ## Understanding the rule
 

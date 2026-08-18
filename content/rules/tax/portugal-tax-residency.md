@@ -32,18 +32,17 @@ sources:
 ## Overview
 
 :::callout
-You're a Portuguese tax resident if you spend **more than 183 days** in Portugal within a **12-month period**, where each
-counted day must include an **overnight stay**. You can also qualify with fewer days if you have a home available in
-Portugal that you intend to keep and use as your habitual residence. A special regime can reduce the tax bill for
-some new residents.
+**More than 183 days** in Portugal within **any 12-month** period can male you a tax resident, and each counted day must
+include an **overnight stay**. Fewer days can still qualify you if you keep a **home** there you intend to use as your
+**habitual residence**.
 :::
 
-| Key parameters          |                         |
-|:------------------------|------------------------:|
-| Threshold               |                183 days |
-| Period / Window         |       Rolling 12 months |
-| Counting                | Nights (overnight stay) |
-| Additional requirements |      Habitual home test |
+| Key parameters  |                         |
+|:----------------|------------------------:|
+| Threshold       |                183 days |
+| Period / Window |       Rolling 12 months |
+| Counting        | Nights (overnight stay) |
+| Alternative     |      Habitual home test |
 
 ## Understanding the rule
 

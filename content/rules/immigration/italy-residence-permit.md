@@ -2,7 +2,7 @@
 id: italy-residence-permit
 
 title: Italy Residence Permit
-subtitle: 180 consecutive days (6 months) of absence ∙ Permesso di soggiorno
+subtitle: 180 consecutive days (6 months) of absence
 
 category: immigration
 
@@ -32,14 +32,14 @@ sources:
 ## Overview
 
 :::callout
-No absence **longer than 180 days**, and no more than **10 months** away in total, keeps your **5 years** of Italian
+No absence **longer than 180 days (6 months)**, and **no more than 10 months** away in total, keeps your **5 years** of Italian
 residence continuous — the route to **long-term residence**. Before any of that, the **permesso di soggiorno** must be
-applied for within **8 working days** of arriving, then renewed before each expiry.
+applied for within **8 working days** of arriving.
 :::
 
 | Key parameters          |                                                      |
 |:------------------------|-----------------------------------------------------:|
-| Limit                   |              180 days (6 months) of absence per trip |
+| Limit                   |           180 consecutive days (6 months) of absence |
 | Qualifying period       |                                              5 years |
 | Counting                |                                Whole days of absence |
 | Additional requirements | 10 months of absence in total, permesso di soggiorno |
@@ -74,8 +74,8 @@ allowance — more if family members depend on it — **suitable accommodation**
    kit depending on the permit type.
 2. Submit each renewal at least **60 days** before the permit expires, or **90 days** on an indefinite-term employment
    permit.
-3. For the **5-year long-term route**, no single absence may exceed **6 months (180 days)**, and total absences must stay
-   under **10 months (300 days)** across the whole period.
+3. For the **5-year long-term route**, no single absence may be **longer than 6 months**, and total absences must
+   stay under **10 months** across the whole period.
 4. Only **whole days** outside Italy count as absence. Your **departure** and **return** days both count as **days in** Italy, so
    an absence runs from the day after you leave to the day before you come back.
 5. Keep your **residency registration** with your local comune (municipality) current, since your registered address is
@@ -151,7 +151,7 @@ together.
 ### Do my departure and return days count as absence?
 
 No. Both are treated as days of presence in Italy, so an absence runs from the day after you leave to the day before
-you return. Only whole days outside the country count toward the 180-day and 300-day limits.
+you return. Only whole days outside the country count toward both limits.
 
 ### What happens if my permit expires before I renew?
 

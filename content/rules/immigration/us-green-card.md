@@ -35,7 +35,7 @@ sources:
 ## Overview
 
 :::callout
-**180 days or more** on one trip starts to break the continuous residence you're expected to keep, and at **12
+**More than 180 days** on one trip starts to break the continuous residence you're expected to keep, and at **12
 months** your green card is presumed **abandoned**. Shorter trips are generally fine. What counts is the length of
 each **single absence**, plus your overall **ties** to the US.
 :::

@@ -4,6 +4,7 @@ import { buildRuleBreadcrumbs } from "../breadcrumbs";
 import { getPlaceFlagId, getPlaceForRule } from "../registry";
 import type { Category, RuleDoc } from "../types";
 import Breadcrumbs from "./Breadcrumbs";
+import LegalDisclaimer from "./LegalDisclaimer";
 import FaqSection from "./FaqSection";
 import TableOfContents from "../../components/TableOfContents";
 
@@ -96,13 +97,7 @@ export default function RulePage({
                   </section>
                 );
               })}
-              <p className="content-disclaimer">
-                <strong>For informational purposes only</strong> — this article does not provide legal, tax,
-                immigration, residency, or financial advice. All information on this website is general in nature
-                and should not be relied upon as professional or legal guidance. You are solely responsible for
-                verifying information with official sources and consulting with qualified professional regarding
-                your specific circumstances.
-              </p>
+              <LegalDisclaimer />
             </article>
           </div>
 

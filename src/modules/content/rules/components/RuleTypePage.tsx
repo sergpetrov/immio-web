@@ -3,6 +3,7 @@ import SiteHeaderView from "../../../../react-app/components/SiteHeaderView";
 import { buildCategoryBreadcrumbs } from "../breadcrumbs";
 import type { Category, RuleDoc } from "../types";
 import Breadcrumbs from "./Breadcrumbs";
+import LegalDisclaimer from "./LegalDisclaimer";
 import RuleChip from "./RuleChip";
 
 export default function RuleTypePage({
@@ -35,6 +36,8 @@ export default function RuleTypePage({
               ))}
             </ul>
           )}
+
+          <LegalDisclaimer />
         </div>
       </main>
       <SiteFooter />

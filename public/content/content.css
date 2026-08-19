@@ -1155,7 +1155,8 @@ html.is-inapp .content-keep-track-block > .content-callout {
   margin: 0.25rem 0 0 0;
 }
 
-.content-article .content-disclaimer {
+.content-legal-disclaimer,
+p.content-legal-disclaimer {
   margin-top: 3rem;
   padding-top: 1.5rem;
   border-top: 1px solid var(--content-border);
@@ -1164,7 +1165,7 @@ html.is-inapp .content-keep-track-block > .content-callout {
   line-height: 1.6;
 }
 
-.content-article .content-disclaimer strong {
+.content-legal-disclaimer strong {
   color: var(--content-text);
 }
 

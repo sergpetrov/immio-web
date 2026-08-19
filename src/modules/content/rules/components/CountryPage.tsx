@@ -4,6 +4,7 @@ import { buildCountryBreadcrumbs } from "../breadcrumbs";
 import { getPlaceFlagId } from "../registry";
 import type { RulePlace, RuleDoc } from "../types";
 import Breadcrumbs from "./Breadcrumbs";
+import LegalDisclaimer from "./LegalDisclaimer";
 import RuleChip from "./RuleChip";
 
 export default function CountryPage({
@@ -38,6 +39,8 @@ export default function CountryPage({
               <RuleChip key={rule.frontmatter.id} rule={rule} backHref={`/rules/countries/${place.slug}`} />
             ))}
           </ul>
+
+          <LegalDisclaimer />
         </div>
       </main>
       <SiteFooter />

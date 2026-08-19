@@ -2,6 +2,7 @@ import SiteFooter from "../../../../react-app/components/SiteFooter";
 import SiteHeaderView from "../../../../react-app/components/SiteHeaderView";
 import { getPlaceFlagId, getPlaceForRule, getRulesForCategory } from "../registry";
 import type { Category } from "../types";
+import LegalDisclaimer from "./LegalDisclaimer";
 
 export default function RulesPage({ categories, appDownloadUrl }: { categories: Category[]; appDownloadUrl: string }) {
   return (
@@ -71,6 +72,8 @@ export default function RulesPage({ categories, appDownloadUrl }: { categories: 
               </ul>
             );
           })}
+
+          <LegalDisclaimer />
         </div>
       </main>
       <SiteFooter />

@@ -2,7 +2,7 @@
 id: us-green-card
 
 title: US Green Card (Abandonment, Absence rule)
-subtitle: 180 days (6 months) abroad ∙ LPR
+subtitle: 180 consecutive days (6 months) abroad ∙ LPR
 
 category: immigration
 

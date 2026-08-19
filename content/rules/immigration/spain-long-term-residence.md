@@ -2,7 +2,7 @@
 id: spain-long-term-residence
 
 title: Spain Long-Term Residence
-subtitle: 10 months of absence ∙ 5 years ∙ 6 months of absence per trip
+subtitle: 10 months of absence ∙ 5 years ∙ <180 consecutive days of absence
 
 category: immigration
 
@@ -32,18 +32,18 @@ sources:
 ## Overview
 
 :::callout
-No absence **longer than 6 months**, and **no more than 10 months** away in total across **5 years** of continuous
+No absence **longer than 180 days (6 months)** per trip, and **no more than 10 months** away in total across **5 years** of continuous
 legal residence, gets you Spanish long-term residence. The total rises to **18 months** when the absences were for
 work. Break either limit and the 5-year clock **restarts**.
 :::
 
-| Key parameters          |                                  |
-|:------------------------|---------------------------------:|
-| Limit                   |             10 months of absence |
-| Qualifying period       |                          5 years |
-| Counting                |            Whole days of absence |
-| Alternative             |    18 months of absence for work |
-| Additional requirements |     6 months of absence per trip |
+| Key parameters          |                                             |
+|:------------------------|--------------------------------------------:|
+| Limit                   |                        10 months of absence |
+| Qualifying period       |                                     5 years |
+| Counting                |                       Whole days of absence |
+| Alternative             |               18 months of absence for work |
+| Additional requirements | <180 consecutive days (6 months) of absence |
 
 ## Understanding the rule
 
@@ -68,7 +68,7 @@ country you've lived in over the last 5 years, and no ban on entering Spanish te
 
 ## How to keep track
 
-1. No single absence may exceed **6 months**, and total absence may not exceed **10 months** across the 5 years. Where
+1. No single absence may exceed **180 days (6 months)**, and total absence may not exceed **10 months** across the 5 years. Where
    the absences were for work the total rises to **18 months**, but the 6-month single-trip cap still applies.
 2. Only **whole days** outside Spain count as absence. Your **departure** and **return** days both count as **days in** Spain, so
    an absence runs from the day after you leave to the day before you come back.

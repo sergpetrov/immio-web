@@ -2,7 +2,7 @@
 id: us-naturalization
 
 title: US Citizenship (Naturalization)
-subtitle: 3 or 5 years ∙ <180 days (6 months) abroad
+subtitle: 3 or 5 years ∙ <180 consecutive days (6 months) abroad
 
 category: immigration
 

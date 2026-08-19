@@ -1,8 +1,8 @@
 ---
 id: italy-residence-permit
 
-title: Italy Residence Permit
-subtitle: 180 consecutive days (6 months) of absence
+title: Italy Long-Term Residence Permit
+subtitle: 10 months of absence ∙ 5 years ∙ <180 consecutive days of absence
 
 category: immigration
 
@@ -27,22 +27,22 @@ sources:
 
 ---
 
-# Italy Residence Permit
+# Italy Long-Term Residence Permit
 
 ## Overview
 
 :::callout
-No absence **longer than 180 days (6 months)**, and **no more than 10 months** away in total, keeps your **5 years** of Italian
+No absence **longer than 180 days (6 months)** per trip, and **no more than 10 months** away in total, keeps your **5 years** of Italian
 residence continuous — the route to **long-term residence**. Before any of that, the **permesso di soggiorno** must be
 applied for within **8 working days** of arriving.
 :::
 
-| Key parameters          |                                                      |
-|:------------------------|-----------------------------------------------------:|
-| Limit                   |           180 consecutive days (6 months) of absence |
-| Qualifying period       |                                              5 years |
-| Counting                |                                Whole days of absence |
-| Additional requirements | 10 months of absence in total, permesso di soggiorno |
+| Key parameters          |                                             |
+|:------------------------|--------------------------------------------:|
+| Limit                   |                        10 months of absence |
+| Qualifying period       |                                     5 years |
+| Counting                |                       Whole days of absence |
+| Additional requirements | <180 consecutive days (6 months) of absence |
 
 ## Understanding the rule
 
@@ -72,9 +72,8 @@ allowance — more if family members depend on it — **suitable accommodation**
 
 1. Apply for the initial permit within **8 working days** of arriving in Italy, through the questura or a post office
    kit depending on the permit type.
-2. Submit each renewal at least **60 days** before the permit expires, or **90 days** on an indefinite-term employment
-   permit.
-3. For the **5-year long-term route**, no single absence may be **longer than 6 months**, and total absences must
+2. Submit each renewal at least **60 days** before the permit expires.
+3. For the **5-year long-term route**, no single absence may be **longer than 180 days (6 months)**, and total absences must
    stay under **10 months** across the whole period.
 4. Only **whole days** outside Italy count as absence. Your **departure** and **return** days both count as **days in** Italy, so
    an absence runs from the day after you leave to the day before you come back.

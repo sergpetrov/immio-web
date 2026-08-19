@@ -2,7 +2,7 @@
 id: us-naturalization
 
 title: US Citizenship (Naturalization)
-subtitle: 3 or 5 years ∙ <180 consecutive days of absence
+subtitle: 3 or 5 years ∙ <180 days (6 months) abroad
 
 category: immigration
 
@@ -13,8 +13,8 @@ seo:
   description: >
     How US naturalization residence rules work — the 5-year continuous
     residence requirement, the separate 913-day physical presence test,
-    how absences of more than 180 days and of 365 days break continuity,
-    and the 3-year spouse route.
+    why 180 days (6 months) abroad or less per trip is the safe zone, how
+    365 days breaks continuity, and the 3-year spouse route.
 
 updatedAt: 2026-08-15
 
@@ -33,18 +33,18 @@ sources:
 ## Overview
 
 :::callout
-**913 days** of physical presence across the **5 years** before applying makes you eligible to naturalize, and no
-absence **longer than 180 days** without breaking your continuous residence. Spouses of US citizens get a shorter
-route — **3 years** and **548 days**.
+**913 days** of physical presence across the **5 years** before applying makes you eligible to naturalize, with
+staying under **180 days (6 months) abroad** per trip keeping your continuous residence. Spouses of US citizens get
+a shorter route — **3 years** and **548 days**.
 :::
 
-| Key parameters          |                                   |
-|:------------------------|----------------------------------:|
-| Presence                |                          913 days |
-| Qualifying period       |                           5 years |
-| Counting                |                 Any part of a day |
-| Alternative             | 548 days / 3 years (spouse route) |
-| Additional requirements |      180 days of absence per trip |
+| Key parameters          |                                          |
+|:------------------------|-----------------------------------------:|
+| Presence                |                                 913 days |
+| Qualifying period       |                                  5 years |
+| Counting                |                        Any part of a day |
+| Alternative             |        548 days / 3 years (spouse route) |
+| Additional requirements | Less 180 days (6 months) abroad per trip |
 
 ## Understanding the rule
 
@@ -73,16 +73,17 @@ character** across the qualifying period, and passes in the English and civics t
 1. Two counts run at once: total **physical presence** of at least 913 days, and **continuous residence** unbroken by
    any single long absence.
 2. **Any part of a day** in the US counts toward physical presence, including arrival and departure days.
-3. Watch each individual trip against the **180-day** line. An absence of more than 180 days but under 365 is
-   presumed to have broken continuity, and you can rebut that with evidence you kept your US home, job and family ties.
+3. Watch each individual trip against the **180-day (6-month)** line. **180 days (6 months) abroad or less** is the
+   safe zone. An absence of more than 180 days but under 365 is presumed to have broken continuity, and you can rebut
+   that with evidence you kept your US home, job and family ties.
 4. An absence of **365 days or more** breaks continuity outright, restarting the clock from your return. You then
    normally wait **4 years and 6 months** to apply cleanly, or 2 years and 6 months on the spouse route. Applying at
    4 years and a day (2 years and a day for spouses) is possible but leaves you back inside the presumption.
 5. The 5-year window counts **backwards from your application date**, and you may file up to 90 days early while still
    satisfying the residence period.
 
-Keep every entry and exit date across the whole period, plus evidence of US ties for any trip approaching 180 days —
-lease or mortgage, employment records, resident tax returns, family in the US.
+Keep every entry and exit date across the whole period, plus evidence of US ties for any trip approaching 180 days
+(6 months) — lease or mortgage, employment records, resident tax returns, family in the US.
 
 ## Edge cases
 
@@ -110,14 +111,14 @@ A refusal on residence grounds usually means restarting rather than reapplying, 
 ### Clearing both tests comfortably
 
 You've held a green card for six years, live and work in the US, and travel abroad three or four weeks a year. Your
-physical presence is far past 913 days and no single absence approaches 180 days, so both tests hold.
+physical presence is far past 913 days and no single absence approaches 180 days (6 months), so both tests hold.
 
 ### Enough presence, broken continuity
 
 Across five years you've spent around 1,150 days in the US — well past 913 — but one seven-month trip abroad sits in
 the middle.
-Being over the 180-day line, that trip is presumed to have broken continuity, and unless you rebut it with evidence of
-maintained ties the application fails.
+Being over the 180-day (6-month) line, that trip is presumed to have broken continuity, and unless you rebut it with
+evidence of maintained ties the application fails.
 
 ### Continuity intact, presence short
 
@@ -133,14 +134,14 @@ your days in the US across five years total around 800, short of the 913 require
 
 ### What's the difference between continuous residence and physical presence?
 
-Continuous residence is about whether any single absence broke your residence — more than 180 days creates a
-presumption, 365 days or more breaks it outright. Physical presence is the plain total of days in the US, which must
+Continuous residence is about whether any single absence broke your residence — 180 days (6 months) or more creates
+a presumption, 365 days or more breaks it outright. Physical presence is the plain total of days in the US, which must
 reach 913 days across the 5 years.
 
 ### How long can I leave the US while my citizenship clock is running?
 
-180 days or less per trip is the safe zone. Go past 180 days but stay under 365 and you're presumed to have broken
-continuity, which you then have to rebut. 365 days or more breaks it outright.
+180 days (6 months) abroad or less per trip is the safe zone. Go past 180 days but stay under 365 and you're presumed
+to have broken continuity, which you then have to rebut. 365 days or more breaks it outright.
 
 ### What happens if I break continuous residence?
 

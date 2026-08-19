@@ -2,7 +2,7 @@
 id: us-green-card
 
 title: US Green Card (Abandonment, Absence rule)
-subtitle: 180 consecutive days of absence ∙ LPR
+subtitle: 180 days (6 months) abroad ∙ LPR
 
 category: immigration
 
@@ -35,15 +35,15 @@ sources:
 ## Overview
 
 :::callout
-**More than 180 days** on one trip starts to break the continuous residence you're expected to keep, and at **12
-months** your green card is presumed **abandoned**. Shorter trips are generally fine. What counts is the length of
+**180 days (6 months) abroad or less** on one trip is basically the safe zone to keep the continuous residence, and at
+**12 months** your green card is presumed **abandoned**. Shorter trips are generally fine. What counts is the length of
 each **single absence**, plus your overall **ties** to the US.
 :::
 
 | Key parameters          |                                            |
 |:------------------------|-------------------------------------------:|
-| Limit                   |            180 consecutive days of absence |
-| Period / Window         |                     Per continuous absence |
+| Limit                   |                 180 days (6 months) abroad |
+| Period / Window         |                                   Per trip |
 | Counting                |                      Whole days of absence |
 | Additional requirements | Intent to reside, US ties, re-entry permit |
 
@@ -53,8 +53,8 @@ This applies to any **lawful permanent resident (LPR)** traveling outside the US
 as long as they hold it.
 
 There's no fixed day limit. The test is **intent** — whether the US is still your home or you've effectively moved
-away. The longer a single trip runs, the more it counts against you, and past **6 months** an officer can start
-asking questions.
+away. The longer a single trip runs, the more it counts against you, and past **180 days (6 months)** an officer can
+start asking questions.
 
 What actually protects you is evidence of ties: a US home, job, family, resident tax filings, bank accounts. Filing as
 a **non-resident** for tax purposes cuts directly against you — it's a formal declaration that you don't live there.
@@ -64,9 +64,9 @@ and shows the absence was planned as temporary.
 
 ## How to keep track
 
-1. Absences under **6 months** are ordinarily unremarkable at the border. Past that, an officer may question whether
-   you've maintained residence and ask you to demonstrate your ties. At **1 year or more** the card stops working as a
-   re-entry document, and an absence that long is treated as strong evidence you moved away.
+1. **180 days (6 months) abroad or less** per trip is basically the safe zone to keep the continuous residence. Past that, an officer may question
+   whether you've maintained residence and ask you to demonstrate your ties. At **12 months or more** the
+   card stops working as a re-entry document, and an absence that long is treated as strong evidence you moved away.
 2. Only **whole days** outside the US count as absence. Your **departure** and **return** days both count as **days in** the US,
    so an absence runs from the day after you leave to the day before you come back.
 3. Apply for a **re-entry permit before leaving**, while you're physically in the US. It can't be applied for from
@@ -90,7 +90,7 @@ family in the US. That evidence is the substance of the rule, far more than the 
 - **A re-entry permit can be cut to one year.** If you've already spent more than four of the last five years outside
   the US, it's generally issued for one year rather than two.
 - **Citizenship uses a stricter clock.** Its continuous residence test is disrupted by any single absence of more than
-  6 months — so a trip that preserves your green card can still set your citizenship timing back.
+  180 days (6 months) — so a trip that preserves your green card can still set your citizenship timing back.
 - **Signing the abandonment form gives up the status voluntarily.** Officers sometimes present it at the border to
   someone with a long absence, and signing is a choice rather than an obligation.
 
@@ -102,8 +102,8 @@ Being found to have abandoned residence means losing permanent status, and that 
 
 ### An ordinary long trip
 
-You spend four months abroad visiting family, keeping your US home, job and tax filings in place. You're well under six
-months, your ties are intact, and re-entry is routine.
+You spend four months abroad visiting family, keeping your US home, job and tax filings in place. You're well under
+180 days (6 months), your ties are intact, and re-entry is routine.
 
 ### A planned two-year posting
 
@@ -126,8 +126,9 @@ the regular entries.
 
 ### How long can I stay outside the US with a green card?
 
-There's no fixed limit, because the test is whether you still intend to reside in the US. In practice, past 6 months
-an officer may start asking, and an absence of a year or more makes the card invalid for re-entry.
+There's no fixed limit, because the test is whether you still intend to reside in the US. **180 days (6 months)
+abroad or less** per trip is the safe zone — past that an officer may start asking questions, and an absence of a year
+or more makes the card invalid for re-entry.
 
 ### What is a re-entry permit and when do I need it?
 
@@ -152,7 +153,7 @@ requires showing the extended stay was caused by circumstances beyond your contr
 ### Does a long absence affect applying for citizenship?
 
 Yes, separately. Naturalisation has its own continuous residence test, disrupted by any single absence of more than
-6 months, so an absence that preserves your green card can still set your citizenship timing back.
+180 days (6 months), so an absence that preserves your green card can still set your citizenship timing back.
 
 ### Do I have to sign anything at the border if asked?
 

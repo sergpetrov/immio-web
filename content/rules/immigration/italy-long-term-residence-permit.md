@@ -1,5 +1,5 @@
 ---
-id: italy-residence-permit
+id: italy-long-term-residence-permit
 
 title: Italy Long-Term Residence Permit
 subtitle: 10 months of absence ∙ 5 years ∙ <180 consecutive days of absence

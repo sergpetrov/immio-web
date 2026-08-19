@@ -1,5 +1,5 @@
 ---
-id: australia-residency
+id: australia-permanent-residency
 
 title: Australia Permanent Residency
 subtitle: 730 days ∙ Last 5 years ∙ RRV

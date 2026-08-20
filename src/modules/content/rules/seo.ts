@@ -1,5 +1,7 @@
 import { IMMIO_APP_STORE_URL, IMMIO_GOOGLE_PLAY_URL } from "../../../react-app/appStoreLinks";
 import {
+  APP_STORE_RATING,
+  APP_STORE_RATING_COUNT,
   DEFAULT_OG_IMAGE_PATH,
   LOGO_PATH,
   SITE_DESCRIPTION,
@@ -201,9 +203,9 @@ export function buildWebSiteJsonLd(): object {
 }
 
 /**
- * The app itself. `aggregateRating` is deliberately absent: it must reflect
- * real, current store ratings or it is a manual-action risk. Add it only when
- * the numbers are wired to something that keeps them accurate.
+ * The app itself. `aggregateRating` reads from shared/site.ts; see the note
+ * there on where the figures come from and on Google's expectation that a
+ * marked-up rating is visible on the page.
  */
 export function buildMobileApplicationJsonLd(): object {
   return {
@@ -223,6 +225,13 @@ export function buildMobileApplicationJsonLd(): object {
       "@type": "Offer",
       price: "0",
       priceCurrency: "USD",
+    },
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: APP_STORE_RATING,
+      ratingCount: APP_STORE_RATING_COUNT,
+      bestRating: "5",
+      worstRating: "4",
     },
   };
 }

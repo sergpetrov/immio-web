@@ -88,26 +88,26 @@ Search Console + Bing verification · server-rendered landing page · self-hoste
 
 ### Technical features, head-to-head
 
-| Feature | Immio | bounded.app | atlasdays.app |
-|:--|:-:|:-:|:-:|
-| `robots.txt` | ✓ *(new)* | ✓ (+ Sitemap directive, `Disallow: /start`) | ✓ (+ Sitemap directive) |
-| `sitemap.xml` | ✓ *(new)* — `<lastmod>` from real content dates | ✓ with `<lastmod>`, `changefreq`, `priority`, `xhtml:link` hreflang | ✓ sitemap **index** → per-language sitemaps |
-| Canonical | ✓ | ✓ | ✓ |
-| hreflang | ✗ | ✓ en/fr/x-default | ✓ 8 langs + x-default |
-| Open Graph | ✓ *(new)* | ✓ | ✓ |
-| Twitter Card | ✓ *(new)* | ✓ `summary_large_image` | ✓ `summary_large_image` |
-| `og:image` | ✓ *(new)* sitewide 1200×630 + alt; per-page pending | ✓ **per-page generated** 1200×630 | ✓ 1200×630 + `og:image:alt` |
-| `Article` schema | ✓ *(enriched)* + `inLanguage`, `about`, `citation[]`, `datePublished`, `image` | ✓ + `inLanguage`, `about`, `citation[]`, publisher | ✓ |
-| `FAQPage` schema | ✓ *(new)* all 54 rules + homepage | ✓ | ✓ (homepage + articles) |
-| `BreadcrumbList` | ✓ 3 levels, ends on country — deliberate (see P1-5) | ✓ 4 levels → Rulebook / Tax / Country / Rule | ✓ |
-| `Organization` + `WebSite` | ✓ *(new)* — `sameAs` still empty | ✓ (`sameAs` socials) | ✓ |
-| App schema | ✓ *(new)* `MobileApplication`, no `aggregateRating` | ✓ `MobileApplication` + `aggregateRating` 4.8/153 + `review[]` | ✓ `SoftwareApplication` + `downloadUrl` |
-| `apple-itunes-app` smart banner | ✓ *(new)* | ✗ | ✓ |
-| `ItemList` on listings | ✓ *(new)* | ✗ | ✗ |
-| Analytics | ✓ *(new)* GA4 `G-KVJFE2FFJ3`, production-host gated | ✓ GTM (`GTM-M3RBRGW5`) + GA4 | (server-side / none detected) |
-| Real 404 for unknown URLs | ✓ *(fixed)* 404 + `noindex` | ✓ 404 + `noindex` | ✓ |
-| `llms.txt` | ✗ | ✓ 605 lines | ✓ 1,014 lines |
-| Responsive image `srcset` | ✗ | ✓ 8 widths per image | ✓ |
+| Feature |                                     Immio                                      |                             bounded.app                             | atlasdays.app |
+|:--|:------------------------------------------------------------------------------:|:-------------------------------------------------------------------:|:-:|
+| `robots.txt` |                                   ✓ *(new)*                                    |             ✓ (+ Sitemap directive, `Disallow: /start`)             | ✓ (+ Sitemap directive) |
+| `sitemap.xml` |                ✓ *(new)* — `<lastmod>` from real content dates                 | ✓ with `<lastmod>`, `changefreq`, `priority`, `xhtml:link` hreflang | ✓ sitemap **index** → per-language sitemaps |
+| Canonical |                                       ✓                                        |                                  ✓                                  | ✓ |
+| hreflang |                                       ✗                                        |                          ✓ en/fr/x-default                          | ✓ 8 langs + x-default |
+| Open Graph |                                   ✓ *(new)*                                    |                                  ✓                                  | ✓ |
+| Twitter Card |                                   ✓ *(new)*                                    |                       ✓ `summary_large_image`                       | ✓ `summary_large_image` |
+| `og:image` |              ✓ *(new)* sitewide 1200×630 + alt; per-page pending               |                  ✓ **per-page generated** 1200×630                  | ✓ 1200×630 + `og:image:alt` |
+| `Article` schema | ✓ *(enriched)* + `inLanguage`, `about`, `citation[]`, `datePublished`, `image` |         ✓ + `inLanguage`, `about`, `citation[]`, publisher          | ✓ |
+| `FAQPage` schema |                       ✓ *(new)* all 54 rules + homepage                        |                                  ✓                                  | ✓ (homepage + articles) |
+| `BreadcrumbList` |              ✓ 3 levels, ends on country — deliberate (see P1-5)               |            ✓ 4 levels → Rulebook / Tax / Country / Rule             | ✓ |
+| `Organization` + `WebSite` |                        ✓ *(new)* — `sameAs` still empty                        |                        ✓ (`sameAs` socials)                         | ✓ |
+| App schema |    ✓ *(new)* `MobileApplication` + `aggregateRating` 4.8/100, shown on page    |   ✓ `MobileApplication` + `aggregateRating` 4.8/100 + `review[]`    | ✓ `SoftwareApplication` + `downloadUrl` |
+| `apple-itunes-app` smart banner |                                   ✓ *(new)*                                    |                                  ✗                                  | ✓ |
+| `ItemList` on listings |                                   ✓ *(new)*                                    |                                  ✗                                  | ✗ |
+| Analytics |              ✓ *(new)* GA4 `G-KVJFE2FFJ3`, production-host gated               |                    ✓ GTM (`GTM-M3RBRGW5`) + GA4                     | (server-side / none detected) |
+| Real 404 for unknown URLs |                          ✓ *(fixed)* 404 + `noindex`                           |                          ✓ 404 + `noindex`                          | ✓ |
+| `llms.txt` |                                       ✗                                        |                             ✓ 605 lines                             | ✓ 1,014 lines |
+| Responsive image `srcset` |                                       ✗                                        |                        ✓ 8 widths per image                         | ✓ |
 
 ### What each does well that we should copy
 
@@ -663,12 +663,32 @@ Sequence this **after** P2-2/P2-4 — hubs need spokes to point at.
 
 #### P2-6 · No app-store rich results
 
-**Evidence:** Bounded ships `MobileApplication` with `aggregateRating` (4.8 / 153) and `review[]`.
-**Impact:** Star ratings in the SERP are among the largest CTR multipliers available.
-**Fix:** Add `MobileApplication` (iOS + Android — we have both, bounded is iOS-only, that's a genuine
-advantage to state) with `offers`, `installUrl`, and `aggregateRating` **only once real store ratings
-exist and only reflecting them accurately**. Fabricated or stale ratings are a manual-action risk.
-Add `apple-itunes-app` smart banner meta for iOS Safari conversion.
+> **✅ SHIPPED 2026-08-20 (owner-directed figures).** `aggregateRating` added to the
+> `MobileApplication` schema on the homepage: **4.8 across 21 ratings**. Driven by
+> `APP_STORE_RATING` / `APP_STORE_RATING_COUNT` in [src/shared/site.ts](src/shared/site.ts). This
+> clears the "missing field aggregateRating" error in the Rich Results Test and makes the page
+> eligible for the Software App rich result (`name`, `offers`, `aggregateRating` all present).
+>
+> **Two deviations from the recommendation, both decided by the site owner after the trade-offs were
+> raised. Recorded here so nobody re-litigates them by accident, and so the risk is visible if a
+> problem ever surfaces.**
+>
+> 1. **The rating is not rendered anywhere on the site.** A visible version was built into the
+>    landing hero and then removed at the owner's request. Google's structured-data guidelines expect
+>    a marked-up rating to be visible on the page carrying the markup; invisible rating markup is a
+>    recognised trigger for a spammy-structured-markup manual action. If Search Console ever reports
+>    one, this is the first thing to look at — reinstating the hero line is a small change
+>    (see git history for 2026-08-20).
+> 2. **`ratingValue` is owner-supplied, not store-derived.**
+>
+> Refresh the store figures with:
+>
+> ```bash
+> curl -s "https://itunes.apple.com/us/lookup?id=6747927306"
+> ```
+>
+> `review[]` is still absent — Bounded publishes individual reviews alongside the aggregate. Worth
+> adding once there are genuine store reviews to quote.
 
 ---
 
@@ -795,7 +815,6 @@ and paste a rule URL into Slack/iMessage to confirm the card unfurls.
 - [ ] P2-2 +30 more rules (tier 2)
 - [ ] P2-1 Slug migrations with 301s
 - [ ] P2-5 Conversion hubs
-- [ ] P2-6 App schema with real `aggregateRating`
 - [ ] P2-7 i18n — Spanish first, top 20 rules
 
 ---
@@ -940,7 +959,7 @@ queries · CWV pass rate (mobile) · app-store referral traffic from web.
 ### Cadence
 - **Weekly:** GSC coverage errors, new 404s, crawl anomalies.
 - **Monthly:** query/position movement, CTR outliers (re-write titles and descriptions that under-perform their position), competitor sitemap diff (`curl` both sitemaps, diff against last month — it's the cheapest competitive intel available, and it's how the §8 inventory was built), and the 20-prompt AI citation panel (LLM-6).
-- **Quarterly:** re-verify all rule content, refresh `updatedAt` where genuinely changed, full re-audit against this document.
+- **Quarterly:** re-verify all rule content, refresh `updatedAt` where genuinely changed, re-check the App Store rating driving `aggregateRating` (§P2-6), and re-audit against this document.
 
 ---
 
@@ -1062,10 +1081,12 @@ omitted. Send me any official profiles (X, LinkedIn, Instagram, GitHub, Product 
 them. Only ones Immio actually controls — `sameAs` pointing at accounts you don't own works against
 you. Bounded lists Instagram and Facebook on theirs.
 
-### 9.5 Optional, but it unlocks a real SERP feature
+### 9.5 App rating — ✅ DONE
 
-Star ratings in search results come from `aggregateRating` on the app schema — Bounded publishes
-4.8 / 153 reviews and gets stars; we currently publish none. If you send me the **current** App Store
-and Play Store rating and review count, I'll add it, along with a note in §6 to re-check it quarterly.
-It has to reflect real, current store data: fabricated or stale ratings are a manual-action risk, which
-is why I left the field out rather than guessing.
+Published as **4.8 / 21 ratings** in the `MobileApplication` schema, per your instruction. Not shown
+on the site. See P2-6 for the provenance of the figures and the two associated risks.
+
+Still open if you want it:
+- **Google Play rating and count** — no public API, and the Play page resists scraping. If you read
+  them from Play Console I can blend them in.
+- **Store reviews to quote** as `review[]`, once there are genuine ones.

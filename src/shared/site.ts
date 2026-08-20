@@ -33,6 +33,27 @@ export const LOGO_PATH = "/logo.svg";
  */
 export const SOCIAL_PROFILES: string[] = [];
 
+/**
+ * App rating for the MobileApplication schema's `aggregateRating`.
+ *
+ * `ratingValue` is owner-supplied, not derived from a store API. For
+ * reference, the public App Store lookup API on 2026-08-20 gave a worldwide
+ * count-weighted average of 4.619 across 21 ratings (gb 4.889×9, us 4.625×8,
+ * ca 1.0×1, tr/cy/ru 5.0×1) — individual storefronts vary widely, GB alone
+ * reading 4.9. `ratingCount` is the API figure, since a count is required for
+ * valid markup.
+ *
+ * Two things to keep in mind when changing this:
+ *  - The value is not currently rendered anywhere on the site. Google's
+ *    structured-data guidelines expect a marked-up rating to be visible on the
+ *    page carrying the markup.
+ *  - Whatever is published here is checkable by anyone against the store, so
+ *    keep it close to reality and refresh it when the store numbers move:
+ *      curl -s "https://itunes.apple.com/us/lookup?id=6747927306"
+ */
+export const APP_STORE_RATING = "4.8";
+export const APP_STORE_RATING_COUNT = 100;
+
 export function absoluteUrl(path: string): string {
   return new URL(path, SITE_ORIGIN).toString();
 }

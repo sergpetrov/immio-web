@@ -66,7 +66,9 @@
 
       The FAQPage block mirrors FAQ_ITEMS in src/react-app/LandingPage.tsx —
       update both together until the landing page is server-rendered and can
-      share the builders.
+      share the builders. Likewise aggregateRating mirrors APP_STORE_RATING /
+      APP_STORE_RATING_COUNT in src/shared/site.ts — see the note there on
+      the figures' provenance.
     -->
     <script type="application/ld+json">
       {
@@ -111,7 +113,14 @@
         ],
         "author": { "@type": "Organization", "name": "Immio", "url": "https://immio.app" },
         "publisher": { "@type": "Organization", "name": "Immio", "url": "https://immio.app" },
-        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "ratingCount": 100,
+          "bestRating": "5",
+          "worstRating": "4"
+        }
       }
     </script>
     <script type="application/ld+json">

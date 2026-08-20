@@ -22,6 +22,12 @@ export interface PageShellParams {
   ogImageAlt?: string;
   /** Set on error pages and on any host that isn't production. */
   noindex?: boolean;
+  /**
+   * Page is being viewed inside the Immio app (`?source=inapp`). Suppresses
+   * Safari's Smart App Banner — prompting someone to install the app they are
+   * currently reading this in is nonsense.
+   */
+  inApp?: boolean;
 }
 
 function escapeAttr(value: string): string {
@@ -50,12 +56,20 @@ export function renderDocument({
   ogImage = absoluteUrl(DEFAULT_OG_IMAGE_PATH),
   ogImageAlt = DEFAULT_OG_IMAGE_ALT,
   noindex = false,
+  inApp = false,
 }: PageShellParams): string {
   const safeTitle = escapeAttr(normalizeText(title));
   const safeDescription = escapeAttr(normalizeText(description));
   const safeCanonical = escapeAttr(canonical);
   const safeOgImage = escapeAttr(ogImage);
   const safeOgImageAlt = escapeAttr(normalizeText(ogImageAlt));
+
+  // Safari reads this at parse time, so it has to be omitted server-side —
+  // removing the element later with JS does not dismiss a banner it has
+  // already shown.
+  const appBannerTag = inApp
+    ? ""
+    : `<meta name="apple-itunes-app" content="app-id=6747927306, app-argument=${escapeAttr(IMMIO_APP_STORE_URL)}" />`;
 
   const robotsTag = noindex
     ? `<meta name="robots" content="noindex, nofollow" />`
@@ -99,7 +113,7 @@ export function renderDocument({
     <meta name="twitter:description" content="${safeDescription}" />
     <meta name="twitter:image" content="${safeOgImage}" />
     <meta name="twitter:image:alt" content="${safeOgImageAlt}" />
-    <meta name="apple-itunes-app" content="app-id=6747927306, app-argument=${escapeAttr(IMMIO_APP_STORE_URL)}" />
+    ${appBannerTag}
     ${renderSiteVerificationTag()}
     ${renderAnalyticsTags()}
     ${jsonLd.join("\n    ")}

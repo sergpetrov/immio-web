@@ -57,6 +57,8 @@ interface RenderContext {
   origin: string;
   appDownloadUrl: string;
   noindex: boolean;
+  /** `?source=inapp` — the page is open inside the Immio app's web view. */
+  inApp: boolean;
 }
 
 function htmlHandler(render: (context: RenderContext) => string) {
@@ -70,10 +72,15 @@ function htmlHandler(render: (context: RenderContext) => string) {
       return new Response(null, { status: 200, headers });
     }
 
+    const url = new URL(request.url);
     const appDownloadUrl = getAppDownloadUrlForUserAgent(request.headers.get("user-agent") ?? "");
-    const noindex = !shouldIndexHost(new URL(request.url).hostname);
+    const noindex = !shouldIndexHost(url.hostname);
+    // Matches INAPP_BOOT_SCRIPT in pageShell.ts. Query-string variants are
+    // separate cache entries, so the banner-less response can't be served to
+    // an ordinary visitor.
+    const inApp = url.searchParams.get("source") === "inapp";
 
-    return new Response(render({ origin: SITE_ORIGIN, appDownloadUrl, noindex }), { status: 200, headers });
+    return new Response(render({ origin: SITE_ORIGIN, appDownloadUrl, noindex, inApp }), { status: 200, headers });
   };
 }
 
@@ -87,7 +94,7 @@ function route(path: string, handler: (request: Request) => Response) {
   content.on(["GET", "HEAD"], `${path}/`, (c) => c.redirect(path, 301));
 }
 
-function renderCatalogDocument({ origin, appDownloadUrl, noindex }: RenderContext): string {
+function renderCatalogDocument({ origin, appDownloadUrl, noindex, inApp }: RenderContext): string {
   const pathname = "/rules";
   const title = "Immio Rule Guide | Tax Residency, Travel & Immigration Rules";
   const description =
@@ -101,6 +108,7 @@ function renderCatalogDocument({ origin, appDownloadUrl, noindex }: RenderContex
     description,
     canonical: new URL(pathname, origin).toString(),
     noindex,
+    inApp,
     jsonLd: [
       renderJsonLd(buildWebPageJsonLd({ origin, pathname, title, description })),
       renderJsonLd(buildBreadcrumbListJsonLd(buildCatalogBreadcrumbs(), origin)),
@@ -121,7 +129,7 @@ function buildRuleItemList(origin: string, name: string, rules: RuleDoc[]): obje
   });
 }
 
-function renderCategoryDocument({ origin, appDownloadUrl, noindex }: RenderContext, category: Category): string {
+function renderCategoryDocument({ origin, appDownloadUrl, noindex, inApp }: RenderContext, category: Category): string {
   const pathname = `/rules/${category.slug}`;
   const title = `${category.title} Rules | Immio Rule Guide`;
   const description = category.description;
@@ -133,6 +141,7 @@ function renderCategoryDocument({ origin, appDownloadUrl, noindex }: RenderConte
     description,
     canonical: new URL(pathname, origin).toString(),
     noindex,
+    inApp,
     jsonLd: [
       renderJsonLd(buildWebPageJsonLd({ origin, pathname, title, description })),
       renderJsonLd(buildBreadcrumbListJsonLd(buildCategoryBreadcrumbs(category), origin)),
@@ -142,7 +151,7 @@ function renderCategoryDocument({ origin, appDownloadUrl, noindex }: RenderConte
   });
 }
 
-function renderCountriesDocument({ origin, appDownloadUrl, noindex }: RenderContext): string {
+function renderCountriesDocument({ origin, appDownloadUrl, noindex, inApp }: RenderContext): string {
   const pathname = "/rules/countries";
   const title = "Rules by Country | Immio Rule Guide";
   const description = "Browse tax residency, travel, and immigration rules by country.";
@@ -155,6 +164,7 @@ function renderCountriesDocument({ origin, appDownloadUrl, noindex }: RenderCont
     description,
     canonical: new URL(pathname, origin).toString(),
     noindex,
+    inApp,
     jsonLd: [
       renderJsonLd(buildWebPageJsonLd({ origin, pathname, title, description })),
       renderJsonLd(buildBreadcrumbListJsonLd(buildCountriesBreadcrumbs(), origin)),
@@ -176,7 +186,7 @@ function renderCountriesDocument({ origin, appDownloadUrl, noindex }: RenderCont
   });
 }
 
-function renderCountryDocument({ origin, appDownloadUrl, noindex }: RenderContext, place: RulePlace): string {
+function renderCountryDocument({ origin, appDownloadUrl, noindex, inApp }: RenderContext, place: RulePlace): string {
   const pathname = `/rules/countries/${place.slug}`;
   const title = `${place.name} Rules | Immio Rule Guide`;
   const description = `Tax residency, travel, and immigration rules for ${place.name}.`;
@@ -188,6 +198,7 @@ function renderCountryDocument({ origin, appDownloadUrl, noindex }: RenderContex
     description,
     canonical: new URL(pathname, origin).toString(),
     noindex,
+    inApp,
     jsonLd: [
       renderJsonLd(buildWebPageJsonLd({ origin, pathname, title, description })),
       renderJsonLd(buildBreadcrumbListJsonLd(buildCountryBreadcrumbs(place), origin)),
@@ -198,7 +209,7 @@ function renderCountryDocument({ origin, appDownloadUrl, noindex }: RenderContex
 }
 
 function renderRuleDocument(
-  { origin, appDownloadUrl, noindex }: RenderContext,
+  { origin, appDownloadUrl, noindex, inApp }: RenderContext,
   category: Category,
   rule: RuleDoc,
 ): string {
@@ -215,6 +226,7 @@ function renderRuleDocument(
     canonical: new URL(pathname, origin).toString(),
     ogType: "article",
     noindex,
+    inApp,
     jsonLd: [
       renderJsonLd(buildArticleJsonLd({ origin, pathname, rule, place })),
       renderJsonLd(buildBreadcrumbListJsonLd(buildRuleBreadcrumbs(category, rule), origin)),
@@ -224,7 +236,7 @@ function renderRuleDocument(
   });
 }
 
-function renderLegalDocument({ origin, appDownloadUrl, noindex }: RenderContext, slug: "privacy" | "terms"): string {
+function renderLegalDocument({ origin, appDownloadUrl, noindex, inApp }: RenderContext, slug: "privacy" | "terms"): string {
   const document = getLegalDocument(slug);
   if (!document) {
     throw new Error(`Missing legal document: ${slug}`);
@@ -242,6 +254,7 @@ function renderLegalDocument({ origin, appDownloadUrl, noindex }: RenderContext,
     description,
     canonical: new URL(pathname, origin).toString(),
     noindex,
+    inApp,
     jsonLd: [renderJsonLd(buildWebPageJsonLd({ origin, pathname, title: document.headline, description }))],
     bodyHtml,
   });

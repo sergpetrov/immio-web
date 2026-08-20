@@ -1043,6 +1043,47 @@ html.is-inapp .content-keep-track-block > .content-callout {
   font-size: 0.85em;
 }
 
+/*
+  Dark mode only: running prose sits one step back from the headings, so the
+  structure of a long rule page stays scannable. Bold runs and headings keep
+  the full-contrast --content-text (same pattern as .content-legal-disclaimer
+  strong below). Light mode keeps a single body colour — the gap between
+  #1a1a1a and #a5a5a7 there is too wide to read comfortably at length.
+
+  Specificity is deliberately kept at (0,1,1) so the elements that already
+  choose their own colour still win: .content-article p.content-article__meta
+  stays faint, .content-callout__lead keeps the callout colour. The :where()
+  exclusion keeps callout body text on --content-callout-text without adding
+  specificity of its own.
+*/
+@media (prefers-color-scheme: dark) {
+  .content-article p:not(:where(.content-callout *)),
+  .content-article li:not(:where(.content-callout *)),
+  .content-article td {
+    color: var(--content-text-muted);
+  }
+
+  .content-article strong:not(:where(.content-callout *)),
+  .content-article b:not(:where(.content-callout *)) {
+    color: var(--content-text);
+  }
+
+  /*
+    Overview table: the left column is the label and the right column is the
+    answer the reader came for, so the values keep full contrast while the
+    labels stay muted with the rest of the prose. Rule pages render exactly
+    one table, whose value column markdown emits as td[align="right"].
+  */
+  .content-article td[align="right"] {
+    color: var(--content-text);
+  }
+
+  /* Catalog lede — the description under the /rules and /rules/{type} titles. */
+  .content-catalog__lede {
+    color: var(--content-text-muted);
+  }
+}
+
 /* Back link — used both as the sticky left column (desktop) and inside the mobile TOC drawer. */
 
 .content-back-link {

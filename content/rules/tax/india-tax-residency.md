@@ -37,7 +37,7 @@ sources:
 :::callout
 **182 days or more** in India during the **tax year** (1 April to 31 March) can make you a tax resident. The alternative
 is **60 days** in that year plus **365 days** across the previous 4 years. Indian citizens working abroad, and
-visiting citizens, get The 60-day test drops away.
+visiting citizens, get the 60-day test drops away.
 :::
 
 | Key parameters          |                                           |

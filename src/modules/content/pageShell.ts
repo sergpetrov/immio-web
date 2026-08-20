@@ -1,4 +1,13 @@
 import { IMMIO_APP_STORE_URL, IMMIO_GOOGLE_PLAY_URL } from "../../react-app/appStoreLinks";
+import { renderAnalyticsTags, renderSiteVerificationTag } from "../../shared/analytics";
+import {
+  DEFAULT_OG_IMAGE_ALT,
+  DEFAULT_OG_IMAGE_PATH,
+  OG_IMAGE_HEIGHT,
+  OG_IMAGE_WIDTH,
+  SITE_NAME,
+  absoluteUrl,
+} from "../../shared/site";
 
 export interface PageShellParams {
   title: string;
@@ -6,6 +15,13 @@ export interface PageShellParams {
   canonical: string;
   jsonLd: string[];
   bodyHtml: string;
+  /** "article" for rule pages, "website" for listings and legal pages. */
+  ogType?: "website" | "article";
+  /** Absolute URL. Falls back to the sitewide social card. */
+  ogImage?: string;
+  ogImageAlt?: string;
+  /** Set on error pages and on any host that isn't production. */
+  noindex?: boolean;
 }
 
 function escapeAttr(value: string): string {
@@ -16,7 +32,35 @@ function escapeAttr(value: string): string {
     .replace(/"/g, "&quot;");
 }
 
-export function renderDocument({ title, description, canonical, jsonLd, bodyHtml }: PageShellParams): string {
+/**
+ * Collapses the newlines YAML folded scalars (`description: >`) leave behind,
+ * which would otherwise ship inside the `content="…"` attribute.
+ */
+function normalizeText(value: string): string {
+  return value.replace(/\s+/g, " ").trim();
+}
+
+export function renderDocument({
+  title,
+  description,
+  canonical,
+  jsonLd,
+  bodyHtml,
+  ogType = "website",
+  ogImage = absoluteUrl(DEFAULT_OG_IMAGE_PATH),
+  ogImageAlt = DEFAULT_OG_IMAGE_ALT,
+  noindex = false,
+}: PageShellParams): string {
+  const safeTitle = escapeAttr(normalizeText(title));
+  const safeDescription = escapeAttr(normalizeText(description));
+  const safeCanonical = escapeAttr(canonical);
+  const safeOgImage = escapeAttr(ogImage);
+  const safeOgImageAlt = escapeAttr(normalizeText(ogImageAlt));
+
+  const robotsTag = noindex
+    ? `<meta name="robots" content="noindex, nofollow" />`
+    : `<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />`;
+
   return `<!doctype html>
 <html lang="en">
   <head>
@@ -34,9 +78,30 @@ export function renderDocument({ title, description, canonical, jsonLd, bodyHtml
     <link rel="stylesheet" href="/faq-accordion.css" />
     <link rel="stylesheet" href="/site-footer.css" />
     <link rel="stylesheet" href="/content/content.css" />
-    <title>${escapeAttr(title)}</title>
-    <meta name="description" content="${escapeAttr(description)}" />
-    <link rel="canonical" href="${escapeAttr(canonical)}" />
+    <title>${safeTitle}</title>
+    <meta name="description" content="${safeDescription}" />
+    <link rel="canonical" href="${safeCanonical}" />
+    ${robotsTag}
+    <meta name="theme-color" content="#ffffff" />
+    <meta property="og:type" content="${ogType}" />
+    <meta property="og:site_name" content="${SITE_NAME}" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:title" content="${safeTitle}" />
+    <meta property="og:description" content="${safeDescription}" />
+    <meta property="og:url" content="${safeCanonical}" />
+    <meta property="og:image" content="${safeOgImage}" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="${OG_IMAGE_WIDTH}" />
+    <meta property="og:image:height" content="${OG_IMAGE_HEIGHT}" />
+    <meta property="og:image:alt" content="${safeOgImageAlt}" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="${safeTitle}" />
+    <meta name="twitter:description" content="${safeDescription}" />
+    <meta name="twitter:image" content="${safeOgImage}" />
+    <meta name="twitter:image:alt" content="${safeOgImageAlt}" />
+    <meta name="apple-itunes-app" content="app-id=6747927306, app-argument=${escapeAttr(IMMIO_APP_STORE_URL)}" />
+    ${renderSiteVerificationTag()}
+    ${renderAnalyticsTags()}
     ${jsonLd.join("\n    ")}
   </head>
   <body>

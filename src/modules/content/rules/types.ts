@@ -39,7 +39,10 @@ export interface RuleFrontmatter {
     title: string;
     description: string;
   };
+  /** Date the content was last re-verified against its official sources. */
   updatedAt: string;
+  /** First publication date. Falls back to `updatedAt` when absent. */
+  publishedAt?: string;
   sources: RuleSource[];
   relatedContent?: string[];
 }

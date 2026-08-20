@@ -20,6 +20,9 @@ type TrackerTiltStyle = CSSProperties & {
     "--tracker-back-rotate": string;
 };
 
+// Mirrored as FAQPage JSON-LD in index.html — update both together. (The
+// worker-rendered pages generate theirs from modules/content/rules/seo.ts;
+// this page has no server render yet.)
 const FAQ_ITEMS: { q: string; a: string }[] = [
     {
         q: "How is Immio different from a simple day-counting app?",

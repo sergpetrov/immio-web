@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/site-header.css" />
+    <link rel="stylesheet" href="/site-footer.css" />
+    <link rel="stylesheet" href="/content/content.css" />
+    <title>Page not found | Immio</title>
+    <style>
+      .notfound {
+        max-width: 34rem;
+        margin: 0 auto;
+        padding: 5rem 1.25rem 6rem;
+        text-align: center;
+      }
+      .notfound__code {
+        font-size: 0.75rem;
+        font-weight: 700;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--content-text-faint, #8a8f98);
+        margin: 0 0 0.75rem;
+      }
+      .notfound h1 {
+        font-size: clamp(1.6rem, 4vw, 2.25rem);
+        margin: 0 0 0.75rem;
+      }
+      .notfound p {
+        color: var(--content-text-muted, #6d6d6d);
+        margin: 0 0 2rem;
+      }
+      .notfound__links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+        justify-content: center;
+      }
+      .notfound__links a {
+        display: inline-block;
+        padding: 0.6rem 1.1rem;
+        border-radius: 999px;
+        border: 1px solid #e0e0e0;
+        font-weight: 600;
+        font-size: 0.9rem;
+        text-decoration: none;
+        color: inherit;
+      }
+      .notfound__links a:first-child {
+        background: #007aff;
+        border-color: #007aff;
+        color: #fff;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="content">
+      <header class="site-header is-scrolled">
+        <div class="site-header__inner">
+          <a class="site-header__logo" href="/" aria-label="Immio home">
+            <img class="site-header__logo-icon" src="/logo.svg" alt="" width="36" height="36" />
+            <img class="site-header__logo-wordmark" src="/logo_name.svg" alt="Immio" />
+          </a>
+          <nav id="site-header-menu" class="site-header__links" aria-label="Primary">
+            <a class="site-header__link" href="/#features">Features</a>
+            <a class="site-header__link" href="/#how-it-works">How it works</a>
+            <a class="site-header__link" href="/#faq">FAQ</a>
+            <a class="site-header__link" href="/rules">Rule Guide</a>
+          </nav>
+          <div class="site-header__actions">
+            <a
+              class="site-header__cta"
+              href="https://apps.apple.com/gb/app/tax-residency-tracker-immio/id6747927306"
+              data-app-download
+              target="_blank"
+              rel="noopener noreferrer"
+              >Get the app</a
+            >
+          </div>
+        </div>
+      </header>
+
+      <main class="notfound">
+        <p class="notfound__code">Error 404</p>
+        <h1>We couldn't find that page</h1>
+        <p>
+          The link may be out of date, or the page may have moved. The Rule Guide below covers tax residency,
+          visa, and immigration day rules by country.
+        </p>
+        <div class="notfound__links">
+          <a href="/rules">Browse the Rule Guide</a>
+          <a href="/rules/countries">Rules by country</a>
+          <a href="/">Go to homepage</a>
+        </div>
+      </main>
+
+      <footer class="site-footer">
+        <div class="site-footer__inner">
+          <div>
+            <p class="site-footer__contact-label">Contact us</p>
+            <a class="site-footer__email" href="mailto:support@immio.app">support@immio.app</a>
+          </div>
+          <div class="site-footer__cols">
+            <div class="site-footer__col">
+              <a class="site-footer__link" href="/terms">Terms</a>
+              <a class="site-footer__link" href="/privacy">Privacy Policy</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      (function () {
+        if (!/Android/i.test(navigator.userAgent || "")) return;
+        document.querySelectorAll("a[data-app-download]").forEach(function (anchor) {
+          anchor.setAttribute("href", "https://play.google.com/store/apps/details?id=com.immio.app");
+        });
+      })();
+    </script>
+  </body>
+</html>

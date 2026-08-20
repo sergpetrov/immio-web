@@ -1,0 +1,37 @@
+# https://immio.app/robots.txt
+
+User-agent: *
+Allow: /
+
+# Answer-engine and AI crawlers are allowed deliberately: the Rule Guide is
+# reference content, and citation in AI answers is a primary discovery channel
+# for it. Remove an entry here to opt that crawler out.
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Note: `?source=inapp` URLs are intentionally left crawlable. They carry a
+# canonical tag pointing at the clean path, which consolidates them correctly.
+# Disallowing them would stop crawlers reading that canonical.
+
+Sitemap: https://immio.app/sitemap.xml

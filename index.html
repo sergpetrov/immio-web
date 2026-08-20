@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg+xml" href="/logo.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,8 +13,172 @@
     <link rel="stylesheet" href="/site-header.css" />
     <link rel="stylesheet" href="/faq-accordion.css" />
     <link rel="stylesheet" href="/site-footer.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Immio — Tax Residency Tracker</title>
+
+    <title>Immio — Tax Residency, Visa &amp; Travel Day Tracker</title>
+    <meta
+      name="description"
+      content="Track days across countries and stay inside tax residency, visa, and immigration limits. Automatic trip tracking, threshold alerts, private by design."
+    />
+    <link rel="canonical" href="https://immio.app/" />
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
+    <meta name="theme-color" content="#ffffff" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Immio" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:title" content="Immio — Tax Residency, Visa &amp; Travel Day Tracker" />
+    <meta
+      property="og:description"
+      content="Track days across countries and stay inside tax residency, visa, and immigration limits. Automatic trip tracking, threshold alerts, private by design."
+    />
+    <meta property="og:url" content="https://immio.app/" />
+    <meta property="og:image" content="https://immio.app/og/immio-default.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="Immio — track your days across countries and stay within tax and visa limits."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Immio — Tax Residency, Visa &amp; Travel Day Tracker" />
+    <meta
+      name="twitter:description"
+      content="Track days across countries and stay inside tax residency, visa, and immigration limits. Automatic trip tracking, threshold alerts, private by design."
+    />
+    <meta name="twitter:image" content="https://immio.app/og/immio-default.png" />
+    <meta
+      name="twitter:image:alt"
+      content="Immio — track your days across countries and stay within tax and visa limits."
+    />
+    <meta
+      name="apple-itunes-app"
+      content="app-id=6747927306, app-argument=https://apps.apple.com/gb/app/tax-residency-tracker-immio/id6747927306"
+    />
+
+    <!--
+      Static JSON-LD for the client-rendered landing page. The worker-rendered
+      pages build theirs from modules/content/rules/seo.ts; this page has no
+      server render yet, so it is written out by hand.
+
+      The FAQPage block mirrors FAQ_ITEMS in src/react-app/LandingPage.tsx —
+      update both together until the landing page is server-rendered and can
+      share the builders.
+    -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Immio",
+        "url": "https://immio.app",
+        "logo": "https://immio.app/logo.svg",
+        "description": "Track days across countries and stay inside tax residency, visa, and immigration limits.",
+        "email": "support@immio.app"
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Immio",
+        "url": "https://immio.app",
+        "inLanguage": "en",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Immio",
+          "url": "https://immio.app",
+          "logo": { "@type": "ImageObject", "url": "https://immio.app/logo.svg" }
+        }
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "MobileApplication",
+        "name": "Immio — Tax Residency Tracker",
+        "operatingSystem": "iOS, Android",
+        "applicationCategory": "TravelApplication",
+        "description": "Track days across countries and stay inside tax residency, visa, and immigration limits. Automatic trip tracking, threshold alerts, private by design.",
+        "url": "https://immio.app",
+        "image": "https://immio.app/og/immio-default.png",
+        "installUrl": "https://apps.apple.com/gb/app/tax-residency-tracker-immio/id6747927306",
+        "sameAs": [
+          "https://apps.apple.com/gb/app/tax-residency-tracker-immio/id6747927306",
+          "https://play.google.com/store/apps/details?id=com.immio.app"
+        ],
+        "author": { "@type": "Organization", "name": "Immio", "url": "https://immio.app" },
+        "publisher": { "@type": "Organization", "name": "Immio", "url": "https://immio.app" },
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "inLanguage": "en",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How is Immio different from a simple day-counting app?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Immio is designed for ongoing compliance – not just counting days. It combines automatic travel tracking, jurisdiction-specific rule monitoring, future trip planning, alerts, and exportable reports in one place."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can Immio help me avoid accidental tax residency or visa overstays?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Immio helps you monitor days against the rules you care about, including tax residency thresholds, Schengen calculations, and custom stay limits, so you can act before crossing a line."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What rules can I track in the app?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "You can track common patterns like Schengen 90/180, 183-day style tax residency tests, UK-style fiscal periods, U.S. state presence, and your own custom presence or absence limits across countries and regions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I plan future trips before I book them?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. You can add upcoming travel to see how planned trips affect your day counts, remaining allowance, and residency position before those days actually happen."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I add past trips and import existing travel history?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. You can add past trips manually or import them from a spreadsheet (CSV, Google Sheets, or Excel). Also, if you regularly take photos while traveling, we can also help reconstruct your trip history from your Photo Library using timestamp and location metadata. This processing happens locally on your device – your photos never leave your device."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I export records for my accountant, lawyer, or immigration case?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Immio can generate CSV exports you can review yourself or share with advisors when you need a structured record of your travel history and day counts."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Where is my data stored?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Your travel data stays on your device and, if you enable it, in your personal iCloud account. Immio does not require an account and is designed to keep sensitive travel history out of a central company database."
+            }
+          }
+        ]
+      }
+    </script>
   </head>
 
   <body>

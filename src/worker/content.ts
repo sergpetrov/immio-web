@@ -1,4 +1,5 @@
 import { Hono } from "hono";
+import type { NotFoundHandler } from "hono";
 import { createElement } from "react";
 import { renderToStaticMarkup } from "react-dom/server";
 
@@ -18,25 +19,47 @@ import CountriesPage from "../modules/content/rules/components/CountriesPage";
 import CountryPage from "../modules/content/rules/components/CountryPage";
 import RulePage from "../modules/content/rules/components/RulePage";
 import { renderDocument } from "../modules/content/pageShell";
+import { renderSitemap } from "../modules/content/sitemap";
 import {
   getAllCategories,
   getAllPlaces,
   getAllRules,
   getCategoryBySlug,
+  getPlaceForRule,
   getRulesForCategory,
   getRulesForPlace,
 } from "../modules/content/rules/registry";
 import {
   buildArticleJsonLd,
   buildBreadcrumbListJsonLd,
+  buildFaqPageJsonLd,
+  buildItemListJsonLd,
   buildWebPageJsonLd,
   renderJsonLd,
 } from "../modules/content/rules/seo";
 import type { Category, RulePlace, RuleDoc } from "../modules/content/rules/types";
+import { SITE_ORIGIN, shouldIndexHost } from "../shared/site";
 
-const content = new Hono();
+export interface ContentBindings {
+  ASSETS: Fetcher;
+}
 
-function htmlHandler(render: (origin: string, appDownloadUrl: string) => string) {
+const content = new Hono<{ Bindings: ContentBindings }>();
+
+/**
+ * What every page renderer needs. `origin` is deliberately the production
+ * origin rather than the request's own: preview and *.workers.dev hosts must
+ * not advertise themselves as canonical. `noindex` is the other half of that
+ * — those hosts serve the production canonical *and* a noindex, so they can
+ * never compete with production in the index.
+ */
+interface RenderContext {
+  origin: string;
+  appDownloadUrl: string;
+  noindex: boolean;
+}
+
+function htmlHandler(render: (context: RenderContext) => string) {
   return (request: Request) => {
     const headers = new Headers({
       "content-type": "text/html; charset=utf-8",
@@ -47,13 +70,24 @@ function htmlHandler(render: (origin: string, appDownloadUrl: string) => string)
       return new Response(null, { status: 200, headers });
     }
 
-    const origin = new URL(request.url).origin;
     const appDownloadUrl = getAppDownloadUrlForUserAgent(request.headers.get("user-agent") ?? "");
-    return new Response(render(origin, appDownloadUrl), { status: 200, headers });
+    const noindex = !shouldIndexHost(new URL(request.url).hostname);
+
+    return new Response(render({ origin: SITE_ORIGIN, appDownloadUrl, noindex }), { status: 200, headers });
   };
 }
 
-function renderCatalogDocument(origin: string, appDownloadUrl: string): string {
+/**
+ * Registers a route plus a permanent redirect from its trailing-slash form,
+ * so `/rules/tax/` and `/rules/tax` never both resolve. Previously some of
+ * these served a duplicate 200 and others 404'd.
+ */
+function route(path: string, handler: (request: Request) => Response) {
+  content.on(["GET", "HEAD"], path, (c) => handler(c.req.raw));
+  content.on(["GET", "HEAD"], `${path}/`, (c) => c.redirect(path, 301));
+}
+
+function renderCatalogDocument({ origin, appDownloadUrl, noindex }: RenderContext): string {
   const pathname = "/rules";
   const title = "Immio Rule Guide | Tax Residency, Travel & Immigration Rules";
   const description =
@@ -66,35 +100,49 @@ function renderCatalogDocument(origin: string, appDownloadUrl: string): string {
     title,
     description,
     canonical: new URL(pathname, origin).toString(),
+    noindex,
     jsonLd: [
       renderJsonLd(buildWebPageJsonLd({ origin, pathname, title, description })),
       renderJsonLd(buildBreadcrumbListJsonLd(buildCatalogBreadcrumbs(), origin)),
+      renderJsonLd(buildRuleItemList(origin, "Immio Rule Guide", getAllRules())),
     ],
     bodyHtml,
   });
 }
 
-function renderCategoryDocument(origin: string, appDownloadUrl: string, category: Category): string {
+function buildRuleItemList(origin: string, name: string, rules: RuleDoc[]): object {
+  return buildItemListJsonLd({
+    origin,
+    name,
+    items: rules.map((rule) => ({
+      name: rule.frontmatter.title,
+      pathname: `/rules/${rule.frontmatter.id}`,
+    })),
+  });
+}
+
+function renderCategoryDocument({ origin, appDownloadUrl, noindex }: RenderContext, category: Category): string {
   const pathname = `/rules/${category.slug}`;
   const title = `${category.title} Rules | Immio Rule Guide`;
   const description = category.description;
-  const bodyHtml = renderToStaticMarkup(
-    createElement(RuleTypePage, { category, rules: getRulesForCategory(category.id), appDownloadUrl }),
-  );
+  const rules = getRulesForCategory(category.id);
+  const bodyHtml = renderToStaticMarkup(createElement(RuleTypePage, { category, rules, appDownloadUrl }));
 
   return renderDocument({
     title,
     description,
     canonical: new URL(pathname, origin).toString(),
+    noindex,
     jsonLd: [
       renderJsonLd(buildWebPageJsonLd({ origin, pathname, title, description })),
       renderJsonLd(buildBreadcrumbListJsonLd(buildCategoryBreadcrumbs(category), origin)),
+      renderJsonLd(buildRuleItemList(origin, `${category.title} rules`, rules)),
     ],
     bodyHtml,
   });
 }
 
-function renderCountriesDocument(origin: string, appDownloadUrl: string): string {
+function renderCountriesDocument({ origin, appDownloadUrl, noindex }: RenderContext): string {
   const pathname = "/rules/countries";
   const title = "Rules by Country | Immio Rule Guide";
   const description = "Browse tax residency, travel, and immigration rules by country.";
@@ -106,54 +154,77 @@ function renderCountriesDocument(origin: string, appDownloadUrl: string): string
     title,
     description,
     canonical: new URL(pathname, origin).toString(),
+    noindex,
     jsonLd: [
       renderJsonLd(buildWebPageJsonLd({ origin, pathname, title, description })),
       renderJsonLd(buildBreadcrumbListJsonLd(buildCountriesBreadcrumbs(), origin)),
+      renderJsonLd(
+        buildItemListJsonLd({
+          origin,
+          name: "Rules by country",
+          items: getAllPlaces().map((place) => ({
+            name: place.name,
+            pathname:
+              getRulesForPlace(place.id).length > 1
+                ? `/rules/countries/${place.slug}`
+                : `/rules/${getRulesForPlace(place.id)[0].frontmatter.id}`,
+          })),
+        }),
+      ),
     ],
     bodyHtml,
   });
 }
 
-function renderCountryDocument(origin: string, appDownloadUrl: string, place: RulePlace): string {
+function renderCountryDocument({ origin, appDownloadUrl, noindex }: RenderContext, place: RulePlace): string {
   const pathname = `/rules/countries/${place.slug}`;
   const title = `${place.name} Rules | Immio Rule Guide`;
   const description = `Tax residency, travel, and immigration rules for ${place.name}.`;
-  const bodyHtml = renderToStaticMarkup(
-    createElement(CountryPage, { place, rules: getRulesForPlace(place.id), appDownloadUrl }),
-  );
+  const rules = getRulesForPlace(place.id);
+  const bodyHtml = renderToStaticMarkup(createElement(CountryPage, { place, rules, appDownloadUrl }));
 
   return renderDocument({
     title,
     description,
     canonical: new URL(pathname, origin).toString(),
+    noindex,
     jsonLd: [
       renderJsonLd(buildWebPageJsonLd({ origin, pathname, title, description })),
       renderJsonLd(buildBreadcrumbListJsonLd(buildCountryBreadcrumbs(place), origin)),
+      renderJsonLd(buildRuleItemList(origin, `${place.name} rules`, rules)),
     ],
     bodyHtml,
   });
 }
 
-function renderRuleDocument(origin: string, appDownloadUrl: string, category: Category, rule: RuleDoc): string {
+function renderRuleDocument(
+  { origin, appDownloadUrl, noindex }: RenderContext,
+  category: Category,
+  rule: RuleDoc,
+): string {
   const pathname = `/rules/${rule.frontmatter.id}`;
   const { title, description } = rule.frontmatter.seo;
+  const place = getPlaceForRule(rule);
   const bodyHtml = renderToStaticMarkup(createElement(RulePage, { category, rule, appDownloadUrl }));
+
+  const faqJsonLd = buildFaqPageJsonLd(rule);
 
   return renderDocument({
     title,
     description,
     canonical: new URL(pathname, origin).toString(),
+    ogType: "article",
+    noindex,
     jsonLd: [
-      renderJsonLd(buildArticleJsonLd({ origin, pathname, rule })),
+      renderJsonLd(buildArticleJsonLd({ origin, pathname, rule, place })),
       renderJsonLd(buildBreadcrumbListJsonLd(buildRuleBreadcrumbs(category, rule), origin)),
+      ...(faqJsonLd ? [renderJsonLd(faqJsonLd)] : []),
     ],
     bodyHtml,
   });
 }
 
-const catalogHandler = htmlHandler(renderCatalogDocument);
-
-function renderLegalDocument(origin: string, appDownloadUrl: string, slug: "privacy" | "terms"): string {
+function renderLegalDocument({ origin, appDownloadUrl, noindex }: RenderContext, slug: "privacy" | "terms"): string {
   const document = getLegalDocument(slug);
   if (!document) {
     throw new Error(`Missing legal document: ${slug}`);
@@ -170,25 +241,23 @@ function renderLegalDocument(origin: string, appDownloadUrl: string, slug: "priv
     title: `${document.headline} | Immio`,
     description,
     canonical: new URL(pathname, origin).toString(),
+    noindex,
     jsonLd: [renderJsonLd(buildWebPageJsonLd({ origin, pathname, title: document.headline, description }))],
     bodyHtml,
   });
 }
 
-const privacyHandler = htmlHandler((origin, appDownloadUrl) => renderLegalDocument(origin, appDownloadUrl, "privacy"));
-const termsHandler = htmlHandler((origin, appDownloadUrl) => renderLegalDocument(origin, appDownloadUrl, "terms"));
+route(
+  "/privacy",
+  htmlHandler((context) => renderLegalDocument(context, "privacy")),
+);
+route(
+  "/terms",
+  htmlHandler((context) => renderLegalDocument(context, "terms")),
+);
 
-content.on(["GET", "HEAD"], "/privacy", (c) => privacyHandler(c.req.raw));
-content.on(["GET", "HEAD"], "/privacy/", (c) => privacyHandler(c.req.raw));
-content.on(["GET", "HEAD"], "/terms", (c) => termsHandler(c.req.raw));
-content.on(["GET", "HEAD"], "/terms/", (c) => termsHandler(c.req.raw));
-
-content.on(["GET", "HEAD"], "/rules", (c) => catalogHandler(c.req.raw));
-content.on(["GET", "HEAD"], "/rules/", (c) => catalogHandler(c.req.raw));
-
-const countriesHandler = htmlHandler(renderCountriesDocument);
-content.on(["GET", "HEAD"], "/rules/countries", (c) => countriesHandler(c.req.raw));
-content.on(["GET", "HEAD"], "/rules/countries/", (c) => countriesHandler(c.req.raw));
+route("/rules", htmlHandler(renderCatalogDocument));
+route("/rules/countries", htmlHandler(renderCountriesDocument));
 
 for (const place of getAllPlaces()) {
   const rules = getRulesForPlace(place.id);
@@ -197,15 +266,20 @@ for (const place of getAllPlaces()) {
   if (rules.length === 1) {
     const target = `/rules/${rules[0].frontmatter.id}`;
     content.on(["GET", "HEAD"], `/rules/countries/${place.slug}`, (c) => c.redirect(target, 301));
+    content.on(["GET", "HEAD"], `/rules/countries/${place.slug}/`, (c) => c.redirect(target, 301));
     continue;
   }
-  const handler = htmlHandler((origin, appDownloadUrl) => renderCountryDocument(origin, appDownloadUrl, place));
-  content.on(["GET", "HEAD"], `/rules/countries/${place.slug}`, (c) => handler(c.req.raw));
+  route(
+    `/rules/countries/${place.slug}`,
+    htmlHandler((context) => renderCountryDocument(context, place)),
+  );
 }
 
 for (const category of getAllCategories()) {
-  const handler = htmlHandler((origin, appDownloadUrl) => renderCategoryDocument(origin, appDownloadUrl, category));
-  content.on(["GET", "HEAD"], `/rules/${category.slug}`, (c) => handler(c.req.raw));
+  route(
+    `/rules/${category.slug}`,
+    htmlHandler((context) => renderCategoryDocument(context, category)),
+  );
 }
 
 for (const rule of getAllRules()) {
@@ -213,10 +287,75 @@ for (const rule of getAllRules()) {
   if (!category) {
     continue;
   }
-  const handler = htmlHandler((origin, appDownloadUrl) =>
-    renderRuleDocument(origin, appDownloadUrl, category, rule),
+  route(
+    `/rules/${rule.frontmatter.id}`,
+    htmlHandler((context) => renderRuleDocument(context, category, rule)),
   );
-  content.on(["GET", "HEAD"], `/rules/${rule.frontmatter.id}`, (c) => handler(c.req.raw));
 }
+
+// Derived from the rule registry, so it can never drift from what is served.
+content.on(["GET", "HEAD"], "/sitemap.xml", (c) =>
+  c.body(renderSitemap(), 200, {
+    "content-type": "application/xml; charset=utf-8",
+    "cache-control": "public, max-age=3600",
+  }),
+);
+
+/**
+ * The landing page and /contact are still client-rendered React, served from
+ * the SPA shell. They are listed explicitly rather than handled by a wildcard
+ * asset fallback: an unknown path must 404, not quietly return the shell with
+ * a 200 (which is what `not_found_handling: "single-page-application"` did,
+ * making every typo an indexable near-duplicate of the homepage).
+ */
+async function serveAppShell(c: { env: ContentBindings; req: { url: string } }): Promise<Response> {
+  const origin = new URL(c.req.url).origin;
+  const shell = await fetchStaticPage(c.env.ASSETS, origin, "/index.html");
+  return new Response(shell.body, {
+    status: 200,
+    headers: {
+      "content-type": "text/html; charset=utf-8",
+      "cache-control": "public, max-age=3600",
+    },
+  });
+}
+
+content.on(["GET", "HEAD"], "/contact", (c) => serveAppShell(c));
+content.on(["GET", "HEAD"], "/contact/", (c) => c.redirect("/contact", 301));
+
+/**
+ * Serves the same static 404 page the asset handler uses for non-worker paths
+ * (`not_found_handling: "404-page"`), so there is one 404 page, not two.
+ *
+ * The asset handler redirects `/404.html` to its extensionless form, and the
+ * ASSETS binding does not follow redirects — an unfollowed 3xx would hand back
+ * an empty body with a 404 status. Hence the single hop.
+ */
+async function fetchStaticPage(assets: Fetcher, origin: string, path: string): Promise<Response> {
+  const response = await assets.fetch(new URL(path, origin));
+  const location = response.status >= 300 && response.status < 400 ? response.headers.get("location") : null;
+  return location ? assets.fetch(new URL(location, origin)) : response;
+}
+
+/**
+ * Registered on the root app in worker/index.ts, not here — Hono ignores a
+ * `notFound` handler on a mounted sub-app and falls back to the parent's,
+ * which is the bare `404 Not Found` text response.
+ */
+export const notFoundHandler: NotFoundHandler<{ Bindings: ContentBindings }> = async (c) => {
+  try {
+    const origin = new URL(c.req.url).origin;
+    const page = await fetchStaticPage(c.env.ASSETS, origin, "/404.html");
+    return new Response(page.body, {
+      status: 404,
+      headers: {
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "public, max-age=300",
+      },
+    });
+  } catch {
+    return c.text("Not found", 404);
+  }
+};
 
 export default content;

@@ -28,6 +28,10 @@ export function assertValidRuleFrontmatter(data: unknown, filePath: string): Rul
     fail(filePath, '"subtitle", if present, must be a non-empty string');
   }
 
+  if (record.publishedAt !== undefined && !isNonEmptyString(record.publishedAt)) {
+    fail(filePath, '"publishedAt", if present, must be a non-empty date string');
+  }
+
   if (!CATEGORY_IDS.includes(record.category as CategoryId)) {
     fail(filePath, `"category" must be one of: ${CATEGORY_IDS.join(", ")}`);
   }

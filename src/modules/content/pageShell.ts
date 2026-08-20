@@ -21,7 +21,9 @@ export function renderDocument({ title, description, canonical, jsonLd, bodyHtml
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="color-scheme" content="light dark" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>${CRITICAL_BACKGROUND_CSS}</style>
     <script>${INAPP_BOOT_SCRIPT}</script>
     <link rel="icon" type="image/svg+xml" href="/logo.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -29,7 +31,14 @@ export function renderDocument({ title, description, canonical, jsonLd, bodyHtml
     <link
       href="https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
+      media="print"
+      onload="this.media='all';this.onload=null"
     />
+    <noscript
+      ><link
+        href="https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    /></noscript>
     <link rel="stylesheet" href="/site-header.css" />
     <link rel="stylesheet" href="/faq-accordion.css" />
     <link rel="stylesheet" href="/site-footer.css" />
@@ -55,6 +64,17 @@ export function renderDocument({ title, description, canonical, jsonLd, bodyHtml
   </body>
 </html>`;
 }
+
+/*
+  Painted before any external stylesheet is fetched, so the very first frame
+  already matches the system appearance. Without this the page opens as a
+  white flash inside the iOS in-app browser (SFSafariViewController) while
+  /content/content.css is still in flight. The two colours must stay in sync
+  with --content-bg in public/content/content.css.
+*/
+const CRITICAL_BACKGROUND_CSS = `:root{color-scheme:light dark;background-color:#ffffff}
+body{margin:0;background-color:#ffffff}
+@media (prefers-color-scheme:dark){:root,body{background-color:#16181c}}`;
 
 const INAPP_BOOT_SCRIPT = `(function(){
   if (location.pathname.indexOf("/rules") !== 0) return;

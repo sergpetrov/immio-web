@@ -2,13 +2,42 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="color-scheme" content="light dark" />
+    <script>
+      // The landing page at "/" is light-only (see :root:has(.immio-landing)
+      // in index.css). Marking it here — before first paint — lets the
+      // critical style below pick the right background for the very first
+      // frame, instead of flashing the wrong one until the bundled CSS lands.
+      if (location.pathname === "/")
+        document.documentElement.setAttribute("data-boot-scheme", "light");
+    </script>
+    <!--
+      Colours kept in sync by hand with :root / body in src/react-app/index.css.
+    -->
+    <style>
+      :root { color-scheme: light dark; background-color: #ffffff; }
+      body { margin: 0; background-color: #ffffff; }
+      :root[data-boot-scheme="light"] { color-scheme: light; }
+      @media (prefers-color-scheme: dark) {
+        :root:not([data-boot-scheme="light"]),
+        :root:not([data-boot-scheme="light"]) body { background-color: #1a1a1a; }
+      }
+    </style>
     <link rel="icon" type="image/svg+xml" href="/logo.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
+      media="print"
+      onload="this.media='all';this.onload=null"
     />
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+      />
+    </noscript>
     <link rel="stylesheet" href="/site-header.css" />
     <link rel="stylesheet" href="/faq-accordion.css" />
     <link rel="stylesheet" href="/site-footer.css" />

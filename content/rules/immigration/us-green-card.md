@@ -28,6 +28,13 @@ sources:
     url: https://travel.state.gov/content/travel/en/us-visas/immigrate/returning-resident.html
     type: official
 
+relatedContent:
+  - us-naturalization
+  - us-tax-residency-spt
+  - us-feie
+  - canada-permanent-residency
+  - uk-ilr-180-day-rule
+
 ---
 
 # United States Green Card (Abandonment, Absence rule)
@@ -89,7 +96,7 @@ family in the US. That evidence is the substance of the rule, far more than the 
   planned as temporary, but abandonment can still be found on the overall facts.
 - **A re-entry permit can be cut to one year.** If you've already spent more than four of the last five years outside
   the US, it's generally issued for one year rather than two.
-- **Citizenship uses a stricter clock.** Its continuous residence test is disrupted by any single absence of more than
+- **[Citizenship](/rules/us-naturalization) uses a stricter clock.** Its continuous residence test is disrupted by any single absence of more than
   180 days (6 months) — so a trip that preserves your green card can still set your citizenship timing back.
 - **Signing the abandonment form gives up the status voluntarily.** Officers sometimes present it at the border to
   someone with a long absence, and signing is a choice rather than an obligation.

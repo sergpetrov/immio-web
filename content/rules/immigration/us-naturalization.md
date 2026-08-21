@@ -26,6 +26,13 @@ sources:
     url: https://www.uscis.gov/policy-manual/volume-12-part-d
     type: official
 
+relatedContent:
+  - us-green-card
+  - us-tax-residency-spt
+  - uk-citizenship
+  - canada-citizenship
+  - australia-citizenship
+
 ---
 
 # United States Citizenship (Naturalization)
@@ -52,7 +59,7 @@ This applies to lawful permanent residents applying to naturalize, however the g
 
 There are two routes, and which one you're on sets both the qualifying period and the presence requirement:
 
-- **Standard route** — **5 years** as a lawful permanent resident, with **913 days** of physical presence inside it.
+- **Standard route** — **5 years** as a [lawful permanent resident](/rules/us-green-card), with **913 days** of physical presence inside it.
 - **Spouse of a US citizen** — **3 years** as a permanent resident and **548 days** of physical presence, living in
   marital union with the citizen spouse throughout.
 

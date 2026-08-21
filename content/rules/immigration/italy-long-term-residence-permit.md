@@ -25,6 +25,13 @@ sources:
     url: https://www.interno.gov.it/it/temi/immigrazione-e-asilo
     type: official
 
+relatedContent:
+  - italy-tax-residency
+  - spain-long-term-residence
+  - schengen-90-180-day-rule
+  - uk-ilr-180-day-rule
+  - us-green-card
+
 ---
 
 # Italy Long-Term Residence Permit

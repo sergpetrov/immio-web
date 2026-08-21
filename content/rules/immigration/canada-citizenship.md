@@ -28,6 +28,14 @@ sources:
     url: https://eservices.cic.gc.ca/rescalc/resCalcStartNew.do
     type: official
 
+relatedContent:
+  - canada-permanent-residency
+  - canada-tax-residency
+  - canada-visitor-visa
+  - uk-citizenship
+  - us-naturalization
+  - australia-citizenship
+
 ---
 
 # Canada Citizenship
@@ -49,7 +57,7 @@ also need tax filings for **3 of those 5 years**, language and a knowledge test.
 
 ## Understanding the rule
 
-This applies to permanent residents applying for citizenship, whatever their nationality or how they became a
+This applies to [permanent residents](/rules/canada-permanent-residency) applying for citizenship, whatever their nationality or how they became a
 permanent resident.
 
 What counts is days you were **physically in Canada**. Ordinary time abroad — holidays, work trips, family visits —

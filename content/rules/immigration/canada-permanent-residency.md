@@ -25,6 +25,14 @@ sources:
     url: https://www.canada.ca/en/immigration-refugees-citizenship/services/new-immigrants/pr-card/apply-renew-replace.html
     type: official
 
+relatedContent:
+  - canada-citizenship
+  - canada-tax-residency
+  - canada-visitor-visa
+  - us-green-card
+  - uk-ilr-180-day-rule
+  - australia-permanent-residency
+
 ---
 
 # Canada Permanent Residency
@@ -93,7 +101,7 @@ spouse's citizenship documents, an employer's assignment letter, proof the emplo
 
 ## If you get this rule wrong
 
-Breaching the obligation doesn't strip your status automatically — it takes a formal determination, made at a border crossing or on a PR card application, and that determination can be appealed to the Immigration Appeal Division. Losing the appeal means a removal order and losing permanent residence outright, which also ends any progress toward citizenship, since the residence you built no longer counts toward it. **Professional advice is strongly recommended in situations like this.**
+Breaching the obligation doesn't strip your status automatically — it takes a formal determination, made at a border crossing or on a PR card application, and that determination can be appealed to the Immigration Appeal Division. Losing the appeal means a removal order and losing permanent residence outright, which also ends any progress toward [Canadian citizenship](/rules/canada-citizenship), since the residence you built no longer counts toward it. **Professional advice is strongly recommended in situations like this.**
 
 ## Examples
 

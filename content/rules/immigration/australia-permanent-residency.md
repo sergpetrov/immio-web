@@ -25,6 +25,13 @@ sources:
     url: https://immi.homeaffairs.gov.au/visas/already-have-a-visa/check-visa-details-and-conditions
     type: official
 
+relatedContent:
+  - australia-citizenship
+  - australia-tax-residency
+  - canada-permanent-residency
+  - us-green-card
+  - uk-ilr-180-day-rule
+
 ---
 
 # Australia Permanent Residency
@@ -93,7 +100,7 @@ of the ties themselves — employment, business activity, family, property.
 
 ## If you get this rule wrong
 
-The failure mode is being stranded — outside Australia with an expired travel facility and unable to board a flight home. Applying for a Resident Return Visa from abroad is the harder position, because the day count that would have qualified you only worsens while you're away. Where neither the residence nor the ties route succeeds, you lose the ability to return as a resident at all, and any progress toward citizenship stops with it. **Professional advice is strongly recommended in situations like this.**
+The failure mode is being stranded — outside Australia with an expired travel facility and unable to board a flight home. Applying for a Resident Return Visa from abroad is the harder position, because the day count that would have qualified you only worsens while you're away. Where neither the residence nor the ties route succeeds, you lose the ability to return as a resident at all, and any progress toward [Australian citizenship](/rules/australia-citizenship) stops with it. **Professional advice is strongly recommended in situations like this.**
 
 ## Examples
 

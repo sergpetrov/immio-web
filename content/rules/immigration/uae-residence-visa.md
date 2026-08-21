@@ -28,6 +28,13 @@ sources:
     url: https://u.ae/en/information-and-services/visa-and-emirates-id/residence-visas/golden-visa
     type: official
 
+relatedContent:
+  - uae-tax-residency
+  - uae-visa
+  - saudi-arabia-tax-residency
+  - us-green-card
+  - uk-ilr-180-day-rule
+
 ---
 
 # United Arab Emirates Residence Visa

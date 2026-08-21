@@ -899,6 +899,10 @@ sources:
     url: https://...
     type: official
 
+relatedContent:            # 3–6 rule IDs — see section 19a
+  - {rule-slug}
+  - {rule-slug}
+
 ---
 ```
 
@@ -913,11 +917,88 @@ search index (`CountriesPage.tsx`). Both were repointed to read `frontmatter.seo
 instead, so `seo.description` is now the single source of descriptive text — write it to do both
 jobs (a good search-result snippet and a good search-index match).
 
-**There is no `relatedContent` field — do not add one.** It was removed from the schema; nothing
-currently reads it.
+**`relatedContent` is live again** (it was dormant for a period, and an earlier version of this
+document said not to use it). It is rendered by
+`src/modules/content/rules/components/RelatedContent.tsx` as the "Related content" block at the end
+of the article, and validated at build time by `scripts/validate-content.mjs`. Every new rule needs
+it — see section 19a.
 
 Quote any YAML string value containing a colon — an unquoted colon inside a scalar breaks YAML
 parsing.
+
+---
+
+## 19a. Related content — and updating the pages that should point back
+
+A rule's `relatedContent` is authored, not computed. Choosing it is only half the job: **adding a
+page is also a maintenance job on the pages already published.** The method for choosing entries —
+the priority ladder, the count, why never to pad — lives in `ai/SEO Plan.md` under "Internal linking
+standard"; read it before curating a set. What follows is the obligation that comes with shipping.
+
+**1. Populate the new page's own list.** 3–6 entries, same jurisdiction first, then the *matching
+rule type* across countries (a citizenship rule pairs with other citizenship rules, a
+settlement/PR rule with other settlement/PR rules). Stop early rather than pad with a weak match:
+five strong links beat six with two arbitrary ones. Six is the hard ceiling, enforced by the
+validator.
+
+**2. Then go back and update the existing pages that should now point at it.** This is the step
+that gets skipped. A new rule that links out to six others but is linked *from* nowhere is
+effectively invisible to the internal link graph — it collects no authority and readers never reach
+it from a related article. So after writing the file:
+
+- List the rules whose readers plausibly want the new one: same country first, then the same rule
+  type in comparable jurisdictions.
+- For each, open the file and decide whether the new rule earns a slot. If that page is already at
+  six, either swap out its weakest entry or leave it alone — do not exceed six.
+- Aim for the new rule appearing in **at least 2–3** other rules' lists before it is considered done.
+- `npm run validate-content` prints how many rules receive inbound links; use it to check the new
+  page is not left at zero.
+
+Reciprocity is the normal outcome for same-country pairs (PR ↔ citizenship, tax ↔ visa) and is worth
+making deliberate. It is not required for cross-country links — a page whose six slots are full of
+closer matches should keep them.
+
+**3. Watch for hub concentration.** A handful of canonical rules (currently `us-green-card` and
+`uk-ilr-180-day-rule`) attract links from everywhere. If one is climbing well past the others,
+redistribute rather than let two pages absorb the internal link equity the long tail needs.
+
+### US rules and US state rules
+
+US state rules (New York, California, and the rest of the statutory-residency set) are a planned
+expansion. When they exist, they are the **most relevant** related content for the US federal rules
+and for each other — a reader on the US Substantial Presence Test is very often the same person who
+needs New York or California statutory residency.
+
+So, for any US rule:
+
+- Include the state rules that genuinely bear on it before reaching for another country.
+- Where a US rule cannot find six genuinely relevant links from federal rules alone, **fill the
+  remaining slots with US state rules** rather than padding with unrelated jurisdictions. This is
+  the one place where filling to six is preferred, because the state rules are always relevant to a
+  US reader.
+- Every new state rule must also be added back into the federal US rules' lists per step 2 above,
+  and cross-linked with the neighbouring states a reader is likely to be weighing (NY ↔ NJ ↔ CT,
+  CA ↔ neighbouring western states).
+
+Note the exception this creates: `us-green-card` and `us-naturalization` currently drop
+`us-b1b2-visa` and `us-esta` because visitor-visa rules are irrelevant to someone who already holds
+status. State residency rules are not in that category — they are relevant to every US reader.
+
+### Articles that are not rules
+
+The same obligation applies to non-rule content — a question answer ("does a layover count as a day
+in a country?"), a comparison piece, a general explainer. These are the pieces most likely to be
+published and then left unlinked, because they do not slot into the country/category grid the way a
+rule does.
+
+When one ships:
+
+- Give it its own related content, mixing the rules it explains and any sibling articles.
+- **Find every rule whose readers would want it and add it there.** A guide on proving days spent in
+  a country belongs on the rules where evidence actually matters; a Schengen/EES explainer belongs
+  on the Schengen rule and on the visitor-visa rules around it.
+- An article that only links outward is the failure mode to avoid. Guides earn their place by
+  feeding the rule pages *and* being reachable from them.
 
 ---
 
@@ -1070,7 +1151,11 @@ After any batch content or schema change across multiple articles:
    counting label across all immigration articles found the same mislabel in four; checking the
    table alignment found six ragged tables nobody had asked about. The grep costs seconds and the
    article you didn't check is the one that stays wrong.
-5. **After a scripted or regex edit, re-check list numbering and table structure.** `sed` and
+5. **After adding a page, confirm it is reachable from other pages, not just linking out of.**
+   Run `npm run validate-content` and check the new rule appears in at least two other rules'
+   `relatedContent` (see section 19a, step 2). A page with zero inbound related links is the most
+   common thing left half-finished.
+6. **After a scripted or regex edit, re-check list numbering and table structure.** `sed` and
    `perl` substitutions across numbered lists have twice produced duplicate or malformed markers
    that render as broken lists. An `awk` pass for repeated consecutive list numbers, and a width
    check across each table block, catch both.
@@ -1092,6 +1177,9 @@ Before delivering the Markdown file, audit it against:
   questions, concise answers.
 - **AI retrieval** — if a retrieval system pulled only one section, would it still make sense on
   its own?
+- **Related content, both directions** — the article has 3–6 curated entries, *and* the existing
+  pages that should point at it have been updated (section 19a). Check the inbound count, not just
+  the outbound list.
 - **Final official-source comparison** — compare the finished article against the official sources
   one more time. If a competitor or community source conflicts with official guidance, official
   guidance wins.

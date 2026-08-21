@@ -25,6 +25,13 @@ sources:
     url: https://www.inclusion.gob.es/web/migraciones/inicio
     type: official
 
+relatedContent:
+  - spain-tax-residency
+  - italy-long-term-residence-permit
+  - schengen-90-180-day-rule
+  - uk-ilr-180-day-rule
+  - us-green-card
+
 ---
 
 # Spain Long-Term Residence

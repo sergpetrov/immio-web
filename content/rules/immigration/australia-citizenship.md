@@ -25,6 +25,14 @@ sources:
     url: https://immi.homeaffairs.gov.au/help-support/tools/residence-calculator
     type: official
 
+relatedContent:
+  - australia-permanent-residency
+  - australia-tax-residency
+  - canada-citizenship
+  - uk-citizenship
+  - us-naturalization
+  - schengen-90-180-day-rule
+
 ---
 
 # Australia Citizenship
@@ -53,7 +61,7 @@ The requirement stacks two kinds of residence, and both have to hold at once:
 
 - **4 years of lawful residence** — time on any valid visa counts, including student, temporary work and bridging
   visas. Many applicants have already built most of this before permanent residence is granted.
-- **12 months as a permanent resident** — a narrower condition sitting inside those 4 years, and it has to be the full
+- **12 months as a [permanent resident](/rules/australia-permanent-residency)** — a narrower condition sitting inside those 4 years, and it has to be the full
   year immediately before you apply.
 
 Two absence limits run across the same period — one caps your **total** time away, the other your absence in the

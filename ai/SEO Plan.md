@@ -849,7 +849,10 @@ and paste a rule URL into Slack/iMessage to confirm the card unfurls.
   6. `canada-citizenship` — same
 
 - [x] P1-1c [scripts/validate-content.mjs](scripts/validate-content.mjs) — build-time check for unknown/self/duplicate/over-limit `relatedContent`, wired into `npm run build` and `npm run check`
-- [ ] P1-1d Back-fill `relatedContent` across the remaining 53 rules
+- [x] P1-1c2 **All 11 immigration rules** back-filled (5–6 each), each with an in-body link where the sibling was already named in visible prose. Pattern: same jurisdiction first, then the *matching* rule type across countries — citizenship pages pair with citizenship pages, settlement/PR pages with settlement/PR pages. Coverage: 23 of 54 rules now receive inbound related links.
+  - Padding avoided where it would have been weak: `us-green-card` links 5, not 6 — `us-b1b2-visa` and `us-esta` are same-jurisdiction but irrelevant to a green-card holder, so the slots went to cross-country PR analogues instead.
+  - `us-green-card` and `uk-ilr-180-day-rule` now carry 7 inbound links each. Watch this: if the tax/travel back-fill pushes them much higher, redistribute rather than let two hubs absorb the internal link equity.
+- [ ] P1-1d Back-fill `relatedContent` across the remaining 43 rules (33 tax, 10 travel)
 - [ ] P1-1e Footer nav (Rule Guide, the three categories, Rules by country)
 - [ ] P1-2 Rewrite 51 over-length meta descriptions, then add the length assertion to `validate.ts`
 - [ ] P1-3 Title/H1 pattern rewrite (category pages, `/rules/countries` `<h1>`)

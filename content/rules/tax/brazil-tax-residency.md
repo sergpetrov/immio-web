@@ -9,11 +9,11 @@ category: tax
 place: br
 
 seo:
-  title: Brazil Tax Residency Rules Explained | Immio
+  title: Brazil Tax Residency – 183-Day Rule | Immio
   description: >
-    How Brazilian tax residency works — the 184-day rule inside a rolling
-    twelve-month window, the visa and employment routes that make you
-    resident on arrival, and the exit filing that ends residency.
+    More than 183 days in Brazil across any rolling 12-month period makes you a
+    tax resident. Permanent residence or an employment contract applies from day
+    one.
 
 updatedAt: 2026-08-13
 
@@ -40,7 +40,7 @@ relatedContent:
 
 :::callout
 You can become a Brazilian tax resident if you spend **more than 183 days** there, counted across **any 12-month**
-period. **Permanent residence** status, or Brazilian **employment** contract make your resident from **first day**.
+period. **Permanent residence** status, or a Brazilian **employment** contract, makes you a resident from the **first day**.
 Ending residency needs a formal exit filing.
 :::
 

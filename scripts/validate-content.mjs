@@ -50,7 +50,32 @@ for (const file of walk(rulesDir)) {
 
 const inbound = new Map([...rules.keys()].map((id) => [id, 0]));
 
+const DESCRIPTION_MIN = 140;
+const DESCRIPTION_MAX = 220;
+// 60 is the safe display width; the ceiling is looser because a longer title is
+// fine when the overflow falls on the "| Immio" suffix rather than on content.
+const TITLE_MAX = 70;
+
 for (const [id, { file, frontmatter }] of rules) {
+  const description = (frontmatter.seo?.description ?? "").replace(/\s+/g, " ").trim();
+  const title = (frontmatter.seo?.title ?? "").trim();
+
+  if (description.length < DESCRIPTION_MIN || description.length > DESCRIPTION_MAX) {
+    errors.push(
+      `${file}: "seo.description" is ${description.length} chars, want ${DESCRIPTION_MIN}-${DESCRIPTION_MAX}`,
+    );
+  }
+  // A hyphenated word split across two lines of a folded YAML scalar comes back
+  // as "tax- home" once the newline folds to a space. Wrap with
+  // break_on_hyphens disabled.
+  const wrapArtifact = /[a-z]- [a-z]/.exec(description);
+  if (wrapArtifact) {
+    errors.push(`${file}: "seo.description" looks line-wrapped mid-word near "${wrapArtifact[0]}"`);
+  }
+  if (title.length > TITLE_MAX) {
+    errors.push(`${file}: "seo.title" is ${title.length} chars, max ${TITLE_MAX}`);
+  }
+
   const related = frontmatter.relatedContent ?? [];
 
   if (related.length > MAX_RELATED) {

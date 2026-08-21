@@ -9,11 +9,11 @@ category: immigration
 place: ca
 
 seo:
-  title: Canada Permanent Residency Rules Explained | Immio
+  title: Canada Permanent Residency – 730-Day Rule | Immio
   description: >
-    How Canada's permanent residency obligation works — the 730-day rule
-    over a rolling 5 years, which time abroad still counts, PR card
-    renewal, and what losing status actually involves.
+    730 days (2 years) physically in Canada across any rolling 5-year period
+    keeps permanent residency. Some time abroad still counts toward the 730
+    total.
 
 updatedAt: 2026-08-15
 

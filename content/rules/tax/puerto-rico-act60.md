@@ -9,11 +9,10 @@ category: tax
 place: pr
 
 seo:
-  title: Puerto Rico Tax Residency Rules Explained | Immio
+  title: Puerto Rico Act 60 – 183-Day Rule | Immio
   description: >
-    How bona fide residency in Puerto Rico works — the presence, tax home
-    and closer connection tests, the alternative day-count routes, and how
-    Act 60 decrees and their 2026 rate changes build on that status.
+    Bona fide residence in Puerto Rico normally needs 183 days in the calendar
+    year, or 549 across three. Tax-home and closer-connection tests apply too.
 
 updatedAt: 2026-08-13
 

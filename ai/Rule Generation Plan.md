@@ -1002,6 +1002,39 @@ When one ships:
 
 ---
 
+## 19b. The Overview callout is shared with the app — keep both in sync
+
+The app renders the **same callout text** as each rule's tracker description, in:
+
+```
+<app repo>/tracker/composeApp/src/commonMain/composeResources/values/trackers.xml
+```
+
+as `<string name="overview_{tracker_name}">`. **Any edit to a callout — including a one-word typo fix
+— must be applied there too**, or the two drift and the same rule reads differently in the app and on
+the web.
+
+Two things to know before editing that file:
+
+**1. Preserve `(not tracked here yet)`.** Some app strings carry that parenthetical to mark a route
+the tracker does not yet implement — Singapore's 2-year employment route, Puerto Rico's 549-day
+alternative, Hong Kong's 300-day route, India's 60-day-plus-history test, Israel's 30+425 test. It is
+app state, not web content, so it exists **only** in the XML and must survive a sync. Drop it only
+when the app actually starts tracking that route.
+
+**2. The string names do not match rule IDs one-for-one.** Most are the ID with underscores, but
+eleven differ — `australia_residency`, `canada_residency`, `india_tourist_visa`,
+`italy_residence_permit`, `puerto_rico_act60_residency`, `schengen`, `thailand_visa_exemption`,
+`uk_ilr`, `uk_srt`, `us_citizenship`, `us_spt`. Map by meaning, not by string similarity.
+
+The file is **not under version control** — back it up before a scripted edit.
+
+To check for drift, strip the Markdown from each callout (`**` and `[text](url)` → `text`), collapse
+whitespace, remove the `(not tracked here yet)` inserts, and compare against the XML strings. A rule
+whose callout changed but whose XML string did not is the failure this section exists to prevent.
+
+---
+
 ## 20. SEO requirements
 
 Optimize naturally — no keyword stuffing. The page should clearly target the natural search
@@ -1151,11 +1184,13 @@ After any batch content or schema change across multiple articles:
    counting label across all immigration articles found the same mislabel in four; checking the
    table alignment found six ragged tables nobody had asked about. The grep costs seconds and the
    article you didn't check is the one that stays wrong.
-5. **After adding a page, confirm it is reachable from other pages, not just linking out of.**
+5. **If a callout changed, sync `trackers.xml` in the app repo** (section 19b), preserving any
+   `(not tracked here yet)` markers.
+6. **After adding a page, confirm it is reachable from other pages, not just linking out of.**
    Run `npm run validate-content` and check the new rule appears in at least two other rules'
    `relatedContent` (see section 19a, step 2). A page with zero inbound related links is the most
    common thing left half-finished.
-6. **After a scripted or regex edit, re-check list numbering and table structure.** `sed` and
+7. **After a scripted or regex edit, re-check list numbering and table structure.** `sed` and
    `perl` substitutions across numbered lists have twice produced duplicate or malformed markers
    that render as broken lists. An `awk` pass for repeated consecutive list numbers, and a width
    check across each table block, catch both.

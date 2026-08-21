@@ -9,11 +9,11 @@ category: tax
 place: nz
 
 seo:
-  title: New Zealand Tax Residency Rules Explained | Immio
+  title: New Zealand Tax Residency – 183-Day Rule | Immio
   description: >
-    How New Zealand tax residency works — the 183-day rule over a rolling
-    12 months, the permanent place of abode test, the 325-day rule for
-    becoming a non-resident, and the non-resident visitor carve-out.
+    More than 183 days in New Zealand across any 12-month period makes you a tax
+    resident, backdated to the first day. A permanent place of abode qualifies
+    too.
 
 updatedAt: 2026-08-13
 

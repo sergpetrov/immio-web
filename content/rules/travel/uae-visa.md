@@ -9,11 +9,10 @@ category: travel
 place: ae
 
 seo:
-  title: UAE Visit Visa Rules Explained | Immio
+  title: UAE Visit Visa – 90/180-Day Rule | Immio
   description: >
-    How UAE entry permissions work — visa-free entry and visa on arrival
-    by nationality, the 90 days in any 180 window, how extensions
-    actually work, and what an overstay costs.
+    Entry to the UAE is free for many nationalities for 90 days within any
+    180-day period, or 30 days per visit. GCC nationals need no visa at all.
 
 updatedAt: 2026-08-18
 
@@ -47,7 +46,7 @@ relatedContent:
 
 :::callout
 Entry to the UAE is free for many nationalities for **90 days** within **any 180-day** period, or **30 days**
-per **visit**. **GCC nationals** need no visa at all, some nationalities can take a **visa on arrival** instead.
+per **visit**. **GCC nationals** need no visa at all. Some other nationalities can take a **visa on arrival** instead.
 :::
 
 | Key parameters          |                                       |

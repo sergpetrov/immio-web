@@ -9,11 +9,11 @@ category: tax
 place: uy
 
 seo:
-  title: Uruguay Tax Residency Rules Explained | Immio
+  title: Uruguay Tax Residency – 183-Day Rule | Immio
   description: >
-    How Uruguayan tax residency works — the 183-day rule and sporadic
-    absences, the centre of vital and economic interests test, the family
-    presumption, and the property and business investment routes.
+    More than 183 days in Uruguay in a calendar year, sporadic absences
+    included, can make you a tax resident. Main base of activities or vital
+    interests too.
 
 updatedAt: 2026-08-13
 

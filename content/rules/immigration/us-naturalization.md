@@ -9,12 +9,11 @@ category: immigration
 place: us
 
 seo:
-  title: US Naturalization Residence Rules Explained | Immio
+  title: US Citizenship (Naturalization) – 913-Day Presence Rule | Immio
   description: >
-    How US naturalization residence rules work — the 5-year continuous
-    residence requirement, the separate 913-day physical presence test,
-    why 180 days (6 months) abroad or less per trip is the safe zone, how
-    365 days breaks continuity, and the 3-year spouse route.
+    913 days of physical presence across the 5 years before applying, staying
+    under 180 days abroad per trip. Spouses of US citizens: 3 years and 548
+    days.
 
 updatedAt: 2026-08-15
 

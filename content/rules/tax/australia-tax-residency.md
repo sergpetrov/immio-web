@@ -9,11 +9,11 @@ category: tax
 place: au
 
 seo:
-  title: Australia Tax Residency Rules Explained | Immio
+  title: Australia Tax Residency – 183-Day Rule | Immio
   description: >
-    How Australian tax residency works — the resides test, the domicile
-    test, the 183-day test and its carve-out, the superannuation test,
-    and how the Australian income year is counted.
+    183 days or more in Australia in the income year (1 July–30 June) can make
+    you a tax resident. The resides, domicile and superannuation tests also
+    apply.
 
 updatedAt: 2026-08-13
 

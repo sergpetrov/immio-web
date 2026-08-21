@@ -9,11 +9,11 @@ category: tax
 place: es
 
 seo:
-  title: Spain Tax Residency Rules Explained | Immio
+  title: Spain Tax Residency – 183-Day Rule | Immio
   description: >
-    How Spanish tax residency works — the 183-day rule, the centre of
-    economic interests test, the family presumption, and the Beckham Law
-    special regime for new arrivals.
+    More than 183 days in Spain in a calendar year can make you a tax resident.
+    Your main base of economic activity, or a spouse and minor children there,
+    also do.
 
 updatedAt: 2026-08-13
 

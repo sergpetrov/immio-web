@@ -9,11 +9,11 @@ category: travel
 place: us
 
 seo:
-  title: US ESTA and Visa Waiver Program Rules Explained | Immio
+  title: US ESTA & Visa Waiver – 90 Days Per Visit Limit | Immio
   description: >
-    How the US Visa Waiver Program works — the hard 90-day limit, why
-    neighbouring-country trips don't reset it, what ESTA validity does
-    and doesn't mean, and what disqualifies you from the programme.
+    The Visa Waiver Program gives 90 days per trip with no visa, on an ESTA
+    valid 2 years. The 90 days are a hard ceiling — no extension, no change of
+    status.
 
 updatedAt: 2026-08-15
 

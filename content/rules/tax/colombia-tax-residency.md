@@ -9,11 +9,11 @@ category: tax
 place: co
 
 seo:
-  title: Colombia Tax Residency Rules Explained | Immio
+  title: Colombia Tax Residency – 183-Day Rule | Immio
   description: >
-    How Colombian tax residency works — the 183-day rule measured over any
-    365 consecutive days, which tax year residency attaches to when a stay
-    spans a year boundary, and the extra conditions for Colombian nationals.
+    More than 183 days in any rolling 365-day period triggers Colombian tax
+    residency. Where the count spans two tax years, residency falls in the
+    second.
 
 updatedAt: 2026-08-13
 

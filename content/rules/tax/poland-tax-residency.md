@@ -9,11 +9,11 @@ category: tax
 place: pl
 
 seo:
-  title: Poland Tax Residency Rules Explained | Immio
+  title: Poland Tax Residency – 183-Day Rule | Immio
   description: >
-    How Polish tax residency works — the 183-day rule, the center of
-    vital interests test, how presence is counted, and the return relief
-    for new and returning residents.
+    More than 183 days in Poland in a calendar year can make you a tax resident.
+    The centre of vital interests test needs no day count and often matters
+    more.
 
 updatedAt: 2026-08-13
 
@@ -40,7 +40,7 @@ relatedContent:
 
 :::callout
 **More than 183 days** in Poland in a **calendar year** can make you a tax resident. Alternatively, the **center of vital
-interests test** triggers it too, with **no day count** at all — and in practice that test more important than the days.
+interests test** triggers it too, with **no day count** at all — and in practice that test matters more than the days.
 :::
 
 | Key parameters  |                                |

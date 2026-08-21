@@ -9,11 +9,11 @@ category: tax
 place: ca
 
 seo:
-  title: Canada Tax Residency Rules Explained | Immio
+  title: Canada Tax Residency – 183-Day Rule | Immio
   description: >
-    How Canadian tax residency works — the residential ties test, the
-    183-day deemed-residency backstop, how sojourned days are counted,
-    and how tax treaties can override both tests.
+    183 days or more in Canada in a calendar year can make you a deemed
+    resident. Significant residential ties — home, spouse, dependants — need no
+    day count.
 
 updatedAt: 2026-08-13
 

@@ -9,11 +9,10 @@ category: tax
 place: gb
 
 seo:
-  title: UK Statutory Residence Test (SRT) Explained | Immio
+  title: UK Tax Residency – Statutory Residence Test (SRT) | Immio
   description: >
-    How the UK Statutory Residence Test works — the 183-day rule, the
-    automatic overseas and automatic UK tests, the five UK ties, and how
-    to count UK days under the midnight rule.
+    How many UK days you can spend at midnight — from 15 to 182 — depends on
+    your ties and recent residence history. The SRT runs three stages in order.
 
 updatedAt: 2026-08-12
 

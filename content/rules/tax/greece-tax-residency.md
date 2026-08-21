@@ -9,11 +9,11 @@ category: tax
 place: gr
 
 seo:
-  title: Greece Tax Residency Rules Explained | Immio
+  title: Greece Tax Residency – 183-Day Rule | Immio
   description: >
-    How Greek tax residency works — the 183-day rule over any 12-month
-    period, the centre of vital interests test, why residency is backdated
-    to your first day, and the flat-rate regimes for new residents.
+    More than 183 days in Greece across any 12-month period can make you a tax
+    resident, backdated to your first day. Permanent home or vital interests
+    qualify too.
 
 updatedAt: 2026-08-13
 

@@ -1,7 +1,7 @@
 ---
 id: schengen-90-180-day-rule
 
-title: Schengen 90/180-Day Rule
+title: Schengen Area 90/180-Day Rule
 subtitle: 90 days ∙ Rolling 180 days
 
 category: travel
@@ -9,11 +9,11 @@ category: travel
 place: schengen
 
 seo:
-  title: Schengen 90/180-Day Rule Explained | Immio
+  title: Schengen Area – 90/180-Day Rule | Immio
   description: >
-    How the Schengen 90/180-day rule works — the rolling 180-day window,
-    why the whole area counts as one territory, the Entry/Exit System and
-    upcoming ETIAS requirement, and what an overstay costs.
+    Visa-free visitors and short-stay visa holders get 90 days in the Schengen
+    Area within any 180-day period. The window rolls, and the whole area counts
+    as one.
 
 updatedAt: 2026-08-15
 
@@ -41,7 +41,7 @@ relatedContent:
 
 ---
 
-# Schengen 90/180-Day Rule
+# Schengen Area 90/180-Day Rule
 
 ## Overview
 

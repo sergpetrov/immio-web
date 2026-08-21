@@ -9,11 +9,11 @@ category: tax
 place: ae
 
 seo:
-  title: UAE Tax Residency Rules Explained | Immio
+  title: UAE Tax Residency – 90 & 183-Day Rules | Immio
   description: >
-    How UAE individual tax residency works — the 183-day test, the 90-day
-    test, the centre-of-interests test, and why residency still matters
-    with no personal income tax.
+    183 days in the UAE across any 12-month period makes you a tax resident, or
+    90 with extra conditions. No income tax, so this mainly matters for
+    treaties.
 
 updatedAt: 2026-08-13
 

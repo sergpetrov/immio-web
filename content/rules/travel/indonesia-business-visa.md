@@ -9,11 +9,11 @@ category: travel
 place: id
 
 seo:
-  title: Indonesia Business Visit Visa Rules Explained | Immio
+  title: Indonesia Business Visa – 60 Days Per Visit Limit | Immio
   description: >
-    How Indonesia's business visit visa works — the 60-day stay, the two
-    60-day extensions to 180 days, the single-entry catch, the sponsor
-    requirement, and where the line with actual employment sits.
+    The business visit visa gives 60 days on arrival and extends twice by 60
+    days each, to 180 days in one stay. It needs a sponsor and covers visits,
+    not work.
 
 updatedAt: 2026-08-15
 

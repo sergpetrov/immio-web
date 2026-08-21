@@ -9,11 +9,11 @@ category: tax
 place: fr
 
 seo:
-  title: France Tax Residency Rules Explained | Immio
+  title: France Tax Residency – 183-Day Rule | Immio
   description: >
-    How French tax residency works — the foyer and principal-place-of-stay
-    tests, the professional activity and centre of economic interests
-    criteria, and why staying under 183 days doesn't make you a nonresident.
+    More than 183 days in France in a calendar year can trigger tax residency if
+    you have no settled home elsewhere. Home, work or economic interests qualify
+    too.
 
 updatedAt: 2026-08-13
 

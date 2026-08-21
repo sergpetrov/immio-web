@@ -9,11 +9,10 @@ category: tax
 place: us
 
 seo:
-  title: US Substantial Presence Test (SPT) Explained | Immio
+  title: US Tax Residency – Substantial Presence Test (SPT) | Immio
   description: >
-    How the US Substantial Presence Test works — the 31-day and weighted
-    183-day thresholds, which days count, exempt individuals, and the
-    closer connection exception.
+    The Substantial Presence Test needs 31 days in the US this year plus 183
+    weighted days over three — full, 1/3, then 1/6. Not a plain 183-day rule.
 
 updatedAt: 2026-08-12
 

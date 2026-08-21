@@ -1,7 +1,7 @@
 ---
 id: uk-ilr-180-day-rule
 
-title: UK Indefinite Leave to Remain (ILR, Settlement)
+title: UK ILR (Settlement)
 subtitle: 180 days of absence ∙ Rolling 12 months
 
 category: immigration
@@ -9,11 +9,11 @@ category: immigration
 place: gb
 
 seo:
-  title: UK ILR 180-Day Absence Rule Explained | Immio
+  title: UK ILR (Settlement) – 180-Day Absence Rule | Immio
   description: >
-    How the UK's ILR 180-day absence rule works — the rolling 12-month
-    window, which absences count, the routes that use different rules,
-    and what breaking continuous residence costs you.
+    More than 180 days outside the UK in any 12-month period breaks continuous
+    residence and resets the clock. Qualifying periods run 2, 3, 5 or 10 years
+    by route.
 
 updatedAt: 2026-08-15
 
@@ -38,7 +38,7 @@ relatedContent:
 
 ---
 
-# United Kingdom Indefinite Leave to Remain (ILR)
+# United Kingdom Indefinite Leave to Remain (Settlement) 
 
 ## Overview
 

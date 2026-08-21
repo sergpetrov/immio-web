@@ -9,11 +9,10 @@ category: tax
 place: id
 
 seo:
-  title: Indonesia Tax Residency Rules Explained | Immio
+  title: Indonesia Tax Residency – 183-Day Rule | Immio
   description: >
-    How Indonesian tax residency works — the 183-day rule over a rolling
-    12 months, what counts as residing in Indonesia, the intention-to-
-    reside test, and how days of presence are counted.
+    More than 183 days in Indonesia in any rolling 12-month period can make you
+    a tax resident. Residing there — your centre of activity — settles it too.
 
 updatedAt: 2026-08-13
 

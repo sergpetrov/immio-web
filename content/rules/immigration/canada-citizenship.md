@@ -9,11 +9,11 @@ category: immigration
 place: ca
 
 seo:
-  title: Canada Citizenship Residence Rules Explained | Immio
+  title: Canada Citizenship – 1,095-Day Presence Rule | Immio
   description: >
-    How Canada's citizenship physical presence rule works — the 1,095-day
-    requirement over 5 years, how pre-permanent-residence time counts at
-    half rate, the tax filing condition, and what a refusal costs.
+    1095 days (3 years) physically in Canada within the 5 years before
+    applying. Time before permanent residence counts at half a day, capped at
+    365.
 
 updatedAt: 2026-08-15
 

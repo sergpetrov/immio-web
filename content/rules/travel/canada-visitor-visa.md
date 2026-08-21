@@ -9,11 +9,11 @@ category: travel
 place: ca
 
 seo:
-  title: Canada Visitor Visa Rules Explained | Immio
+  title: Canada Visitor Visa – 6 Months Per Visit Limit | Immio
   description: >
-    How Canada's visitor rules work — the 6-month default stay, the
-    difference between an eTA and a visitor visa, what happens without a
-    passport stamp, extensions, and restoring lost status.
+    Most visitors to Canada are admitted for 6 months from entry, and an
+    unstamped passport still means 6 months. There is no annual cap and no
+    rolling window.
 
 updatedAt: 2026-08-15
 

@@ -9,11 +9,10 @@ category: travel
 place: gb
 
 seo:
-  title: UK Standard Visitor Visa Rules Explained | Immio
+  title: UK Standard Visitor Visa – 6 Months Per Visit Limit | Immio
   description: >
-    How the UK Standard Visitor visa works — the 6-month limit per visit,
-    what long-term visitor visas actually grant, the permitted activities,
-    and why frequent visits can get you refused.
+    A Standard Visitor can stay up to 6 months per visit. A long-term 2, 5 or
+    10-year visa doesn't extend that — each visit is still capped at 6 months.
 
 updatedAt: 2026-08-15
 

@@ -9,11 +9,11 @@ category: travel
 place: us
 
 seo:
-  title: US B-1/B-2 Visitor Visa Rules Explained | Immio
+  title: US B-1/B-2 Visa – 6 Months Per Visit Limit | Immio
   description: >
-    How the US B-1/B-2 visitor visa works — why visa validity is not your
-    stay limit, how the I-94 admission date decides how long you can stay,
-    extensions, and what unlawful presence costs.
+    The B-1/B-2 covers business and tourism, each arrival admitted separately
+    for up to 6 months. The date recorded on your I-94 is the deadline that
+    counts.
 
 updatedAt: 2026-08-15
 

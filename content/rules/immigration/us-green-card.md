@@ -9,11 +9,11 @@ category: immigration
 place: us
 
 seo:
-  title: US Green Card Abandonment Rules Explained | Immio
+  title: US Green Card – 6-Month Absence Rule | Immio
   description: >
-    How US permanent residence is lost through absence — the 6-month and
-    1-year thresholds, why intent decides it rather than days, re-entry
-    permits, and the returning resident visa.
+    Trips under 180 days (6 months) are the safe zone and at 12 months abroad a
+    green card is presumed abandoned. Each single absence counts, plus your ties
+    to the US.
 
 updatedAt: 2026-08-15
 

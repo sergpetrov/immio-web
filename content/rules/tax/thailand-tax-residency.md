@@ -9,11 +9,11 @@ category: tax
 place: th
 
 seo:
-  title: Thailand Tax Residency Rules Explained | Immio
+  title: Thailand Tax Residency – 180-Day Rule | Immio
   description: >
-    How Thai tax residency works — the 180-day presence test, the
-    remittance-based rule for foreign-sourced income, what changed in
-    2024, and the exemption for some long-term resident visa holders.
+    180 days or more in Thailand in a calendar year makes you a Thai tax
+    resident, and the days need not be consecutive. Staying out means 179 days
+    or fewer.
 
 updatedAt: 2026-08-13
 

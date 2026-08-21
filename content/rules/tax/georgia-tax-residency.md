@@ -9,11 +9,10 @@ category: tax
 place: ge
 
 seo:
-  title: Georgia Tax Residency Rules Explained | Immio
+  title: Georgia Tax Residency – 183-Day Rule | Immio
   description: >
-    How tax residency works in the country of Georgia, in the South Caucasus —
-    the 183-day test over a rolling 12-month window, which days are excluded,
-    and the high net worth route that needs no day count at all.
+    183 days or more in Georgia across any 12-month period ending in the tax
+    year can make you a tax resident. A high-net-worth route needs no day count.
 
 updatedAt: 2026-08-13
 

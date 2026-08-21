@@ -9,11 +9,11 @@ category: travel
 place: id
 
 seo:
-  title: Indonesia Visa on Arrival Rules Explained | Immio
+  title: Indonesia Visa on Arrival – 30 Days Per Visit Limit | Immio
   description: >
-    How Indonesia's visa on arrival works — the 30-day stay, the single
-    30-day extension, applying for an e-VOA in advance, the in-person
-    extension requirement, and what an overstay costs.
+    A Visa on Arrival gives eligible nationals 30 days in Indonesia, extendable
+    once by 30 to a maximum of 60. Buy it at the airport or apply online as an
+    e-VOA.
 
 updatedAt: 2026-08-15
 

@@ -9,11 +9,11 @@ category: tax
 place: pt
 
 seo:
-  title: Portugal Tax Residency Rules Explained | Immio
+  title: Portugal Tax Residency – 183-Day Rule | Immio
   description: >
-    How Portuguese tax residency works — the 183-day rule and its
-    overnight-stay requirement, the habitual home test, and the IFICI
-    regime for new residents.
+    More than 183 days in Portugal in a rolling 12-month period makes you a tax
+    resident, and each counted day needs an overnight stay. Plus the habitual
+    home test.
 
 updatedAt: 2026-08-13
 
@@ -40,7 +40,7 @@ relatedContent:
 ## Overview
 
 :::callout
-**More than 183 days** in Portugal within **any 12-month** period can male you a tax resident, and each counted day must
+**More than 183 days** in Portugal within **any 12-month** period can make you a tax resident, and each counted day must
 include an **overnight stay**. Fewer days can still qualify you if you keep a **home** there you intend to use as your
 **habitual residence**.
 :::

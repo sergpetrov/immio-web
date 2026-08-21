@@ -9,11 +9,11 @@ category: tax
 place: no
 
 seo:
-  title: Norway Tax Residency Rules Explained | Immio
+  title: Norway Tax Residency – 183 & 270-Day Rules | Immio
   description: >
-    How Norwegian tax residency works — the 183-day rule over any 12-month
-    period, the 270-day rule over any 36-month period, how days are counted,
-    and the separate emigration test needed to end residency.
+    More than 183 days in Norway in any 12-month period, or 270 across any 36
+    months, can make you a tax resident. Both windows roll rather than reset
+    yearly.
 
 updatedAt: 2026-08-13
 

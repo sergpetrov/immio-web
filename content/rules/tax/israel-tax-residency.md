@@ -9,11 +9,10 @@ category: tax
 place: il
 
 seo:
-  title: Israel Tax Residency Rules Explained | Immio
+  title: Israel Tax Residency – 183-Day Rule | Immio
   description: >
-    How Israeli tax residency works — the center of life test, the 183-day
-    and 425-day presumptions, how days are counted, and the exemptions for
-    new immigrants and returning residents.
+    183 days in Israel in a tax year, or 30 days plus 425 over three, presumes
+    tax residency. Your centre of life is the real test, and can rebut the days.
 
 updatedAt: 2026-08-13
 

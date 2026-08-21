@@ -9,11 +9,11 @@ category: tax
 place: de
 
 seo:
-  title: Germany Tax Residency Rules Explained | Immio
+  title: Germany Tax Residency – 6-Month Rule | Immio
   description: >
-    How German tax residency works — the dwelling (Wohnsitz) test, the
-    habitual abode six-month rule, why the six months can run across a
-    year-end, and what triggers unlimited tax liability in Germany.
+    More than 6 months in Germany as one continuous stay can make you a tax
+    resident, and it need not fall inside a calendar year. A regular home
+    qualifies too.
 
 updatedAt: 2026-08-13
 

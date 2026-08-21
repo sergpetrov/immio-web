@@ -9,11 +9,11 @@ category: tax
 place: mc
 
 seo:
-  title: Monaco Tax Residency Rules Explained | Immio
+  title: Monaco Tax Residency – 183-Day Rule | Immio
   description: >
-    How Monaco tax residency works — the 183-day principal residence test,
-    the alternative of spending more time in Monaco than anywhere else, the
-    certificates involved, and why French nationals are taxed by France.
+    183 days a year makes Monaco your main home for residency, or fewer if you
+    spent longer there than anywhere else. No income tax, but France taxes its
+    own.
 
 updatedAt: 2026-08-13
 
@@ -42,7 +42,7 @@ relatedContent:
 ## Overview
 
 :::callout
-Staying at least **183 days** a year in Monaco can make your **main home** for residency purposes, and a shorter stay
+Staying at least **183 days** a year in Monaco can make it your **main home** for residency purposes, and a shorter stay
 works if you still spent more time there than in **any other single country**. Monaco charges **no personal income
 tax** — but **French nationals** are generally **taxed by France**.
 :::

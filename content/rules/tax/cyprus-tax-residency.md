@@ -9,11 +9,11 @@ category: tax
 place: cy
 
 seo:
-  title: Cyprus Tax Residency Rules Explained | Immio
+  title: Cyprus Tax Residency – 60 & 183-Day Rules | Immio
   description: >
-    How Cyprus tax residency works — the 183-day rule, the 60-day rule
-    and its conditions, day-counting on arrival and departure, and the
-    non-domicile regime.
+    More than 183 days in Cyprus in a calendar year makes you a tax resident.
+    The 60-day rule is the alternative, and needs no 183-day residence
+    elsewhere.
 
 updatedAt: 2026-08-13
 

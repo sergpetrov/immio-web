@@ -9,11 +9,10 @@ category: travel
 place: th
 
 seo:
-  title: Thailand Visa Exemption Rules Explained | Immio
+  title: Thailand Visa Exemption – 60 Days Per Visit Limit | Immio
   description: >
-    How Thailand's visa exemption works — the 60-day stay, the 30-day
-    extension, the digital arrival card, the approved but unpublished cut
-    to shorter stays, and what an overstay costs.
+    Most nationalities enter Thailand visa-free for 60 days, extendable once by
+    a further 30. A cut to 30 days is approved by Cabinet but is not yet law.
 
 updatedAt: 2026-08-15
 
@@ -42,7 +41,7 @@ relatedContent:
 ## Overview
 
 :::callout
-Most of the nationals enter Thailand visa-free for **60 days**, extendable once by a further **30** at
+Most nationalities enter Thailand visa-free for **60 days**, extendable once by a further **30** at
 an immigration office. Cabinet has approved cutting that to **30 days** for most of those nationalities, and 15 for a
 few — but it isn't law yet, taking effect only 15 days after Royal Gazette publication.
 :::

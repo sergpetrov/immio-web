@@ -9,11 +9,11 @@ category: tax
 place: sa
 
 seo:
-  title: Saudi Arabia Tax Residency Rules Explained | Immio
+  title: Saudi Arabia Tax Residency – 30 & 183-Day Rules | Immio
   description: >
-    How Saudi tax residency works — the 183-day test, the 30-day test with
-    a permanent place of abode, how days are counted, and why residency
-    matters when there is no personal income tax on salaries.
+    183 days in Saudi Arabia in a calendar year makes you a tax resident, or 30
+    days with a permanent home. No income tax on employment — it matters for
+    treaties.
 
 updatedAt: 2026-08-13
 

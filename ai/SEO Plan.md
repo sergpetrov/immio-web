@@ -270,7 +270,7 @@ problems (P0-1 → P0-4) will stay invisible.
 **Fix:**
 1. **Google Search Console** — verify the domain (DNS TXT is best; it covers both protocols and all subdomains), submit `/sitemap.xml`, then check Pages → *Why pages aren't indexed*.
 2. **Bing Webmaster Tools** — import from GSC in one click. Bing also feeds ChatGPT search results.
-3. **Analytics** — Cloudflare Web Analytics is the lowest-friction choice on this stack (no cookie banner, no JS weight penalty, privacy-consistent with the app's positioning). Plausible if you want more depth. Add it in `pageShell.ts` *and* `index.html` so both render paths are covered.
+3. **Analytics** — **decided: GA4**, using the `measurementId` from the existing `immio-app` Firebase project (see §9.1). An earlier draft of this document recommended Cloudflare Web Analytics instead; GA4 was chosen because it can track the outbound "Get the app" click, which is the only conversion on the site and which Cloudflare Web Analytics cannot measure. Cloudflare Web Analytics remains worth adding for one specific job — see §9.7.
 
 **Touch:** DNS, `index.html`, `src/modules/content/pageShell.ts`.
 
@@ -329,22 +329,149 @@ clusters never form; users hit a dead end at the bottom of every article.
 
 ---
 
-#### P1-2 · 51 of 54 meta descriptions exceed 160 characters (and carry a trailing newline)
+#### P1-2 · Meta descriptions were list-shaped, not answer-shaped
 
-**Evidence:** Audit of all frontmatter — descriptions run 153–261 chars; median ~192. Only 3 are under 160.
-Separately, YAML folded scalars (`description: >`) leave a trailing `\n` that ships inside the rendered
-`content="…"` attribute (visible in the live Portugal page source).
-**Impact:** Google truncates at ~155–160 chars, so the call-to-action tail of nearly every description is cut. Directly costs CTR on all 54 pages.
-**Fix:**
-1. Rewrite descriptions to **150–158 chars**, front-loading the number and the country ("Portugal's 183-day rule…" not "How Portuguese tax residency works…"). Include the threshold — searchers scan for digits.
-2. ~~Normalise whitespace in the rendered `content` attribute.~~ **✅ SHIPPED** — `normalizeText` in [pageShell.ts](src/modules/content/pageShell.ts) collapses the folded-scalar newlines, so descriptions no longer ship with a trailing `\n`.
-3. Add a build-time assertion in [validate.ts](src/modules/content/rules/validate.ts): fail the build if `seo.description` is outside 120–160 chars or `seo.title` exceeds 60. Deliberately **not** added yet — it would fail the build on 51 existing files. Add it in the same change that rewrites them, so it can never regress afterwards.
+> **✅ SHIPPED 2026-08-21** — all 54 rewritten. **The original finding here was wrong and is corrected
+> below.**
 
-**Touch:** all 54 `content/rules/**/*.md`, `src/modules/content/rules/validate.ts`, `src/modules/content/pageShell.ts`.
+**The original claim was that 51 of 54 descriptions exceeded 160 characters and should be cut to
+150–158.** Measuring the competitors showed that advice was mistaken:
+
+| | range | median |
+|:--|:--|--:|
+| bounded.app rule pages | 146–223 | ~170 |
+| atlasdays.app `/learn/` | 148–260 | ~210 |
+| Immio (before) | 153–261 | 188 |
+
+Immio's lengths were already in the same band as both competitors. Cutting to 155 would have thrown
+away useful material for no gain — Google truncates the *display* at ~155 but reads the whole thing,
+and the tail is material it can select from.
+
+**The real defect was structure.** All 54 opened with the word "How", and all were shaped as a table
+of contents rather than an answer:
+
+> *before:* "How Portuguese tax residency works — the 183-day rule and its overnight-stay
+> requirement, the habitual home test, and the IFICI regime for new residents."
+>
+> *bounded:* "Brazil's 183-day tax residency rule explained: spend more than 183 days in any rolling
+> 12-month window and you become a Brazilian tax resident on day 184."
+
+Competitors **state the rule**; Immio **listed what the page covered**. That matters at the cut
+point: truncating a list mid-item gives "…the 12-month and 90-", which conveys nothing, whereas
+truncating a sentence still leaves a complete thought. That is why competitors can safely run to 200+.
+
+**One pattern, across all 54.** Title names the subject and its threshold; description is the
+Overview callout compressed, opening on the fact with no lead-in phrase:
+
+```
+title:        {Country} {Subject} – {Threshold} | Immio          ≤60 chars
+description:  {the rule, stated directly}. {second test or consequence}.   140-160 chars
+```
+
+The `{Subject}` is what the reader is actually looking up, using the name that rule is known by
+rather than a generic category — `UK Naturalisation` not "UK Citizenship Residence",
+`Thailand Visa Exemption` not "Thailand Travel Rules", `India e-Tourist Visa`, `UK Settlement (ILR)`,
+`Schengen Area`. Check the official source titles already in each rule's frontmatter first, then
+confirm against how the rule is actually searched and discussed.
+
+The `{Threshold}` is the number plus what it measures, and the phrasing differs by category:
+
+| category | threshold phrasing | example |
+|:--|:--|:--|
+| tax | presence | `183-Day Rule` |
+| immigration, absence limit | absence, singular | `180-Day Absence Rule` |
+| immigration, presence limit | presence | `913-Day Presence Rule` |
+| immigration, multiple limits, no nickname | absence, no number | `Absence Rule` |
+| travel, per-entry cap | per visit | `60 Days Per Visit Limit` |
+| travel, rolling window | the window itself | `90/180-Day Rule` |
+
+**Always singular — `Absence Rule`, never `Absence Rules`** — even where the rule has more than one
+limit. Where such a rule has a widely-used numbered nickname, use the nickname rather than the
+generic form: UK naturalisation is searched as the **"450-day rule"**, the US green card as the
+**"6-month rule"**, so those titles carry the number despite each rule having a second threshold.
+Where no nickname dominates (Italy and Spain long-term residence), the plain singular form is used.
+
+Where an official body has its own name for the requirement, prefer it: Australian Home Affairs calls
+it the **Residence Requirement** (their calculator is named that), so the title does too rather than
+inventing a numbered label.
+
+**A named test carries its acronym in brackets** — `Statutory Residence Test (SRT)`,
+`Substantial Presence Test (SPT)` — because both the full name and the acronym are searched, and the
+bracketed form captures each. Only add one where the acronym is genuinely established; "Residence
+Requirement" and "Absence Rule" have none, and inventing one would help nobody. Where the acronym is
+already the subject (`US FEIE`, `UK Settlement (ILR)`, `US ESTA`, `US B-1/B-2 Visa`) it is not
+repeated.
+
+Note SRT and SPT are different tests in different countries and are easy to transpose — the UK's is
+the **S**tatutory **R**esidence **T**est, the US's the **S**ubstantial **P**resence **T**est.
+
+Rolling-window travel rules keep the window rather than a per-visit figure, because "90/180 rule" is
+the established term and the limit genuinely is not per visit.
+
+**Where a rule has two thresholds a reader could fail independently, show both** — `Cyprus Tax
+Residency – 60 & 183-Day Rules`, `Norway Tax Residency – 183 & 270-Day Rules`,
+`India e-Tourist Visa – 90 Days/Visit & 180 Days/Year`. Listed ascending. This applies to genuinely
+parallel limits only; a *window* is not a second threshold ("Rolling 12 months", "Starts Jan 1"
+belong in the description, not the title), and neither is an extension of the same grant (Indonesia's
+30 days extendable to 60).
+
+The 60-character ceiling binds here. `India e-Tourist Visa – 90 Days Per Visit & 180 Days Per Year
+Limit | Immio` is 74 and truncates before the year figure, defeating the point; `90 Days/Visit & 180
+Days/Year` carries the same information in 60.
+
+e.g. `Canada Tax Residency – 183-Day Rule | Immio` /
+"183 days or more in Canada in a calendar year can make you a deemed resident. Significant
+residential ties — home, spouse, dependants — need no day count."
+
+**Result across all 54:** titles 39–59 (all under 60), descriptions 143–160 (median 154), **49 of 54
+titles carry a number** (was 3). The five without are where no number belongs: Italy and Spain
+long-term residence, Australia's Residence Requirement, and the two Statutory Residence Test /
+Substantial Presence Test pages, where the test's name *is* the query. Every description written from that rule's own Overview
+callout, so nothing is invented.
+
+Where the rule is not a plain day count the threshold slot takes its real name —
+`UK Tax Residency – Statutory Residence Test`, `US Tax Residency – Substantial Presence Test`,
+`Germany Tax Residency – 6-Month Rule`. Where there are two thresholds both appear:
+`Cyprus Tax Residency – 60 & 183-Day Rules`, `UAE Visit Visa – 90/180-Day Rule`.
+
+Two title tails repeat across more than four pages — `180-Day Absence Rule` (Italy, Spain, UAE, UK
+ILR, US green card) and `183-Day Rule` (most tax pages). That is unavoidable when the rules genuinely
+share a threshold, and the `{Country} {Subject}` prefix still differentiates every one. It is only a
+problem if the *whole* title repeats, which none do.
+
+**Title titles containing a colon must be quoted in YAML** — an unquoted colon inside a scalar breaks
+parsing. The en dash separator (`–`) avoids this entirely, which is part of why it was chosen.
+
+**Enforced at build time** in [scripts/validate-content.mjs](scripts/validate-content.mjs):
+description 140–220 chars (the library now sits at 143–160), `seo.title` ≤ 60, and a check for mid-word line-wrap artifacts — a
+hyphenated word split across two lines of a folded YAML scalar comes back as "tax- home" once the
+newline folds to a space, which is exactly what happened on the first pass and shipped silently.
 
 ---
 
-#### P1-3 · Weak title patterns on category and index pages
+#### P1-3a · Rule titles omitted the threshold — the thing people search
+
+> **✅ SHIPPED 2026-08-21 — all 54 rules.**
+
+Measured against the competitors:
+
+| | title length | median | contains a number |
+|:--|:--|--:|:--|
+| bounded.app | 53–78 | 66 | most |
+| atlasdays.app | 52–77 | 61 | most |
+| Immio (before) | 38–60 | 46 | **3 of 54** |
+
+Two defects. **The threshold was missing from 51 of 54 titles** — yet "portugal 183 day rule" is how
+the query is actually typed, and the number is what gets bolded in the result. And **26 of 54 titles
+were the identical string** apart from the country (`{Country} Tax Residency Rules Explained`), so
+half the library was undifferentiated.
+
+There was also unused room: median 46 characters against Google's ~55–60 display budget — almost
+exactly the cost of adding "183-Day ".
+
+---
+
+#### P1-3b · Weak title patterns on category and index pages
 
 **Evidence (live):**
 
@@ -865,7 +992,10 @@ and paste a rule URL into Slack/iMessage to confirm the card unfurls.
   - Three rules remain at 1 inbound: `morocco-tax-residency`, `new-zealand-tax-residency`, `nigeria-tax-residency`. Each is genuinely peripheral to the current library and none is orphaned (every rule also has 3–4 inbound links from the catalog, category and country pages). The honest fix is more neighbours in the catalogue — South Africa/Kenya/Egypt for Morocco and Nigeria — not forced links from unrelated rules.
 - [x] P1-1d Back-fill complete — 293 related links across 54 pages, all verified 200
 - [ ] P1-1e Footer nav (Rule Guide, the three categories, Rules by country)
-- [ ] P1-2 Rewrite 51 over-length meta descriptions, then add the length assertion to `validate.ts`
+- [x] P1-2 All 54 meta descriptions rewritten answer-first, plus build-time length/title/wrap checks
+- [x] Content QA sweep — dictionary spellcheck across all 54 (clean: every hit was a proper noun, an official source name in its own language, an acronym or a British spelling) plus a grammar-pattern scan, which found **8 real errors a spellchecker cannot catch**, all in Overview callouts: "can male you a tax resident" (Portugal), "make your resident from first day" (Brazil), "that test more important than" (Poland), "can make your main home" (Monaco), "get the 60-day test drops away" (India), a sentence fragment (Turkey), a comma splice (UAE visit), "Most of the nationals" (Thailand). All fixed.
+  - The same 8 fixes were applied to the app's `trackers.xml`, which mirrors these callouts verbatim — see §6.1a. Two more strings were re-synced at the same time (`hong_kong_tax_residency` had pre-existing "a tax year"/"the tax year" drift; `india_tax_residency` needed the fix *and* its `(not tracked here yet)` marker preserved). All 54 now match, all 5 markers intact.
+  - Worth noting where they were: **every one sat in the callout** — the first thing a reader sees, the block most likely to be extracted as a snippet, and the source the meta descriptions are written from. A future QA pass should read all 54 callouts first.
 - [ ] P1-3 Title/H1 pattern rewrite (category pages, `/rules/countries` `<h1>`)
 - [ ] P1-7 Content QA pass + `lint:content` (spellcheck + source link-check)
 - [ ] P3 `<h2>`s per category list on `/rules`
@@ -1002,6 +1132,19 @@ nothing else.
 - [ ] Appears in `/sitemap.xml` and `/llms.txt` after deploy (both auto-generated from the registry)
 - [ ] Spellchecked; every source URL returns 200
 
+### 6.1a A callout edit is also an app edit
+
+Each rule's Overview callout is mirrored verbatim in the app as its tracker description, in
+`<app repo>/tracker/composeApp/src/commonMain/composeResources/values/trackers.xml` under
+`<string name="overview_…">`. **Editing a callout on the web without syncing that file makes the same
+rule read differently in the two places.** Full procedure, including the eleven string names that do
+not match their rule ID and the `(not tracked here yet)` markers that must survive a sync, is in
+[ai/Rule Generation Plan.md](ai/Rule%20Generation%20Plan.md) §19b.
+
+This matters more than it looks for SEO specifically: the callout is the extractable answer block
+(LLM-3) and the source the meta description is written from, so it is the single most-reused piece of
+text in the library.
+
 ### 6.2 Every release checklist
 
 - [ ] No new soft-404 paths
@@ -1012,6 +1155,7 @@ nothing else.
 - [ ] Sitemap `lastmod` moved only for genuinely changed pages
 - [ ] No LCP regression on `/` or a representative rule page
 - [ ] Redirects added for any changed URL
+- [ ] If any Overview callout changed, `trackers.xml` in the app repo synced (§6.1a)
 
 ### 6.3 YMYL / E-E-A-T non-negotiables
 
@@ -1167,6 +1311,31 @@ of this audience, given the Schengen and EU tax rules are among the most-visited
 out, in increasing effort: switch to a cookieless analytics tool (Cloudflare Web Analytics needs no
 banner and no consent), implement GA4 Consent Mode v2, or add a consent banner. Worth a decision
 before traffic scales — it is a legal question, not an SEO one, so take advice rather than my word.
+
+### 9.7 Cloudflare Web Analytics — not needed, with one exception
+
+**You do not need it.** GA4 plus Search Console covers the SEO work: Search Console gives queries,
+positions and impressions; GA4 gives behaviour and — critically — the outbound "Get the app" click,
+which is the only conversion on this site. Cloudflare Web Analytics cannot track events at all, so it
+cannot replace GA4 here.
+
+What it does give, that GA4 does not:
+
+- **Real-user Core Web Vitals at low traffic.** Search Console's CWV report is built on CrUX, which
+  needs a minimum traffic threshold and reports on a 28-day lag — so a new site sees nothing for
+  weeks. Cloudflare reports LCP/CLS/INP from the first visitor. That is directly useful for the
+  Phase 5 performance work (the 643 KB `world-map.svg`, self-hosted fonts, landing-page SSR), where
+  the whole point is measuring a before and after.
+- **No cookies**, so no consent banner — the escape hatch if the §9.6 cookie question turns out to
+  matter more than GA4's event tracking.
+
+**When to add it:** at the start of Phase 5, to get a CWV baseline before touching the hero assets.
+Free, and on a Cloudflare-proxied site it is a dashboard toggle (falling back to one `<script defer>`
+beacon if automatic injection doesn't apply to Worker responses). Running it alongside GA4 is fine —
+the beacon is small and deferred.
+
+**When not to:** now. It measures nothing the current phases need, and a second beacon on every page
+for data nobody is reading is a cost without a return.
 
 ### 9.2 Google Search Console — verification
 

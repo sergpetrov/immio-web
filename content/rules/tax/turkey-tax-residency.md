@@ -9,11 +9,10 @@ category: tax
 place: tr
 
 seo:
-  title: Turkey Tax Residency Rules Explained | Immio
+  title: Turkey Tax Residency – 6-Month Rule | Immio
   description: >
-    How Turkish tax residency works — the six-month presence rule, the
-    domicile test, the statutory exceptions for temporary stays, and the
-    new foreign-income exemption for qualifying new residents.
+    More than 6 months continuously in Turkey within a calendar year can make
+    you a tax resident. A settled home qualifies with no day count at all.
 
 updatedAt: 2026-08-13
 
@@ -40,7 +39,7 @@ relatedContent:
 
 :::callout
 Being in Turkey **continuously for more than 6 months** within a **calendar year** can make you a tax resident. Alternatively,
-keeping a **settled home** there, with **no day count**. Statutory exceptions can override the 6-month test for people
+keeping a **settled home** there qualifies with **no day count**. Statutory exceptions can override the 6-month test for people
 present only for a specific, temporary purpose.
 :::
 

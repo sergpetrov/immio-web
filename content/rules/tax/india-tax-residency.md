@@ -9,11 +9,11 @@ category: tax
 place: in
 
 seo:
-  title: India Tax Residency Rules Explained | Immio
+  title: India Tax Residency – 60 & 182-Day Rules | Immio
   description: >
-    How Indian tax residency works — the 182-day test, the 60-day test
-    with a 365-day history, the relaxed thresholds for Indian citizens
-    and people of Indian origin, and the ordinarily resident distinction.
+    182 days or more in India in the tax year (1 April–31 March) can make you a
+    tax resident. The alternative is 60 days plus 365 across the previous four
+    years.
 
 updatedAt: 2026-08-13
 
@@ -44,8 +44,8 @@ relatedContent:
 
 :::callout
 **182 days or more** in India during the **tax year** (1 April to 31 March) can make you a tax resident. The alternative
-is **60 days** in that year plus **365 days** across the previous 4 years. Indian citizens working abroad, and
-visiting citizens, get the 60-day test drops away.
+is **60 days** in that year plus **365 days** across the previous 4 years. For Indian citizens working abroad, and
+visiting citizens, the 60-day test drops away.
 :::
 
 | Key parameters          |                                           |

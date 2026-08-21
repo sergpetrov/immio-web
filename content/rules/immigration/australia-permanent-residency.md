@@ -9,11 +9,10 @@ category: immigration
 place: au
 
 seo:
-  title: Australia Permanent Residency Travel Rules Explained | Immio
+  title: Australia Permanent Residency – 730-Day Rule | Immio
   description: >
-    How Australian permanent residency travel rules work — the 5-year
-    travel facility, why it expires when your status doesn't, the Resident
-    Return Visa, and the 2-years-in-5 residence test.
+    730 days (2 years) in Australia over the last 5 renews your Resident Return
+    Visa. PR never expires, but the travel facility attached to it runs out.
 
 updatedAt: 2026-08-15
 

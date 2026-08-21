@@ -9,11 +9,11 @@ category: tax
 place: ng
 
 seo:
-  title: Nigeria Tax Residency Rules Explained | Immio
+  title: Nigeria Tax Residency – 183-Day Rule | Immio
   description: >
-    How Nigerian tax residency works under the rules in force from 2026 —
-    the 183-day test, domicile, permanent home, habitual abode and family
-    ties, and which state revenue service collects your tax.
+    183 days or more in Nigeria across any rolling 12-month period can make you
+    a tax resident. Domicile, a permanent place or family ties each qualify
+    alone.
 
 updatedAt: 2026-08-13
 

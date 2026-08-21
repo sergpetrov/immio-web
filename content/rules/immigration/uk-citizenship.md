@@ -9,11 +9,11 @@ category: immigration
 place: gb
 
 seo:
-  title: UK Citizenship Residence Rules Explained | Immio
+  title: UK Citizenship (Naturalisation) – 450-Day Absence Rule | Immio
   description: >
-    How UK naturalisation residence rules work — the 5-year and 3-year
-    routes, the 450-day and 270-day absence limits, the 90-day final-year
-    cap, and the day-one presence requirement.
+    No more than 450 days outside the UK across the 5 years before applying, and
+    90 days in the final year. Spouses of British citizens: 3 years and 270
+    days.
 
 updatedAt: 2026-08-14
 

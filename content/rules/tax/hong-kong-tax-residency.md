@@ -9,11 +9,11 @@ category: tax
 place: hk
 
 seo:
-  title: Hong Kong Tax Residency Rules Explained | Immio
+  title: Hong Kong Tax Residency – 180 & 300-Day Rules | Immio
   description: >
-    How Hong Kong tax residency works — the 180-day and 300-day tests,
-    the ordinary residence route, and why residency matters mainly for
-    tax treaty claims under a territorial tax system.
+    More than 180 days in Hong Kong in the tax year (1 April–31 March), or 300
+    across two consecutive years, can make you a tax resident. Ordinary
+    residence too.
 
 updatedAt: 2026-08-13
 
@@ -45,7 +45,7 @@ relatedContent:
 ## Overview
 
 :::callout
-Staying **more than 180 days** in Hong Kong in a **tax year** (1 April to 31 March) can make you a tax resident, or
+Staying **more than 180 days** in Hong Kong in the **tax year** (1 April to 31 March) can make you a tax resident, or
 **more than 300 days** across 2 consecutive years. **Ordinary residence** is the third route, with **no day count**.
 :::
 

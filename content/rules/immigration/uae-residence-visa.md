@@ -9,11 +9,11 @@ category: immigration
 place: ae
 
 seo:
-  title: UAE Residence Visa Absence Rules Explained | Immio
+  title: UAE Residence Visa – 180-Day Absence Rule | Immio
   description: >
-    How UAE residence visas work — the 180-day absence rule that cancels
-    residency, who is exempt, sponsorship and Emirates ID, and what it
-    takes to get back in once a visa lapses.
+    More than 180 consecutive days outside the UAE cancels a residence visa
+    automatically. Any re-entry resets the count. Golden, Green and Blue visas
+    are exempt.
 
 updatedAt: 2026-08-15
 

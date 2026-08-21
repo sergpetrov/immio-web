@@ -9,11 +9,10 @@ category: immigration
 place: au
 
 seo:
-  title: Australia Citizenship Residence Rules Explained | Immio
+  title: Australia Citizenship – Residence Requirement | Immio
   description: >
-    How Australia's citizenship residence requirement works — the 4-year
-    lawful residence rule, the 12 months as a permanent resident, and the
-    12-month and 90-day absence limits.
+    No more than 12 months outside Australia across the 4 years before applying,
+    and no more than 90 days of that in the final year as a permanent resident.
 
 updatedAt: 2026-08-15
 

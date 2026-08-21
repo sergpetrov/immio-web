@@ -9,11 +9,11 @@ category: tax
 place: us
 
 seo:
-  title: US Foreign Earned Income Exclusion (FEIE) Explained | Immio
+  title: US FEIE – 330-Day Physical Presence Test | Immio
   description: >
-    How the US Foreign Earned Income Exclusion works — the 330-day physical
-    presence test, the bona fide residence test, the foreign tax home
-    requirement, and what the exclusion does and doesn't cover.
+    330 full days abroad in any 12-month period lets a US taxpayer exclude
+    foreign earned income up to an annual cap. Bona fide residence is the
+    alternative.
 
 updatedAt: 2026-08-13
 

@@ -9,11 +9,11 @@ category: tax
 place: cl
 
 seo:
-  title: Chile Tax Residency Rules Explained | Immio
+  title: Chile Tax Residency – 183-Day Rule | Immio
   description: >
-    How Chilean tax residency works — the 183-day rule measured over any
-    rolling 12-month period, the separate domicile test, how days are
-    counted, and the three-year window before foreign income is taxed.
+    More than 183 days in Chile within any rolling 12-month period can make you
+    a tax resident. The domicile test is the other way in, and can apply from
+    day one.
 
 updatedAt: 2026-08-13
 

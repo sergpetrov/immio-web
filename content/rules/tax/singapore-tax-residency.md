@@ -9,11 +9,11 @@ category: tax
 place: sg
 
 seo:
-  title: Singapore Tax Residency Rules Explained | Immio
+  title: Singapore Tax Residency – 183-Day Rule | Immio
   description: >
-    How Singapore tax residency works — the 183-day rule, the ordinary
-    residence route, the two-year and three-year administrative
-    concessions, and how days of presence and employment are counted.
+    183 days or more in Singapore in a calendar year makes you a tax resident.
+    Two years of employment totalling 183 days, or ordinary residence, qualify
+    too.
 
 updatedAt: 2026-08-13
 

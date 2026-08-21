@@ -1,7 +1,7 @@
 ---
 id: india-visa
 
-title: India Tourist Visa
+title: India e-Tourist Visa
 subtitle: 90 or 180 days per visit ∙ 180 days per year
 
 category: travel
@@ -9,11 +9,11 @@ category: travel
 place: in
 
 seo:
-  title: India e-Tourist Visa Rules Explained | Immio
+  title: India e-Tourist Visa – 90 Days Per Visit & 180 Days Per Year | Immio
   description: >
-    How India's e-Tourist visa works — the 30-day, 1-year and 5-year
-    options, the 180-day annual cap, the separate limit on a single visit,
-    designated entry points, and what an overstay costs.
+    180 days per calendar year is the real cap on India's e-Tourist visa. A
+    single visit is capped at 90 days, or 180 for US, UK, Canada and Japan
+    citizens.
 
 updatedAt: 2026-08-15
 

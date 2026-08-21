@@ -9,11 +9,10 @@ category: immigration
 place: es
 
 seo:
-  title: Spain Long-Term Residence Rules Explained | Immio
+  title: Spain Long-Term Residence – Absence Rule | Immio
   description: >
-    How Spain's long-term residence works — the 5-year continuous residence
-    requirement, the 6-month and 10-month absence limits, the larger
-    allowance for work absences, and how the status is kept afterwards.
+    No absence over 180 days per trip and no more than 10 months away across 5
+    years of legal residence. The total rises to 18 months for work absences.
 
 updatedAt: 2026-08-15
 

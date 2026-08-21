@@ -9,11 +9,11 @@ category: immigration
 place: it
 
 seo:
-  title: Italy Residence Permit Rules Explained | Immio
+  title: Italy Long-Term Residence – Absence Rule | Immio
   description: >
-    How Italy's permesso di soggiorno works — the 8-working-day application
-    deadline, renewals, the 5-year route to long-term residence, and the
-    absence limits that break continuity.
+    No absence over 180 days per trip and no more than 10 months away keeps 5
+    years of Italian residence continuous. The permesso is due within 8 working
+    days.
 
 updatedAt: 2026-08-15
 

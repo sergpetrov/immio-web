@@ -31,6 +31,13 @@ sources:
     url: https://www.ird.gov.hk/eng/pol/ppo.htm
     type: official
 
+relatedContent:
+  - singapore-tax-residency
+  - thailand-tax-residency
+  - uae-tax-residency
+  - indonesia-tax-residency
+  - india-tax-residency
+
 ---
 
 # Hong Kong Tax Residency (180-day and 300-day rules)

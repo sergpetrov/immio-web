@@ -25,6 +25,13 @@ sources:
     url: https://www.gov.pl/web/finanse/objasnienia-podatkowe-dotyczace-rezydencji-podatkowej
     type: official
 
+relatedContent:
+  - germany-tax-residency
+  - norway-tax-residency
+  - cyprus-tax-residency
+  - portugal-tax-residency
+  - georgia-tax-residency
+
 ---
 
 # Poland Tax Residency (183-day rule)

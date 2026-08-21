@@ -28,6 +28,13 @@ sources:
     url: https://www.desarrollo.pr.gov/en/ayudas-e-incentivos
     type: official
 
+relatedContent:
+  - us-feie
+  - us-tax-residency-spt
+  - uae-tax-residency
+  - monaco-tax-residency
+  - portugal-tax-residency
+
 ---
 
 # Puerto Rico Tax Residency (Act 60)

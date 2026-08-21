@@ -28,6 +28,13 @@ sources:
     url: https://www.dian.gov.co/tramitesservicios/Tramites_Impuestos/Autorizaciones/Documents/2.Preguntas%20frecuentes%20y%20Glosario%20Certif%20de%20acred%20de%20resid%20fisc.pdf
     type: official
 
+relatedContent:
+  - brazil-tax-residency
+  - chile-tax-residency
+  - uruguay-tax-residency
+  - spain-tax-residency
+  - us-tax-residency-spt
+
 ---
 
 # Colombia Tax Residency (183-day rule)

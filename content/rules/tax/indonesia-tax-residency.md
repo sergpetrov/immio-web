@@ -25,6 +25,14 @@ sources:
     url: https://pajak.go.id/panduan-layanan-pajak/konten/layanan-digital/2025/layanan-administrasi/pengenaan-pph-hanya-atas-penghasilan-yang-diterima-atau-diperoleh-dari-indonesia-oleh-wna/pengenaan-pph-hanya-atas-penghasilan-yang-diterima-atau-diperoleh-dari-indonesia-oleh-wna
     type: official
 
+relatedContent:
+  - indonesia-visa
+  - indonesia-business-visa
+  - thailand-tax-residency
+  - singapore-tax-residency
+  - hong-kong-tax-residency
+  - india-tax-residency
+
 ---
 
 # Indonesia Tax Residency (183-day rule)

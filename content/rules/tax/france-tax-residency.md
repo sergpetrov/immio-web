@@ -28,6 +28,14 @@ sources:
     url: https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051202565
     type: official
 
+relatedContent:
+  - spain-tax-residency
+  - italy-tax-residency
+  - germany-tax-residency
+  - monaco-tax-residency
+  - portugal-tax-residency
+  - uk-tax-residency-srt
+
 ---
 
 # France Tax Residency

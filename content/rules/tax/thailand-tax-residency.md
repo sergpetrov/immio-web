@@ -25,6 +25,14 @@ sources:
     url: https://www.rd.go.th/fileadmin/user_upload/lorkhor/newspr/2024/FOREIGNERS_PAY_TAX2024.pdf
     type: official
 
+relatedContent:
+  - thailand-visa
+  - indonesia-tax-residency
+  - singapore-tax-residency
+  - hong-kong-tax-residency
+  - india-tax-residency
+  - uae-tax-residency
+
 ---
 
 # Thailand Tax Residency (180-day rule)

@@ -28,6 +28,14 @@ sources:
     url: https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/consequences-of-non-compliance/errors-in-tax-returns
     type: official
 
+relatedContent:
+  - hong-kong-tax-residency
+  - indonesia-tax-residency
+  - thailand-tax-residency
+  - india-tax-residency
+  - uae-tax-residency
+  - australia-tax-residency
+
 ---
 
 # Singapore Tax Residency (183-day rule)

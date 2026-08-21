@@ -31,6 +31,13 @@ sources:
     url: https://www.irs.gov/individuals/international-taxpayers/foreign-earned-income-exclusion-tax-home-in-foreign-country
     type: official
 
+relatedContent:
+  - us-tax-residency-spt
+  - us-green-card
+  - puerto-rico-act60
+  - uae-tax-residency
+  - portugal-tax-residency
+
 ---
 
 # United States Foreign Earned Income Exclusion (FEIE)

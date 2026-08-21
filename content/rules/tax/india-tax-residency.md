@@ -28,6 +28,14 @@ sources:
     url: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2248005
     type: official
 
+relatedContent:
+  - india-visa
+  - uae-tax-residency
+  - singapore-tax-residency
+  - thailand-tax-residency
+  - uk-tax-residency-srt
+  - us-tax-residency-spt
+
 ---
 
 # India Tax Residency (182-day and 60-day rules)

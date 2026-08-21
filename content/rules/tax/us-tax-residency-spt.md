@@ -31,6 +31,14 @@ sources:
     url: https://www.irs.gov/individuals/international-taxpayers/exempt-individuals-teachers-and-trainees
     type: official
 
+relatedContent:
+  - us-feie
+  - us-green-card
+  - us-b1b2-visa
+  - us-esta
+  - canada-tax-residency
+  - puerto-rico-act60
+
 ---
 
 # United States Tax Residency (Substantial Presence Test)
@@ -40,7 +48,7 @@ sources:
 :::callout
 The **Substantial Presence Test** needs **31 days** in the US this year plus **183 weighted days** across the last 3 —
 this year counts in full, last year at **1/3**, the year before at **1/6**. It's **not a plain 183-day rule**. A
-**green card** is the other route in.
+**[green card](/rules/us-green-card)** is the other route in.
 :::
 
 | Key parameters           |                                                 |

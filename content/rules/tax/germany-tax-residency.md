@@ -28,6 +28,13 @@ sources:
     url: https://ksth.bundesfinanzministerium.de/ao/2025/Abgabenordnung/Erster-Teil/Zweiter-Abschnitt/Paragraf-8/ae-8.html
     type: official
 
+relatedContent:
+  - poland-tax-residency
+  - france-tax-residency
+  - norway-tax-residency
+  - spain-tax-residency
+  - portugal-tax-residency
+
 ---
 
 # Germany Tax Residency (6-month rule)

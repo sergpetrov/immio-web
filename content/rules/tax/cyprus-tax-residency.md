@@ -25,6 +25,14 @@ sources:
     url: https://www.mof.gov.cy/mof/tax/taxdep.nsf/index_en/index_en
     type: official
 
+relatedContent:
+  - greece-tax-residency
+  - turkey-tax-residency
+  - israel-tax-residency
+  - portugal-tax-residency
+  - uae-tax-residency
+  - spain-tax-residency
+
 ---
 
 # Cyprus Tax Residency (60-day and 183-day rules)

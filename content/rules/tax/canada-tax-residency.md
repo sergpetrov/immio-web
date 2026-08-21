@@ -25,6 +25,13 @@ sources:
     url: https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/individuals-leaving-entering-canada-non-residents/deemed-residents.html
     type: official
 
+relatedContent:
+  - canada-citizenship
+  - canada-permanent-residency
+  - canada-visitor-visa
+  - us-tax-residency-spt
+  - uk-tax-residency-srt
+
 ---
 
 # Canada Tax Residency (183-day rule)

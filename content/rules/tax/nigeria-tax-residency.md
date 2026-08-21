@@ -25,6 +25,13 @@ sources:
     url: https://tat.gov.ng/Nigeria-Tax-Act-2025.pdf
     type: official
 
+relatedContent:
+  - morocco-tax-residency
+  - uk-tax-residency-srt
+  - uae-tax-residency
+  - us-tax-residency-spt
+  - canada-tax-residency
+
 ---
 
 # Nigeria Tax Residency (183-day rule)

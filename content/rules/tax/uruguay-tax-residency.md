@@ -25,6 +25,13 @@ sources:
     url: https://www.gub.uy/direccion-general-impositiva/comunicacion/publicaciones/tax-holidays-opcion-para-nuevos-residentes-fiscales-uruguay
     type: official
 
+relatedContent:
+  - chile-tax-residency
+  - brazil-tax-residency
+  - colombia-tax-residency
+  - spain-tax-residency
+  - portugal-tax-residency
+
 ---
 
 # Uruguay Tax Residency (183-day rule)

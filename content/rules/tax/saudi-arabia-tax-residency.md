@@ -25,6 +25,13 @@ sources:
     url: https://zatca.gov.sa/en/Pages/IncomeTax.aspx
     type: official
 
+relatedContent:
+  - uae-tax-residency
+  - uae-residence-visa
+  - turkey-tax-residency
+  - singapore-tax-residency
+  - monaco-tax-residency
+
 ---
 
 # Saudi Arabia Tax Residency (30-day and 183-day rules)

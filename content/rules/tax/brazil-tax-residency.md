@@ -25,6 +25,13 @@ sources:
     url: https://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=15079&visao=anotado
     type: official
 
+relatedContent:
+  - uruguay-tax-residency
+  - chile-tax-residency
+  - colombia-tax-residency
+  - portugal-tax-residency
+  - us-tax-residency-spt
+
 ---
 
 # Brazil Tax Residency (183-day rule)

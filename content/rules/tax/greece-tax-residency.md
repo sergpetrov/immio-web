@@ -28,6 +28,13 @@ sources:
     url: http://elib.aade.gr/elib/view?d=%2Fgr%2Fact%2F2013%2F4172
     type: official
 
+relatedContent:
+  - cyprus-tax-residency
+  - italy-tax-residency
+  - turkey-tax-residency
+  - portugal-tax-residency
+  - spain-tax-residency
+
 ---
 
 # Greece Tax Residency (183-day rule)

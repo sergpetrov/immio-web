@@ -31,6 +31,14 @@ sources:
     url: https://www.legislation.gov.uk/ukpga/2013/29/schedule/45
     type: official
 
+relatedContent:
+  - uk-ilr-180-day-rule
+  - uk-citizenship
+  - uk-visitor-visa
+  - portugal-tax-residency
+  - uae-tax-residency
+  - cyprus-tax-residency
+
 ---
 
 # United Kingdom Tax Residency (Statutory Residence Test)

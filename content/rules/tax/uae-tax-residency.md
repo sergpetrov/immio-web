@@ -25,6 +25,14 @@ sources:
     url: https://tax.gov.ae/Datafolder/Files/Guides/VAT/VAT%20Guides/Tax-Resident-and-TRC--18-10-2024.pdf
     type: official
 
+relatedContent:
+  - uae-residence-visa
+  - uae-visa
+  - saudi-arabia-tax-residency
+  - singapore-tax-residency
+  - monaco-tax-residency
+  - cyprus-tax-residency
+
 ---
 
 # United Arab Emirates Tax Residency (90-day and 183-day rules)
@@ -51,7 +59,7 @@ You are a UAE tax resident if you meet any one of three routes, in any order:
 - **Center of interests** — your usual home and the center of your financial and personal interests are in the UAE. No
   day count, permit, or income needed.
 - **183-day presence** — you're physically present in the UAE for **183 days or more** within a 12-month period. This is
-  the fallback route: no residence permit, nationality, or UAE income required, presence alone is enough.
+  the fallback route: no [residence permit](/rules/uae-residence-visa), nationality, or UAE income required, presence alone is enough.
 - **90-day presence with conditions** — a lower day count, but it only works alongside extra conditions: you must be a
   UAE national, hold a valid UAE residence permit, or hold GCC nationality, and also have a permanent home available in
   the UAE or ongoing employment or business there. A permanent home doesn't need to be owned — a place that's

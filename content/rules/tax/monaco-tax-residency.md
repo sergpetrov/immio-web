@@ -28,6 +28,13 @@ sources:
     url: https://monservicepublic.gouv.mc/en/themes/nationality-and-residency/residency/residents/how-to-apply-for-a-residence-certificate-for-tax-purposes
     type: official
 
+relatedContent:
+  - france-tax-residency
+  - italy-tax-residency
+  - uae-tax-residency
+  - cyprus-tax-residency
+  - spain-tax-residency
+
 ---
 
 # Monaco Tax Residency
@@ -64,7 +71,7 @@ Behind all three, the practical requirements are the same. You need a valid resi
 Monaco you can document.
 
 French nationals are treated differently, and the difference is fundamental. A French national who moves their
-residence to Monaco is taxed by France on worldwide income under the same conditions as someone living in France. The
+residence to Monaco is [taxed by France](/rules/france-tax-residency) on worldwide income under the same conditions as someone living in France. The
 exception is narrow and historic, covering French nationals who can show they had been habitually resident in Monaco
 for at least five years as at 13 October 1962 — in practice, settling there before 13 October 1957 and staying
 resident ever since. French nationals resident since birth are also covered, as are certain spouses of people who

@@ -150,7 +150,7 @@ visit. This is applied for before you travel, not on arrival.
 
 ### How is this different from a Visa on Arrival?
 
-Visa on Arrival gives 30 days with one extension, capping at 60, and needs no sponsor. The business visit visa starts
+[Visa on Arrival](/rules/indonesia-visa) gives 30 days with one extension, capping at 60, and needs no sponsor. The business visit visa starts
 at 60 days, allows two 60-day extensions to reach 180, and must be arranged in advance with a sponsor.
 
 ### Can I work remotely for my foreign employer while I'm there?

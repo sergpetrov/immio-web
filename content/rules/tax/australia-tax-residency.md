@@ -25,6 +25,14 @@ sources:
     url: https://www.ato.gov.au/individuals-and-families/coming-to-australia-or-going-overseas/residency-tests/residency-the-183-day-test
     type: official
 
+relatedContent:
+  - australia-citizenship
+  - australia-permanent-residency
+  - new-zealand-tax-residency
+  - singapore-tax-residency
+  - uk-tax-residency-srt
+  - canada-tax-residency
+
 ---
 
 # Australia Tax Residency

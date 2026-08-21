@@ -60,7 +60,7 @@ The programme is open to citizens of the participating countries only — it goe
 living in a member country doesn't qualify you if you hold another passport. You also need an e-passport and must
 arrive on an airline or cruise line signed up to the scheme.
 
-It covers the same ground as a visitor visa:
+It covers the same ground as a [visitor visa](/rules/us-b1b2-visa):
 
 - **Business** — meetings, conferences, negotiations, contract work for a foreign employer.
 - **Tourism** — holidays, visiting family and friends, medical treatment.

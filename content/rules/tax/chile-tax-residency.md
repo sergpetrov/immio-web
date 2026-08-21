@@ -25,6 +25,13 @@ sources:
     url: https://www.sii.cl/preguntas_frecuentes/declaracion_renta/001_140_1219.htm
     type: official
 
+relatedContent:
+  - uruguay-tax-residency
+  - brazil-tax-residency
+  - colombia-tax-residency
+  - spain-tax-residency
+  - portugal-tax-residency
+
 ---
 
 # Chile Tax Residency (183-day rule)

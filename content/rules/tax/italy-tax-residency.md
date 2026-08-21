@@ -25,6 +25,14 @@ sources:
     url: https://www.agenziaentrate.gov.it/portale/documents/20143/6519685/Circolare_20_del_4_11_2024_Eng.pdf
     type: official
 
+relatedContent:
+  - italy-long-term-residence-permit
+  - spain-tax-residency
+  - portugal-tax-residency
+  - greece-tax-residency
+  - france-tax-residency
+  - monaco-tax-residency
+
 ---
 
 # Italy Tax Residency (183-day rule)

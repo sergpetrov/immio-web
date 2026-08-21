@@ -25,6 +25,13 @@ sources:
     url: https://www.mre.gov.ma/sites/default/files/2025-07/Guide%20MRE_FR_2025.pdf
     type: official
 
+relatedContent:
+  - spain-tax-residency
+  - portugal-tax-residency
+  - france-tax-residency
+  - nigeria-tax-residency
+  - uae-tax-residency
+
 ---
 
 # Morocco Tax Residency (183-day rule)

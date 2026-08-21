@@ -25,6 +25,13 @@ sources:
     url: https://www.skatteetaten.no/en/person/taxes/get-the-taxes-right/abroad/global-tax-liability
     type: official
 
+relatedContent:
+  - germany-tax-residency
+  - poland-tax-residency
+  - uk-tax-residency-srt
+  - france-tax-residency
+  - portugal-tax-residency
+
 ---
 
 # Norway Tax Residency (183-day and 270-day rules)

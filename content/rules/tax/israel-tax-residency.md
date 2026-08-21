@@ -25,6 +25,13 @@ sources:
     url: "http://www.financeisrael.mof.gov.il/FinanceIsrael/Docs/En/legislation/FiscalIssues/5721-1961_Income_Tax_Ordinance_%5BNew_Version%5D.pdf"
     type: official
 
+relatedContent:
+  - cyprus-tax-residency
+  - greece-tax-residency
+  - uae-tax-residency
+  - uk-tax-residency-srt
+  - us-tax-residency-spt
+
 ---
 
 # Israel Tax Residency

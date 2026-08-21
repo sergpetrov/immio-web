@@ -25,6 +25,13 @@ sources:
     url: https://intvrg.gib.gov.tr/hazirbeyan/assets/pdf/DUYURU_UNIVERSAL_2026_2026_theguidebooktaxpayers.pdf
     type: official
 
+relatedContent:
+  - georgia-tax-residency
+  - greece-tax-residency
+  - cyprus-tax-residency
+  - uae-tax-residency
+  - portugal-tax-residency
+
 ---
 
 # Turkey Tax Residency (6-month rule)

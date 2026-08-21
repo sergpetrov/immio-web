@@ -25,6 +25,14 @@ sources:
     url: https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/manual-tributacion-no-residentes/regimenes-opcionales/regimen-especial-impatriados.html
     type: official
 
+relatedContent:
+  - spain-long-term-residence
+  - portugal-tax-residency
+  - italy-tax-residency
+  - france-tax-residency
+  - greece-tax-residency
+  - cyprus-tax-residency
+
 ---
 
 # Spain Tax Residency (183-day rule)

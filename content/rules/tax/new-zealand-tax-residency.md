@@ -31,6 +31,13 @@ sources:
     url: https://www.ird.govt.nz/managing-my-tax/penalties-and-interest/penalties-and-debt/shortfall-penalties
     type: official
 
+relatedContent:
+  - australia-tax-residency
+  - singapore-tax-residency
+  - uk-tax-residency-srt
+  - canada-tax-residency
+  - hong-kong-tax-residency
+
 ---
 
 # New Zealand Tax Residency (183-day rule)

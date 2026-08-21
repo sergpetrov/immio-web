@@ -25,6 +25,14 @@ sources:
     url: https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/bf_rep/Pages/EBF58A.aspx
     type: official
 
+relatedContent:
+  - spain-tax-residency
+  - italy-tax-residency
+  - greece-tax-residency
+  - cyprus-tax-residency
+  - france-tax-residency
+  - uae-tax-residency
+
 ---
 
 # Portugal Tax Residency (183-day rule)

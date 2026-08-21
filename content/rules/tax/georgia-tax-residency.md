@@ -28,6 +28,13 @@ sources:
     url: https://www.rs.ge/Legislation?cat=1&tab=1
     type: official
 
+relatedContent:
+  - turkey-tax-residency
+  - uae-tax-residency
+  - cyprus-tax-residency
+  - portugal-tax-residency
+  - israel-tax-residency
+
 ---
 
 # Georgia Tax Residency (183-day rule)

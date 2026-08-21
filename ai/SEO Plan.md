@@ -1337,6 +1337,74 @@ the beacon is small and deferred.
 **When not to:** now. It measures nothing the current phases need, and a second beacon on every page
 for data nobody is reading is a cost without a return.
 
+### 9.8 GA4 custom events — what is tracked
+
+Shipped 2026-08-21. Rule Guide events fire from an inline delegated listener in
+[pageShell.ts](src/modules/content/pageShell.ts); the landing page's download clicks come from
+[react-app/analytics.ts](src/react-app/analytics.ts). Both send the same parameter names.
+
+**Every event carries:** `device_type` (mobile / tablet / desktop, from UA plus viewport — GA4's own
+`device_category` is not available as an event parameter), `in_app` (true on `?source=inapp`), and
+on rule pages `rule_id` and `rule_title`.
+
+**Deliberately minimal — only parameters with a question behind them.** Two were tried and dropped:
+`listing` (the category or country slug on listing pages) and `page_type` (a section path such as
+`/rules/tax`). Both restated what GA4 already sends on every event as `page_location`, which
+carries the exact URL and can be grouped by path prefix in reports. Add parameters when a report
+actually needs them, not in advance.
+
+| event | extra parameters | fires on |
+|:--|:--|:--|
+| `app_download_click` | `platform` (ios/android), `source` | any store link — sources: `header`, `hero`, `rule_content_keep_track`, `404` |
+| `rule_click` | `rule_id`, `rule_title`, `source` | any link to a rule; source inferred from where it sits — `related_content`, `article_body`, `search_results`, `country_grid`, `header`, `footer`, or the listing path |
+| `rule_faq_open` | `question` | FAQ accordion — **opens only**, not closes |
+| `country_click` | `country`, `destination` | country card on `/rules/countries` |
+| `rule_search` | `query`, `results` | search box, 1.5s after typing stops |
+| `rule_scroll_depth` | `percent_scrolled`, `deepest_section` | rule pages only — once per visit, on the way out |
+| `rule_section_click` | `section_id`, `section_title` | table-of-contents link |
+
+**`rule_click` overrides both `rule_id` and `rule_title` to describe the *clicked* rule**, not the
+page it was clicked from. Letting `rule_title` fall through from the page context would pair the
+destination's id with the source's title, which is worse than either alone. The originating page is
+not lost — GA4 attaches `page_location` to every event automatically. For chips and related rows the
+title comes from the row's title element; for a link inside an article it is the anchor text, which
+is the phrase the author wrote rather than the formal rule name (e.g. "UK citizenship by
+naturalisation") — still the truest label for what the reader actually clicked.
+
+**Sources are inferred from DOM position, not from a data attribute on every link.** Adding a link
+anywhere therefore does not also mean remembering to tag it. The exception is `app_download_click`,
+where `data-app-source` is explicit because the store links look identical wherever they appear.
+
+**Scroll depth is wired only on rule pages** (`page.ruleId` present). Listing and legal pages
+attached the listeners too at first, which meant `rule_scroll_depth` reported reading depth for
+pages that are not rules.
+
+**Scroll depth is one event per visit, not one per threshold.** Firing at 25/50/75/100 multiplies
+events for no extra insight when what matters is the final figure. Sent on `pagehide`, with
+`visibilitychange → hidden` as the fallback for mobile backgrounding where `pagehide` is unreliable,
+and guarded so the two cannot double-send.
+
+**Known gaps, deliberate for now:**
+- `public/404.html` is a static asset with no GA4 tag and no event script, so its `data-app-source="404"`
+  store link is not tracked. The attribute is in place for whenever the 404 gets a tag.
+- `rule_click` matches `a[href^="/rules/"]` only. A link written as a full `https://immio.app/rules/…`
+  URL would not be counted; in-repo links are all root-relative.
+- The inline script hardcodes the category slugs (`tax`, `travel`, `immigration`) to tell a listing
+  URL from a rule URL. **Adding a fourth category means updating `LISTINGS` in
+  [pageShell.ts](src/modules/content/pageShell.ts)**, or its listing links will be logged as rule
+  clicks with the slug as `rule_id`.
+
+**Two bugs found while testing this, worth not reintroducing:**
+- `sendScroll()` originally set its "already sent" flag *before* calling `track()`, which no-ops when
+  gtag is absent. A `pagehide` firing before gtag.js finished loading burned the flag and suppressed
+  the retry, losing the event entirely. The flag is now only set on an actual send.
+- The gtag check was originally a single early return at script start, making the listeners depend on
+  gtag.js having loaded first. It is now checked per call.
+
+**Before these report usefully, register the custom dimensions** in GA4 → Admin → Custom definitions:
+`device_type`, `in_app`, `rule_id`, `rule_title`, `source`, `platform` at minimum. Event parameters not
+registered as dimensions are collected but cannot be broken out in reports.
+
 ### 9.2 Google Search Console — verification
 
 Pick one:

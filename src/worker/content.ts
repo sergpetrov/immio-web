@@ -216,6 +216,7 @@ function renderRuleDocument(
     ogType: "article",
     noindex,
     analytics,
+    page: { ruleId: rule.frontmatter.id, ruleTitle: rule.frontmatter.title },
     jsonLd: [
       renderJsonLd(buildArticleJsonLd({ origin, pathname, rule, place })),
       renderJsonLd(buildBreadcrumbListJsonLd(buildRuleBreadcrumbs(category, rule), origin)),

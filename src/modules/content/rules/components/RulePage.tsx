@@ -87,6 +87,7 @@ export default function RulePage({
                             className="content-callout__cta"
                             href={appDownloadUrl}
                             data-app-download
+                            data-app-source="rule_content_keep_track"
                             target="_blank"
                             rel="noopener noreferrer"
                           >

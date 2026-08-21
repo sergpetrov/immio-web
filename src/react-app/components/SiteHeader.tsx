@@ -1,6 +1,7 @@
 import type { MouseEvent } from "react";
 import { useEffect, useState } from "react";
 import SiteHeaderView from "./SiteHeaderView";
+import { trackAppDownload } from "../analytics";
 
 export interface SiteHeaderProps {
   /**
@@ -79,7 +80,10 @@ export default function SiteHeader({ mode = "static", appDownloadUrl }: SiteHead
       onToggleMenu={() => setNavOpen((open) => !open)}
       onLogoClick={handleLogoClick}
       onAnchorClick={handleAnchorClick}
-      onCtaClick={() => setNavOpen(false)}
+      onCtaClick={() => {
+        trackAppDownload(appDownloadUrl.includes("play.google.com") ? "android" : "ios", "header");
+        setNavOpen(false);
+      }}
     />
   );
 }

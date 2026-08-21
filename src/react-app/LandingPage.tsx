@@ -1,6 +1,7 @@
 import type {CSSProperties} from "react";
 import {useEffect, useRef, useState} from "react";
 import {IMMIO_APP_STORE_URL, IMMIO_GOOGLE_PLAY_URL, getAppDownloadUrlForUserAgent} from "./appStoreLinks.ts";
+import {trackAppDownload} from "./analytics";
 import FaqAccordion from "./components/FaqAccordion.tsx";
 import SiteFooter from "./components/SiteFooter.tsx";
 import SiteHeader from "./components/SiteHeader.tsx";
@@ -315,6 +316,7 @@ export default function LandingPage() {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     aria-label="Download Tax Residency Tracker on the App Store"
+                                    onClick={() => trackAppDownload("ios", "hero")}
                                 >
                                     <img src="/immio/app-store-badge.svg" alt="" width={113} height={30}/>
                                 </a>
@@ -324,6 +326,7 @@ export default function LandingPage() {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     aria-label="Get Immio on Google Play"
+                                    onClick={() => trackAppDownload("android", "hero")}
                                 >
                                     <img src="/immio/google-play-badge.svg" alt="" width={108} height={26}/>
                                 </a>

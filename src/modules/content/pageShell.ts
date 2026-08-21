@@ -24,6 +24,14 @@ export interface PageShellParams {
   noindex?: boolean;
   /** Emit the GA4 tag. False off the production host, so dev ships no tag at all. */
   analytics?: boolean;
+  /** Context attached to every GA4 event fired from this page. */
+  page?: PageAnalytics;
+}
+
+/** Rule pages only; every other page has no context to add. */
+export interface PageAnalytics {
+  ruleId: string;
+  ruleTitle: string;
 }
 
 function escapeAttr(value: string): string {
@@ -53,6 +61,7 @@ export function renderDocument({
   ogImageAlt = DEFAULT_OG_IMAGE_ALT,
   noindex = false,
   analytics = false,
+  page,
 }: PageShellParams): string {
   const safeTitle = escapeAttr(normalizeText(title));
   const safeDescription = escapeAttr(normalizeText(description));
@@ -103,6 +112,7 @@ export function renderDocument({
     <meta name="twitter:image" content="${safeOgImage}" />
     <meta name="twitter:image:alt" content="${safeOgImageAlt}" />
     ${renderAnalyticsTags(analytics)}
+    <script>window.__immioPage=${JSON.stringify(page ?? {}).replace(/</g, "\\u003c")};</script>
     ${jsonLd.join("\n    ")}
   </head>
   <body>
@@ -118,9 +128,196 @@ export function renderDocument({
     <script>${BACK_LINK_SCRIPT}</script>
     <script>${COUNTRY_SEARCH_SCRIPT}</script>
     <script>${INAPP_LINKS_SCRIPT}</script>
+    <script>${ANALYTICS_EVENTS_SCRIPT}</script>
   </body>
 </html>`;
 }
+
+/*
+  GA4 custom events for the Rule Guide. Everything is click delegation on
+  document, so it works on these never-hydrated pages and survives any markup
+  the article Markdown produces.
+
+  Sources are inferred from where the clicked element sits rather than from a
+  data attribute on every link, so adding a link anywhere does not also mean
+  remembering to tag it.
+
+  Fires nothing when gtag is absent — off the production host that is every
+  page (see shared/analytics.ts), so dev clicks never reach the property.
+*/
+const ANALYTICS_EVENTS_SCRIPT = `(function(){
+  var page = window.__immioPage || {};
+  var LISTINGS = ["tax", "travel", "immigration", "countries"];
+
+  function deviceType() {
+    var ua = navigator.userAgent || "";
+    var w = window.innerWidth || document.documentElement.clientWidth || 0;
+    if (/iPad|Tablet|PlayBook|Silk/i.test(ua) || (/Android/i.test(ua) && !/Mobile/i.test(ua))) return "tablet";
+    if (/Mobi|iPhone|iPod|Android|Windows Phone/i.test(ua) || w < 768) return "mobile";
+    if (w < 1024) return "tablet";
+    return "desktop";
+  }
+  var device = deviceType();
+  var inApp = document.documentElement.classList.contains("is-inapp");
+
+  function track(name, params) {
+    // Checked per call, not once at startup: listeners attach regardless, so
+    // the page never depends on gtag.js having loaded first, and the whole
+    // thing is a no-op wherever the tag is absent.
+    if (!window.gtag) return;
+    var payload = { device_type: device, in_app: inApp };
+    if (page.ruleId) payload.rule_id = page.ruleId;
+    if (page.ruleTitle) payload.rule_title = page.ruleTitle;
+    for (var k in params) if (params[k] !== undefined && params[k] !== null && params[k] !== "") payload[k] = params[k];
+    window.gtag("event", name, payload);
+  }
+
+  function ruleIdFromPath(path) {
+    var parts = path.split("?")[0].split("#")[0].split("/").filter(Boolean);
+    if (parts[0] !== "rules" || parts.length !== 2) return null;
+    return LISTINGS.indexOf(parts[1]) === -1 ? parts[1] : null;
+  }
+
+  // The clicked rule's own title. Chips and related rows wrap it in a known
+  // element; an in-article link has only its anchor text, which is the phrase
+  // the author wrote rather than the rule name — still the truest label for
+  // what was clicked.
+  function ruleTitleFromLink(anchor) {
+    var el = anchor.querySelector(".content-rule-chip__title, .content-related__title");
+    return ((el ? el.textContent : anchor.textContent) || "").trim().slice(0, 100);
+  }
+
+  // Where a rule link was clicked from. Ordered most specific first.
+  function ruleClickSource(anchor) {
+    if (anchor.closest(".content-related")) return "related_content";
+    if (anchor.closest(".content-article")) return "article_body";
+    if (anchor.closest(".content-search-results")) return "search_results";
+    if (anchor.closest(".content-country-grid")) return "country_grid";
+    if (anchor.closest(".site-footer")) return "footer";
+    if (anchor.closest(".site-header")) return "header";
+    return anchor.getAttribute("data-rule-origin") || location.pathname;
+  }
+
+  document.addEventListener("click", function (event) {
+    if (event.defaultPrevented || event.button !== 0) return;
+    var target = event.target;
+    if (!target || !target.closest) return;
+
+    var store = target.closest("a[data-app-download]");
+    if (store) {
+      var href = store.getAttribute("href") || "";
+      track("app_download_click", {
+        platform: href.indexOf("play.google.com") !== -1 ? "android" : "ios",
+        source: store.getAttribute("data-app-source") || "unknown"
+      });
+      return;
+    }
+
+    var toc = target.closest(".content-toc__list a");
+    if (toc) {
+      track("rule_section_click", {
+        section_id: (toc.getAttribute("href") || "").replace("#", ""),
+        section_title: (toc.textContent || "").trim()
+      });
+      return;
+    }
+
+    var faq = target.closest(".faq-accordion__trigger");
+    if (faq) {
+      // Class is toggled after this handler, so is-open still reflects the pre-click state.
+      var opening = !(faq.closest(".faq-accordion__item") || {}).classList.contains("is-open");
+      if (opening) {
+        var q = faq.querySelector("span");
+        track("rule_faq_open", { question: ((q && q.textContent) || "").trim().slice(0, 100) });
+      }
+      return;
+    }
+
+    var country = target.closest(".content-country-card");
+    if (country) {
+      // The name span specifically — the card body also holds the rule count,
+      // and textContent would run the two together ("Australia3 Rules").
+      var nameEl = country.querySelector(".content-country-card__name");
+      track("country_click", {
+        country: ((nameEl && nameEl.textContent) || "").trim().slice(0, 60),
+        destination: (country.getAttribute("href") || "").split("?")[0]
+      });
+      return;
+    }
+
+    var link = target.closest('a[href^="/rules/"]');
+    if (link) {
+      var id = ruleIdFromPath(link.getAttribute("href") || "");
+      // rule_id and rule_title are both overridden so they describe the clicked
+      // rule consistently. Leaving rule_title to fall through from the page
+      // context would pair the destination's id with the source's title. Which
+      // page the click happened on is still known — GA4 attaches page_location
+      // to every event.
+      if (id) track("rule_click", { rule_id: id, rule_title: ruleTitleFromLink(link), source: ruleClickSource(link) });
+    }
+  }, true);
+
+  // Search: a separate, longer debounce than the list filtering, so the event
+  // reflects a query the user stopped typing rather than every keystroke.
+  var search = document.querySelector("[data-country-search]");
+  if (search) {
+    var searchTimer, lastSent = "";
+    search.addEventListener("input", function () {
+      clearTimeout(searchTimer);
+      searchTimer = setTimeout(function () {
+        var q = search.value.trim();
+        if (!q || q === lastSent) return;
+        lastSent = q;
+        var visible = document.querySelectorAll("[data-searchable-rule]:not([hidden])").length;
+        track("rule_search", { query: q.slice(0, 100), results: visible });
+      }, 1500);
+    });
+  }
+
+  /*
+    One scroll event per visit, sent on the way out with the furthest point
+    reached. Firing per threshold would multiply events for no extra insight,
+    and reading depth only matters as a final figure. Rule pages only — the
+    listeners are never attached elsewhere.
+
+    pagehide covers navigation; visibilitychange covers mobile backgrounding,
+    where pagehide is unreliable. Guarded so the two cannot double-send.
+  */
+  if (!page.ruleId) return;
+
+  var maxPercent = 0, deepestSection = "", sent = false;
+  var sections = Array.prototype.slice.call(document.querySelectorAll(".content-article > section[id]"));
+
+  function measure() {
+    var doc = document.documentElement;
+    var viewport = window.innerHeight || doc.clientHeight || 0;
+    var scrollable = doc.scrollHeight - viewport;
+    var percent = scrollable > 0 ? Math.round(((window.scrollY || doc.scrollTop) / scrollable) * 100) : 100;
+    if (percent > maxPercent) maxPercent = Math.max(0, Math.min(100, percent));
+    for (var i = 0; i < sections.length; i++) {
+      if (sections[i].getBoundingClientRect().top <= viewport * 0.5) deepestSection = sections[i].id;
+    }
+  }
+  var measureTimer;
+  window.addEventListener("scroll", function () {
+    clearTimeout(measureTimer);
+    measureTimer = setTimeout(measure, 200);
+  }, { passive: true });
+  measure();
+
+  function sendScroll() {
+    // gtag is checked here as well as in track(): without it the flag would be
+    // burned on a pagehide that fired before gtag.js finished loading, and the
+    // visibilitychange retry would then be suppressed for a send that never happened.
+    if (sent || !window.gtag) return;
+    sent = true;
+    track("rule_scroll_depth", { percent_scrolled: maxPercent, deepest_section: deepestSection });
+  }
+  window.addEventListener("pagehide", sendScroll);
+  document.addEventListener("visibilitychange", function () {
+    if (document.visibilityState === "hidden") sendScroll();
+  });
+})();`;
 
 const INAPP_BOOT_SCRIPT = `(function(){
   if (location.pathname.indexOf("/rules") !== 0) return;

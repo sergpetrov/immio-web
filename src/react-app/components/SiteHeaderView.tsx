@@ -66,6 +66,7 @@ export default function SiteHeaderView({
             className="site-header__cta"
             href={appDownloadUrl}
             data-app-download
+            data-app-source="header"
             target="_blank"
             rel="noopener noreferrer"
             onClick={onCtaClick}

@@ -42,7 +42,7 @@ export function initClientAnalytics(): void {
     dataLayer.push(args);
   };
   window.gtag("js", new Date());
-  window.gtag("config", GA_MEASUREMENT_ID, { anonymize_ip: true, send_page_view: false });
+  window.gtag("config", GA_MEASUREMENT_ID, { send_page_view: false });
 }
 
 export function trackPageView(path: string): void {

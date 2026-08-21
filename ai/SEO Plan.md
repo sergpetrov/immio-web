@@ -1133,6 +1133,41 @@ a silent-failure path. Dev and preview traffic is kept out by `analyticsAllowedF
 **Verify after deploy:** `curl -sS https://immio.app/rules | grep -c googletagmanager` should return
 `1`, then check **GA4 → Reports → Realtime** (not the Firebase console, which filters and lags).
 
+**The server-rendered pages emit Google's canonical gtag.js snippet verbatim**, gated server-side on
+the request host: production gets exactly what Google's setup page prints, and dev/preview hosts get
+no analytics markup at all. Gating at render time rather than with a runtime `if` in the browser is
+what allows the snippet to stay identical to Google's — a static `<script async src>` would load and
+register a page view before any in-page check could run, putting local traffic into the property.
+
+The SPA routes (`/`, `/contact`) still inject gtag dynamically with a runtime host check, because
+`index.html` is one static file shared by every host and cannot be gated at render time. That goes
+away when the landing page is server-rendered (P0-5 Stage 2).
+
+**Do not add `anonymize_ip: true`.** It is a Universal Analytics parameter and a no-op in GA4, which
+never logs or stores IP addresses and gives no way to switch that off. It was in the original snippet
+by habit and has been removed — it looked like a privacy control while exercising nothing. The
+settings that *do* have an effect are `allow_google_signals: false` and
+`allow_ad_personalization_signals: false` (see §9.6).
+
+### 9.6 Analytics privacy settings — a decision to make
+
+Two `gtag('config', …)` flags do have real effect, unlike `anonymize_ip`, and both fit the app's
+"private by design, no account required" positioning:
+
+- `allow_google_signals: false` — turns off Google Signals, which otherwise ties sessions to
+  signed-in Google accounts for cross-device and advertising reporting.
+- `allow_ad_personalization_signals: false` — stops the data being used for ads personalisation.
+
+Turning them off costs the Demographics and Interests reports, which are of little use here. Also
+worth setting **GA4 → Admin → Data retention** to the shortest period you can live with.
+
+**Separately, and larger: there is no cookie consent banner.** GA4 sets a `_ga` cookie, and under
+GDPR/ePrivacy analytics cookies generally need prior consent from EU visitors — who are a large part
+of this audience, given the Schengen and EU tax rules are among the most-visited pages. Three ways
+out, in increasing effort: switch to a cookieless analytics tool (Cloudflare Web Analytics needs no
+banner and no consent), implement GA4 Consent Mode v2, or add a consent banner. Worth a decision
+before traffic scales — it is a legal question, not an SEO one, so take advice rather than my word.
+
 ### 9.2 Google Search Console — verification
 
 Pick one:

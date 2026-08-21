@@ -27,33 +27,26 @@ export function analyticsAllowedForHost(hostname: string): boolean {
 }
 
 /**
- * `<head>` markup for the server-rendered pages.
+ * Google's canonical gtag.js snippet, verbatim.
  *
- * gtag.js is injected by the host guard rather than sitting in a static
- * `<script src>` — a static tag would load and register the page view before
- * any check could run, putting dev and preview traffic into the property.
+ * Emitted only when `enabled` — the caller passes the result of
+ * `analyticsAllowedForHost`, so dev servers and preview deployments ship no
+ * analytics markup at all rather than relying on a runtime check. That is what
+ * lets this stay identical to the snippet in Google's own setup instructions.
  */
-export function renderAnalyticsTags(): string {
-  const id = JSON.stringify(GA_MEASUREMENT_ID);
-  const host = JSON.stringify(SITE_HOST);
-  const src = JSON.stringify(`${GTAG_ORIGIN}/gtag/js?id=${encodeURIComponent(GA_MEASUREMENT_ID)}`);
+export function renderAnalyticsTags(enabled: boolean): string {
+  if (!enabled) {
+    return "";
+  }
 
-  return `<link rel="preconnect" href="${GTAG_ORIGIN}" />
+  const id = GA_MEASUREMENT_ID;
+
+  return `<script async src="${GTAG_ORIGIN}/gtag/js?id=${encodeURIComponent(id)}"></script>
     <script>
-      (function () {
-        if (location.hostname !== ${host}) return;
-        var s = document.createElement("script");
-        s.async = true;
-        s.src = ${src};
-        document.head.appendChild(s);
-        window.dataLayer = window.dataLayer || [];
-        // Google's own snippet writes a bare \`dataLayer.push\`, relying on
-        // \`window.x = …\` creating a global binding. Addressing it through
-        // \`window\` explicitly does the same thing without that assumption.
-        function gtag(){window.dataLayer.push(arguments);}
-        window.gtag = gtag;
-        gtag('js', new Date());
-        gtag('config', ${id}, { anonymize_ip: true });
-      })();
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', '${id}');
     </script>`;
 }

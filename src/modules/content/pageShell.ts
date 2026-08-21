@@ -24,6 +24,8 @@ export interface PageShellParams {
   noindex?: boolean;
   /** `?source=inapp` — suppresses Safari's Smart App Banner. */
   inApp?: boolean;
+  /** Emit the GA4 tag. False off the production host, so dev ships no tag at all. */
+  analytics?: boolean;
 }
 
 function escapeAttr(value: string): string {
@@ -53,6 +55,7 @@ export function renderDocument({
   ogImageAlt = DEFAULT_OG_IMAGE_ALT,
   noindex = false,
   inApp = false,
+  analytics = false,
 }: PageShellParams): string {
   const safeTitle = escapeAttr(normalizeText(title));
   const safeDescription = escapeAttr(normalizeText(description));
@@ -109,7 +112,7 @@ export function renderDocument({
     <meta name="twitter:image" content="${safeOgImage}" />
     <meta name="twitter:image:alt" content="${safeOgImageAlt}" />
     ${appBannerTag}
-    ${renderAnalyticsTags()}
+    ${renderAnalyticsTags(analytics)}
     ${jsonLd.join("\n    ")}
   </head>
   <body>

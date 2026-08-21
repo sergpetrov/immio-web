@@ -1,5 +1,5 @@
 import { IMMIO_APP_STORE_URL, IMMIO_GOOGLE_PLAY_URL } from "../../react-app/appStoreLinks";
-import { renderAnalyticsTags, renderSiteVerificationTag } from "../../shared/analytics";
+import { renderAnalyticsTags } from "../../shared/analytics";
 import {
   DEFAULT_OG_IMAGE_ALT,
   DEFAULT_OG_IMAGE_PATH,
@@ -109,7 +109,6 @@ export function renderDocument({
     <meta name="twitter:image" content="${safeOgImage}" />
     <meta name="twitter:image:alt" content="${safeOgImageAlt}" />
     ${appBannerTag}
-    ${renderSiteVerificationTag()}
     ${renderAnalyticsTags()}
     ${jsonLd.join("\n    ")}
   </head>

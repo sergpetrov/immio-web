@@ -1,6 +1,6 @@
 /** Browser half of the GA4 integration, for the SPA routes. Config: shared/analytics.ts. */
 
-import { GA_MEASUREMENT_ID, analyticsAllowedForHost, analyticsEnabled } from "../shared/analytics";
+import { GA_MEASUREMENT_ID, analyticsAllowedForHost } from "../shared/analytics";
 
 const GTAG_ORIGIN = "https://www.googletagmanager.com";
 
@@ -18,7 +18,7 @@ declare global {
  * load and then misses every client-side navigation.
  */
 export function initClientAnalytics(): void {
-  if (!analyticsEnabled || typeof window === "undefined") {
+  if (typeof window === "undefined") {
     return;
   }
   // Dev servers and preview deployments run this same bundle; only the
@@ -46,7 +46,7 @@ export function initClientAnalytics(): void {
 }
 
 export function trackPageView(path: string): void {
-  if (!analyticsEnabled || typeof window === "undefined" || !window.gtag) {
+  if (typeof window === "undefined" || !window.gtag) {
     return;
   }
   window.gtag("event", "page_view", {

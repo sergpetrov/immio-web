@@ -1091,13 +1091,12 @@ curl -sS https://immio.app/rules/portugal-tax-residency | grep -oE '<(title|meta
 | Rule content | [content/rules/](content/rules/) |
 | Content authoring standard | [ai/Rule Generation Plan.md](ai/Rule%20Generation%20Plan.md) |
 | Site identity, canonical origin, OG defaults | [src/shared/site.ts](src/shared/site.ts) |
-| GA4 config + server-rendered tags | [src/shared/analytics.ts](src/shared/analytics.ts) |
+| GA4 config + server-rendered tags | [src/shared/analytics.ts](src/shared/analytics.ts) — the measurement ID is a constant here; the project has **no** build-time config, no `.env` files |
 | GA4 browser init + SPA page views | [src/react-app/analytics.ts](src/react-app/analytics.ts) |
 | Sitemap generation | [src/modules/content/sitemap.ts](src/modules/content/sitemap.ts) |
 | Crawler directives | [public/robots.txt](public/robots.txt) |
 | 404 page (shared by Worker and asset handler) | [public/404.html](public/404.html) |
 | Social card generation | [scripts/generate-og-images.mjs](scripts/generate-og-images.mjs) |
-| Build-time config | [.env.example](.env.example) · [src/shared/env.d.ts](src/shared/env.d.ts) |
 
 ---
 
@@ -1109,28 +1108,30 @@ identifiers, visible in any page's source — but they are account-specific.
 
 ### 9.1 GA4 measurement ID — ✅ DONE
 
-`G-KVJFE2FFJ3`, from the `immio-app` Firebase web config, is set in `.env.local` (gitignored).
+`G-KVJFE2FFJ3`, from the `immio-app` Firebase web config, is a plain constant in
+[src/shared/analytics.ts](src/shared/analytics.ts). There is no environment variable and no
+`.env.example`; the project needs no build-time configuration at all.
 
 **No `npm install firebase` needed.** Firebase Analytics for web *is* GA4 — `getAnalytics(app)` loads
-gtag.js under the hood and reports to the property named by `measurementId`. The site already calls
-gtag directly with that same ID, so the events are identical; the SDK would add ~45 KB of
-Auth/Firestore/Remote-Config machinery the marketing site never uses. If Firebase is later wanted on
-the web for something else (Remote Config A/B tests on the landing page, say), install it then and
-swap the analytics half for `getAnalytics`.
+gtag.js and reports to the property named by `measurementId`. The site calls gtag directly with the
+same ID, so the events are identical; the SDK would add ~45 KB of Auth/Firestore/Remote-Config
+machinery this site never uses.
 
-The other values in that config (`apiKey`, `appId`, …) are only consumed by the Firebase SDK, so they
-are not referenced anywhere in this repo. That is also why it is not a problem that they were pasted
-into a chat: Firebase web API keys are public identifiers by design, shipped in client bundles, with
-access controlled by security rules and API-key restrictions rather than by secrecy.
+**This was originally built as an env var, and that broke it.** The ID lived only in gitignored
+`.env.local`. The site was then deployed by a build running outside that machine — deploys go through
+Cloudflare Workers Builds, which has no `.env.local` — so the ID resolved to `""`, the analytics
+markup was omitted entirely, and no event ever reached GA4. Nothing errored; the page just silently
+had no tag. A follow-up `?? "G-…"` default had the same failure mode for a *blank* variable, since
+`??` only falls back on null/undefined, not `""`.
 
-**Two things to remember:**
-1. The ID is inlined at **build** time, so it must exist wherever `npm run build` runs. If deploys
-   ever move to CI, set `VITE_GA_MEASUREMENT_ID` there or analytics silently disappears.
-2. Analytics is gated to `hostname === "immio.app"` at run time. Update `SITE_HOST` in
-   [src/shared/site.ts](src/shared/site.ts) if the domain ever changes.
+**Do not move it back behind an environment variable.** A GA4 measurement ID is a public identifier —
+it ships in the page source of every site that uses it, so hiding it protects nothing while creating
+a silent-failure path. Dev and preview traffic is kept out by `analyticsAllowedForHost`
+(`hostname === "immio.app"`), which is the reliable guard. Update `SITE_HOST` in
+[src/shared/site.ts](src/shared/site.ts) if the domain changes.
 
-After the first deploy, confirm in **GA4 → Reports → Realtime**: load a rule page and watch the
-active-user count. Nothing appears before then, by design.
+**Verify after deploy:** `curl -sS https://immio.app/rules | grep -c googletagmanager` should return
+`1`, then check **GA4 → Reports → Realtime** (not the Firebase console, which filters and lags).
 
 ### 9.2 Google Search Console — verification
 
@@ -1139,9 +1140,10 @@ Pick one:
   record → add it in Cloudflare DNS. Covers http, https, and every subdomain at once, and survives
   any redesign. Tell me when it's verified and I'll submit the sitemap.
 - **HTML file.** Download Google's `googleXXXX.html`, drop it in `public/`, and I'll commit it.
-- **HTML tag.** Send me the token for `VITE_GOOGLE_SITE_VERIFICATION`. Note this one only covers the
-  server-rendered pages — the homepage is still client-rendered, so it may not verify. Prefer the
-  other two until landing-page SSR ships.
+- **HTML tag.** No longer supported in code — the `VITE_GOOGLE_SITE_VERIFICATION` hook was removed
+  along with the other build-time config. It was the weakest of the three anyway: it only reached the
+  server-rendered pages, and Google checks the homepage, which is still client-rendered. Ask if you
+  need it back.
 
 Then **Bing Webmaster Tools** — it imports from Search Console in one click, and Bing's index feeds
 ChatGPT search.

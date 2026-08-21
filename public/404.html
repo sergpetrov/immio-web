@@ -17,7 +17,9 @@
     <title>Page not found | Immio</title>
     <style>
       .notfound {
+        flex: 1 0 auto;
         max-width: 34rem;
+        width: 100%;
         margin: 0 auto;
         padding: 5rem 1.25rem 6rem;
         text-align: center;
@@ -34,7 +36,8 @@
         font-size: clamp(1.6rem, 4vw, 2.25rem);
         margin: 0 0 0.75rem;
       }
-      .notfound p {
+      .notfound p:not(.notfound__code) {
+        font-size: clamp(1rem, 2vw, 1.15rem);
         color: var(--content-text-muted, #6d6d6d);
         margin: 0 0 2rem;
       }
@@ -50,7 +53,7 @@
         border-radius: 999px;
         border: 1px solid #e0e0e0;
         font-weight: 600;
-        font-size: 0.9rem;
+        font-size: 1rem;
         text-decoration: none;
         color: inherit;
       }
@@ -93,14 +96,18 @@
       <main class="notfound">
         <p class="notfound__code">Error 404</p>
         <h1>We couldn't find that page</h1>
-        <p>
-          The link may be out of date, or the page may have moved. The Rule Guide below covers tax residency,
-          visa, and immigration day rules by country.
-        </p>
+        <p>The link may be out of date, or the page may have moved.</p>
         <div class="notfound__links">
-          <a href="/rules">Browse the Rule Guide</a>
-          <a href="/rules/countries">Rules by country</a>
-          <a href="/">Go to homepage</a>
+          <a href="/">Go back home</a>
+          <a
+            href="https://apps.apple.com/gb/app/tax-residency-tracker-immio/id6747927306"
+            data-app-download
+            data-app-source="404"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Get the app</a
+          >
+          <a href="/rules">Rule Guide</a>
         </div>
       </main>
 

@@ -129,6 +129,7 @@ html.is-inapp .content-keep-track-block > .content-callout {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  min-height: 100dvh;
 }
 
 /* Main / breadcrumbs / intro */

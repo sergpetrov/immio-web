@@ -19,9 +19,15 @@
   }
 }
 
+/*
+  margin-top:auto pins the footer to the bottom of the page shell when the
+  content is shorter than the viewport (every shell is a flex column with a
+  min-height of one viewport), so no background strip shows under it.
+*/
 .site-footer {
   position: relative;
   z-index: 4;
+  margin-top: auto;
   width: 100%;
   background: var(--footer-bg);
   padding: 64px 0 48px;

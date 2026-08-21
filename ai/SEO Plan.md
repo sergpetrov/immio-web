@@ -1109,6 +1109,64 @@ Every guide must link to ≥3 rule pages; every rule page in the cluster should 
 
 ---
 
+## 5.6 Google SEO Starter Guide — conformance audit (2026-08-21)
+
+Audited against
+[developers.google.com/search/docs/fundamentals/seo-starter-guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide).
+Re-run the checks in §8.3 after any structural change.
+
+### Passing
+
+| Guide item | Evidence |
+|:--|:--|
+| Google can find the content | `robots.txt` allows all; `sitemap.xml` (72 URLs) submitted and read |
+| CSS/JS crawlable | nothing disallowed in `robots.txt` |
+| Descriptive URLs | `/rules/spain-tax-residency`, not `/rules/?id=42` |
+| One URL per piece of content | trailing-slash 301s; single-rule country hubs 301 to the rule; `?source=inapp` carries a canonical to the clean path |
+| `rel="canonical"` everywhere | `pageShell.ts` sets it on every SSR page |
+| Unique titles | 54/54 rules unique, 39–68 chars, all suffixed `| Immio` |
+| Unique meta descriptions | 54/54 unique, 143–163 chars, none missing |
+| Titles include the site name | `| Immio` suffix sitewide |
+| One `<h1>` per page | verified across all 9 page templates |
+| Well-organised content | every rule has TOC, sections, FAQ, sources |
+| Links to relevant resources | official government sources on every rule |
+| Anchor text is descriptive | rule titles and authored phrases, no "click here" |
+| Alt text on decorative images | flags use `alt=""` correctly — the country name is adjacent text |
+| No keywords meta tag | never added |
+| No keyword stuffing | descriptions read as prose |
+
+**Deliberately not following one item.** The guide suggests `nofollow` on external links you don't
+control. Rule sources are official government pages, and outbound links to authoritative sources are
+a trust signal, not a leak. `nofollow` here would be wrong. External links get
+`target="_blank" rel="noopener noreferrer"` ([markdown.ts](src/modules/content/rules/markdown.ts)) —
+security, not link policy.
+
+### Open — ranked
+
+1. **`/contact` has a canonical pointing at `/`.** It has its own `<h1>` and unique content (two
+   support addresses) but inherits `index.html`'s title, description, and canonical. Google is being
+   told it is a duplicate of the homepage, so it can never be indexed. It is also **orphaned** — no
+   internal link anywhere in the site. Either give it its own `<head>` and a footer link, or drop the
+   route. Fixed for free by the Phase 5 SSR of the client routes.
+2. **Landing page feature images have unhelpful alt text.** `alt="Tracker 1"` and `alt="Tracker 2"`
+   ([LandingPage.tsx](src/react-app/LandingPage.tsx)) say nothing; the rest repeat the adjacent
+   heading verbatim (`alt="Smart Alerts"`). The guide asks alt to explain the image's relationship to
+   the page. Describe what the screenshot shows.
+3. **`/rules/countries` `<h1>` reads "Search a rule."** It should name the page — "Rules by country".
+   The `<title>` is already correct, so only the on-page heading is wrong.
+4. **Landing page image weight.** `world-map.svg` is 628 KB and the six feature `.webp` files total
+   ~856 KB, none with `width`/`height` or `loading="lazy"`. Not a starter-guide item, but it is the
+   LCP and CLS surface of the one page that ranks for the brand.
+5. **Footer has no navigation.** Privacy, Terms, and a mailto only — no link to the Rule Guide or the
+   category pages, so the sitewide internal-link graph is thinner than it should be.
+
+### Considered and rejected
+
+**Moving rules into category directories** (`/rules/tax/spain-tax-residency`). The guide mentions
+grouping topically similar pages in directories, but also says URL wording is a weak signal. Fifty-four
+301s and every inbound link and share redirected, to satisfy a stated non-priority. The flat structure
+also lets a rule change category without changing its URL. Not doing it.
+
 ## 6. Standing rules
 
 ### 6.0 Content files carry content only

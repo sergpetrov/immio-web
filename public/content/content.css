@@ -1140,7 +1140,7 @@ html.is-inapp .content-keep-track-block > .content-callout {
 }
 
 .content-toc__list a.is-active::before {
-  content: "•";
+  content: "\2022"; /* escaped so the glyph survives any charset mishap */
   position: absolute;
   left: -14px;
   font-size: 1.4em;
@@ -1166,16 +1166,19 @@ html.is-inapp .content-keep-track-block > .content-callout {
 
 /* FAQ accordion itself is the shared .faq-accordion component (public/faq-accordion.css). */
 
-/* Related content block at the end of a rule article. */
+/* Related content block at the end of a rule article. Matches the spacing of
+   .content-article section so it reads as one more section of the article --
+   it is an <aside>, though, so it stays out of the TOC in the right column. */
 .content-related {
-  margin-top: 3rem;
+  margin-top: 3.5rem;
 }
 
-/* Repeats .content-article section h2, whose selector doesn't reach into <aside>. */
+/* Repeats .content-article section h2, whose selector doesn't reach into
+   <aside>. Keep these values in sync with that rule. */
 .content-related__heading {
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
   font-size: 1.4rem;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.4;
 }
 

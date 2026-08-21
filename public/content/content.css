@@ -1165,35 +1165,105 @@ html.is-inapp .content-keep-track-block > .content-callout {
 
 /* FAQ accordion itself is the shared .faq-accordion component (public/faq-accordion.css). */
 
-/* Related rules */
-
+/* Related content block at the end of a rule article. */
 .content-related {
   margin-top: 3rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid var(--content-border);
 }
 
-.content-related h2 {
-  font-size: 1.2rem;
+/* Repeats .content-article section h2, whose selector doesn't reach into <aside>. */
+.content-related__heading {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.4;
 }
 
-.content-related ul {
+/* Doubled selector here and on __item: needed to outrank .content-article ul
+   (padding-left) and .content-article li (margin, font-size), which otherwise
+   indent the rows away from the heading. */
+.content-related .content-related__list {
   list-style: none;
+  margin: 0;
   padding: 0;
-  display: grid;
-  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
 }
 
-.content-related li {
-  border: 1px solid var(--content-border);
-  border-radius: 10px;
-  padding: 1rem 1.25rem;
+.content-related .content-related__item {
+  margin: 0;
+  font-size: inherit;
 }
 
-.content-related p {
-  color: var(--content-text-muted);
-  font-size: 0.875rem;
-  margin: 0.25rem 0 0 0;
+/* Negative margin cancels the horizontal padding, so the row's content stays
+   flush with the heading while the hover background extends past it. */
+.content-related__link {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  min-height: 52px;
+  padding: 0.5rem 0.75rem;
+  margin: 0 -0.75rem;
+  border-radius: 12px;
+  color: var(--content-text);
+  text-decoration: none;
+  transition: background-color 0.15s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.content-related__link:hover,
+.content-related__link:active {
+  background: var(--content-surface);
+  color: var(--content-text);
+  text-decoration: none;
+}
+
+.content-related__flag {
+  display: block;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+/* flex:1 pushes the arrow to the right edge. */
+.content-related__title {
+  flex: 1;
+  min-width: 0;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.content-related__arrow {
+  flex-shrink: 0;
+  color: var(--immio-primary);
+  font-size: 1.0rem;
+  font-weight: 700;
+  line-height: 1.4;
+  transition: transform 0.15s ease;
+}
+
+.content-related__link:hover .content-related__arrow {
+  transform: translateX(3px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .content-related__arrow {
+    transition: none;
+  }
+
+  .content-related__link:hover .content-related__arrow {
+    transform: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .content-related__title,
+  .content-related__arrow {
+    font-size: 1.15rem;
+  }
 }
 
 .content-legal-disclaimer,

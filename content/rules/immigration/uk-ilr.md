@@ -28,6 +28,14 @@ sources:
     url: https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-continuous-residence
     type: official
 
+relatedContent:
+  - uk-citizenship
+  - uk-tax-residency-srt
+  - uk-visitor-visa
+  - schengen-90-180-day-rule
+  - us-green-card
+  - canada-permanent-residency
+
 ---
 
 # United Kingdom Indefinite Leave to Remain (ILR)
@@ -100,7 +108,7 @@ problems start.
 
 ## If you get this rule wrong
 
-Exceeding the limit generally breaks your continuous residence, and the cost is the clock rather than the calendar — the qualifying period usually starts again from zero, pushing settlement years further out rather than months. That delay flows through to citizenship as well, since naturalisation normally requires holding settled status for a further period on top. **Professional advice is strongly recommended in situations like this.**
+Exceeding the limit generally breaks your continuous residence, and the cost is the clock rather than the calendar — the qualifying period usually starts again from zero, pushing settlement years further out rather than months. That delay flows through to [UK citizenship by naturalisation](/rules/uk-citizenship) as well, which normally requires holding settled status for a further period on top. **Professional advice is strongly recommended in situations like this.**
 
 ## Examples
 

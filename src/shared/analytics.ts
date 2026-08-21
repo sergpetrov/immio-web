@@ -1,26 +1,11 @@
 /**
- * Google Analytics 4 (gtag.js) configuration and server-rendered markup.
+ * GA4 config and server-rendered markup. Set VITE_GA_MEASUREMENT_ID to enable.
  *
- * Kept DOM-free so the Worker bundle can import it — the browser half lives
- * in react-app/analytics.ts, which compiles against the DOM lib.
+ * This is also the Firebase Analytics integration — Firebase Analytics for web
+ * *is* GA4, so a Firebase web config's `measurementId` is the value to use here
+ * and the `firebase` package is not needed.
  *
- * This is also the Firebase Analytics integration: Firebase Analytics for web
- * *is* GA4 — the `measurementId` in a Firebase web config is the same
- * `G-XXXXXXXXXX` used here, and events land in the same GA4 property. Loading
- * gtag.js directly rather than the Firebase SDK keeps ~45 KB of JS off a
- * marketing site that needs none of Firebase's other services.
- *
- * Configure with VITE_GA_MEASUREMENT_ID in .env.local (and in the deploy
- * environment). Unset — the default — means no analytics code is emitted at
- * all.
- *
- * There are two independent gates, because the ID has to be baked in at build
- * time and the same bundle then runs everywhere:
- *   1. build time  — no measurement ID configured, no markup emitted;
- *   2. run time    — the page is not on the production host, so nothing loads.
- * The second is what keeps `npm run dev`, `wrangler dev`, and preview
- * deployments out of the production property. Without it, every local page
- * load would be a real session in the reports.
+ * DOM-free so the Worker can import it; the browser half is react-app/analytics.ts.
  */
 
 import { SITE_HOST } from "./site";
@@ -49,14 +34,11 @@ export function analyticsAllowedForHost(hostname: string): boolean {
 }
 
 /**
- * `<head>` markup for the server-rendered pages. Returns "" when analytics is
- * not configured, so the tag never ships half-wired.
+ * `<head>` markup for the server-rendered pages; "" when unconfigured.
  *
- * gtag.js is injected by the guard rather than sitting in a static `<script
- * src>`, so a non-production host makes no request to Google at all — a
- * static tag would load and register the page before any check could run.
- * These pages are full document loads, so GA4's default page_view is correct
- * here; only the SPA routes send views manually.
+ * gtag.js is injected by the host guard rather than sitting in a static
+ * `<script src>` — a static tag would load and register the page view before
+ * any check could run, putting dev and preview traffic into the property.
  */
 export function renderAnalyticsTags(): string {
   if (!analyticsEnabled) {

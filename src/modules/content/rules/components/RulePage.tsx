@@ -6,6 +6,7 @@ import type { Category, RuleDoc } from "../types";
 import Breadcrumbs from "./Breadcrumbs";
 import LegalDisclaimer from "./LegalDisclaimer";
 import FaqSection from "./FaqSection";
+import RelatedContent from "./RelatedContent";
 import TableOfContents from "../../components/TableOfContents";
 
 function formatMonthYear(iso: string): string {
@@ -97,6 +98,7 @@ export default function RulePage({
                   </section>
                 );
               })}
+              <RelatedContent rule={rule} />
               <LegalDisclaimer />
             </article>
           </div>

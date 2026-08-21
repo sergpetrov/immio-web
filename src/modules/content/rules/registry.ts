@@ -36,6 +36,12 @@ const RULES = buildRegistry();
 
 const rulesById = new Map(RULES.map((rule) => [rule.frontmatter.id, rule]));
 
+/*
+  relatedContent cross-references are validated by scripts/validate-content.mjs.
+  Do not assert them here: this module's top level runs at worker startup, so a
+  throw would fail initialisation and 500 every page rather than drop one link.
+*/
+
 const rulesByCategory = new Map<string, RuleDoc[]>();
 for (const rule of RULES) {
   const list = rulesByCategory.get(rule.frontmatter.category) ?? [];

@@ -22,11 +22,7 @@ export interface PageShellParams {
   ogImageAlt?: string;
   /** Set on error pages and on any host that isn't production. */
   noindex?: boolean;
-  /**
-   * Page is being viewed inside the Immio app (`?source=inapp`). Suppresses
-   * Safari's Smart App Banner — prompting someone to install the app they are
-   * currently reading this in is nonsense.
-   */
+  /** `?source=inapp` — suppresses Safari's Smart App Banner. */
   inApp?: boolean;
 }
 
@@ -64,9 +60,8 @@ export function renderDocument({
   const safeOgImage = escapeAttr(ogImage);
   const safeOgImageAlt = escapeAttr(normalizeText(ogImageAlt));
 
-  // Safari reads this at parse time, so it has to be omitted server-side —
-  // removing the element later with JS does not dismiss a banner it has
-  // already shown.
+  // Safari reads this at parse time; removing the element later with JS does
+  // not dismiss a banner it has already shown.
   const appBannerTag = inApp
     ? ""
     : `<meta name="apple-itunes-app" content="app-id=6747927306, app-argument=${escapeAttr(IMMIO_APP_STORE_URL)}" />`;

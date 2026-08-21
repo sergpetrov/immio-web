@@ -44,14 +44,15 @@
     "wrangler": "4.21.x"
   },
   "scripts": {
-    "build": "tsc -b && vite build",
+    "build": "node scripts/validate-content.mjs && tsc -b && vite build",
     "cf-typegen": "wrangler types",
-    "check": "tsc && vite build && wrangler deploy --dry-run",
+    "check": "node scripts/validate-content.mjs && tsc && vite build && wrangler deploy --dry-run",
     "deploy": "wrangler deploy",
     "dev": "vite",
     "lint": "eslint .",
     "og-images": "node scripts/generate-og-images.mjs",
-    "preview": "npm run build && vite preview"
+    "preview": "npm run build && vite preview",
+    "validate-content": "node scripts/validate-content.mjs"
   },
   "type": "module"
 }

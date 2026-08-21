@@ -46,13 +46,7 @@ export interface ContentBindings {
 
 const content = new Hono<{ Bindings: ContentBindings }>();
 
-/**
- * What every page renderer needs. `origin` is deliberately the production
- * origin rather than the request's own: preview and *.workers.dev hosts must
- * not advertise themselves as canonical. `noindex` is the other half of that
- * — those hosts serve the production canonical *and* a noindex, so they can
- * never compete with production in the index.
- */
+/** `origin` is always production (see shared/site.ts); `noindex` covers the rest. */
 interface RenderContext {
   origin: string;
   appDownloadUrl: string;
@@ -75,20 +69,14 @@ function htmlHandler(render: (context: RenderContext) => string) {
     const url = new URL(request.url);
     const appDownloadUrl = getAppDownloadUrlForUserAgent(request.headers.get("user-agent") ?? "");
     const noindex = !shouldIndexHost(url.hostname);
-    // Matches INAPP_BOOT_SCRIPT in pageShell.ts. Query-string variants are
-    // separate cache entries, so the banner-less response can't be served to
-    // an ordinary visitor.
+    // Matches INAPP_BOOT_SCRIPT in pageShell.ts.
     const inApp = url.searchParams.get("source") === "inapp";
 
     return new Response(render({ origin: SITE_ORIGIN, appDownloadUrl, noindex, inApp }), { status: 200, headers });
   };
 }
 
-/**
- * Registers a route plus a permanent redirect from its trailing-slash form,
- * so `/rules/tax/` and `/rules/tax` never both resolve. Previously some of
- * these served a duplicate 200 and others 404'd.
- */
+/** Registers a route and a 301 from its trailing-slash form, so only one resolves. */
 function route(path: string, handler: (request: Request) => Response) {
   content.on(["GET", "HEAD"], path, (c) => handler(c.req.raw));
   content.on(["GET", "HEAD"], `${path}/`, (c) => c.redirect(path, 301));
@@ -315,11 +303,9 @@ content.on(["GET", "HEAD"], "/sitemap.xml", (c) =>
 );
 
 /**
- * The landing page and /contact are still client-rendered React, served from
- * the SPA shell. They are listed explicitly rather than handled by a wildcard
- * asset fallback: an unknown path must 404, not quietly return the shell with
- * a 200 (which is what `not_found_handling: "single-page-application"` did,
- * making every typo an indexable near-duplicate of the homepage).
+ * SPA routes are listed explicitly rather than served by a wildcard fallback:
+ * an unknown path must 404, not return the shell with a 200 and become an
+ * indexable near-duplicate of the homepage.
  */
 async function serveAppShell(c: { env: ContentBindings; req: { url: string } }): Promise<Response> {
   const origin = new URL(c.req.url).origin;
@@ -337,12 +323,9 @@ content.on(["GET", "HEAD"], "/contact", (c) => serveAppShell(c));
 content.on(["GET", "HEAD"], "/contact/", (c) => c.redirect("/contact", 301));
 
 /**
- * Serves the same static 404 page the asset handler uses for non-worker paths
- * (`not_found_handling: "404-page"`), so there is one 404 page, not two.
- *
- * The asset handler redirects `/404.html` to its extensionless form, and the
- * ASSETS binding does not follow redirects — an unfollowed 3xx would hand back
- * an empty body with a 404 status. Hence the single hop.
+ * The asset handler redirects `/404.html` to its extensionless form and the
+ * ASSETS binding does not follow redirects, so an unfollowed 3xx would return
+ * an empty body. Hence the single hop.
  */
 async function fetchStaticPage(assets: Fetcher, origin: string, path: string): Promise<Response> {
   const response = await assets.fetch(new URL(path, origin));

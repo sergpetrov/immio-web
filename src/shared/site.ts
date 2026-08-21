@@ -1,12 +1,9 @@
 /**
- * Canonical identity of the site, shared by the worker-rendered pages, the
- * client SPA, and the build-time asset scripts.
+ * Site identity, shared by the worker pages, the SPA, and the build scripts.
  *
- * Canonical/OG URLs deliberately use SITE_ORIGIN rather than the request's own
- * origin: preview deployments and *.workers.dev hosts must never advertise
- * themselves as canonical, or they end up competing with production in the
- * index. `shouldIndexHost` covers the other half of that — those hosts get a
- * noindex instead.
+ * Canonical/OG URLs use SITE_ORIGIN rather than the request origin so preview
+ * hosts never advertise themselves as canonical; `shouldIndexHost` noindexes
+ * them to match.
  */
 
 export const SITE_ORIGIN = "https://immio.app";
@@ -34,22 +31,12 @@ export const LOGO_PATH = "/logo.svg";
 export const SOCIAL_PROFILES: string[] = [];
 
 /**
- * App rating for the MobileApplication schema's `aggregateRating`.
- *
- * `ratingValue` is owner-supplied, not derived from a store API. For
- * reference, the public App Store lookup API on 2026-08-20 gave a worldwide
- * count-weighted average of 4.619 across 21 ratings (gb 4.889×9, us 4.625×8,
- * ca 1.0×1, tr/cy/ru 5.0×1) — individual storefronts vary widely, GB alone
- * reading 4.9. `ratingCount` is the API figure, since a count is required for
- * valid markup.
- *
- * Two things to keep in mind when changing this:
- *  - The value is not currently rendered anywhere on the site. Google's
- *    structured-data guidelines expect a marked-up rating to be visible on the
- *    page carrying the markup.
- *  - Whatever is published here is checkable by anyone against the store, so
- *    keep it close to reality and refresh it when the store numbers move:
- *      curl -s "https://itunes.apple.com/us/lookup?id=6747927306"
+ * `aggregateRating` for the MobileApplication schema. Owner-supplied, not
+ * store-derived, and not rendered anywhere on the site — note that Google
+ * expects a marked-up rating to be visible on the page carrying it. Anyone can
+ * check these against the store, so keep them current:
+ *   curl -s "https://itunes.apple.com/us/lookup?id=6747927306"
+ * (that is one storefront; the worldwide figure is the count-weighted mean.)
  */
 export const APP_STORE_RATING = "4.8";
 export const APP_STORE_RATING_COUNT = 100;

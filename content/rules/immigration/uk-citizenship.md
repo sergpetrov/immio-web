@@ -25,6 +25,14 @@ sources:
     url: https://www.gov.uk/government/publications/naturalisation-as-a-british-citizen-by-discretion-nationality-policy-guidance
     type: official
 
+relatedContent:
+  - uk-ilr-180-day-rule
+  - uk-tax-residency-srt
+  - uk-visitor-visa
+  - schengen-90-180-day-rule
+  - us-naturalization
+  - canada-citizenship
+
 ---
 
 # United Kingdom Citizenship (Naturalisation)
@@ -49,8 +57,8 @@ way you must hold ILR when you apply.
 
 There are two routes, and which one you're on sets both the qualifying period and the absence limit:
 
-- **Standard route** — **5 years** of residence, **450 days** of absence, and settled status held for at least
-  **12 months** before applying.
+- **Standard route** — **5 years** of residence, **450 days** of absence, and
+  [settled status (ILR)](/rules/uk-ilr-180-day-rule) held for at least **12 months** before applying.
 - **Spouse or civil partner of a British citizen** — **3 years** of residence and **270 days** of absence, with no
   12-month wait after settled status, though you still need it when you apply.
 

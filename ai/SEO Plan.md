@@ -113,7 +113,7 @@ Search Console + Bing verification · server-rendered landing page · self-hoste
 
 **bounded.app**
 1. **Keyword-in-slug rule naming** — `portugal-nhr-183-day-tax-residency`, `uk-ilr-180-day-absence-rule`, `us-feie-330-days-12-month-rolling`. The threshold and window are *in the URL*. Ours are generic (`portugal-tax-residency`).
-2. **Dense internal linking** — 21 unique internal links per rule page, including a rendered **"Related rules"** block. Ours: 5.
+2. **A rendered "Related rules" block** — exactly **3** entries per rule page, same-country first. (An earlier draft of this document said "21 unique internal links per rule page"; that counted nav, footer, and language-switcher links. Measured rule→rule, Bounded's pages carry **7** links, of which 3 are the related block. Corrected 2026-08-20.)
 3. **4-level breadcrumbs** ending on the rule itself, with the country level pointing to the country hub — more sitelink surface in SERPs. *(Evaluated and declined for Immio — see P1-5.)*
 4. **`citation[]` in Article schema** built from their sources list. We already store `sources[]` in frontmatter and throw it away.
 5. **`aggregateRating` + `review[]`** on `MobileApplication` — this is what produces star ratings in SERPs.
@@ -311,7 +311,7 @@ highest-leverage schema addition available: the data is already parsed and sitti
 
 #### P1-1 · `relatedContent` is validated but never rendered — the internal-linking gap
 
-**Evidence:** `relatedContent?: string[]` exists in [types.ts](src/modules/content/rules/types.ts:44) and is validated in [validate.ts](src/modules/content/rules/validate.ts:55), but grep finds **no render site**, and **all 54 files leave it empty**. Live rule page: 5 unique internal links. Bounded: 21, with a rendered "Related rules" block.
+**Evidence:** `relatedContent?: string[]` exists in [types.ts](src/modules/content/rules/types.ts:44) and is validated in [validate.ts](src/modules/content/rules/validate.ts:55), but grep finds **no render site**, and **all 54 files leave it empty**. Measured 2026-08-20: every rule page has **3–4 inbound** internal links (from the catalog, its category page, the country index, and its country hub) and **0 rule→rule** links. No orphans. Bounded carries 7 rule→rule links per page, 3 of them a curated "Related rules" block.
 **Impact:** The largest single ranking gap after the P0 set. PageRank cannot flow between rules; topical
 clusters never form; users hit a dead end at the bottom of every article.
 **Fix:**
@@ -470,6 +470,54 @@ verify" section; Bounded lists `sameAs` socials on `Organization`.
 already a credible editorial standard; publish a reader-facing version of it). Link both from the footer and
 from every rule page's disclaimer. Add `sameAs` socials to `Organization`.
 **Touch:** new content pages, `SiteFooter.tsx`, `LegalDisclaimer.tsx`, `seo.ts`.
+
+---
+
+#### Internal linking standard (from the P1-1 pilot)
+
+Measured against bounded.app and against Immio's own inventory, 2026-08-20.
+
+**Count: 3–6, target 4–6.** Bounded ships exactly 3 on every rule page. Below 3 reads as thin, above
+6 reads as a menu rather than a recommendation and splits outgoing link equity too far.
+`MAX_RELATED` in RelatedContent.tsx enforces the ceiling; the validator enforces it at build time.
+
+**Never pad to hit the number.** Bounded's Portugal NHR page links to *Australia 183-day tax
+residency* — filler, because Portugal has only two rules in their set. Two strong links beat four
+with two arbitrary ones. The block is authored per rule for exactly this reason.
+
+**Order, in priority:**
+1. **Same jurisdiction, different category.** Highest intent overlap and the best conversion link.
+   Covers 31 of 54 rules — the other 23 are the only rule for their country.
+2. **Comparable jurisdiction, same category** — for those 23. Use real comparison sets, not
+   proximity: southern EU (PT/ES/IT/GR/CY), northern EU (DE/FR/NO/PL), zero-tax (AE/SA/MC),
+   Asia hubs (SG/HK), LatAm (BR/CL/CO/UY).
+3. **Dependency / next step** — US SPT → US FEIE → US green card.
+4. **Contrast** — Schengen 90/180 ↔ UK visitor visa, different counting models for one problem.
+
+**Inbound coverage is the constraint people miss.** Outbound count is easy; what matters is that
+every rule appears in **2–3 other rules' related lists**. Without that, hub rules (US SPT, Schengen)
+hoard the links and the long tail — the pages that most need help — gets none. The validator already
+reports inbound coverage; turn it into a hard error once the back-fill is complete.
+
+**Anchor text** is the rule title on its own — descriptive and keyword-bearing, never "read more".
+The block uses its own presentation (place flag, title, trailing arrow; borderless row, background on hover only),
+*not* the filled `RuleChip` used on listing pages: a chip is a listing control, whereas this is a
+quiet coda to an article the reader has just finished.
+
+The parameter/subtitle line is deliberately **not** shown. Bounded sets theirs opposite the title on
+one row, which works because their strings are short ("≤12 mo away / 4 yrs"); Immio's run to 66
+characters ("270 or 450 days of absence ∙ ≤90 days of absence in final 12 months") and forced the
+titles to truncate to ellipses at 1280px. Title-only keeps every anchor intact, which matters more
+for both readers and link relevance than the extra parameter does.
+
+**Contextual beats blocks.** An in-body link in running prose carries more weight and far more
+clicks than the same link in a boilerplate list. Add 1–2 per rule during the content QA pass, in
+*visible* prose rather than inside a collapsed FAQ answer. The UK ILR pilot links to UK Citizenship
+from the "If you get this rule wrong" section for that reason.
+
+**Per-page total:** aim for 12–18 unique internal links (nav 4 + footer 5 + breadcrumbs 3 + related
+4–6 + contextual 1–2). Bounded carries 7 rule→rule links per page; that is a healthy density, not a
+target to beat.
 
 ---
 
@@ -720,7 +768,7 @@ cycle** for all rules and bump `updatedAt` genuinely (never cosmetically — Goo
 
 - **`/rules/countries` `<h1>`** is "Search a rule" → "Rules by Country" (folded into P1-3).
 - **`/rules` has one `<h1>` and no `<h2>`s** — the three category lists render without section headings. Add visually-appropriate `<h2>`s per category list.
-- **`?source=inapp` duplicates** — canonical already handles this correctly. No action; just never `Disallow` it.
+- **`?source=inapp` duplicates** — canonical already handles this correctly. No action; just never `Disallow` it. Note these responses also omit the `apple-itunes-app` meta tag, so Safari's Smart App Banner never prompts someone to install the app they are already inside. Query strings are separate cache-key entries, so the banner-less variant can't leak to ordinary visitors.
 - **`ItemList` schema** on `/rules`, `/rules/{category}`, `/rules/countries` for carousel eligibility.
 - **`SpeakableSpecification`** on rule summaries — cheap, and voice/assistant surfaces read it.
 - **`<html lang>`** is `en` everywhere — correct today, must become dynamic under P2-7.
@@ -784,7 +832,25 @@ paste one into Slack to confirm the card unfurls, and check GA4 → Realtime.
 and paste a rule URL into Slack/iMessage to confirm the card unfurls.
 
 ### Phase 3 — Internal linking & on-page
-- [ ] P1-1 Render "Related rules" + populate `relatedContent` in all 54 files + footer nav
+- [x] P1-1a Render the "Related content" block — [RelatedContent.tsx](src/modules/content/rules/components/RelatedContent.tsx), shown after the FAQ, max 6, borderless rows of place flag + title + trailing arrow, flush with the article column on both edges, hover background only, renders nothing when a rule has no `relatedContent` so the back-fill can go one rule at a time
+- [x] P1-1b Pilot on **UK ILR** — 6 entries, plus one organic in-body link to UK Citizenship from the "If you get this rule wrong" section:
+  1. `uk-citizenship` — the direct next step after ILR
+  2. `uk-tax-residency-srt` — absences interact with the SRT
+  3. `uk-visitor-visa` — completes the same-jurisdiction set
+  4. `schengen-90-180-day-rule` — post-Brexit EU travel is where UK residents actually accrue the absences this rule counts
+  5. `us-green-card` — closest structural analogue (an absence limit against a settled status)
+  6. `canada-permanent-residency` — same structure, and the usual onward-migration comparison
+- [x] P1-1b2 **UK Citizenship** — 6 entries, plus an in-body link back to UK ILR from the "Standard route" bullet (anchor: "settled status (ILR)", which is what the bullet already required):
+  1. `uk-ilr-180-day-rule` — the prerequisite for naturalisation; reciprocates the ILR page's link
+  2. `uk-tax-residency-srt`
+  3. `uk-visitor-visa`
+  4. `schengen-90-180-day-rule` — same reasoning as on ILR
+  5. `us-naturalization` — citizenship-residence analogue (ILR pairs with `us-green-card`, this pairs with naturalisation)
+  6. `canada-citizenship` — same
+
+- [x] P1-1c [scripts/validate-content.mjs](scripts/validate-content.mjs) — build-time check for unknown/self/duplicate/over-limit `relatedContent`, wired into `npm run build` and `npm run check`
+- [ ] P1-1d Back-fill `relatedContent` across the remaining 53 rules
+- [ ] P1-1e Footer nav (Rule Guide, the three categories, Rules by country)
 - [ ] P1-2 Rewrite 51 over-length meta descriptions, then add the length assertion to `validate.ts`
 - [ ] P1-3 Title/H1 pattern rewrite (category pages, `/rules/countries` `<h1>`)
 - [ ] P1-7 Content QA pass + `lint:content` (spellcheck + source link-check)
@@ -901,6 +967,13 @@ Every guide must link to ≥3 rule pages; every rule page in the cluster should 
 
 ## 6. Standing rules
 
+### 6.0 Content files carry content only
+
+No rationale, no editorial notes, no YAML comments in frontmatter. Why a particular `relatedContent`
+set was chosen, why a threshold is phrased a certain way, why a source was preferred — all of that
+belongs here, in this document. A rule file should read as the finished article and its metadata,
+nothing else.
+
 ### 6.1 Every new rule page ships with
 
 - [ ] `seo.title` ≤ 60 chars, keyword-first, ends `| Immio`
@@ -952,7 +1025,8 @@ queries · CWV pass rate (mobile) · app-store referral traffic from web.
 | Non-branded clicks / mo | unknown | baseline × 3 | baseline × 8 |
 | Rich results (FAQ/breadcrumb) | 0 | all 54 rules | all rules + guides |
 | Mobile CWV pass | unknown | pass | pass |
-| Avg internal links per rule page | 5 | 15+ | 20+ |
+| Rule→rule links per page | 0 | 4–6 | 6–8 |
+| Rules appearing in ≥2 others' related lists | 0 | 100% | 100% |
 | AI-assistant referral sessions / mo | 0 (untracked) | tracked, baseline set | baseline × 3 |
 | Target prompts citing Immio (of 20) | 0 measured | 4+ | 8+ |
 

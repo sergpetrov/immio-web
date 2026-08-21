@@ -8,11 +8,7 @@ import { trackPageView } from "./analytics";
 
 import "./App.css";
 
-/**
- * GA4 page views for client-side navigation. `initClientAnalytics` configures
- * gtag with `send_page_view: false`, so every view — including the first —
- * is sent from here, and each one is counted exactly once.
- */
+/** GA4 page views for client-side navigation; see analytics.ts. */
 function AnalyticsPageViews() {
     const location = useLocation();
 

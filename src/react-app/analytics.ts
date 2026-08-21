@@ -1,9 +1,4 @@
-/**
- * Browser half of the GA4 integration, for the client-rendered routes
- * (`/`, `/contact`). Configuration and the server-rendered `<head>` markup
- * live in shared/analytics.ts, which stays DOM-free so the Worker can import
- * it.
- */
+/** Browser half of the GA4 integration, for the SPA routes. Config: shared/analytics.ts. */
 
 import { GA_MEASUREMENT_ID, analyticsAllowedForHost, analyticsEnabled } from "../shared/analytics";
 
@@ -19,9 +14,8 @@ declare global {
 }
 
 /**
- * Page views are sent manually (`send_page_view: false`) so the initial view
- * and later React Router navigations are each counted exactly once — the
- * default would fire on load and then miss every client-side navigation.
+ * Page views are sent manually (`send_page_view: false`): the default fires on
+ * load and then misses every client-side navigation.
  */
 export function initClientAnalytics(): void {
   if (!analyticsEnabled || typeof window === "undefined") {

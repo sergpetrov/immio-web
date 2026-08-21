@@ -2,14 +2,11 @@ import { SITE_ORIGIN } from "../../shared/site";
 import { getAllCategories, getAllPlaces, getAllRules, getRulesForPlace } from "./rules/registry";
 
 /**
- * The sitemap is derived entirely from the rule registry and the route table
- * in `worker/content.ts`, so it cannot drift from what is actually served —
- * adding a Markdown file under content/rules/ is enough to list it.
+ * Derived from the rule registry, so it can't drift from what is served.
  *
- * `lastmod` is only emitted where a real date exists. Listing pages take the
- * newest `updatedAt` of the rules they contain; the landing and contact pages
- * get none at all, rather than a build timestamp. A sitemap whose every
- * `lastmod` moves on every deploy teaches crawlers to ignore the field.
+ * `lastmod` is emitted only where a real content date exists — never a build
+ * timestamp, which would move every URL on every deploy and train crawlers to
+ * ignore the field.
  */
 
 interface SitemapEntry {

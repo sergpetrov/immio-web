@@ -120,7 +120,8 @@ html.is-inapp {
 
 html.is-inapp .site-header,
 html.is-inapp .site-footer,
-html.is-inapp .content-keep-track-block > .content-callout {
+html.is-inapp .content-keep-track-block > .content-callout,
+html.is-inapp .content-app-cta {
   display: none;
 }
 
@@ -1297,5 +1298,98 @@ p.content-legal-disclaimer {
   .content-article__flag {
     width: 2.5rem;
     height: 2.5rem;
+  }
+}
+
+/* Closing app CTA after the FAQ (RuleAppCta.tsx). Deliberately unboxed and
+   centred -- it reads as one last, quiet section of the article. An <aside>,
+   so it stays out of the TOC. */
+.content-app-cta {
+  margin-top: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* App icon above the headline. */
+.content-app-cta__app-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 24%;
+  margin-bottom: 1rem;
+}
+
+/* Repeats .content-article section h2, whose selector doesn't reach into
+   <aside>. Keep in sync with that rule (and .content-related__heading). */
+.content-app-cta__heading {
+  margin: 0 0 0.75rem;
+  max-width: 32ch;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--content-text);
+}
+
+.content-app-cta__lead strong {
+  font-weight: 650;
+  color: var(--content-text);
+}
+
+.content-app-cta p.content-app-cta__lead {
+  margin: 0 0 1.5rem;
+  max-width: 46ch;
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: var(--content-text);
+}
+
+/* Pill CTA: solid black with a white glyph and label (inverted in dark mode,
+   where black on the dark page background would disappear). */
+.content-article a.content-app-cta__button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 44px;
+  padding: 0.75rem 1.15rem;
+  border-radius: 40px;
+  background: #111214;
+  color: #ffffff;
+  font-size: 1.0625rem;
+  font-weight: 600;
+  line-height: 1;
+  text-decoration: none;
+  transition: background-color 0.15s ease;
+}
+
+.content-article a.content-app-cta__button:hover,
+.content-article a.content-app-cta__button:active {
+  background: #2c2f35;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  .content-article a.content-app-cta__button {
+    background: #ffffff;
+    color: #111214;
+  }
+
+  .content-article a.content-app-cta__button:hover,
+  .content-article a.content-app-cta__button:active {
+    background: #dfe2e7;
+    color: #111214;
+  }
+}
+
+.content-app-cta__button-icon {
+  flex-shrink: 0;
+  display: block;
+  transform: rotate(180deg);
+}
+
+@media (max-width: 480px) {
+  .content-app-cta__heading {
+    font-size: 1.3rem;
   }
 }

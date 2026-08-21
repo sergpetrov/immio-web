@@ -25,6 +25,14 @@ sources:
     url: https://www.imigrasi.go.id/
     type: official
 
+relatedContent:
+  - indonesia-business-visa
+  - indonesia-tax-residency
+  - thailand-visa
+  - india-visa
+  - uae-visa
+  - schengen-90-180-day-rule
+
 ---
 
 # Indonesia Visa on Arrival (30-day rule)

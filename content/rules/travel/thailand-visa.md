@@ -28,6 +28,13 @@ sources:
     url: https://tdac.immigration.go.th/
     type: official
 
+relatedContent:
+  - thailand-tax-residency
+  - indonesia-visa
+  - india-visa
+  - uae-visa
+  - schengen-90-180-day-rule
+
 ---
 
 # Thailand Visa Exemption

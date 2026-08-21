@@ -31,6 +31,14 @@ sources:
     url: https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-visitor-permitted-activities
     type: official
 
+relatedContent:
+  - uk-tax-residency-srt
+  - uk-ilr-180-day-rule
+  - uk-citizenship
+  - schengen-90-180-day-rule
+  - us-b1b2-visa
+  - canada-visitor-visa
+
 ---
 
 # UK Standard Visitor Visa (6-month rule)

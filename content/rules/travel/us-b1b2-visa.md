@@ -28,6 +28,13 @@ sources:
     url: https://www.uscis.gov/visit-the-united-states/extend-your-stay
     type: official
 
+relatedContent:
+  - us-esta
+  - us-tax-residency-spt
+  - canada-visitor-visa
+  - uk-visitor-visa
+  - schengen-90-180-day-rule
+
 ---
 
 # United States B-1/B-2 Visitor Visa
@@ -50,7 +57,7 @@ can run up to **10 years**, but that's permission to travel, not to stay.
 ## Understanding the rule
 
 The visa covers short temporary visits by anyone who isn't a US citizen or permanent resident, whatever their
-nationality. Travelers eligible for visa-free entry can still apply for one, and often do when they need longer than
+nationality. Travelers eligible for [visa-free entry](/rules/us-esta) can still apply for one, and often do when they need longer than
 the visa-free 90 days.
 
 B-1 and B-2 are technically two separate categories, but they're normally granted together as a single **B-1/B-2**

@@ -25,6 +25,13 @@ sources:
     url: https://boi.gov.in/
     type: official
 
+relatedContent:
+  - india-tax-residency
+  - thailand-visa
+  - indonesia-visa
+  - uae-visa
+  - schengen-90-180-day-rule
+
 ---
 
 # India e-Tourist Visa (180-day rule)

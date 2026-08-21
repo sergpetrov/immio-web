@@ -28,6 +28,13 @@ sources:
     url: https://i94.cbp.dhs.gov/
     type: official
 
+relatedContent:
+  - us-b1b2-visa
+  - us-tax-residency-spt
+  - canada-visitor-visa
+  - schengen-90-180-day-rule
+  - uk-visitor-visa
+
 ---
 
 # United ESTA and the Visa Waiver Program

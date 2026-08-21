@@ -31,6 +31,14 @@ sources:
     url: https://icp.gov.ae/en/media-center/icp-expands-eligibility-for-uae-entry-visa-for-nationals-of-certain-countries/
     type: official
 
+relatedContent:
+  - uae-tax-residency
+  - uae-residence-visa
+  - saudi-arabia-tax-residency
+  - thailand-visa
+  - india-visa
+  - schengen-90-180-day-rule
+
 ---
 
 # United Arab Emirates Visit Visa (30-day and 90/180-day rules)
@@ -67,7 +75,7 @@ do anything, by your nationality:
   operator, relative or UAE company.
 
 Whichever route applies, your passport needs at least six months left on it at the point you enter. And none of these
-permissions carries any right to work. Employment requires a residence visa with a work permit, sponsored by an
+permissions carries any right to work. Employment requires a [residence visa](/rules/uae-residence-visa) with a work permit, sponsored by an
 employer, which is an entirely separate process.
 
 ## How to keep track

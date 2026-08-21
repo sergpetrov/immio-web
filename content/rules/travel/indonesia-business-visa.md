@@ -25,6 +25,13 @@ sources:
     url: https://www.imigrasi.go.id/
     type: official
 
+relatedContent:
+  - indonesia-visa
+  - indonesia-tax-residency
+  - thailand-visa
+  - uae-visa
+  - india-visa
+
 ---
 
 # Indonesia Business Visit Visa

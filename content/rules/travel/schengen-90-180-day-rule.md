@@ -31,6 +31,14 @@ sources:
     url: https://eur-lex.europa.eu/eli/reg/2016/399/oj
     type: official
 
+relatedContent:
+  - uk-visitor-visa
+  - us-esta
+  - spain-tax-residency
+  - portugal-tax-residency
+  - italy-tax-residency
+  - france-tax-residency
+
 ---
 
 # Schengen 90/180-Day Rule
@@ -97,7 +105,7 @@ the other isn't yet.
   your last exit, rising to 5 years if you overstayed or were refused entry.
 - **What ETIAS will be** — a separate, additional requirement layered on top of visa-free entry, not a replacement
   for it. Visa-exempt travellers will need to apply online in advance for a **European Travel Information and
-  Authorisation System (ETIAS)** authorisation before travelling, similar in spirit to the US ESTA.
+  Authorisation System (ETIAS)** authorisation before traveling, similar in spirit to the [US ESTA](/rules/us-esta).
 - **Current status** — ETIAS is **not yet in force**. Its planned late-2026 launch has been dropped from official
   guidance with no confirmed replacement date, and industry estimates now point to sometime in 2027. Check the
   official ETIAS page before travelling rather than assuming either way, and be cautious of unofficial sites offering

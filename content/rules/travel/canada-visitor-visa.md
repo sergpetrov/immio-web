@@ -28,6 +28,14 @@ sources:
     url: https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/extend-stay.html
     type: official
 
+relatedContent:
+  - canada-tax-residency
+  - canada-permanent-residency
+  - us-b1b2-visa
+  - us-esta
+  - uk-visitor-visa
+  - schengen-90-180-day-rule
+
 ---
 
 # Canada Visitor Visa

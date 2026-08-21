@@ -102,7 +102,7 @@ Search Console + Bing verification · server-rendered landing page · self-hoste
 | `BreadcrumbList` |              ✓ 3 levels, ends on country — deliberate (see P1-5)               |            ✓ 4 levels → Rulebook / Tax / Country / Rule             | ✓ |
 | `Organization` + `WebSite` |                        ✓ *(new)* — `sameAs` still empty                        |                        ✓ (`sameAs` socials)                         | ✓ |
 | App schema |    ✓ *(new)* `MobileApplication` + `aggregateRating` 4.8/100, shown on page    |   ✓ `MobileApplication` + `aggregateRating` 4.8/100 + `review[]`    | ✓ `SoftwareApplication` + `downloadUrl` |
-| `apple-itunes-app` smart banner |                                   ✓ *(new)*                                    |                                  ✗                                  | ✓ |
+| `apple-itunes-app` smart banner | ✗ *(removed by choice)* | ✗ | ✓ |
 | `ItemList` on listings |                                   ✓ *(new)*                                    |                                  ✗                                  | ✗ |
 | Analytics |              ✓ *(new)* GA4 `G-KVJFE2FFJ3`, production-host gated               |                    ✓ GTM (`GTM-M3RBRGW5`) + GA4                     | (server-side / none detected) |
 | Real 404 for unknown URLs |                          ✓ *(fixed)* 404 + `noindex`                           |                          ✓ 404 + `noindex`                          | ✓ |
@@ -220,7 +220,7 @@ budget and is a classic quality-signal problem. Any bad inbound link creates an 
 
 #### P0-5 · Homepage and `/contact` have almost no crawlable head
 
-> **◐ STAGE 1 SHIPPED 2026-08-20** — [index.html](index.html) now carries the full head: description, canonical, robots, OG, Twitter, `apple-itunes-app`, and four JSON-LD blocks (`Organization`, `WebSite`, `MobileApplication`, `FAQPage`). Stage 2 (server-rendering the page) is Phase 5 — and matters more than it looks, because most AI crawlers do not execute JS at all (see LLM-1).
+> **◐ STAGE 1 SHIPPED 2026-08-20** — [index.html](index.html) now carries the full head: description, canonical, robots, OG, Twitter, and four JSON-LD blocks (`Organization`, `WebSite`, `MobileApplication`, `FAQPage`). Stage 2 (server-rendering the page) is Phase 5 — and matters more than it looks, because most AI crawlers do not execute JS at all (see LLM-1).
 
 **Evidence:** `index.html` is 929 bytes. It has a `<title>` and nothing else — **no meta description, no canonical, no OG, no Twitter, no structured data**. All content requires JS execution.
 **Impact:** The most linked, highest-authority page on the domain competes for `tax residency tracker`, `day counter app` etc. with a blank description; Google writes its own snippet. Every share on iMessage, WhatsApp, Slack, X, LinkedIn, Reddit renders as a bare URL with no title card — a direct, measurable loss of referral clicks. Both competitors have full head markup here.
@@ -243,7 +243,6 @@ budget and is a classic quality-signal problem. Any bad inbound link creates an 
 <meta name="twitter:title" content="…" />
 <meta name="twitter:description" content="…" />
 <meta name="twitter:image" content="https://immio.app/og/immio-home.png" />
-<meta name="apple-itunes-app" content="app-id=…, app-argument=https://apps.apple.com/app/id…" />
 ```
 Plus JSON-LD: `Organization` (with `logo` + `sameAs`), `WebSite`, `MobileApplication`/`SoftwareApplication`
 (both stores, `offers`, and — once you have store reviews — `aggregateRating`, which is what puts stars in
@@ -768,7 +767,8 @@ cycle** for all rules and bump `updatedAt` genuinely (never cosmetically — Goo
 
 - **`/rules/countries` `<h1>`** is "Search a rule" → "Rules by Country" (folded into P1-3).
 - **`/rules` has one `<h1>` and no `<h2>`s** — the three category lists render without section headings. Add visually-appropriate `<h2>`s per category list.
-- **`?source=inapp` duplicates** — canonical already handles this correctly. No action; just never `Disallow` it. Note these responses also omit the `apple-itunes-app` meta tag, so Safari's Smart App Banner never prompts someone to install the app they are already inside. Query strings are separate cache-key entries, so the banner-less variant can't leak to ordinary visitors.
+- **`?source=inapp` duplicates** — canonical already handles this correctly. No action; just never `Disallow` it.
+- **Safari's Smart App Banner (`apple-itunes-app`) is deliberately absent sitewide.** Added in Phase 2, then scoped to hide inside the app's web view, then removed altogether: the site already has its own "Get the app" button in the header and hero, and two competing install prompts is worse than one. Do not re-add without a reason that outweighs that. The `?source=inapp` machinery (`is-inapp` class, in-app link rewriting) is unrelated and still in place.
 - **`ItemList` schema** on `/rules`, `/rules/{category}`, `/rules/countries` for carousel eligibility.
 - **`SpeakableSpecification`** on rule summaries — cheap, and voice/assistant surfaces read it.
 - **`<html lang>`** is `en` everywhere — correct today, must become dynamic under P2-7.

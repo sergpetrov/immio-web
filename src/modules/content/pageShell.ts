@@ -22,8 +22,6 @@ export interface PageShellParams {
   ogImageAlt?: string;
   /** Set on error pages and on any host that isn't production. */
   noindex?: boolean;
-  /** `?source=inapp` — suppresses Safari's Smart App Banner. */
-  inApp?: boolean;
   /** Emit the GA4 tag. False off the production host, so dev ships no tag at all. */
   analytics?: boolean;
 }
@@ -54,7 +52,6 @@ export function renderDocument({
   ogImage = absoluteUrl(DEFAULT_OG_IMAGE_PATH),
   ogImageAlt = DEFAULT_OG_IMAGE_ALT,
   noindex = false,
-  inApp = false,
   analytics = false,
 }: PageShellParams): string {
   const safeTitle = escapeAttr(normalizeText(title));
@@ -62,12 +59,6 @@ export function renderDocument({
   const safeCanonical = escapeAttr(canonical);
   const safeOgImage = escapeAttr(ogImage);
   const safeOgImageAlt = escapeAttr(normalizeText(ogImageAlt));
-
-  // Safari reads this at parse time; removing the element later with JS does
-  // not dismiss a banner it has already shown.
-  const appBannerTag = inApp
-    ? ""
-    : `<meta name="apple-itunes-app" content="app-id=6747927306, app-argument=${escapeAttr(IMMIO_APP_STORE_URL)}" />`;
 
   const robotsTag = noindex
     ? `<meta name="robots" content="noindex, nofollow" />`
@@ -111,7 +102,6 @@ export function renderDocument({
     <meta name="twitter:description" content="${safeDescription}" />
     <meta name="twitter:image" content="${safeOgImage}" />
     <meta name="twitter:image:alt" content="${safeOgImageAlt}" />
-    ${appBannerTag}
     ${renderAnalyticsTags(analytics)}
     ${jsonLd.join("\n    ")}
   </head>

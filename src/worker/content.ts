@@ -51,8 +51,6 @@ interface RenderContext {
   origin: string;
   appDownloadUrl: string;
   noindex: boolean;
-  /** `?source=inapp` — the page is open inside the Immio app's web view. */
-  inApp: boolean;
   /** Production host only — keeps dev and preview traffic out of GA4. */
   analytics: boolean;
 }
@@ -72,10 +70,7 @@ function htmlHandler(render: (context: RenderContext) => string) {
     const appDownloadUrl = getAppDownloadUrlForUserAgent(request.headers.get("user-agent") ?? "");
     const isProduction = shouldIndexHost(url.hostname);
     const noindex = !isProduction;
-    // Matches INAPP_BOOT_SCRIPT in pageShell.ts.
-    const inApp = url.searchParams.get("source") === "inapp";
-
-    return new Response(render({ origin: SITE_ORIGIN, appDownloadUrl, noindex, inApp, analytics: isProduction }), {
+    return new Response(render({ origin: SITE_ORIGIN, appDownloadUrl, noindex, analytics: isProduction }), {
       status: 200,
       headers,
     });
@@ -88,7 +83,7 @@ function route(path: string, handler: (request: Request) => Response) {
   content.on(["GET", "HEAD"], `${path}/`, (c) => c.redirect(path, 301));
 }
 
-function renderCatalogDocument({ origin, appDownloadUrl, noindex, inApp, analytics }: RenderContext): string {
+function renderCatalogDocument({ origin, appDownloadUrl, noindex, analytics }: RenderContext): string {
   const pathname = "/rules";
   const title = "Immio Rule Guide | Tax Residency, Travel & Immigration Rules";
   const description =
@@ -102,7 +97,6 @@ function renderCatalogDocument({ origin, appDownloadUrl, noindex, inApp, analyti
     description,
     canonical: new URL(pathname, origin).toString(),
     noindex,
-    inApp,
     analytics,
     jsonLd: [
       renderJsonLd(buildWebPageJsonLd({ origin, pathname, title, description })),
@@ -124,7 +118,7 @@ function buildRuleItemList(origin: string, name: string, rules: RuleDoc[]): obje
   });
 }
 
-function renderCategoryDocument({ origin, appDownloadUrl, noindex, inApp, analytics }: RenderContext, category: Category): string {
+function renderCategoryDocument({ origin, appDownloadUrl, noindex, analytics }: RenderContext, category: Category): string {
   const pathname = `/rules/${category.slug}`;
   const title = `${category.title} Rules | Immio Rule Guide`;
   const description = category.description;
@@ -136,7 +130,6 @@ function renderCategoryDocument({ origin, appDownloadUrl, noindex, inApp, analyt
     description,
     canonical: new URL(pathname, origin).toString(),
     noindex,
-    inApp,
     analytics,
     jsonLd: [
       renderJsonLd(buildWebPageJsonLd({ origin, pathname, title, description })),
@@ -147,7 +140,7 @@ function renderCategoryDocument({ origin, appDownloadUrl, noindex, inApp, analyt
   });
 }
 
-function renderCountriesDocument({ origin, appDownloadUrl, noindex, inApp, analytics }: RenderContext): string {
+function renderCountriesDocument({ origin, appDownloadUrl, noindex, analytics }: RenderContext): string {
   const pathname = "/rules/countries";
   const title = "Rules by Country | Immio Rule Guide";
   const description = "Browse tax residency, travel, and immigration rules by country.";
@@ -160,7 +153,6 @@ function renderCountriesDocument({ origin, appDownloadUrl, noindex, inApp, analy
     description,
     canonical: new URL(pathname, origin).toString(),
     noindex,
-    inApp,
     analytics,
     jsonLd: [
       renderJsonLd(buildWebPageJsonLd({ origin, pathname, title, description })),
@@ -183,7 +175,7 @@ function renderCountriesDocument({ origin, appDownloadUrl, noindex, inApp, analy
   });
 }
 
-function renderCountryDocument({ origin, appDownloadUrl, noindex, inApp, analytics }: RenderContext, place: RulePlace): string {
+function renderCountryDocument({ origin, appDownloadUrl, noindex, analytics }: RenderContext, place: RulePlace): string {
   const pathname = `/rules/countries/${place.slug}`;
   const title = `${place.name} Rules | Immio Rule Guide`;
   const description = `Tax residency, travel, and immigration rules for ${place.name}.`;
@@ -195,7 +187,6 @@ function renderCountryDocument({ origin, appDownloadUrl, noindex, inApp, analyti
     description,
     canonical: new URL(pathname, origin).toString(),
     noindex,
-    inApp,
     analytics,
     jsonLd: [
       renderJsonLd(buildWebPageJsonLd({ origin, pathname, title, description })),
@@ -207,7 +198,7 @@ function renderCountryDocument({ origin, appDownloadUrl, noindex, inApp, analyti
 }
 
 function renderRuleDocument(
-  { origin, appDownloadUrl, noindex, inApp, analytics }: RenderContext,
+  { origin, appDownloadUrl, noindex, analytics }: RenderContext,
   category: Category,
   rule: RuleDoc,
 ): string {
@@ -224,7 +215,6 @@ function renderRuleDocument(
     canonical: new URL(pathname, origin).toString(),
     ogType: "article",
     noindex,
-    inApp,
     analytics,
     jsonLd: [
       renderJsonLd(buildArticleJsonLd({ origin, pathname, rule, place })),
@@ -235,7 +225,7 @@ function renderRuleDocument(
   });
 }
 
-function renderLegalDocument({ origin, appDownloadUrl, noindex, inApp, analytics }: RenderContext, slug: "privacy" | "terms"): string {
+function renderLegalDocument({ origin, appDownloadUrl, noindex, analytics }: RenderContext, slug: "privacy" | "terms"): string {
   const document = getLegalDocument(slug);
   if (!document) {
     throw new Error(`Missing legal document: ${slug}`);
@@ -253,7 +243,6 @@ function renderLegalDocument({ origin, appDownloadUrl, noindex, inApp, analytics
     description,
     canonical: new URL(pathname, origin).toString(),
     noindex,
-    inApp,
     analytics,
     jsonLd: [renderJsonLd(buildWebPageJsonLd({ origin, pathname, title: document.headline, description }))],
     bodyHtml,

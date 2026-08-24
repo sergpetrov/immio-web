@@ -212,37 +212,60 @@ html.is-inapp .content-app-cta {
   button gets its own flat background (correct immediately, no flash);
   once pageShell.ts's script marks the switch [data-enhanced], that static
   background steps aside and the floating pill takes over, sliding between
-  selections. Tabs wrap onto the next line when they don't fit.
+  selections. Tabs scroll sideways when they don't fit.
 */
 
+/* Full-bleed to the page gutters: the tab strip scrolls right up to the
+   screen edges, while the padding keeps the first tab aligned with the text
+   above it. --content-main-gutter mirrors .content-main's own padding. */
 .content-type-switch-row {
+  --content-main-gutter: 1.5rem;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
   gap: 1rem;
-  width: 100%;
-  margin-bottom: 1rem;
+  width: auto;
+  margin: 0 calc(var(--content-main-gutter) * -1) 1rem;
+  padding: 0 var(--content-main-gutter);
+}
+
+@media (max-width: 480px) {
+  .content-type-switch-row {
+    --content-main-gutter: 1rem;
+  }
 }
 
 .content-type-switch {
   position: relative;
   display: flex;
   flex: 1 1 auto;
-  flex-wrap: wrap;
+  /* One line that scrolls sideways rather than wrapping, so the row keeps a
+     fixed height and the sliding pill always tracks a single row of tabs. */
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: contain;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
   align-items: center;
   gap: 0.25rem;
   border-radius: 999px;
-  padding: 4px;
+  padding: 4px 0;
   min-width: 0;
   max-width: 100%;
+}
+
+.content-type-switch::-webkit-scrollbar {
+  display: none;
 }
 
 .content-search-button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 3.5rem;
-  height: 3.5rem;
+  width: 3rem;
+  height: 3rem;
   padding: 0;
   border: 0;
   border-radius: 50%;
@@ -406,7 +429,8 @@ html.is-inapp .content-app-cta {
   }
 
   .content-type-switch__item {
-    font-size: 1.1rem;
+    font-size: 1rem;
+    padding: 0.5rem 0.9rem;
   }
 }
 
@@ -565,6 +589,20 @@ html.is-inapp .content-app-cta {
   font-size: 1rem;
   font-weight: 500;
   letter-spacing: 0.03em;
+}
+
+/* Small screens: match .content-rule-chip -- same title size, same 30px flag.
+   Has to sit after the base rules above, which would otherwise win on source
+   order at equal specificity. */
+@media (max-width: 767px) {
+  .content-country-card__name {
+    font-size: 1.15rem;
+  }
+
+  .content-country-card__flag {
+    width: 30px;
+    height: 30px;
+  }
 }
 
 /* Catalog / category card lists */
@@ -1304,6 +1342,28 @@ p.content-legal-disclaimer {
   .content-main {
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+
+  /* Phones only -- tablets keep the 1rem set above. */
+  .content-type-switch__item {
+    font-size: 1rem;
+    padding: 0.45rem 0.75rem;
+  }
+
+  /* Tighter search button, centred against the (shorter) tab row. */
+  .content-type-switch-row {
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .content-search-button {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .content-search-button img {
+    width: 1.5rem;
+    height: 1.5rem;
   }
 
   .content-article__header--with-flag {

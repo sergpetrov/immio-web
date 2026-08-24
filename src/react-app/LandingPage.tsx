@@ -220,6 +220,34 @@ export default function LandingPage() {
         };
     }, []);
 
+    /*
+      Landing on /#section from another page (a Rule Guide header link, say):
+      the browser resolves the hash before React has rendered the sections, so
+      it silently stays at the top. Re-align once the section exists, and keep
+      re-aligning briefly as the hero fonts and images settle. Timers rather
+      than rAF, so it also works if the tab starts in the background.
+    */
+    useEffect(() => {
+        const targetId = window.location.hash.slice(1);
+
+        if (!targetId) {
+            return;
+        }
+
+        const alignToTarget = () => {
+            document.getElementById(targetId)?.scrollIntoView({behavior: "auto", block: "start"});
+        };
+
+        alignToTarget();
+        const timers = [0, 50, 150, 350, 700, 1200].map((delay) =>
+            window.setTimeout(alignToTarget, delay),
+        );
+
+        return () => {
+            timers.forEach((timer) => window.clearTimeout(timer));
+        };
+    }, []);
+
     useEffect(() => {
         if (!window.location.hash) {
             return;
@@ -235,6 +263,12 @@ export default function LandingPage() {
         };
 
         const restoreScrollPosition = () => {
+            // An anchor the page actually has wins over the remembered
+            // position: arriving at /#how-it-works should land on the section.
+            if (document.getElementById(window.location.hash.slice(1))) {
+                return;
+            }
+
             const storedValue = window.sessionStorage.getItem(storageKey);
             const parsedValue = storedValue ? Number(storedValue) : NaN;
 

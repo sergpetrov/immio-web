@@ -589,6 +589,17 @@ const TYPE_SWITCH_SCRIPT = `(function(){
     pill.style.transform = "translate(" + button.offsetLeft + "px, " + button.offsetTop + "px)";
   }
 
+  // Keeps the chosen tab visible in the scrolling strip (see content.css):
+  // centre it when there is room to scroll, clamped at either end.
+  function centerTab(button, behavior) {
+    var overflow = switcher.scrollWidth - switcher.clientWidth;
+    if (overflow <= 0) return;
+    var target = button.offsetLeft - (switcher.clientWidth - button.offsetWidth) / 2;
+    var left = Math.max(0, Math.min(overflow, target));
+    if (switcher.scrollTo) switcher.scrollTo({ left: left, behavior: behavior });
+    else switcher.scrollLeft = left;
+  }
+
   function selectCategory(id, button) {
     buttons.forEach(function (b) {
       var isSelected = b === button;
@@ -599,6 +610,7 @@ const TYPE_SWITCH_SCRIPT = `(function(){
       list.classList.toggle("is-active", list.getAttribute("data-category-list") === id);
     });
     movePill(button);
+    centerTab(button, "smooth");
   }
 
   buttons.forEach(function (button) {
@@ -610,12 +622,16 @@ const TYPE_SWITCH_SCRIPT = `(function(){
   var initial = switcher.querySelector(".is-selected") || buttons[0];
   if (initial) {
     movePill(initial);
+    centerTab(initial, "auto");
   }
   switcher.setAttribute("data-enhanced", "");
 
   window.addEventListener("resize", function () {
     var current = switcher.querySelector(".is-selected");
-    if (current) movePill(current);
+    if (current) {
+      movePill(current);
+      centerTab(current, "auto");
+    }
   });
 })();`;
 

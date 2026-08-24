@@ -797,10 +797,22 @@
         background: #2c2f35;
     }
 
-    .immio-landing .site-header.is-scrolled .site-header__inner {
+    .immio-landing .site-header.is-scrolled .site-header__inner,
+    .immio-landing .site-header:has(#site-header-menu.is-open) .site-header__inner {
         background: rgba(255, 255, 255, 0.72);
         border-color: rgba(0, 0, 0, 0.07);
         box-shadow: 0 8px 28px rgba(0, 0, 0, 0.08);
+    }
+
+    /* The expanded mobile menu is part of that same bar, so it stays light
+       too -- including its drop shadow. */
+    .immio-landing .site-header:has(#site-header-menu.is-open) .site-header__inner {
+        box-shadow: 0 14px 30px rgba(0, 0, 0, 0.12);
+    }
+
+    .immio-landing .site-header:has(#site-header-menu.is-open) a.site-header__cta {
+        background: #111214;
+        color: #ffffff;
     }
 
     .immio-landing .site-header__logo-wordmark {
@@ -809,7 +821,12 @@
 }
 
 @media (prefers-color-scheme: dark) and (max-width: 900px) {
-    .immio-landing .site-header__links {
-        background: #ffffff;
+    /* Menu rows sit on the light bar, so they keep the light-mode grey. */
+    .immio-landing .site-header a.site-header__link {
+        color: #6d6d6d;
+    }
+
+    .immio-landing button.site-header__toggle {
+        color: #6d6d6d;
     }
 }

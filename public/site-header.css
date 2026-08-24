@@ -142,6 +142,15 @@
   opacity: 0.75;
 }
 
+/* Fallback repeats content.css's dark value, since the SPA does not define
+   the content tokens. The landing page overrides this back to the light grey
+   (see LandingPage.css) because its bar stays light in both schemes. */
+@media (prefers-color-scheme: dark) {
+  .site-header a.site-header__link {
+    color: var(--content-text-muted, #a3abb5);
+  }
+}
+
 /* Black pill with the same phone glyph as the rule-page bottom CTA. */
 .site-header a.site-header__cta {
   margin-left: 8px;

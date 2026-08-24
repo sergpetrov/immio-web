@@ -9,7 +9,7 @@ export default function RuleAppCta({ appDownloadUrl }: { appDownloadUrl: string 
     <aside className="content-app-cta" aria-labelledby="app-cta-heading">
       <img className="content-app-cta__app-icon" src="/logo.svg" alt="" width={40} height={40} />
       <h2 id="app-cta-heading" className="content-app-cta__heading">
-        Automatically track this rule and<br/>see where you stand
+        Automatically track this rule and see where you stand
       </h2>
       <p className="content-app-cta__lead">
         <strong>Immio</strong> app correctly counts the days, alerts before you exceed

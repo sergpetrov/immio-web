@@ -1207,9 +1207,9 @@ html.is-inapp .content-app-cta {
   align-items: center;
   gap: 0.75rem;
   min-height: 52px;
-  padding: 0.5rem 0.75rem;
+  padding: 0.5rem 1.25rem;
   margin: 0 -0.75rem;
-  border-radius: 12px;
+  border-radius: 24px;
   color: var(--content-text);
   text-decoration: none;
   transition: background-color 0.15s ease;
@@ -1241,6 +1241,17 @@ html.is-inapp .content-app-cta {
   line-height: 1.4;
 }
 
+/* Flag and title nudge together, mirroring the arrow's hover shift. */
+.content-related__flag,
+.content-related__title {
+  transition: transform 0.15s ease;
+}
+
+.content-related__link:hover .content-related__flag,
+.content-related__link:hover .content-related__title {
+  transform: translateX(-3px);
+}
+
 .content-related__arrow {
   flex-shrink: 0;
   color: var(--immio-primary);
@@ -1251,14 +1262,18 @@ html.is-inapp .content-app-cta {
 }
 
 .content-related__link:hover .content-related__arrow {
-  transform: translateX(3px);
+  transform: translateX(6px);
 }
 
 @media (prefers-reduced-motion: reduce) {
+  .content-related__flag,
+  .content-related__title,
   .content-related__arrow {
     transition: none;
   }
 
+  .content-related__link:hover .content-related__flag,
+  .content-related__link:hover .content-related__title,
   .content-related__link:hover .content-related__arrow {
     transform: none;
   }
@@ -1339,8 +1354,8 @@ p.content-legal-disclaimer {
 .content-app-cta p.content-app-cta__lead {
   margin: 0 0 1.5rem;
   max-width: 46ch;
-  font-size: 1.125rem;
-  line-height: 1.6;
+  font-size: 1rem;
+  line-height: 1.5;
   color: var(--content-text);
 }
 

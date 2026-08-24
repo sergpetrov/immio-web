@@ -382,6 +382,18 @@ const BACK_LINK_SCRIPT = `(function(){
     }
   } catch (e) {
   }
+
+  // Going "back" should land on the listing in the state it was left in --
+  // same tab, same scroll position. SCROLL_RESTORE_SCRIPT and
+  // TYPE_SWITCH_SCRIPT pick this flag up on the next page.
+  link.addEventListener("click", function () {
+    try {
+      sessionStorage.setItem("immio:content:return", JSON.stringify({
+        path: new URL(link.getAttribute("href"), location.href).pathname,
+        at: Date.now()
+      }));
+    } catch (e) {}
+  });
 })();`;
 
 const COUNTRY_SEARCH_SCRIPT = `(function(){
@@ -442,7 +454,33 @@ const SCROLL_RESTORE_SCRIPT = `(function(){
 
   var key = "immio:scroll:" + location.pathname + location.search;
   var nav = (performance.getEntriesByType && performance.getEntriesByType("navigation")[0]) || {};
-  var isReturn = nav.type === "reload" || nav.type === "back_forward";
+
+  // Rule Guide listings (/rules, a category, the countries index) start fresh
+  // on a reload or a plain click onto the page -- default tab, top of the
+  // page. Only Back/Forward and the article's own back link return to the
+  // remembered state. Article pages still keep their place across reloads.
+  var segments = location.pathname.split("/").filter(Boolean);
+  var isListing = segments[0] === "rules" && (
+    segments.length === 1 ||
+    (segments.length === 2 && ["tax", "travel", "immigration", "countries"].indexOf(segments[1]) !== -1) ||
+    (segments.length === 3 && segments[1] === "countries")
+  );
+  var isReturn = nav.type === "back_forward" || (nav.type === "reload" && !isListing);
+
+  // The article's "← Back" link is an ordinary navigation, so the browser
+  // reports it as "navigate"; it flags itself here (see BACK_LINK_SCRIPT) so
+  // returning that way restores the listing exactly like Back does.
+  try {
+    var flag = sessionStorage.getItem("immio:content:return");
+    sessionStorage.removeItem("immio:content:return");
+    if (flag) {
+      var back = JSON.parse(flag);
+      if (back && back.path === location.pathname && Date.now() - back.at < 60000) isReturn = true;
+    }
+  } catch (e) {}
+
+  // Read by TYPE_SWITCH_SCRIPT, which restores the selected tab on a return.
+  window.__immioIsReturn = isReturn;
 
   function save() {
     try { sessionStorage.setItem(key, String(Math.round(window.scrollY))); } catch (e) {}
@@ -600,7 +638,10 @@ const TYPE_SWITCH_SCRIPT = `(function(){
     else switcher.scrollLeft = left;
   }
 
+  var typeKey = "immio:type:" + location.pathname;
+
   function selectCategory(id, button) {
+    try { sessionStorage.setItem(typeKey, id); } catch (e) {}
     buttons.forEach(function (b) {
       var isSelected = b === button;
       b.classList.toggle("is-selected", isSelected);
@@ -620,7 +661,29 @@ const TYPE_SWITCH_SCRIPT = `(function(){
   });
 
   var initial = switcher.querySelector(".is-selected") || buttons[0];
+
+  // Coming back to the listing (Back button, or the article's back link)
+  // reopens the tab that was left selected. A fresh visit keeps the
+  // server-rendered default, so shared links are predictable.
+  if (window.__immioIsReturn) {
+    var savedId = null;
+    try { savedId = sessionStorage.getItem(typeKey); } catch (e) {}
+    if (savedId) {
+      var savedButton = null;
+      buttons.forEach(function (b) {
+        if (b.getAttribute("data-category") === savedId) savedButton = b;
+      });
+      if (savedButton && savedButton !== initial) {
+        selectCategory(savedId, savedButton);
+        initial = savedButton;
+      }
+    }
+  }
+
   if (initial) {
+    // Storage always mirrors what is on screen -- including after a reset, so
+    // a later Back cannot resurrect a tab the page was not left on.
+    try { sessionStorage.setItem(typeKey, initial.getAttribute("data-category")); } catch (e) {}
     movePill(initial);
     centerTab(initial, "auto");
   }

@@ -33,6 +33,9 @@ export default function SiteHeader({ mode = "static", appDownloadUrl }: SiteHead
     const syncNavScrolled = () => {
       const scrollTop = window.scrollY || document.documentElement.scrollTop;
       setNavScrolled(scrollTop > 0);
+      // Scrolling closes the mobile menu — mirrors MOBILE_NAV_SCRIPT on the
+      // static pages.
+      setNavOpen(false);
     };
 
     syncNavScrolled();

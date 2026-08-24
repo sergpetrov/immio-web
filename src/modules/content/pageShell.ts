@@ -518,10 +518,18 @@ const MOBILE_NAV_SCRIPT = `(function(){
   var toggle = document.querySelector(".site-header__toggle");
   var menu = document.getElementById("site-header-menu");
   if (!toggle || !menu) return;
-  toggle.addEventListener("click", function () {
-    var open = menu.classList.toggle("is-open");
+  function setOpen(open) {
+    menu.classList.toggle("is-open", open);
     toggle.setAttribute("aria-expanded", open ? "true" : "false");
+  }
+  toggle.addEventListener("click", function () {
+    setOpen(!menu.classList.contains("is-open"));
   });
+  // Scrolling the page closes the menu, so the expanded bar never trails
+  // the content it is sitting over.
+  window.addEventListener("scroll", function () {
+    if (menu.classList.contains("is-open")) setOpen(false);
+  }, { passive: true });
 })();`;
 
 // Highlights the TOC entry for whichever section is currently in view.

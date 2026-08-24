@@ -71,6 +71,18 @@ export default function SiteHeaderView({
             rel="noopener noreferrer"
             onClick={onCtaClick}
           >
+            {/* Same phone glyph (and 180° flip) as the rule-page bottom CTA. */}
+            <svg
+              className="site-header__cta-icon"
+              viewBox="0 0 12 18"
+              width={12}
+              height={18}
+              aria-hidden="true"
+              focusable="false"
+            >
+              <rect x="0.75" y="0.75" width="10.5" height="16.5" rx="2.25" fill="none" stroke="currentColor" strokeWidth="1.5" />
+              <rect x="4" y="14.4" width="4" height="1.2" rx="0.6" fill="currentColor" />
+            </svg>
             Get the app
           </a>
           <button
@@ -82,7 +94,6 @@ export default function SiteHeaderView({
             onClick={onToggleMenu}
           >
             <span className="site-header__hamburger" aria-hidden="true">
-              <span className="site-header__hamburger-line" />
               <span className="site-header__hamburger-line" />
               <span className="site-header__hamburger-line" />
             </span>

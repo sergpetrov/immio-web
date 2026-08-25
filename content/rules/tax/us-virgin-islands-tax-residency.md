@@ -1,19 +1,19 @@
 ---
 id: us-virgin-islands-tax-residency
 
-title: US Virgin Islands Tax Residency (183-day rule)
-subtitle: 183 days ∙ Starts Jan 1 ∙ Tax home and closer connection
+title: US Virgin Islands Tax Residency
+subtitle: 183 days ∙ Starts Jan 1
 
 category: tax
 
 place: vi
 
 seo:
-  title: US Virgin Islands Tax Residency – 183-Day Rule | Immio
+  title: US Virgin Islands Tax Residency | Immio
   description: >
-    Bona fide residence in the US Virgin Islands needs 183 days plus a tax
-    home there and no closer connection elsewhere. 549 days over 3 years is
-    one alternative to the presence test.
+    Bona fide residence in the US Virgin Islands turns on 3 tests. For
+    presence: 183 days in the calendar year, 549 days over 3 years, or
+    minimal US ties.
 
 updatedAt: 2026-08-25
 
@@ -32,36 +32,34 @@ relatedContent:
   - puerto-rico-act60
   - us-tax-residency-spt
   - us-feie
-  - saint-vincent-tax-residency
+  - saint-vincent-grenadines-tax-residency
   - uae-tax-residency
 
 ---
 
-# US Virgin Islands Tax Residency (183-day rule)
+# US Virgin Islands Tax Residency
 
 ## Overview
 
 :::callout
-Bona fide residence in the US Virgin Islands normally needs **183 days** there in the **calendar year**, with **549
-days across 3 years** among the alternative routes. Presence is only 1 of **3 tests** — your **tax home** must be in
-the territory and you must have **no closer connection** elsewhere.
+Bona fide residence in the US Virgin Islands turns on **3 tests** — presence, tax home, and closer connection. All of
+them must hold. For **presence**, the basic route is **183 days** in the **calendar year**, or **549 days** across
+3 years, or **minimal US ties**.
 :::
 
-| Key parameters          |                                   |
-|:------------------------|----------------------------------:|
-| Threshold               |                          183 days |
-| Period / Window         |    Calendar year (1 Jan – 31 Dec) |
-| Counting                |                 Any part of a day |
-| Alternative             |                549 days / 3 years |
-| Additional requirements | Tax home, closer connection tests |
+| Key parameters          |                                     |
+|:------------------------|------------------------------------:|
+| Threshold               |                            183 days |
+| Period / Window         |      Calendar year (1 Jan – 31 Dec) |
+| Counting                |                   Any part of a day |
+| Alternative             | 549 days / 3 years, minimal US ties |
+| Additional requirements |   Tax home, closer connection tests |
 
 ## Understanding the rule
 
-Bona fide residence turns on 3 tests that all have to hold together for the same tax year:
+Bona fide residence turns on 3 tests, and all of them have to hold together for the same tax year:
 
-- **Presence** — normally 183 days in the US Virgin Islands during the tax year. Several alternatives can substitute
-  for it, the most useful being 549 days across the tax year and the 2 before it, provided you were present for at
-  least 60 days in each of those years.
+- **Presence** — time in the territory, or time away from the mainland. 5 routes satisfy it, listed below.
 - **Tax home** — your main place of business or employment must be in the territory rather than outside it.
 - **Closer connection** — your ties must not point more strongly to the mainland United States or to a foreign
   country than to the Virgin Islands.
@@ -69,21 +67,33 @@ Bona fide residence turns on 3 tests that all have to hold together for the same
 Failing any one of the 3 breaks bona fide residence, however comfortably the others are met. That is the part people
 underestimate: a full year of presence achieves nothing if your work base and your family remain on the mainland.
 
+The presence test is the one with options. Meeting **any single route** satisfies it:
+
+- **183 days** in the territory during the tax year — the ordinary route.
+- **549 days** across the tax year and the 2 before it, with at least **60 days** in every one of those 3 years.
+- **90 days or fewer** in the mainland US during the tax year.
+- **Capped US-source earned income**, alongside more days in the territory than in the mainland.
+- **No significant connection** to the mainland US — no home, no voter registration, no spouse or minor child there.
+
+The last 3 routes measure what you did away from the territory rather than inside it. That is why someone with a
+modest local day count can still pass presence, and why the test is far wider than the 183-day figure suggests.
+
 The status matters because it decides where you file. A bona fide resident generally settles their liability with the
-territory's own revenue bureau rather than filing with both, and it is also the gateway to the Virgin Islands economic
+territory's own revenue bureau rather than filing with both. It is also the gateway to the Virgin Islands economic
 development incentives, which are applied for separately and carry their own conditions.
 
 ## How to keep track
 
-1. The presence threshold is **183 days** in the territory during the calendar year, with **549 days across 3 years**
-   as the main alternative, needing at least **60 days** in each of those years.
-2. **Any part of a day** in the Virgin Islands counts as a full day, arrival and departure days included.
-3. Presence alone is never enough. Check your **tax home** and your **closer connection** for the same year, since all
-   3 tests must hold together.
-4. The window is the **calendar year** and resets on 1 January, so a stay spanning a year end is split between the
-   2 years.
-5. If you are relying on the 3-year alternative, confirm the 60-day minimum was met in every one of the years, not
-   just on average.
+1. **Any part of a day** in the Virgin Islands counts as a full day, arrival and departure days included.
+2. The window is the **calendar year** and resets on 1 January, so a stay spanning a year end is split between the
+   2 years rather than counted across them.
+3. Run the **183-day** count first. Only if it falls short do the other 4 routes matter.
+4. Keep a **separate count of mainland US days**. Three of the routes turn on that figure rather than on your
+   territory total, and it is the number people forget to track.
+5. For the **549-day** route, check the 60-day floor was met in each of the 3 years individually — an average across
+   them is not enough.
+6. Presence alone never settles it, whichever route you pass. Confirm your **tax home** and **closer connection** for
+   the same tax year.
 
 Keep travel records covering at least 3 years, plus evidence of where your main place of business sits and where your
 personal ties are anchored — home, family, bank accounts, licences and registrations.
@@ -94,6 +104,8 @@ personal ties are anchored — home, family, bank accounts, licences and registr
   business stays on the mainland fails the second test and breaks bona fide residence.
 - **The 3-year alternative has a floor in every year.** 549 days spread unevenly still fails if any of the 3 years
   falls below 60 days of presence.
+- **A capped-income route exists but is narrow.** The US-source earned income limit is a low fixed figure, so it
+  rarely helps anyone with meaningful mainland earnings, whatever their day counts look like.
 - **Moving mid-year has special treatment.** The year you take up or give up residence is handled under rules for
   partial-year cases rather than the ordinary tests.
 - **Bona fide residence is not the same as the incentive programmes.** The economic development benefits require a
@@ -103,7 +115,7 @@ personal ties are anchored — home, family, bank accounts, licences and registr
 
 ## If you get this rule wrong
 
-Bona fide residence decides which authority you settle with, so getting it wrong usually surfaces as a return filed in the wrong place or income allocated to the wrong jurisdiction — and the position is corrected in both directions at once. Failing the tests triggers a dual-filing obligation that was not met, and the ordinary federal regime for late or understated returns applies on top, with penalties calculated on the tax owed and interest running from the original due date. **Professional tax advice is strongly recommended in situations like this.**
+Bona fide residence decides which authority you file with, so an error usually surfaces as a return filed in the wrong place and a dual-filing obligation you never met. The ordinary federal regime for late or understated returns then applies, with penalties on the tax owed and interest running from the original due date. **Professional tax advice is strongly recommended in situations like this.**
 
 ## Examples
 
@@ -132,8 +144,9 @@ Across 3 years you spend 549 days in the territory, but one of those years holds
 
 ### How many days do I need in the US Virgin Islands?
 
-Normally 183 days in the tax year. Alternatives exist, the main one being 549 days across the tax year and the 2
-before it, with at least 60 days of presence in each of those years.
+Normally 183 days in the tax year. If you fall short, 4 alternatives can satisfy presence instead: 549 days across the
+tax year and the 2 before it with at least 60 days in each; no more than 90 days in the mainland US; capped US-source
+earned income with more territory days than mainland days; or no significant connection to the mainland US.
 
 ### Is the day count enough on its own?
 

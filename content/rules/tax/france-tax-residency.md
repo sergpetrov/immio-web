@@ -159,7 +159,7 @@ every criterion instead makes you a nonresident, generally taxed only on income 
 The year is split. You're taxed as a resident on worldwide income for the part of the year you were domiciled in
 France, and as a nonresident on French-source income for the rest, with the two periods assessed separately.
 
-### Can I be a French tax resident and a tax resident of another country at the same time?
+### Is there an exit charge when leaving France?
 
-Yes. The French criteria only settle your position under French law, and other countries apply their own tests. A
-double tax treaty between France and that country would then decide which one takes priority for specific income.
+There can be. Unrealised gains on significant shareholdings can be taxed on departure, though the charge can often be
+deferred.

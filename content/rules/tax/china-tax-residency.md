@@ -155,7 +155,7 @@ shorter trips adding up to more than 30 days will not do it.
 No. Both are separate tax jurisdictions with their own rules, so time spent there does not contribute to the mainland
 day count.
 
-### Can I be a Chinese tax resident and a tax resident of another country at the same time?
+### Is foreign income paid by a Chinese employer covered by the 6-year shelter?
 
-Yes. The Chinese tests only settle your position under Chinese law, and other countries apply their own. A double tax
-treaty between China and that country would then decide which one takes priority for specific income.
+No. The shelter covers foreign income paid by foreign entities. A foreign-sourced payment made by a Chinese entity is
+inside the charge from your first resident year.

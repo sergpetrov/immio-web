@@ -156,7 +156,7 @@ begins in the fourth, and continues after you leave until you have been non-resi
 Not necessarily. Residents are within the charge on worldwide income, but if you are not domiciled in Ireland, foreign
 income is generally taxed only to the extent you bring it into the country.
 
-### Can I be an Irish tax resident and a tax resident of another country at the same time?
+### Do airport transit days count toward the 183 days?
 
-Yes. The Irish tests only settle your position under Irish law, and other countries apply their own. A double tax
-treaty between Ireland and that country would then decide which one takes priority for specific income.
+No. Passing through an Irish airport or port without entering the State is not a day of presence, so a connecting
+flight leaves your count untouched.

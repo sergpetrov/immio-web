@@ -152,7 +152,7 @@ exceeds 122 days a year. A single heavy year can lift the average past the line.
 Worldwide employment income, among other categories. Nonresidents face a narrower charge limited to income accrued in
 or derived from Kenya.
 
-### Can I be a Kenyan tax resident and a tax resident of another country at the same time?
+### Does a Kenyan work permit make me a tax resident?
 
-Yes. The Kenyan tests only settle your position under Kenyan law, and other countries apply their own. A double tax
-treaty between Kenya and that country would then decide which one takes priority for specific income.
+No. Immigration status and tax residency are decided separately. Holding a permit does not settle where you are taxed,
+and neither does having none.

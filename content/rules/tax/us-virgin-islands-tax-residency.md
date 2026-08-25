@@ -168,7 +168,7 @@ citizenship-based obligations continue to apply.
 No. The economic development benefits are applied for separately and carry their own conditions. Bona fide residence
 is a prerequisite for some of them rather than a grant of them.
 
-### Can I be a bona fide resident and a tax resident of another country at the same time?
+### What happens in the year I move to or from the territory?
 
-Yes, in principle, though the closer connection test makes it harder. Ties pointing more strongly to a foreign country
-than to the Virgin Islands would break bona fide residence rather than sitting alongside it.
+That year is handled under rules for partial-year cases rather than the ordinary tests, so the usual presence, tax home
+and closer connection analysis does not apply in the normal way.

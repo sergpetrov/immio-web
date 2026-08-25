@@ -145,7 +145,7 @@ Residence ends after more than 183 days of absence, continuous or not, within a 
 separate and doesn't lapse automatically — you need evidence that your principal business and income sources have
 genuinely moved out of Chile.
 
-### Can I be a tax resident of Chile and another country at the same time?
+### When does the 3-year foreign-income exemption start running?
 
-Yes. Chilean rules only settle your position under Chilean law. If another country also claims you, a double tax treaty
-between the two would decide which one takes priority for particular types of income.
+From your entry, not from the day you actually became resident. Arriving early in a year and only crossing the
+threshold much later still consumes part of the window.

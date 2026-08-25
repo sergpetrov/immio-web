@@ -155,7 +155,7 @@ earning, so foreign income kept outside Malta generally stays outside the charge
 Rarely, and not by living there alone. Domicile is acquired by settling permanently with the intention of remaining
 indefinitely, and it is deliberately hard to shed once established elsewhere.
 
-### Can I be a Maltese tax resident and a tax resident of another country at the same time?
+### Is there a minimum tax for non-domiciled residents in Malta?
 
-Yes. The Maltese tests only settle your position under Maltese law, and other countries apply their own. A double tax
-treaty between Malta and that country would then decide which one takes priority for specific income.
+In some cases, yes. Where foreign income is substantial and the remittance basis applies, an annual floor can be
+payable regardless of how little is actually brought into Malta.

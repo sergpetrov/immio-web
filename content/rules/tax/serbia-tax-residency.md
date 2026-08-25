@@ -147,8 +147,3 @@ taxed.
 
 Worldwide income, regardless of where it was earned or where the paying entity is registered. Nonresidents are taxed
 only on income arising in Serbia.
-
-### Can I be a Serbian tax resident and a tax resident of another country at the same time?
-
-Yes. The Serbian tests only settle your position under Serbian law, and other countries apply their own. A double tax
-treaty between Serbia and that country would then decide which one takes priority for specific income.

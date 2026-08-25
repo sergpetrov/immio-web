@@ -156,7 +156,7 @@ following year, the intervening year qualifies with no presence at all.
 Residents are taxed at graduated rates and can claim personal reliefs. Nonresidents are taxed at a flat rate on
 employment income and cannot claim those reliefs, so the same earnings can produce very different bills.
 
-### Can I be a Malaysian tax resident and a tax resident of another country at the same time?
+### Is my foreign income taxed in Malaysia?
 
-Yes. The Malaysian tests only settle your position under Malaysian law, and other countries apply their own. A double
-tax treaty between Malaysia and that country would then decide which one takes priority for specific income.
+Not necessarily, but don't assume exemption. Foreign-sourced income received in Malaysia is exempted by order rather
+than permanently, so check the position for the year in question.

@@ -151,7 +151,7 @@ business income. Nonresidents are charged only on Vietnam-source income, at flat
 In effect, yes. Because the 12-month window runs from your arrival date, a stay beginning late in the year is assessed
 across that following year rather than being cut off on 31 December.
 
-### Can I be a Vietnamese tax resident and a tax resident of another country at the same time?
+### Can a foreign residence certificate stop me being Vietnamese resident?
 
-Yes. The Vietnamese tests only settle your position under Vietnamese law, and other countries apply their own. A
-double tax treaty between Vietnam and that country would then decide which one takes priority for specific income.
+Yes, if you are caught only by the habitual-residence or lease route and were actually present for under 183 days. A
+certificate showing you are resident elsewhere takes you out of it.

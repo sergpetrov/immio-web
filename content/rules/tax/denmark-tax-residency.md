@@ -184,8 +184,3 @@ relief for work abroad** above. Meeting or missing one says nothing about the ot
 
 Full liability reaches worldwide income. Limited liability covers only income with a Danish source, such as local
 employment income or Danish property.
-
-### Can I be a Danish tax resident and a tax resident of another country at the same time?
-
-Yes. The Danish tests only settle your position under Danish law, and other countries apply their own. A double tax
-treaty between Denmark and that country would then decide which one takes priority for specific income.

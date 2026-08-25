@@ -155,7 +155,7 @@ You become a Norwegian tax resident, taxed on **worldwide income and worldwide w
 Norwegian-source income. Failing both tests instead leaves you a nonresident, generally taxed only on income arising
 in Norway.
 
-### Can I be a Norwegian tax resident and a tax resident of another country at the same time?
+### Does a Norwegian home my family can use block my exit?
 
-Yes. The Norwegian tests only settle your position under Norwegian law, and other countries apply their own. A double
-tax treaty between Norway and that country would then decide which one takes priority for specific income.
+Yes. For the emigration test, a dwelling in Norway available to your spouse, partner or children counts as available
+to you, even if you never set foot in it.

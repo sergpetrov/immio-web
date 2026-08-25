@@ -162,8 +162,7 @@ years of claim.
 No, it's a separate exemption. If all your services in a year of assessment were rendered outside Hong Kong, your income
 is exempt from salaries tax. Visits to Hong Kong of no more than 60 days in total that year don't disturb the exemption.
 
-### Can I be a Hong Kong resident and a tax resident of another place at the same time?
+### What if Hong Kong has no tax treaty with the other country?
 
-Yes. Meeting a Hong Kong route only settles your position under Hong Kong rules. Where another jurisdiction also treats
-you as a resident, the tie-breaker in the relevant double taxation agreement decides which one takes priority for
-specific income.
+The Inland Revenue Department will not issue a Certificate of Resident Status where no double taxation agreement
+covers the jurisdiction concerned, or where the certificate is wanted for some other purpose.

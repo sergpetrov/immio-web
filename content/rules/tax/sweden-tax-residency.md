@@ -157,7 +157,7 @@ so the 6-month continuous test remains the applicable rule.
 Unlimited liability reaches worldwide income. Limited liability covers only income with a Swedish source, such as
 local employment income or Swedish property.
 
-### Can I be a Swedish tax resident and a tax resident of another country at the same time?
+### Is there a special regime for short-term foreign workers in Sweden?
 
-Yes. The Swedish tests only settle your position under Swedish law, and other countries apply their own. A double tax
-treaty between Sweden and that country would then decide which one takes priority for specific income.
+Yes, taxed at a flat rate on Swedish income. It is a method of taxation rather than a residency test, so the tests
+above keep running underneath it.

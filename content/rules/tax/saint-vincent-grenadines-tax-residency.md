@@ -150,7 +150,7 @@ stay outside the charge, though transferring them in later can bring them into s
 No. Holding a passport obtained through the investment programme involves no presence and creates no tax residency by
 itself. The day test applies the same way to everyone.
 
-### Can I be resident here and a tax resident of another country at the same time?
+### Does splitting a long stay across two calendar years avoid residency?
 
-Yes. These tests only settle your position under local law, and other countries apply their own. A double tax treaty,
-where one exists, would then decide which country takes priority for specific income.
+Not reliably. The linked-period route exists precisely for presence continuous with the preceding or following year,
+so a stay spanning a year end can still make you resident.

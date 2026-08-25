@@ -148,7 +148,7 @@ if it lasts only part of the day.
 ZATCA asks for a valid passport, proof of residency and an employment verification letter, with clear copies of each.
 The service is free and applications are made through ZATCA's online channels.
 
-### Can I be a Saudi tax resident and a tax resident of another country at the same time?
+### What tax do non-residents pay in Saudi Arabia?
 
-Yes. Saudi residency only establishes your position under Saudi rules. If another country also claims you as resident, a
-double tax treaty between the two would determine which one has priority for specific income.
+Payments from a Saudi source to a non-resident carry withholding tax of between 5% and 20%, depending on the type of
+payment. It applies whether or not any days were spent in the Kingdom.

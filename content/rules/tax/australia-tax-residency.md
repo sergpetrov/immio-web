@@ -143,8 +143,7 @@ Australian-source income.
 Not yet. A bright-line reform based primarily on a day count has been proposed, but it hasn't been legislated. The
 four tests described here remain the current law.
 
-### Can I be an Australian tax resident and a tax resident of another country at the same time?
+### I've moved abroad — does that end my Australian tax residency?
 
-Yes. Australian tax residency only establishes your position under Australian domestic law. If another country also
-treats you as resident, a double tax treaty between Australia and that country would determine which country has
-priority for specific income.
+Not automatically. If you have an Australian domicile, the Commissioner has to be satisfied your permanent home is
+genuinely established elsewhere. The default assumption favours residency, so the burden sits with you.

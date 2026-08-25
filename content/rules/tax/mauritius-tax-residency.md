@@ -152,7 +152,7 @@ permanent home abroad displaces the domicile limb.
 In principle yes, but foreign income is taxable only to the extent it is actually received in Mauritius. Income left
 outside the country generally stays outside the charge.
 
-### Can I be a Mauritian tax resident and a tax resident of another country at the same time?
+### Do the 270 days have to be spread evenly across the 3 years?
 
-Yes. The Mauritian tests only settle your position under Mauritian law, and other countries apply their own. A double
-tax treaty between Mauritius and that country would then decide which one takes priority for specific income.
+No. It is an aggregate across the income year and the 2 before it, with no minimum in any single one, so an uneven
+spread still qualifies.

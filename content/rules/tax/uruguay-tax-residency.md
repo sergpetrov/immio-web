@@ -161,7 +161,7 @@ further ten. If you qualified for residency on days alone, no investment is need
 between five years at half the standard rate and a fixed annual payment for twenty years. The flat 7% alternative that
 once ran indefinitely is closed to people becoming resident from 2026, though anyone who elected it earlier keeps it.
 
-### Can I be a tax resident of Uruguay and another country at the same time?
+### How are the Uruguayan investment routes measured?
 
-Yes. Uruguayan rules only settle your position under Uruguayan law. If another country also treats you as resident, a
-double tax treaty between the two would decide which takes priority for particular types of income.
+On a snapshot, not an average. Property holdings are measured by what you hold at the end of the calendar year and the
+jobs route by positions created during it, so a year-end disposal can undo it.

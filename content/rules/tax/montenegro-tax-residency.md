@@ -152,7 +152,7 @@ create residency.
 
 Worldwide income, at progressive rates. Nonresidents are taxed only on income arising in Montenegro.
 
-### Can I be a Montenegrin tax resident and a tax resident of another country at the same time?
+### I'm posted abroad by a Montenegrin employer — am I still resident?
 
-Yes. The Montenegrin tests only settle your position under Montenegrin law, and other countries apply their own. A
-double tax treaty between Montenegro and that country would then decide which one takes priority for specific income.
+Yes. Someone assigned outside the country to work for a Montenegrin resident, or for an international organisation,
+remains resident regardless of their day count.

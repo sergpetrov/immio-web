@@ -164,8 +164,7 @@ income received through a partnership in Singapore.
 A work pass valid for at least a year usually means you're treated as a resident straight away. That treatment isn't
 final: your residency is reviewed at tax clearance when your employment ends, against the ordinary rules.
 
-### Can I be a Singapore tax resident and a tax resident of another country at the same time?
+### What happens if I'm one day short of 183?
 
-Yes. Singapore residency only settles your position under Singapore rules. If another country also treats you as a
-resident, a double tax agreement between the two would determine which has priority for specific income. You can apply
-to IRAS for a Certificate of Residence to support a treaty claim.
+The rate changes, not just the label. Non-resident employment income is taxed at the higher of a flat 15% or the
+progressive resident rates, most other income at 24%, and no personal reliefs are available.

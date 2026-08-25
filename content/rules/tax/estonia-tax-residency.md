@@ -132,7 +132,7 @@ presence and no place of residence there, so you are not an Estonian tax residen
 ### Is the Estonian 183-day count based on the calendar year?
 
 No. It runs across any 12 consecutive calendar months, so the window rolls rather than resetting with a new year. A
-stay spanning a year end is measured as one period.
+stay spanning a year-end is measured as one period.
 
 ### When does Estonian tax residency actually start?
 
@@ -154,7 +154,7 @@ and creates no tax residency.
 Yes, if your place of residence is in Estonia — broadly where you permanently or primarily live. That limb has no day
 threshold and can apply from your first day.
 
-### Can I be an Estonian tax resident and a tax resident of another country at the same time?
+### Can Estonian residency reach back into income I already treated as foreign?
 
-Yes. The Estonian tests only settle your position under Estonian law, and other countries apply their own. A double
-tax treaty between Estonia and that country would then decide which one takes priority for specific income.
+Yes. Because residency is backdated to your first day of the qualifying period, crossing the threshold in June can
+make you resident from the previous autumn and pull earlier months into the Estonian charge.

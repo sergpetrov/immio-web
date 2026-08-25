@@ -157,7 +157,7 @@ when you move away.
 
 Worldwide income. Nonresidents are taxed only on income arising in Romania.
 
-### Can I be a Romanian tax resident and a tax resident of another country at the same time?
+### Can any 12-month period trigger Romanian residency?
 
-Yes. The Romanian tests only settle your position under Romanian law, and other countries apply their own. A double
-tax treaty between Romania and that country would then decide which one takes priority for specific income.
+No. The window has to end inside the calendar year being assessed. That constraint stops an arbitrary rolling stretch
+from producing residency in a year it barely touches.

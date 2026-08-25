@@ -143,7 +143,7 @@ ordinary residence or work permit are generally treated as nonresident after six
 Yes. A 2026 law introduced a foreign-source income exemption lasting up to twenty years for people who become
 Turkish tax residents after several years with no Turkish domicile or tax liability.
 
-### Can I be a Turkish tax resident and a tax resident of another country at the same time?
+### Which stays are exempt from the six-month test?
 
-Yes. The Turkish tests only settle your position under Turkish law, and other countries apply their own. A double tax
-treaty between Turkey and that country would then decide which one takes priority for specific income.
+Only narrow, fact-specific ones. The statutory exceptions protect someone in Turkey for a genuinely defined,
+temporary purpose — not someone who has relocated and works from home indefinitely.

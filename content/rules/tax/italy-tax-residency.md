@@ -162,8 +162,7 @@ Yes. A flat annual tax can cover foreign-source income for qualifying high-net-w
 years. A separate **impatriate regime** can exempt part of your Italian-source income instead — see **Impatriate
 Regime** above for the numbers. The two are mutually exclusive.
 
-### Can I be an Italian tax resident and a tax resident of another country at the same time?
+### I'm moving from Italy to a low-tax country — does that end my residency?
 
-Yes. Italian tax residency only establishes your position under Italian domestic law. If another country also treats
-you as resident, a double tax treaty between Italy and that country would determine which country has priority for
-specific income.
+Not automatically. An Italian citizen who deregisters and relocates to a country on Italy's low-tax jurisdiction list
+is presumed resident by default, and has to prove genuine non-residence to rebut it.

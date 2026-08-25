@@ -146,7 +146,7 @@ but keeping a family home available in Morocco, or running your main business th
 You become a Moroccan tax resident, taxed on your **worldwide income** — both Moroccan-source and foreign-source.
 Failing all three tests instead makes you a nonresident, generally taxed only on income arising in Morocco.
 
-### Can I be a Moroccan tax resident and a tax resident of another country at the same time?
+### Do foreign pensions get relief in Morocco?
 
-Yes. The Moroccan tests only settle your position under Moroccan law, and other countries apply their own. A double
-tax treaty between Morocco and that country would then decide which one takes priority for specific income.
+Yes. Retirees who become Moroccan residents and permanently transfer a foreign pension into a non-convertible dirham
+account get an 80% reduction in the tax due on it.

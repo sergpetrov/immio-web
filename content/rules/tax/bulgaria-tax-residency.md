@@ -148,7 +148,7 @@ your assets — you can be resident on a much lower day count.
 
 Worldwide income, at a flat rate. Nonresidents are taxed only on income arising in Bulgaria, at the same rate.
 
-### Can I be a Bulgarian tax resident and a tax resident of another country at the same time?
+### How do I get a Bulgarian tax residency certificate?
 
-Yes. The Bulgarian tests only settle your position under Bulgarian law, and other countries apply their own. A double
-tax treaty between Bulgaria and that country would then decide which one takes priority for specific income.
+You apply to the National Revenue Agency, which issues it on evidence rather than on request. The day count is
+treated as the strongest basis, so the vital-interests route can be harder to document.

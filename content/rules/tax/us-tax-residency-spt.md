@@ -164,8 +164,7 @@ claim nonresident treatment on Form 8840.
 No — holding a green card makes you a US resident for tax purposes on its own, under the separate green card test. The
 SPT only matters for people who don't hold one.
 
-### Can I be a US resident under the SPT and a tax resident of another country at the same time?
+### Can I choose resident treatment for my arrival year?
 
-Yes. If a tax treaty applies between the US and that country, its tie-breaker rules can then treat you as a nonresident
-alien for US tax purposes despite meeting the SPT — but you must claim this on **Form 8833**, and skipping it can
-trigger a penalty.
+Possibly. If you don't meet the test in your arrival year but will meet it the following year, a first-year choice may
+let you take resident treatment for part of the current year instead of waiting.

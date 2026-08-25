@@ -154,7 +154,7 @@ For a resident individual, the internal revenue service of the state where you h
 generally fixed by where you were living at the start of the year, or when you took up a new job. The Nigeria Revenue
 Service handles non-residents and cases where no state of residence can be established.
 
-### Can I be resident in Nigeria and another country at the same time?
+### I live abroad but my family is in Nigeria — am I resident?
 
-Yes. Nigerian residency only fixes your position under Nigerian law. If another country also treats you as resident, a
-double tax treaty between the two would determine which country has priority for particular income.
+You can be. Substantial economic ties combined with immediate family in Nigeria can make a long-term expatriate
+resident despite spending almost no time in the country.

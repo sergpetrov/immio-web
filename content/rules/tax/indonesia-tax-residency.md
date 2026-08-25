@@ -158,7 +158,7 @@ Some can. A foreign national with qualifying expertise who becomes a domestic ta
 income received from Indonesia, for four tax years from when residency starts. It has to be applied for, and it's an
 alternative to claiming treaty relief rather than an addition to it.
 
-### Can I be a tax resident of Indonesia and another country at the same time?
+### Does being an Indonesian tax resident mean I have to file a return?
 
-Yes. Indonesian residency only settles your position under Indonesian rules. Where the other country has a tax treaty
-with Indonesia and also treats you as a resident, the treaty determines which country's residency takes priority.
+Not by itself. The filing obligation starts once your income, from any source, passes the non-taxable income
+threshold.

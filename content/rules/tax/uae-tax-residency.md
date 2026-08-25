@@ -148,11 +148,5 @@ same day still adds one day to your total.
 
 ### What evidence do I need to prove UAE tax residency?
 
-Typically entry and exit records showing your days present, plus documents for whichever route you use — a tenancy
+Typically, entry and exit records showing your days present, plus documents for whichever route you use — a tenancy
 contract or title deed for a permanent home, or proof of employment or business for the 90-day route.
-
-### Can I be a UAE tax resident and a tax resident of another country at the same time?
-
-Yes. UAE tax residency only establishes your position under UAE rules. If another country also treats you as resident
-under its own law, a double tax treaty between the UAE and that country would determine which country has priority for
-specific income.

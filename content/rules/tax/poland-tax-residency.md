@@ -136,11 +136,10 @@ You become a Polish tax resident for the whole calendar year, taxed on your **wo
 sourced in Poland. Falling short of both tests instead makes you a nonresident, generally taxed only on Polish-source
 income.
 
-### Can I be a Polish tax resident and a tax resident of another country at the same time?
+### Does having family in Poland automatically make me resident?
 
-Yes. Polish tax residency only establishes your position under Polish domestic law. If another country also treats
-you as resident, a double tax treaty between Poland and that country would determine which country has priority for
-specific income.
+No. Courts have found family presence in Poland insufficient on its own where a person's economic interests clearly
+point elsewhere. The test looks at the whole picture.
 
 ### What is the return relief and who can use it?
 

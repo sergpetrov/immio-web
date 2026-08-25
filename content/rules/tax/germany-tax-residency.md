@@ -187,7 +187,7 @@ You become subject to unlimited tax liability, taxed on your **worldwide income*
 income. Failing both tests instead leaves you with limited liability, generally covering income from German sources
 only.
 
-### Can I be a German tax resident and a tax resident of another country at the same time?
+### I'm a German national moving to a low-tax country — does that end my liability?
 
-Yes. German rules only settle your position under German law, and other countries apply their own tests. A double tax
-treaty between Germany and that country would then decide which one takes priority for specific income.
+Not necessarily. If you kept substantial German economic ties and were fully taxable in Germany for at least 5 of the
+10 years before leaving, an extended limited liability can follow you for a decade.

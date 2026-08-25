@@ -161,7 +161,7 @@ No — they're separate questions. You still have to become a Greek tax resident
 then changes how your foreign income is taxed once you are. It has its own conditions, including a qualifying Greek
 investment and years of prior non-residence.
 
-### Can I be a Greek tax resident and a tax resident of another country at the same time?
+### Is there a special tax regime for foreign pensioners moving to Greece?
 
-Yes. The Greek tests only settle your position under Greek law, and other countries apply their own. A double tax
-treaty between Greece and that country would then decide which one takes priority for specific income.
+Yes. Qualifying pensioners can pay a 7% flat rate on foreign income for up to 15 years. A separate regime exempts half
+the income of qualifying new arrivals taking a Greek job, for 7 years.

@@ -43,18 +43,17 @@ relatedContent:
 ## Overview
 
 :::callout
-Spending **183 days or more** in Ireland in a **calendar year** makes you a tax resident. So does **280 days** across
-the current and previous year added together, though a year with **30 days or fewer** in it doesn't count toward that
-test. **Ordinary residence** then follows after 3 straight resident years.
+Spending **183 days or more** in Ireland in a **calendar year** can make you a tax resident. Alternative is **280 days**
+across 2 last year, though a year with **30 days or fewer** in it doesn't count toward that test. **Ordinary residence** then
+follows after 3 straight resident years.
 :::
 
-| Key parameters          |                                |
-|:------------------------|-------------------------------:|
-| Threshold               |                       183 days |
-| Period / Window         | Calendar year (1 Jan – 31 Dec) |
-| Counting                |              Any part of a day |
-| Alternative             | 280 days / 2 consecutive years |
-| Additional requirements |   Ordinary residence, domicile |
+| Key parameters          |                                                              |
+|:------------------------|-------------------------------------------------------------:|
+| Threshold               |                                                     183 days |
+| Period / Window         |                               Calendar year (1 Jan – 31 Dec) |
+| Counting                |                                            Any part of a day |
+| Alternative             | 280 days / 2 consecutive years, ordinary residence, domicile |
 
 ## Understanding the rule
 

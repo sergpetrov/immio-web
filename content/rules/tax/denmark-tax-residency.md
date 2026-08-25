@@ -43,7 +43,7 @@ relatedContent:
 ## Overview
 
 :::callout
-Staying in Denmark for **6 consecutive months** makes you fully liable to Danish tax on worldwide income. Short trips
+Staying in Denmark for **6 consecutive months** can make you fully liable to Danish tax on worldwide income. Short trips
 out for holidays **don't break** that period. Taking a **home** there and using it for anything beyond short holidays
 brings much shorter limits — around **3 months** at a stretch, or **180 days** in any 12, and any work at all.
 :::

@@ -2,7 +2,7 @@
 id: switzerland-tax-residency
 
 title: Switzerland Tax Residency (30-day and 90-day rules)
-subtitle: 30 or 90 days working ∙ Domicile
+subtitle: 30 or 90 days per visit ∙ Domicile
 
 category: tax
 
@@ -11,9 +11,8 @@ place: ch
 seo:
   title: Switzerland Tax Residency – 30 & 90-Day Rules | Immio
   description: >
-    30 days in Switzerland while working, or 90 days without working, makes
-    you tax resident. Short trips away don't break either count, and
-    domicile qualifies with no day count.
+    30 days in Switzerland with gainful activity, or 90 days without it, makes you a tax resident.
+    Short trips away don't break either count, and domicile qualifies with no day count.
 
 updatedAt: 2026-08-25
 
@@ -43,7 +42,7 @@ relatedContent:
 ## Overview
 
 :::callout
-Staying **30 days** in Switzerland with gainful activity, or **90 days** without it, makes you a tax resident. Short trips
+Staying **30 days** in Switzerland with gainful activity, or **90 days** without it, can make you a tax resident. Short trips
 away don't break either count. **Domicile** — settling there with the intention of staying — is the other route in,
 with **no day count** at all.
 :::

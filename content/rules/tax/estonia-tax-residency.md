@@ -43,7 +43,7 @@ relatedContent:
 ## Overview
 
 :::callout
-Staying **183 days or more** in Estonia across **any 12 consecutive** calendar months makes you a tax resident, and the
+Staying **183 days or more** in Estonia across **any 12 consecutive** calendar months can make you a tax resident, and the
 status is backdated to your **first day** of that period. A **place of residence** in Estonia qualifies you instead,
 with **no day count** at all.
 :::

@@ -40,7 +40,7 @@ relatedContent:
 
 :::callout
 You can become a Brazilian tax resident if you spend **more than 183 days** there, counted across **any 12-month**
-period. **Permanent residence** status, or a Brazilian **employment** contract, makes you a resident from the **first day**.
+period. **Permanent residence** status, or a Brazilian **employment** contract, can make you a resident from the **first day**.
 Ending residency needs a formal exit filing.
 :::
 

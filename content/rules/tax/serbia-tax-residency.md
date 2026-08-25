@@ -40,9 +40,9 @@ relatedContent:
 ## Overview
 
 :::callout
-Staying **183 days or more** in Serbia across **any 12 months** beginning or ending in the tax year makes you a tax
+Staying **183 days or more** in Serbia across **any 12 months** beginning or ending in the tax year can make you a tax
 resident, whether the days run together or not. A **center of business and vital interests** there qualifies you
-instead, with **no day count**. Time spent in transit doesn't count.
+instead, with **no day count**.
 :::
 
 | Key parameters          |                                      |
@@ -51,7 +51,6 @@ instead, with **no day count**. Time spent in transit doesn't count.
 | Period / Window         |                    Rolling 12 months |
 | Counting                |                    Any part of a day |
 | Alternative             | Residence, center of vital interests |
-| Additional requirements |                Transit time excluded |
 
 ## Understanding the rule
 

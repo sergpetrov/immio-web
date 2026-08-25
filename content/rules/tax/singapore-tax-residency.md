@@ -45,7 +45,7 @@ relatedContent:
 :::callout
 **183 days or more** in Singapore in a **calendar year** can make you a tax resident.
 Normally **living** in Singapore with only temporary absences qualifies you too. Also, **2+ calendar years** of
-employment with a total stay of **at least 183 days** makes you resident.
+employment with a total stay of **at least 183 days** can make you resident.
 :::
 
 | Key parameters  |                                |

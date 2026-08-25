@@ -43,8 +43,7 @@ relatedContent:
 
 :::callout
 Bona fide residence in the US Virgin Islands turns on **3 tests** — presence, tax home, and closer connection. All of
-them must hold. For **presence**, the basic route is **183 days** in the **calendar year**, or **549 days** across
-3 years, or **minimal US ties**.
+them must hold. For **presence**, the basic route is **183 days** in the **calendar year**, or **549 days** across 3 years.
 :::
 
 | Key parameters          |                                     |

@@ -40,7 +40,7 @@ relatedContent:
 ## Overview
 
 :::callout
-Staying in Sweden for **6 consecutive months** creates a **habitual stay** and makes you liable to Swedish tax on
+Staying in Sweden for **6 consecutive months** creates a **habitual stay** and can make you liable to Swedish tax on
 worldwide income. Short trips out **don't shorten** that period. **Living** there, or keeping an **essential connection**
 after leaving, qualifies separately with **no day count**.
 :::

@@ -42,18 +42,17 @@ relatedContent:
 ## Overview
 
 :::callout
-Being in Kenya for **183 days or more** in a **year of income** makes you a tax resident, and so does averaging **more
+Being in Kenya for **183 days or more** in a **year of income** can make you a tax resident. Alternative is **more
 than 122 days** a year across 3 consecutive years. If you keep a **permanent home** in Kenya, a **single day** of
 presence is enough.
 :::
 
-| Key parameters          |                                           |
-|:------------------------|------------------------------------------:|
-| Threshold               |                                  183 days |
-| Period / Window         |            Calendar year (1 Jan – 31 Dec) |
-| Counting                |                         Any part of a day |
-| Alternative             | Permanent home, 122-day average / 3 years |
-| Additional requirements |           No permanent home for day tests |
+| Key parameters          |                                               |
+|:------------------------|----------------------------------------------:|
+| Threshold               |                                      183 days |
+| Period / Window         |                Calendar year (1 Jan – 31 Dec) |
+| Counting                |                             Any part of a day |
+| Alternative             | 122-day / year across 3 years, permanent home |
 
 ## Understanding the rule
 

@@ -39,18 +39,17 @@ relatedContent:
 ## Overview
 
 :::callout
-Spending **183 days or more** in Saint Vincent and the Grenadines in a **calendar year** makes you a tax resident, and
-so does a **permanent home** there plus any presence at all. Residents are charged on **worldwide** income — but those
-who are not **ordinarily resident** pay on foreign income only as **remitted**.
+Spending **183 days or more** in Saint Vincent and the Grenadines in a **calendar year** can make you a tax resident. 
+The second route is **permanent home** there plus any presence at all. The third is a **linked period** — a stay
+continuous with the immediately preceding or following year that already qualifies you as resident.
 :::
 
-| Key parameters          |                                  |
-|:------------------------|---------------------------------:|
-| Threshold               |                         183 days |
-| Period / Window         |   Calendar year (1 Jan – 31 Dec) |
-| Counting                |                Any part of a day |
-| Alternative             |          Ordinary residence test |
-| Additional requirements |   Linked-period test, remittance |
+| Key parameters  |                                    |
+|:----------------|-----------------------------------:|
+| Threshold       |                           183 days |
+| Period / Window |     Calendar year (1 Jan – 31 Dec) |
+| Counting        |                  Any part of a day |
+| Alternative     | Permanent home, linked-period test |
 
 ## Understanding the rule
 
@@ -63,9 +62,6 @@ Residence is reached by 3 alternative routes, and meeting any one is enough:
 - **Linked period** — presence continuous with a stay in the immediately preceding or following year, of a length that
   qualifies you as resident for that year.
 
-**Ordinary residence** is not a separate open-ended concept here. It is defined by reference to the first route above:
-someone whose permanent place of abode is in the country and who was present at all is ordinarily resident.
-
 That definition decides the scope of the charge. A resident is assessable on income from all sources, in or out of the
 country. A resident who is **not** ordinarily resident includes foreign income only to the extent it is actually
 received in the country, which is the remittance basis. Two people with identical day counts can therefore face very
@@ -76,7 +72,7 @@ different bills depending on whether a permanent home is involved.
 1. The threshold is **183 days** of presence in the calendar year, running 1 January to 31 December.
 2. **Any part of a day** in the country counts as a full day, arrival and departure days included.
 3. The days **don't have to be consecutive**, so separate stays across the year add together toward the same total.
-4. The window is the **calendar year** and resets on 1 January, so a stay spanning a year end is split between the
+4. The window is the **calendar year** and resets on 1 January, so a stay spanning a year-end is split between the
    2 years rather than measured across them.
 5. Track what you actually remit as well as what you earn, since remittances are the measure that applies to a
    resident who is not ordinarily resident.

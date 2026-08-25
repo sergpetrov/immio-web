@@ -40,9 +40,8 @@ relatedContent:
 ## Overview
 
 :::callout
-Spending **more than 183 days** in Malta in a **calendar year** makes you a tax resident. **Ordinary residence** is the
-other way in — living there on a settled basis, or returning year after year — with **no fixed day count**. What you
-are then taxed on turns on **domicile**, not on the days.
+Spending **more than 183 days** in Malta in a **calendar year** can make you a tax resident. **Ordinary residence** is the
+other way in — living there on a settled basis, or returning year after year — with **no day count**.
 :::
 
 | Key parameters          |                                |

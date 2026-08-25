@@ -39,7 +39,7 @@ relatedContent:
 ## Overview
 
 :::callout
-Spending **more than 183 days** in Bulgaria across **any 12-month** period makes you a tax resident, counted from the
+Spending **more than 183 days** in Bulgaria across **any 12-month** period can make you a tax resident, counted from the
 calendar year in which you passed day 183. A **center of vital interests** there qualifies you instead, with **no day
 count** at all.
 :::

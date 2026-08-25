@@ -40,7 +40,7 @@ relatedContent:
 ## Overview
 
 :::callout
-Living in China for **183 days or more** in a **calendar year** makes you a tax resident. **Domicile** there qualifies
+Living in China for **183 days or more** in a **calendar year** can make you a tax resident. **Domicile** there qualifies
 you with **no day count**. What residency actually costs depends on the **6-year rule** — foreign income stays outside
 the charge until you have crossed 183 days for **6 straight years**.
 :::

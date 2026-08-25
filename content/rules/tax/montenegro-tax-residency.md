@@ -40,9 +40,8 @@ relatedContent:
 ## Overview
 
 :::callout
-Spending **more than 183 days** in Montenegro in a **tax year** makes you a tax resident. Having your **domicile**
-there, or your **center of personal and economic interests**, qualifies you instead — both with **no day count** at
-all. Meeting any 1 of the 3 is enough.
+Spending **more than 183 days** in Montenegro in a **tax year** can make you a tax resident. Alternative is the having your
+**domicile** there, or your **center of personal and economic interests**, qualifies with **no day count** at all.
 :::
 
 | Key parameters          |                                  |

@@ -11,7 +11,7 @@ place: ro
 seo:
   title: Romania Tax Residency – 183-Day Rule | Immio
   description: >
-    More than 183 days in Romania across any 12 consecutive months ending in
+    More than 183 days in Romania across any 12 months ending in
     the calendar year makes you tax resident. A questionnaire is due within
     30 days of crossing it.
 
@@ -42,7 +42,7 @@ relatedContent:
 ## Overview
 
 :::callout
-Being in Romania for **more than 183 days** across **any 12 consecutive months** ending in the calendar year makes you
+Being in Romania for **more than 183 days** across **any 12 months** ending in the calendar year can make you
 a tax resident. A **center of vital interests** there qualifies you instead, with **no day count**. Crossing the
 threshold brings a filing duty within **30 days**.
 :::

@@ -40,7 +40,7 @@ relatedContent:
 ## Overview
 
 :::callout
-**182 days or more** in Malaysia in a **calendar year** makes you a tax resident. **90 days** is enough if you were
+**182 days or more** in Malaysia in a **calendar year** can make you a tax resident. **90 days** is enough if you were
 resident, or spent 90 days there, in **3 of the 4** previous years. A shorter stay can also link to a continuous
 **182-day** period running into the next year or back into the last.
 :::
@@ -50,8 +50,7 @@ resident, or spent 90 days there, in **3 of the 4** previous years. A shorter st
 | Threshold               |                                    182 days |
 | Period / Window         |              Calendar year (1 Jan – 31 Dec) |
 | Counting                |                           Any part of a day |
-| Alternative             | 90 days + 3 of 4 prior years, linked period |
-| Additional requirements |                         Following-year test |
+| Alternative             | 90 days, linked period, following-year test |
 
 ## Understanding the rule
 

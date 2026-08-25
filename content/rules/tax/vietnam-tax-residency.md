@@ -40,7 +40,7 @@ relatedContent:
 
 :::callout
 Being in Vietnam for **183 days or more** in a **calendar year**, or in the **12 months** from the day you arrived,
-makes you a tax resident. A registered permanent address, or a **lease of 183 days or more**, qualifies you separately
+can make you a tax resident. A registered permanent address, or a **lease of 183 days or more**, qualifies you separately
 with **no presence test** at all.
 :::
 

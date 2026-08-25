@@ -70,6 +70,10 @@ The essential connection limb is the one that catches people leaving. Moving abr
 itself if a home or family remains behind, and the connection is presumed to persist for a period after departure
 unless you can show otherwise.
 
+This is due to change. A government proposal would replace the 6-month test with a fixed count of **overnight stays**
+— **more than 160** in a calendar year, or **more than 120** in each of 2 consecutive years — planned to take effect
+**1 January 2027**. Until then, the 6-consecutive-month test above is what applies.
+
 ## How to keep track
 
 1. The threshold is a stay of **6 consecutive months** in Sweden, measured as elapsed time from arrival.
@@ -91,9 +95,9 @@ property, family arrangements or assets if the essential-connection limb is in p
   trips home during a long stay does nothing to break the 6-month period.
 - **Liability can survive your departure.** An essential connection to Sweden — most often a retained home or family
   still living there — can keep unlimited liability running after you have moved abroad.
-- **A clearer day threshold has been proposed but is not yet law.** A government proposal would define habitual stay
-  by reference to a fixed number of overnight stays in a calendar year. Until it takes effect, the 6-month continuous
-  test is what applies.
+- **The 2027 change exists because "6 months" kept ending up in court.** The current test has no statutory day figure
+  at all, and years of disputes over what counts as a genuinely continuous stay are the stated reason for replacing it
+  with a fixed count.
 - **Unlimited liability is not the same as paying tax on everything.** Treaty relief and foreign tax credits can
   reduce what Sweden actually collects, but the liability itself attaches first.
 - **Sweden has a separate regime for short-term foreign workers**, taxed at a flat rate on Swedish income. That is a

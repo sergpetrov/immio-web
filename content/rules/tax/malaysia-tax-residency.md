@@ -21,8 +21,8 @@ sources:
   - title: "OECD — Malaysia: information on residency for tax purposes"
     url: https://www.oecd.org/content/dam/oecd/en/topics/policy-issue-focus/aeoi/malaysia-residency.pdf
     type: official
-  - title: "Lembaga Hasil Dalam Negeri Malaysia (Inland Revenue Board)"
-    url: https://www.oecd.org/content/dam/oecd/en/topics/policy-issue-focus/aeoi/malaysia-residency.pdf
+  - title: "Lembaga Hasil Dalam Negeri Malaysia — Residence status of individuals"
+    url: https://www.hasil.gov.my/wp-content/uploads/individual.pdf
     type: official
 
 relatedContent:
@@ -128,6 +128,7 @@ your history covers 3 of the previous 4 years, so you remain resident despite fa
 ## Official sources
 
 - [OECD — Malaysia: information on residency for tax purposes](https://www.oecd.org/content/dam/oecd/en/topics/policy-issue-focus/aeoi/malaysia-residency.pdf)
+- [Lembaga Hasil Dalam Negeri Malaysia — Residence status of individuals](https://www.hasil.gov.my/wp-content/uploads/individual.pdf)
 
 ## FAQ
 

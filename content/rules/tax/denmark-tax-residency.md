@@ -13,7 +13,7 @@ seo:
   description: >
     6 consecutive months in Denmark creates full tax liability, and holiday
     trips out don't break the period. Taking a home there brings you into
-    charge much sooner.
+    charge much sooner. Includes the Section 33A 42-day relief.
 
 updatedAt: 2026-08-25
 
@@ -23,6 +23,9 @@ sources:
     type: official
   - title: "Skattestyrelsen — Danish Tax Agency"
     url: https://skat.dk/en-us
+    type: official
+  - title: "Skattestyrelsen — Cross-border tax matters"
+    url: https://skat.dk/en-us/individuals/cross-border-tax-matters
     type: official
 
 relatedContent:
@@ -71,6 +74,9 @@ The distinction matters because the 2 limbs pull in opposite directions. Someone
 substantial stretch in the country before liability attaches. Someone who rents an apartment and starts working can be
 liable from the outset.
 
+A separate relief for people working abroad, known as **Section 33A**, is easy to confuse with this because it also
+turns on a day count. It doesn't decide residency at all — see **Relief for work abroad** below.
+
 ## How to keep track
 
 1. The threshold is a stay of **at least 6 consecutive months**, measured as elapsed time from your arrival.
@@ -86,6 +92,26 @@ liable from the outset.
 Keep arrival and departure records establishing when a stay began, plus tenancy or ownership documents for any Danish
 home and evidence of what you were doing while in the country.
 
+## Relief for work abroad
+
+**Section 33A** — in Danish, **ligningslovens § 33 A** — is a relief that runs alongside the residency tests and is
+regularly mistaken for one, because it also turns on a day count. It doesn't decide whether you are a Danish tax
+resident. It assumes you already are, and reduces Danish tax on salary you earned while working abroad.
+
+- **What it means** — a relief for someone who stays fully liable to Danish tax but earns their salary working outside
+  Denmark, the Faroe Islands and Greenland. It applies to that employment income only, not to your residency status
+  and not to other income.
+- **Who can apply** — the stay abroad has to last at least **6 months**, and you can spend at most **42 days** in
+  Denmark within any 6-month period of it. Those 42 days cover holidays, time off, and work in Denmark directly
+  necessary to the foreign job. Broken days count as whole days. Since a 2023 change in case law the stay must also
+  have a genuine work reason behind it, rather than being incidental to living abroad.
+- **What it gives** — either full or half relief on the foreign salary. Which one applies turns on whether Denmark has
+  a double taxation agreement with the country you worked in, and whether that agreement leaves Denmark a taxing
+  right. Where you qualify under both this relief and a treaty, you can take whichever is better for you.
+
+Exceeding the 42 days costs you the relief for the whole stay, not just the excess. It also cannot be combined with
+the flat-rate expatriate scheme — income taxed under that scheme is outside this relief entirely.
+
 ## Edge cases
 
 - **A home changes the numbers entirely.** With accommodation available the limits drop to around 3 consecutive
@@ -96,8 +122,8 @@ home and evidence of what you were doing while in the country.
   vacations abroad does nothing to reset the 6-month period.
 - **A shorter presence can still be taxed, just not fully.** Danish-source income remains chargeable under limited
   liability even where neither route to full liability is met.
-- **A special expatriate regime exists for qualifying employees**, taxed at a flat rate for a limited period. It
-  affects how income is taxed rather than whether the residency tests are met.
+- **A flat-rate expatriate scheme exists for qualifying employees**, applying for a limited period. Like Section 33A,
+  it changes how income is taxed rather than whether the residency tests are met.
 
 ## If you get this rule wrong
 
@@ -124,6 +150,7 @@ good afterwards. The stay falls short of 6 months and no home was acquired, so f
 
 - [Skattestyrelsen — Tax liability](https://skat.dk/en-us/individuals/taxation-in-denmark/tax-liability)
 - [Skattestyrelsen — Danish Tax Agency](https://skat.dk/en-us)
+- [Skattestyrelsen — Cross-border tax matters](https://skat.dk/en-us/individuals/cross-border-tax-matters)
 
 ## FAQ
 
@@ -146,6 +173,12 @@ holidays, full liability can attach much sooner — around 3 consecutive months 
 
 Yes. Accommodation made available to you by an employer satisfies the residence limb in the same way as a home you
 rented or bought yourself.
+
+### Is the Section 33A 42-day rule the same as the 6-month residency test?
+
+No, and they answer different questions. The 6-month test decides whether you become a Danish tax resident. The 42-day
+limit belongs to Section 33A, a relief for people who already are Danish residents and work abroad — see **Section 33A
+relief for work abroad** above. Meeting or missing one says nothing about the other.
 
 ### What is the difference between full and limited tax liability?
 

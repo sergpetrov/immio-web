@@ -12,7 +12,7 @@ seo:
   title: Montenegro Tax Residency – 183-Day Rule | Immio
   description: >
     183 days in Montenegro in a tax year makes you tax resident. Domicile
-    there, or a centre of personal and economic interests, qualifies with no
+    there, or a center of personal and economic interests, qualifies with no
     day count at all.
 
 updatedAt: 2026-08-25
@@ -41,7 +41,7 @@ relatedContent:
 
 :::callout
 Spending **more than 183 days** in Montenegro in a **tax year** makes you a tax resident. Having your **domicile**
-there, or your **centre of personal and economic interests**, qualifies you instead — both with **no day count** at
+there, or your **center of personal and economic interests**, qualifies you instead — both with **no day count** at
 all. Meeting any 1 of the 3 is enough.
 :::
 
@@ -50,7 +50,7 @@ all. Meeting any 1 of the 3 is enough.
 | Threshold               |                         183 days |
 | Period / Window         |   Calendar year (1 Jan – 31 Dec) |
 | Counting                |                Any part of a day |
-| Alternative             |    Domicile, centre of interests |
+| Alternative             |    Domicile, center of interests |
 | Additional requirements | Assignment abroad for a resident |
 
 ## Understanding the rule
@@ -60,7 +60,7 @@ Montenegro applies 3 alternative tests, and meeting any one of them makes you re
 - **183-day rule** — presence in Montenegro for more than 183 days during the tax year, which runs with the calendar
   year.
 - **Domicile** — having your domicile in Montenegro, which turns on where you are settled rather than on a count.
-- **Centre of personal and economic interests** — where your life is anchored, judged on family, home, and the place
+- **Center of personal and economic interests** — where your life is anchored, judged on family, home, and the place
   your economic activity is based.
 
 The day test is the only one measured, and it runs against a fixed calendar year rather than a rolling window.
@@ -77,7 +77,7 @@ in their first partial year.
 3. The days **don't have to be consecutive**, so separate stays across the year add together.
 4. The window is a **calendar year** and resets on 1 January, so a stay spanning a year end is split between the
    2 years rather than measured across them.
-5. Track your ties separately from your days, since domicile and centre of interests both attach without any
+5. Track your ties separately from your days, since domicile and center of interests both attach without any
    threshold.
 
 Keep entry and exit records for each calendar year, plus evidence of where your home, family and economic activity
@@ -118,7 +118,7 @@ interests limb.
 ### A move that counts from the start
 
 You relocate to Podgorica in October with your spouse and children, enrol them in school, and run your business from
-there. Your first calendar year holds well under 183 days, but your centre of personal and economic interests is in
+there. Your first calendar year holds well under 183 days, but your center of personal and economic interests is in
 Montenegro, so you are resident regardless.
 
 ## Official sources
@@ -135,7 +135,7 @@ counts as a full day.
 
 ### Can I be resident without reaching 183 days?
 
-Yes. Having your domicile in Montenegro, or having your centre of personal and economic interests there, makes you
+Yes. Having your domicile in Montenegro, or having your center of personal and economic interests there, makes you
 resident with no day threshold involved.
 
 ### Does the count roll across a year end?
@@ -145,7 +145,7 @@ counted as one continuous period.
 
 ### Does buying property in Montenegro make me tax resident?
 
-Not on its own. Property can support a finding that your centre of interests is there, but ownership alone does not
+Not on its own. Property can support a finding that your center of interests is there, but ownership alone does not
 create residency.
 
 ### What does Montenegro tax a resident on?

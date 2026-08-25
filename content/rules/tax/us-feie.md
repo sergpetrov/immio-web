@@ -109,7 +109,7 @@ exactly that kind of proof.
   applied if the excluded amount were still in your total, so the first dollar over isn't taxed at the bottom rate.
 - **It only reaches earned income.** Pensions, annuities, dividends, interest, capital gains, and pay as a US
   government employee all sit outside it.
-- **A US abode blocks it however many days you spend abroad.** Keeping your economic, family and personal life centred
+- **A US abode blocks it however many days you spend abroad.** Keeping your economic, family and personal life centered
   in the US means no foreign tax home, and both routes then fail regardless of your day count.
 - **Revoking it locks you out for five years.** Getting back in inside that window generally needs IRS approval, so
   dropping the exclusion in one lean year has a long tail.

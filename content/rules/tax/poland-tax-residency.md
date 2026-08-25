@@ -12,7 +12,7 @@ seo:
   title: Poland Tax Residency – 183-Day Rule | Immio
   description: >
     More than 183 days in Poland in a calendar year can make you a tax resident.
-    The centre of vital interests test needs no day count and often matters
+    The center of vital interests test needs no day count and often matters
     more.
 
 updatedAt: 2026-08-13
@@ -62,7 +62,7 @@ You are a Polish tax resident for a calendar year if you meet either of two test
 The two tests carry different weight in practice. The day count is mechanical and easy to evidence, but in disputed or
 borderline cases Polish tax authorities and administrative courts have repeatedly leaned on the center-of-vital-
 interests test instead. Someone who narrowly avoids 183 days can still be found resident if their personal and
-economic life is clearly centred in Poland.
+economic life is clearly centered in Poland.
 
 Meeting either test makes you a Polish tax resident for the year, taxed on worldwide income. Falling short of both
 makes you a nonresident, generally taxed only on Polish-source income.
@@ -105,7 +105,7 @@ days, making you a Polish tax resident despite never staying the night.
 
 You take an overseas assignment and spend only 90 days in Poland this year, but your spouse and children stay in your
 Kraków home, and you keep managing a Polish business remotely. You fall well short of the 183-day test, but the
-center-of-vital-interests test still makes you a Polish tax resident based on where your life is actually centred.
+center-of-vital-interests test still makes you a Polish tax resident based on where your life is actually centered.
 
 ## Official sources
 

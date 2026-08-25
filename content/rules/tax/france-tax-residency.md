@@ -65,7 +65,7 @@ You are a French tax resident for a calendar year if you meet any one of these c
   present most, with more than six months in France taken as the usual guide.
 - **Professional activity** — you carry out a job or a business in France, unless you can show that the activity there
   is only ancillary. What decides it is where you spend the most working time, not where the most income arises.
-- **Centre of economic interests** — France is where your main investments sit, where your business is based, or where
+- **Center of economic interests** — France is where your main investments sit, where your business is based, or where
   your assets are administered. Where income comes from several countries, the largest share points the way.
 
 Meeting any one criterion makes you a French tax resident, taxed on worldwide income. Falling short of all of them
@@ -120,7 +120,7 @@ despite being well under six months.
 ### Working abroad while the money stays in France
 
 You take a job overseas, spend under 30 days a year in France and keep no home there, but most of your income comes
-from a French business you own and a French rental portfolio. The centre-of-economic-interests criterion alone can
+from a French business you own and a French rental portfolio. The center-of-economic-interests criterion alone can
 still make you a French tax resident.
 
 ## Official sources

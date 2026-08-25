@@ -12,7 +12,7 @@ seo:
   title: Indonesia Tax Residency – 183-Day Rule | Immio
   description: >
     More than 183 days in Indonesia in any rolling 12-month period can make you
-    a tax resident. Residing there — your centre of activity — settles it too.
+    a tax resident. Residing there — your center of activity — settles it too.
 
 updatedAt: 2026-08-13
 
@@ -115,7 +115,7 @@ permit signalling intention, none of the three routes is met, so you stay a fore
 
 You buy an apartment in Jakarta that stays available to you year-round and run your consulting business from it, while
 being physically in Indonesia for only 90 days this year. The day count falls far short, but a home you can use at any
-time and your main centre of activity in Indonesia meet the residence route on their own.
+time and your main center of activity in Indonesia meet the residence route on their own.
 
 ## Official sources
 
@@ -132,7 +132,7 @@ intention of living there, each makes you a resident on their own, with no minim
 ### What does "residing in Indonesia" actually mean?
 
 Any one of three things. Having a place in Indonesia you control and can use at any time, that isn't just a stopover.
-Having your main centre of personal, social, economic, or financial activity there. Or carrying on your everyday habits
+Having your main center of personal, social, economic, or financial activity there. Or carrying on your everyday habits
 and activities there.
 
 ### How do I prove that I intend to live in Indonesia?

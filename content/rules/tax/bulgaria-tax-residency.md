@@ -12,7 +12,7 @@ seo:
   title: Bulgaria Tax Residency – 183-Day Rule | Immio
   description: >
     More than 183 days in Bulgaria across any 12-month period makes you tax
-    resident for that calendar year. A centre of vital interests there
+    resident for that calendar year. A center of vital interests there
     qualifies with no day count.
 
 updatedAt: 2026-08-25
@@ -40,7 +40,7 @@ relatedContent:
 
 :::callout
 Spending **more than 183 days** in Bulgaria across **any 12-month** period makes you a tax resident, counted from the
-calendar year in which you passed day 183. A **centre of vital interests** there qualifies you instead, with **no day
+calendar year in which you passed day 183. A **center of vital interests** there qualifies you instead, with **no day
 count** at all.
 :::
 
@@ -49,7 +49,7 @@ count** at all.
 | Threshold               |                       183 days |
 | Period / Window         |              Rolling 12 months |
 | Counting                |              Any part of a day |
-| Alternative             | Centre of vital interests test |
+| Alternative             | Center of vital interests test |
 | Additional requirements |    Permanent address with ties |
 
 ## Understanding the rule
@@ -60,12 +60,12 @@ The **183-day rule** measures presence across a 12-month period rather than a fi
 it produces attaches to the calendar year in which you passed the threshold. Those 2 things are easy to conflate: a
 rolling measurement producing a calendar-year status.
 
-The **centre of vital interests** is the second route, and it needs no days at all. It looks at where your personal
+The **center of vital interests** is the second route, and it needs no days at all. It looks at where your personal
 and economic life is anchored — family, property, the place you work from or run a business, the place you manage your
 assets from. Someone whose life is plainly based in Bulgaria can be resident on a very low day count.
 
 A **permanent address** in Bulgaria is often assumed to be a third route. It is not, on its own. An address only makes
-you resident where your centre of vital interests is also in the country, so registering one changes nothing by
+you resident where your center of vital interests is also in the country, so registering one changes nothing by
 itself.
 
 ## How to keep track
@@ -88,7 +88,7 @@ sits if you may fall on the vital-interests limb.
 - **The rolling window and the calendar year do different jobs.** The count runs across any 12 months, but the
   resulting status lands in the calendar year the threshold was crossed in.
 - **A permanent address alone doesn't make you resident.** Registering an address in Bulgaria only matters where your
-  centre of vital interests is there too, so it isn't a shortcut on its own.
+  center of vital interests is there too, so it isn't a shortcut on its own.
 - **You can be resident on a low day count.** Where family, property and business all sit in Bulgaria, the
   vital-interests limb can attach even to someone who spends most of the year elsewhere.
 - **A tax residency certificate is issued on evidence, not on request.** The National Revenue Agency treats the day
@@ -110,7 +110,7 @@ own, but the rolling 12-month window does, and you become resident for the calen
 ### Ties that decide it without the days
 
 You spend about 120 days a year in Bulgaria, but your spouse and children live there, you own the family home, and you
-run your business from it. The day count falls short, yet the centre of vital interests makes you resident.
+run your business from it. The day count falls short, yet the center of vital interests makes you resident.
 
 ### An address that changes nothing
 
@@ -136,12 +136,12 @@ as days of stay.
 
 ### Does a permanent address in Bulgaria make me tax resident?
 
-Not on its own. An address only counts where your centre of vital interests is also in Bulgaria, so registering one
+Not on its own. An address only counts where your center of vital interests is also in Bulgaria, so registering one
 without moving your life there changes nothing.
 
 ### Can I be resident without reaching 183 days?
 
-Yes. If your centre of vital interests is in Bulgaria — judged on family, property, and where you work from or manage
+Yes. If your center of vital interests is in Bulgaria — judged on family, property, and where you work from or manage
 your assets — you can be resident on a much lower day count.
 
 ### What does Bulgaria tax a resident on?

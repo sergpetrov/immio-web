@@ -12,7 +12,7 @@ seo:
   title: Serbia Tax Residency – 183-Day Rule | Immio
   description: >
     183 days in Serbia across any 12 months beginning or ending in the tax
-    year makes you tax resident. Transit time doesn't count, and a centre of
+    year makes you tax resident. Transit time doesn't count, and a center of
     interests qualifies with no days.
 
 updatedAt: 2026-08-25
@@ -41,7 +41,7 @@ relatedContent:
 
 :::callout
 Staying **183 days or more** in Serbia across **any 12 months** beginning or ending in the tax year makes you a tax
-resident, whether the days run together or not. A **centre of business and vital interests** there qualifies you
+resident, whether the days run together or not. A **center of business and vital interests** there qualifies you
 instead, with **no day count**. Time spent in transit doesn't count.
 :::
 
@@ -50,7 +50,7 @@ instead, with **no day count**. Time spent in transit doesn't count.
 | Threshold               |                             183 days |
 | Period / Window         |                    Rolling 12 months |
 | Counting                |                    Any part of a day |
-| Alternative             | Residence, centre of vital interests |
+| Alternative             | Residence, center of vital interests |
 | Additional requirements |                Transit time excluded |
 
 ## Understanding the rule
@@ -60,7 +60,7 @@ You are a Serbian tax resident if any of these apply:
 - **183-day rule** — presence in Serbia for 183 days or more, continuously or with breaks, across a 12-month period
   that begins or ends in the tax year being assessed.
 - **Residence** — having your residence in Serbia, judged on your circumstances rather than a count.
-- **Centre of business and vital interests** — where your personal and economic life is anchored. This covers your
+- **Center of business and vital interests** — where your personal and economic life is anchored. This covers your
   primary home, your family, and your principal business activity.
 
 The window is unusual in shape. It doesn't simply roll, and it isn't simply the calendar year — it is any 12-month
@@ -77,7 +77,7 @@ which matters for anyone routing regularly through Belgrade.
 3. The days **don't need to be continuous** — separate stays across the window add together.
 4. Because the window can begin or end in the tax year, check stretches running both forward from and backward into
    the year rather than only one direction.
-5. Track your ties as well as your days, since the centre-of-interests limb can attach on a low count.
+5. Track your ties as well as your days, since the center-of-interests limb can attach on a low count.
 
 Keep entry and exit records across at least 2 tax years, along with evidence distinguishing transit from actual stays,
 and documentation of where your home, family and business sit.
@@ -89,7 +89,7 @@ and documentation of where your home, family and business sit.
 - **The window can be anchored at either end.** A 12-month stretch beginning in the tax year and one ending in it are
   both valid, which gives a single long stay 2 chances to create residency.
 - **Ties can make you resident on very few days.** Where the family home and the business are both in Serbia, the
-  centre-of-interests limb can attach even to someone mostly abroad.
+  center-of-interests limb can attach even to someone mostly abroad.
 - **Serbia taxes residents on worldwide income**, including income from foreign clients paid into foreign accounts,
   which regularly catches remote workers who assumed a foreign payer meant a foreign charge.
 - **A residence permit is not a tax residency test.** Immigration status and tax status are decided separately, and
@@ -135,7 +135,7 @@ transit is not counted.
 
 ### Can I be resident without reaching 183 days?
 
-Yes. Having your residence in Serbia, or having your centre of business and vital interests there, makes you resident
+Yes. Having your residence in Serbia, or having your center of business and vital interests there, makes you resident
 with no day threshold at all.
 
 ### Does a Serbian residence permit make me tax resident?

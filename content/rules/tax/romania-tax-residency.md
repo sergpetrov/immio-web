@@ -43,7 +43,7 @@ relatedContent:
 
 :::callout
 Being in Romania for **more than 183 days** across **any 12 consecutive months** ending in the calendar year makes you
-a tax resident. A **centre of vital interests** there qualifies you instead, with **no day count**. Crossing the
+a tax resident. A **center of vital interests** there qualifies you instead, with **no day count**. Crossing the
 threshold brings a filing duty within **30 days**.
 :::
 
@@ -52,7 +52,7 @@ threshold brings a filing duty within **30 days**.
 | Threshold               |                       183 days |
 | Period / Window         |              Rolling 12 months |
 | Counting                |              Any part of a day |
-| Alternative             | Centre of vital interests test |
+| Alternative             | Center of vital interests test |
 | Additional requirements |   Questionnaire within 30 days |
 
 ## Understanding the rule
@@ -61,7 +61,7 @@ You are a Romanian tax resident if you meet any of several conditions, of which 
 
 - **183-day rule** — presence in Romania totalling more than 183 days across any period of 12 consecutive months that
   ends in the calendar year concerned. The periods don't have to be continuous.
-- **Centre of vital interests** — where your personal and economic ties are strongest. Someone who demonstrates this
+- **Center of vital interests** — where your personal and economic ties are strongest. Someone who demonstrates this
   is treated as Romanian resident from the date they formally declare it.
 
 Domicile in Romania, and being a Romanian citizen working abroad for the state, are further routes that catch narrower
@@ -91,7 +91,7 @@ authority's response, since that document is what fixes your status on the recor
   rolling stretch from producing residency in a year it barely touches.
 - **The questionnaire is a duty, not a formality.** It is due within 30 days of crossing the threshold, and the
   authority issues a decision on your status in response rather than simply filing it.
-- **Declaring a centre of vital interests fixes a start date.** Residency on that limb runs from the date you formally
+- **Declaring a center of vital interests fixes a start date.** Residency on that limb runs from the date you formally
   declare it, so the declaration itself determines when the charge begins.
 - **Leaving Romania has its own procedure.** Someone ending Romanian residency files a departure questionnaire, and
   the authority decides whether the status actually ends rather than it lapsing automatically.
@@ -117,7 +117,7 @@ total more than 183 days in a window ending in the calendar year, so the thresho
 ### Ties declared without the days
 
 You spend around 100 days in Romania but your family home, your children's school and your business are all there. You
-declare your centre of vital interests, and residency runs from the date of that declaration rather than from a day
+declare your center of vital interests, and residency runs from the date of that declaration rather than from a day
 count.
 
 ## Official sources
@@ -145,7 +145,7 @@ Romanian residency is registered, and the authority issues a decision on your st
 
 ### Can I be resident without reaching 183 days?
 
-Yes. If your centre of vital interests is in Romania, you are treated as resident from the date you formally declare
+Yes. If your center of vital interests is in Romania, you are treated as resident from the date you formally declare
 it, with no day threshold involved.
 
 ### Does Romanian residency end automatically when I leave?

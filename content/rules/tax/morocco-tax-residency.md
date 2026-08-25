@@ -12,7 +12,7 @@ seo:
   title: Morocco Tax Residency – 183-Day Rule | Immio
   description: >
     More than 183 days in Morocco across any rolling 365-day period can make you
-    a tax resident. A permanent home or centre of economic interests qualifies
+    a tax resident. A permanent home or center of economic interests qualifies
     too.
 
 updatedAt: 2026-08-13

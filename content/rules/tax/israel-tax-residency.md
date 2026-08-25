@@ -12,7 +12,7 @@ seo:
   title: Israel Tax Residency – 183-Day Rule | Immio
   description: >
     183 days in Israel in a tax year, or 30 days plus 425 over three, presumes
-    tax residency. Your centre of life is the real test, and can rebut the days.
+    tax residency. Your center of life is the real test, and can rebut the days.
 
 updatedAt: 2026-08-13
 
@@ -94,7 +94,7 @@ family, work and economic interests sit too, since that is what decides a rebutt
 ## Edge cases
 
 - **A low day count settles nothing.** Someone who is rarely in Israel can still be resident if their home, family and
-  economic life are centred there, because the center-of-life test applies regardless of the presumptions.
+  economic life are centered there, because the center-of-life test applies regardless of the presumptions.
 - **Ending Israeli residency is its own event.** Ceasing to be a resident can be treated as a deemed sale of your assets
   when residency ends, so the exit itself is taxed rather than the departure being a clean break.
 - **A newer relief covers Israeli-source work income.** People arriving in 2026 after a long period abroad get a

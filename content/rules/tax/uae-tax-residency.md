@@ -86,7 +86,7 @@ Certificate.
   your ability to claim a tax treaty and how UAE business income is treated for Corporate Tax.
 - **A Tax Residency Certificate isn't automatic.** Meeting a route isn't the same as holding a certificate — you still
   need to apply, with supporting evidence like travel and accommodation records.
-- **The centre-of-interests route needs no day count at all.** Someone who is rarely physically present can still
+- **The center-of-interests route needs no day count at all.** Someone who is rarely physically present can still
   qualify if their home and main ties are genuinely in the UAE.
 
 ## If you get this rule wrong
@@ -104,8 +104,8 @@ to weigh. You clear the 183-day threshold comfortably, so you qualify as a UAE t
 
 You hold a UAE residence permit, rent a UAE apartment year-round, and run your business from Dubai, but you only spend
 70 days physically in the UAE this year — split across long trips elsewhere. You fall short of both the 90-day and
-183-day routes, but your usual home and the centre of your financial and personal interests are still in the UAE, so you
-qualify under the centre-of-interests route instead.
+183-day routes, but your usual home and the center of your financial and personal interests are still in the UAE, so you
+qualify under the center-of-interests route instead.
 
 ### Meeting the day count but missing the extra conditions
 
@@ -128,7 +128,7 @@ tax, on income from other countries. It can also affect how UAE-sourced business
 ### Do I need to spend 183 days in the UAE to be a tax resident?
 
 No. That's the most common route, but you can also qualify with just **90 days** if you meet nationality and home/work
-conditions, or with no day count at all if your centre of financial and personal interests is genuinely in the UAE.
+conditions, or with no day count at all if your center of financial and personal interests is genuinely in the UAE.
 
 ### Do I need a UAE residence visa to qualify under the 183-day route?
 

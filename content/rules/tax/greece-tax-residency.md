@@ -53,7 +53,7 @@ qualify you.
 | Threshold       |                                             183 days |
 | Period / Window |                                    Rolling 12 months |
 | Counting        |                                    Any part of a day |
-| Alternative     | Home, habitual abode, centre of vital interests test |
+| Alternative     | Home, habitual abode, center of vital interests test |
 
 ## Understanding the rule
 
@@ -92,7 +92,7 @@ deed, utility bills, employment or business records, and school registrations.
 - **The window rolls across the year-end.** A stay split either side of New Year can pass 183 days in a rolling twelve
   months while neither calendar year comes close.
 - **Vital interests are judged on the whole picture.** Greek courts weigh personal, economic and social connections
-  together, so a modest day count can still be outweighed by where your life is actually centred.
+  together, so a modest day count can still be outweighed by where your life is actually centered.
 - **A purely private stay is protected for up to a year.** Time in Greece exclusively for tourism, medical or
   therapeutic reasons doesn't trigger the day count while the visit remains inside 365 days.
 - **A non-dom regime can cap tax on foreign income for wealthy new residents.** It swaps tax on foreign-source income
@@ -123,7 +123,7 @@ resident.
 
 You take an overseas contract and spend only 60 days a year in Greece, while your spouse and children stay in the
 family home in Thessaloniki and your main business keeps running there. The day count is nowhere near the threshold,
-yet your centre of vital interests alone makes you a Greek tax resident.
+yet your center of vital interests alone makes you a Greek tax resident.
 
 ## Official sources
 
@@ -135,7 +135,7 @@ yet your centre of vital interests alone makes you a Greek tax resident.
 
 ### Is Greek tax residency just a 183-day rule?
 
-No. Your permanent or main home, your habitual abode, and your centre of vital interests each make you resident on
+No. Your permanent or main home, your habitual abode, and your center of vital interests each make you resident on
 their own, whatever your day count. The day count itself uses any rolling twelve-month period rather than the calendar
 year, which catches more people than expected.
 

@@ -43,7 +43,7 @@ location is purely organizational — routing, categorization, and display all c
 frontmatter (`id`, `category`, `place`), never from the file path.
 
 **When asked to fill a gap in day-count-rule coverage, exclude countries whose residency test has
-no day threshold at all** — Belgium's domicile/centre-of-economic-interests test and Mexico's
+no day threshold at all** — Belgium's domicile/center-of-economic-interests test and Mexico's
 vital-interests test are the reference cases. A rule built entirely from a "Threshold" table row
 and a callout that leads with a day figure doesn't work for a country where no day figure is the
 actual trigger; forcing one in produces a misleading article rather than a useful one. These belong

@@ -2,7 +2,7 @@
 id: sweden-tax-residency
 
 title: Sweden Tax Residency (6-month habitual stay rule)
-subtitle: 6 consecutive months ∙ Essential connection ∙ Residence
+subtitle: 6 consecutive months ∙ Residence, essential connection
 
 category: tax
 
@@ -41,7 +41,7 @@ relatedContent:
 
 :::callout
 Staying in Sweden for **6 consecutive months** creates a **habitual stay** and makes you liable to Swedish tax on
-worldwide income. Short trips out **don't shorten** that period. Living there, or keeping an **essential connection**
+worldwide income. Short trips out **don't shorten** that period. **Living** there, or keeping an **essential connection**
 after leaving, qualifies separately with **no day count**.
 :::
 
@@ -63,7 +63,7 @@ Sweden reaches unlimited tax liability by 3 alternative routes, and only one of 
 - **Essential connection** — retaining significant ties after moving away, such as a home, family, or substantial
   assets still in Sweden.
 
-Sweden's day rule is unusual in shape. Most countries count days and reset annually. Sweden measures a continuous
+Sweden's day rule is unusual. Most countries count days and reset annually. Sweden measures a continuous
 period, which means a stay is assessed by when it started and ended rather than by adding up the days inside it.
 
 The essential connection limb is the one that catches people leaving. Moving abroad does not end Swedish liability by
@@ -80,7 +80,7 @@ This is due to change. A government proposal would replace the 6-month test with
 2. **Short absences don't break the period.** Trips out for holidays or to visit your home country leave the stay
    running rather than restarting it.
 3. There is no calendar-year reset. The stay is assessed as a continuous stretch, so a period beginning in autumn runs
-   straight through the year end.
+   straight through the year-end.
 4. Track your **ties** as well as your time — a Swedish home, family remaining there, or significant assets can create
    liability with no stay at all.
 5. If you are leaving Sweden, the relevant question becomes what you left behind rather than how few days you now

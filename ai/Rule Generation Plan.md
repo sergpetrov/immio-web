@@ -300,6 +300,13 @@ carry `Rolling` into the callout, and don't carry `any 12-month` into the table.
 January". Plenty of these rules run on a tax year that doesn't start in January, and naming the
 month makes the sentence wrong for them.
 
+**Tax callouts hedge the day-count outcome with `can make you`, never `makes you`.** Crossing the
+threshold *can* make someone resident; other tests, treaties, and carve-outs still apply. Write
+`can make you a tax resident`, `can make you resident`, or `can make you fully liable`. Sweep the
+`:::callout` only — body, FAQ, and examples may still state the legal test more directly. If a
+callout already uses `may trigger` or similar, leave it; don't stack `can` onto a hedge that's
+already there.
+
 **Vary the opening.** The corpus opens on a bare threshold (`**More than 183 days** in...`), a
 gerund (`Spending`, `Staying`, `Being`), or the subject itself (`The **Substantial Presence
 Test** needs...`). Pick whichever fits the rule; don't let consecutive articles share a stem.
@@ -945,8 +952,8 @@ place: {a two-letter lowercase country code, or a descriptive slug for a
 seo:
   title: {see section 18}
   description: >
-    {2–3 sentence description — this is now the ONLY description field on the
-    article, see below}
+    {2–3 sentence description, 140–220 characters after YAML whitespace
+    folds — this is now the ONLY description field on the article, see below}
 
 updatedAt: YYYY-MM-DD
 
@@ -972,6 +979,14 @@ independently: the page's JSON-LD `Article.description` (built in `seo.ts`) and 
 search index (`CountriesPage.tsx`). Both were repointed to read `frontmatter.seo.description`
 instead, so `seo.description` is now the single source of descriptive text — write it to do both
 jobs (a good search-result snippet and a good search-index match).
+
+**Length is enforced at build time** by `scripts/validate-content.mjs`: after collapsing YAML
+folded-scalar whitespace, `seo.description` must be **140–220 characters**, and `seo.title` must
+be **≤ 70 characters** (Google's safe display width is ~60; overflow on `| Immio` is acceptable).
+A hyphenated word split across two lines of a folded scalar comes back as `"tax- home"` and also
+fails validation — wrap with break-on-hyphens disabled. A description that only restates the
+callout's first sentence often lands under 140; add the window (e.g. `1 July–30 June`) or a
+counting detail (`any part of a day counts`) rather than padding.
 
 **`relatedContent` is live again** (it was dormant for a period, and an earlier version of this
 document said not to use it). It is rendered by
@@ -1072,18 +1087,36 @@ the web.
 
 Two things to know before editing that file:
 
-**1. Preserve `(not tracked here yet)`.** Some app strings carry that parenthetical to mark a route
-the tracker does not yet implement — Singapore's 2-year employment route, Puerto Rico's 549-day
-alternative, Hong Kong's 300-day route, India's 60-day-plus-history test, Israel's 30+425 test. It is
-app state, not web content, so it exists **only** in the XML and must survive a sync. Drop it only
-when the app actually starts tracking that route.
+**1. Mark untracked additional routes with `(not tracked here yet)`.** The parenthetical is app
+state, not web content — it exists **only** in the XML and must survive a sync. Drop it only when
+the app actually starts tracking that route.
+
+The source of truth for *which* tax routes are untracked is
+`<app repo>/tracker/tracker_rules_config.csv`: any **Additional Requirement** cell that starts with
+`!!` is not implemented in the tracker. Place the marker immediately after the clause in the
+overview string that describes that route — same pattern as Singapore's 2-year employment route,
+Puerto Rico's and the USVI's 549-day alternatives, Hong Kong's 300-day route, India's
+60-day-plus-history test, and Israel's 30+425 test. Later `!!` rows (Ireland's 280-day/2-year test,
+Kenya's 122-day/3-year average, Mauritius's 270-day/3-year test, Denmark's shorter home-based
+limits, New Zealand's 325-day cessation test) follow the same attachment.
+
+The web callout should already mention that route, so stripping the parenthetical leaves XML and
+web identical. If the `!!` route is missing from the callout, add a short mention there first,
+then tag it in XML — don't invent a sentence that exists only in the app.
 
 **2. The string names do not match rule IDs one-for-one.** Most are the ID with underscores, but
 eleven differ — `australia_residency`, `canada_residency`, `india_tourist_visa`,
 `italy_residence_permit`, `puerto_rico_act60_residency`, `schengen`, `thailand_visa_exemption`,
 `uk_ilr`, `uk_srt`, `us_citizenship`, `us_spt`. Map by meaning, not by string similarity.
 
-The file is **not under version control** — back it up before a scripted edit.
+The file is **not under version control** — back it up before a scripted edit. **Never put the
+backup inside `composeResources/values/`.** Compose Multiplatform scans every file in that folder;
+a `trackers.xml.bak-*` there fails the build with `Unknown resource type: 'values'`. Copy the
+backup to `/tmp` or a folder outside `composeResources`.
+
+**Per-visit tax limits (app form, not the callout).** When the tracker's period is `PerEntry`,
+`TaxTrackerForm` suffixes the day unit with the `per_visit` string so the row reads **Stay under
+X days per visit**. Don't add "per visit" to the web callout just to match that label.
 
 To check for drift, strip the Markdown from each callout (`**` and `[text](url)` → `text`), collapse
 whitespace, remove the `(not tracked here yet)` inserts, and compare against the XML strings. A rule
@@ -1097,7 +1130,8 @@ Optimize naturally — no keyword stuffing. The page should clearly target the n
 variants for its country and rule (the rule's proper test name, its day-threshold shorthand, and
 generic "{country} {rule category} residency/rules" phrasing), used naturally across the H1,
 introduction, H2s, body content, FAQ questions, `seo.title`, and `seo.description`. The page should
-answer search intent, not just repeat keywords.
+answer search intent, not just repeat keywords. Keep `seo.description` inside the 140–220 character
+band in section 19 — `npm run build` fails below 140.
 
 ---
 
@@ -1241,8 +1275,12 @@ After any batch content or schema change across multiple articles:
    table alignment found six ragged tables nobody had asked about. The grep costs seconds and the
    article you didn't check is the one that stays wrong.
 5. **If a callout changed, sync `trackers.xml` in the app repo** (section 19b), preserving any
-   `(not tracked here yet)` markers.
-6. **After adding a page, confirm it is reachable from pages that already shipped.**
+   `(not tracked here yet)` markers, adding the marker on any tax overview whose CSV additional
+   requirement is prefixed `!!`, and never leaving a backup file in `composeResources/values/`.
+6. **After a callout phrasing change (e.g. `makes you` → `can make you`), grep every tax
+   `:::callout` — not the rest of the article — and confirm the XML overviews match once markers
+   are stripped.**
+7. **After adding a page, confirm it is reachable from pages that already shipped.**
 
    ```bash
    npm run check:new-rule-links

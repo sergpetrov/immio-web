@@ -2,7 +2,7 @@
 id: mauritius-tax-residency
 
 title: Mauritius Tax Residency (183-day and 270-day rules)
-subtitle: 183 days ∙ Income year 1 Jul – 30 Jun ∙ 270 days over 3 years
+subtitle: 183 days ∙ Stars Jul 1
 
 category: tax
 

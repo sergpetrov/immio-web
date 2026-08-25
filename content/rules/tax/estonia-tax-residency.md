@@ -2,14 +2,14 @@
 id: estonia-tax-residency
 
 title: Estonia Tax Residency (183-day rule)
-subtitle: 183 days ∙ Rolling 12 months ∙ Place of residence
+subtitle: 183 days ∙ Rolling 12 months
 
 category: tax
 
 place: ee
 
 seo:
-  title: Estonia Tax Residency – The 183-Day Rule | Immio
+  title: Estonia Tax Residency – 183-Day Rule | Immio
   description: >
     183 days in Estonia across any 12 consecutive calendar months makes you
     tax resident, backdated to your first day. A place of residence there

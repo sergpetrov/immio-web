@@ -32,7 +32,7 @@ relatedContent:
   - us-feie
   - us-virgin-islands-tax-residency
   - uae-tax-residency
-  - saint-vincent-tax-residency
+  - saint-vincent-grenadines-tax-residency
   - monaco-tax-residency
 
 ---

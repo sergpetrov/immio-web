@@ -2,14 +2,14 @@
 id: serbia-tax-residency
 
 title: Serbia Tax Residency (183-day rule)
-subtitle: 183 days ∙ Rolling 12 months ∙ Centre of business interests
+subtitle: 183 days ∙ Rolling 12 months
 
 category: tax
 
 place: rs
 
 seo:
-  title: Serbia Tax Residency – The 183-Day Rule | Immio
+  title: Serbia Tax Residency – 183-Day Rule | Immio
   description: >
     183 days in Serbia across any 12 months beginning or ending in the tax
     year makes you tax resident. Transit time doesn't count, and a centre of
@@ -49,7 +49,7 @@ instead, with **no day count**. Time spent in transit doesn't count.
 |:------------------------|-------------------------------------:|
 | Threshold               |                             183 days |
 | Period / Window         |                    Rolling 12 months |
-| Counting                |  Any part of a day, transit excluded |
+| Counting                |                    Any part of a day |
 | Alternative             | Residence, centre of vital interests |
 | Additional requirements |                Transit time excluded |
 

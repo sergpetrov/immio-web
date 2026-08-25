@@ -2,7 +2,7 @@
 id: malaysia-tax-residency
 
 title: Malaysia Tax Residency (182-day and 90-day rules)
-subtitle: 182 days ∙ Starts Jan 1 ∙ 90-day and linked-period tests
+subtitle: 182 days ∙ Starts Jan 1
 
 category: tax
 

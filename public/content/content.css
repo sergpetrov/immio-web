@@ -582,6 +582,7 @@ html.is-inapp .content-app-cta {
   color: var(--content-text);
   font-size: 1.3rem;
   font-weight: 550;
+  line-height: 1.1em;
 }
 
 .content-country-card__count {

@@ -2,14 +2,14 @@
 id: denmark-tax-residency
 
 title: Denmark Tax Residency (6-month rule)
-subtitle: 6 consecutive months ∙ Continuous stay ∙ Home test
+subtitle: 6 consecutive months ∙ Home test
 
 category: tax
 
 place: dk
 
 seo:
-  title: Denmark Tax Residency – The 6-Month Rule | Immio
+  title: Denmark Tax Residency – 6-Month Rule | Immio
   description: >
     6 consecutive months in Denmark creates full tax liability, and holiday
     trips out don't break the period. Taking a home there brings you into
@@ -82,7 +82,7 @@ turns on a day count. It doesn't decide residency at all — see **Relief for wo
 1. The threshold is a stay of **at least 6 consecutive months**, measured as elapsed time from your arrival.
 2. **Holiday absences don't break the period.** Short trips abroad leave the stay running rather than restarting it.
 3. There is no calendar-year reset. The period is assessed as one continuous stretch, so a stay beginning in autumn
-   runs straight through the year end.
+   runs straight through the year-end.
 4. Establish first whether a **home** is available to you in Denmark. With one, you can stay around **3 months**
    consecutively, or **180 days** within any 12 months, on holiday before full liability attaches — and any work at
    all triggers it regardless of the count.

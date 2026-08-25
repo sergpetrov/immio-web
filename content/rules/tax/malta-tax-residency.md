@@ -2,14 +2,14 @@
 id: malta-tax-residency
 
 title: Malta Tax Residency (183-day rule)
-subtitle: 183 days ∙ Starts Jan 1 ∙ Ordinary residence, domicile
+subtitle: 183 days ∙ Starts Jan 1 ∙ Ordinary residence test
 
 category: tax
 
 place: mt
 
 seo:
-  title: Malta Tax Residency – The 183-Day Rule | Immio
+  title: Malta Tax Residency – 183-Day Rule | Immio
   description: >
     More than 183 days in Malta in a calendar year makes you tax resident.
     Ordinary residence qualifies with no fixed day count, and domicile

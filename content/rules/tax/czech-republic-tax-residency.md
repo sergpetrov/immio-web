@@ -54,7 +54,7 @@ qualifies you instead, with **no day count** at all.
 | Period / Window         | Calendar year (1 Jan – 31 Dec) |
 | Counting                |              Any part of a day |
 | Alternative             |            Permanent home test |
-| Additional requirements | Study and treatment exclusion  |
+| Additional requirements |  Study and treatment exclusion |
 
 ## Understanding the rule
 

@@ -2,14 +2,14 @@
 id: montenegro-tax-residency
 
 title: Montenegro Tax Residency (183-day rule)
-subtitle: 183 days ∙ Starts Jan 1 ∙ Domicile, centre of interests
+subtitle: 183 days ∙ Starts Jan 1
 
 category: tax
 
 place: me
 
 seo:
-  title: Montenegro Tax Residency – The 183-Day Rule | Immio
+  title: Montenegro Tax Residency – 183-Day Rule | Immio
   description: >
     183 days in Montenegro in a tax year makes you tax resident. Domicile
     there, or a centre of personal and economic interests, qualifies with no

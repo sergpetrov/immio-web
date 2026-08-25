@@ -2,14 +2,14 @@
 id: romania-tax-residency
 
 title: Romania Tax Residency (183-day rule)
-subtitle: 183 days ∙ Rolling 12 months ∙ Centre of vital interests
+subtitle: 183 days ∙ Rolling 12 months
 
 category: tax
 
 place: ro
 
 seo:
-  title: Romania Tax Residency – The 183-Day Rule | Immio
+  title: Romania Tax Residency – 183-Day Rule | Immio
   description: >
     More than 183 days in Romania across any 12 consecutive months ending in
     the calendar year makes you tax resident. A questionnaire is due within

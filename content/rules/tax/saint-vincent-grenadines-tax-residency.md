@@ -1,15 +1,15 @@
 ---
-id: saint-vincent-tax-residency
+id: saint-vincent-grenadines-tax-residency
 
-title: Saint Vincent and the Grenadines Tax Residency (183-day rule)
-subtitle: 183 days ∙ Starts Jan 1 ∙ Territorial and remittance basis
+title: Saint Vincent & the Grenadines Tax Residency (183-day rule)
+subtitle: 183 days ∙ Starts Jan 1
 
 category: tax
 
 place: vc
 
 seo:
-  title: St Vincent Tax Residency – The 183-Day Rule | Immio
+  title: St Vincent & the Grenadines Tax Residency – 183-Day Rule | Immio
   description: >
     183 days in Saint Vincent and the Grenadines in a calendar year makes
     you tax resident, or a permanent home plus any presence. Residents not
@@ -34,7 +34,7 @@ relatedContent:
 
 ---
 
-# Saint Vincent and the Grenadines Tax Residency (183-day rule)
+# Saint Vincent & the Grenadines Tax Residency (183-day rule)
 
 ## Overview
 

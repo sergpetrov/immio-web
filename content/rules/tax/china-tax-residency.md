@@ -2,14 +2,14 @@
 id: china-tax-residency
 
 title: China Tax Residency (183-day rule)
-subtitle: 183 days ∙ Starts Jan 1 ∙ 6-year rule for foreign income
+subtitle: 183 days ∙ Starts Jan 1
 
 category: tax
 
 place: cn
 
 seo:
-  title: China Tax Residency – The 183-Day Rule | Immio
+  title: China Tax Residency – 183-Day Rule | Immio
   description: >
     183 days in China in a calendar year makes you tax resident. The 6-year
     rule decides when foreign income comes into charge, and 30 consecutive

@@ -2,14 +2,14 @@
 id: bulgaria-tax-residency
 
 title: Bulgaria Tax Residency (183-day rule)
-subtitle: 183 days ∙ Rolling 12 months ∙ Centre of vital interests
+subtitle: 183 days ∙ Rolling 12 months
 
 category: tax
 
 place: bg
 
 seo:
-  title: Bulgaria Tax Residency – The 183-Day Rule | Immio
+  title: Bulgaria Tax Residency – 183-Day Rule | Immio
   description: >
     More than 183 days in Bulgaria across any 12-month period makes you tax
     resident for that calendar year. A centre of vital interests there

@@ -2,14 +2,14 @@
 id: vietnam-tax-residency
 
 title: Vietnam Tax Residency (183-day rule)
-subtitle: 183 days ∙ Calendar year or 12 months from arrival ∙ Housing test
+subtitle: 183 days ∙ Starts Jan 1 or Rolling 12 months
 
 category: tax
 
 place: vn
 
 seo:
-  title: Vietnam Tax Residency – The 183-Day Rule | Immio
+  title: Vietnam Tax Residency – 183-Day Rule | Immio
   description: >
     183 days in Vietnam in a calendar year, or in the 12 months from your
     arrival, makes you tax resident. A lease of 183 days or more also
@@ -44,13 +44,13 @@ makes you a tax resident. A registered permanent address, or a **lease of 183 da
 with **no presence test** at all.
 :::
 
-| Key parameters          |                                         |
-|:------------------------|----------------------------------------:|
-| Threshold               |                                183 days |
-| Period / Window         | Calendar year or 12 months from arrival |
-| Counting                |                       Any part of a day |
-| Alternative             |    Permanent residence or 183-day lease |
-| Additional requirements |           Foreign residence certificate |
+| Key parameters          |                                                              |
+|:------------------------|-------------------------------------------------------------:|
+| Threshold               |                                                     183 days |
+| Period / Window         |                               Calendar year (1 Jan – 31 Dec) |
+| Counting                |                                            Any part of a day |
+| Alternative             | 183 days / any 12 months, permanent residence, 183-day lease |
+| Additional requirements |                                Foreign residence certificate |
 
 ## Understanding the rule
 
@@ -65,7 +65,7 @@ You are a Vietnamese tax resident if either of 2 conditions is met:
 
 The second window is what distinguishes Vietnam from most 183-day countries. A first-year arrival is measured across
 12 months from the arrival date rather than to 31 December, so someone landing in September is assessed to the
-following September rather than having their count cut short by the year end.
+following September rather than having their count cut short by the year-end.
 
 The housing test is easy to trip without noticing. Signing a year-long lease meets the 183-day accumulated term on its
 own, so the contract can establish residency even where the day count would not.

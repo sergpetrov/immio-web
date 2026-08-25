@@ -9,7 +9,7 @@ category: tax
 place: se
 
 seo:
-  title: Sweden Tax Residency – The 6-Month Habitual Stay Rule | Immio
+  title: Sweden Tax Residency – 6-Month Habitual Stay Rule | Immio
   description: >
     6 consecutive months in Sweden creates a habitual stay and unlimited tax
     liability. Short trips out don't shorten it, and an essential connection

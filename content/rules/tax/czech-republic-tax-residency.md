@@ -11,8 +11,9 @@ place: cz
 seo:
   title: Czech Republic Tax Residency – 183-Day Rule | Immio
   description: >
-    183 days in the Czech Republic in a calendar year makes you tax
-    resident. A permanent home there qualifies with no day count.
+    183 days in the Czech Republic in a calendar year can make you tax
+    resident. A permanent home there qualifies with no day count, and any
+    part of a day counts.
 
 updatedAt: 2026-08-25
 

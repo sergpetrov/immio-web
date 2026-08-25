@@ -11,8 +11,9 @@ place: mu
 seo:
   title: Mauritius Tax Residency – 183 & 270-Day Rules | Immio
   description: >
-    183 days in Mauritius in an income year makes you tax resident, or 270
-    days across 3 last years. Domicile qualifies with no day count.
+    183 days in Mauritius in an income year (1 July–30 June) can make you
+    tax resident, or 270 days across 3 last years. Domicile qualifies with
+    no day count.
 
 updatedAt: 2026-08-25
 

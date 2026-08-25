@@ -28,9 +28,9 @@ sources:
 relatedContent:
   - spain-tax-residency
   - italy-tax-residency
-  - greece-tax-residency
+  - malta-tax-residency
   - cyprus-tax-residency
-  - france-tax-residency
+  - uk-tax-residency-srt
   - uae-tax-residency
 
 ---

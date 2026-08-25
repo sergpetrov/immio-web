@@ -29,9 +29,9 @@ relatedContent:
   - italy-long-term-residence-permit
   - spain-tax-residency
   - portugal-tax-residency
-  - greece-tax-residency
   - france-tax-residency
-  - monaco-tax-residency
+  - switzerland-tax-residency
+  - uae-tax-residency
 
 ---
 

@@ -29,10 +29,11 @@ sources:
     type: official
 
 relatedContent:
-  - brazil-tax-residency
-  - chile-tax-residency
   - uruguay-tax-residency
+  - chile-tax-residency
+  - brazil-tax-residency
   - spain-tax-residency
+  - portugal-tax-residency
   - us-tax-residency-spt
 
 ---

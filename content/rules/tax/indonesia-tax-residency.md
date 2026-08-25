@@ -25,12 +25,12 @@ sources:
     type: official
 
 relatedContent:
-  - indonesia-visa
   - indonesia-business-visa
+  - indonesia-visa
   - thailand-tax-residency
+  - malaysia-tax-residency
   - singapore-tax-residency
-  - hong-kong-tax-residency
-  - india-tax-residency
+  - vietnam-tax-residency
 
 ---
 

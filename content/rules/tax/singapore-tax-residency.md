@@ -30,11 +30,11 @@ sources:
 
 relatedContent:
   - hong-kong-tax-residency
-  - indonesia-tax-residency
+  - malaysia-tax-residency
+  - uae-tax-residency
   - thailand-tax-residency
   - india-tax-residency
-  - uae-tax-residency
-  - australia-tax-residency
+  - indonesia-tax-residency
 
 ---
 

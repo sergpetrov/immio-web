@@ -26,11 +26,12 @@ sources:
     type: official
 
 relatedContent:
+  - kenya-tax-residency
+  - uae-tax-residency
   - morocco-tax-residency
   - uk-tax-residency-srt
-  - uae-tax-residency
+  - mauritius-tax-residency
   - us-tax-residency-spt
-  - canada-tax-residency
 
 ---
 

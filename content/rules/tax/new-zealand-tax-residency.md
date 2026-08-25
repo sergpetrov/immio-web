@@ -36,6 +36,7 @@ relatedContent:
   - singapore-tax-residency
   - uk-tax-residency-srt
   - canada-tax-residency
+  - us-tax-residency-spt
   - hong-kong-tax-residency
 
 ---

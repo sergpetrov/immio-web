@@ -26,11 +26,12 @@ sources:
     type: official
 
 relatedContent:
-  - chile-tax-residency
   - brazil-tax-residency
+  - chile-tax-residency
   - colombia-tax-residency
   - spain-tax-residency
   - portugal-tax-residency
+  - us-tax-residency-spt
 
 ---
 

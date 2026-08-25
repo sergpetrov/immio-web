@@ -29,11 +29,12 @@ sources:
     type: official
 
 relatedContent:
+  - switzerland-tax-residency
   - france-tax-residency
   - italy-tax-residency
   - uae-tax-residency
+  - malta-tax-residency
   - cyprus-tax-residency
-  - spain-tax-residency
 
 ---
 

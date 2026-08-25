@@ -31,9 +31,10 @@ sources:
 relatedContent:
   - cyprus-tax-residency
   - italy-tax-residency
-  - turkey-tax-residency
   - portugal-tax-residency
+  - malta-tax-residency
   - spain-tax-residency
+  - turkey-tax-residency
 
 ---
 
@@ -49,7 +50,7 @@ qualify you.
 
 | Key parameters  |                                                      |
 |:----------------|-----------------------------------------------------:|
-| Threshold       |                                   More than 183 days |
+| Threshold       |                                             183 days |
 | Period / Window |                                    Rolling 12 months |
 | Counting        |                                    Any part of a day |
 | Alternative     | Home, habitual abode, centre of vital interests test |

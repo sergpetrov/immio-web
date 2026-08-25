@@ -30,11 +30,11 @@ sources:
 
 relatedContent:
   - spain-tax-residency
-  - italy-tax-residency
-  - germany-tax-residency
-  - monaco-tax-residency
   - portugal-tax-residency
-  - uk-tax-residency-srt
+  - monaco-tax-residency
+  - italy-tax-residency
+  - switzerland-tax-residency
+  - uae-tax-residency
 
 ---
 

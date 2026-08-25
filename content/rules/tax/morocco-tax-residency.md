@@ -31,6 +31,7 @@ relatedContent:
   - france-tax-residency
   - nigeria-tax-residency
   - uae-tax-residency
+  - turkey-tax-residency
 
 ---
 

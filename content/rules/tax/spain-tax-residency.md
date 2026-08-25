@@ -30,8 +30,8 @@ relatedContent:
   - portugal-tax-residency
   - italy-tax-residency
   - france-tax-residency
-  - greece-tax-residency
   - cyprus-tax-residency
+  - uk-tax-residency-srt
 
 ---
 

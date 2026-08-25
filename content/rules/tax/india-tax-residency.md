@@ -32,9 +32,9 @@ relatedContent:
   - india-visa
   - uae-tax-residency
   - singapore-tax-residency
-  - thailand-tax-residency
+  - hong-kong-tax-residency
   - uk-tax-residency-srt
-  - us-tax-residency-spt
+  - malaysia-tax-residency
 
 ---
 

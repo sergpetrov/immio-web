@@ -612,13 +612,32 @@ residency* — filler, because Portugal has only two rules in their set. Two str
 with two arbitrary ones. The block is authored per rule for exactly this reason.
 
 **Order, in priority:**
-1. **Same jurisdiction, different category.** Highest intent overlap and the best conversion link.
-   Covers 31 of 54 rules — the other 23 are the only rule for their country.
-2. **Comparable jurisdiction, same category** — for those 23. Use real comparison sets, not
-   proximity: southern EU (PT/ES/IT/GR/CY), northern EU (DE/FR/NO/PL), zero-tax (AE/SA/MC),
-   Asia hubs (SG/HK), LatAm (BR/CL/CO/UY).
+1. **Same jurisdiction, different category — always first, no exceptions.** Highest intent overlap
+   and the best conversion link. For a country with a tax rule and also an immigration or travel
+   rule, the same-country pages lead the list before any other-country tax rule, however strong the
+   comparison. A reader on UK Statutory Residence Test sees UK Citizenship and UK ILR before Spain
+   or Portugal tax residency, full stop.
+2. **Comparable jurisdiction, same category** — for the rest of the list. Use real, evidenced
+   comparison sets and corridors, not proximity or same-region guessing. Region is a weak proxy for
+   what a reader is actually about to search next; migration and relocation data is a much better
+   one, and it's cheap to check with a couple of searches before committing a set. Examples found
+   this way, each backed by a specific figure rather than an assumption: Hong Kong → UK (170,000+
+   relocated via the BNO route since 2021) belongs alongside the Asia-hub comparison set, not
+   instead of it; mainland China's real settlement destinations are Canada, Australia and Singapore
+   by population, plus Malaysia specifically (52% of MM2H applicants since its 2024 relaunch are
+   mainland Chinese) — a plain "Asia region" set would have missed all four; Germany, France, Italy
+   and the UK each pair with UAE because Dubai absorbed roughly 414,000 new residents 2020–2024
+   with exactly those nationalities named as the largest cohorts. Old standby sets (southern EU,
+   northern EU, zero-tax, Asia hubs, LatAm) are a fine starting point but shouldn't be the final
+   answer — check whether an evidenced corridor beats a same-region guess before locking the list.
 3. **Dependency / next step** — US SPT → US FEIE → US green card.
-4. **Contrast** — Schengen 90/180 ↔ UK visitor visa, different counting models for one problem.
+4. **Contrast, within the same reader intent only** — Schengen 90/180 ↔ UK visitor visa is a valid
+   pairing because both answer "how long can I stay as a visitor." **Never pair a tax-residency
+   article with a travel/visitor day-limit article on the strength of both being day-count rules** —
+   Schengen 90/180 does not belong in a Spain or Portugal *tax* residency page's related list. The
+   reader checking how many days trigger tax residency is not the reader tracking a Schengen
+   visitor allowance, and the two thresholds measuring unrelated things under the same "days" label
+   invites exactly the tax/immigration conflation this plan bans elsewhere (section 23a).
 
 **Inbound coverage is the constraint people miss.** Outbound count is easy; what matters is that
 every rule appears in **2–3 other rules' related lists**. Without that, hub rules (US SPT, Schengen)

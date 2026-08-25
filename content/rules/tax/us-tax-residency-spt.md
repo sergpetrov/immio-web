@@ -31,12 +31,12 @@ sources:
     type: official
 
 relatedContent:
-  - us-feie
   - us-green-card
-  - us-b1b2-visa
-  - us-esta
-  - canada-tax-residency
+  - us-naturalization
+  - us-feie
   - puerto-rico-act60
+  - canada-tax-residency
+  - uae-tax-residency
 
 ---
 

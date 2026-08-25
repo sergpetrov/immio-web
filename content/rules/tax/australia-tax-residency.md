@@ -29,9 +29,9 @@ relatedContent:
   - australia-citizenship
   - australia-permanent-residency
   - new-zealand-tax-residency
-  - singapore-tax-residency
   - uk-tax-residency-srt
   - canada-tax-residency
+  - singapore-tax-residency
 
 ---
 

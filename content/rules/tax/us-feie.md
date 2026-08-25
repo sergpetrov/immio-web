@@ -32,11 +32,12 @@ sources:
     type: official
 
 relatedContent:
-  - us-tax-residency-spt
   - us-green-card
+  - us-naturalization
+  - us-b1b2-visa
+  - us-tax-residency-spt
   - puerto-rico-act60
   - uae-tax-residency
-  - portugal-tax-residency
 
 ---
 

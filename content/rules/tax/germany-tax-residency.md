@@ -29,11 +29,12 @@ sources:
     type: official
 
 relatedContent:
-  - poland-tax-residency
   - france-tax-residency
-  - norway-tax-residency
-  - spain-tax-residency
-  - portugal-tax-residency
+  - switzerland-tax-residency
+  - uae-tax-residency
+  - poland-tax-residency
+  - denmark-tax-residency
+  - uk-tax-residency-srt
 
 ---
 

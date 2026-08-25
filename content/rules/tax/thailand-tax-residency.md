@@ -28,10 +28,10 @@ sources:
 relatedContent:
   - thailand-visa
   - indonesia-tax-residency
+  - malaysia-tax-residency
   - singapore-tax-residency
+  - vietnam-tax-residency
   - hong-kong-tax-residency
-  - india-tax-residency
-  - uae-tax-residency
 
 ---
 

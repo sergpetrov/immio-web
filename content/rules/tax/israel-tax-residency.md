@@ -25,11 +25,12 @@ sources:
     type: official
 
 relatedContent:
+  - uae-tax-residency
   - cyprus-tax-residency
   - greece-tax-residency
-  - uae-tax-residency
   - uk-tax-residency-srt
   - us-tax-residency-spt
+  - malta-tax-residency
 
 ---
 

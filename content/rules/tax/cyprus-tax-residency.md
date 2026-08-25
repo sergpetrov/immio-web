@@ -26,12 +26,12 @@ sources:
     type: official
 
 relatedContent:
-  - greece-tax-residency
-  - turkey-tax-residency
-  - israel-tax-residency
-  - portugal-tax-residency
+  - malta-tax-residency
   - uae-tax-residency
-  - spain-tax-residency
+  - georgia-tax-residency
+  - greece-tax-residency
+  - portugal-tax-residency
+  - uk-tax-residency-srt
 
 ---
 

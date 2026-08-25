@@ -31,6 +31,7 @@ relatedContent:
   - canada-visitor-visa
   - us-tax-residency-spt
   - uk-tax-residency-srt
+  - uae-tax-residency
 
 ---
 

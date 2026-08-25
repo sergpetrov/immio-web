@@ -28,11 +28,12 @@ sources:
     type: official
 
 relatedContent:
-  - turkey-tax-residency
   - uae-tax-residency
   - cyprus-tax-residency
+  - estonia-tax-residency
+  - turkey-tax-residency
   - portugal-tax-residency
-  - israel-tax-residency
+  - malta-tax-residency
 
 ---
 

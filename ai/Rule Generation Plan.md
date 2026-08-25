@@ -42,6 +42,14 @@ rendering pipeline (`import.meta.glob("**/*.md")` in `registry.ts`, server-side 
 location is purely organizational — routing, categorization, and display all come from the
 frontmatter (`id`, `category`, `place`), never from the file path.
 
+**When asked to fill a gap in day-count-rule coverage, exclude countries whose residency test has
+no day threshold at all** — Belgium's domicile/centre-of-economic-interests test and Mexico's
+vital-interests test are the reference cases. A rule built entirely from a "Threshold" table row
+and a callout that leads with a day figure doesn't work for a country where no day figure is the
+actual trigger; forcing one in produces a misleading article rather than a useful one. These belong
+to a separate, differently-shaped article template — flag them and hold them for that, don't fold
+them into a day-count batch to hit a target count.
+
 ---
 
 ## 2. Research priority
@@ -143,6 +151,30 @@ preserve that distinction exactly, even at the cost of a slightly longer sentenc
 sentence that quietly drops "only categories A and B need this" is a factual error, not a
 simplification — this kind of merge has caused a real factual error before and had to be
 corrected.
+
+**Specific mistakes worth checking for by name, because each has actually happened:**
+- **The exact-day-counting mechanic, guessed rather than verified.** Whether a day counts on any
+  presence, on a full 24 hours, or only as a whole calendar day is a real difference between
+  countries and cannot be assumed from how a similar-looking neighbour's rule works. China requires
+  a full 24 hours present (a day under 24 hours doesn't count, so arrival and departure days are
+  both excluded) — the opposite of the "any part of a day" default that correctly applies to most
+  other countries in the corpus. Verify this per country; never carry it over from the last article
+  you wrote.
+- **"More than," "at least," or "N or more," stated with confidence but not actually checked.**
+  These read as interchangeable and are not — see the Key parameters table section above for two
+  real cases (Denmark, Montenegro) where this was wrong in a published article.
+- **A regime detail imported from the wrong taxpayer class.** A partial-income exemption, a special
+  rate, or a relief that applies to companies does not automatically apply to individuals (or vice
+  versa) just because it's the same country's tax system. Confirm which class of taxpayer a benefit
+  actually applies to before including it in an individual-residency article.
+- **A formula or figure that changed on a specific recent date.** Interest rates tied to a central
+  bank rate, penalty percentages, and similar figures move — and can move for reasons unrelated to
+  tax law, such as a country's interest-rate benchmark changing on currency adoption. Check whether
+  the figure you're citing is still current as of the article's `updatedAt` date, not just correct
+  as of whenever the source you found was last edited.
+- **A source URL that returns 403/404/500 the moment it's actually requested**, as opposed to one
+  that merely looked plausible in a search result. Curl or fetch every source URL before shipping;
+  don't include a URL you haven't confirmed resolves.
 
 ---
 
@@ -313,16 +345,28 @@ that change what residency means (`Remittance-based foreign income`), or history
 back into (`Previous 3 tax years`). If the thing you want to put here is just another way to
 qualify, it belongs in `Alternative`.
 
+**This is the second most commonly violated rule, right behind the Understanding-section one
+above** — a review of 18 new articles found a qualifying route misplaced in `Additional
+requirements` in 12 of them: `Domicile test (Wohnsitz)`, `Permanent home plus any presence` (in
+fact the *primary* route for that rule), `Linked-period and following-year tests`, `Domicile and
+permanent abode test` — all routes, all in the wrong row. The test that catches it: read the row's
+value and ask "does meeting this alone make someone resident?" If yes, it's a route and belongs in
+`Alternative`, however unlike a plain day-count it looks. `Additional requirements` should never by
+itself answer "how do I qualify" — only "what else, once I have."
+
 - **Right-align the second column** (`--:` in the header separator) — the shared CSS
   (`public/content/content.css`) renders it at medium weight automatically.
-- **Thresholds row: say "More than N days" when that's genuinely how the law phrases it — don't
-  round up to a derived N+1 number.** An earlier version of this plan asked for a bare number
-  (e.g. "184 days" for a "more than 183 days" rule) so the cell stayed a plain figure. In practice
-  this repeatedly produced a number that doesn't appear anywhere in the actual source, which reads
-  as false precision and desyncs the table from prose that correctly says "more than 183 days."
-  Use the bare number only when the official source itself states that exact figure as the
-  threshold (not derived from an "more than" phrasing) — for example, a country whose statute
-  literally reads "184 days," not "more than 183." When in doubt, quote the source's own words.
+- **Thresholds row: always a bare number — "183 days," never "More than 183 days."** This reverses
+  an earlier version of this plan, which asked for "More than N days" whenever that was genuinely
+  the law's own phrasing. In practice that produced a table cell doing two jobs at once — carrying
+  the number *and* the qualifier — when the table's job is the lookup and the qualifier is prose.
+  "More than," "at least," "N or more" all belong in the callout and in "How to keep track," where
+  the distinction can actually be explained; the table cell is just the figure. This matters more
+  than it looks: get the qualifier wrong in the table and it's cosmetic, but state it wrong in
+  prose and you've misdescribed the rule — Denmark's "more than 6 consecutive months" (law says "at
+  least") and Montenegro's "at least 183 days" (law says "more than") were both real errors caught
+  in review, not rounding disputes. Confirm the source's exact word before writing prose, every
+  time — don't infer it from how a similar country's rule usually reads.
   For a rule with several distinct route thresholds, list them comma-separated in the order
   they're introduced in the article; for a rule with banded thresholds that each matter on their
   own, list every boundary number. If the underlying law states the threshold in a unit other than
@@ -396,6 +440,18 @@ days within a rolling twelve-month window"), not the fine mechanics of how that 
 — whether days need to be consecutive, exactly how a lapsed window restarts, and so on. If the same
 counting-mechanic phrase, beyond the bare threshold and named window, starts appearing in more than
 one section, that's a sign it belongs in How to keep track alone.
+
+**This is the single most commonly violated rule in the whole plan — check for it explicitly before
+calling a draft done.** A batch of 18 new articles shipped with the mechanic explained in
+Understanding in 5 of them regardless: Estonia's rolling-window framing, Czech Republic's
+"cumulative and don't need to run consecutively," Bulgaria's rolling-vs-calendar-year distinction,
+Montenegro's "measured against a fixed calendar year," Saint Vincent's "days do not need to be
+consecutive." None of these looked wrong in isolation while writing — each read as a natural
+sentence explaining *why* the rule works the way it does. That naturalness is exactly the trap:
+the fix isn't to write worse prose, it's to notice that the explanatory sentence is restating a
+mechanic and delete it, trusting How to keep track to carry it alone. After drafting, grep the
+Understanding section specifically for "consecutive," "rolls," "resets," "cumulative," "arrival and
+departure" — if any hit, move the sentence, don't just reword it.
 
 **Open with who the rule applies to**, in one sentence, before any mechanism. "This applies to any
 lawful permanent resident travelling outside the US, however the green card was obtained." "This
@@ -1194,6 +1250,18 @@ After any batch content or schema change across multiple articles:
    `perl` substitutions across numbered lists have twice produced duplicate or malformed markers
    that render as broken lists. An `awk` pass for repeated consecutive list numbers, and a width
    check across each table block, catch both.
+8. **For a batch of new articles (roughly 5 or more), run an independent review pass before
+   treating the batch as done.** Spawn a fresh-context agent — high effort, no memory of how the
+   batch was written — with two jobs: re-verify every threshold, window, counting rule, alternative
+   test, and penalty figure against primary sources (not the article's own claims, not competitor
+   pages), and separately check every article against this plan end to end. A batch of 18 articles
+   reviewed this way surfaced 9 real factual errors the writer had missed, plus the Additional
+   requirements/Alternative confusion in a third of the batch — none of it caught by the writer's
+   own re-reading, because a second read of your own work tends to confirm what you already believe
+   rather than question it. **Then verify the review's own findings before acting on them** — an
+   independent reviewer can itself be wrong (one finding in that batch was a misreading of an
+   ambiguous foreign-language clause, confirmed false on a direct primary-source check) — so spot-
+   check the highest-stakes claims yourself rather than applying every finding automatically.
 
 ---
 

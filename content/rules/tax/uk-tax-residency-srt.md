@@ -31,12 +31,12 @@ sources:
     type: official
 
 relatedContent:
-  - uk-ilr-180-day-rule
   - uk-citizenship
+  - uk-ilr-180-day-rule
   - uk-visitor-visa
+  - spain-tax-residency
   - portugal-tax-residency
-  - uae-tax-residency
-  - cyprus-tax-residency
+  - ireland-tax-residency
 
 ---
 

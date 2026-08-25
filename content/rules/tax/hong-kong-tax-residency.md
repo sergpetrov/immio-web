@@ -33,10 +33,10 @@ sources:
 
 relatedContent:
   - singapore-tax-residency
-  - thailand-tax-residency
+  - china-tax-residency
   - uae-tax-residency
-  - indonesia-tax-residency
-  - india-tax-residency
+  - malaysia-tax-residency
+  - uk-tax-residency-srt
 
 ---
 

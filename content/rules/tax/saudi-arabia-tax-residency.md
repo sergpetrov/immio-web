@@ -27,9 +27,10 @@ sources:
 
 relatedContent:
   - uae-tax-residency
-  - uae-residence-visa
-  - turkey-tax-residency
+  - israel-tax-residency
   - singapore-tax-residency
+  - turkey-tax-residency
+  - hong-kong-tax-residency
   - monaco-tax-residency
 
 ---

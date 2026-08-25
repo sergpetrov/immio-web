@@ -26,10 +26,11 @@ sources:
     type: official
 
 relatedContent:
+  - czech-republic-tax-residency
   - germany-tax-residency
-  - norway-tax-residency
-  - cyprus-tax-residency
-  - portugal-tax-residency
+  - estonia-tax-residency
+  - romania-tax-residency
+  - uk-tax-residency-srt
   - georgia-tax-residency
 
 ---

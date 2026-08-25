@@ -28,10 +28,10 @@ sources:
 relatedContent:
   - uae-residence-visa
   - uae-visa
-  - saudi-arabia-tax-residency
-  - singapore-tax-residency
-  - monaco-tax-residency
   - cyprus-tax-residency
+  - uk-tax-residency-srt
+  - germany-tax-residency
+  - singapore-tax-residency
 
 ---
 

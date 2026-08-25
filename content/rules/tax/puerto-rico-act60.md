@@ -28,11 +28,12 @@ sources:
     type: official
 
 relatedContent:
-  - us-feie
   - us-tax-residency-spt
+  - us-feie
+  - us-virgin-islands-tax-residency
   - uae-tax-residency
+  - saint-vincent-tax-residency
   - monaco-tax-residency
-  - portugal-tax-residency
 
 ---
 

@@ -1242,10 +1242,25 @@ After any batch content or schema change across multiple articles:
    article you didn't check is the one that stays wrong.
 5. **If a callout changed, sync `trackers.xml` in the app repo** (section 19b), preserving any
    `(not tracked here yet)` markers.
-6. **After adding a page, confirm it is reachable from other pages, not just linking out of.**
-   Run `npm run validate-content` and check the new rule appears in at least two other rules'
-   `relatedContent` (see section 19a, step 2). A page with zero inbound related links is the most
-   common thing left half-finished.
+6. **After adding a page, confirm it is reachable from pages that already shipped.**
+
+   ```bash
+   npm run check:new-rule-links
+   ```
+
+   This is stricter than `validate-content`, and the difference matters. `validate-content` asserts
+   every rule receives at least one inbound `relatedContent` link — which a batch of new rules
+   satisfies by linking to *itself*. Those pages are then reachable only from other pages Google has
+   not crawled, so they inherit no authority and are discovered last. `check:new-rule-links` diffs
+   against `origin/main` and fails when a new rule has no inbound link from an already-shipped page.
+
+   It is not part of `npm run build` on purpose: it needs git history, and the deploy build runs on a
+   clone that may be shallow. A failing build there would take the site down over a link-graph
+   opinion.
+
+   **Expect to swap, not append.** Well-connected pages sit at the 6-entry cap, so making room means
+   dropping the weakest existing pair. That is the right trade — six strong links beat seven where
+   one is filler.
 7. **After a scripted or regex edit, re-check list numbering and table structure.** `sed` and
    `perl` substitutions across numbered lists have twice produced duplicate or malformed markers
    that render as broken lists. An `awk` pass for repeated consecutive list numbers, and a width

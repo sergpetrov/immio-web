@@ -52,7 +52,8 @@
     "lint": "eslint .",
     "og-images": "node scripts/generate-og-images.mjs",
     "preview": "npm run build && vite preview",
-    "validate-content": "node scripts/validate-content.mjs"
+    "validate-content": "node scripts/validate-content.mjs",
+    "check:new-rule-links": "node scripts/check-new-rule-links.mjs"
   },
   "type": "module"
 }

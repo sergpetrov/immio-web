@@ -1233,6 +1233,8 @@ text in the library.
 - [ ] No LCP regression on `/` or a representative rule page
 - [ ] Redirects added for any changed URL
 - [ ] If any Overview callout changed, `trackers.xml` in the app repo synced (§6.1a)
+- [ ] `npm run check:new-rule-links` passes — every new rule has an inbound `relatedContent` link
+      from a page that already shipped, not only from other pages in the same batch
 
 ### 6.3 YMYL / E-E-A-T non-negotiables
 

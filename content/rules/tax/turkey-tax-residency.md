@@ -29,7 +29,7 @@ relatedContent:
   - cyprus-tax-residency
   - uae-tax-residency
   - georgia-tax-residency
-  - saudi-arabia-tax-residency
+  - montenegro-tax-residency
   - portugal-tax-residency
 
 ---

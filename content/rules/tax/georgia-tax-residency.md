@@ -30,10 +30,10 @@ sources:
 relatedContent:
   - uae-tax-residency
   - cyprus-tax-residency
-  - estonia-tax-residency
+  - malta-tax-residency
   - turkey-tax-residency
   - portugal-tax-residency
-  - malta-tax-residency
+  - serbia-tax-residency
 
 ---
 

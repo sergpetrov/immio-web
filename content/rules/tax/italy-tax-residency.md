@@ -121,7 +121,7 @@ You move to Rome in January, rent an apartment, and spend 240 days in Italy over
 
 ### Low physical presence, but domicile still in Italy
 
-You take a long overseas assignment and spend only 60 days in Italy this year, but your spouse and children stay in the family home, clearly centring your personal and family life there. You fall well short of the physical-presence test, but the domicile test alone still makes you an Italian tax resident.
+You take a long overseas assignment and spend only 60 days in Italy this year, but your spouse and children stay in the family home, clearly centering your personal and family life there. You fall well short of the physical-presence test, but the domicile test alone still makes you an Italian tax resident.
 
 ### Moving abroad doesn't end residency by itself
 

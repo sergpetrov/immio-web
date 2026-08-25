@@ -33,7 +33,7 @@ relatedContent:
   - italy-tax-residency
   - portugal-tax-residency
   - malta-tax-residency
-  - spain-tax-residency
+  - bulgaria-tax-residency
   - turkey-tax-residency
 
 ---

@@ -32,10 +32,10 @@ sources:
     type: official
 
 relatedContent:
-  - us-green-card
-  - us-naturalization
-  - us-b1b2-visa
   - us-tax-residency-spt
+  - california-tax-residency
+  - new-york-tax-residency
+  - pennsylvania-tax-residency
   - puerto-rico-act60
   - uae-tax-residency
 

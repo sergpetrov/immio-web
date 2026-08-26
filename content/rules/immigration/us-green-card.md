@@ -33,6 +33,7 @@ relatedContent:
   - us-tax-residency-spt
   - us-feie
   - canada-permanent-residency
+  - australia-permanent-residency
   - uk-ilr-180-day-rule
 
 ---

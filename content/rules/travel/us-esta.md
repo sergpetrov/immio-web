@@ -31,9 +31,10 @@ sources:
 relatedContent:
   - us-b1b2-visa
   - us-tax-residency-spt
-  - canada-visitor-visa
+  - california-tax-residency
+  - new-york-tax-residency
+  - pennsylvania-tax-residency
   - schengen-90-180-day-rule
-  - uk-visitor-visa
 
 ---
 

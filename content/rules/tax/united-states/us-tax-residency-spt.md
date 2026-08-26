@@ -31,12 +31,12 @@ sources:
     type: official
 
 relatedContent:
-  - us-green-card
-  - us-naturalization
   - us-feie
+  - california-tax-residency
+  - new-york-tax-residency
+  - pennsylvania-tax-residency
   - puerto-rico-act60
   - canada-tax-residency
-  - uae-tax-residency
 
 ---
 

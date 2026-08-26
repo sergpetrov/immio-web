@@ -28,6 +28,7 @@ sources:
 relatedContent:
   - us-green-card
   - us-tax-residency-spt
+  - us-feie
   - uk-citizenship
   - canada-citizenship
   - australia-citizenship

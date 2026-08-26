@@ -31,8 +31,9 @@ sources:
 relatedContent:
   - us-esta
   - us-tax-residency-spt
-  - canada-visitor-visa
-  - uk-visitor-visa
+  - california-tax-residency
+  - new-york-tax-residency
+  - pennsylvania-tax-residency
   - schengen-90-180-day-rule
 
 ---

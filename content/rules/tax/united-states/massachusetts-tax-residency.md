@@ -160,7 +160,7 @@ days. Neither on its own is enough.
 Yes. Meeting the Massachusetts test does not displace your domicile elsewhere, so the same year can be a resident
 year in two states, with a credit reducing the overlap.
 
-### Does leaving Massachusetts for a year-end my residency?
+### Does leaving Massachusetts for a year end my residency?
 
 Not by itself. If Massachusetts remains the home you intend to return to, domicile continues and residency with it,
 whatever your day count.

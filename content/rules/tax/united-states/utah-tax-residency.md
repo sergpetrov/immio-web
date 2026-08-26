@@ -52,7 +52,7 @@ Utah** than in any other state.
 |:------------------------|--------------------------:|
 | Threshold               |                  183 days |
 | Period / Window         | Tax year (1 Jan – 31 Dec) |
-| Counting                | Days mostly spent in Utah |
+| Counting                |         Any part of a day |
 | Alternative             |                  Domicile |
 | Additional requirements |    Place of abode in Utah |
 
@@ -66,11 +66,6 @@ residence through domicile, and reaches it two ways:
 - **The domicile tests themselves** — a tiered set of presumptions and, where those do not settle it, a weighing of
   the wider circumstances.
 
-Utah counts days unlike almost anywhere else. A day counts toward the 183 only where you spent **more time in Utah
-than in any other state**, so a day split across state lines falls to whichever state got the larger share. That is
-considerably stricter than the any-part-of-a-day rule most states apply, and it means many travel days do not count
-at all.
-
 Domicile works through layered presumptions rather than open-ended judgment. Claiming the Utah **residential
 property tax exemption** on a home raises a rebuttable presumption of domicile. Other markers, such as a child
 enrolled in a Utah public school or being registered to vote in the state, feed the same analysis. Where the
@@ -81,16 +76,17 @@ The threshold is set at **183 or more** rather than more than 183, so day 183 it
 ## How to keep track
 
 1. The threshold is **183 days or more** in the tax year, so day **183** itself qualifies.
-2. A day counts only where you spent **more time in Utah than in any other state**. Track where the hours fell, not
-   merely whether you set foot in Utah — a short stop on the way elsewhere does not count.
-3. Both limbs must hold in the same tax year: a **place of abode** in Utah and the days.
-4. Watch the **property tax exemption** separately. Claiming the residential exemption on a Utah home presumes
-   domicile regardless of your day count.
-5. Note the other domicile markers — a child in a Utah public school, voter registration — since they feed the
+2. A day counts only where Utah took **more of your time than any other single state**.
+3. The comparison runs **state by state**, not Utah against everywhere else combined, so track where the hours went
+   rather than merely whether you were in the state.
+4. Both limbs must hold in the same tax year: a **place of abode** in Utah and the days.
+5. Watch the **property tax exemption** separately — claiming the residential exemption on a Utah home presumes
+   domicile whatever your count.
+6. Note the other domicile markers, a child in a Utah public school or voter registration, since they feed the
    analysis even where no presumption attaches on its own.
 
 Keep day-level travel records for the whole year, plus records of any Utah property tax exemption claimed, school
-enrolment and voter registration.
+enrollment and voter registration.
 
 ## Edge cases
 
@@ -116,10 +112,11 @@ A resident is taxed on income from all sources while a nonresident pays only on 
 You are domiciled in California, rent a Park City condo month to month, and spend about 200 days there with most of
 each day in Utah. The abode and the days both hold, so Utah treats you as domiciled.
 
-### A count landing exactly on the line
+### A day split across three states
 
-You keep a Utah apartment and record exactly 183 qualifying days. Because the rule is 183 or more, that is enough,
-where the same count would fall short in a state written as "more than 183."
+You drive from Salt Lake City to Las Vegas, spending 7 hours in Utah, 3 in Arizona and 6 in Nevada. Utah took more of
+the day than any single other state, so it counts toward the 183. Fly out in the morning instead and spend the rest
+of the day in California, and the same trip adds nothing.
 
 ### A property exemption that presumes domicile
 
@@ -145,8 +142,10 @@ enough.
 
 ### How does Utah count a day?
 
-Only a day where you spent more time in Utah than in any other state counts toward the 183. This is stricter than the
-any-part-of-a-day rule most states use, so a brief stop while traveling elsewhere does not add to the count.
+Only a day when Utah took more of your time than any other single state did. The comparison runs state by state
+rather than Utah against everywhere else combined, so a day can fall to Utah on well under half your time. It is
+stricter than the any-part-of-a-day rule most states use, and a brief stop while traveling elsewhere usually does not
+count at all.
 
 ### Does claiming a Utah property tax exemption affect my residency?
 
@@ -158,6 +157,6 @@ domiciled in the state, independently of your day count.
 Through a tiered set of presumptions rather than a single question of intent. Where the presumptions do not settle
 it, the Tax Commission weighs the wider circumstances on the balance of the evidence.
 
-### Do school enrolment and voter registration matter?
+### Do school enrollment and voter registration matter?
 
 Yes. A child enrolled in a Utah public school and registration to vote in the state both feed the domicile analysis.

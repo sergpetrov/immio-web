@@ -40,16 +40,16 @@ relatedContent:
 ## Overview
 
 :::callout
-Ohio counts **contact periods**, not days. A contact period needs **portions of 2 consecutive days** in the state while
-away overnight from a home elsewhere. **212 or fewer**, plus an abode outside Ohio and a filed affidavit, presumes you
-are **not** a resident. **213 or more** presumes that you are.
+Ohio counts **contact periods**, not days — in practice, **nights**. You have one when you are away overnight from
+your out-of-state home and are in Ohio on **both days** around that night. **212 or fewer** presumes you are **not**
+a resident; **213 or more** presumes that you are.
 :::
 
 | Key parameters          |                               |
 |:------------------------|------------------------------:|
 | Threshold               |           212 contact periods |
 | Period / Window         |     Tax year (1 Jan – 31 Dec) |
-| Counting                |     Contact periods, not days |
+| Counting                |      Nights (contact periods) |
 | Alternative             |                      Domicile |
 | Additional requirements | Abode outside Ohio, affidavit |
 
@@ -62,9 +62,9 @@ and gives you a way to establish that your domicile is elsewhere:
 - **The bright-line presumption** — staying at or under a fixed number of contact periods and meeting several
   supporting conditions presumes you are not domiciled in Ohio.
 
-The unit is what makes Ohio different. A contact period is not a day. You have one when you are away overnight from
-your abode outside Ohio and spend at least some portion, however minimal, of each of **2 consecutive days** in the
-state. A single day trip in and out therefore creates no contact period at all.
+A contact period is not a day — it is closer to a **night**. You have one when you are away overnight from your abode
+outside Ohio and spend at least some portion, however minimal, of each of
+**2 consecutive days** in the state.
 
 The count is only the first of several conditions. Alongside 212 or fewer contact periods you must hold at least one
 residence outside Ohio and claim no depreciation on it federally, hold no valid Ohio driver's license or state ID,
@@ -81,7 +81,7 @@ circulation understates the allowance by a month.
 
 ## How to keep track
 
-1. Count **contact periods**, not days. One needs portions of **2 consecutive days** in Ohio while you are away
+1. Count **contact periods**, not days — in practice, **nights**. One needs portions of **2 consecutive days** in Ohio while you are away
    overnight from your abode outside the state.
 2. A **single-day visit creates nothing**, however long it lasts, because the two-consecutive-day condition is not
    met.
@@ -91,7 +91,7 @@ circulation understates the allowance by a month.
 5. Check the supporting conditions before relying on the count: no valid Ohio **driver's license or state ID**, no
    Ohio **property tax reduction** of the specified kinds, and no **in-state tuition** if you are enrolled at an Ohio
    college.
-6. File the **sworn statement** by the fifteenth day of the tenth month after the tax year-ends. Without it the
+6. File the **sworn statement** by the fifteenth day of the tenth month after the tax year ends. Without it the
    presumption is unavailable however low your count.
 
 Keep records showing where you slept each night, not merely which state you were in, since the overnight element is
@@ -160,7 +160,7 @@ it by about a month.
 
 At least one residence outside Ohio with no federal depreciation claimed on it, no valid Ohio driver's license or
 state ID, no Ohio property tax reduction of the specified kinds, no in-state tuition if you study in Ohio, and a sworn
-statement filed by the fifteenth day of the tenth month after the tax year-ends.
+statement filed by the fifteenth day of the tenth month after the tax year ends.
 
 ### Can Ohio challenge my sworn statement?
 

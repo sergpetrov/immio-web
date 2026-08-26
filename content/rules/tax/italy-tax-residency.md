@@ -12,7 +12,7 @@ seo:
   title: Italy Tax Residency – 183-Day Rule | Immio
   description: >
     More than 183 days in Italy in a calendar year makes you a tax resident on
-    presence alone. Registry enrolment, domicile or habitual residence each do
+    presence alone. Registry enrollment, domicile or habitual residence each do
     it too.
 
 updatedAt: 2026-08-13

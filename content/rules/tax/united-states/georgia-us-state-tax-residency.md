@@ -68,7 +68,7 @@ Status is settled at the end of the tax year, and you are a resident if any of t
 The statute words that count as a lookback from the last day of the tax year rather than as time spent "during the
 year". For anyone on a calendar year the two come to the same thing, so it is simplest to treat it as an ordinary
 1 January to 31 December count. It only diverges for someone who has established a fiscal year with the state, whose
-year-ends on a different date.
+year ends on a different date.
 
 Leaving is harder than arriving. Someone who has been a Georgia resident stays one until they show **two things
 together**: that they have become a legal resident of another state, and that they no longer meet the 183-day count.

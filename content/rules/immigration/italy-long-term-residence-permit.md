@@ -79,9 +79,9 @@ allowance — more if family members depend on it — **suitable accommodation**
 
 1. Apply for the initial permit within **8 working days** of arriving in Italy, through the questura or a post office
    kit depending on the permit type.
-2. Submit each renewal at least **60 days** before the permit expires.
+2. Submit each renewal **at least 60 days** before the permit expires.
 3. For the **5-year long-term route**, no single absence may be **longer than 180 days (6 months)**, and total absences must
-   stay under **10 months** across the whole period.
+   stay **under 10 months** across the whole period.
 4. Only **whole days** outside Italy count as absence. Your **departure** and **return** days both count as **days in** Italy, so
    an absence runs from the day after you leave to the day before you come back.
 5. Keep your **residency registration** with your local comune (municipality) current, since your registered address is

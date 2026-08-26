@@ -75,7 +75,7 @@ of 2026 and replaced a regime that had no explicit statutory definition of a res
 
 ## How to keep track
 
-1. The day threshold is **183 days** or more in aggregate within any 12-month period, and that window does not have to
+1. The day threshold is **183 days or more** in aggregate within any 12-month period, and that window does not have to
    be a calendar year. Assessment itself still runs on the calendar year, 1 January to 31 December.
 2. **Separate stays** are added together, so they do not need to be consecutive and no single trip needs to be long.
 3. Annual leave and temporary absences that fall within a period of stay are counted toward the total rather than

@@ -1,5 +1,5 @@
 import type { RuleDoc } from "../types";
-import { getPlaceFlagId, getPlaceForRule } from "../registry";
+import { getRuleFlagFile } from "../registry";
 
 /** A single rule as a full-width rounded chip: flag + title + subtitle. */
 export default function RuleChip({
@@ -12,7 +12,6 @@ export default function RuleChip({
   searchableText?: string;
 }) {
   const { frontmatter } = rule;
-  const place = getPlaceForRule(rule);
   const href = `/rules/${frontmatter.id}`;
 
   return (
@@ -21,7 +20,7 @@ export default function RuleChip({
         <span className="content-rule-chip__title-row has-flag">
           <img
             className="content-rule-chip__flag"
-            src={`/flags/${getPlaceFlagId(place)}.svg`}
+            src={`/flags/${getRuleFlagFile(rule)}`}
             alt=""
           />
           <span className="content-rule-chip__content">

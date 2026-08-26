@@ -1,7 +1,7 @@
 import SiteFooter from "../../../../react-app/components/SiteFooter";
 import SiteHeaderView from "../../../../react-app/components/SiteHeaderView";
 import { buildRuleBreadcrumbs } from "../breadcrumbs";
-import { getPlaceFlagId, getPlaceForRule } from "../registry";
+import { getPlaceForRule, getRuleFlagFile, isSubnationalPlaceId } from "../registry";
 import type { Category, RuleDoc } from "../types";
 import Breadcrumbs from "./Breadcrumbs";
 import LegalDisclaimer from "./LegalDisclaimer";
@@ -50,14 +50,14 @@ export default function RulePage({
                 <h1>{headline}</h1>
                 <img
                   className="content-article__flag"
-                  src={`/flags/${getPlaceFlagId(place)}.svg`}
-                  alt={`${place.name} flag`}
+                  src={`/flags/${getRuleFlagFile(rule)}`}
+                  alt={isSubnationalPlaceId(rule.frontmatter.place) ? "" : `${place.name} flag`}
                   width={24}
                   height={24}
                 />
               </header>
               <p className="content-article__meta">
-                Verified in {formatMonthYear(frontmatter.updatedAt)}
+                Reviewed in {formatMonthYear(frontmatter.updatedAt)}
               </p>
               {sections.map((section) => {
                 const keepTrack = section.title.trim().toLowerCase() === "how to keep track";

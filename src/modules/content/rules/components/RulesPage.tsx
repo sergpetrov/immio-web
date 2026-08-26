@@ -1,6 +1,6 @@
 import SiteFooter from "../../../../react-app/components/SiteFooter";
 import SiteHeaderView from "../../../../react-app/components/SiteHeaderView";
-import { getPlaceFlagId, getPlaceForRule, getRulesForCategory } from "../registry";
+import { getRuleFlagFile, getRulesForCategory } from "../registry";
 import type { Category } from "../types";
 import LegalDisclaimer from "./LegalDisclaimer";
 
@@ -55,7 +55,7 @@ export default function RulesPage({ categories, appDownloadUrl }: { categories: 
                         <span className="content-rule-chip__title-row has-flag">
                           <img
                             className="content-rule-chip__flag"
-                            src={`/flags/${getPlaceFlagId(getPlaceForRule(rule))}.svg`}
+                            src={`/flags/${getRuleFlagFile(rule)}`}
                             alt=""
                           />
                           <span className="content-rule-chip__content">

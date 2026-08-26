@@ -64,7 +64,7 @@ You are a Greek tax resident if you meet any one of these, in any order:
 - **Habitual abode** — Greece is where you habitually stay, even without a permanent home there.
 - **Center of vital interests** — your personal and economic ties point to Greece. Greek courts read this broadly,
   weighing where your social connections sit as well as your family and your money.
-- **183-day presence** — more than 183 days in Greece, added up across any twelve-month period. A carve-out for
+- **183-day presence** — more than 183 days in Greece, added up across any twelve-month period. An exception for
   tourism, medical, or similar private stays under 365 days keeps this route from applying, though the other three
   tests still can.
 
@@ -153,7 +153,7 @@ cumulatively and don't need to be consecutive — the total is what matters acro
 
 The day-count rule doesn't apply where your stay is exclusively for tourism, medical, therapeutic or similar private
 purposes and doesn't exceed 365 days, with short trips abroad counted inside that period. The home, habitual abode and
-vital-interests tests still apply, so the carve-out is narrower than it sounds.
+vital-interests tests still apply, so the exception is narrower than it sounds.
 
 ### Does Greece's non-dom regime change whether I'm a tax resident?
 

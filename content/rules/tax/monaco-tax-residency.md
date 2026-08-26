@@ -43,7 +43,7 @@ relatedContent:
 ## Overview
 
 :::callout
-Staying at least **183 days** a year in Monaco can make it your **main home** for residency purposes, and a shorter stay
+Staying **at least 183 days** a year in Monaco can make it your **main home** for residency purposes, and a shorter stay
 works if you still spent more time there than in **any other single country**. Monaco charges **no personal income
 tax** — but **French nationals** are generally **taxed by France**.
 :::
@@ -89,7 +89,7 @@ already hold the certificate.
 
 Keep travel records alongside your lease or title deed and your water, electricity and telephone bills for the past
 year — those are what the Principality asks for. French nationals should also keep evidence of the family's residence
-history in Monaco, since the carve-out turns on dates decades in the past.
+history in Monaco, since the exception turns on dates decades in the past.
 
 ## Edge cases
 
@@ -122,7 +122,7 @@ Principality.
 ### The rule that ignores your day count entirely
 
 You are a French national who moved to Monaco last year and now spends almost the whole year there. Monaco asks nothing
-of you in income tax, but France still taxes you on worldwide income as if you lived in France. The carve-out needs
+of you in income tax, but France still taxes you on worldwide income as if you lived in France. The exception needs
 Monaco residence going back to before 13 October 1957, which a recent move cannot satisfy.
 
 ## Official sources
@@ -135,7 +135,7 @@ Monaco residence going back to before 13 October 1957, which a recent move canno
 
 ### Does Monaco have a fixed number of days you must spend there?
 
-Yes, but with an alternative. Monaco's rules define a main or usual stay as at least **183 days** a year in the
+Yes, but with an alternative. Monaco's rules define a main or usual stay as **at least 183 days** a year in the
 Principality, or fewer days provided you were physically present in Monaco longer than in any other single country.
 
 ### Why are French nationals taxed when other residents aren't?

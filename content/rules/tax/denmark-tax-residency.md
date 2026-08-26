@@ -101,7 +101,7 @@ resident. It assumes you already are, and reduces Danish tax on salary you earne
 - **What it means** — a relief for someone who stays fully liable to Danish tax but earns their salary working outside
   Denmark, the Faroe Islands and Greenland. It applies to that employment income only, not to your residency status
   and not to other income.
-- **Who can apply** — the stay abroad has to last at least **6 months**, and you can spend at most **42 days** in
+- **Who can apply** — the stay abroad has to last **at least 6 months**, and you can spend at most **42 days** in
   Denmark within any 6-month period of it. Those 42 days cover holidays, time off, and work in Denmark directly
   necessary to the foreign job. Broken days count as whole days. Since a 2023 change in case law the stay must also
   have a genuine work reason behind it, rather than being incidental to living abroad.

@@ -1,5 +1,5 @@
 import type { CategoryId, RuleFrontmatter } from "./types";
-import { getPlaceById } from "./places";
+import { getParentPlaceId, getPlaceById } from "./places";
 
 const CATEGORY_IDS: CategoryId[] = ["tax", "travel", "immigration"];
 
@@ -52,8 +52,12 @@ export function assertValidRuleFrontmatter(data: unknown, filePath: string): Rul
     }
   }
 
-  if (!getPlaceById(record.place as string)) {
-    fail(filePath, `"place" must reference a configured place ID`);
+  const placeId = record.place as string;
+  if (!/^[a-z][a-z0-9_]*(-[a-z0-9]+)?$/.test(placeId)) {
+    fail(filePath, `"place" must be a place ID, optionally with a "-{subdivision}" suffix`);
+  }
+  if (!getPlaceById(getParentPlaceId(placeId))) {
+    fail(filePath, `"place" must reference a configured place ID (or a sub-national id whose parent is configured)`);
   }
 
   if (record.relatedContent !== undefined) {

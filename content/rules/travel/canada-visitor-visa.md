@@ -94,7 +94,7 @@ the entry date, because that date is what your six months runs from.
 - **A visitor record is not a visa.** It extends how long you may stay, but it doesn't let you re-enter — if you leave
   Canada, you need your original eTA or visa to come back.
 - **Parents and grandparents can stay far longer.** A super visa lets the parent or grandparent of a Canadian citizen
-  or permanent resident stay up to **5 years** per entry, extendable by up to 2 years from inside Canada. It carries
+  or permanent resident stay **up to 5 years** per entry, extendable by up to 2 years from inside Canada. It carries
   its own medical and private health insurance conditions.
 - **Border officers can admit you for less than 6 months.** A short admission is entirely within their discretion, and
   the date they write is the one that counts.

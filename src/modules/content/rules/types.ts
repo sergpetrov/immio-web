@@ -34,6 +34,12 @@ export interface RuleFrontmatter {
   title: string;
   subtitle?: string;
   category: CategoryId;
+  /**
+   * Either a registered place id (`us`) or a sub-national `{parent}-{subdivision}`
+   * id (`us-ut`). A sub-national rule still belongs to its parent country for
+   * grouping, breadcrumbs and URLs; the compound id only changes which flag it
+   * shows. See `getRuleFlagFile`.
+   */
   place: string;
   seo: {
     title: string;

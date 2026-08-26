@@ -40,7 +40,7 @@ relatedContent:
 
 :::callout
 **913 days** of physical presence across the **5 years** before applying makes you eligible to naturalize, with
-staying under **180 days (6 months) abroad** per trip keeping your continuous residence. Spouses of US citizens get
+staying **under 180 days (6 months) abroad** per trip keeping your continuous residence. Spouses of US citizens get
 a shorter route — **3 years** and **548 days**.
 :::
 

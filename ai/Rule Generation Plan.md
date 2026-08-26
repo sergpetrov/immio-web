@@ -342,7 +342,8 @@ top, with the alternatives beneath. `Alternative` now carries whichever applies:
 - a second day route — `60 days`, `270 days / Rolling 36 months`, `549 days / 3 years`,
   `30 days / year + 425 days / 3 years`
 - a named non-day test — `Domicile test`, `Residential ties test`, `Permanent place of abode`,
-  `Dwelling test (Wohnsitz)`
+  `Dwelling test (Wohnsitz)`. These are examples from rules whose sources do use "test"; don't copy
+  the word across to a new rule without checking (see the `Alternative row` bullet below)
 - several of either, comma-separated — `Permanent home, economic interests`
 
 **`Additional requirements` is now a 5th row used only where something genuinely sits outside the
@@ -363,7 +364,15 @@ itself answer "how do I qualify" — only "what else, once I have."
 
 - **Right-align the second column** (`--:` in the header separator) — the shared CSS
   (`public/content/content.css`) renders it at medium weight automatically.
-- **Thresholds row: always a bare number — "183 days," never "More than 183 days."** This reverses
+- **Thresholds row: always a bare number — "183 days," never "More than 183 days."**
+  **The number is the one the law states, not the first day that actually qualifies.** A statute reading "more than
+  183 days" gives a `Threshold` of `183 days`, not `184 days`. This was got wrong across ten state articles and had
+  to be corrected: converting to the first qualifying day silently re-states the law, makes the cell disagree with
+  every source a reader will check, and hides the very distinction the table exists to show — Minnesota's "at least
+  183" and Connecticut's "more than 183" both belong in the table as `183 days`, with the qualifier carried in the
+  callout and explained in "How to keep track" and an FAQ. Watch the knock-on effects when correcting this: the
+  subtitle, the callout, the SEO description and any FAQ that called a flat figure "a day short" all have to move
+  together, or the article contradicts its own table. This reverses
   an earlier version of this plan, which asked for "More than N days" whenever that was genuinely
   the law's own phrasing. In practice that produced a table cell doing two jobs at once — carrying
   the number *and* the qualifier — when the table's job is the lookup and the qualifier is prose.
@@ -377,8 +386,16 @@ itself answer "how do I qualify" — only "what else, once I have."
   For a rule with several distinct route thresholds, list them comma-separated in the order
   they're introduced in the article; for a rule with banded thresholds that each matter on their
   own, list every boundary number. If the underlying law states the threshold in a unit other than
-  days (a number of months, say), state it in that native unit — don't force a day-count
-  conversion the primary source doesn't actually give. **Name what is being counted when the cell
+  days (a number of months, say), lead with that native unit, then **append an approximate day
+  figure in parentheses** — `9 months (about 270 days)`. The tracker counts days, so a cell a
+  reader cannot act on in days is a cell that fails its job. The word "about" is doing real work
+  and is not optional: it marks the figure as arithmetic, not law. Never present a converted figure
+  as if the source gave it, and where the source gives no equivalent, say so plainly in "How to
+  keep track" and in an FAQ entry ("Is 9 months the same as 270 days?"). California is the
+  reference — FTB states the threshold in months and publishes no day equivalent and no partial-day
+  rule anywhere in Publication 1031 or its Residency and Sourcing Technical Manual, so the article
+  says exactly that. Check before converting: months are not uniform, and a rule stated in months
+  may deliberately avoid a day count. **Name what is being counted when the cell
   would otherwise be ambiguous** — "330 days abroad" rather than "330 full days," since a reader
   scanning the table needs to know *what* the number measures, and a qualifier like "full" is a
   counting mechanic that belongs in "How to keep track" where it can actually be defined.
@@ -386,7 +403,12 @@ itself answer "how do I qualify" — only "what else, once I have."
   uses exactly these: `Calendar year (1 Jan – 31 Dec)`, `Rolling 12 months`, `Rolling 365 days`,
   `Tax year (1 Apr – 31 Mar)`, `Income year (1 Jul – 30 Jun)`, `UK tax year (6 Apr – 5 Apr)`. Match
   one of these unless the rule genuinely doesn't fit any (Germany's `Continuous stay, not tied to a
-  calendar year` is the reference exception).
+  calendar year` is the reference exception). Where a jurisdiction's own year is a calendar year but
+  its law calls it something else, use `Tax year (1 Jan – 31 Dec)`.
+  **"Tax year" is the house term everywhere in the article, including where the source says
+  "taxable year."** US sources say "taxable year" throughout; we don't. This is a house-style
+  substitution, not a quotation change — so it is safe in our prose, and it is the one place to
+  stay alert if the article ever quotes statutory language directly.
 - **Period / Window row: use short, standard patterns only** — "Rolling 12 months," "Rolling 365
   days," "Calendar year (1 Jan – 31 Dec)," "Income year (1 Jul – 30 Jun)." Don't elaborate in the
   cell ("Any rolling 12-month period," "Rolling 12-month period from entry") — a detail like "from
@@ -394,6 +416,15 @@ itself answer "how do I qualify" — only "what else, once I have."
 - **Alternative row**: see above — it is the default 4th row, sits after `Counting`, and takes
   either a second day route or the named non-day test(s). Keep the value short and label-like; a
   day route reads `N days / Rolling M months`, a test reads by its name.
+  **Never append an explanatory gloss to the value.** `Domicile, with no day count` was written and
+  had to be cut back to `Domicile`: the table is a lookup, and the absence of a day figure in the
+  cell already says there is no day count. Anything that explains rather than labels belongs in
+  prose.
+  **Add "test" or "tests" only where the official source itself uses that word.** Check before
+  writing it — FTB uses "domicile" 87 times across its two residency publications and never once
+  writes "domicile test", so California's cell is a bare `Domicile`. New York's own tax department
+  does write "statutory residency test", so there the word is right. This cuts both ways: don't
+  strip a "test" the source genuinely uses, and don't manufacture one it doesn't.
 - **Counting row: match the label to what the rule actually limits.** A rule that caps **presence**
   (how long you may stay, how many days you must accumulate) counts partial days *toward* the
   limit, so the cell is `Any part of a day`. A rule that caps **absence** (how long you may be away
@@ -414,6 +445,10 @@ itself answer "how do I qualify" — only "what else, once I have."
   it breaks the table's scannability as a lookup. Default to `Any part of a day` even when the
   official source doesn't explicitly confirm partial-day counting, and note the genuine uncertainty
   in "How to keep track" prose instead, where nuance has room.
+  **This holds even when the threshold itself is stated in months.** A months-based rule still gets
+  a day-based `Counting` cell, because the reader is tracking days regardless of the unit the law
+  chose. Say in "How to keep track" that counting any part of a day is the safe reading rather than
+  a published rule, where that is the honest position.
 - **Additional requirements row**: a short label naming the secondary test(s), not a full
   sentence. Where the rule has a **second limit of the same kind** — a final-year absence cap on
   top of a total, a per-trip cap on top of a cumulative one — that second limit is what this row
@@ -476,6 +511,26 @@ them.
 The resulting shape for most articles is four beats — **who it applies to → the structural core as
 a bullet list → supporting conditions in prose → what else is required.** Vary the wording, keep
 the order.
+
+**Keep it short and structured — prefer bullet groups over prose paragraphs.** Where a run of
+paragraphs each carries one fact, they are usually a bullet list that hasn't been written as one
+yet. A second short bullet group, introduced by its own lead-in line, reads far better than three
+more paragraphs: California pairs "the two routes to residence" with "what time does" —
+`More than 9 months … presumes residence` against `Fewer than 9 months … presumes nothing` — so the
+one-way nature of the presumption is visible in the structure instead of needing a sentence to
+explain it. That rewrite cut the section by 18% while keeping every fact.
+
+**A rule with no threshold still has to say what to count.** Stating that a jurisdiction "has no 183-day rule" is
+half an answer, and on its own it reads as "you can stop tracking" — which is usually wrong. Say what the days are
+for instead. Illinois is the reference: there is no limit to stay under, but the presumption compares Illinois days
+against **each other state separately**, so the reader has to track per state rather than per jurisdiction, and that
+matters most for someone moving between states often. Carry the point into the callout, "How to keep track" and an
+FAQ, not just one of them.
+
+**Don't narrate a scenario here that an Example already walks through.** A case illustrating that a
+presumption can be rebutted belongs in Examples, not in both — an anecdote in Understanding that
+restates Example 1 is duplication of the same kind as a counting mechanic appearing twice, and it
+gets cut the same way. State the principle in Understanding; let Examples carry the story.
 
 **If the rule is structured as independent alternative routes** (meet any one of several separate
 tests), list them as a flat bullet list, in any order, each with a bolded route name:
@@ -696,7 +751,10 @@ Plain prose, ideally 2 sentences and rarely more than 3, no bullet list, no bold
 mandatory closing sentence (see below). Factual and calm, no scare language — a plain blog
 explainer's tone, not a legal warning. If a draft runs longer than the library's typical length for
 this section, tighten it before moving on — this section should be one of the shortest in the
-article, not one of the longest.
+article, not one of the longest. **The concrete target is the library median: about 395 characters
+of prose, measured excluding the mandatory closing sentence** (min 162, max 531 across 73 rules).
+Measure against that rather than guessing — a draft that feels long is often already at the median,
+and one that reads tight can be well over it.
 
 **This section needs real, country-specific research — never default to a generic template.**
 "You may owe back taxes, interest, and penalties... the authority can assess this retroactively"
@@ -728,6 +786,14 @@ travel disruption, and nothing else" is right. Naming each qualifying category, 
 to apply within, and whose agreement you need turns the article into a guide for building a case,
 which is exactly the personal advice this project doesn't give. The reader's takeaway should be
 that an exception is unlikely to save them, not how to reach for one.
+
+**The same ban covers margin-of-safety counsel — telling the reader how close to a limit they ought
+to run.** "Because months vary in length, 270 is a guide rather than a threshold. Leave margin
+instead of steering close to it" was written into a How to keep track list and had to be cut, along
+with the same advice where it had leaked into an FAQ answer. State the figure and how it is
+counted; how much room to leave is the reader's call, or their adviser's. Watch for the tell —
+"leave margin," "a guide rather than," "don't steer close to," "to be safe" — and cut the sentence
+rather than softening it.
 
 Official tax-authority guidance and statute come first, same as everywhere else. If the specific
 penalty percentages aren't clearly stated officially, reputable professional-firm write-ups are the
@@ -853,12 +919,32 @@ reword, even if you didn't intend to touch the answer.
   phrase out of habit. If a paragraph is more than roughly 15% bold, or every bullet in a list has
   its lead bolded by default rather than necessity, cut it back. The one fixed exception is the
   closing sentence of "If you get this rule wrong" (section 13), which is always bolded.
+- **Bold the whole threshold phrase, qualifier included** — `**more than 183 days**`, never
+  `more than **183 days**`. The qualifier is not decoration around the number, it is half of what
+  the threshold means: "more than 183" and "at least 183" are different rules that qualify on
+  different days, and bolding only the figure visually asserts the number while hiding the part
+  that decides which day actually counts. This applies to every qualifier — `more than`,
+  `at least`, `no more than`, `fewer than`, `up to`, `under` — and to trailing ones, which move
+  inside too: `**183 days or more**`, not `**183 days** or more`. The library was mixed on this and
+  62 instances across 39 files had to be corrected in one pass.
+  **The one exception is a sentence contrasting the wording itself.** Where the point being made is
+  that a statute says one thing rather than the other, bold the qualifier alone so the contrast
+  lands: Minnesota's "set at **at least** 183 days rather than more than 183" is the reference.
+  **Never let a bold span cross a line break** — rewrap the sentence so the phrase sits on one line.
 - **Never use italics.** Not for emphasis, not for contrast between two things, not for
   foreign-language terms, not for a defined term's first appearance. Bold is the library's only
   emphasis marker. Where a contrast genuinely needs marking — "time in the issuing country" versus
   "time in other member states" — rewrite the sentence so the contrast is carried by the words,
   or bold the single word that turns the meaning, and use nothing at all where the sentence
   already reads correctly without it.
+- **American spellings throughout** — "center" not "centre", "license" not "licence", "program"
+  not "programme", "organization", "recognize", "traveling", "neighbor", "defense", "favor",
+  "behavior", "enroll". The exception is a proper noun genuinely spelled the British way — an
+  official scheme or document whose registered name carries it — which keeps its own spelling.
+  **Never fix these with a bare find-and-replace.** `s/centre/center/` matched inside "centred" and
+  shipped "centerd" to five files before it was caught; run any such sweep with word boundaries and
+  then read every changed line, including the inflected forms ("centred" → "centered", "centring" →
+  "centering") that a naive pattern either mangles or misses entirely.
 - **Sentences capped at ~35 words.** Split at the natural clause boundary when a sentence runs
   long — usually wherever "and," "which," "so," "though," or an em dash joins two facts that don't
   need to share a sentence. Applies everywhere: callout, bullets, Edge cases, FAQ answers. Re-scan
@@ -929,9 +1015,54 @@ Both the frontmatter `title` and the Markdown `# H1` follow:
   that (three or four distinct routes, none of them clearly the one thing people search for), omit
   the bracket entirely rather than force a reductive or overloaded one — a plain "{Country} Tax
   Residency" with no suffix is a legitimate, expected outcome for a genuinely multi-test rule.
+- **The bracket must carry the day number whenever the rule has one.** A label alone — "(actual residency rule)",
+  "(statutory residency test)" — hides the single fact the reader came for, even when it is the jurisdiction's own
+  term. Lead with the count and keep the official name alongside it where that name is genuinely used in the source:
+  "(183-day actual residency rule)" for Virginia, "(183-day statutory residency rule)" for New York and New Jersey.
+  A bracket with no numeric at all is right only where the rule genuinely has no count, as with Illinois's
+  "(temporary or transitory purpose)".
 - **`subtitle`**: a short, ∙-separated string of 2–3 key facts (the core threshold, the window
   type, and one other defining feature).
 - **`seo.title`**: "{Country/place} {Rule category} Rules Explained | Immio" — no brackets.
+
+### Sub-national rules — US states, and later cities
+
+US states are **not** separate places and get **no URL path of their own**. A state rule is a US
+rule that happens to be about a state, and the reader should experience it that way.
+
+- **`place: us`.** Do not register a state in `places.ts`. The state rule then appears on
+  `/rules/countries/united-states` alongside the federal rules, carries the US flag, and produces
+  the same breadcrumb trail as every other rule — `Rules / Tax residency / United States`. There is
+  no `/rules/states/...` and no new `PlaceType`.
+- **File location**: `content/rules/{category}/united-states/`. This directory holds the federal US
+  rules and the state rules together, and later cities. It is organisational only — the registry
+  globs `content/rules/**/*.md` and the validator walks recursively, so nesting needs no code
+  change. Routing still comes from frontmatter `id`, never from the path.
+- **`id` / URL**: the bare state name — `california-tax-residency`, `new-york-tax-residency`.
+- **Name collisions with countries**: where a state shares its name with a country we already
+  cover, disambiguate the state, never the country. Georgia is the live case: the country keeps
+  `georgia-tax-residency`, and the US state takes **`georgia-us-state-tax-residency`**.
+- **`flag`**: state rules share `place: us`, so they would otherwise inherit the US flag. Name the
+  state's own circle flag in frontmatter instead — `flag: us-ca`. The field is optional and falls
+  back to the place flag, so a state with no asset degrades to the US flag rather than breaking.
+  Assets live in `public/flags/{flag}.svg` and come from
+  [HatScripts/circle-flags](https://github.com/HatScripts/circle-flags) (MIT), the same source as
+  the country flags — note its raw files are on the **`gh-pages`** branch, not `main`. The build
+  validator fails if a declared `flag` has no matching asset.
+
+  **Coverage is partial.** circle-flags ships 25 usable US state flags: `ak al ar az ca co dc fl ga
+  hi in md mn mo ms nc nm or ri sc tn tx wa wi wy`. It has **no** flag for New York, New Jersey,
+  Illinois, Massachusetts, Connecticut, Ohio, Pennsylvania, Virginia, Idaho, North Dakota, Nebraska,
+  Vermont or Maine — which covers most of the high-priority states. Decide per rule whether to omit
+  `flag` (US flag fallback) or to circle-mask a public-domain state flag into the same
+  512×512 format.
+- **Title**: lead with the state name alone — "California Tax Residency (9-month presumption)".
+  Do not prefix "US" or "United States"; the breadcrumb and flag already establish the country. For
+  a collision case, the title carries the disambiguation instead ("Georgia (US State) Tax
+  Residency").
+
+Territories with their own place id — Puerto Rico, the US Virgin Islands — are unaffected. They
+have their own country pages and stay in `content/rules/{category}/`.
 
 ---
 
@@ -1011,6 +1142,14 @@ rule type* across countries (a citizenship rule pairs with other citizenship rul
 settlement/PR rule with other settlement/PR rules). Stop early rather than pad with a weak match:
 five strong links beat six with two arbitrary ones. Six is the hard ceiling, enforced by the
 validator.
+
+**Batches are the exception: do this pass once, at the end.** When generating a set of related
+rules together — all the US states, say — do not edit other rules' `relatedContent` as each one
+lands. Populating the new page's own list (step 1) is still part of writing it, but the inbound
+pass below waits until the whole batch exists and the user asks for it. Editing inbound links
+rule-by-rule during a batch means churning the same files repeatedly and choosing each new page's
+slots before its siblings exist. A brand-new rule sitting at zero inbound links mid-batch is the
+expected state, not an error — the validator reports the count without failing on it.
 
 **2. Then go back and update the existing pages that should now point at it.** This is the step
 that gets skipped. A new rule that links out to six others but is linked *from* nowhere is

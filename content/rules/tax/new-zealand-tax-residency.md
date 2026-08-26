@@ -71,7 +71,7 @@ decide: how often you return, how long you stay, your family and social connecti
 and whether you intend to return and live there. Holding a home somewhere else doesn't cancel it out — you can have one
 in New Zealand and one overseas, and the New Zealand one still makes you a resident.
 
-Since 1 April 2026, a **non-resident visitor** carve-out sits alongside the day test, for people in New Zealand no more
+Since 1 April 2026, a **non-resident visitor** exception sits alongside the day test, for people in New Zealand no more
 than 275 days in any 18-month period who have no New Zealand work or income links and pay tax where they're resident.
 It only switches off the day test — a permanent place of abode still makes you a resident regardless.
 
@@ -158,7 +158,7 @@ the first of those 325 days.
 
 ### What is the non-resident visitor rule?
 
-A carve-out that started on 1 April 2026. It lets someone in New Zealand for up to 275 days in any 18-month period stay
+An exception that started on 1 April 2026. It lets someone in New Zealand for up to 275 days in any 18-month period stay
 a non-resident despite passing 183 days. The conditions include not working for or being paid by a New Zealand employer,
 not selling into New Zealand, not being required to be here for your work, claiming no Working for Families payments,
 and paying tax where you're resident.

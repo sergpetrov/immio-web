@@ -75,7 +75,7 @@ non-residence.
 
 ## How to keep track
 
-1. The tests are measured over the **greater part of the tax period** — at least **183 days** in an ordinary year, or
+1. The tests are measured over the **greater part of the tax period** — **at least 183 days** in an ordinary year, or
    **184 days** in a leap year.
 2. **Any part of a day** counts as a full day present, including arrival and departure days.
 3. Days don't need to be consecutive — the total is simply added up across the **calendar year**.

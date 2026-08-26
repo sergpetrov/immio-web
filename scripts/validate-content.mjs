@@ -9,7 +9,7 @@
  * Reads the Markdown directly; the registry needs Vite's import.meta.glob.
  */
 
-import { readFileSync, readdirSync, statSync } from "node:fs";
+import { existsSync, readFileSync, readdirSync, statSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -28,6 +28,12 @@ function walk(dir) {
     return full.endsWith(".md") ? [full] : [];
   });
 }
+
+/** Parsed from places.ts so the two cannot drift. */
+const REGISTERED_PLACE_IDS = new Set(
+  [...readFileSync(resolve(repoRoot, "src/modules/content/rules/places.ts"), "utf8")
+    .matchAll(/^\s*\{\s*id:\s*"([^"]+)"/gm)].map((m) => m[1]),
+);
 
 const errors = [];
 const rules = new Map();
@@ -74,6 +80,23 @@ for (const [id, { file, frontmatter }] of rules) {
   }
   if (title.length > TITLE_MAX) {
     errors.push(`${file}: "seo.title" is ${title.length} chars, max ${TITLE_MAX}`);
+  }
+
+  // An unregistered parent throws at worker start-up, which 500s every page, so
+  // catch it here rather than on the first production request.
+  const parentId = (frontmatter.place ?? "").split("-")[0];
+  if (parentId && !REGISTERED_PLACE_IDS.has(parentId)) {
+    errors.push(`${file}: place "${frontmatter.place}" has parent "${parentId}", which is not registered in places.ts`);
+  }
+
+  // A missing flag asset is a broken image on a live page, and the filename is
+  // derived from `place`, so nothing else would catch a typo in the subdivision.
+  const placeId = frontmatter.place ?? "";
+  if (placeId.includes("-")) {
+    const flagFile = `${placeId}.webp`;
+    if (!existsSync(resolve(repoRoot, "public/flags", flagFile))) {
+      errors.push(`${file}: place "${placeId}" needs public/flags/${flagFile}, which does not exist`);
+    }
   }
 
   const related = frontmatter.relatedContent ?? [];

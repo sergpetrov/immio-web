@@ -4,8 +4,10 @@ import { parseMarkdownBody } from "./markdown";
 import { assertValidRuleFrontmatter } from "./validate";
 import {
   getAllPlaces as getConfiguredPlaces,
+  getParentPlaceId,
   getPlaceById as getConfiguredPlaceById,
   getPlaceBySlug as getConfiguredPlaceBySlug,
+  isSubnationalPlaceId,
 } from "./places";
 import type { RuleDoc, RulePlace } from "./types";
 
@@ -51,9 +53,11 @@ for (const rule of RULES) {
 
 const rulesByPlace = new Map<string, RuleDoc[]>();
 for (const rule of RULES) {
-  const list = rulesByPlace.get(rule.frontmatter.place) ?? [];
+  // Keyed by the PARENT id, so a US state rule lists under United States.
+  const placeId = getParentPlaceId(rule.frontmatter.place);
+  const list = rulesByPlace.get(placeId) ?? [];
   list.push(rule);
-  rulesByPlace.set(rule.frontmatter.place, list);
+  rulesByPlace.set(placeId, list);
 }
 
 export function getAllRules(): RuleDoc[] {
@@ -65,7 +69,7 @@ export function getRuleById(id: string): RuleDoc | undefined {
 }
 
 export function getPlaceForRule(rule: RuleDoc): RulePlace {
-  const place = getConfiguredPlaceById(rule.frontmatter.place);
+  const place = getConfiguredPlaceById(getParentPlaceId(rule.frontmatter.place));
   if (!place) {
     throw new Error(`Rule ${rule.frontmatter.id} references an unknown place: ${rule.frontmatter.place}`);
   }
@@ -74,6 +78,22 @@ export function getPlaceForRule(rule: RuleDoc): RulePlace {
 
 export function getPlaceFlagId(place: RulePlace): string {
   return place.id === "schengen" ? "european_union" : place.id;
+}
+
+/**
+ * Flag for a rule. Sub-national rules (US states) deliberately share their
+ * country's `place` — no separate place, no separate URL path — so they name
+ * their own flag in frontmatter and everything else falls back to the country.
+ */
+export function getRuleFlagFile(rule: RuleDoc): string {
+  const placeId = rule.frontmatter.place;
+  // Sub-national flags are always WebP: rasterising them is what makes them
+  // affordable, since the vector originals run to hundreds of KB for a 56px
+  // icon. Country flags are always SVG. Keeping each set to one format is what
+  // lets the filename be derived instead of declared per rule.
+  return isSubnationalPlaceId(placeId)
+    ? `${placeId}.webp`
+    : `${getPlaceFlagId(getPlaceForRule(rule))}.svg`;
 }
 
 export function getRulesForCategory(categoryId: string): RuleDoc[] {
@@ -92,4 +112,4 @@ export function getRulesForPlace(placeId: string): RuleDoc[] {
   return rulesByPlace.get(placeId) ?? [];
 }
 
-export { getAllCategories, getCategoryBySlug };
+export { getAllCategories, getCategoryBySlug, isSubnationalPlaceId };

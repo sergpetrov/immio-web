@@ -70,7 +70,7 @@ year can gradually accumulate enough to become a resident, without ever spending
   on F, J, M or Q visas get a lifetime **5 calendar years**; teachers and trainees on J or Q visas are exempt only if
   they weren't already exempt as a teacher, trainee or student for part of **2 of the preceding 6 calendar years**.
 - **The closer connection exception** — even if you meet the SPT, you can be treated as a nonresident if you were
-  present under **183 days** that year, kept a tax home in one foreign country all year, had a closer connection there
+  present **under 183 days** that year, kept a tax home in one foreign country all year, had a closer connection there
   than to the US, and weren't pursuing a green card. Claimed on **Form 8840**.
 
 Meeting the SPT makes you a resident alien for the whole calendar year by default, though a **first-year choice** can
@@ -78,7 +78,7 @@ change how part of an arrival year is treated.
 
 ## How to keep track
 
-1. You need at least **31 days** in the current year, and **183 weighted days** across the current year plus the two
+1. You need **at least 31 days** in the current year, and **183 weighted days** across the current year plus the two
    years before it: all your days this year, plus **1/3** of your days in the prior year, plus **1/6** of your days in
    the year before that.
 2. A day counts if you are **present** in the US at **any point** during that day — even a same-day round trip.

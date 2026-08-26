@@ -1,4 +1,4 @@
-import { getPlaceFlagId, getPlaceForRule, getRuleById } from "../registry";
+import { getRuleById, getRuleFlagFile } from "../registry";
 import type { RuleDoc } from "../types";
 
 /**
@@ -35,13 +35,12 @@ export default function RelatedContent({ rule }: { rule: RuleDoc }) {
       </h2>
       <ul className="content-related__list">
         {related.map((doc) => {
-          const place = getPlaceForRule(doc);
           return (
             <li key={doc.frontmatter.id} className="content-related__item">
               <a className="content-related__link" href={`/rules/${doc.frontmatter.id}`}>
                 <img
                   className="content-related__flag"
-                  src={`/flags/${getPlaceFlagId(place)}.svg`}
+                  src={`/flags/${getRuleFlagFile(doc)}`}
                   alt=""
                   width={24}
                   height={24}

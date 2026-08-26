@@ -60,7 +60,7 @@ You are an Australian tax resident for an income year if you meet any one of 4 t
   ties, and living arrangements. This is the primary test, with no day-count threshold at all.
 - **Domicile test** — your domicile is in Australia, unless the Commissioner is satisfied your permanent home is
   genuinely established outside Australia.
-- **183-day test** — you're present in Australia for 183 days or more in the income year, subject to a carve-out for
+- **183-day test** — you're present in Australia for 183 days or more in the income year, subject to an exception for
   a genuine overseas home.
 - **Superannuation test** — you, or your spouse or child under 16, are a contributing member of a specific
   Commonwealth government superannuation scheme.
@@ -83,9 +83,9 @@ domicile tests.
 
 - **Escaping the domicile test isn't automatic.** Even with an Australian domicile, the Commissioner must be
   satisfied your permanent home is genuinely established elsewhere — the default assumption favours residency.
-- **The 183-day test has a two-part carve-out.** Exceeding 183 days doesn't make you resident if your usual home is
+- **The 183-day test has a two-part exception.** Exceeding 183 days doesn't make you resident if your usual home is
   genuinely overseas, and you have no intention of taking up residence in Australia. Missing either condition means
-  the carve-out doesn't apply.
+  the exception doesn't apply.
 - **The superannuation test is narrow but absolute.** It applies mainly to specific Commonwealth government
   employees and their spouse or young child, and it overrides everything else regardless of where they actually
   live.
@@ -104,7 +104,7 @@ You move to Melbourne permanently in March, renting a home, enrolling your child
 
 ### Clearing 183 days doesn't always mean resident
 
-You work a series of long assignments in Australia totalling 210 days this income year, but your only home stays overseas with your family, and you have no plan to relocate. Even though you clear the 183-day threshold, the carve-out for a genuine overseas home and no intention to reside applies, so you remain a nonresident.
+You work a series of long assignments in Australia totalling 210 days this income year, but your only home stays overseas with your family, and you have no plan to relocate. Even though you clear the 183-day threshold, the exception for a genuine overseas home and no intention to reside applies, so you remain a nonresident.
 
 ### The superannuation test overrides physical absence
 
@@ -130,7 +130,7 @@ and business ties, and living arrangements. It's assessed on the whole picture, 
 ### If I spend 183 days or more in Australia, am I automatically a tax resident?
 
 Not always. If your usual home is genuinely outside Australia and you have no intention of taking up residence here,
-a carve-out can keep you a nonresident even past 183 days.
+an exception can keep you a nonresident even past 183 days.
 
 ### What happens if I meet any of the four residency tests?
 

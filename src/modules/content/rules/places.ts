@@ -58,6 +58,22 @@ export function getAllPlaces(): RulePlace[] {
   return RULE_PLACES;
 }
 
+/**
+ * Sub-national places are written `{parent}-{subdivision}` — `us-ut` for Utah.
+ * They are deliberately NOT registered as places of their own: the rule belongs
+ * to the parent country for grouping, breadcrumbs and URLs, and the compound id
+ * exists only so the rule can carry its own flag. No registered place id
+ * contains a hyphen, so the split is unambiguous.
+ */
+export function isSubnationalPlaceId(placeId: string): boolean {
+  return placeId.includes("-");
+}
+
+export function getParentPlaceId(placeId: string): string {
+  const separator = placeId.indexOf("-");
+  return separator === -1 ? placeId : placeId.slice(0, separator);
+}
+
 export function getPlaceById(id: string): RulePlace | undefined {
   return RULE_PLACES.find((place) => place.id === id);
 }

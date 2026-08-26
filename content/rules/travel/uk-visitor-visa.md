@@ -45,7 +45,7 @@ relatedContent:
 ## Overview
 
 :::callout
-A **Standard Visitor** can stay up to **6 months per visit**. A long-term visa running
+A **Standard Visitor** can stay **up to 6 months per visit**. A long-term visa running
 **2, 5** or **10 years** doesn't extend that, each visit is still capped at 6 months.
 There's **no annual allowance** and **no required gap** between visits.
 :::

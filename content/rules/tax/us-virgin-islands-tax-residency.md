@@ -69,7 +69,7 @@ underestimate: a full year of presence achieves nothing if your work base and yo
 The presence test is the one with options. Meeting **any single route** satisfies it:
 
 - **183 days** in the territory during the tax year — the ordinary route.
-- **549 days** across the tax year and the 2 before it, with at least **60 days** in every one of those 3 years.
+- **549 days** across the tax year and the 2 before it, with **at least 60 days** in every one of those 3 years.
 - **90 days or fewer** in the mainland US during the tax year.
 - **Capped US-source earned income**, alongside more days in the territory than in the mainland.
 - **No significant connection** to the mainland US — no home, no voter registration, no spouse or minor child there.

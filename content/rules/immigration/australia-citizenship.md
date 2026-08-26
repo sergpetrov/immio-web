@@ -40,7 +40,7 @@ relatedContent:
 
 :::callout
 You can be absent **no more than 12 months** across the **4 years** before applying for Australian citizenship, and no
-more than **90 days** of that in the **final 12 months**. Those 4 years must be lawful residence, with the last **12
+**more than 90 days** of that in the **final 12 months**. Those 4 years must be lawful residence, with the last **12
 months** held as a **permanent resident**.
 :::
 

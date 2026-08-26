@@ -75,7 +75,7 @@ settling which country can claim you and letting you obtain a tax residency cert
 
 ## How to keep track
 
-1. The threshold is **183 days** or more of actual presence in any continuous 12-month period that ends inside the tax
+1. The threshold is **183 days or more** of actual presence in any continuous 12-month period that ends inside the tax
    year — so a window straddling two calendar years can trigger it.
 2. A day counts if you were in Georgia during it, however short the stay.
 3. Some days in Georgia are left out entirely: time in transit between two other countries, time spent there for

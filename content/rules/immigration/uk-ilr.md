@@ -74,7 +74,7 @@ generally means restarting the qualifying period rather than waiting a little lo
 Residence isn't the only requirement. Most applicants also have to pass the **Life in the UK test** and prove
 **English** in speaking and listening, both waived from age 65.
 
-You don't have to wait until the exact day your qualifying period ends. You can apply up to **28 days early**, and the
+You don't have to wait until the exact day your qualifying period ends. You can apply **up to 28 days early**, and the
 Home Office treats the application as if it were made once that period completes — later than 28 days early, though,
 and it's refused outright for not yet meeting the requirement.
 

@@ -43,8 +43,8 @@ relatedContent:
 
 :::callout
 The **B-1/B-2** is the US visitor visa, covering **business** and **tourism**. Each arrival is admitted separately,
-commonly for up to **6 months**, and the date recorded on your **I-94** is the deadline that counts. The visa itself
-can run up to **10 years**, but that's permission to travel, not to stay.
+commonly for **up to 6 months**, and the date recorded on your **I-94** is the deadline that counts. The visa itself
+can run **up to 10 years**, but that's permission to travel, not to stay.
 :::
 
 | Key parameters          |                              |

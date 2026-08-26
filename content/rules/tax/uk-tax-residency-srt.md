@@ -64,8 +64,8 @@ any of the previous 3 tax years, and it can be as low as **15 days** or as high 
 
 The SRT checks three things, in order, and stops at the first one that gives an answer.
 
-1. **Automatic overseas tests.** Spend under **16 days** in the UK if you were resident in any of the previous 3 tax
-   years, or under **46 days** if you were not, and you are non-resident regardless of your ties.
+1. **Automatic overseas tests.** Spend **under 16 days** in the UK if you were resident in any of the previous 3 tax
+   years, or **under 46 days** if you were not, and you are non-resident regardless of your ties.
 2. **Automatic UK tests.** Spend **183 days or more**, or your only home is in the UK, or you work full-time in the UK,
    and you are resident regardless of your ties.
 3. **Sufficient ties test.** If neither test settles it, your day count and your number of UK ties decide it together.
@@ -74,10 +74,10 @@ Between the automatic thresholds, your day count is combined with your UK ties �
 ties it takes to make you resident.
 
 - **Family tie** — your spouse, civil partner, live-in partner or child under 18 is UK resident.
-- **Accommodation tie** — somewhere you can live in the UK is available to you for **91 continuous days** or more and
-  you spend at least **one night** there.
-- **Work tie** — you do more than 3 hours of work in the UK on at least **40 days**.
-- **90-day tie** — you spent more than **90 days** in the UK in either of the previous 2 tax years.
+- **Accommodation tie** — somewhere you can live in the UK is available to you for **91 continuous days or more** and
+  you spend **at least one night** there.
+- **Work tie** — you do more than 3 hours of work in the UK on **at least 40 days**.
+- **90-day tie** — you spent **more than 90 days** in the UK in either of the previous 2 tax years.
 - **Country tie** — the UK is where you spent the most midnights in the tax year.
 
 Most people never need the third stage: either they clearly spend too little time in the UK to be resident, or they
@@ -107,7 +107,7 @@ work records for a work tie.
 ## Edge cases
 
 - **The deeming rule.** If you have **3 or more UK ties**, were resident in one of the previous 3 tax years, and spent
-  more than **30 days** in the UK without staying to midnight, every such day beyond the first 30 is added to your day
+  **more than 30 days** in the UK without staying to midnight, every such day beyond the first 30 is added to your day
   count anyway.
 - **Split-year treatment.** In the year you arrive in or leave the UK, the tax year can sometimes be split into a
   resident part and a non-resident part, so you are only taxed as a resident for part of the year.
@@ -151,7 +151,7 @@ automatic overseas test for full-time overseas workers, so you are non-resident 
 
 ### Is the UK really a 183-day rule?
 
-Only partly. **183 days** or more makes you UK resident automatically, but the reverse is not true. If you were UK
+Only partly. **183 days or more** makes you UK resident automatically, but the reverse is not true. If you were UK
 resident in any of the previous 3 tax years, as few as **16 days** can make you resident once ties are counted.
 
 ### What counts as a day spent in the UK?
@@ -171,7 +171,7 @@ agreement's tiebreaker rules then decide which country treats you as resident fo
 
 ### Does keeping a UK property make me UK resident?
 
-Not by itself. It can create an **accommodation tie** if available to you for **91 continuous days** or more and you
+Not by itself. It can create an **accommodation tie** if available to you for **91 continuous days or more** and you
 spend at least one night there — one tie out of five, so it only matters alongside your day count and other ties.
 
 ### Does the SRT apply to companies?

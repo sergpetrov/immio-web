@@ -82,7 +82,7 @@ under a separate nonresident regime.
 
 1. The presence threshold is **more than 183 days** in Uruguay during the **calendar year**, so the count resets on
    1 January.
-2. **Sporadic absences** — trips away of up to **30 consecutive days** — still count as days of Uruguayan presence, unless
+2. **Sporadic absences** — trips away of **up to 30 consecutive days** — still count as days of Uruguayan presence, unless
    you produce a tax residence certificate from another country. Once your actual days pass 183, that certificate no
    longer helps.
 3. The 60 days attached to the smaller property-investment route are counted differently: those must be days of genuine

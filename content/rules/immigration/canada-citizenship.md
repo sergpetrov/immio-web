@@ -81,8 +81,8 @@ French, and pass a **knowledge test** on Canada.
 
 1. You need **1095 days** physically in Canada within the **5 years** immediately before the date you apply.
 2. **Any part of a day** in Canada counts as a full day, including arrival and departure days.
-3. Days in Canada **before** you became a permanent resident count at **half a day each**, and no more than **365
-   credited days** can come from this source however long you were here.
+3. Days in Canada **before** you became a permanent resident count at **half a day each**, and
+   **no more than 365 credited days** can come from this source however long you were here.
 4. The window counts **backwards from your application date**, so waiting longer moves the window and can bring more
    qualifying days into scope.
 5. Time abroad counts only for a permanent resident serving overseas with the Canadian Armed Forces, the federal public

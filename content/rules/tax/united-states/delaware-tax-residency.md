@@ -62,16 +62,15 @@ Delaware resident if either of these applies:
 - **Abode plus days** — you maintain a place of abode in Delaware and spend more than 183 days of the tax year in
   the state.
 
-What sets Delaware apart is a detailed exception for people living abroad, which most states do not offer at all. A
-Someone domiciled in Delaware is not treated as a resident for a period where all of these hold together:
+What sets Delaware apart is a detailed exception for people living abroad. Someone domiciled in Delaware is not
+treated as a resident for a period where all of these hold together:
 
 - present in a foreign country for **at least 495 full days** in any consecutive **18-month** period,
 - present in Delaware for **no more than 45 days** during that 18 months,
 - keeping no Delaware abode at which a spouse, children or parents are present for **more than 45 days**, and
 - not employed by the United States government or its agencies.
 
-That structure rewards a genuinely sustained absence rather than a carefully arranged one, and the family-presence
-condition closes the obvious gap of leaving a household behind.
+The family-presence condition closes the obvious gap of leaving a household behind.
 
 ## How to keep track
 

@@ -63,10 +63,8 @@ Louisiana resident if any of these applies:
 - **More than 6 months in the state** — aggregated across the tax year, whatever your housing arrangements.
 
 The structure is what matters here. Most states pair a home **and** a day count as two conditions that must both
-hold. Louisiana separates them: either one qualifies on its own.
-
-That makes a Louisiana property considerably more dangerous than an equivalent property in a neighboring state.
-Somewhere like Mississippi or Texas would ask how many days you spent there as well; Louisiana does not need to.
+hold. Louisiana separates them: either one qualifies on its own, so a second home in the state exposes you with no
+day count at all.
 
 Someone who resides in the state for more than six months is treated as a resident for the **entire year**, not just
 the portion after the threshold was passed. A temporary absence does not change domicile by itself.

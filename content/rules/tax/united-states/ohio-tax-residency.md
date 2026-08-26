@@ -62,22 +62,20 @@ and gives you a way to establish that your domicile is elsewhere:
 - **The bright-line presumption** — staying at or under a fixed number of contact periods and meeting several
   supporting conditions presumes you are not domiciled in Ohio.
 
-A contact period is not a day — it is closer to a **night**. You have one when you are away overnight from your abode
-outside Ohio and spend at least some portion, however minimal, of each of
-**2 consecutive days** in the state.
+A contact period is not a day but something closer to a **night**, so the count runs well below the number of days
+you spend in the state.
 
-The count is only the first of several conditions. Alongside 212 or fewer contact periods you must hold at least one
-residence outside Ohio and claim no depreciation on it federally, hold no valid Ohio driver's license or state ID,
-receive no Ohio property tax reduction of the specified kinds, and, if enrolled at an Ohio college, not be charged
-in-state tuition. A sworn statement then has to be filed by the fifteenth day of the tenth month after the tax year
-ends.
+The count is only the first of several conditions. You must also hold at least one residence outside Ohio and claim
+no federal depreciation on it, hold no valid Ohio driver's license or state ID, receive no Ohio property tax
+reduction of the specified kinds, and pay no in-state tuition at an Ohio college — then file a sworn statement after
+the tax year ends.
 
 The presumption runs both ways from the same number. At **212 or fewer** contact periods with every condition met you
 are presumed not to be an Ohio resident. At **213 or more** you are presumed to be one, and rebutting that takes clear
 and convincing evidence.
 
-The figure has moved. It was 182 contact periods until it was raised to 212 in March 2015, so older guidance still in
-circulation understates the allowance by a month.
+The figure was 182 contact periods until March 2015, so older guidance still in circulation understates the
+allowance by a month.
 
 ## How to keep track
 
@@ -150,6 +148,12 @@ however minimal, of each of 2 consecutive days in the state.
 
 No, and this is the most common mistake about Ohio. A single day in the state creates no contact period, because the
 test needs portions of 2 consecutive days while away overnight from your out-of-state home.
+
+### Do I have to spend the night in Ohio?
+
+No, and this is where the count is usually underestimated. The overnight has to be away from your home outside Ohio,
+not inside the state, so sleeping across the border while spending part of one day and part of the next in Ohio still
+produces a contact period.
 
 ### Is the Ohio threshold 182 or 212?
 

@@ -68,10 +68,6 @@ A permanent place of abode is a house, apartment, dwelling place or other reside
 household for an indefinite period, whether the occupant owns it. What falls outside it is accommodation
 occupied only during a fixed or limited period for a particular purpose.
 
-Pennsylvania frames the counting differently from most states. Instead of asking whether any part of a day was spent
-in the state, it works from midnight to midnight: to treat a day as spent outside Pennsylvania you must have been
-outside for the full 24 hours. In practice that means any presence during a day makes it a Pennsylvania day.
-
 ## How to keep track
 
 1. The threshold is **more than 183 days** in the tax year, which runs 1 January to 31 December, so day **184** is

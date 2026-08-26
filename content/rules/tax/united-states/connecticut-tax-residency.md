@@ -63,8 +63,8 @@ are a Connecticut resident if either of these applies:
 - **Permanent place of abode plus days** — you are domiciled elsewhere but maintain a permanent place of abode in
   Connecticut and are in the state for an aggregate of more than 183 days of the tax year.
 
-The day rule reaches only people domiciled outside Connecticut. For someone domiciled there, residence follows from
-domicile itself and no count is involved.
+The day rule reaches only people domiciled outside Connecticut — for anyone domiciled there, residence follows from
+domicile alone.
 
 A permanent place of abode is a dwelling permanently maintained by you, whether or not you own or lease it. What
 falls outside the definition is a place kept only for a temporary stay to accomplish a particular purpose, along with

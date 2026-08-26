@@ -68,9 +68,6 @@ The pairing is deliberate. The domicile route has an exit built into it for peop
 statutory route reaches people who never considered themselves West Virginians but keep a home in the state and spend
 most of the year there.
 
-Both halves of the exit matter. Keeping a West Virginia home available defeats it whatever your day count, and so
-does failing to establish a permanent place of abode somewhere else.
-
 ## How to keep track
 
 1. The threshold is **more than 183 days** in the tax year, so day **184** is the first that qualifies. The year runs

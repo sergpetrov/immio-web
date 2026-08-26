@@ -62,9 +62,8 @@ Maryland resident if either of these applies:
 - **Abode plus days** — you maintain a place of abode in Maryland for more than 6 months of the tax year and are
   physically present in the state for 183 days or more.
 
-Domicile is also tested at a single point rather than across the year. Being domiciled in Maryland on the last day of
-the tax year is what matters, which makes the timing of a move near the year-end significant in a way it is not
-elsewhere.
+Domicile is tested at a single point rather than across the year, so the timing of a move around 31 December decides
+how the whole year is treated.
 
 ## How to keep track
 

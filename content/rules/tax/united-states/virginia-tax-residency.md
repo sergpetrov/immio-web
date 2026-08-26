@@ -66,10 +66,6 @@ in naming its two routes as separate classes of resident:
 Both classes are taxed as residents. Someone can be an actual resident of Virginia and a domiciliary resident of
 another state in the same year, and both states will treat the year as a resident year.
 
-Virginia also excludes something most states do not. A day counts if you were physically present for any portion of
-it, **except** where that part-day was spent solely while in transit to a destination outside Virginia. Passing
-through on the way somewhere else does not add to the count.
-
 Changing domicile requires two things together: abandoning the Virginia domicile with no intention of returning, and
 acquiring a new one by being physically present somewhere else intending to stay permanently or indefinitely.
 

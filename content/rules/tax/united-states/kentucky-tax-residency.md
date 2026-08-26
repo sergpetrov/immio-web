@@ -63,12 +63,9 @@ Kentucky resident if either of these applies:
   than 183 days of the tax year there.
 
 Kentucky sits at the center of a dense set of reciprocity agreements with neighboring states, which normally let
-commuters pay tax only where they live rather than where they work. That is what makes the day rule matter more here
-than the bare threshold suggests.
-
-Meeting the statutory route **overrides reciprocity**. Someone domiciled in a reciprocal state who maintains a place
-of abode in Kentucky and spends more than 183 days there is a Kentucky resident, and the agreement that would
-otherwise protect them stops applying.
+commuters pay tax only where they live rather than where they work. Meeting the statutory route **overrides
+reciprocity**: someone domiciled in a reciprocal state who maintains a place of abode in Kentucky and spends more
+than 183 days there is a Kentucky resident, and the agreement that would otherwise protect them stops applying.
 
 ## How to keep track
 

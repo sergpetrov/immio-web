@@ -101,7 +101,7 @@ occupied by you and on what basis.
 
 ## If you get this rule wrong
 
-A resident is taxed on income from all sources while a nonresident pays only on Iowa-source income, so an error usually surfaces as out-of-state earnings never reported by someone who assumed a low day count kept them out when the abode itself was the test. The Department charges interest from the original due date and adds penalties for filing late and for underpaying, rising where an understatement is treated as more than an honest mistake. **Professional tax advice is strongly recommended in situations like this.**
+A resident is taxed on income from all sources while a nonresident pays only on Iowa-source income, so an error usually surfaces as out-of-state earnings never reported by someone watching the day count when the abode itself was the test. The Department charges interest from the original due date and adds penalties for filing late and for underpaying, rising where an understatement is treated as more than an honest mistake. **Professional tax advice is strongly recommended in situations like this.**
 
 ## Examples
 

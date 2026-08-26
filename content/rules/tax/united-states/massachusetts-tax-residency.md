@@ -66,14 +66,9 @@ The second route is purely mechanical. It asks only whether a home was available
 and nothing at all about where you consider yourself to live.
 
 A permanent place of abode is a dwelling continually maintained by someone, not necessarily its owner, and it
-includes a place owned or leased by your spouse. Several kinds of accommodation are outside it: a camp, military
-barracks and housing, a dormitory or hospital room or similar temporary institutional setting, a university-owned
-studio available only to people affiliated with it, a dwelling lacking both kitchen and bathing facilities, and a
-dwelling not prepared for winter.
-
-Massachusetts is unusual in settling the day-counting question in the statute itself rather than leaving it to
-guidance. The definition expressly counts days spent partly inside and partly outside the state, so a partial day is
-a full day as a matter of law rather than administrative practice.
+includes a place owned or leased by your spouse. Outside it sit camps, military barracks and housing, institutional
+rooms such as dormitories and hospitals, university housing open only to those affiliated with it, and any dwelling
+lacking kitchen and bathing facilities or not winterized.
 
 ## How to keep track
 

@@ -66,9 +66,6 @@ The second route asks nothing about intent. A home and a count are the whole of 
 who think of themselves as visiting rather than living there. You need not own the abode, and the rule applies even
 where you are domiciled in another state.
 
-Every kind of day counts the same. Business days, weekends and holidays are treated alike, and the days do not need
-to run consecutively, so separate seasons add together toward one total.
-
 ## How to keep track
 
 1. The threshold is **more than 6 months** of the tax year, which runs 1 January to 31 December. Colorado publishes no
@@ -140,9 +137,10 @@ same total.
 No. The test asks whether a permanent place of abode is maintained, and a rented or otherwise available home counts as
 fully as one you own.
 
-### Do weekends and holidays count?
+### Does a ski season spanning New Year count as one stretch?
 
-Yes. Business days, weekends and holidays all count equally, and there is no category of day excluded from the count.
+No. The six months are measured inside one tax year, so a season running from December into April is divided between
+two annual totals. Two consecutive seasons under the line stay under it even where the combined stay is far longer.
 
 ### Does my ski house make me a resident?
 

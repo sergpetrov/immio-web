@@ -27,6 +27,9 @@ sources:
   - title: "New York State Department of Taxation and Finance — Residency and telecommuting FAQs"
     url: https://www.tax.ny.gov/pit/file/nonresident-faqs.htm
     type: official
+  - title: "New York State Department of Taxation and Finance — Nonresident audit guidelines"
+    url: https://www.tax.ny.gov/pdf/2021/misc/nonresident-audit-guidelines-2021.pdf
+    type: official
 
 relatedContent:
   - new-jersey-tax-residency
@@ -65,8 +68,8 @@ consider their own. You are a New York resident if either of these applies:
 - **Statutory residency** — you are domiciled elsewhere but keep a permanent place of abode in New York for
   substantially all the tax year and spend more than 183 days in the state.
 
-The second route is the one that catches people, because it ignores intent entirely. It is a mechanical test: an
-abode plus a day count, and nothing about where you consider home.
+The second route is the one that catches people: a mechanical test of an abode plus a day count, with nothing about
+where you consider home.
 
 What counts as an abode is broader than most expect. It is any building or structure suitable for year-round use that
 you permanently maintain, and whether you own it makes no difference. You are maintaining it if you can stay there
@@ -99,8 +102,8 @@ abode started and ended.
   state, so both can tax you as a resident in the same year, with credits offsetting only part of it.
 - **An abode you barely use still counts.** Because maintaining turns on being able to stay there rather than on
   actually staying, a rarely-visited apartment satisfies the abode limb in full.
-- **Travel days through New York count.** A day is a day whether or not you went near your abode, which is why
-  connecting flights and client visits are what usually push a count over the line.
+- **A day counts even when you never go near your abode.** That is why client visits and meetings elsewhere in the
+  state are what usually push a count over the line.
 - **The abode clock and the day clock are separate.** Selling a home in November can defeat the abode limb for the
   whole year even where the day count was passed months earlier.
 - **New York City has its own residency rules.** Being a New York State resident and a City resident are decided
@@ -134,6 +137,7 @@ the day count.
 - [New York State Department of Taxation and Finance — Income tax definitions](https://www.tax.ny.gov/pit/file/pit_definitions.htm)
 - [New York State Department of Taxation and Finance — Permanent place of abode](https://www.tax.ny.gov/pubs_and_bulls/tg_bulletins/pit/permanent_place_of_abode.htm)
 - [New York State Department of Taxation and Finance — Residency and telecommuting FAQs](https://www.tax.ny.gov/pit/file/nonresident-faqs.htm)
+- [New York State Department of Taxation and Finance — Nonresident audit guidelines](https://www.tax.ny.gov/pdf/2021/misc/nonresident-audit-guidelines-2021.pdf)
 
 ## FAQ
 
@@ -146,6 +150,19 @@ The statute sets the figure at 183 days and qualifies it with "more than." New Y
 
 No. Any part of a day in the state counts as a full day, and you do not need to have been at your abode at all. A day
 spent entirely on business elsewhere in New York still counts.
+
+### Are there days in New York that do not count?
+
+Two, and both are narrow. Presence solely to board a plane, ship, train or bus leaving the state, or to continue a
+journey begun outside it and ending outside it, is disregarded — buying a meal at the terminal or stopping for fuel
+does not change that. Time confined in a New York medical institution does not count either, whatever the admission
+was for, though outpatient appointments are ordinary New York days.
+
+### Does this decide New York City tax?
+
+The city runs the same two routes over its own territory: domicile in the five boroughs, or a permanent place of
+abode there plus more than 183 days spent in the city. Days elsewhere in the state count toward the state test but
+not the city one, so you can be a state resident and a city nonresident in the same year.
 
 ### Does a place I rarely stay in count as a permanent place of abode?
 

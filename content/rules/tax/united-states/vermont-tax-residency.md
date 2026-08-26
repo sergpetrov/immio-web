@@ -62,8 +62,7 @@ Vermont resident if either of these applies:
 - **Abode plus days** — you both maintain a permanent place of abode in Vermont and are present in the state for more
   than an aggregate of 183 days of the tax year.
 
-The statute joins the two conditions deliberately. Vermont's wording asks whether you maintain the abode **and** are
-present for the days, so neither limb does anything on its own.
+The statute joins the two conditions deliberately, so neither limb does anything on its own.
 
 Vermont's ski and second-home economy is what makes the rule bite. A large share of the property in the state is
 owned by people domiciled in New York, Massachusetts or Connecticut, and a year-round house used through a long
@@ -131,9 +130,10 @@ The rule is more than an aggregate of 183 days, so day 184 is the first that qua
 Only if you also pass the day count. The statute needs a permanent place of abode and more than 183 days in the same
 tax year, so the house alone does not do it.
 
-### Do the days have to be consecutive?
+### Does a season running from December into spring count in one year?
 
-No. They are counted in the aggregate across the tax year, so a winter season and a summer season add together.
+No. The total is struck within a single tax year, so the December part belongs to one year and the rest to the next.
+A winter that would clear 183 days end to end can leave both years short.
 
 ### Can Vermont and my home state both tax me as a resident?
 

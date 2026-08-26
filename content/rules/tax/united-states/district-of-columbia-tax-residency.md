@@ -68,8 +68,7 @@ you were **present**. The District counts the days the **abode itself was mainta
 are included. The trigger is having ongoing access to a DC dwelling, owned or leased.
 
 The practical effect is stark: a lease or a deed running past six months can make you a DC resident on worldwide
-income even in a year you barely set foot in the District. Someone who buys an apartment in March and never moves in
-has still maintained an abode for well past 183 days.
+income even in a year you barely set foot in the District.
 
 Domicile is also tested generously against you. Being domiciled in the District at **any time** during the year is
 enough, so a move in either direction still leaves part of the year exposed.

@@ -147,6 +147,11 @@ No. Members of the armed forces of the United States are outside the statutory r
 Someone domiciled in Maine who is nevertheless not treated as a resident individual for income tax purposes, on
 conditions set by the state.
 
+### Does a summer that runs past the year end count in one year?
+
+Only the part that falls inside it. Maine counts each tax year separately, so a stay bridging 31 December is split
+between two totals, and neither may reach 183 days even when the visit itself was longer.
+
 ### Do I have to own the Maine property?
 
 No. A residence maintained as your home counts whether or not you own it, provided it is not on the exclusion list.

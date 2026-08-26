@@ -62,15 +62,11 @@ resident if either of these applies:
 - **Abode plus days** — you maintain a place of abode in Idaho for the entire tax year and spend more than 270 days
   of that year in the state.
 
-Idaho sets the highest day threshold of any state that uses one. More than 270 days is roughly nine months, which
-leaves far more room than the 183-day line used by most income-tax states.
+More than 270 days is roughly nine months, the highest day threshold any state applies.
 
 The abode condition is correspondingly strict. It must be maintained for the **entire** tax year rather than for
 substantially all of it or for six months, so acquiring or giving up an Idaho home partway through the year defeats
 the test regardless of how the day count falls.
-
-Both limbs also carry an all-or-nothing quality on timing: domicile counts only if it held for the whole year, and
-the abode only if it was in place throughout.
 
 ## How to keep track
 

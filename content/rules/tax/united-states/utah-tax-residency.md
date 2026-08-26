@@ -71,8 +71,6 @@ property tax exemption** on a home raises a rebuttable presumption of domicile. 
 enrolled in a Utah public school or being registered to vote in the state, feed the same analysis. Where the
 presumptions do not settle it, the Tax Commission weighs the full circumstances on the balance of the evidence.
 
-The threshold is set at **183 or more** rather than more than 183, so day 183 itself qualifies.
-
 ## How to keep track
 
 1. The threshold is **183 days or more** in the tax year, so day **183** itself qualifies.

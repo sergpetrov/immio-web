@@ -42,7 +42,8 @@ relatedContent:
 :::callout
 Spending **more than 200 days** in Oregon in a **tax year** while keeping a **permanent place of abode** there makes
 you a resident, taxed on income from all sources — unless you can show your stay was **temporary or transitory**.
-Being **domiciled** in Oregon qualifies you with no day count.
+**Domicile** qualifies with no day count, unless you keep **no home** in Oregon, keep one elsewhere, and stay
+**30 days or fewer**.
 :::
 
 | Key parameters          |                           |
@@ -58,11 +59,13 @@ Being **domiciled** in Oregon qualifies you with no day count.
 This applies to anyone with a year-round home available to them in Oregon, whichever state they treat as their own.
 You are an Oregon resident if either of these applies:
 
-- **Domicile** — Oregon is your permanent home, the place you intend to return to whenever you are away.
+- **Domicile** — Oregon is your permanent home, the place you intend to return to whenever you are away. That fails
+  only where three things line up: no permanent place of abode kept in Oregon, one maintained elsewhere, and no more
+  than 30 days spent in the state.
 - **Abode plus days** — you are domiciled elsewhere but maintain a permanent place of abode in Oregon and spend more
   than 200 days of the tax year in the state.
 
-The second route also has an escape the 183-day states do not offer. Even above 200 days you are not a resident if
+The second route also has an escape most states do not offer. Even above 200 days you are not a resident if
 you can prove you were in Oregon only for a temporary or transitory purpose — passing through, taking a short rest or
 vacation, or completing a particular transaction needing only a brief stay.
 
@@ -80,6 +83,8 @@ it only at weekends or on vacation.
 4. Both limbs must hold in the same tax year — the abode alone does not qualify, and the days alone do not either.
 5. If you are near the line, record the **purpose** of your Oregon time as well as its length, since a temporary or
    transitory stay can defeat the test even above 200 days.
+6. If you are domiciled in Oregon and leaving, the figure to watch is **30 days**, and it counts for nothing unless
+   you also keep no Oregon abode and maintain a permanent home outside the state.
 
 Keep day-level travel records for the whole year, plus documents showing when the Oregon property was available to
 you and evidence of what you were doing while in the state.
@@ -94,8 +99,9 @@ you and evidence of what you were doing while in the state.
   183-day threshold before the question arises.
 - **The burden sits with you above the line.** It is for you to prove the temporary or transitory purpose, not for
   the state to disprove it.
-- **Domicile needs no count at all.** Someone domiciled in Oregon is a resident whatever their days, so the
-  200-day figure is irrelevant until domicile changes.
+- **Leaving while domiciled has its own number.** A domiciliary who keeps no Oregon abode, maintains one elsewhere
+  and spends no more than 30 days in the state is outside residency for the year, with the 200-day figure playing no
+  part in it.
 
 ## If you get this rule wrong
 
@@ -146,6 +152,12 @@ even where the abode and the day count are both met.
 
 Its statute simply sets the line at more than 200 days rather than the 183 days used by most income-tax states, which
 leaves noticeably more room before residency attaches.
+
+### How does someone domiciled in Oregon become a nonresident?
+
+By meeting all three of the statute's conditions in the same year: no permanent place of abode kept in Oregon, a
+permanent place of abode maintained somewhere else, and no more than 30 days spent in the state. Miss any one of
+them and domicile alone makes you a resident.
 
 ### Does the count have to be continuous?
 

@@ -146,6 +146,11 @@ whatever your count, and domicile does so on its own.
 No. Unlike the states that pair a day count with a permanent place of abode, Hawaii's presumption turns on time in
 the state alone.
 
+### Does a stay crossing New Year count once or twice?
+
+It is divided. The 200 days are counted within a single tax year, so days before 1 January belong to one year's total
+and days after it to the next. A single stay of eight months can therefore trigger the presumption in neither year.
+
 ### Do partial days count?
 
 Hawaii does not publish a partial-day rule. Counting any part of a day as a full day is the safe reading to track

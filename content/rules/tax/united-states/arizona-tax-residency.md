@@ -144,6 +144,11 @@ applies, so a stay that has effectively become permanent can make you resident a
 
 No. The presumption only runs one way. Presence below 9 months raises no presumption of nonresidence.
 
+### Does a winter that runs into January split across two years?
+
+Yes. Each tax year is counted on its own, so a season starting in November and ending in March is split between two
+counts rather than added into one. A stay longer than nine months can leave both years under the presumption.
+
 ### Do I need a home in Arizona for the rule to apply?
 
 No. The presumption turns on time in the state alone, unlike the states that pair a day count with a permanent place

@@ -1,7 +1,7 @@
 ---
 id: norway-tax-residency
 
-title: Norway Tax Residency (183-day and 270-day rules)
+title: Norway Tax Residency
 subtitle: 183-day or 270-day rule ∙ Rolling 12 or 36 months
 
 category: tax

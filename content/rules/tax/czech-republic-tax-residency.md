@@ -1,7 +1,7 @@
 ---
 id: czech-republic-tax-residency
 
-title: Czech Republic Tax Residency (183-day rule)
+title: Czech Republic Tax Residency
 subtitle: 183 days ∙ Starts Jan 1 ∙ Permanent home test
 
 category: tax

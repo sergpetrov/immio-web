@@ -1,7 +1,7 @@
 ---
 id: california-tax-residency
 
-title: California Tax Residency (9-month presumption)
+title: California Tax Residency
 subtitle: 9 months (~270 days) ∙ Starts Jan 1
 
 category: tax

@@ -1,7 +1,7 @@
 ---
 id: china-tax-residency
 
-title: China Tax Residency (183-day rule)
+title: China Tax Residency
 subtitle: 183 days ∙ Starts Jan 1
 
 category: tax

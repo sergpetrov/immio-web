@@ -1,7 +1,7 @@
 ---
 id: georgia-tax-residency
 
-title: Georgia Tax Residency (183-day rule)
+title: Georgia Tax Residency
 subtitle: 183 days ∙ Rolling 12 months
 
 category: tax

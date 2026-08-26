@@ -1,7 +1,7 @@
 ---
 id: greece-tax-residency
 
-title: Greece Tax Residency (183-day rule)
+title: Greece Tax Residency
 subtitle: 183 days ∙ Rolling 12 months
 
 category: tax

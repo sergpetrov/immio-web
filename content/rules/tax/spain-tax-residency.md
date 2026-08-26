@@ -1,7 +1,7 @@
 ---
 id: spain-tax-residency
 
-title: Spain Tax Residency (183-day rule)
+title: Spain Tax Residency
 subtitle: 183 days ∙ Starts Jan 1 ∙ Beckham Law
 
 category: tax

@@ -1,7 +1,7 @@
 ---
 id: iowa-tax-residency
 
-title: Iowa Tax Residency (183-day rule)
+title: Iowa Tax Residency
 subtitle: 183 days ∙ Starts Jan 1
 
 category: tax

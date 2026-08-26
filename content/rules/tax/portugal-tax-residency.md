@@ -1,7 +1,7 @@
 ---
 id: portugal-tax-residency
 
-title: Portugal Tax Residency (183-day rule)
+title: Portugal Tax Residency
 subtitle: 183 days ∙ Rolling 12 months ∙ NHR ∙ IFICI
 
 category: tax

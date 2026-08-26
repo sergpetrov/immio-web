@@ -1,7 +1,7 @@
 ---
 id: uruguay-tax-residency
 
-title: Uruguay Tax Residency (183-day rule)
+title: Uruguay Tax Residency
 subtitle: 183 days ∙ Starts Jan 1
 
 category: tax

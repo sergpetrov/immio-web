@@ -1,7 +1,7 @@
 ---
 id: idaho-tax-residency
 
-title: Idaho Tax Residency (270-day rule)
+title: Idaho Tax Residency
 subtitle: 270 days ∙ Starts Jan 1
 
 category: tax

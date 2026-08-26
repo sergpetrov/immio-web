@@ -1,7 +1,7 @@
 ---
 id: serbia-tax-residency
 
-title: Serbia Tax Residency (183-day rule)
+title: Serbia Tax Residency
 subtitle: 183 days ∙ Rolling 12 months
 
 category: tax

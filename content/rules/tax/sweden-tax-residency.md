@@ -1,7 +1,7 @@
 ---
 id: sweden-tax-residency
 
-title: Sweden Tax Residency (6-month habitual stay rule)
+title: Sweden Tax Residency
 subtitle: 6 consecutive months ∙ Residence, essential connection
 
 category: tax

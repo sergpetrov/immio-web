@@ -1,7 +1,7 @@
 ---
 id: mauritius-tax-residency
 
-title: Mauritius Tax Residency (183-day and 270-day rules)
+title: Mauritius Tax Residency
 subtitle: 183 days ∙ Stars Jul 1
 
 category: tax

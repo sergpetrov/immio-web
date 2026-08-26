@@ -1,7 +1,7 @@
 ---
 id: louisiana-tax-residency
 
-title: Louisiana Tax Residency (6-month rule)
+title: Louisiana Tax Residency
 subtitle: 6 months (~183 days) ∙ Starts Jan 1
 
 category: tax

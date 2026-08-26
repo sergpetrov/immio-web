@@ -1,7 +1,7 @@
 ---
 id: utah-tax-residency
 
-title: Utah Tax Residency (183-day rule)
+title: Utah Tax Residency
 subtitle: 183 days ∙ Starts Jan 1
 
 category: tax

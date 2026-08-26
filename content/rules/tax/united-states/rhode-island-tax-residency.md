@@ -1,7 +1,7 @@
 ---
 id: rhode-island-tax-residency
 
-title: Rhode Island Tax Residency (183-day rule)
+title: Rhode Island Tax Residency
 subtitle: 183 days ∙ Starts Jan 1
 
 category: tax

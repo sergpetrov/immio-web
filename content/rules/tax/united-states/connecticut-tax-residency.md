@@ -1,7 +1,7 @@
 ---
 id: connecticut-tax-residency
 
-title: Connecticut Tax Residency (183-day rule)
+title: Connecticut Tax Residency
 subtitle: 183 days ∙ Starts Jan 1
 
 category: tax

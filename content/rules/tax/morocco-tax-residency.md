@@ -1,7 +1,7 @@
 ---
 id: morocco-tax-residency
 
-title: Morocco Tax Residency (183-day rule)
+title: Morocco Tax Residency
 subtitle: 183 days ∙ Rolling 365 days ∙ Permanent home test
 
 category: tax

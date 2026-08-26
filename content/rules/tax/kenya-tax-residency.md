@@ -1,7 +1,7 @@
 ---
 id: kenya-tax-residency
 
-title: Kenya Tax Residency (183-day and 122-day rules)
+title: Kenya Tax Residency
 subtitle: 183 days ∙ Starts Jan 1
 
 category: tax

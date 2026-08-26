@@ -1,7 +1,7 @@
 ---
 id: switzerland-tax-residency
 
-title: Switzerland Tax Residency (30-day and 90-day rules)
+title: Switzerland Tax Residency
 subtitle: 30 or 90 days per visit ∙ Domicile
 
 category: tax

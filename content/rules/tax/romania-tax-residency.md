@@ -1,7 +1,7 @@
 ---
 id: romania-tax-residency
 
-title: Romania Tax Residency (183-day rule)
+title: Romania Tax Residency
 subtitle: 183 days ∙ Rolling 12 months
 
 category: tax

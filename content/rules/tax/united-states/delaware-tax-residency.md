@@ -1,7 +1,7 @@
 ---
 id: delaware-tax-residency
 
-title: Delaware Tax Residency (183-day rule)
+title: Delaware Tax Residency
 subtitle: 183 days ∙ Starts Jan 1
 
 category: tax

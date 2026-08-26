@@ -1,7 +1,7 @@
 ---
 id: pennsylvania-tax-residency
 
-title: Pennsylvania Tax Residency (183-day rule)
+title: Pennsylvania Tax Residency
 subtitle: 183 days ∙ Starts Jan 1
 
 category: tax

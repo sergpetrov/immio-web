@@ -1,7 +1,7 @@
 ---
 id: indonesia-tax-residency
 
-title: Indonesia Tax Residency (183-day rule)
+title: Indonesia Tax Residency
 subtitle: 183 days ∙ Rolling 12 months ∙ Residence test
 
 category: tax

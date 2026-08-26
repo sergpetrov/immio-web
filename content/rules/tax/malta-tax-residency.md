@@ -1,7 +1,7 @@
 ---
 id: malta-tax-residency
 
-title: Malta Tax Residency (183-day rule)
+title: Malta Tax Residency
 subtitle: 183 days ∙ Starts Jan 1 ∙ Ordinary residence test
 
 category: tax

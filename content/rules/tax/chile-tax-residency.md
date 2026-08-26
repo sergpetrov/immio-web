@@ -1,7 +1,7 @@
 ---
 id: chile-tax-residency
 
-title: Chile Tax Residency (183-day rule)
+title: Chile Tax Residency
 subtitle: 183 days ∙ Rolling 12 months ∙ Domicile test
 
 category: tax

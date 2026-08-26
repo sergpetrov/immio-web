@@ -1,7 +1,7 @@
 ---
 id: colorado-tax-residency
 
-title: Colorado Tax Residency (183-day rule)
+title: Colorado Tax Residency
 subtitle: 6 months ∙ Starts Jan 1
 
 category: tax
@@ -47,7 +47,7 @@ the abode. Being **domiciled** in Colorado qualifies with no count at all.
 
 | Key parameters          |                           |
 |:------------------------|--------------------------:|
-| Threshold               | 6 months (~183 days) |
+| Threshold               |      6 months (~183 days) |
 | Period / Window         | Tax year (1 Jan – 31 Dec) |
 | Counting                |         Any part of a day |
 | Alternative             |                  Domicile |

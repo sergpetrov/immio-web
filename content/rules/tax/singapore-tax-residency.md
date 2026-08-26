@@ -1,7 +1,7 @@
 ---
 id: singapore-tax-residency
 
-title: Singapore Tax Residency (183-day rule)
+title: Singapore Tax Residency
 subtitle: 183 days ∙ Starts Jan 1 ∙ Ordinary residence
 
 category: tax

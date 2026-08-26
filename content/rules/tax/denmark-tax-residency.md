@@ -1,7 +1,7 @@
 ---
 id: denmark-tax-residency
 
-title: Denmark Tax Residency (6-month rule)
+title: Denmark Tax Residency
 subtitle: 6 consecutive months ∙ Home test
 
 category: tax

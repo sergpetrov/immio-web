@@ -1,7 +1,7 @@
 ---
 id: north-carolina-tax-residency
 
-title: North Carolina Tax Residency (183-day presumption)
+title: North Carolina Tax Residency
 subtitle: 183 days ∙ Starts Jan 1
 
 category: tax

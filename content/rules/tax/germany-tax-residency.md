@@ -1,7 +1,7 @@
 ---
 id: germany-tax-residency
 
-title: Germany Tax Residency (6-month rule)
+title: Germany Tax Residency
 subtitle: 183 days ∙ Continuous stay ∙ Dwelling test
 
 category: tax

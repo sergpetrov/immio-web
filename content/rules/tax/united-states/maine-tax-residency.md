@@ -1,7 +1,7 @@
 ---
 id: maine-tax-residency
 
-title: Maine Tax Residency (183-day rule)
+title: Maine Tax Residency
 subtitle: 183 days ∙ Starts Jan 1
 
 category: tax

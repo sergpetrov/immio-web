@@ -1,7 +1,7 @@
 ---
 id: new-zealand-tax-residency
 
-title: New Zealand Tax Residency (183-day rule)
+title: New Zealand Tax Residency
 subtitle: 183 days ∙ Rolling 12 months ∙ Permanent place of abode
 
 category: tax

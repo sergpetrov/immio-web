@@ -1,7 +1,7 @@
 ---
 id: saudi-arabia-tax-residency
 
-title: Saudi Arabia Tax Residency (30-day and 183-day rules)
+title: Saudi Arabia Tax Residency
 subtitle: 30 days or 183 days ∙ Starts Jan 1
 
 category: tax

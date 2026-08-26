@@ -1,7 +1,7 @@
 ---
 id: illinois-tax-residency
 
-title: Illinois Tax Residency (temporary or transitory purpose)
+title: Illinois Tax Residency
 subtitle: No day threshold ∙ Starts Jan 1
 
 category: tax

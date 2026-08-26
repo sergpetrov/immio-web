@@ -1,7 +1,7 @@
 ---
 id: cyprus-tax-residency
 
-title: Cyprus Tax Residency (60-day and 183-day rules)
+title: Cyprus Tax Residency
 subtitle: 60-day or 183-day rule ∙ ≤183 days in any other country ∙ Non-dom
 
 category: tax

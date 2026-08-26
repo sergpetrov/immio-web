@@ -1,7 +1,7 @@
 ---
 id: oregon-tax-residency
 
-title: Oregon Tax Residency (200-day rule)
+title: Oregon Tax Residency
 subtitle: 200 days ∙ Starts Jan 1
 
 category: tax

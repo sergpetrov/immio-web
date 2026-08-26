@@ -1,7 +1,7 @@
 ---
 id: north-dakota-tax-residency
 
-title: North Dakota Tax Residency (7-month rule)
+title: North Dakota Tax Residency
 subtitle: 7 months (~210 days) ∙ Starts Jan 1
 
 category: tax

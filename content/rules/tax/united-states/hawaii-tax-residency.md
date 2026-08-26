@@ -1,7 +1,7 @@
 ---
 id: hawaii-tax-residency
 
-title: Hawaii Tax Residency (200-day presumption)
+title: Hawaii Tax Residency
 subtitle: 200 days ∙ Starts Jan 1
 
 category: tax

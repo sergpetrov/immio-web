@@ -1,5 +1,5 @@
-import type { RuleDoc } from "../types";
 import { getRuleFlagFile } from "../registry";
+import type { RuleDoc } from "../types";
 
 /** A single rule as a full-width rounded chip: flag + title + subtitle. */
 export default function RuleChip({

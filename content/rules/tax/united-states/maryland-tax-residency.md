@@ -1,7 +1,7 @@
 ---
 id: maryland-tax-residency
 
-title: Maryland Tax Residency (183-day rule)
+title: Maryland Tax Residency
 subtitle: 183 days ∙ Starts Jan 1
 
 category: tax

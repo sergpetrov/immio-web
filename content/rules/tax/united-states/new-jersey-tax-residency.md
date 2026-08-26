@@ -1,7 +1,7 @@
 ---
 id: new-jersey-tax-residency
 
-title: New Jersey Tax Residency (183-day rule)
+title: New Jersey Tax Residency
 subtitle: 183 days ∙ Starts Jan 1
 
 category: tax

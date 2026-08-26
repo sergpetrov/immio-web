@@ -1,7 +1,7 @@
 ---
 id: virginia-tax-residency
 
-title: Virginia Tax Residency (183-day actual residency rule)
+title: Virginia Tax Residency
 subtitle: 183 days ∙ Starts Jan 1
 
 category: tax

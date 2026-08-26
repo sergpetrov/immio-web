@@ -1,7 +1,7 @@
 ---
 id: missouri-tax-residency
 
-title: Missouri Tax Residency (183-day rule)
+title: Missouri Tax Residency
 subtitle: 183 days ∙ Starts Jan 1
 
 category: tax

@@ -1,7 +1,7 @@
 ---
 id: canada-tax-residency
 
-title: Canada Tax Residency (183-day rule)
+title: Canada Tax Residency
 subtitle: 183 days ∙ Starts Jan 1 ∙ Residential ties
 
 category: tax

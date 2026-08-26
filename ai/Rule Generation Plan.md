@@ -996,73 +996,90 @@ reword, even if you didn't intend to touch the answer.
 
 ## 18. Titles and naming
 
-Both the frontmatter `title` and the Markdown `# H1` follow:
+The Markdown `# H1` (the article page title) follows:
 
 ```text
 {Country/place} {Rule category} ({the defining mechanism})
 ```
 
-- **Frontmatter `title`**: use a short, commonly recognized form of the country/place name when
-  one genuinely exists — the full name otherwise.
+The frontmatter `title` is what listings show (chips, related content, JSON-LD). It uses a short
+country/place name when one exists. It **omits a trailing threshold parenthetical** — that fact
+already lives in `subtitle`. Write `title: California Tax Residency`, not
+`title: California Tax Residency (9-month presumption)`. **Keep** a trailing bracket on
+frontmatter `title` only when it names a test, programme, or status rather than restating a
+day count: "(Statutory Residence Test)", "(Substantial Presence Test)", "(Naturalization)" /
+"(Naturalisation)", "(Abandonment, Absence rule)", "(Settlement)", "(FEIE)", "(Act 60)".
+Mid-title disambiguation stays on both: `Georgia (US State) Tax Residency`. Do not strip
+thresholds at render time — author them correctly in the Markdown.
+
 - **Markdown H1**: always the full country/place name, never abbreviated, even when the
-  frontmatter title uses a short form.
-- **The bracketed suffix** names the rule's defining mechanism — the test's proper name if it has
-  one, or the day-threshold shape if it doesn't (a single number: "N-day rule"; two alternative
-  thresholds: "N-day and M-day rules"). Use "rule," not "route" or another synonym, as the
-  connecting word — this was tried both ways and "rule" is the settled choice. Only include a
-  bracket at all when it's a genuine 1–2-keyword phrase that fairly represents the rule and is
-  worth targeting for search — not a list of every route. If the rule has more named tests than
-  that (three or four distinct routes, none of them clearly the one thing people search for), omit
-  the bracket entirely rather than force a reductive or overloaded one — a plain "{Country} Tax
-  Residency" with no suffix is a legitimate, expected outcome for a genuinely multi-test rule.
-- **The bracket must carry the day number whenever the rule has one.** A label alone — "(actual residency rule)",
-  "(statutory residency test)" — hides the single fact the reader came for, even when it is the jurisdiction's own
-  term. Lead with the count and keep the official name alongside it where that name is genuinely used in the source:
-  "(183-day actual residency rule)" for Virginia, "(183-day statutory residency rule)" for New York and New Jersey.
-  A bracket with no numeric at all is right only where the rule genuinely has no count, as with Illinois's
-  "(temporary or transitory purpose)".
+  frontmatter title uses a short form (UK vs United Kingdom). **Keep the threshold bracket on
+  the H1** whenever section 18 would put one there — chips use frontmatter; the article uses
+  the H1.
+- **The bracketed suffix** (on the H1, and on frontmatter only for named tests) names the
+  rule's defining mechanism — the test's proper name if it has one, or the day-threshold
+  shape if it doesn't (a single number: "N-day rule"; two alternative thresholds: "N-day and
+  M-day rules"). Use "rule," not "route" or another synonym, as the connecting word — this was
+  tried both ways and "rule" is the settled choice. Only include a bracket at all when it's a
+  genuine 1–2-keyword phrase that fairly represents the rule and is worth targeting for search
+  — not a list of every route. If the rule has more named tests than that (three or four
+  distinct routes, none of them clearly the one thing people search for), omit the bracket
+  entirely rather than force a reductive or overloaded one — a plain "{Country} Tax Residency"
+  with no suffix is a legitimate, expected outcome for a genuinely multi-test rule.
+- **On the H1, the bracket must carry the day number whenever the rule has one.** A label
+  alone — "(actual residency rule)", "(statutory residency test)" — hides the single fact the
+  reader came for, even when it is the jurisdiction's own term. Lead with the count and keep
+  the official name alongside it where that name is genuinely used in the source:
+  "(183-day actual residency rule)" for Virginia, "(183-day statutory residency rule)" for New
+  York and New Jersey. A bracket with no numeric at all is right only where the rule genuinely
+  has no count, as with Illinois's "(temporary or transitory purpose)" — still H1-only; frontmatter
+  is `Illinois Tax Residency`.
 - **`subtitle`**: a short, ∙-separated string of 2–3 key facts (the core threshold, the window
   type, and one other defining feature).
 - **`seo.title`**: "{Country/place} {Rule category} Rules Explained | Immio" — no brackets.
 
 ### Sub-national rules — US states, and later cities
 
-US states are **not** separate places and get **no URL path of their own**. A state rule is a US
-rule that happens to be about a state, and the reader should experience it that way.
+US states are **not** registered as places and get **no URL path of their own**. A state rule is a
+US rule that happens to be about a state. Breadcrumbs stay
+`Rules / Tax residency / United States`. There is no `/rules/states/...` and no new `PlaceType`.
 
-- **`place: us`.** Do not register a state in `places.ts`. The state rule then appears on
-  `/rules/countries/united-states` alongside the federal rules, carries the US flag, and produces
-  the same breadcrumb trail as every other rule — `Rules / Tax residency / United States`. There is
-  no `/rules/states/...` and no new `PlaceType`.
-- **File location**: `content/rules/{category}/united-states/`. This directory holds the federal US
-  rules and the state rules together, and later cities. It is organisational only — the registry
-  globs `content/rules/**/*.md` and the validator walks recursively, so nesting needs no code
-  change. Routing still comes from frontmatter `id`, never from the path.
+- **`place: us-{subdivision}`** — `us-ca`, `us-ny`, `us-dc`. Do not register the state in
+  `places.ts`. The compound id is how the rule gets its own flag; grouping, country pages, and
+  breadcrumbs use the parent (`us`). Do **not** use `place: us` plus a separate `flag` field —
+  that older pattern is obsolete. No registered place id contains a hyphen, so the split is
+  unambiguous (`getParentPlaceId` / `isSubnationalPlaceId` in `places.ts`).
+- **Frontmatter `category` stays `tax`** (or travel/immigration if a future state rule belongs
+  there). State rules are not a fourth content category. Catalog display is separate (below).
+- **File location**: `content/rules/{category}/united-states/`. This directory holds the federal
+  US rules and the state rules together, and later cities. It is organisational only — the
+  registry globs `content/rules/**/*.md` and the validator walks recursively. Routing still comes
+  from frontmatter `id`, never from the path.
 - **`id` / URL**: the bare state name — `california-tax-residency`, `new-york-tax-residency`.
-- **Name collisions with countries**: where a state shares its name with a country we already
-  cover, disambiguate the state, never the country. Georgia is the live case: the country keeps
-  `georgia-tax-residency`, and the US state takes **`georgia-us-state-tax-residency`**.
-- **`flag`**: state rules share `place: us`, so they would otherwise inherit the US flag. Name the
-  state's own circle flag in frontmatter instead — `flag: us-ca`. The field is optional and falls
-  back to the place flag, so a state with no asset degrades to the US flag rather than breaking.
-  Assets live in `public/flags/{flag}.svg` and come from
-  [HatScripts/circle-flags](https://github.com/HatScripts/circle-flags) (MIT), the same source as
-  the country flags — note its raw files are on the **`gh-pages`** branch, not `main`. The build
-  validator fails if a declared `flag` has no matching asset.
+- **Name collisions with countries**: disambiguate the state, never the country. Georgia is the
+  live case: the country keeps `georgia-tax-residency`; the US state takes
+  **`georgia-us-state-tax-residency`**.
+- **Flags**: derived from the compound place id as `public/flags/{place}.webp` (raster, because
+  the vector originals are too heavy for a 56px chip). Country flags stay SVG. Assets come from
+  [HatScripts/circle-flags](https://github.com/HatScripts/circle-flags) (MIT) on the **`gh-pages`**
+  branch, or a circle-masked public-domain flag in the same 512×512 WebP format when
+  circle-flags has no file for that state.
+- **Title**: frontmatter is the state name alone — "California Tax Residency". The H1 still
+  carries the mechanism — "California Tax Residency (9-month presumption)". Do not prefix
+  "US" or "United States". For a collision case, both carry the disambiguation
+  ("Georgia (US State) Tax Residency" / H1 "Georgia (US State) Tax Residency (183-day rule)").
+- **Where they list**
+  - **Rule Guide catalog (`/rules`)**: a **US States** switch tab comes *after* Immigration.
+    Country tax rules stay on Tax residency; state rules do **not** appear on that tab.
+  - **`/rules/tax`**: country (and territory) tax rules first, then a grey **US STATES** divider
+    (`content-catalog-group`), then every US state tax rule.
+  - **`/rules/countries/united-states`**: federal US rules first (SPT, FEIE, visas, green card,
+    naturalization, …), then the same **US STATES** divider, then the state rules. Other
+    country pages have no divider.
+  - Territories with their own place id — Puerto Rico, the US Virgin Islands — stay on their
+    own country pages and on the Tax residency tab, not under the US States tab.
 
-  **Coverage is partial.** circle-flags ships 25 usable US state flags: `ak al ar az ca co dc fl ga
-  hi in md mn mo ms nc nm or ri sc tn tx wa wi wy`. It has **no** flag for New York, New Jersey,
-  Illinois, Massachusetts, Connecticut, Ohio, Pennsylvania, Virginia, Idaho, North Dakota, Nebraska,
-  Vermont or Maine — which covers most of the high-priority states. Decide per rule whether to omit
-  `flag` (US flag fallback) or to circle-mask a public-domain state flag into the same
-  512×512 format.
-- **Title**: lead with the state name alone — "California Tax Residency (9-month presumption)".
-  Do not prefix "US" or "United States"; the breadcrumb and flag already establish the country. For
-  a collision case, the title carries the disambiguation instead ("Georgia (US State) Tax
-  Residency").
-
-Territories with their own place id — Puerto Rico, the US Virgin Islands — are unaffected. They
-have their own country pages and stay in `content/rules/{category}/`.
+Territories with their own place id are unaffected. They stay in `content/rules/{category}/`.
 
 ---
 
@@ -1077,8 +1094,9 @@ subtitle: {see section 18}
 
 category: {the rule's category, e.g. tax, immigration, travel}
 
-place: {a two-letter lowercase country code, or a descriptive slug for a
-         multi-country area when the rule isn't specific to one country}
+place: {a two-letter lowercase country code, a descriptive slug for a
+         multi-country area, or `{parent}-{subdivision}` for a US state
+         (`us-ca`) — see section 18}
 
 seo:
   title: {see section 18}
@@ -1174,10 +1192,10 @@ redistribute rather than let two pages absorb the internal link equity the long 
 
 ### US rules and US state rules
 
-US state rules (New York, California, and the rest of the statutory-residency set) are a planned
-expansion. When they exist, they are the **most relevant** related content for the US federal rules
-and for each other — a reader on the US Substantial Presence Test is very often the same person who
-needs New York or California statutory residency.
+US state rules (New York, California, and the rest of the statutory-residency set) are the
+**most relevant** related content for the US federal rules and for each other — a reader on the
+US Substantial Presence Test is very often the same person who needs New York or California
+statutory residency.
 
 So, for any US rule:
 

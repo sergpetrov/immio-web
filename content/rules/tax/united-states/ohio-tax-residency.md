@@ -1,7 +1,7 @@
 ---
 id: ohio-tax-residency
 
-title: Ohio Tax Residency (212 contact periods)
+title: Ohio Tax Residency
 subtitle: 212 contact periods ∙ Starts Jan 1
 
 category: tax

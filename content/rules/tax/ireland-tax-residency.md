@@ -1,7 +1,7 @@
 ---
 id: ireland-tax-residency
 
-title: Ireland Tax Residency (183-day and 280-day rules)
+title: Ireland Tax Residency
 subtitle: 183 days ∙ Starts Jan 1
 
 category: tax

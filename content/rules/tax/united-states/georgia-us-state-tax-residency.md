@@ -1,7 +1,7 @@
 ---
 id: georgia-us-state-tax-residency
 
-title: Georgia (US State) Tax Residency (183-day rule)
+title: Georgia (US State) Tax Residency
 subtitle: 183 days ∙ Starts Jan 1
 
 category: tax

@@ -1,7 +1,7 @@
 ---
 id: massachusetts-tax-residency
 
-title: Massachusetts Tax Residency (183-day rule)
+title: Massachusetts Tax Residency
 subtitle: 183 days ∙ Starts Jan 1
 
 category: tax

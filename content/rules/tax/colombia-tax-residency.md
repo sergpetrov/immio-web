@@ -1,7 +1,7 @@
 ---
 id: colombia-tax-residency
 
-title: Colombia Tax Residency (183-day rule)
+title: Colombia Tax Residency
 subtitle: 183 days ∙ Rolling 365 days
 
 category: tax

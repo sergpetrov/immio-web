@@ -1,7 +1,7 @@
 ---
 id: nebraska-tax-residency
 
-title: Nebraska Tax Residency (183-day rule)
+title: Nebraska Tax Residency
 subtitle: 183 days ∙ Starts Jan 1
 
 category: tax

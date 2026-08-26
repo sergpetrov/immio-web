@@ -1,7 +1,7 @@
 ---
 id: turkey-tax-residency
 
-title: Turkey Tax Residency (6-month rule)
+title: Turkey Tax Residency
 subtitle: 6 months ∙ Starts Jan 1 ∙ Domicile test
 
 category: tax

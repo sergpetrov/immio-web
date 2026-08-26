@@ -1,7 +1,7 @@
 ---
 id: brazil-tax-residency
 
-title: Brazil Tax Residency (183-day rule)
+title: Brazil Tax Residency
 subtitle: 183 days ∙ Rolling 12 months
 
 category: tax

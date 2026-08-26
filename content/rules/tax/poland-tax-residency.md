@@ -1,7 +1,7 @@
 ---
 id: poland-tax-residency
 
-title: Poland Tax Residency (183-day rule)
+title: Poland Tax Residency
 subtitle: 183 days ∙ Starts Jan 1
 
 category: tax

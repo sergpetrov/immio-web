@@ -1,7 +1,7 @@
 ---
 id: minnesota-tax-residency
 
-title: Minnesota Tax Residency (183-day rule)
+title: Minnesota Tax Residency
 subtitle: 183 days ∙ Starts Jan 1
 
 category: tax

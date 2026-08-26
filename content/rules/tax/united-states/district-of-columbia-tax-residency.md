@@ -1,7 +1,7 @@
 ---
 id: district-of-columbia-tax-residency
 
-title: District of Columbia Tax Residency (183-day abode rule)
+title: District of Columbia Tax Residency
 subtitle: 183 days ∙ Starts Jan 1
 
 category: tax

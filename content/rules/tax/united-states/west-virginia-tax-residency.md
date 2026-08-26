@@ -1,7 +1,7 @@
 ---
 id: west-virginia-tax-residency
 
-title: West Virginia Tax Residency (183-day rule)
+title: West Virginia Tax Residency
 subtitle: 183 days ∙ Starts Jan 1
 
 category: tax

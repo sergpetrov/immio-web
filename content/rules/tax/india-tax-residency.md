@@ -1,7 +1,7 @@
 ---
 id: india-tax-residency
 
-title: India Tax Residency (182-day and 60-day rules)
+title: India Tax Residency
 subtitle: 182 days or 60 days ∙ Starts Apr 1
 
 category: tax

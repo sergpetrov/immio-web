@@ -1,7 +1,7 @@
 ---
 id: bulgaria-tax-residency
 
-title: Bulgaria Tax Residency (183-day rule)
+title: Bulgaria Tax Residency
 subtitle: 183 days ∙ Rolling 12 months
 
 category: tax

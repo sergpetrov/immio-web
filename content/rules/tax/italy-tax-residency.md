@@ -1,7 +1,7 @@
 ---
 id: italy-tax-residency
 
-title: Italy Tax Residency (183-day rule)
+title: Italy Tax Residency
 subtitle: 183 days ∙ Starts Jan 1 ∙ Impatriate regime ∙ Domicile test
 
 category: tax

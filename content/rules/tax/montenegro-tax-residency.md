@@ -1,7 +1,7 @@
 ---
 id: montenegro-tax-residency
 
-title: Montenegro Tax Residency (183-day rule)
+title: Montenegro Tax Residency
 subtitle: 183 days ∙ Starts Jan 1
 
 category: tax

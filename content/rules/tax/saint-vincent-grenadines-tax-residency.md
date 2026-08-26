@@ -1,7 +1,7 @@
 ---
 id: saint-vincent-grenadines-tax-residency
 
-title: Saint Vincent & the Grenadines Tax Residency (183-day rule)
+title: Saint Vincent & the Grenadines Tax Residency
 subtitle: 183 days ∙ Starts Jan 1
 
 category: tax

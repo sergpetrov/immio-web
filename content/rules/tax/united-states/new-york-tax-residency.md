@@ -1,7 +1,7 @@
 ---
 id: new-york-tax-residency
 
-title: New York Tax Residency (183-day rule)
+title: New York Tax Residency
 subtitle: 183 days ∙ Starts Jan 1
 
 category: tax

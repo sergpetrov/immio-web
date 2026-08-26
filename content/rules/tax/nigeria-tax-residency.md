@@ -1,7 +1,7 @@
 ---
 id: nigeria-tax-residency
 
-title: Nigeria Tax Residency (183-day rule)
+title: Nigeria Tax Residency
 subtitle: 183 days ∙ Rolling 12 months
 
 category: tax

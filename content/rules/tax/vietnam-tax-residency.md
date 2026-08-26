@@ -1,7 +1,7 @@
 ---
 id: vietnam-tax-residency
 
-title: Vietnam Tax Residency (183-day rule)
+title: Vietnam Tax Residency
 subtitle: 183 days ∙ Calendar year or Rolling 12 months
 
 category: tax

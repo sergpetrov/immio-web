@@ -1,7 +1,7 @@
 ---
 id: thailand-tax-residency
 
-title: Thailand Tax Residency (180-day rule)
+title: Thailand Tax Residency
 subtitle: 180 days ∙ Starts Jan 1 ∙ Remittance basis
 
 category: tax

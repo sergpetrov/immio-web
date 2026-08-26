@@ -28,20 +28,18 @@
   color-scheme: light;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --content-bg: #16181c;
-    --content-text: #f2f3f5;
-    --content-text-muted: #a3abb5;
-    --content-text-faint: #7d848d;
-    --content-border: #2b2f36;
-    --content-surface: #1e2126;
-    --content-table-header-bg: var(--content-surface);
-    --content-callout-bg: #17263d;
-    --content-callout-text: #70c0ff;
-    --immio-primary-container: #17263d;
-    color-scheme: dark;
-  }
+html[data-theme="dark"] {
+  --content-bg: #16181c;
+  --content-text: #f2f3f5;
+  --content-text-muted: #a3abb5;
+  --content-text-faint: #7d848d;
+  --content-border: #2b2f36;
+  --content-surface: #1e2126;
+  --content-table-header-bg: var(--content-surface);
+  --content-callout-bg: #17263d;
+  --content-callout-text: #70c0ff;
+  --immio-primary-container: #17263d;
+  color-scheme: dark;
 }
 
 * {
@@ -502,12 +500,10 @@ html.is-inapp .content-app-cta {
   flex-shrink: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-  .content-search-button img,
-  .content-country-search > img,
-  .content-country-search__clear img {
-    filter: invert(1);
-  }
+html[data-theme="dark"] .content-search-button img,
+html[data-theme="dark"] .content-country-search > img,
+html[data-theme="dark"] .content-country-search__clear img {
+  filter: invert(1);
 }
 
 .content-country-search input {
@@ -1122,32 +1118,30 @@ html.is-inapp .content-app-cta {
   exclusion keeps callout body text on --content-callout-text without adding
   specificity of its own.
 */
-@media (prefers-color-scheme: dark) {
-  .content-article p:not(:where(.content-callout *)),
-  .content-article li:not(:where(.content-callout *)),
-  .content-article td {
-    color: var(--content-text-muted);
-  }
+html[data-theme="dark"] .content-article p:not(:where(.content-callout *)),
+html[data-theme="dark"] .content-article li:not(:where(.content-callout *)),
+html[data-theme="dark"] .content-article td {
+  color: var(--content-text-muted);
+}
 
-  .content-article strong:not(:where(.content-callout *)),
-  .content-article b:not(:where(.content-callout *)) {
-    color: var(--content-text);
-  }
+html[data-theme="dark"] .content-article strong:not(:where(.content-callout *)),
+html[data-theme="dark"] .content-article b:not(:where(.content-callout *)) {
+  color: var(--content-text);
+}
 
-  /*
-    Overview table: the left column is the label and the right column is the
-    answer the reader came for, so the values keep full contrast while the
-    labels stay muted with the rest of the prose. Rule pages render exactly
-    one table, whose value column markdown emits as td[align="right"].
-  */
-  .content-article td[align="right"] {
-    color: var(--content-text);
-  }
+/*
+  Overview table: the left column is the label and the right column is the
+  answer the reader came for, so the values keep full contrast while the
+  labels stay muted with the rest of the prose. Rule pages render exactly
+  one table, whose value column markdown emits as td[align="right"].
+*/
+html[data-theme="dark"] .content-article td[align="right"] {
+  color: var(--content-text);
+}
 
-  /* Catalog lede — the description under the /rules and /rules/{type} titles. */
-  .content-catalog__lede {
-    color: var(--content-text-muted);
-  }
+/* Catalog lede — the description under the /rules and /rules/{type} titles. */
+html[data-theme="dark"] .content-catalog__lede {
+  color: var(--content-text-muted);
 }
 
 /* Back link — used both as the sticky left column (desktop) and inside the mobile TOC drawer. */
@@ -1470,17 +1464,15 @@ p.content-legal-disclaimer {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  .content-article a.content-app-cta__button {
-    background: #ffffff;
-    color: #111214;
-  }
+html[data-theme="dark"] .content-article a.content-app-cta__button {
+  background: #ffffff;
+  color: #111214;
+}
 
-  .content-article a.content-app-cta__button:hover,
-  .content-article a.content-app-cta__button:active {
-    background: #dfe2e7;
-    color: #111214;
-  }
+html[data-theme="dark"] .content-article a.content-app-cta__button:hover,
+html[data-theme="dark"] .content-article a.content-app-cta__button:active {
+  background: #dfe2e7;
+  color: #111214;
 }
 
 .content-app-cta__button-icon {

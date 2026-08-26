@@ -19,10 +19,22 @@ function AnalyticsPageViews() {
     return null;
 }
 
+/** Landing stays light; other SPA routes follow theme.js (system default, then user choice). */
+function ColorSchemeForRoute() {
+    const location = useLocation();
+
+    useEffect(() => {
+        window.__immioApplyTheme?.(location.pathname);
+    }, [location.pathname]);
+
+    return null;
+}
+
 function App() {
     return (
         <Router>
             <AnalyticsPageViews/>
+            <ColorSchemeForRoute/>
             <Routes>
                 <Route path="/" element={<LandingPage/>}/>
                 <Route path="/contact" element={<Contact/>}/>

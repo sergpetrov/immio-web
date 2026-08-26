@@ -11,12 +11,10 @@
   --footer-text-muted: #6d6d6d;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --footer-bg: #1e2126;
-    --footer-text: #f2f3f5;
-    --footer-text-muted: #a3abb5;
-  }
+html[data-theme="dark"] {
+  --footer-bg: #1e2126;
+  --footer-text: #f2f3f5;
+  --footer-text-muted: #a3abb5;
 }
 
 /*

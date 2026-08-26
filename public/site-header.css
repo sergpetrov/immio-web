@@ -54,13 +54,11 @@
   box-shadow: 0 8px 28px rgba(0, 0, 0, 0.08);
 }
 
-@media (prefers-color-scheme: dark) {
-  .site-header.is-scrolled .site-header__inner,
-  .site-header:has(#site-header-menu.is-open) .site-header__inner {
-    background: rgba(28, 31, 36, 0.72);
-    border-color: rgba(255, 255, 255, 0.09);
-    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.45);
-  }
+html[data-theme="dark"] .site-header.is-scrolled .site-header__inner,
+html[data-theme="dark"] .site-header:has(#site-header-menu.is-open) .site-header__inner {
+  background: rgba(28, 31, 36, 0.72);
+  border-color: rgba(255, 255, 255, 0.09);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.45);
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -108,10 +106,8 @@
   pointer-events: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  .site-header__logo-wordmark {
-    filter: invert(1);
-  }
+html[data-theme="dark"] .site-header__logo-wordmark {
+  filter: invert(1);
 }
 
 .site-header__links {
@@ -130,6 +126,10 @@
   flex-shrink: 0;
 }
 
+.site-header__actions > :first-child {
+  margin-left: 8px;
+}
+
 .site-header a.site-header__link {
   padding: 8px 10px;
   font-size: 16px;
@@ -145,15 +145,12 @@
 /* Fallback repeats content.css's dark value, since the SPA does not define
    the content tokens. The landing page overrides this back to the light grey
    (see LandingPage.css) because its bar stays light in both schemes. */
-@media (prefers-color-scheme: dark) {
-  .site-header a.site-header__link {
-    color: var(--content-text-muted, #a3abb5);
-  }
+html[data-theme="dark"] .site-header a.site-header__link {
+  color: var(--content-text-muted, #a3abb5);
 }
 
 /* Black pill with the same phone glyph as the rule-page bottom CTA. */
 .site-header a.site-header__cta {
-  margin-left: 8px;
   padding: 0 14px;
   height: 36px;
   display: inline-flex;
@@ -192,19 +189,17 @@
 /* Inverted in dark mode -- black on the dark pill has almost no contrast.
    The landing page keeps its light hero (and black pill) in both schemes,
    so it opts back out; see LandingPage.css. */
-@media (prefers-color-scheme: dark) {
-  .site-header a.site-header__cta {
-    color: #f2f3f5;
-  }
+html[data-theme="dark"] .site-header a.site-header__cta {
+  color: #f2f3f5;
+}
 
-  .site-header.is-scrolled a.site-header__cta {
-    background: #ffffff;
-    color: #111214;
-  }
+html[data-theme="dark"] .site-header.is-scrolled a.site-header__cta {
+  background: #ffffff;
+  color: #111214;
+}
 
-  .site-header.is-scrolled a.site-header__cta:hover {
-    background: #dfe2e7;
-  }
+html[data-theme="dark"] .site-header.is-scrolled a.site-header__cta:hover {
+  background: #dfe2e7;
 }
 
 .site-header__cta-icon {
@@ -213,6 +208,64 @@
   width: 11px;
   height: 16px;
   transform: rotate(180deg);
+}
+
+.site-header__theme {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: transparent;
+  border: 0.5px solid currentColor;
+  border-radius: 50%;
+  cursor: pointer;
+  color: #6d6d6d;
+  opacity: 0.55;
+  font-family: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.site-header__theme + a.site-header__cta {
+  margin-left: 2px;
+}
+
+button.site-header__theme:hover,
+button.site-header__theme:active,
+button.site-header__theme:focus {
+  background: transparent;
+  transform: none;
+  opacity: 0.55;
+  color: #6d6d6d;
+}
+
+html[data-theme="dark"] .site-header__theme,
+html[data-theme="dark"] button.site-header__theme:hover,
+html[data-theme="dark"] button.site-header__theme:active,
+html[data-theme="dark"] button.site-header__theme:focus {
+  color: var(--content-text-muted, #a3abb5);
+}
+
+.site-header__theme-icon {
+  display: block;
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+}
+
+.site-header__theme-icon--sun {
+  display: none;
+}
+
+html[data-theme="dark"] .site-header__theme-icon--sun {
+  display: block;
+}
+
+html[data-theme="dark"] .site-header__theme-icon--moon {
+  display: none;
 }
 
 .site-header__toggle {
@@ -236,6 +289,13 @@ button.site-header__toggle:focus {
   background: transparent;
   transform: none;
   color: #6d6d6d;
+}
+
+html[data-theme="dark"] .site-header__toggle,
+html[data-theme="dark"] button.site-header__toggle:hover,
+html[data-theme="dark"] button.site-header__toggle:active,
+html[data-theme="dark"] button.site-header__toggle:focus {
+  color: var(--content-text-muted, #a3abb5);
 }
 
 .site-header__hamburger {
@@ -310,17 +370,15 @@ button.site-header__toggle:focus {
     box-shadow: 0 14px 30px rgba(0, 0, 0, 0.12);
   }
 
-  @media (prefers-color-scheme: dark) {
-    .site-header:has(#site-header-menu.is-open) .site-header__inner {
-      box-shadow: 0 14px 30px rgba(0, 0, 0, 0.5);
-    }
+  html[data-theme="dark"] .site-header:has(#site-header-menu.is-open) .site-header__inner {
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.5);
   }
 
   .site-header__toggle {
     display: inline-flex;
   }
 
-  .site-header a.site-header__cta {
+  .site-header__actions > :first-child {
     margin-left: 0;
   }
 

@@ -11,12 +11,10 @@
   --faq-text-muted: #6d6d6d;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --faq-bg: #1e2126;
-    --faq-text: #f2f3f5;
-    --faq-text-muted: #a3abb5;
-  }
+html[data-theme="dark"] {
+  --faq-bg: #1e2126;
+  --faq-text: #f2f3f5;
+  --faq-text-muted: #a3abb5;
 }
 
 .faq-accordion {

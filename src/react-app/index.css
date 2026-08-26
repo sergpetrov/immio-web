@@ -165,29 +165,27 @@ button:hover {
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    color: #ffffff;
-    background-color: #1a1a1a;
-  }
-  
-  body {
-    background-color: #1a1a1a;
-    color: #ffffff;
-  }
-  
-  .page-content {
-    color: #e0e0e0;
-  }
-  
-  .page-title {
-    color: #ffffff;
-  }
+html[data-theme="dark"] {
+  color: #ffffff;
+  background-color: #1a1a1a;
+}
 
-  :root:has(.immio-landing),
-  :root:has(.immio-landing) body {
-    color: #1a1a1a;
-    background-color: #ffffff;
-    color-scheme: light;
-  }
+html[data-theme="dark"] body {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+html[data-theme="dark"] .page-content {
+  color: #e0e0e0;
+}
+
+html[data-theme="dark"] .page-title {
+  color: #ffffff;
+}
+
+html[data-theme="dark"]:has(.immio-landing),
+html[data-theme="dark"]:has(.immio-landing) body {
+  color: #1a1a1a;
+  background-color: #ffffff;
+  color-scheme: light;
 }

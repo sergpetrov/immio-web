@@ -9,12 +9,17 @@ import RuleChip from "./RuleChip";
 export default function RuleTypePage({
   category,
   rules,
+  usStateRules = [],
   appDownloadUrl,
 }: {
   category: Category;
   rules: RuleDoc[];
+  usStateRules?: RuleDoc[];
   appDownloadUrl: string;
 }) {
+  const hasCountryRules = rules.length > 0;
+  const hasStateRules = usStateRules.length > 0;
+
   return (
     <div className="content">
       <SiteHeaderView appDownloadUrl={appDownloadUrl} isLanding={false} solid={false} navOpen={false} />
@@ -27,13 +32,23 @@ export default function RuleTypePage({
             <p className="content-catalog__lede">{category.intro ?? category.description}</p>
           </header>
 
-          {rules.length === 0 ? (
+          {!hasCountryRules && !hasStateRules ? (
             <p className="content-empty">Content for this category is coming soon.</p>
           ) : (
             <ul className="content-type-list is-active">
               {rules.map((rule) => (
                 <RuleChip key={rule.frontmatter.id} rule={rule} backHref={`/rules/${category.slug}`} />
               ))}
+              {hasStateRules ? (
+                <>
+                  <li className="content-catalog-group">
+                    <h2 className="content-catalog-group__label">US States</h2>
+                  </li>
+                  {usStateRules.map((rule) => (
+                    <RuleChip key={rule.frontmatter.id} rule={rule} backHref={`/rules/${category.slug}`} />
+                  ))}
+                </>
+              ) : null}
             </ul>
           )}
 

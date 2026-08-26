@@ -1,7 +1,7 @@
 import SiteFooter from "../../../../react-app/components/SiteFooter";
 import SiteHeaderView from "../../../../react-app/components/SiteHeaderView";
 import { buildCountryBreadcrumbs } from "../breadcrumbs";
-import { getPlaceFlagId } from "../registry";
+import { getPlaceFlagId, isSubnationalPlaceId } from "../registry";
 import type { RulePlace, RuleDoc } from "../types";
 import Breadcrumbs from "./Breadcrumbs";
 import LegalDisclaimer from "./LegalDisclaimer";
@@ -16,6 +16,9 @@ export default function CountryPage({
   rules: RuleDoc[];
   appDownloadUrl: string;
 }) {
+  const countryRules = rules.filter((rule) => !isSubnationalPlaceId(rule.frontmatter.place));
+  const usStateRules = rules.filter((rule) => isSubnationalPlaceId(rule.frontmatter.place));
+  const backHref = `/rules/countries/${place.slug}`;
   return (
     <div className="content">
       <SiteHeaderView appDownloadUrl={appDownloadUrl} isLanding={false} solid={false} navOpen={false} />
@@ -35,9 +38,19 @@ export default function CountryPage({
           </header>
 
           <ul className="content-type-list is-active">
-            {rules.map((rule) => (
-              <RuleChip key={rule.frontmatter.id} rule={rule} backHref={`/rules/countries/${place.slug}`} />
+            {countryRules.map((rule) => (
+              <RuleChip key={rule.frontmatter.id} rule={rule} backHref={backHref} />
             ))}
+            {usStateRules.length > 0 ? (
+              <>
+                <li className="content-catalog-group">
+                  <h2 className="content-catalog-group__label">US States</h2>
+                </li>
+                {usStateRules.map((rule) => (
+                  <RuleChip key={rule.frontmatter.id} rule={rule} backHref={backHref} />
+                ))}
+              </>
+            ) : null}
           </ul>
 
           <LegalDisclaimer />

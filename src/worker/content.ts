@@ -28,6 +28,7 @@ import {
   getPlaceForRule,
   getRulesForCategory,
   getRulesForPlace,
+  getUsStateRules,
 } from "../modules/content/rules/registry";
 import {
   buildArticleJsonLd,
@@ -89,7 +90,7 @@ function renderCatalogDocument({ origin, appDownloadUrl, noindex, analytics }: R
   const description =
     "Plain-English explanations of tax residency, travel, and immigration rules, sourced from official guidance.";
   const bodyHtml = renderToStaticMarkup(
-    createElement(RulesPage, { categories: getAllCategories(), appDownloadUrl }),
+    createElement(RulesPage, { appDownloadUrl }),
   );
 
   return renderDocument({
@@ -123,7 +124,11 @@ function renderCategoryDocument({ origin, appDownloadUrl, noindex, analytics }: 
   const title = `${category.title} Rules | Immio Rule Guide`;
   const description = category.description;
   const rules = getRulesForCategory(category.id);
-  const bodyHtml = renderToStaticMarkup(createElement(RuleTypePage, { category, rules, appDownloadUrl }));
+  const usStateRules = category.id === "tax" ? getUsStateRules() : [];
+  const listedRules = usStateRules.length > 0 ? [...rules, ...usStateRules] : rules;
+  const bodyHtml = renderToStaticMarkup(
+    createElement(RuleTypePage, { category, rules, usStateRules, appDownloadUrl }),
+  );
 
   return renderDocument({
     title,
@@ -134,7 +139,7 @@ function renderCategoryDocument({ origin, appDownloadUrl, noindex, analytics }: 
     jsonLd: [
       renderJsonLd(buildWebPageJsonLd({ origin, pathname, title, description })),
       renderJsonLd(buildBreadcrumbListJsonLd(buildCategoryBreadcrumbs(category), origin)),
-      renderJsonLd(buildRuleItemList(origin, `${category.title} rules`, rules)),
+      renderJsonLd(buildRuleItemList(origin, `${category.title} rules`, listedRules)),
     ],
     bodyHtml,
   });

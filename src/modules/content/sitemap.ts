@@ -1,5 +1,5 @@
 import { SITE_ORIGIN } from "../../shared/site";
-import { getAllCategories, getAllPlaces, getAllRules, getRulesForPlace } from "./rules/registry";
+import { getAllCategories, getAllPlaces, getAllRules, getRulesForCategory, getRulesForPlace } from "./rules/registry";
 
 /**
  * Derived from the rule registry, so it can't drift from what is served.
@@ -43,7 +43,7 @@ export function buildSitemapEntries(): SitemapEntry[] {
   ];
 
   for (const category of getAllCategories()) {
-    const categoryRules = rules.filter((rule) => rule.frontmatter.category === category.id);
+    const categoryRules = getRulesForCategory(category.id);
     entries.push({
       path: `/rules/${category.slug}`,
       lastmod: newestUpdatedAt(categoryRules.map((rule) => rule.frontmatter.updatedAt)),

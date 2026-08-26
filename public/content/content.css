@@ -346,6 +346,31 @@ html.is-inapp .content-app-cta {
   flex: 0 0 100%;
 }
 
+.content-catalog-group {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 2.5rem 0 0.25rem;
+  padding: 0;
+}
+
+.content-catalog-group__label {
+  margin: 0;
+  flex: 0 0 auto;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--content-text-muted);
+}
+
+.content-catalog-group::after {
+  content: "";
+  flex: 1 1 auto;
+  height: 1px;
+  background: var(--content-border);
+}
+
 .content-rule-chip {
   display: flex;
   width: 100%;

@@ -14,7 +14,7 @@ export const RULE_CATEGORIES: Category[] = [
     id: "travel",
     slug: "travel",
     title: "Travel, Visa & Stay limits",
-    shortTitle: "Travel Limit",
+    shortTitle: "Travel limit",
     description:
       "Visa, visitor visa, stay limits, visa-free stay, and Schengen-type rules for travelers.",
     intro:
@@ -31,6 +31,24 @@ export const RULE_CATEGORIES: Category[] = [
       "Permanent residency and citizenship are earned by time spent in a country — and can be lost by time spent away. Some countries set a minimum presence across a qualifying period, while others cap how long you can be absent. Our immigration guidance explains qualifying periods, absence limits, and what resets your residency clock.",
   },
 ];
+
+/** Catalog-only tab. State rules keep `category: tax` in frontmatter. */
+export const US_STATES_TAB_ID = "us-states";
+
+export interface CatalogTab {
+  id: string;
+  label: string;
+}
+
+export function getCatalogTabs(): CatalogTab[] {
+  return [
+    ...RULE_CATEGORIES.map((category) => ({
+      id: category.id,
+      label: category.shortTitle ?? category.title,
+    })),
+    { id: US_STATES_TAB_ID, label: "US States" },
+  ];
+}
 
 export function getAllCategories(): Category[] {
   return RULE_CATEGORIES;

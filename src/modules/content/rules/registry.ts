@@ -1,4 +1,4 @@
-import { getAllCategories, getCategoryBySlug } from "./categories";
+import { getAllCategories, getCategoryBySlug, getCatalogTabs, US_STATES_TAB_ID } from "./categories";
 import { parseContentFile } from "./frontmatter";
 import { parseMarkdownBody } from "./markdown";
 import { assertValidRuleFrontmatter } from "./validate";
@@ -96,8 +96,23 @@ export function getRuleFlagFile(rule: RuleDoc): string {
     : `${getPlaceFlagId(getPlaceForRule(rule))}.svg`;
 }
 
+function isUsStateRule(rule: RuleDoc): boolean {
+  const placeId = rule.frontmatter.place;
+  return isSubnationalPlaceId(placeId) && getParentPlaceId(placeId) === "us";
+}
+
 export function getRulesForCategory(categoryId: string): RuleDoc[] {
-  return rulesByCategory.get(categoryId) ?? [];
+  const list = rulesByCategory.get(categoryId) ?? [];
+  // US state rules stay `category: tax` in frontmatter (article URLs and
+  // breadcrumbs), but the catalog lists them on their own tab.
+  if (categoryId === "tax") {
+    return list.filter((rule) => !isUsStateRule(rule));
+  }
+  return list;
+}
+
+export function getUsStateRules(): RuleDoc[] {
+  return RULES.filter(isUsStateRule);
 }
 
 export function getAllPlaces(): RulePlace[] {
@@ -112,4 +127,4 @@ export function getRulesForPlace(placeId: string): RuleDoc[] {
   return rulesByPlace.get(placeId) ?? [];
 }
 
-export { getAllCategories, getCategoryBySlug, isSubnationalPlaceId };
+export { getAllCategories, getCategoryBySlug, getCatalogTabs, US_STATES_TAB_ID, isSubnationalPlaceId };

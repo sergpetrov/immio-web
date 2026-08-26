@@ -1,10 +1,16 @@
 import SiteFooter from "../../../../react-app/components/SiteFooter";
 import SiteHeaderView from "../../../../react-app/components/SiteHeaderView";
-import { getRuleFlagFile, getRulesForCategory } from "../registry";
-import type { Category } from "../types";
+import { US_STATES_TAB_ID, getCatalogTabs } from "../categories";
+import { getRuleFlagFile, getRulesForCategory, getUsStateRules } from "../registry";
+import type { RuleDoc } from "../types";
 import LegalDisclaimer from "./LegalDisclaimer";
 
-export default function RulesPage({ categories, appDownloadUrl }: { categories: Category[]; appDownloadUrl: string }) {
+function rulesForTab(tabId: string): RuleDoc[] {
+  return tabId === US_STATES_TAB_ID ? getUsStateRules() : getRulesForCategory(tabId);
+}
+
+export default function RulesPage({ appDownloadUrl }: { appDownloadUrl: string }) {
+  const tabs = getCatalogTabs();
   return (
     <div className="content">
       <SiteHeaderView appDownloadUrl={appDownloadUrl} isLanding={false} solid={false} navOpen={false} />
@@ -20,16 +26,16 @@ export default function RulesPage({ categories, appDownloadUrl }: { categories: 
           <div className="content-type-switch-row">
             <div className="content-type-switch" role="tablist" aria-label="Rule category">
               <span className="content-type-switch__pill" aria-hidden="true" />
-              {categories.map((category, index) => (
+              {tabs.map((tab, index) => (
                 <button
-                  key={category.id}
+                  key={tab.id}
                   type="button"
                   className={`content-type-switch__item${index === 0 ? " is-selected" : ""}`}
-                  data-category={category.id}
+                  data-category={tab.id}
                   role="tab"
                   aria-selected={index === 0}
                 >
-                  {category.shortTitle ?? category.title}
+                  {tab.label}
                 </button>
               ))}
             </div>
@@ -38,13 +44,13 @@ export default function RulesPage({ categories, appDownloadUrl }: { categories: 
             </a>
           </div>
 
-          {categories.map((category, index) => {
-            const rules = getRulesForCategory(category.id);
+          {tabs.map((tab, index) => {
+            const rules = rulesForTab(tab.id);
             return (
               <ul
-                key={category.id}
+                key={tab.id}
                 className={`content-type-list${index === 0 ? " is-active" : ""}`}
-                data-category-list={category.id}
+                data-category-list={tab.id}
               >
                 {rules.length === 0 ? (
                   <li className="content-empty">Content for this category is coming soon.</li>

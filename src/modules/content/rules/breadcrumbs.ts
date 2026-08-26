@@ -1,4 +1,5 @@
 import { getPlaceForRule } from "./registry";
+import { getSubdivisionName } from "./places";
 import type { Category, RulePlace, RuleDoc } from "./types";
 
 export interface Breadcrumb {
@@ -28,6 +29,11 @@ export function buildCountryBreadcrumbs(place: RulePlace): Breadcrumb[] {
 /**
  * Ends in the rule's country, not its title — RULES / TAX / UNITED KINGDOM.
  *
+ * A sub-national rule gets its country as a real parent crumb and the
+ * subdivision as the leaf — RULES / TAX / UNITED STATES / NEW YORK. Naming the
+ * leaf after the country would give all 31 US state pages the same trail while
+ * pointing it at a page that is not about the country.
+ *
  * Keep this trail and the emitted BreadcrumbList identical: structured data has
  * to describe what is on the page.
  */
@@ -35,6 +41,13 @@ export function buildRuleBreadcrumbs(category: Category, rule: RuleDoc): Breadcr
   const trail = buildCategoryBreadcrumbs(category);
   const ruleHref = `/rules/${rule.frontmatter.id}`;
   const place = getPlaceForRule(rule);
+  const subdivision = getSubdivisionName(rule.frontmatter.place);
+
+  if (subdivision) {
+    trail.push({ label: place.name, href: `/rules/countries/${place.slug}` });
+    trail.push({ label: subdivision, href: ruleHref });
+    return trail;
+  }
 
   trail.push({ label: place.name, href: ruleHref });
 

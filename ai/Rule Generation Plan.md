@@ -124,7 +124,23 @@ before adding it; don't import a fact just because it appeared on a competitor p
    theirs is simpler. Two worked cases: the UK's "6 months" visitor limit is not "180 days," and a
    US B-1/B-2 six-month admission is not the >180-day unlawful-presence bar. Precision outranks
    borrowed simplicity every time.
-5. **Report back in three parts** — what was adopted and from which source, what was corrected in
+5. **Read their whole page list for the jurisdiction, not just the page with the matching title.**
+   A competitor may split one statute across several pages — theirs carried a separate "Oregon
+   Safe Harbor (30-Day)" page for a provision sitting in ORS 316.027, the same statute our Oregon
+   article already cited. Our page had the 200-day route and asserted that domicile makes you a
+   resident whatever your day count; the statute's 30-day exit for a domiciliary keeping no Oregon
+   abode was missing, and a same-title-only comparison would never have surfaced it. Their extra
+   pages are a map of the sub-rules worth re-reading the primary source for.
+6. **Expect to find them wrong as often as you find them ahead.** Their North Carolina page
+   asserts a permanent-place-of-abode requirement the statute does not impose; ours says plainly
+   that no home in the state is needed. Confirming our article is right is a real result of the
+   comparison, not a null one.
+7. **A day-count carve-out usually lives in audit guidance, not the headline FAQ page.** New
+   York's public residency FAQ defines a day and stops there; the transit exception (20 NYCRR
+   105.20(c)) and the medical-confinement policy (Stranahan, with outpatient care expressly
+   outside it) are both in the Department's Nonresident Audit Guidelines PDF. When a rule is
+   audited hard, look for the audit manual and add it to `sources`.
+8. **Report back in three parts** — what was adopted and from which source, what was corrected in
    our article, and what was deliberately declined with the reason. A comparison that only reports
    additions hides the judgement calls, which are the valuable part.
 
@@ -495,6 +511,23 @@ mechanic and delete it, trusting How to keep track to carry it alone. After draf
 Understanding section specifically for "consecutive," "rolls," "resets," "cumulative," "arrival and
 departure" — if any hit, move the sentence, don't just reword it.
 
+**The US state batch shipped with the same leak in 7 of 31 articles**, which is worth recording
+because none of them looked like a mechanics paragraph while being written — each was framed as
+what makes that state distinctive. Pennsylvania explained midnight-to-midnight counting;
+Massachusetts explained that the statute itself makes a partial day a full day; Virginia explained
+the solely-in-transit exclusion; Colorado explained that weekends, holidays and non-consecutive
+days all count; Utah explained that 183-or-more means day 183 qualifies; Ohio spelled out the
+whole contact-period definition; Georgia explained how the year-end lookback window is measured.
+Every one was already stated in the callout and in How to keep track, and several in an FAQ as
+well. **A distinctive counting mechanic is still a counting mechanic** — Understanding gets the
+one-clause version of what the unit *is* ("a contact period is closer to a night than a day"), and
+How to keep track gets how it is measured.
+
+**Cut the closing paragraph that recaps the bullets.** The same batch carried several: Idaho's
+"both limbs also carry an all-or-nothing quality on timing," West Virginia's "both halves of the
+exit matter," Maryland restating its own domicile bullet in prose. A paragraph that adds a tone of
+emphasis but no fact is the easiest 15% of the section to lose.
+
 **Open with who the rule applies to**, in one sentence, before any mechanism. "This applies to any
 lawful permanent resident travelling outside the US, however the green card was obtained." "This
 applies to anyone building toward settled status in Spain on a temporary residence permit, whatever
@@ -607,6 +640,10 @@ local-source" / "50% or more of assets are managed locally" / "50% or more of as
 locally" is one merged bullet, not three.
 
 **Never compare the rule to another country's rule or reference another article on the site.**
+This covers sub-national siblings too: "the highest threshold of any state," "an escape the
+183-day states do not offer," "more dangerous than an equivalent property in Mississippi or Texas"
+all had to come out of the US state articles. A bare statement of this rule's own figure survives
+("more than 270 days is roughly nine months"); the ranking against other jurisdictions does not.
 Every rule page must read as fully self-contained — if a contrast with another country's approach
 would genuinely help, it belongs in that other article, not as a comparison hanging off this one.
 **No markdown anchor links to other sections, ever** — write `(see **How to keep track** below)`
@@ -754,7 +791,10 @@ this section, tighten it before moving on — this section should be one of the 
 article, not one of the longest. **The concrete target is the library median: about 395 characters
 of prose, measured excluding the mandatory closing sentence** (min 162, max 531 across 73 rules).
 Measure against that rather than guessing — a draft that feels long is often already at the median,
-and one that reads tight can be well over it.
+and one that reads tight can be well over it. **When a review pass measures this section and finds
+it already in band, leave it alone.** All 31 US state articles came in between 374 and 446
+characters against a 395 median; trimming them anyway would have cost the state-specific clause
+each one opens with, which is the part that took research.
 
 **This section needs real, country-specific research — never default to a generic template.**
 "You may owe back taxes, interest, and penalties... the authority can assess this retroactively"
@@ -903,7 +943,18 @@ Always consider including:
   specific form or procedure involved, varies) rather than assuming it's identical to another
   rule's version of the same question.
 
-Avoid a question that just restates a Key Facts table row with no new information. **Whenever you
+Avoid a question that just restates a Key Facts table row with no new information. "Is the count a
+calendar year or a rolling 12 months?" is the recurring offender — the Period / Window row already
+says so. **The question worth asking is the consequence that row does not state**: a stay
+straddling 31 December is split between two annual counts, so a snowbird winter or a ski season
+running November to March can leave both years under the threshold even though the visit itself
+ran longer. Ask it in the state's own terms (a season, a summer, a winter), not as a generic
+window question, and only where a straddling stay is the natural pattern for that jurisdiction.
+
+**Competitor FAQ sets are usually template-generated across their whole library** — the US state
+sweep found the same five questions on 26 pages with the state name swapped in. Do not import a
+template. Mine it for the one question that carries a consequence, verify that consequence, and
+write it in the terms of the specific rule. **Whenever you
 reword a FAQ question, re-check that the answer's leading word/polarity still matches the new
 phrasing.** A question like "Does X rule out Y?" answered "No" becomes wrong if reworded to "Can Y
 still happen despite X?" — the correct answer flips to "Yes," but a title-only edit leaves the old
@@ -1041,11 +1092,19 @@ thresholds at render time — author them correctly in the Markdown.
 ### Sub-national rules — US states, and later cities
 
 US states are **not** registered as places and get **no URL path of their own**. A state rule is a
-US rule that happens to be about a state. Breadcrumbs stay
-`Rules / Tax residency / United States`. There is no `/rules/states/...` and no new `PlaceType`.
+US rule that happens to be about a state. There is no `/rules/states/...` and no new `PlaceType`.
+
+**Breadcrumbs do name the state**, as a leaf under the country:
+`Rules / Tax residency / United States / New York`, with the country crumb pointing at
+`/rules/countries/united-states`. This replaced an earlier `Rules / Tax residency / United States`
+trail that ended at the country. That version gave all 31 state pages an identical
+`BreadcrumbList` — indistinct wherever Google renders the trail in place of the URL — and named the
+leaf "United States" while pointing it at a page about New York, which structured data is not
+allowed to do. Country rules are unchanged and still end at the country.
 
 - **`place: us-{subdivision}`** — `us-ca`, `us-ny`, `us-dc`. Do not register the state in
-  `places.ts`. The compound id is how the rule gets its own flag; grouping, country pages, and
+  `places.ts`, but **do add its display name to `SUBDIVISION_NAMES`** there — that map is what the
+  breadcrumb leaf reads, and it is the one piece of per-state config that is not derived. The compound id is how the rule gets its own flag; grouping, country pages, and
   breadcrumbs use the parent (`us`). Do **not** use `place: us` plus a separate `flag` field —
   that older pattern is obsolete. No registered place id contains a hyphen, so the split is
   unambiguous (`getParentPlaceId` / `isSubnationalPlaceId` in `places.ts`).
@@ -1207,10 +1266,24 @@ So, for any US rule:
 - Every new state rule must also be added back into the federal US rules' lists per step 2 above,
   and cross-linked with the neighbouring states a reader is likely to be weighing (NY ↔ NJ ↔ CT,
   CA ↔ neighbouring western states).
+- **When a federal page has only two or three slots to give, spend them on the largest
+  income-tax states rather than spreading thinly.** SPT, FEIE, the B-1/B-2 visa and ESTA pages
+  each carry California, New York and Pennsylvania on that basis. Texas and Florida have no
+  income tax and therefore no rule to link to, which is why the list is not simply the three
+  largest states.
 
 Note the exception this creates: `us-green-card` and `us-naturalization` currently drop
 `us-b1b2-visa` and `us-esta` because visitor-visa rules are irrelevant to someone who already holds
 status. State residency rules are not in that category — they are relevant to every US reader.
+
+The current shape of the US federal set, so it is not silently undone: **`us-tax-residency-spt`
+and `us-feie` dropped the immigration-status rules** (green card, naturalization, and for FEIE the
+B-1/B-2 visa) in favour of the three state rules — someone reading about federal tax residency is
+far more likely to need California or New York next than a green card page. **`us-b1b2-visa` and
+`us-esta` dropped the other countries' visitor visas** (Canada, UK) for the same three states,
+keeping Schengen 90/180 as the one non-US day-counting rule. `us-green-card` and
+`us-naturalization` keep the immigration set and pair with `us-feie` and the PR/citizenship rules
+of comparable countries.
 
 ### Articles that are not rules
 

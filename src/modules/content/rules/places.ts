@@ -54,6 +54,50 @@ export const RULE_PLACES: RulePlace[] = [
   { id: "vi", name: "US Virgin Islands", type: "territory", slug: "us-virgin-islands" },
 ];
 
+/**
+ * Display names for sub-national places. They are not registered as places (see
+ * `isSubnationalPlaceId`), but a breadcrumb has to name the page it points at:
+ * without this the leaf crumb on all 31 US state rules read "United States",
+ * which is both indistinct in search results and wrong about what the page is.
+ */
+const SUBDIVISION_NAMES: Record<string, string> = {
+  "us-az": "Arizona",
+  "us-ca": "California",
+  "us-co": "Colorado",
+  "us-ct": "Connecticut",
+  "us-dc": "District of Columbia",
+  "us-de": "Delaware",
+  "us-ga": "Georgia (US State)",
+  "us-hi": "Hawaii",
+  "us-ia": "Iowa",
+  "us-id": "Idaho",
+  "us-il": "Illinois",
+  "us-ky": "Kentucky",
+  "us-la": "Louisiana",
+  "us-ma": "Massachusetts",
+  "us-md": "Maryland",
+  "us-me": "Maine",
+  "us-mn": "Minnesota",
+  "us-mo": "Missouri",
+  "us-nc": "North Carolina",
+  "us-nd": "North Dakota",
+  "us-ne": "Nebraska",
+  "us-nj": "New Jersey",
+  "us-ny": "New York",
+  "us-oh": "Ohio",
+  "us-or": "Oregon",
+  "us-pa": "Pennsylvania",
+  "us-ri": "Rhode Island",
+  "us-ut": "Utah",
+  "us-va": "Virginia",
+  "us-vt": "Vermont",
+  "us-wv": "West Virginia",
+};
+
+export function getSubdivisionName(placeId: string): string | undefined {
+  return SUBDIVISION_NAMES[placeId];
+}
+
 export function getAllPlaces(): RulePlace[] {
   return RULE_PLACES;
 }

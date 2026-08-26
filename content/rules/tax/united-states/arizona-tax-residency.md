@@ -28,7 +28,7 @@ sources:
 relatedContent:
   - california-tax-residency
   - colorado-tax-residency
-  - hawaii-tax-residency
+  - utah-tax-residency
   - oregon-tax-residency
   - us-tax-residency-spt
   - us-feie

@@ -28,7 +28,7 @@ sources:
 relatedContent:
   - idaho-tax-residency
   - arizona-tax-residency
-  - oregon-tax-residency
+  - utah-tax-residency
   - nebraska-tax-residency
   - us-tax-residency-spt
   - us-feie

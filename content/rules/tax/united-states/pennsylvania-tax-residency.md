@@ -27,7 +27,7 @@ sources:
 
 relatedContent:
   - new-jersey-tax-residency
-  - new-york-tax-residency
+  - delaware-tax-residency
   - ohio-tax-residency
   - maryland-tax-residency
   - us-tax-residency-spt

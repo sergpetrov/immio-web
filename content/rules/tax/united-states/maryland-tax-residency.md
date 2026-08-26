@@ -29,7 +29,7 @@ relatedContent:
   - virginia-tax-residency
   - pennsylvania-tax-residency
   - new-jersey-tax-residency
-  - new-york-tax-residency
+  - delaware-tax-residency
   - us-tax-residency-spt
   - us-feie
 

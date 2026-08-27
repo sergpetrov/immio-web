@@ -52,6 +52,14 @@ export const RULE_PLACES: RulePlace[] = [
   { id: "dk", name: "Denmark", type: "country", slug: "denmark" },
   { id: "vc", name: "Saint Vincent and the Grenadines", type: "country", slug: "saint-vincent-and-the-grenadines" },
   { id: "vi", name: "US Virgin Islands", type: "territory", slug: "us-virgin-islands" },
+  { id: "al", name: "Albania", type: "country", slug: "albania" },
+  { id: "am", name: "Armenia", type: "country", slug: "armenia" },
+  { id: "lt", name: "Lithuania", type: "country", slug: "lithuania" },
+  { id: "md", name: "Moldova", type: "country", slug: "moldova" },
+  { id: "sk", name: "Slovakia", type: "country", slug: "slovakia" },
+  { id: "si", name: "Slovenia", type: "country", slug: "slovenia" },
+  { id: "tw", name: "Taiwan", type: "country", slug: "taiwan" },
+  { id: "jp", name: "Japan", type: "country", slug: "japan" },
 ];
 
 /**

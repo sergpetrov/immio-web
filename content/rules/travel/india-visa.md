@@ -31,6 +31,7 @@ relatedContent:
   - indonesia-visa
   - uae-visa
   - schengen-90-180-day-rule
+  - japan-temporary-visitor
 
 ---
 

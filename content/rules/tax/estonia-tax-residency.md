@@ -32,9 +32,9 @@ relatedContent:
   - georgia-tax-residency
   - cyprus-tax-residency
   - poland-tax-residency
-  - portugal-tax-residency
   - czech-republic-tax-residency
   - uae-tax-residency
+  - lithuania-tax-residency
 
 ---
 

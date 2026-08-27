@@ -30,8 +30,8 @@ relatedContent:
   - indonesia-tax-residency
   - thailand-visa
   - india-visa
-  - uae-visa
   - schengen-90-180-day-rule
+  - japan-temporary-visitor
 
 ---
 

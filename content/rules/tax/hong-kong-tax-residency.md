@@ -37,6 +37,7 @@ relatedContent:
   - uae-tax-residency
   - malaysia-tax-residency
   - uk-tax-residency-srt
+  - taiwan-tax-residency
 
 ---
 

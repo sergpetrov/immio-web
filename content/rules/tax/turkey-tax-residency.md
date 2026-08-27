@@ -29,8 +29,8 @@ relatedContent:
   - cyprus-tax-residency
   - uae-tax-residency
   - georgia-tax-residency
-  - montenegro-tax-residency
-  - portugal-tax-residency
+  - turkey-short-stay
+  - armenia-tax-residency
 
 ---
 

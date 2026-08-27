@@ -33,10 +33,10 @@ sources:
 relatedContent:
   - uae-tax-residency
   - uae-residence-visa
-  - saudi-arabia-tax-residency
   - thailand-visa
   - india-visa
   - schengen-90-180-day-rule
+  - turkey-short-stay
 
 ---
 

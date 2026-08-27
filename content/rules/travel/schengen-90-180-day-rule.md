@@ -35,9 +35,9 @@ relatedContent:
   - uk-visitor-visa
   - us-esta
   - spain-tax-residency
-  - portugal-tax-residency
-  - italy-tax-residency
   - france-tax-residency
+  - turkey-short-stay
+  - georgia-visa-free-stay
 
 ---
 

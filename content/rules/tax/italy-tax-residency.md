@@ -31,7 +31,7 @@ relatedContent:
   - portugal-tax-residency
   - france-tax-residency
   - switzerland-tax-residency
-  - uae-tax-residency
+  - slovenia-tax-residency
 
 ---
 

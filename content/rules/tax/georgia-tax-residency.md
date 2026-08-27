@@ -30,10 +30,10 @@ sources:
 relatedContent:
   - uae-tax-residency
   - cyprus-tax-residency
-  - malta-tax-residency
   - turkey-tax-residency
-  - portugal-tax-residency
   - serbia-tax-residency
+  - georgia-visa-free-stay
+  - armenia-tax-residency
 
 ---
 

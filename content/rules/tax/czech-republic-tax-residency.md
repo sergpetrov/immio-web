@@ -33,8 +33,8 @@ relatedContent:
   - estonia-tax-residency
   - germany-tax-residency
   - romania-tax-residency
-  - bulgaria-tax-residency
-  - uae-tax-residency
+  - slovakia-tax-residency
+  - slovenia-tax-residency
 
 ---
 

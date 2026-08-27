@@ -30,8 +30,8 @@ relatedContent:
   - bulgaria-tax-residency
   - romania-tax-residency
   - georgia-tax-residency
-  - cyprus-tax-residency
   - turkey-tax-residency
+  - albania-tax-residency
 
 ---
 

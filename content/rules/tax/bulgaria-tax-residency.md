@@ -30,7 +30,8 @@ relatedContent:
   - georgia-tax-residency
   - cyprus-tax-residency
   - serbia-tax-residency
-  - portugal-tax-residency
+  - albania-tax-residency
+  - moldova-tax-residency
 
 ---
 

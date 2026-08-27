@@ -29,9 +29,9 @@ relatedContent:
   - hong-kong-tax-residency
   - singapore-tax-residency
   - canada-tax-residency
-  - australia-tax-residency
   - malaysia-tax-residency
   - uae-tax-residency
+  - taiwan-tax-residency
 
 ---
 

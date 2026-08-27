@@ -31,10 +31,10 @@ sources:
 relatedContent:
   - cyprus-tax-residency
   - italy-tax-residency
-  - portugal-tax-residency
   - malta-tax-residency
   - bulgaria-tax-residency
   - turkey-tax-residency
+  - albania-tax-residency
 
 ---
 

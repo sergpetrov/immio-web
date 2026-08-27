@@ -33,8 +33,8 @@ relatedContent:
   - malaysia-tax-residency
   - uae-tax-residency
   - thailand-tax-residency
-  - india-tax-residency
   - indonesia-tax-residency
+  - taiwan-tax-residency
 
 ---
 

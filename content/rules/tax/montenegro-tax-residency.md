@@ -31,7 +31,7 @@ relatedContent:
   - greece-tax-residency
   - cyprus-tax-residency
   - georgia-tax-residency
-  - uae-tax-residency
+  - albania-tax-residency
 
 ---
 

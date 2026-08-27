@@ -891,6 +891,7 @@ html[data-theme="dark"] .content-country-search__clear img {
   border-radius: 50%;
   object-fit: cover;
   flex-shrink: 0;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 0.14), 0 6px 18px rgb(0 0 0 / 0.10);
 }
 
 .content-article p.content-article__meta,

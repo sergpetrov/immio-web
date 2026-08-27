@@ -1,5 +1,6 @@
 import { getRuleFlagFile } from "../registry";
 import type { RuleDoc } from "../types";
+import SubtitleText from "./subtitleText";
 
 /** A single rule as a full-width rounded chip: flag + title + subtitle. */
 export default function RuleChip({
@@ -26,7 +27,9 @@ export default function RuleChip({
           <span className="content-rule-chip__content">
             <span className="content-rule-chip__title">{frontmatter.title}</span>
             {frontmatter.subtitle ? (
-              <span className="content-rule-chip__subtitle">{frontmatter.subtitle}</span>
+              <span className="content-rule-chip__subtitle">
+                <SubtitleText text={frontmatter.subtitle} />
+              </span>
             ) : null}
           </span>
         </span>

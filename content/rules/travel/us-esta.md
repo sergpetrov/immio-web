@@ -2,7 +2,7 @@
 id: us-esta
 
 title: US ESTA
-subtitle: 90 days per visit ∙ ESTA ∙ Visa Waiver
+subtitle: 90 days per visit ∙ Visa Waiver
 
 category: travel
 

@@ -442,6 +442,14 @@ html.is-inapp .content-app-cta {
   letter-spacing: 0.03em;
 }
 
+/* "•" separators in subtitles, sized and spaced to match the smaller "∙". */
+.content-bullet {
+  display: inline-block;
+  width: 0.62em;
+  text-align: center;
+  transform: translateY(0.05em) scale(0.78);
+}
+
 @media (max-width: 767px) {
   .content-rule-chip {
     font-size: 1.15rem;

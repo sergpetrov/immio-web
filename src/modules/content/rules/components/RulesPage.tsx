@@ -3,6 +3,7 @@ import SiteHeaderView from "../../../../react-app/components/SiteHeaderView";
 import { US_STATES_TAB_ID, getCatalogTabs } from "../categories";
 import { getRuleFlagFile, getRulesForCategory, getUsStateRules } from "../registry";
 import type { RuleDoc } from "../types";
+import SubtitleText from "./subtitleText";
 import LegalDisclaimer from "./LegalDisclaimer";
 
 function rulesForTab(tabId: string): RuleDoc[] {
@@ -67,7 +68,9 @@ export default function RulesPage({ appDownloadUrl }: { appDownloadUrl: string }
                           <span className="content-rule-chip__content">
                             <span className="content-rule-chip__title">{rule.frontmatter.title}</span>
                             {rule.frontmatter.subtitle ? (
-                              <span className="content-rule-chip__subtitle">{rule.frontmatter.subtitle}</span>
+                              <span className="content-rule-chip__subtitle">
+                                <SubtitleText text={rule.frontmatter.subtitle} />
+                              </span>
                             ) : null}
                           </span>
                         </span>

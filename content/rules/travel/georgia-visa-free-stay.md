@@ -74,7 +74,8 @@ while you are still lawfully in the country.
 ## How to keep track
 
 1. The permission is **12 full months**, granted on entry and calculated from the **date you cross the border**.
-   Georgia states it in months and publishes no day equivalent, so the entry date is what your deadline runs from.
+   Georgia states it as **one full year** and publishes no day equivalent, so the entry date is what your deadline runs
+   from.
 2. There is **no annual allowance to ration** on this route: the 12 months attach to your entry rather than being
    measured backwards across a rolling window.
 3. **Any part of a day** counts as a day of presence, so the days you arrive and leave both sit inside the permitted

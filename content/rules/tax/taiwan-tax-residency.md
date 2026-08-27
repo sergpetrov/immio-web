@@ -67,10 +67,9 @@ individual residing in Taiwan if either condition applies:
 - **183-day rule** — you have no domicile in Taiwan but stay there for 183 days or more in the tax year.
 
 A Taiwan national with household registration can still be treated as a nonresident under the 31-day rule. It applies
-where the stay in the year ran more than 1 day but fewer than 31, and the center of vital interest is outside Taiwan.
-Taiwan
-social security entitlement, a spouse or dependent child living there, and economic activity in the country all point
-the other way.
+where the stay in the year came to fewer than 31 days and the center of life and economic interests sits outside
+Taiwan. Cover under national health, labor or pension insurance, a spouse or minor children living there, and running
+a business, practicing a profession or managing property in the country all point the other way.
 
 What residence changes is how you are taxed, not which country can tax you. Residents file an annual return in May for
 the previous calendar year and pay at the progressive rates, while nonresidents have tax withheld at source and
@@ -159,8 +158,8 @@ instead, and only once the filing unit's overseas income for the year reaches th
 
 ### Can a Taiwan national be treated as a nonresident?
 
-Yes, in a narrow case. Someone with household registration who was in Taiwan for more than 1 day but fewer than 31 in
-the year, and whose center of vital interest is elsewhere, can be treated as a nonresident.
+Yes, in a narrow case. Someone with household registration who was in Taiwan for fewer than 31 days in the year, and
+whose center of life and economic interests is elsewhere, can be treated as a nonresident.
 
 ### How do I prove how many days I stayed?
 

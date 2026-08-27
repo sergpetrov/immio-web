@@ -1572,6 +1572,95 @@ Before delivering the Markdown file, audit it against:
 
 ---
 
+## 26. Tracker rules config — keep the app catalogue in sync
+
+Every rule that is added or changed here must be reflected in the Immio app's tracker catalogue, in
+the same pass:
+
+```text
+/Users/sergpetrov/StudioProjects/pet/tracker/tracker_rules_config.csv
+```
+
+This file is the source of record for what the app tracks. A rule page shipped without its row (or
+with a stale row) leaves the app and the site disagreeing, which is exactly the drift this file
+exists to prevent. It is not optional and not a follow-up task.
+
+**This CSV is the only file to touch in the app repo.** Do not edit `trackers.xml`, the tracker
+type definitions, or any other app source as part of writing a rule — not even to correct a
+description that this rule page just changed. The app side is picked up separately from the CSV, so
+an edit made here is at best duplicated work and at worst a change landing on the wrong branch,
+ahead of the app work that has to accompany it.
+
+**Columns:** `ID, Name, Description, Overview, Places, Type, Main Requirement, Additional Requirement, Risk (onboarding)`.
+
+- **Description** — the page's `subtitle`, with `∙` replaced by `•`.
+- **Overview** — the page's `:::callout` text with markdown stripped: `**bold**` markers removed,
+  `[label](/link)` reduced to `label`, whitespace collapsed to single spaces.
+
+- **ID** — the tracker key used in the app when the rule already ships there, otherwise the rule
+  page's `id`.
+- **Places** — place codes from the app's `places.json`: `PT`, `US`, and `US-CA` style for US
+  states. Multi-place rules list every code, comma-separated.
+- **Type** — `Visa`, `Residency`, `Citizenship`, or `TaxResidency`.
+- **Main Requirement** — the day-counting config in bracket form:
+  `[PresenceAllDays, Annual(01-01), 183 MaxDays]`. Count type is one of `PresenceAllDays`,
+  `PresenceWholeDays`, `PresenceMidnightRule`, `PresenceExcludeDeparture`, `AbsenceWholeDays`, plus
+  a `Consecutive` suffix where the stay must be unbroken. Period is `Annual(DD-MM)`,
+  `Rolling(N Day|Month|Year)`, `Fixed`, or `PerEntry`. Use `MinDays` when the tracker's default is
+  to keep the status, `MaxDays` when the default is to avoid it. One line per alternative window
+  when a rule has more than one.
+- **Additional Requirement** — a secondary day count in the same bracket form. Prefix it with `!!`
+  when the app cannot express it yet, so unimplemented routes stay visible.
+- **Risk (onboarding)** — one line prefixed with the direction the Main Requirement uses
+  (`MaxDays: …` or `MinDays: …`), in the established `You may have [icon] …, [icon] …, or
+  [icon] …` shape. **Leave this column empty for US state rules.**
+
+### Marking what the app does not count — `(not tracked here yet)`
+
+The Overview cell is the page callout **plus** an inline note wherever the rule names a day count
+the tracker does not compute. Write it as ` (not tracked here yet)`, immediately after the clause
+that names the count and before that clause's punctuation:
+
+```text
+…or more than 300 days across 2 consecutive years (not tracked here yet). Ordinary residence is…
+…keep no home there and stay 30 days or fewer (not tracked here yet).
+```
+
+The note belongs on the Overview cell only. The rule page never carries it — the page describes the
+rule, the note describes this app's coverage of it.
+
+**Mark:**
+
+- an alternative route to the same status that rests on a day count the Main Requirement does not
+  cover — a second window (280 days across 2 years), a multi-year aggregate (549 days across 3
+  years), a conditional shorter threshold (60 days plus 365 across the previous 4)
+- an escape or safe-harbour clause that turns on days — "keep no home there and stay 30 days or
+  fewer", "a visit of 6 months or less keeps you out"
+- a count of something other than days present — how long a home is *kept* (an abode maintained
+  for more than 6 months, or for substantially all the year), which the tracker never measures
+- a counting basis the app cannot reproduce — days compared against another place ("more days here
+  than in any other state"), or days excluded for a reason the app has no concept of (time solely
+  in transit)
+
+**Do not mark:**
+
+- domicile, permanent home, habitual abode, centre-of-vital-interests, ties, or status tests — they
+  carry no day count at all, so there is nothing for the tracker to miss
+- a plain "while keeping a permanent place of abode" condition — a yes/no condition, not a count
+- anything the Main Requirement already covers, including its own count rule: "any part of a day
+  counts" is what `PresenceAllDays` does, and a preset covers the alternative threshold it names
+
+**On every rule update, re-check the notes on that row.** They go stale in both directions — a note
+must come off once the app gains a preset or requirement covering that route, and a new one goes on
+when the page introduces a count the tracker cannot follow. A stale note is worse than none: it
+tells the reader a gap exists where the app is in fact correct.
+
+When a rule changes, update only its own row. Other rows may already differ from the app — that is
+existing drift being tracked separately, and rewriting them hides which change belongs to this
+edit.
+
+---
+
 ## Expected result
 
 One complete file per rule:

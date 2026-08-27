@@ -434,3 +434,12 @@ html[data-theme="dark"] button.site-header__toggle:focus {
     margin-bottom: 6px;
   }
 }
+
+/* Phone widths: the wordmark and the full actions row cannot share one line,
+   which wraps the bar onto two rows. The wordmark wins while it is showing --
+   the colour-mode button comes back once the scrolled bar collapses it. */
+@media (max-width: 480px) {
+  .site-header:not(.is-scrolled) .site-header__theme {
+    display: none;
+  }
+}

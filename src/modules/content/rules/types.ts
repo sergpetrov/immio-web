@@ -32,6 +32,11 @@ export interface RuleSource {
 export interface RuleFrontmatter {
   id: string;
   title: string;
+  /**
+   * Compact label for breadcrumbs when the full title is too long.
+   * Falls back to `title` when omitted.
+   */
+  shortTitle?: string;
   subtitle?: string;
   category: CategoryId;
   /**

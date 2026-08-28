@@ -2,6 +2,7 @@
 id: 183-day-tax-residency-rule
 
 title: 183-Day Tax Residency Rule
+shortTitle: 183-day rule
 subtitle: Calendar year ∙ Tax year ∙ Rolling window
 
 category: tax

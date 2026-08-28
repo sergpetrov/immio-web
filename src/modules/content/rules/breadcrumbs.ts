@@ -43,7 +43,7 @@ export function buildRuleBreadcrumbs(category: Category, rule: RuleDoc): Breadcr
   const place = getPlaceForRule(rule);
 
   if (!place || !rule.frontmatter.place) {
-    trail.push({ label: rule.frontmatter.title, href: ruleHref });
+    trail.push({ label: rule.frontmatter.shortTitle ?? rule.frontmatter.title, href: ruleHref });
     return trail;
   }
 

@@ -26,6 +26,9 @@ export const CONTENT_SECURITY_POLICY = [
 
 export const SECURITY_HEADERS: Record<string, string> = {
   "Content-Security-Policy": CONTENT_SECURITY_POLICY,
+  // CSP `frame-ancestors 'none'` is the modern clickjacking control; this
+  // duplicate exists because scanners still look for the legacy header.
+  "X-Frame-Options": "DENY",
 };
 
 /** Cloudflare `_headers` file body for static asset responses. */

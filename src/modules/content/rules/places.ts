@@ -60,6 +60,7 @@ export const RULE_PLACES: RulePlace[] = [
   { id: "si", name: "Slovenia", type: "country", slug: "slovenia" },
   { id: "tw", name: "Taiwan", type: "country", slug: "taiwan" },
   { id: "jp", name: "Japan", type: "country", slug: "japan" },
+  { id: "pe", name: "Peru", type: "country", slug: "peru" },
 ];
 
 /**

@@ -32,8 +32,8 @@ relatedContent:
   - uruguay-tax-residency
   - chile-tax-residency
   - brazil-tax-residency
+  - peru-tax-residency
   - spain-tax-residency
-  - portugal-tax-residency
   - us-tax-residency-spt
 
 ---

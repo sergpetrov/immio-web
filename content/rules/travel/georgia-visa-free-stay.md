@@ -45,18 +45,18 @@ relatedContent:
 ## Overview
 
 :::callout
-Citizens of the countries on Georgia's list can enter and stay **12 full months** without a visa, counted
+Citizens of the countries on Georgia's list can enter and stay **12 full months (~365 days)** without a visa, counted
 **from the day you cross the border**. Other visa-exempt travelers get **90 days in any 180-day period** instead.
 Since **1 March 2026**, paid work needs a separate permission.
 :::
 
-| Key parameters          |                             |
-|:------------------------|----------------------------:|
-| Limit                   |                   12 months |
-| Period / Window         |                   Per visit |
-| Counting                |           Any part of a day |
-| Alternative             |  90 days / Rolling 180 days |
-| Additional requirements |  Approval for any paid work |
+| Key parameters          |                            |
+|:------------------------|---------------------------:|
+| Limit                   |      12 months (~365 days) |
+| Period / Window         |                  Per visit |
+| Counting                |          Any part of a day |
+| Alternative             | 90 days / Rolling 180 days |
+| Additional requirements | Approval for any paid work |
 
 ## Understanding the rule
 
@@ -73,7 +73,7 @@ while you are still lawfully in the country.
 
 ## How to keep track
 
-1. The permission is **12 full months**, granted on entry and calculated from the **date you cross the border**.
+1. The permission is **12 full months (~365 days)**, granted on entry and calculated from the **date you cross the border**.
    Georgia states it as **one full year** and publishes no day equivalent, so the entry date is what your deadline runs
    from.
 2. There is **no annual allowance to ration** on this route: the 12 months attach to your entry rather than being

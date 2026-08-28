@@ -45,13 +45,13 @@ days** in the **final 12 months**. Spouses of British citizens get a shorter rou
 way you must hold ILR when you apply.
 :::
 
-| Key parameters          |                                           |
-|:------------------------|------------------------------------------:|
-| Limit                   |                       450 days of absence |
-| Qualifying period       |                                   5 years |
-| Counting                |                     Whole days of absence |
-| Alternative             |             270 days of absence / 3 years |
-| Additional requirements | 90 days of absence in the final 12 months |
+| Key parameters          |                                            |
+|:------------------------|-------------------------------------------:|
+| Limit                   |                        450 days of absence |
+| Qualifying period       |                                    5 years |
+| Counting                |                      Whole days of absence |
+| Alternative             |              270 days of absence / 3 years |
+| Additional requirements | ≤90 days of absence in the final 12 months |
 
 ## Understanding the rule
 

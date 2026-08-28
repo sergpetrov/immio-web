@@ -43,16 +43,16 @@ relatedContent:
 ## Overview
 
 :::callout
-Most visitors to Canada are admitted for **6 months** from their entry date. If the officer doesn't stamp your passport
+Most visitors to Canada are admitted for **6 months (~180 days)** from their entry date. If the officer doesn't stamp your passport
 you're still admitted for 6 months. There is **no annual cap** and **no rolling window**.
 :::
 
-| Key parameters          |                                     |
-|:------------------------|------------------------------------:|
-| Limit                   |                            6 months |
-| Period / Window         |                           Per visit |
-| Counting                |                   Any part of a day |
-| Additional requirements | eTA or visa by nationality, no work |
+| Key parameters          |                                               |
+|:------------------------|----------------------------------------------:|
+| Limit                   |                          6 months (~180 days) |
+| Period / Window         |                                     Per visit |
+| Counting                |                             Any part of a day |
+| Additional requirements |           eTA or visa by nationality, no work |
 
 ## Understanding the rule
 
@@ -74,7 +74,7 @@ permits, applied for separately.
 
 ## How to keep track
 
-1. The default is **6 months** from your date of entry. If the officer wrote a different date in your passport, that
+1. The default is **6 months (~180 days)** from your date of entry. If the officer wrote a different date in your passport, that
    date governs instead.
 2. **No stamp means 6 months from your entry date.** You can ask the officer for a stamp if you want the date recorded,
    which is worth doing if you plan to stay a while.

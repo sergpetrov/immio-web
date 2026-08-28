@@ -2,7 +2,7 @@
 id: uae-tax-residency
 
 title: UAE Tax Residency
-subtitle: 90-day or 183-day rule ∙ Rolling 12 months
+subtitle: 90 or 183 days ∙ Rolling 12 months
 
 category: tax
 

@@ -44,13 +44,13 @@ relatedContent:
 
 :::callout
 The **B-1/B-2** is the US visitor visa, covering **business** and **tourism**. Each arrival is admitted separately,
-commonly for **up to 6 months**, and the date recorded on your **I-94** is the deadline that counts. The visa itself
+commonly for **up to 6 months (~180 days)**, and the date recorded on your **I-94** is the deadline that counts. The visa itself
 can run **up to 10 years**, but that's permission to travel, not to stay.
 :::
 
 | Key parameters          |                              |
 |:------------------------|-----------------------------:|
-| Limit                   |                     6 months |
+| Limit                   |         6 months (~180 days) |
 | Period / Window         |                    Per visit |
 | Counting                |            Any part of a day |
 | Additional requirements | Nonimmigrant intent, no work |
@@ -89,7 +89,7 @@ your ties abroad — a job, a home, family — are strong enough to draw you bac
 ## How to keep track
 
 1. Your deadline is the **admit-until date on your I-94**, not the expiry date printed on the visa. A B-2 tourist is
-   normally admitted for **6 months (180 days)** even if you asked for less, while a B-1 admission is usually matched to the
+   normally admitted for **6 months (~180 days)** even if you asked for less, while a B-1 admission is usually matched to the
    length of the business itself.
 2. Check the I-94 record online after every entry — a short-dated passport or a specifically justified decision can cut
    the period below what you expected.
@@ -111,7 +111,7 @@ employment, property, family — since that's what supports nonimmigrant intent 
 - **Extensions have to be filed before the I-94 expires.** Each grant adds up to 6 further months, but approval is
   discretionary rather than automatic, filing late is generally fatal to the application, and leaving the country
   while it's pending normally ends it.
-- **Border-hopping to reset the clock is well recognised.** Frequent short exits followed by immediate re-entry is a
+- **Border-hopping to reset the clock is well recognized.** Frequent short exits followed by immediate re-entry is a
   known pattern, and it tends to attract shorter admissions or a refusal rather than a fresh six months.
 - **Acting like an immigrant in your first 90 days raises a presumption of deception.** Starting work, enrolling in a
   course, or marrying and settling in that soon is taken to mean you misled the officer about why you came.

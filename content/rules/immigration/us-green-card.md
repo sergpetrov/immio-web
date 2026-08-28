@@ -2,7 +2,7 @@
 id: us-green-card
 
 title: US Green Card (Abandonment, Absence rule)
-subtitle: 180 consecutive days (6 months) abroad ∙ LPR
+subtitle: 6 consecutive months abroad ∙ LPR
 
 category: immigration
 
@@ -43,14 +43,14 @@ relatedContent:
 ## Overview
 
 :::callout
-**180 days (6 months) abroad or less** on one trip is basically the safe zone to keep the continuous residence, and at
+**6 months (~180 days) abroad or less** on one trip is basically the safe zone to keep the continuous residence, and at
 **12 months** your green card is presumed **abandoned**. Shorter trips are generally fine. What counts is the length of
 each **single absence**, plus your overall **ties** to the US.
 :::
 
 | Key parameters          |                                            |
 |:------------------------|-------------------------------------------:|
-| Limit                   |                 180 days (6 months) abroad |
+| Limit                   |    6 consecutive months (~180 days) abroad |
 | Period / Window         |                                   Per trip |
 | Counting                |                      Whole days of absence |
 | Additional requirements | Intent to reside, US ties, re-entry permit |
@@ -72,7 +72,7 @@ and shows the absence was planned as temporary.
 
 ## How to keep track
 
-1. **180 days (6 months) abroad or less** per trip is basically the safe zone to keep the continuous residence. Past that, an officer may question
+1. **6 months (~180 days) abroad or less** per trip is basically the safe zone to keep the continuous residence. Past that, an officer may question
    whether you've maintained residence and ask you to demonstrate your ties. At **12 months or more** the
    card stops working as a re-entry document, and an absence that long is treated as strong evidence you moved away.
 2. Only **whole days** outside the US count as absence. Your **departure** and **return** days both count as **days in** the US,
@@ -150,7 +150,7 @@ you return. Leaving on 1 January and returning on 2 January the following year i
 
 ### Can I just return briefly every year to keep my green card?
 
-Not reliably. Short annual visits are a recognised pattern and are treated as evidence that you live abroad. What
+Not reliably. Short annual visits are a recognized pattern and are treated as evidence that you live abroad. What
 matters is where your home, work and life actually are.
 
 ### What if I've already been away more than a year without a permit?

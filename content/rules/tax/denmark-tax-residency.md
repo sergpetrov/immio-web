@@ -43,18 +43,18 @@ relatedContent:
 ## Overview
 
 :::callout
-Staying in Denmark for **6 consecutive months** can make you fully liable to Danish tax on worldwide income. Short trips
-out for holidays **don't break** that period. Taking a **home** there and using it for anything beyond short holidays
-brings much shorter limits — around **3 months** at a stretch, or **180 days** in any 12, and any work at all.
+Staying in Denmark for **6 consecutive months (~183 days)** can make you a tax resident. Short absences **don't break**
+that period. Taking a **home** there and using it for anything beyond short holidays brings much shorter limits — around
+**3 months** at a stretch, or **180 days** in any 12, and any work at all.
 :::
 
-| Key parameters          |                                        |
-|:------------------------|---------------------------------------:|
-| Threshold               |                   6 consecutive months |
-| Period / Window         |   Continuous stay, not a calendar year |
-| Counting                | Elapsed time, holiday absences ignored |
-| Alternative             |                         Residence test |
-| Additional requirements |       3 months or 180 days with a home |
+| Key parameters          |                                  |
+|:------------------------|---------------------------------:|
+| Threshold               | 6 consecutive months (~183 days) |
+| Period / Window         |                  Continuous stay |
+| Counting                |                Any part of a day |
+| Alternative             |                   Residence test |
+| Additional requirements | 3 months or 180 days with a home |
 
 ## Understanding the rule
 
@@ -79,7 +79,7 @@ turns on a day count. It doesn't decide residency at all — see **Relief for wo
 
 ## How to keep track
 
-1. The threshold is a stay of **at least 6 consecutive months**, measured as elapsed time from your arrival.
+1. The threshold is a stay of **at least 6 consecutive months (~183 days)**, measured as elapsed time from your arrival.
 2. **Holiday absences don't break the period.** Short trips abroad leave the stay running rather than restarting it.
 3. There is no calendar-year reset. The period is assessed as one continuous stretch, so a stay beginning in autumn
    runs straight through the year-end.

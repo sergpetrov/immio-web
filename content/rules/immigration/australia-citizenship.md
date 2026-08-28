@@ -39,17 +39,17 @@ relatedContent:
 ## Overview
 
 :::callout
-You can be absent **no more than 12 months** across the **4 years** before applying for Australian citizenship, and no
+You can be absent **no more than 12 months (~365 days)** across the **4 years** before applying for Australian citizenship, and no
 **more than 90 days** of that in the **final 12 months**. Those 4 years must be lawful residence, with the last **12
 months** held as a **permanent resident**.
 :::
 
-| Key parameters          |                                           |
-|:------------------------|------------------------------------------:|
-| Limit                   |           12 months (365 days) of absence |
-| Qualifying period       |                                   4 years |
-| Counting                |                     Whole days of absence |
-| Additional requirements | 90 days of absence in the final 12 months |
+| Key parameters          |                                            |
+|:------------------------|-------------------------------------------:|
+| Limit                   |           12 months (~365 days) of absence |
+| Qualifying period       |                                    4 years |
+| Counting                |                      Whole days of absence |
+| Additional requirements | ≤90 days of absence in the final 12 months |
 
 ## Understanding the rule
 
@@ -74,7 +74,7 @@ live in Australia or keep a close and continuing association with it.
 
 1. You need **4 years lawful residence** in Australia immediately before applying, with at least the last **12 months**
    held as a permanent resident.
-2. Total absence across the 4 years can't exceed **12 months**, and absence in the final 12 months can't exceed
+2. Total absence across the 4 years can't exceed **12 months (~365 days)**, and absence in the final 12 months can't exceed
    **90 days**. Both tests apply at the same time.
 3. Only **whole days** outside Australia count as absence. Your departure and arrival days both count as days in
    Australia, so an absence runs from the day after you leave to the day before you come back.

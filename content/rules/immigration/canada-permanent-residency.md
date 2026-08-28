@@ -2,7 +2,7 @@
 id: canada-permanent-residency
 
 title: Canada Permanent Residency
-subtitle: 730 days ∙ Last 5 years ∙ PR
+subtitle: 730 days ∙ 5 years ∙ PR
 
 category: immigration
 
@@ -40,14 +40,14 @@ relatedContent:
 ## Overview
 
 :::callout
-**730 days (2 years)** physically in Canada across **any 5-year** period keeps your permanent residency. The window
+**2 years (~730 days)** physically in Canada across **any 5-year** period keeps your permanent residency. The window
 **rolls**, so any 5 years can be examined at a border crossing or PR card renewal. Some time abroad still counts toward
 the 730, which makes the rule more generous than it first looks.
 :::
 
 | Key parameters   |                     |
 |:-----------------|--------------------:|
-| Presence         |            730 days |
+| Presence         | 2 years (~730 days) |
 | Period / Window  |     Rolling 5 years |
 | Counting         |   Any part of a day |
 | Alternative      | Time abroad credits |
@@ -56,7 +56,7 @@ the 730, which makes the rule more generous than it first looks.
 
 This applies to every Canadian permanent resident, however they obtained the status, for as long as they hold it.
 
-The obligation is stated as a minimum presence rather than a maximum absence: **730 days** inside Canada out of every **1825**. 
+The obligation is stated as a minimum presence rather than a maximum absence: **2 years (~730 days)** inside Canada out of every **1825**. 
 That leaves roughly three years of the five available to spend abroad, and the days don't have to be consecutive.
 
 The window **rolls**, and is applied to whichever 5-year period is being examined at the moment your status is assessed
@@ -75,7 +75,7 @@ travel document; the status is separate and continues until an officer formally 
 
 ## How to keep track
 
-1. You need **730 days physically in Canada** within any **rolling 5-year period**, not 730 days per five calendar years.
+1. You need **2 years (~730 days) physically in Canada** within any **rolling 5-year period**, not 730 days per five calendar years.
 2. **Any part of a day** in Canada counts as a **full day**, including your arrival and departure days.
 3. Days abroad that fall into one of the 3 accompanying-or-employed categories are **added to your total** as
    though spent in Canada, so count those separately rather than writing them off.

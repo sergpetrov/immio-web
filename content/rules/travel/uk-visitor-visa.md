@@ -45,17 +45,17 @@ relatedContent:
 ## Overview
 
 :::callout
-A **Standard Visitor** can stay **up to 6 months per visit**. A long-term visa running
+A **Standard Visitor** can stay **up to 6 months per visit (~180 days)**. A long-term visa running
 **2, 5** or **10 years** doesn't extend that, each visit is still capped at 6 months.
 There's **no annual allowance** and **no required gap** between visits.
 :::
 
-| Key parameters          |                               |
-|:------------------------|------------------------------:|
-| Limit                   |                      6 months |
-| Period / Window         |                     Per visit |
-| Counting                |             Any part of a day |
-| Additional requirements |      No work, no public funds |
+| Key parameters          |                          |
+|:------------------------|-------------------------:|
+| Limit                   |     6 months (~180 days) |
+| Period / Window         |                Per visit |
+| Counting                |        Any part of a day |
+| Additional requirements | No work, no public funds |
 
 ## Understanding the rule
 
@@ -70,13 +70,13 @@ as much as time:
 - **You'll stick to permitted activities** — tourism, visiting family and friends, business meetings and negotiations,
   conferences, and certain paid engagements.
 - **You won't take UK work or settle here.** Taking a job, running a business from the UK, most paid work for a UK
-  organisation, claiming public funds and using the route to settle all sit outside what a visit allows.
+  organization, claiming public funds and using the route to settle all sit outside what a visit allows.
 - **You aren't living in the UK through repeat visits.** This one has no numeric trigger, so an officer weighs your
   overall pattern instead.
 
 ## How to keep track
 
-1. The limit is **6 months** from the date you're admitted, applied to each visit separately.
+1. The limit is **6 months (~180 days)** from the date you're admitted, applied to each visit separately.
 2. **Any part of a day** in the UK counts, so your arrival and departure days both fall inside the permitted period.
 3. A long-term visit visa's validity is not your stay limit. Each visit still capped at **6 months**.
 4. Track your cumulative time across visits as well as each individual stay, because the genuine-visitor assessment

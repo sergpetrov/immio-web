@@ -47,7 +47,7 @@ a resident; **213 or more** presumes that you are.
 
 | Key parameters          |                               |
 |:------------------------|------------------------------:|
-| Threshold               |           212 contact periods |
+| Threshold               |                    212 nights |
 | Period / Window         |     Tax year (1 Jan – 31 Dec) |
 | Counting                |      Nights (contact periods) |
 | Alternative             |                      Domicile |

@@ -40,7 +40,7 @@ relatedContent:
 ## Overview
 
 :::callout
-Spending **more than 6 months** of a **tax year** in Colorado while keeping a **permanent place of abode** there makes
+Spending **more than 6 months (~183 days)** of a **tax year** in Colorado while keeping a **permanent place of abode** there makes
 you a statutory resident, taxed on income from all sources. The time **need not be consecutive**, and you need not own
 the abode. Being **domiciled** in Colorado qualifies with no count at all.
 :::
@@ -68,8 +68,7 @@ where you are domiciled in another state.
 
 ## How to keep track
 
-1. The threshold is **more than 6 months** of the tax year, which runs 1 January to 31 December. Colorado publishes no
-   separate day figure and treats six months as equivalent to about **183 days**.
+1. The threshold is **more than 6 months (~183 days)** of the tax year, which runs 1 January to 31 December.
 2. Days are counted **in the aggregate**, and they **need not be consecutive** — a winter block and a summer block add
    together.
 3. **Weekends and holidays count the same as work days.** There is no category of day that is exempt from the count.

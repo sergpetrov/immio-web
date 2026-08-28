@@ -2,7 +2,7 @@
 id: arizona-tax-residency
 
 title: Arizona Tax Residency
-subtitle: 9 months (~270 days) ∙ Starts Jan 1
+subtitle: 9 months ∙ Starts Jan 1
 
 category: tax
 

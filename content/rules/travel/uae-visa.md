@@ -103,7 +103,7 @@ rather than your recollection.
   living or working in the UAE requires an employer-sponsored or investor residence visa.
 - **The eligible nationality lists change.** The authorities say so themselves, and countries are added to the
   visa-free and visa-on-arrival lists periodically, so a list you checked a year ago may be out of date.
-- **Border-running to reset a 30-day stay is well recognised.** A quick exit and re-entry to obtain a fresh stamp is a
+- **Border-running to reset a 30-day stay is well recognized.** A quick exit and re-entry to obtain a fresh stamp is a
   known pattern and can result in refusal at the counter rather than a new stamp.
 
 ## If you get this rule wrong

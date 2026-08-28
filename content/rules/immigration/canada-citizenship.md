@@ -43,14 +43,14 @@ relatedContent:
 ## Overview
 
 :::callout
-**1095 days (3 years)** of physical presence in Canada within the **5 years** before you apply makes you eligible
+**3 years (~1095 days)** of physical presence in Canada within the **5 years** before you apply makes you eligible
 for citizenship. Time before permanent residence counts at **half a day each**, capped at **365 credited days**. You
 also need tax filings for **3 of those 5 years**, language and a knowledge test.
 :::
 
 | Key parameters          |                                            |
 |:------------------------|-------------------------------------------:|
-| Presence                |                                  1095 days |
+| Presence                |                       3 years (~1095 days) |
 | Qualifying period       |                                    5 years |
 | Counting                | Any part of a day, half-day credit temp PR |
 | Additional requirements |       Tax filing, language, knowledge test |
@@ -79,7 +79,7 @@ French, and pass a **knowledge test** on Canada.
 
 ## How to keep track
 
-1. You need **1095 days** physically in Canada within the **5 years** immediately before the date you apply.
+1. You need **3 years (~1095 days)** physically in Canada within the **5 years** immediately before the date you apply.
 2. **Any part of a day** in Canada counts as a full day, including arrival and departure days.
 3. Days in Canada **before** you became a permanent resident count at **half a day each**, and
    **no more than 365 credited days** can come from this source however long you were here.

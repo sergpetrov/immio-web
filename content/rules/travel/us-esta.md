@@ -57,7 +57,7 @@ days are a hard ceiling — no extension, no change of status, and trips to Cana
 
 ## Understanding the rule
 
-The programme is open to citizens of the participating countries only — it goes by nationality, not by residence, so
+The program is open to citizens of the participating countries only — it goes by nationality, not by residence, so
 living in a member country doesn't qualify you if you hold another passport. You also need an e-passport and must
 arrive on an airline or cruise line signed up to the scheme.
 

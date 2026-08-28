@@ -40,18 +40,18 @@ relatedContent:
 ## Overview
 
 :::callout
-Staying in Sweden for **6 consecutive months** creates a **habitual stay** and can make you liable to Swedish tax on
-worldwide income. Short trips out **don't shorten** that period. **Living** there, or keeping an **essential connection**
+Staying in Sweden for **6 consecutive months (~183 days)** creates a **habitual stay** and can make you a tax resident.
+Short absences **don't break** that period. **Living** there, or keeping an **essential connection**
 after leaving, qualifies separately with **no day count**.
 :::
 
-| Key parameters          |                                      |
-|:------------------------|-------------------------------------:|
-| Threshold               |                 6 consecutive months |
-| Period / Window         | Continuous stay, not a calendar year |
-| Counting                | Elapsed time, short absences ignored |
-| Alternative             |      Residence, essential connection |
-| Additional requirements |      Liability can survive departure |
+| Key parameters          |                                  |
+|:------------------------|---------------------------------:|
+| Threshold               | 6 consecutive months (~183 days) |
+| Period / Window         |                  Continuous stay |
+| Counting                |                Any part of a day |
+| Alternative             |  Residence, essential connection |
+| Additional requirements |  Liability can survive departure |
 
 ## Understanding the rule
 
@@ -76,7 +76,7 @@ This is due to change. A government proposal would replace the 6-month test with
 
 ## How to keep track
 
-1. The threshold is a stay of **6 consecutive months** in Sweden, measured as elapsed time from arrival.
+1. The threshold is a stay of **6 consecutive months (~183 days)** in Sweden, measured as elapsed time from arrival.
 2. **Short absences don't break the period.** Trips out for holidays or to visit your home country leave the stay
    running rather than restarting it.
 3. There is no calendar-year reset. The stay is assessed as a continuous stretch, so a period beginning in autumn runs

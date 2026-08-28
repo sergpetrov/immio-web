@@ -63,7 +63,7 @@ How long you have to qualify depends on your route:
 - **5 years** — Skilled Worker, Health and Care Worker and most other work routes, partners of British citizens and
   settled people, Global Talent endorsed for exceptional promise, British National (Overseas) visa holders, and
   Commonwealth citizens on the UK Ancestry route.
-- **3 years** — Global Talent endorsed as a recognised leader or holding an eligible award, and Innovator Founder.
+- **3 years** — Global Talent endorsed as a recognized leader or holding an eligible award, and Innovator Founder.
 - **2 or 3 years** — the closed investor routes, depending on the level of investment.
 - **10 years** — long residence, built from any lawful leave rather than a single route.
 

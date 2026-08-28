@@ -2,7 +2,7 @@
 id: north-dakota-tax-residency
 
 title: North Dakota Tax Residency
-subtitle: 7 months (~210 days) ∙ Starts Jan 1
+subtitle: 7 months ∙ Starts Jan 1
 
 category: tax
 
@@ -71,7 +71,7 @@ Minnesota or Montana, who are covered by reciprocity arrangements with those sta
 
 ## How to keep track
 
-1. The threshold is **more than 210 days** in the tax year, which runs 1 January to 31 December, so day **211** is the
+1. The threshold is **more than 7 months (~210 days)** in the tax year, which runs 1 January to 31 December, so day **211** is the
    first that qualifies.
 2. North Dakota publishes no partial-day rule. Counting **any part of a day** as a full day is the safe reading and
    the one to track against.

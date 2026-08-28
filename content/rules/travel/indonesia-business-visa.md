@@ -91,7 +91,7 @@ questioned, that evidence is what distinguishes a business visit from undeclared
 - **The sponsor carries real responsibility.** An Indonesian company or authorised individual formally vouches for
   your visit, and problems with the sponsor's standing can affect your visa and your extensions.
 - **Repeated back-to-back stays start to look like residence.** Using the full 180 days, leaving briefly, and
-  returning on a fresh visa is a pattern immigration recognises. Someone genuinely based in Indonesia needs a limited
+  returning on a fresh visa is a pattern immigration recognizes. Someone genuinely based in Indonesia needs a limited
   stay permit rather than another visit visa.
 - **The prohibited activity is defined by what you do, not how long.** Signing a contract as a party is a business
   visit. Performing the work under it for an Indonesian client is not, however short the engagement.
@@ -162,4 +162,4 @@ clearly outside it.
 ### What if I need to stay longer than 180 days?
 
 That's a limited stay permit rather than another visit visa. Repeatedly cycling through the maximum and returning is a
-recognised pattern and tends to attract scrutiny rather than approval.
+recognized pattern and tends to attract scrutiny rather than approval.

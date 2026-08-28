@@ -2,7 +2,7 @@
 id: us-naturalization
 
 title: US Citizenship (Naturalization)
-subtitle: 3 or 5 years ∙ <180 consecutive days (6 months) abroad
+subtitle: 3 or 5 years ∙ <6 consecutive months abroad
 
 category: immigration
 
@@ -41,7 +41,7 @@ relatedContent:
 
 :::callout
 **913 days** of physical presence across the **5 years** before applying makes you eligible to naturalize, with
-staying **under 180 days (6 months) abroad** per trip keeping your continuous residence. Spouses of US citizens get
+staying **under 6 months (~180 days) abroad** per trip keeping your continuous residence. Spouses of US citizens get
 a shorter route — **3 years** and **548 days**.
 :::
 
@@ -51,7 +51,7 @@ a shorter route — **3 years** and **548 days**.
 | Qualifying period       |                                  5 years |
 | Counting                |                        Any part of a day |
 | Alternative             |        548 days / 3 years (spouse route) |
-| Additional requirements | Less 180 days (6 months) abroad per trip |
+| Additional requirements | <6 consecutive months (~180 days) abroad |
 
 ## Understanding the rule
 
@@ -80,7 +80,7 @@ character** across the qualifying period, and passes in the English and civics t
 1. Two counts run at once: total **physical presence** of at least 913 days, and **continuous residence** unbroken by
    any single long absence.
 2. **Any part of a day** in the US counts toward physical presence, including arrival and departure days.
-3. Watch each individual trip against the **180-day (6-month)** line. **180 days (6 months) abroad or less** is the
+3. Watch each individual trip against the **6 months (~180 days)** line. **~180 days abroad or less** is the
    safe zone. An absence of more than 180 days but under 365 is presumed to have broken continuity, and you can rebut
    that with evidence you kept your US home, job and family ties.
 4. An absence of **365 days or more** breaks continuity outright, restarting the clock from your return. You then

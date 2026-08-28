@@ -38,14 +38,14 @@ relatedContent:
 ## Overview
 
 :::callout
-**730 days (2 years) of the last 5 years** in Australia is the standard route to a **Resident Return Visa**, the
+**2 years (~730 days) of the last 5 years** in Australia is the standard route to a **Resident Return Visa**, the
 document a permanent resident needs to re-enter. The status itself never expires, but the **travel facility** attached
 to it runs out after 5 years. **Substantial ties** is the alternative, with **no day count**.
 :::
 
 | Key parameters  |                        |
 |:----------------|-----------------------:|
-| Presence        |     730 days (2 years) |
+| Presence        |    2 years (~730 days) |
 | Period / Window |        Rolling 5 years |
 | Counting        |      Any part of a day |
 | Alternative     | Substantial ties route |
@@ -75,7 +75,7 @@ Restoring the ability to travel means a **Resident Return Visa**, which can be g
 
 1. Check your current visa's **travel facility expiry date**, which is separate from anything about your status. The
    Department publishes an online service for checking visa details and conditions.
-2. The standard test is **2 years — 730 days — physically in Australia** as a permanent resident within the 5 years
+2. The standard test is **2 years (~730 days) physically in Australia** as a permanent resident within the 5 years
    before you apply for a Resident Return Visa.
 3. **Any part of a day** in Australia counts as a full day, including arrival and departure days.
 4. The 5-year window **rolls back from your application date**, so applying later moves the window and can change

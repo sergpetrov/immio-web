@@ -39,17 +39,17 @@ relatedContent:
 ## Overview
 
 :::callout
-Being in Turkey **continuously for more than 6 months** within a **calendar year** can make you a tax resident. Alternatively,
+Being in Turkey **more than 6 months** within a **calendar year** can make you a tax resident. Alternatively,
 keeping a **settled home** there qualifies with **no day count**. Statutory exceptions can override the 6-month test for people
 present only for a specific, temporary purpose.
 :::
 
-| Key parameters          |                                     |
-|:------------------------|------------------------------------:|
-| Threshold               |     6 months (effectively 183 days) |
-| Period / Window         |      Calendar year (1 Jan – 31 Dec) |
-| Counting                |                   Any part of a day |
-| Alternative             |                       Domicile test |
+| Key parameters          |                                |
+|:------------------------|-------------------------------:|
+| Threshold               |           6 months (~183 days) |
+| Period / Window         | Calendar year (1 Jan – 31 Dec) |
+| Counting                |              Any part of a day |
+| Alternative             |                  Domicile test |
 
 ## Understanding the rule
 
@@ -69,7 +69,7 @@ all keep nonresident status even past six months, as long as they don't intend t
 
 ## How to keep track
 
-1. The core threshold is **more than six months** (effectively 183+ days) of continuous presence within a single **calendar year**.
+1. The core threshold is **more than 6 months (~183 days)** of continuous presence within a single **calendar year**.
 2. **Short absences** during that period **don't** interrupt the **count**, as long as your overall presence still falls within
    one calendar year.
 

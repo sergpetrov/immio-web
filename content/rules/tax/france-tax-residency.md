@@ -43,14 +43,14 @@ relatedContent:
 ## Overview
 
 :::callout
-**More than 183 days** in France during a **calendar year** may trigger tax residency if you have **no settled home
+**More than 6 months (~183 days)** in France during a **calendar year** may trigger tax residency if you have **no settled home
 elsewhere**. Otherwise, residency can arise based on where your **home**, **economic interests**, or **main professional
 activity** are located — without a specific day threshold.
 :::
 
 | Key parameters  |                                                 |
 |:----------------|------------------------------------------------:|
-| Threshold       |                 6 months (effectively 183 days) |
+| Threshold       |                            6 months (~183 days) |
 | Period / Window |                  Calendar year (1 Jan – 31 Dec) |
 | Counting        |                               Any part of a day |
 | Alternative     | Home, professional activity, economic interests |
@@ -74,7 +74,7 @@ makes you a nonresident, generally taxed only on French-source income.
 ## How to keep track
 
 1. The only time-based criterion is the **principal place of stay**, used where you have no settled home. More than
-   **6 months** in the calendar year — in practice, at least six months and one day, just over half the year — is
+   **6 months (~183 days)** in the calendar year — in practice, at least six months and one day, just over half the year — is
    the general guide, but less can still be enough if France beat every other country.
 2. There is no statutory counting formula, and French tax authorities **haven't confirmed** rules for partial days or for
    arrival and departure days. Courts weigh whatever presence you can actually evidence rather than applying a fixed

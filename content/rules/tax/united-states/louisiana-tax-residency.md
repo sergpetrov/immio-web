@@ -2,7 +2,7 @@
 id: louisiana-tax-residency
 
 title: Louisiana Tax Residency
-subtitle: 6 months (~183 days) ∙ Starts Jan 1
+subtitle: 6 months ∙ Starts Jan 1
 
 category: tax
 
@@ -71,7 +71,7 @@ the portion after the threshold was passed. A temporary absence does not change 
 
 ## How to keep track
 
-1. The threshold is **more than 6 months** of the tax year, which Louisiana states in months rather than days. About
+1. The threshold is **more than 6 months (~183 days)** of the tax year, which Louisiana states in months rather than days. About
    **183 days** is the working line rather than a figure the state publishes.
 2. Count **any part of a day** in the state as a full day — the safe reading, and the one to track against.
 3. Time is measured **in the aggregate** across the year rather than as one continuous stay.

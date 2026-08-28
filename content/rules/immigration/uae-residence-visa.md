@@ -50,7 +50,7 @@ count. **Golden**, **Green** and **Blue** visas don't have this limit.
 | Key parameters          |                                     |
 |:------------------------|------------------------------------:|
 | Limit                   |     180 consecutive days of absence |
-| Period / Window         |              Per continuous absence |
+| Period / Window         |                            Per trip |
 | Counting                |               Whole days of absence |
 | Alternative             | Golden, Green and Blue visas exempt |
 | Additional requirements |       Sponsor, Emirates ID, renewal |

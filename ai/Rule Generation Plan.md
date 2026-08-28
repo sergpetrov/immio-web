@@ -1318,8 +1318,15 @@ the web.
 Two things to know before editing that file:
 
 **1. Mark untracked additional routes with `(not tracked here yet)`.** The parenthetical is app
-state, not web content — it exists **only** in the XML and must survive a sync. Drop it only when
-the app actually starts tracking that route.
+state, not web content, and it must survive a sync. Drop it only when the app actually starts
+tracking that route.
+
+It lives in **two** app-side places, not one: the `overview_*` string in `trackers.xml` **and** the
+`Overview` column of `tracker_rules_config.csv`. An earlier version of this plan said the XML only,
+which is wrong and dangerous to follow — syncing the web callout over the CSV without re-inserting
+the parenthetical silently drops the untracked-route markers. As of the last check 21 rules carry
+it in the CSV. Copy the web callout across, then put the marker back on the same clause it was
+attached to before.
 
 The source of truth for *which* tax routes are untracked is
 `<app repo>/tracker/tracker_rules_config.csv`: any **Additional Requirement** cell that starts with
@@ -1339,7 +1346,48 @@ eleven differ — `australia_residency`, `canada_residency`, `india_tourist_visa
 `italy_residence_permit`, `puerto_rico_act60_residency`, `schengen`, `thailand_visa_exemption`,
 `uk_ilr`, `uk_srt`, `us_citizenship`, `us_spt`. Map by meaning, not by string similarity.
 
-The file is **not under version control** — back it up before a scripted edit. **Never put the
+**The CSV also mirrors two other web fields, and comparing them needs normalising.** Its
+`Description` column is the web `subtitle`, and its `Overview` column is the web callout with
+markdown stripped. Three things differ cosmetically and will produce false mismatches if compared
+raw: the web uses `∙` where the CSV uses `•`, the web callout carries `**bold**` markers the CSV
+does not, and the web wraps callouts across lines while the CSV holds one line. Normalise all three
+before deciding anything has drifted. Note too that a markdown link in a callout — the US
+Substantial Presence Test has one — must be flattened to plain text for the CSV, which does not
+render markdown.
+
+### Syncing the web content into the CSV
+
+The web markdown is the source of truth; the CSV receives. The procedure that works:
+
+1. **Normalise both sides before deciding anything drifted** — `∙` → `•`, strip `**bold**`, collapse
+   the callout's line wrapping to one line, and flatten markdown links to their text
+   (`[green card](/rules/us-green-card)` → `green card`). Skipping this manufactures false
+   mismatches on nearly every row.
+2. **Map the IDs.** Twelve rules are named differently in the CSV — the same list as the XML, plus
+   `uk-srt`, `us-spt`, `uk_citizenship` and `uk_ilr`, which mix hyphens and underscores
+   inconsistently. Match by meaning.
+3. **Write row-scoped, never with a global find-and-replace.** Distinct rules share identical field
+   text — Arizona and California have had the same `Description` — so a whole-file string swap
+   silently edits two rows. Read with `csv.DictReader`, change the fields, write back with
+   `DictWriter(lineterminator="\n", quoting=QUOTE_MINIMAL)`. That round-trips this file
+   byte-for-byte apart from the trailing newline, so a diff afterwards should show only the rows
+   you meant to touch.
+4. **Re-insert `(not tracked here yet)` after copying.** Anchor it to the clause it was attached to
+   before, not to a fixed offset. Where the CSV value differs from the web value *only* by this
+   marker, the row is already in sync — skip it rather than rewriting it.
+5. **Verify afterwards**: row count unchanged, marker count unchanged, and the only remaining
+   differences are the intended ones.
+
+**Two subtitles are deliberately not synced.** `us-tax-residency-spt` and `uk-tax-residency-srt`
+carry a trailing `• SPT` / `• SRT` on the web that the CSV does not want. Leave both alone.
+
+**Watch for typos travelling.** A sync copies whatever the web says, so scan the values you are
+about to write: a stray space inside a parenthetical, or an odd approximation, becomes an app
+string. Prefer round figures in the day approximations — `10 months (~300 days)`, not `(~304
+days)`.
+
+Neither file is **under version control** — decide deliberately whether a backup is warranted
+before a scripted edit. **Never put the
 backup inside `composeResources/values/`.** Compose Multiplatform scans every file in that folder;
 a `trackers.xml.bak-*` there fails the build with `Unknown resource type: 'values'`. Copy the
 backup to `/tmp` or a folder outside `composeResources`.

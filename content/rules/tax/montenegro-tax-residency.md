@@ -15,7 +15,7 @@ seo:
     there, or a center of personal and economic interests, qualifies with no
     day count at all.
 
-updatedAt: 2026-08-25
+updatedAt: 2026-08-28
 
 sources:
   - title: "Montenegro — Law on Personal Income Tax (official English text)"
@@ -40,8 +40,8 @@ relatedContent:
 ## Overview
 
 :::callout
-Spending **more than 183 days** in Montenegro in a **tax year** can make you a tax resident. Alternative is the having your
-**domicile** there, or your **center of personal and economic interests**, qualifies with **no day count** at all.
+Spending **more than 183 days** in Montenegro in a **tax year** can make you a tax resident. Having your
+**domicile** there, or your **center of personal and economic interests**, also qualifies with **no day count** at all.
 :::
 
 | Key parameters          |                                  |

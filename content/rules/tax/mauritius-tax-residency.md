@@ -2,7 +2,7 @@
 id: mauritius-tax-residency
 
 title: Mauritius Tax Residency
-subtitle: 183 days ∙ Stars Jul 1
+subtitle: 183 days ∙ Starts Jul 1
 
 category: tax
 
@@ -15,7 +15,7 @@ seo:
     tax resident, or 270 days across 3 last years. Domicile qualifies with
     no day count.
 
-updatedAt: 2026-08-25
+updatedAt: 2026-08-28
 
 sources:
   - title: "Mauritius Revenue Authority — Foreign income"

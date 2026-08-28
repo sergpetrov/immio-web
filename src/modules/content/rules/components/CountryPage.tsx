@@ -22,7 +22,7 @@ export default function CountryPage({
   });
   const usStateRules = rules.filter((rule) => {
     const placeId = rule.frontmatter.place;
-    return Boolean(placeId) && isSubnationalPlaceId(placeId);
+    return placeId !== undefined && isSubnationalPlaceId(placeId);
   });
   const backHref = `/rules/countries/${place.slug}`;
   return (

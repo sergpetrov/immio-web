@@ -1,8 +1,8 @@
 ---
 id: us-green-card
 
-title: US Green Card (Abandonment, Absence rule)
-subtitle: 6 consecutive months abroad ∙ LPR
+title: US Green Card (Absence rule)
+subtitle: 6 consecutive months abroad ∙ Abandonment
 
 category: immigration
 
@@ -38,7 +38,7 @@ relatedContent:
 
 ---
 
-# United States Green Card (Abandonment, Absence rule)
+# United States Green Card (Absence rule)
 
 ## Overview
 

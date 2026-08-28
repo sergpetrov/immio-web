@@ -26,12 +26,12 @@ sources:
     type: official
 
 relatedContent:
+  - 183-day-tax-residency-rule
   - uae-residence-visa
   - uae-visa
   - cyprus-tax-residency
   - uk-tax-residency-srt
   - germany-tax-residency
-  - singapore-tax-residency
 
 ---
 

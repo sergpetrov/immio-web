@@ -18,7 +18,7 @@ export function assertValidRuleFrontmatter(data: unknown, filePath: string): Rul
 
   const record = data as Record<string, unknown>;
 
-  for (const field of ["id", "title", "place", "updatedAt"]) {
+  for (const field of ["id", "title", "updatedAt"]) {
     if (!isNonEmptyString(record[field])) {
       fail(filePath, `"${field}" is required and must be a non-empty string`);
     }
@@ -52,12 +52,21 @@ export function assertValidRuleFrontmatter(data: unknown, filePath: string): Rul
     }
   }
 
-  const placeId = record.place as string;
-  if (!/^[a-z][a-z0-9_]*(-[a-z0-9]+)?$/.test(placeId)) {
-    fail(filePath, `"place" must be a place ID, optionally with a "-{subdivision}" suffix`);
+  if (record.place !== undefined) {
+    if (!isNonEmptyString(record.place)) {
+      fail(filePath, `"place", if present, must be a non-empty string`);
+    }
+    const placeId = record.place;
+    if (!/^[a-z][a-z0-9_]*(-[a-z0-9]+)?$/.test(placeId)) {
+      fail(filePath, `"place" must be a place ID, optionally with a "-{subdivision}" suffix`);
+    }
+    if (!getPlaceById(getParentPlaceId(placeId))) {
+      fail(filePath, `"place" must reference a configured place ID (or a sub-national id whose parent is configured)`);
+    }
   }
-  if (!getPlaceById(getParentPlaceId(placeId))) {
-    fail(filePath, `"place" must reference a configured place ID (or a sub-national id whose parent is configured)`);
+
+  if (record.icon !== undefined && !isNonEmptyString(record.icon)) {
+    fail(filePath, `"icon", if present, must be a non-empty string`);
   }
 
   if (record.relatedContent !== undefined) {

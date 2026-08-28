@@ -1,7 +1,7 @@
 import SiteFooter from "../../../../react-app/components/SiteFooter";
 import SiteHeaderView from "../../../../react-app/components/SiteHeaderView";
 import { US_STATES_TAB_ID, getCatalogTabs } from "../categories";
-import { getRuleFlagFile, getRulesForCategory, getUsStateRules } from "../registry";
+import { getRuleIconSrc, getRulesForCategory, getUsStateRules } from "../registry";
 import type { RuleDoc } from "../types";
 import SubtitleText from "./subtitleText";
 import LegalDisclaimer from "./LegalDisclaimer";
@@ -56,15 +56,19 @@ export default function RulesPage({ appDownloadUrl }: { appDownloadUrl: string }
                 {rules.length === 0 ? (
                   <li className="content-empty">Content for this category is coming soon.</li>
                 ) : (
-                  rules.map((rule) => (
+                  rules.map((rule) => {
+                    const iconSrc = getRuleIconSrc(rule);
+                    return (
                     <li key={rule.frontmatter.id}>
                       <a className="content-rule-chip" href={`/rules/${rule.frontmatter.id}`} data-rule-origin="/rules">
-                        <span className="content-rule-chip__title-row has-flag">
-                          <img
-                            className="content-rule-chip__flag"
-                            src={`/flags/${getRuleFlagFile(rule)}`}
-                            alt=""
-                          />
+                        <span className={`content-rule-chip__title-row${iconSrc ? " has-flag" : ""}`}>
+                          {iconSrc ? (
+                            <img
+                              className={`content-rule-chip__flag${rule.frontmatter.icon ? " content-rule-chip__flag--mono" : ""}`}
+                              src={iconSrc}
+                              alt=""
+                            />
+                          ) : null}
                           <span className="content-rule-chip__content">
                             <span className="content-rule-chip__title">{rule.frontmatter.title}</span>
                             {rule.frontmatter.subtitle ? (
@@ -76,7 +80,8 @@ export default function RulesPage({ appDownloadUrl }: { appDownloadUrl: string }
                         </span>
                       </a>
                     </li>
-                  ))
+                    );
+                  })
                 )}
               </ul>
             );

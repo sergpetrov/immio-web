@@ -514,6 +514,7 @@ html[data-theme="dark"] .content-country-search__clear img {
   filter: invert(1);
 }
 
+
 .content-country-search input {
   width: 100%;
   min-width: 0;

@@ -41,6 +41,12 @@ export function buildRuleBreadcrumbs(category: Category, rule: RuleDoc): Breadcr
   const trail = buildCategoryBreadcrumbs(category);
   const ruleHref = `/rules/${rule.frontmatter.id}`;
   const place = getPlaceForRule(rule);
+
+  if (!place || !rule.frontmatter.place) {
+    trail.push({ label: rule.frontmatter.title, href: ruleHref });
+    return trail;
+  }
+
   const subdivision = getSubdivisionName(rule.frontmatter.place);
 
   if (subdivision) {

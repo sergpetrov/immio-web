@@ -1,7 +1,7 @@
 import SiteFooter from "../../../../react-app/components/SiteFooter";
 import SiteHeaderView from "../../../../react-app/components/SiteHeaderView";
 import { buildRuleBreadcrumbs } from "../breadcrumbs";
-import { getPlaceForRule, getRuleFlagFile, isSubnationalPlaceId } from "../registry";
+import { getPlaceForRule, getRuleIconSrc, isSubnationalPlaceId } from "../registry";
 import type { Category, RuleDoc } from "../types";
 import Breadcrumbs from "./Breadcrumbs";
 import LegalDisclaimer from "./LegalDisclaimer";
@@ -29,6 +29,7 @@ export default function RulePage({
 }) {
   const { frontmatter, headline, sections, toc } = rule;
   const place = getPlaceForRule(rule);
+  const iconSrc = getRuleIconSrc(rule);
 
   return (
     <div className="content">
@@ -45,16 +46,32 @@ export default function RulePage({
 
             <article className="content-article">
               <header
-                className="content-article__header content-article__header--with-flag"
+                className={
+                  iconSrc
+                    ? "content-article__header content-article__header--with-flag"
+                    : "content-article__header"
+                }
               >
                 <h1>{headline}</h1>
-                <img
-                  className="content-article__flag"
-                  src={`/flags/${getRuleFlagFile(rule)}`}
-                  alt={isSubnationalPlaceId(rule.frontmatter.place) ? "" : `${place.name} flag`}
-                  width={24}
-                  height={24}
-                />
+                {iconSrc ? (
+                  <img
+                    className={
+                      frontmatter.icon
+                        ? "content-article__flag content-article__flag--mono"
+                        : "content-article__flag"
+                    }
+                    src={iconSrc}
+                    alt={
+                      !place
+                        ? ""
+                        : frontmatter.place && isSubnationalPlaceId(frontmatter.place)
+                          ? ""
+                          : `${place.name} flag`
+                    }
+                    width={24}
+                    height={24}
+                  />
+                ) : null}
               </header>
               <p className="content-article__meta">
                 Reviewed in {formatMonthYear(frontmatter.updatedAt)}

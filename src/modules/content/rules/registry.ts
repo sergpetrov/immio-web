@@ -53,6 +53,9 @@ for (const rule of RULES) {
 
 const rulesByPlace = new Map<string, RuleDoc[]>();
 for (const rule of RULES) {
+  if (!rule.frontmatter.place) {
+    continue;
+  }
   // Keyed by the PARENT id, so a US state rule lists under United States.
   const placeId = getParentPlaceId(rule.frontmatter.place);
   const list = rulesByPlace.get(placeId) ?? [];
@@ -68,7 +71,10 @@ export function getRuleById(id: string): RuleDoc | undefined {
   return rulesById.get(id);
 }
 
-export function getPlaceForRule(rule: RuleDoc): RulePlace {
+export function getPlaceForRule(rule: RuleDoc): RulePlace | undefined {
+  if (!rule.frontmatter.place) {
+    return undefined;
+  }
   const place = getConfiguredPlaceById(getParentPlaceId(rule.frontmatter.place));
   if (!place) {
     throw new Error(`Rule ${rule.frontmatter.id} references an unknown place: ${rule.frontmatter.place}`);
@@ -81,23 +87,46 @@ export function getPlaceFlagId(place: RulePlace): string {
 }
 
 /**
- * Flag for a rule. Sub-national rules (US states) deliberately share their
- * country's `place` — no separate place, no separate URL path — so they name
- * their own flag in frontmatter and everything else falls back to the country.
+ * Public URL for the rule's header/chip image. Conceptual guides use
+ * `frontmatter.icon`; country rules use a derived flag path.
  */
-export function getRuleFlagFile(rule: RuleDoc): string {
+export function getRuleIconSrc(rule: RuleDoc): string | undefined {
+  if (rule.frontmatter.icon) {
+    return rule.frontmatter.icon;
+  }
+  const flagFile = getRuleFlagFile(rule);
+  return flagFile ? `/flags/${flagFile}` : undefined;
+}
+
+/**
+ * Flag filename under `/flags/` for a country or state rule.
+ * Sub-national rules (US states) deliberately share their country's `place` —
+ * no separate place, no separate URL path — so they name their own flag in
+ * frontmatter and everything else falls back to the country.
+ */
+export function getRuleFlagFile(rule: RuleDoc): string | undefined {
   const placeId = rule.frontmatter.place;
+  if (!placeId) {
+    return undefined;
+  }
+  const place = getPlaceForRule(rule);
+  if (!place) {
+    return undefined;
+  }
   // Sub-national flags are always WebP: rasterising them is what makes them
   // affordable, since the vector originals run to hundreds of KB for a 56px
   // icon. Country flags are always SVG. Keeping each set to one format is what
   // lets the filename be derived instead of declared per rule.
   return isSubnationalPlaceId(placeId)
     ? `${placeId}.webp`
-    : `${getPlaceFlagId(getPlaceForRule(rule))}.svg`;
+    : `${getPlaceFlagId(place)}.svg`;
 }
 
 function isUsStateRule(rule: RuleDoc): boolean {
   const placeId = rule.frontmatter.place;
+  if (!placeId) {
+    return false;
+  }
   return isSubnationalPlaceId(placeId) && getParentPlaceId(placeId) === "us";
 }
 

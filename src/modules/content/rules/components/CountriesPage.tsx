@@ -52,8 +52,8 @@ export default function CountriesPage({
                 rule.frontmatter.title,
                 rule.frontmatter.subtitle,
                 rule.frontmatter.seo.description,
-                place.id,
-                place.name,
+                place?.id,
+                place?.name,
               ]
                 .filter(Boolean)
                 .join(" ")

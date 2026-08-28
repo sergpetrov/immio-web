@@ -26,7 +26,7 @@ sources:
     type: official
 
 relatedContent:
-  - spain-long-term-residence
+  - 183-day-tax-residency-rule
   - portugal-tax-residency
   - italy-tax-residency
   - france-tax-residency

@@ -1,4 +1,4 @@
-import { getRuleFlagFile } from "../registry";
+import { getRuleIconSrc } from "../registry";
 import type { RuleDoc } from "../types";
 import SubtitleText from "./subtitleText";
 
@@ -14,16 +14,19 @@ export default function RuleChip({
 }) {
   const { frontmatter } = rule;
   const href = `/rules/${frontmatter.id}`;
+  const iconSrc = getRuleIconSrc(rule);
 
   return (
     <li data-searchable-rule={searchableText}>
       <a className="content-rule-chip" href={href} data-rule-origin={backHref}>
-        <span className="content-rule-chip__title-row has-flag">
-          <img
-            className="content-rule-chip__flag"
-            src={`/flags/${getRuleFlagFile(rule)}`}
-            alt=""
-          />
+        <span className={`content-rule-chip__title-row${iconSrc ? " has-flag" : ""}`}>
+          {iconSrc ? (
+            <img
+              className={`content-rule-chip__flag${frontmatter.icon ? " content-rule-chip__flag--mono" : ""}`}
+              src={iconSrc}
+              alt=""
+            />
+          ) : null}
           <span className="content-rule-chip__content">
             <span className="content-rule-chip__title">{frontmatter.title}</span>
             {frontmatter.subtitle ? (

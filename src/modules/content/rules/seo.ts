@@ -67,7 +67,7 @@ export function buildArticleJsonLd(params: {
   origin: string;
   pathname: string;
   rule: RuleDoc;
-  place: RulePlace;
+  place?: RulePlace;
 }): object {
   const { origin, pathname, rule, place } = params;
   const { frontmatter } = rule;
@@ -86,7 +86,7 @@ export function buildArticleJsonLd(params: {
     mainEntityOfPage: url,
     url,
     image: absoluteUrl(DEFAULT_OG_IMAGE_PATH),
-    about: { "@type": "Place", name: place.name },
+    ...(place ? { about: { "@type": "Place", name: place.name } } : {}),
     // The official sources already sitting in frontmatter. On a YMYL topic
     // these are the strongest machine-readable trust signal available, and
     // answer engines lean on them when deciding what to cite.

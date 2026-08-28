@@ -39,8 +39,17 @@ export interface RuleFrontmatter {
    * id (`us-ut`). A sub-national rule still belongs to its parent country for
    * grouping, breadcrumbs and URLs; the compound id only changes which flag it
    * shows. See `getRuleFlagFile`.
+   *
+   * Omitted on conceptual guides that are not tied to one jurisdiction
+   * (for example the 183-day rule explainer). Those pages show `icon` instead
+   * of a flag and do not appear on country hubs.
    */
-  place: string;
+  place?: string;
+  /**
+   * Optional icon path (site-root, e.g. `/content/icons/tax_residency_tracker.svg`)
+   * for conceptual guides that have no country flag.
+   */
+  icon?: string;
   seo: {
     title: string;
     description: string;

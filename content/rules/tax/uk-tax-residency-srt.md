@@ -31,9 +31,9 @@ sources:
     type: official
 
 relatedContent:
+  - 183-day-tax-residency-rule
   - uk-citizenship
   - uk-ilr-180-day-rule
-  - uk-visitor-visa
   - spain-tax-residency
   - portugal-tax-residency
   - ireland-tax-residency

@@ -26,7 +26,7 @@ sources:
     type: official
 
 relatedContent:
-  - australia-citizenship
+  - 183-day-tax-residency-rule
   - australia-permanent-residency
   - new-zealand-tax-residency
   - uk-tax-residency-srt

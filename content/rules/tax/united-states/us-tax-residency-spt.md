@@ -31,10 +31,10 @@ sources:
     type: official
 
 relatedContent:
+  - 183-day-tax-residency-rule
   - us-feie
   - california-tax-residency
   - new-york-tax-residency
-  - pennsylvania-tax-residency
   - puerto-rico-act60
   - canada-tax-residency
 

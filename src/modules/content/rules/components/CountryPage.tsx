@@ -16,8 +16,14 @@ export default function CountryPage({
   rules: RuleDoc[];
   appDownloadUrl: string;
 }) {
-  const countryRules = rules.filter((rule) => !isSubnationalPlaceId(rule.frontmatter.place));
-  const usStateRules = rules.filter((rule) => isSubnationalPlaceId(rule.frontmatter.place));
+  const countryRules = rules.filter((rule) => {
+    const placeId = rule.frontmatter.place;
+    return !placeId || !isSubnationalPlaceId(placeId);
+  });
+  const usStateRules = rules.filter((rule) => {
+    const placeId = rule.frontmatter.place;
+    return Boolean(placeId) && isSubnationalPlaceId(placeId);
+  });
   const backHref = `/rules/countries/${place.slug}`;
   return (
     <div className="content">

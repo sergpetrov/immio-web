@@ -1095,6 +1095,12 @@ html[data-theme="dark"] .content-country-search__clear img {
   font-weight: 500;
 }
 
+/* Key parameters title spans both columns so it stays full-width even when
+   the value column grows from longer row content. */
+.content-article th[colspan] {
+  text-align: left;
+}
+
 .content-article td {
   color: var(--content-text);
   font-weight: 400;

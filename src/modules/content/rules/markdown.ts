@@ -8,7 +8,16 @@ function isExternalHref(href: string | undefined): boolean {
   return typeof href === "string" && /^https?:\/\//i.test(href);
 }
 
-/** Custom markdown container: :::callout … ::: → rounded callout box. */
+/** Title row of the Key parameters table: empty extra header cells are dropped
+ *  so the title can colspan the full table width. */
+function isKeyParametersHeader(header: Tokens.Table["header"]): boolean {
+  return (
+    header.length >= 2 &&
+    header[0].text.trim() === "Key parameters" &&
+    header.slice(1).every((cell) => cell.text.trim() === "")
+  );
+}
+
 marked.use({
   renderer: {
     link({ href, title, tokens }) {
@@ -16,6 +25,30 @@ marked.use({
       const titleAttr = title ? ` title="${title}"` : "";
       const newTabAttrs = isExternalHref(href) ? ' target="_blank" rel="noopener noreferrer"' : "";
       return `<a href="${href}"${titleAttr}${newTabAttrs}>${text}</a>`;
+    },
+    table(token) {
+      if (!isKeyParametersHeader(token.header)) {
+        return false;
+      }
+
+      const title = this.parser.parseInline(token.header[0].tokens);
+      const header = this.tablerow({
+        text: `<th colspan="${token.header.length}">${title}</th>\n`,
+      });
+
+      let body = "";
+      for (const row of token.rows) {
+        let cells = "";
+        for (const cell of row) {
+          cells += this.tablecell(cell);
+        }
+        body += this.tablerow({ text: cells });
+      }
+      if (body) {
+        body = `<tbody>${body}</tbody>`;
+      }
+
+      return `<table>\n<thead>\n${header}</thead>\n${body}</table>\n`;
     },
   },
   extensions: [

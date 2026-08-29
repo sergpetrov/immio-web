@@ -11,15 +11,18 @@ place: us-oh
 seo:
   title: Ohio Tax Residency – 212 Contact Periods | Immio
   description: >
-    Ohio counts contact periods, not days. 212 or fewer, an abode outside the
-    state and a filed affidavit presume you are not a resident. 213 or more
-    presumes that you are.
+    Ohio counts contact periods, not days. An abode in the state generally
+    presumes domicile. Five conditions plus a Nonresident Statement on the
+    return can establish you as a nonresident.
 
-updatedAt: 2026-08-26
+updatedAt: 2026-08-29
 
 sources:
   - title: "Ohio Revised Code — Section 5747.24, presumption of residency"
     url: https://codes.ohio.gov/ohio-revised-code/section-5747.24
+    type: official
+  - title: "Ohio Department of Taxation — 2025 individual income tax instructions"
+    url: https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2025/it1040-booklet.pdf
     type: official
   - title: "Ohio Department of Taxation — Individual income tax"
     url: https://tax.ohio.gov/individual/income-tax
@@ -40,75 +43,80 @@ relatedContent:
 ## Overview
 
 :::callout
-Ohio counts **contact periods**, not days — in practice, **nights**. You have one when you are away overnight from
-your out-of-state home and are in Ohio on **both days** around that night. **212 or fewer** presumes you are **not**
-a resident; **213 or more** presumes that you are.
+Ohio counts **contact periods**, not days — in practice, **nights** spanning **2 consecutive days**
+in the state. An **abode in Ohio** generally presumes you are **domiciled** there. **Nonresident Statement** on the
+return can establish you as a nonresident.
 :::
 
-| Key parameters          |                               |
-|:------------------------|------------------------------:|
-| Threshold               |                    212 nights |
-| Period / Window         |     Tax year (1 Jan – 31 Dec) |
-| Counting                |      Nights (contact periods) |
-| Alternative             |                      Domicile |
-| Additional requirements | Abode outside Ohio, affidavit |
+| Key parameters          |                                      |
+|:------------------------|-------------------------------------:|
+| Threshold               |                  212 contact periods |
+| Period / Window         |            Tax year (1 Jan – 31 Dec) |
+| Counting                |             Nights (contact periods) |
+| Alternative             |                             Domicile |
+| Additional requirements | Abode in Ohio, Nonresident Statement |
 
 ## Understanding the rule
 
-This applies to anyone splitting time between Ohio and a home in another state. Ohio decides residency by domicile,
-and gives you a way to establish that your domicile is elsewhere:
+This applies to anyone with a home in Ohio, or splitting time between Ohio and a home somewhere
+else. Under Ohio law, **resident** and **domiciled** mean the same thing. You are a resident if Ohio
+is your permanent home, and an **abode in Ohio** — owned or rented — generally raises that
+presumption. A temporary absence does not break it.
 
-- **Domicile** — Ohio is your permanent home under the ordinary common-law test, and residency follows from it.
-- **The bright-line presumption** — staying at or under a fixed number of contact periods and meeting several
-  supporting conditions presumes you are not domiciled in Ohio.
+A contact period is closer to a **night** than a day. Ohio uses the count to set how hard the
+presumption is to rebut, and offers a statutory way to establish nonresident status:
 
-A contact period is not a day but something closer to a **night**, so the count runs well below the number of days
-you spend in the state.
+- **Ohio abode and 213 or more contact periods** — presumed domiciled for the whole year. Only
+  **clear and convincing** evidence rebuts it.
+- **Ohio abode and fewer than 213**, without the Nonresident Statement — still presumed domiciled,
+  but a **preponderance** of the evidence can rebut it.
+- **The Nonresident Statement** — a signed checkbox on Form **IT 1040** or **IT 10**, under penalty
+  of perjury. Claimed on time, it makes non-Ohio domicile **irrebuttable** for that year: the
+  Department cannot later treat you as a resident. **5 conditions** are required to be treated as a
+  nonresident:
+  - **Contact periods** — no more than **212** in the tax year.
+  - **Non-Ohio abode** — at least one residence outside Ohio for the whole year, with no federal
+    depreciation claimed on it. A vacation home, rental or other income-producing property does not
+    count.
+  - **Ohio identification** — no valid Ohio **driver's license or state ID** at any time in the
+    year. It has to have been surrendered before the year begins.
+  - **Property tax reductions** — no Ohio **homestead exemption or owner-occupied tax reduction**.
+  - **In-state tuition** — none at an Ohio college.
 
-The count is only the first of several conditions. You must also hold at least one residence outside Ohio and claim
-no federal depreciation on it, hold no valid Ohio driver's license or state ID, receive no Ohio property tax
-reduction of the specified kinds, and pay no in-state tuition at an Ohio college — then file a sworn statement after
-the tax year ends.
-
-The presumption runs both ways from the same number. At **212 or fewer** contact periods with every condition met you
-are presumed not to be an Ohio resident. At **213 or more** you are presumed to be one, and rebutting that takes clear
-and convincing evidence.
-
-The figure was 182 contact periods until March 2015, so older guidance still in circulation understates the
-allowance by a month.
+The statement is claimed on the return, not as a separate filing. Both spouses must check their own
+box on a joint return. It covers only the year claimed, and anyone who moved into or out of Ohio
+during the year cannot use it.
 
 ## How to keep track
 
-1. Count **contact periods**, not days — in practice, **nights**. One needs portions of **2 consecutive days** in Ohio while you are away
-   overnight from your abode outside the state.
-2. A **single-day visit creates nothing**, however long it lasts, because the two-consecutive-day condition is not
-   met.
-3. The safe figure is **212 or fewer** in the tax year, which runs 1 January to 31 December. **213** flips the
-   presumption against you.
-4. Hold at least one **residence outside Ohio** and claim no federal depreciation on it.
-5. Check the supporting conditions before relying on the count: no valid Ohio **driver's license or state ID**, no
-   Ohio **property tax reduction** of the specified kinds, and no **in-state tuition** if you are enrolled at an Ohio
-   college.
-6. File the **sworn statement** by the fifteenth day of the tenth month after the tax year ends. Without it the
-   presumption is unavailable however low your count.
+1. **213 or more** contact periods in the tax year, with an Ohio abode, raise the harder
+   presumption. **212 or fewer** is the line for the Nonresident Statement. The year runs 1 January
+   to 31 December.
+2. Count **contact periods**, not days. One needs portions of **2 consecutive days** in Ohio while
+   you are away overnight from an abode outside the state.
+3. You do **not** have to sleep in Ohio. Spending part of one day and part of the next in the state
+   while staying overnight across the border still produces a contact period.
+4. A **single-day visit** creates none, because the two-consecutive-day condition is not met.
+5. Periods need not run together; they add up across the year.
 
-Keep records showing where you slept each night, not merely which state you were in, since the overnight element is
-what turns presence into a contact period.
+Keep records showing where you slept each night, not merely which state you were in, since the
+overnight element is what turns presence into a contact period.
 
 ## Edge cases
 
-- **Contact periods and days are not interchangeable.** Two weeks of separate single-day visits can produce a count
-  of zero, while a run of overnight stays produces one for almost every day.
-- **A false statement destroys the protection.** The tax authority can look behind the filing and show a claim of
-  non-Ohio domicile was untrue, which leaves the ordinary domicile test applying in full.
-- **An Ohio driver's license alone can defeat it.** Holding a valid Ohio license or state ID puts the presumption out
-  of reach whatever your contact-period count.
-- **Old guidance still says 182.** The allowance rose to 212 in March 2015, so any source giving the lower figure is
-  more than a decade out of date.
-- **Ohio's own guidance is not all current.** Some department pages still describe the older 182-period rule and an
-  earlier filing deadline, so check the figure against the statute rather than a summary.
-- **Ohio cities levy their own income taxes.** Municipal residency is decided separately from state residency and is
-  not governed by this count.
+- **Contact periods and days are not interchangeable.** Two weeks of separate single-day visits can
+  produce a count of zero, while a run of overnight stays produces one for almost every day.
+- **An Ohio driver's license alone blocks the statement.** Holding a valid Ohio license or state ID
+  at any point in the year puts the irrebuttable presumption out of reach, whatever the count.
+- **A false statement destroys the protection.** Knowingly filing one is perjury. If the claim is
+  untrue, the ordinary domicile presumptions apply in full.
+- **If the count is challenged, unproven periods count against you.** You bear the burden of
+  proving the number; any stretch you cannot show by a preponderance is treated as a contact
+  period.
+- **Old guidance still says 182.** The allowance rose to 212 in March 2015, and some department
+  pages still describe the older figure and an earlier filing deadline.
+- **Ohio cities levy their own income taxes.** Municipal residency is decided separately from state
+  residency and is not governed by this count.
 
 ## If you get this rule wrong
 
@@ -116,62 +124,71 @@ A resident is taxed on income from all sources while a nonresident pays only on 
 
 ## Examples
 
-### Day trips that never count
+### A winter in Florida that never changes domicile
 
-You live across the border and drive into Ohio for work about 150 times a year, returning home each night. Because no
-visit spans portions of 2 consecutive days while away overnight, you accumulate no contact periods at all.
+You keep a house in Ohio, an Ohio driver's license and Ohio voter registration, and spend each
+winter in Florida before returning in the spring. The Ohio abode remains, the absence is temporary,
+and you are a full-year Ohio resident.
 
-### Overnight stays that add up quickly
+### Overnight stays that raise the harder presumption
 
-You keep a home in Florida and stay in Ohio in blocks of several nights at a time, totalling around 230 contact
-periods. That passes 212, so you are presumed to be an Ohio resident and must rebut it with clear and convincing
-evidence.
+You keep a house in Ohio and a home in Florida, and stay in Ohio in blocks of several nights,
+totalling around 230 contact periods. That is 213 or more with an Ohio abode, so you are presumed
+domiciled in Ohio and must rebut it with clear and convincing evidence.
 
-### A good count undone by a driver's license
+### Day trips that never become contact periods
 
-You hold a home in Kentucky and record 190 contact periods, but keep a valid Ohio driver's license. The count is
-comfortable, yet a supporting condition fails and the bright-line presumption is unavailable to you.
+You live across the border and drive into Ohio for work about 150 times a year, returning home each
+night, with no dwelling in Ohio. Because no visit spans portions of 2 consecutive days while away
+overnight, you accumulate no contact periods, and with no Ohio abode the statutory presumptions do
+not attach.
 
 ## Official sources
 
 - [Ohio Revised Code — Section 5747.24, presumption of residency](https://codes.ohio.gov/ohio-revised-code/section-5747.24)
+- [Ohio Department of Taxation — 2025 individual income tax instructions](https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2025/it1040-booklet.pdf)
 - [Ohio Department of Taxation — Individual income tax](https://tax.ohio.gov/individual/income-tax)
 
 ## FAQ
 
 ### What is a contact period in Ohio?
 
-You have one contact period when you are away overnight from your abode outside Ohio and spend at least some portion,
-however minimal, of each of 2 consecutive days in the state.
+You have one contact period when you are away overnight from your abode outside Ohio and spend at
+least some portion, however minimal, of each of 2 consecutive days in the state.
 
 ### Is a contact period the same as a day?
 
-No, and this is the most common mistake about Ohio. A single day in the state creates no contact period, because the
-test needs portions of 2 consecutive days while away overnight from your out-of-state home.
+No, and this is the most common mistake about Ohio. A single day in the state creates no contact
+period, because the test needs portions of 2 consecutive days while away overnight from your
+out-of-state home.
 
 ### Do I have to spend the night in Ohio?
 
-No, and this is where the count is usually underestimated. The overnight has to be away from your home outside Ohio,
-not inside the state, so sleeping across the border while spending part of one day and part of the next in Ohio still
-produces a contact period.
+No. The overnight has to be away from your home outside Ohio, not inside the state, so sleeping
+across the border while spending part of one day and part of the next in Ohio still produces a
+contact period.
+
+### What is the Ohio Nonresident Statement?
+
+A signed checkbox on Form IT 1040 or IT 10. By checking it you declare under penalty of perjury
+that you meet all five statutory conditions. Filed by the fifteenth day of the tenth month after
+year-end — 15 October for most people — it makes non-Ohio domicile irrebuttable for that year.
+
+### What else do I need besides staying at or under 212 contact periods?
+
+The rest of the **5 conditions** required to be a nonresident, plus the statement claimed on time:
+
+- a non-depreciated residence outside Ohio that is not a vacation home or rental
+- no valid Ohio driver's license or state ID
+- no Ohio homestead exemption or owner-occupied tax reduction
+- no in-state tuition if you study in Ohio
 
 ### Is the Ohio threshold 182 or 212?
 
-212 contact periods. The allowance was 182 until March 2015, and guidance still quoting the older figure understates
-it by about a month.
-
-### What else do I need besides staying under the threshold?
-
-At least one residence outside Ohio with no federal depreciation claimed on it, no valid Ohio driver's license or
-state ID, no Ohio property tax reduction of the specified kinds, no in-state tuition if you study in Ohio, and a sworn
-statement filed by the fifteenth day of the tenth month after the tax year ends.
-
-### Can Ohio challenge my sworn statement?
-
-Yes. The tax authority can look behind the filing and show that a claim of non-Ohio domicile was false, which leaves
-the ordinary domicile test deciding the question.
+212 contact periods. The allowance was 182 until March 2015, and guidance still quoting the older
+figure understates it by about a month.
 
 ### What happens if I go over 212 contact periods?
 
-You are presumed to be an Ohio resident for that year. The presumption can be rebutted, but only by clear and
-convincing evidence under the common-law domicile test.
+With an Ohio abode you are presumed domiciled in Ohio for that year. The presumption can be
+rebutted, but only by clear and convincing evidence.

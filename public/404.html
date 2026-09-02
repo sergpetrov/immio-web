@@ -159,11 +159,6 @@
 
     <script>
       (function () {
-        /* TEMPORARY: Android downloads are paused -- keep the App Store href on
-           every device. Flip ANDROID_STORE_ENABLED (src/react-app/appStoreLinks.ts)
-           and this flag back together to restore Play links. */
-        var ANDROID_STORE_ENABLED = false;
-        if (!ANDROID_STORE_ENABLED) return;
         if (!/Android/i.test(navigator.userAgent || "")) return;
         document.querySelectorAll("a[data-app-download]").forEach(function (anchor) {
           anchor.setAttribute("href", "https://play.google.com/store/apps/details?id=com.immio.app");

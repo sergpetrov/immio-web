@@ -1,4 +1,4 @@
-import { ANDROID_STORE_ENABLED, IMMIO_APP_STORE_URL, IMMIO_GOOGLE_PLAY_URL } from "../../react-app/appStoreLinks";
+import { IMMIO_APP_STORE_URL, IMMIO_GOOGLE_PLAY_URL } from "../../react-app/appStoreLinks";
 import { renderAnalyticsTags } from "../../shared/analytics";
 import {
   DEFAULT_OG_IMAGE_ALT,
@@ -352,18 +352,14 @@ const INAPP_LINKS_SCRIPT = `(function(){
   }, true);
 })();`;
 
-// TEMPORARY: while ANDROID_STORE_ENABLED is off the rendered App Store href is
-// already right on every device, so there is nothing to rewrite.
-const APP_DOWNLOAD_SCRIPT = ANDROID_STORE_ENABLED
-  ? `(function(){
+const APP_DOWNLOAD_SCRIPT = `(function(){
   var url = /Android/i.test(navigator.userAgent || "")
     ? ${JSON.stringify(IMMIO_GOOGLE_PLAY_URL)}
     : ${JSON.stringify(IMMIO_APP_STORE_URL)};
   document.querySelectorAll("a[data-app-download]").forEach(function (anchor) {
     anchor.setAttribute("href", url);
   });
-})();`
-  : "";
+})();`;
 
 // Rule links write a short-lived, single-use source record before navigation.
 // This preserves the exact listing page without adding navigation state to URLs.

@@ -1,6 +1,6 @@
 import type {CSSProperties} from "react";
 import {useEffect, useRef, useState} from "react";
-import {ANDROID_STORE_ENABLED, IMMIO_APP_STORE_URL, IMMIO_GOOGLE_PLAY_URL, getAppDownloadUrlForUserAgent} from "./appStoreLinks.ts";
+import {IMMIO_APP_STORE_URL, IMMIO_GOOGLE_PLAY_URL, getAppDownloadUrlForUserAgent} from "./appStoreLinks.ts";
 import {trackAppDownload} from "./analytics";
 import FaqAccordion from "./components/FaqAccordion.tsx";
 import SiteFooter from "./components/SiteFooter.tsx";
@@ -354,19 +354,16 @@ export default function LandingPage() {
                                 >
                                     <img src="/immio/app-store-badge.svg" alt="" width={113} height={30}/>
                                 </a>
-                                {/* TEMPORARY: hidden while ANDROID_STORE_ENABLED is off. */}
-                                {ANDROID_STORE_ENABLED ? (
-                                    <a
-                                        className="immio-landing-store-btn immio-landing-store-btn--play"
-                                        href={IMMIO_GOOGLE_PLAY_URL}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        aria-label="Get Immio on Google Play"
-                                        onClick={() => trackAppDownload("android", "hero")}
-                                    >
-                                        <img src="/immio/google-play-badge.svg" alt="" width={108} height={26}/>
-                                    </a>
-                                ) : null}
+                                <a
+                                    className="immio-landing-store-btn immio-landing-store-btn--play"
+                                    href={IMMIO_GOOGLE_PLAY_URL}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    aria-label="Get Immio on Google Play"
+                                    onClick={() => trackAppDownload("android", "hero")}
+                                >
+                                    <img src="/immio/google-play-badge.svg" alt="" width={108} height={26}/>
+                                </a>
                             </div>
                         </div>
 

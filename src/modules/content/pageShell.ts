@@ -320,8 +320,19 @@ const ANALYTICS_EVENTS_SCRIPT = `(function(){
   });
 })();`;
 
+/**
+ * Path prefixes the app opens in a WebView. `?source=inapp` on one of these
+ * hides the marketing chrome — see `html.is-inapp` in content.css.
+ */
+const INAPP_PATH_PREFIXES = ["/rules", "/acknowledgements"];
+
 const INAPP_BOOT_SCRIPT = `(function(){
-  if (location.pathname.indexOf("/rules") !== 0) return;
+  var prefixes = ${JSON.stringify(INAPP_PATH_PREFIXES)};
+  var matched = false;
+  for (var i = 0; i < prefixes.length; i++) {
+    if (location.pathname.indexOf(prefixes[i]) === 0) { matched = true; break; }
+  }
+  if (!matched) return;
   if (new URLSearchParams(location.search).get("source") !== "inapp") return;
   document.documentElement.classList.add("is-inapp");
 })();`;

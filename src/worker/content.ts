@@ -231,24 +231,51 @@ function renderRuleDocument(
   });
 }
 
-function renderLegalDocument({ origin, appDownloadUrl, noindex, analytics }: RenderContext, slug: "privacy" | "terms"): string {
+type LegalSlug = "privacy" | "terms" | "acknowledgements";
+
+interface LegalPageMeta {
+  path: string;
+  description: string;
+  /** Forced on regardless of host, for pages that exist but shouldn't rank. */
+  alwaysNoindex: boolean;
+}
+
+const LEGAL_PAGES: Record<LegalSlug, LegalPageMeta> = {
+  privacy: {
+    path: "/privacy",
+    description: "Learn how Immio handles personal information and anonymous app data.",
+    alwaysNoindex: false,
+  },
+  terms: {
+    path: "/terms",
+    description: "Read the terms that apply to using the Immio app.",
+    alwaysNoindex: false,
+  },
+  acknowledgements: {
+    path: "/acknowledgements",
+    description: "Third-party software, fonts and artwork used in Immio, and the licences they are used under.",
+    // Exists to satisfy attribution terms, not to be found: noindex here, and
+    // deliberately absent from the sitemap and the site footer. Left crawlable
+    // in robots.txt on purpose — a Disallow would stop crawlers ever reading
+    // the noindex tag, which is the opposite of what we want.
+    alwaysNoindex: true,
+  },
+};
+
+function renderLegalDocument({ origin, appDownloadUrl, noindex, analytics }: RenderContext, slug: LegalSlug): string {
   const document = getLegalDocument(slug);
   if (!document) {
     throw new Error(`Missing legal document: ${slug}`);
   }
 
-  const pathname = slug === "privacy" ? "/privacy" : "/terms";
-  const description =
-    slug === "privacy"
-      ? "Learn how Immio handles personal information and anonymous app data."
-      : "Read the terms that apply to using the Immio app.";
+  const { path: pathname, description, alwaysNoindex } = LEGAL_PAGES[slug];
   const bodyHtml = renderToStaticMarkup(createElement(LegalPage, { document, appDownloadUrl }));
 
   return renderDocument({
     title: `${document.headline} | Immio`,
     description,
     canonical: new URL(pathname, origin).toString(),
-    noindex,
+    noindex: noindex || alwaysNoindex,
     analytics,
     jsonLd: [renderJsonLd(buildWebPageJsonLd({ origin, pathname, title: document.headline, description }))],
     bodyHtml,
@@ -262,6 +289,10 @@ route(
 route(
   "/terms",
   htmlHandler((context) => renderLegalDocument(context, "terms")),
+);
+route(
+  "/acknowledgements",
+  htmlHandler((context) => renderLegalDocument(context, "acknowledgements")),
 );
 
 route("/rules", htmlHandler(renderCatalogDocument));

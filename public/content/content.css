@@ -111,7 +111,7 @@ p {
   margin: 0 0 1rem 0;
 }
 
-/* In-app WebView (?source=inapp on /rules): hide marketing chrome. */
+/* In-app WebView (?source=inapp on /rules or /acknowledgements): hide marketing chrome. */
 html.is-inapp {
   --site-header-height: 0px;
 }

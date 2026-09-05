@@ -339,12 +339,18 @@ const INAPP_BOOT_SCRIPT = `(function(){
 
 const INAPP_LINKS_SCRIPT = `(function(){
   if (!document.documentElement.classList.contains("is-inapp")) return;
+  var prefixes = ${JSON.stringify(INAPP_PATH_PREFIXES)};
   document.addEventListener("click", function (event) {
     var anchor = event.target.closest("a");
     if (!anchor || anchor.target || event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
     try {
       var url = new URL(anchor.href, location.href);
-      if (url.origin !== location.origin || url.pathname.indexOf("/rules") !== 0) return;
+      if (url.origin !== location.origin) return;
+      var matched = false;
+      for (var i = 0; i < prefixes.length; i++) {
+        if (url.pathname.indexOf(prefixes[i]) === 0) { matched = true; break; }
+      }
+      if (!matched) return;
       if (url.searchParams.get("source") === "inapp") return;
       url.searchParams.set("source", "inapp");
       anchor.setAttribute("href", url.pathname + url.search + url.hash);

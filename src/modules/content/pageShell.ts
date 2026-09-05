@@ -324,7 +324,7 @@ const ANALYTICS_EVENTS_SCRIPT = `(function(){
  * Path prefixes the app opens in a WebView. `?source=inapp` on one of these
  * hides the marketing chrome — see `html.is-inapp` in content.css.
  */
-const INAPP_PATH_PREFIXES = ["/rules", "/acknowledgements"];
+const INAPP_PATH_PREFIXES = ["/rules", "/acknowledgements", "/privacy", "/terms"];
 
 const INAPP_BOOT_SCRIPT = `(function(){
   var prefixes = ${JSON.stringify(INAPP_PATH_PREFIXES)};

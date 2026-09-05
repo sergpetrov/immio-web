@@ -111,13 +111,12 @@ p {
   margin: 0 0 1rem 0;
 }
 
-/* In-app WebView (?source=inapp on /rules or /acknowledgements): hide marketing chrome. */
+/* In-app WebView (?source=inapp): hide marketing chrome, but keep the footer. */
 html.is-inapp {
   --site-header-height: 0px;
 }
 
 html.is-inapp .site-header,
-html.is-inapp .site-footer,
 html.is-inapp .content-keep-track-block > .content-callout,
 html.is-inapp .content-app-cta {
   display: none;
